@@ -1,0 +1,82 @@
+Species                        Total_GA_edit_sites  Family(GA_count,2nd_highest_count,Corrected_GA_count)
+Apteryx_rowi                   0                    -
+Aquila_chrysaetos_chrysaetos   240                  ERVL(390,150,240)
+Atlantisia_rogersi             0                    -
+Aythya_fuligula                169                  ERVL(236,67,169)
+Buceros_rhinoceros_silvestris  0                    -
+Calidris_pugnax                0                    -
+Calypte_anna                   0                    -
+Camarhynchus_parvulus          0                    -
+Caprimulgus_europaeus          29                   ERVL(48,19,29)
+Cariama_cristata               44                   ERVL(86,42,44)
+Casuarius_casuarius            0                    -
+Cathartes_aura                 81                   ERVL(140,59,81)
+Chaetura_pelagica              0                    -
+Charadrius_vociferus           62                   ERVL(120,58,62)
+Erythrura_gouldiae             15376                ERVL(11673,3251,8422)                                  ERVK(7631,1907,5724)    ERV1(1627,397,1230)
+Columba_livia                  0                    -
+Corvus_moneduloides            184                  ERVL(312,128,184)
+Cuculus_canorus                0                    -
+Egretta_garzetta               120                  ERVL(200,80,120)
+Falco_cherrug                  660                  ERVL(1322,662,660)
+Ficedula_albicollis            0                    -
+Fulmarus_glacialis             2216                 ERVL(3576,1360,2216)
+Galbula_dea                    0                    -
+Gavia_stellata                 209                  ERVL(190,103,87)                                       ERV1(252,130,122)
+Geospiza_fortis                134                  ERVL(235,101,134)
+Gymnogyps_californianus        0                    -
+Limosa_lapponica_baueri        48                   ERVL(85,37,48)
+Lonchura_striata_domestica     22277                ERVK(13604,3963,9641)                                  ERV1(2481,674,1807)     ERVL(14948,4119,10829)
+Opisthocomus_hoazin            0                    -
+Pelecanus_crispus              800                  ERVL(1393,593,800)
+Phoenicopterus_ruber           190                  ERVL(335,145,190)
+Podilymbus_podiceps            0                    -
+Pterocles_gutturalis           23                   ERVL(32,9,23)
+Rhea_americana                 0                    -
+Serinus_canaria                26878                ERV(99,29,70)                                          ERVK(6207,1667,4540)    ERVL(27992,8461,19531)  ERV1(3908,1171,2737)
+Struthio_camelus_australis     0                    -
+Taeniopygia_guttata            46042                ERV1(8908,2701,6207)                                   ERVL(30013,8254,21759)  ERVK(27692,9616,18076)
+Tinamus_guttatus               0                    -
+Acanthisitta_chloris           181                  ERVL(236,55,181)
+Anas_platyrhynchos             84                   ERVL(132,48,84)
+Anser_cygnoides                382                  ERVL(656,274,382)
+Apaloderma_vittatum            0                    -
+Aptenodytes_forsteri           1938                 ERVL(2245,307,1938)
+Chlamydotis_macqueenii         59                   ERVL(98,39,59)
+Colius_striatus                41                   ERVL(71,30,41)
+Corythaeola_cristata           0                    -
+Stachyris_ruficeps             0                    -
+Dromaius_novaehollandiae       0                    -
+Eurypyga_helias                32                   ERVL(64,32,32)
+Leptosomus_discolor            8                    ERVL(16,8,8)
+Malurus_cyaneus_samueli        0                    -
+Manacus_vitellinus             0                    -
+Melopsittacus_undulatus        875                  ERVL(1390,515,875)
+Merops_nubicus                 0                    -
+Mesitornis_unicolor            0                    -
+Nestor_notabilis               7                    ERVL(13,6,7)
+Passer_domesticus              11936                ERVL(13668,5328,8340)                                  ERVK(4283,1149,3134)    ERV1(656,194,462)
+Phaethon_lepturus              749                  ERVL(1367,618,749)
+Rhynochetos_jubatus            157                  ERVL(275,118,157)
+Tauraco_erythrolophus          20                   ERVL(35,15,20)
+Zonotrichia_albicollis         1884                 ERVK(1331,343,988)                                     ERV1(85,24,61)          ERVL(1064,229,835)
+Alectura_lathami               0                    -
+Bambusicola_thoracicus         0                    -
+Callipepla_squamata            37                   ERVL(78,41,37)
+Centrocercus_minimus           0                    -
+Centrocercus_urophasianus      0                    -
+Chrysolophus_pictus            0                    -
+Colinus_virginianus            0                    -
+Coturnix_japonica              0                    -
+Gallus_gallus                  143                  ERV1(48,16,32)                                         ERVK(130,47,83)         ERVL(61,33,28)
+Lagopus_leucura                0                    -
+Lagopus_muta                   0                    -
+Meleagris_gallopavo            0                    -
+Numida_meleagris               0                    -
+Odontophorus_gujanensis        0                    -
+Pavo_cristatus                 0                    -
+Pavo_muticus                   0                    -
+Penelope_pileata               0                    -
+Phasianus_colchicus            0                    -
+Syrmaticus_mikado              20                   ERVL(37,17,20)                                         ERV1(24,24,0)
+Tympanuchus_cupido             0                    -
