@@ -1,0 +1,141 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_000586395.1_tetTet1_genomic.fna
+           971,998 sequences; 657,025,294 total letters
+
+
+
+Query= exon_1
+
+Length=64
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 23338909876
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JDSL01075035.1 Lyrurus tetrix tetrix chr1contig228529, whole geno...  64.4       1e-09
+
+
+
+Query_2  5    AAATCTTTTCTGCATAGGTCGTGCACCCAGACAGAACAACCAAAGGTAAGACATATTGTT  64
+75034    836  ..T.................C.....T....GT.......G..G.A.....G.C......  895
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 27123597964
+
+
+Query= exon_3
+
+Length=431
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JDSL01075038.1 Lyrurus tetrix tetrix chr1contig228533, whole geno...  143        1e-32
+JDSL01075036.1 Lyrurus tetrix tetrix chr1contig228531, whole geno...  100        1e-19
+JDSL01075037.1 Lyrurus tetrix tetrix chr1contig228532, whole geno...  73.4       2e-11
+
+
+
+Query_3  2    TGCTGATACTTTTATTTCAGGTGGAAGATGCAGCCAGATGACTTCAAATCAAACTATTTGCCTTCCCAACACCCAAAGGTCGTGTACTTGATGTATGCGATCAAATGGCGCAAAGGTACCGTCTGGAGGGGTTGGTGCTCAAACAATCCTACCCAACACGCTGAAGTCAACTTCTTGGAAAATTGCTTCAAGCCCTTGTCATCAGCTTCCTGCTCTATCACCTGGGTCTTATCTACTACCCCCTGTGGGAAGTGCTCCAAAAGAATTCTGGAGTTCCTGA  281
+75037    7                                                                                                                                                                                                                              ..........C..........T...........A.A...T.G..A.....CA.......A..  68
+75035    281  .........A...G....G.A........T.....T............ATG............GA......A.TG.....GT.....C.TT.C..A.AAC.T.GG..TA...C.....TTA........AA........A.....                                                                                                                                         425
+75036    852                                                                                                                                                  ...T...........A..C.C.................C........TGG....C......T...                                                                         916
+
+Query_3  282  GGATACACCCCAATGTAACCCT-GAAAATATTCGCAGCCAAGATTTTCAAACATCTGGATATTCGTAACCGG--CAAGGTCTCAGGAACCTGACAGAGAAAGGAG---TCATCATACGTATTATGAGTCCTGCAGGTAACCCAACTACTCTTCATC  431
+75037    69   ...G.T..TA......G...T.G.G...A..A.A........T.G........C.....C...T.....T..ATTT..A.T......G.....TGAT.G......TCA........T.C..C....A.GT..A......T..G.-....T......  223
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 251774006954
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JDSL01075039.1 Lyrurus tetrix tetrix chr1contig228534, whole geno...  151        3e-35
+
+
+
+Query_4  1    ACTGTATATTTCTTTTCTCAGATTACAGTTCCAGCTGGAAAAGATTTGTTGCATACCAACATGGAGAAGAAGATTATTGGCCCTGGAATTTCATTCTGCACATCCTTCTGAACTGCATAGAGCTACACCGTATCATTTTGGTTAGTAGCCACTTTAAAGAA  161
+75038    781  ...........................A..AGT.G.A.........G.......G...............T.G...........T..GC....A..CAT.G...T....CC....GG.......TTGT.A...A.................G...G.....  941
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 83006530464
+
+
+Query= exon_5
+
+Length=75
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 30277504704
+
+
+  Database: GCA_000586395.1_tetTet1_genomic.fna
+    Posted date:  Apr 26, 2021  1:42 PM
+  Number of letters in database: 657,025,294
+  Number of sequences in database:  971,998
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,133 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_003413605.1_Chrysolophus_pictus_GenomeV1.0_genomic.fna
+           14,294 sequences; 1,023,990,748 total letters
+
+
+
+Query= exon_1
+
+Length=64
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 36849258576
+
+
+Query= exon_2
+
+Length=70
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 42990801672
+
+
+Query= exon_3
+
+Length=431
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+KZ861172.1 Chrysolophus pictus breed wild golden pheasant unplace...  226        2e-57
+
+
+
+Query_3  1       CTGCTGATACTTTTATTTCAGGTGGAAGATGCAGCCAGATGACTTCAAATCAAACTATTTGCCTTCCCAACACCCAAAGGTCGTGTACTTGATGTATGCGATCAAATGGCGCAAAGGTACCGTCTGGAGGGGTTGGTGCTCAAACAATCCTACCCAACACGCTGAAGTCAACTTCTTGGAAAATTGCTTCAAGCCCTTGTCATCAGCTTCCTGCTCTATCACCTGGGTCTTATCTACTACCCCCTGTGGGAAGTGCTCCAAAAGAATTCTGGAGTTCCTG  280
+2457     201222                                                                                                                                                   ...T...........A......................C.A......TGG....C......T...T.....C.C.G........C.....C................A.A...T.G..A.....CA.......A.  201088
+2457     202415  ..............T......A........T..................ATG............                                                                                                                                                                                                                          202352
+
+Query_3  281     AGGATACACCCCAATGTAACCCTGAAAATATTCGCAGCCAAGATTTTCAAACATCTGGATATTCGTAACCGGCAAGGTCTCAGGAACCTGACAGAGAAAGGAGTCATCATACGTATTATGAGTCCTGCAGGTAACCCAACTACTCTTCATC  431
+2457     201087  ..A.A.T..TA.....CG...T..G..G...A.A...T....T.G.......--.....C...T.....T......A.T......G.T...TGAT.G....CA.T......T...C.....A..T..A...........-....T..T...  200940
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 409419053600
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+KZ861172.1 Chrysolophus pictus breed wild golden pheasant unplace...  138        3e-31
+
+
+
+Query_4  1       ACTGTATATTTCTTTTCTCAGATTACAGTTCCAGCTGGAAAAGATTTGTTGCATACCAACATGGAGAAGAAGATTATTGGCCCTGGAATTTCATTCTGCACATCCTTCTGAACTGCATAGAGCTACACCGTATCATTTTGGTTAGTAGCCACTTTAAAGAA  161
+2457     199771  ...........................A..A.T.G.......A...G.......G...G.........A.T.G..G.......AT..GC....C.TCAT.....T....AC....GG.......CTGT.A...A.................G...G.....  199611
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 135112061304
+
+
+Query= exon_5
+
+Length=75
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 48108754252
+
+
+  Database: GCA_003413605.1_Chrysolophus_pictus_GenomeV1.0_genomic.fna
+    Posted date:  Oct 10, 2020  3:22 PM
+  Number of letters in database: 1,023,990,748
+  Number of sequences in database:  14,294
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

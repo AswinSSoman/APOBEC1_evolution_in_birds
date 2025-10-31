@@ -1,0 +1,172 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000708025.1_ASM70802v2_genomic.fna
+           15,167 sequences; 1,219,859,583 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009646848.1 Charadrius vociferus isolate BGI_N301 unplaced gen...  111        2e-23
+
+
+
+Query_1  1       CAGACAAATCCAGAAATATCCATGGCTGCTGTCACTGATAGAGGTAAGTACATGTATGTGAAAA  64
+638      802138  ...............G.......................................G........  802201
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 56100982542
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009646848.1 Charadrius vociferus isolate BGI_N301 unplaced gen...  89.7       6e-17
+
+
+
+Query_2  4       CAAATCTTTTCTATATAGATCTTGCACCCAGAGAGAACAACCAAAGGTAAGAGATATAGTTCTAT  68
+638      803671  ..............G...G..C..........C...........G....................  803735
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 63418502004
+
+
+Query= exon_5
+
+Length=78
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009646848.1 Charadrius vociferus isolate BGI_N301 unplaced gen...  69.9       7e-11
+
+
+
+Query_3  4       TTTCTTTCTTCCTGCTAGGGGCTTCCTCCATTGCTGGCAAACTTTAAATACTAACAAGTATCAGCAGCATGCTTT  78
+638      808821  ...................................                                          808855
+638      808858                                                ............C.........G......  808886
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 73175194620
+
+
+  Database: GCF_000708025.1_ASM70802v2_genomic.fna
+    Posted date:  Dec 10, 2021  5:12 PM
+  Number of letters in database: 1,219,859,583
+  Number of sequences in database:  15,167
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000708025.1_ASM70802v2_genomic.fna
+           15,167 sequences; 1,219,859,583 total letters
+
+
+
+Query= exon_3
+
+Length=389
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009646848.1 Charadrius vociferus isolate BGI_N301 unplaced gen...  594        4e-168
+
+
+
+Query_1  1       GTGGAAGATACGGCCAAATGACTTCAAAAGAAATTATTTGCCTGGCCAACATCCAAAGGTGGTGTACCTCCTGTATGAAATCAGGTGGAGCAGAGGTACCATCTGGAGGAACTGGTGCTCAAACAATTCTACCCAACATGCTGAAGTCAACTTCTTGGAAAATTGTTTCAAGGCAATGCCATCAGTTTCTTGCTCCATCACTTGGGTCCTATCTACTACCCCCTGTGGGAAATGCTCCAGAAGAATTCTGGAGTTCCTGAGGGTACATCCCAATGTGACC  280
+638      804131  ....G......A...GG.........T.................A.A..........T...........G....................................................................................C...................C..........................C...T........................G...................A..........A..................  804410
+
+Query_1  281     TTGGAAATATACGCAGCCAAGCTGTTCAAGCACCTGGATATCCGTAACCGGCAAGGTCTCAGGAACCTGGCAATGAATGGAGTCATTATACGTATCATGAATCTTGCAG  389
+638      804411  ...A.....C.T.....................T.......G...................A......A......C.................................  804519
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 436541407348
+
+
+Query= exon_4
+
+Length=119
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009646848.1 Charadrius vociferus isolate BGI_N301 unplaced gen...  122        2e-26
+
+
+
+Query_2  1       ATTACAGTTACGGGTGGAAAAGATTTGTTGCATACCAACGTGGAGAAGATGATTATTGGCCCTGGAGCTTCGCTTCATACATCCTTCTGAATTGGATAGAGCTCTATCATATCCTTT  117
+638      806351  ...........T.C.......C......C...C.T....A.....C...A...............GCA...A.....GC....T...........G.G......C.......A....  806467
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 109747776600
+
+
+  Database: GCF_000708025.1_ASM70802v2_genomic.fna
+    Posted date:  Dec 10, 2021  5:12 PM
+  Number of letters in database: 1,219,859,583
+  Number of sequences in database:  15,167
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

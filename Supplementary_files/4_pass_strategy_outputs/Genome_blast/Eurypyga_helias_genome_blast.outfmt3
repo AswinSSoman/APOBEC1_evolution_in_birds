@@ -1,0 +1,173 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000690775.1_ASM69077v1_genomic.fna
+           62,699 sequences; 1,088,019,637 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_010267509.1 Eurypyga helias isolate BGI_N326 unplaced genomic ...  111        1e-23
+
+
+
+Query_1  1     CAGACAAATCCAGAAATATCCATGGCTGCTGTCACTGATAGAGGTAAGTACATGTATGTGAAAA  64
+43994    3453  ....A..................................................G........  3516
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 49996988530
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_010267509.1 Eurypyga helias isolate BGI_N326 unplaced genomic ...  52.0       1e-05
+NW_010260537.1 Eurypyga helias isolate BGI_N326 unplaced genomic ...  42.1       0.012
+
+
+
+Query_2  4      CAAATCTTTTCTATATAGATCTTGCACCCAGAGAGAACAACCAAAGGTAAGAGATATAGTTCTATC  69
+43994    4785   ..............GC..G..C.A..T.......C.................C.C.C.........  4850
+37022    35048    .....................                                             35028
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 56518334860
+
+
+Query= exon_5
+
+Length=78
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_010267509.1 Eurypyga helias isolate BGI_N326 unplaced genomic ...  63.9       4e-09
+
+
+
+Query_3  8     TTTCTTCCTGCTAGGGGCTTCCTCCATTGCTGGCAAACTTTAAATACTAACAAGTATCAGCAGCATGCTTT  78
+43994    9320  ..........A.....................C.....--.G......T....AC..........C.....  9388
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 65213463300
+
+
+  Database: GCF_000690775.1_ASM69077v1_genomic.fna
+    Posted date:  Sep 22, 2020  10:22 AM
+  Number of letters in database: 1,088,019,637
+  Number of sequences in database:  62,699
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000690775.1_ASM69077v1_genomic.fna
+           62,699 sequences; 1,088,019,637 total letters
+
+
+
+Query= exon_3
+
+Length=389
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_010267509.1 Eurypyga helias isolate BGI_N326 unplaced genomic ...  621        3e-176
+
+
+
+Query_1  1     GTGGAAGATACGGCCAAATGACTTCAAAAGAAATTATTTGCCTGGCCAACATCCAAAGGTGGTGTACCTCCTGTATGAAATCAGGTGGAGCAGAGGTACCATCTGGAGGAACTGGTGCTCAAACAATTCTACCCAACATGCTGAAGTCAACTTCTTGGAAAATTGTTTCAAGGCAATGCCATCAGTTTCTTGCTCCATCACTTGGGTCCTATCTACTACCCCCTGTGGGAAATGCTCCAGAAGAATTCTGGAGTTCCTGAGGGTACATCCCAATGTGACC  280
+43994    5256  ...........A.........................A.....A.....T.......A...........G..............................G..........T.............G..T...................................A.......C.C..........................C..............C...............................................................  5535
+
+Query_1  281   TTGGAAATATACGCAGCCAAGCTGTTCAAGCACCTGGATATCCGTAACCGGCAAGGTCTCAGGAACCTGGCAATGAATGGAGTCATTATACGTATCATGAATCTTGCAG  389
+43994    5536  ..............................................................AG.....................C.......................  5644
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 388815196544
+
+
+Query= exon_4
+
+Length=119
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_010267509.1 Eurypyga helias isolate BGI_N326 unplaced genomic ...  176        9e-43
+
+
+
+Query_2  1     ATTACAGTTACGGGTGGAAAAGATTTGTTGCATACCAACGTGGAGAAGATGATTATTGGCCCTGGAGCTTCGCTTCATACATCCTTCTGAATTGGATAGAGCTCTATCATATCCTTT  117
+43994    6876  .........T.T.T.........................A.........A..G..............................T.....................G...........  6992
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 97758122940
+
+
+  Database: GCF_000690775.1_ASM69077v1_genomic.fna
+    Posted date:  Sep 22, 2020  10:22 AM
+  Number of letters in database: 1,088,019,637
+  Number of sequences in database:  62,699
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,141 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000695195.1_ASM69519v1_genomic.fna
+           59,693 sequences; 1,086,566,339 total letters
+
+
+
+Query= exon_1
+
+Length=64
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 39056217660
+
+
+Query= exon_2
+
+Length=70
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 45565587270
+
+
+Query= exon_3
+
+Length=431
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_010455125.1 Chlamydotis macqueenii isolate BGI_N324 unplaced g...  361        5e-98
+
+
+
+Query_3  12     TTTGTTGCAGGTGGAAGATACAGCCAGATGACTTCAGAAGGAACTACCTGCCTAACCAGCATCCCCGGGTGGTGTACCTGCTGTATGAAATCAAGTGGCGCAGAGGTACCG---------TCTGGAGGAACTGGTGCTCAAACAACCCTACCCAACATGCTGAAGTCAACTTCTTGGAAAACTGTGCCCGCTTCTCGCCATCGGCTTCTTGCTCCATCACCTGGGTCCTATCTACCACCCCCTGTGGGAATTGCTCCAGAAGAATCCTGGAGTTTCTGAG  282
+5231     12026  .....CA...........C.....A.A.........A..TA..T..TT.....GG.........AA.-----.A..TG...........G...G....A.......A...TGGAGGAGAA.........C...A...........TT.....................G..G.........T...TT.AAGAC.GT......A.T.........................C....T....A.........A..........---.T..A.....C.....  12297
+
+Query_3  283    TGCACATCCCAATGTGACCTTGAATATCTACGCTGCCAAGCTGTTCAGGCACCTCGATAACCGTAACCGGCAAGGCCTCCGGAACCTGGTAATGAACGGAGTCTGCATACGTATTATGAACCTTTCAGGTAACCCAGCTACTCTTTGGC  431
+5231     12298  G.T........G..........G.A..A.GT..A......A......A......G....T..A.....A......T...A.........C......T......ATT........C.....T...G...........A..T.........  12446
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 433886342400
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_010455125.1 Chlamydotis macqueenii isolate BGI_N324 unplaced g...  162        3e-38
+NW_010487444.1 Chlamydotis macqueenii isolate BGI_N324 unplaced g...  46.4       0.002
+
+
+
+Query_4  1      ACTGGCTATCTCTCTCCTCAGATTACAGTTACTTCTGGAGAATATTTGTTGCCTACCAATATGGAGAAGAAGATTATTGGCCCCAGACATTCACCTCATACATCTTTCTGAATTGGACAGAGCTCTCTCATATCCTTTTGGTTAGTAGGCACTTGAA  157
+5231     13649  .....G.G.....GCT.................GG....A..G.........A.C....C..........T...........TG.C.GC...G.T...C...............T..T......T.G...........CA.................  13805
+37550    719                                                                             .....T...AT...A....................                                                   685
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 143198251944
+
+
+Query= exon_5
+
+Length=78
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_010455125.1 Chlamydotis macqueenii isolate BGI_N324 unplaced g...  78.8       1e-13
+NW_010481596.1 Chlamydotis macqueenii isolate BGI_N324 unplaced g...  42.8       0.007
+
+
+
+Query_5  1      ATGTTTCTTTCTT-CCTGCTAGGGGCTTCCTCCACTGCTGGGAAAC--TGAACAGTAGAAAGCATCAGCACTGTGCTTT  76
+5231     16441  ..........T..T....................T......C....TT....T.C..AC...........GCA......  16519
+31702    29239                                   ........TG..----...............G.....G.T....    29200
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 54244746750
+
+
+  Database: GCF_000695195.1_ASM69519v1_genomic.fna
+    Posted date:  Nov 20, 2020  3:48 PM
+  Number of letters in database: 1,086,566,339
+  Number of sequences in database:  59,693
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

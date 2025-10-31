@@ -1,0 +1,133 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_002078875.1_NumMel1.0_genomic.fna
+           2,466 sequences; 1,043,264,150 total letters
+
+
+
+Query= exon_1
+
+Length=64
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 37555023672
+
+
+Query= exon_2
+
+Length=70
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 43814194284
+
+
+Query= exon_3
+
+Length=431
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_034409.1 Numida meleagris isolate 19003 breed g44 Domestic lin...  260        4e-67
+
+
+
+Query_3  1         CTGCTGATACTTTTATTTCAGGTGGAAGATGCAGCCAGATGACTTCAAATCAAACTATTTGCCTTCCCAACACCCAAAGGTCGTGTACTTGATGTATGCGATCAAATGGCGCAAAGGTACCGTCTGGAGGGGTTGGTGCTCAAACAATCCTACCCAACACGCTGAAGTCAACTTCTTGGAAAATTGCTTCAAGCCCTTGTCATCAGCTTCCTGCTCTATCACCTGGGTCTTATCTACTACCCCCTGTGGGAAGTGCTCCAAAAGAATTCTGGAGTTCCTG  280
+0        74054405                                                                                                                                                   ...T...........A..C...................C........TGG...TCTG....T...T.......C..........C.....G................A.A...T.G..A.....CA....C..A.  74054539
+0        74053188  ..............G......C........T...........T......ATG..A.........GG......A.T..G...GT.....C.TT.C....AAC.T.GG..TA.T.C......TA........AA...A....A.....                                                                                                                                        74053333
+
+Query_3  281       AGGATACACCCCAATGTAACCCTGAAAATATTCGCAGCCAAGATTTTCAAACATCTGGATATTCGTAACCGGCAAGGTCTCAGGAACCTGACAGAGAAAGGAGTCATCATACGTATTATGAGTCCTGCAGGTAACCCAACTACTCTTCATC  431
+0        74054540  ....G.T...A......G...T..G......A.A..A.....T.G..A...A.C.....C...T.....T......A.T......G.....TGAT.G....CA........T.......A.A..T..A.......................  74054690
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 417275081600
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_034409.1 Numida meleagris isolate 19003 breed g44 Domestic lin...  133        1e-29
+
+
+
+Query_4  1         ACTGTATATTTCTTTTCTCAGATTACAGTTCCAGCTGGAAAAGATTTGTTGCATACCAACATGGAGAAGAAGATTATTGGCCCTGGAATTTCATTCTGCACATCCTTCTGAACTGCATAGAGCTACACCGTATCATTTTGGTTAGTAGCCACTTTAAAGAA  161
+0        74056261  ..G........A..............GA..A.T.G...........G.......................T.G......T..G.T..GC...GC..CAT.....T....CC....GG...G...CTGT.A......G...........A..G...G.....  74056421
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 137701427952
+
+
+Query= exon_5
+
+Length=75
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 49030169794
+
+
+  Database: GCF_002078875.1_NumMel1.0_genomic.fna
+    Posted date:  Dec 17, 2021  7:20 PM
+  Number of letters in database: 1,043,264,150
+  Number of sequences in database:  2,466
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

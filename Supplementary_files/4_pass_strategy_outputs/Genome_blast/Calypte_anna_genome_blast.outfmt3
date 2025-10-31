@@ -1,0 +1,147 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_003957555.1_bCalAnn1_v1.p_genomic.fna
+           159 sequences; 1,059,687,259 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044244.1 Calypte anna isolate BGI_N300 chromosome 1, bCalAnn1_...  54.5       3e-06
+
+
+
+Query_1  3         GACAAATCCAGACTTATCCATGGCTGCAGCCACTGGTAGAGGTAAGTGCCAACATCTATGTG  64
+0        86447110  .......T.T..AA.............CA......A.C.........A.AT....G.G....  86447049
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 38148581052
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044244.1 Calypte anna isolate BGI_N300 chromosome 1, bCalAnn1_...  82.4       7e-15
+
+
+
+Query_2  1         TCACAAATATTTTCTGT-ATAGGTTCTGCATCCAGAGAGAACAACCAAGGGT----AAGAGATAAAGTTCTATCA  70
+0        86445660  ........CG...A...T............C.....................AAGA........C.A........  86445586
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 44506677894
+
+
+Query= exon_3
+
+Length=431
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044244.1 Calypte anna isolate BGI_N300 chromosome 1, bCalAnn1_...  499        3e-139
+
+
+
+Query_3  1         CTGCTGGTACTTTTGTCACAGGTGGAAGATACAGCCAAATGACTTTAAAAGAAATTTTTTGCCTGGCCAACATCCAGATGTGGTGTATCTGCTGTATGAAATCAGGTGGACCAGAGGTACTATCTGGAGGAATTGGTGCACAAACAATTCTACCCAACATGCTGAAGTCAACTTCTTGGAAAATCGTTTCAATGCCAACCCATCAGTTTCTTGCTCCATCACCTGGGTCCTATCCACTACCCCCTGTGGGAAATGCTCTGAAAGAATTCTCGAGTTCCTG  280
+0        86445201  .........T...................................C..........A.CA........G..G....A..........C.....A................GA........C...........C......T.G...G.G.T.C...............A.........CC.................GTG...........................T.......T..............C.G...T..CA..........G.........  86444922
+
+Query_3  281       AGGGTACATCCCAATGTAACCCTAGAAATATATGCAGCCAAGCTGTTCAAGCACCTGGATATCCGGAACCGGCAGGGTCTCTGGAAACTGGCAAACAGAGGAGTCATTATACATATTATGAAACCTGAAGGTAACCCAACTACTCTTTGGC  431
+0        86444921  ...T.............G..TT.GA...............GA.......G...........A...T.....T..A.....TA....G.......G..AT..............A......GGT.T.CC..........GT...........  86444771
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 423872932000
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044244.1 Calypte anna isolate BGI_N300 chromosome 1, bCalAnn1_...  145        2e-33
+
+
+
+Query_4  7         TATCTTTCTCCTCAGATTACAGTTACGTCTGGAAAAGATTTGTTATATACCAACATGGAGAAGATGATTATTTGCCCCAGAACTTCATGCCATACATCTTTCTGAATCAGTGTGAACTCTCCAATATCCTTTTGGTTAGTAGCCACTTGAAGAAA  161
+0        86443620  .....C...T................AG........A.......GC.......T...A..............GT..TG...G...TG.T.........G.....C.....ATA..G....A.CG............G.....GT.......A...  86443466
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 139878109536
+
+
+Query= exon_5
+
+Length=76
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044244.1 Calypte anna isolate BGI_N300 chromosome 1, bCalAnn1_...  52.7       1e-05
+
+
+
+Query_5  5         ttttttCCTTCT-GCTAGGGGTTTCCTCCATTGTTGGCAAACTGAATGCTACCAAGCATCAGCAGCATGCTTT  76
+0        86440877  ...C......T.T..C....TC........G.C.............ACAA.A..T...C.....CT.......  86440805
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 50864774736
+
+
+  Database: GCF_003957555.1_bCalAnn1_v1.p_genomic.fna
+    Posted date:  Oct 3, 2020  8:51 PM
+  Number of letters in database: 1,059,687,259
+  Number of sequences in database:  159
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

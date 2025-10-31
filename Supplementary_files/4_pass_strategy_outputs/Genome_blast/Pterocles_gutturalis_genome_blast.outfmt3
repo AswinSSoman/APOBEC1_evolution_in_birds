@@ -1,0 +1,143 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000699245.1_ASM69924v1_genomic.fna
+           58,607 sequences; 1,069,324,295 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_010128616.1 Pterocles gutturalis isolate BGI_N339 unplaced gen...  89.7       4e-17
+
+
+
+Query_1  1      CAGACAAATCCAGAAATATCCATGGCTGCTGTCACTGATAGAGGTAAGTACATGTATGTGAAAA  64
+31228    41785  ...............................A........A....G.A....CA..........  41722
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 38436598764
+
+
+Query= exon_2
+
+Length=70
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 44842698558
+
+
+Query= exon_3
+
+Length=431
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_010128616.1 Pterocles gutturalis isolate BGI_N339 unplaced gen...  281        1e-73
+
+
+
+Query_3  5      TGGTACTTTTGTTCGAGGTGGAAGATACAGCTAAATGACTTCAAAAGAAATTATTTGCCTGGTCAATATCCAAAGGTGGTGTACCTGCTGTATGAAATCAGGTGGAGCAGAAGAACCATCTGGAAGAGTTGGTGCTCAAACAGTTTTACCCAACATGCTGAAGTCAACTTCTTGGAAAATTATTTCAAGGCCACGCCATCAATTTCTTGCTCCATCATCTGGGTCCTATCTACTACCCCATGTGGGAAATGCTCCAGAAGAATTCTGGAGTTCCTGAGGG  284
+31228    40663  .........CA.CAC................C....T.......G.T....A..........C...C......G........G.T.........C..................T..TC...................C....AC.C...................................G......A.G..AT......G...T.....T...G.C....................                                            40426
+31228    40037                                                                                                                                                                                                                                         ........CCA...........G........C..C..........G...  39989
+
+Query_3  285    TACATCCCAATATTACCTTGGAAATATACGCAGCCAAGCTGTTCAAGCACCTGGATATTCATAACTGCCAAGGTCTCAAACACCTGGCAATGAATGGAGTCACTATACGTATCATGACTCTTGCAGGTAACCCAACTACTCTTTGGC  431
+31228    39988  .G.........G.G......A.....CGT............................GAT.....CAG..........GGA..G.................GT............A.A.....T.A....T................  39842
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 427002991200
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_010128616.1 Pterocles gutturalis isolate BGI_N339 unplaced gen...  195        5e-48
+
+
+
+Query_4  1      GGATATCTCTCTTCTTCTCAGATTACAGTTGCTGTTGGAAAAGATTTGTTGCCTACCAACATGGAGAAGATGATGACTGGCTCTGGAGCTTCACTTCATACATCTTTCTGAATTGGATAGAGCTCTTTCATATCCTTTTGGTTAGTAGGCACCTGAAGAAA  161
+31228    38636  ...............---............A...G.......T.........A.....G...............T.T.T..C.........................T.T....T..GT.......G.T...G...................T........  38479
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 140926459344
+
+
+Query= exon_5
+
+Length=76
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_010128616.1 Pterocles gutturalis isolate BGI_N339 unplaced gen...  103        8e-21
+
+
+
+Query_5  1      ATATTTCTTTCTTCCTGCTAGGGGCTTCCTCCATTGCTGCCAAAC--TGAATACTGACAAACATCAGCAGCATGCTTT  76
+31228    36164  ..G....................T...............G..G..TT........A....G.................  36087
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 51248798352
+
+
+  Database: GCF_000699245.1_ASM69924v1_genomic.fna
+    Posted date:  Oct 6, 2020  11:28 AM
+  Number of letters in database: 1,069,324,295
+  Number of sequences in database:  58,607
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

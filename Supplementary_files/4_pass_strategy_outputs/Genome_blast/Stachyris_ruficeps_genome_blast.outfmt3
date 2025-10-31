@@ -1,0 +1,171 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_008694505.1_ASM869450v1_genomic.fna
+           7,756 sequences; 1,041,446,934 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VZDJ01000623.1 Cyanoderma ruficeps isolate SRU082 scaffold18_len1...  75.8       7e-13
+
+
+
+Query_1  7         AATCCAGAAATACCCATGGCCTCTGTCAGTGCCAGAGGTAAGTACATTTATGTGAAAG  64
+622      19230521  ....................TG......A....G..................G.....  19230464
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 47900136996
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VZDJ01000623.1 Cyanoderma ruficeps isolate SRU082 scaffold18_len1...  75.8       8e-13
+
+
+
+Query_2  1         TCACAAATCTTTTCTACACAGGTCCCTCATCCAGAGAGAACAACCAAGGGTAAGAGAT  58
+622      19229087  .....T...C.................T.C.....C......................  19229030
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 54147980952
+
+
+Query= exon_5
+
+Length=69
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VZDJ01000623.1 Cyanoderma ruficeps isolate SRU082 scaffold18_len1...  89.7       5e-17
+
+
+
+Query_3  3         ttttttttCTTCCTCCTAGGGGCTTCCTCCATTTCTGGCAAACTGAATGCTAACGAGCCTCACCA  67
+622      19224717  ...............................C...CAT....................A......  19224653
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 53106673626
+
+
+  Database: GCA_008694505.1_ASM869450v1_genomic.fna
+    Posted date:  Nov 19, 2020  1:04 PM
+  Number of letters in database: 1,041,446,934
+  Number of sequences in database:  7,756
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_008694505.1_ASM869450v1_genomic.fna
+           7,756 sequences; 1,041,446,934 total letters
+
+
+
+Query= exon_3
+
+Length=389
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VZDJ01000623.1 Cyanoderma ruficeps isolate SRU082 scaffold18_len1...  495        3e-138
+
+
+
+Query_1  1         GTGGAAGATGCAGGCAAGAGACTTCCAAAGAAATTATTTGCCTGGAGAAAATGGACGGGTGGTGTACCTGCTGTATGAAATCAGGTGGAGAAGTGGTTCCATCTGGAGGAACTGGTGCTCGAACAACCGTGAACAACACGCTGAAGTCAACTTCCTGGAAAATCACTTCAATGACAGGACACAAACTCCTTGCTCCATCACCTGGTTCCTTTCAACTAGTCCCTGTGGAAACTGCTCCAGAAGGATTCTGGAGTTCCTGAGGTCACACCCTAACGTGACC  280
+622      19228656  .....G.T.A.C.C..GA....................CA...AACC...T...G......................................A................................T.A...G.G...T..C............T.A........T....G.......C.........AG....T..............................................................................T......  19228377
+
+Query_1  281       TTGGTAATATATGCAGCCAAGCTGTTCAGGCACCTCGATTTCCGGAACCGACAAGGTCTCCGCACCCTGATGGTGAATAGAGTCACTCTACGTATCATGAGTCCTGAAG  389
+622      19228376  ....A.........G..............A....A....A....T...................G......AA.....G.......AA............A..T..G..  19228268
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 373795917186
+
+
+Query= exon_4
+
+Length=119
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VZDJ01000623.1 Cyanoderma ruficeps isolate SRU082 scaffold18_len1...  122        2e-26
+
+
+
+Query_2  1         ATTACAGCTACTGCTGGAGAAATTTTGTTGCACACCAGCCTGGAGAAGATAATTATTGGCCCCAGAACTTCATTTTATACTTCGTTCTGAATAGCATAGAACTCTTACACATCTTTT  117
+622      19227109  .......T.............................A...........CT....CCA.GA.......A..GC.G......C.T........CA..G.........T..T.......  19226993
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 93709980900
+
+
+  Database: GCA_008694505.1_ASM869450v1_genomic.fna
+    Posted date:  Nov 19, 2020  1:04 PM
+  Number of letters in database: 1,041,446,934
+  Number of sequences in database:  7,756
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,136 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_003342905.1_droNov1_genomic.fna
+           2,778 sequences; 1,192,254,075 total letters
+
+
+
+Query= exon_1
+
+Length=64
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 42918346476
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_020453248.1 Dromaius novaehollandiae isolate 6597 unplaced gen...  43.7       0.007
+
+
+
+Query_2  45      CAAGGGTAAGAGATAAAGTTCTATCA  70
+1933     429031  ......C...................  429056
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 50071404222
+
+
+Query= exon_3
+
+Length=431
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 476867182800
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_020453684.1 Dromaius novaehollandiae isolate 6597 unplaced gen...  109        2e-22
+
+
+
+Query_4  1      ACTGAATATCTTTCTCCTCAGATTACAGTTACGTCTGGAAAAGATTTGTTATATACCAACATGGAGAAGATGATTATTTGCCCCAGAACTTCATGCCATACATCTTTCTGAATCAGTGTGAACTCTCCAATATCCTTTTGGTTAGTA-GCCACTTGAAGAAA  161
+2369     13084  ....G......C.T.T................T----.....A....-..GC.................G........G....TG..CA...TCTT....A...A..T....CTG.ATA..G....GTC..................G..A.......A...  12928
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 157366903716
+
+
+Query= exon_5
+
+Length=76
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_020453684.1 Dromaius novaehollandiae isolate 6597 unplaced gen...  68.9       2e-10
+NW_020453538.1 Dromaius novaehollandiae isolate 6597 unplaced gen...  42.8       0.008
+
+
+
+Query_5  2       tttttttttC-CTTCTG-CTAGGGGTTTCCTCCATTGTTGGCAAACT--GAATGCTACCAAGCATCAGCAGCATGCTTT  76
+2369     10706    ..A...C..T......T.......GG..........C......G..TT......CCA................A....  10629
+2223     542520  .........T-......-......T.....                                                   542547
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 57224461968
+
+
+  Database: GCF_003342905.1_droNov1_genomic.fna
+    Posted date:  Nov 13, 2020  10:57 AM
+  Number of letters in database: 1,192,254,075
+  Number of sequences in database:  2,778
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

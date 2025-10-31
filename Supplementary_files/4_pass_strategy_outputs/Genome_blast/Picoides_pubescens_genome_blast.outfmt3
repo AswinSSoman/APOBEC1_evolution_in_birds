@@ -1,0 +1,144 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000699005.1_ASM69900v1_genomic.fna
+           31,254 sequences; 1,167,323,935 total letters
+
+
+
+Query= exon_1
+
+Length=64
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 41992157628
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009666054.1 Picoides pubescens isolate BGI_N307 unplaced genom...  59.0       9e-08
+
+
+
+Query_2  1       TCACAAATCTTTTCTACACAGGTCCCTCATCCAGAGAGAACAACCAAGGGTAAGAGA  57
+4677     706615  .....G..........TCT...C..TG..C.....AT....................  706559
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 48990850566
+
+
+Query= exon_3
+
+Length=431
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009666054.1 Picoides pubescens isolate BGI_N307 unplaced genom...  299        5e-79
+
+
+
+Query_3  1       ACTGCTGGTACTCTTCTT-CAGGTGGAAGATACAGCCAAGAGACTTCCAAATAAACTACTCACCCAGACAAAATGGACGGGTGGTGTACCTGCTGTATGAAATCAGGTGGAGAAGAGGTTCCATCTGGAGGAACTGGTGTTTGAACAACAACAACCAACATGCTGAAGTCAACTTCCTGGAAAATCATTTCAATGACAGGCCACAAACTCCTTGCTCCATCACCTGGTTCCTTTCAACTAGTCCCTGTGGAAAGTGCTCCAGAAGGATTCTGGATTTCCT  279
+4677     705551  .......A....T..G..G...............T...GAT..G...A..T.......TGTG..TGTGGGTCG.CC.A..................................C......AG..................C.CA....G.TCT.C...G..................T....G..CTGC.....G.C..T...GTC.GT.T.......T...........T..A..T..C.CC........C..T...........A........G.....  705272
+
+Query_3  280     GAGGTCGCACCCTAATGTGACCTTGGTAATATATGCAGCCAAGCTGTTCAGGCACCACGATATCCGCAACCGACAAGGTCTCCGCAACCTGGAAATGAACGGAGTCACTATACGTATCATGAATCTTGAAGGTAACCCAGCTACTCTTTG  429
+4677     705271  ....G.A..T..C..G..........C....C.C...........C....AA....TG...G..........G..C..G...AAAGC.....CT.C.G.T.....GGT.C...A........GCA...C........TG..AG.......  705122
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 466542024400
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009666054.1 Picoides pubescens isolate BGI_N307 unplaced genom...  113        1e-23
+
+
+
+Query_4  8       ATCTCTCTTCTTAGATTACAGGTACTGCTGGAGAAATTTTGTTGCATACCAAGCTGGAGAAGATGATTATTGTCCCCAGAACGTCACTGTATGCTTCTTTCTTAATTGCACAGAACTCTTTCGTATCTTTTTGGTAAGTAGACAC  152
+4677     703379  ...........C....................CC..A...........T..CCA.........A..C.....G...TG..GGT.TG..TC..A.A....A..G..C..GGG...G....GC.....A........T.........  703235
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 153967119108
+
+
+Query= exon_5
+
+Length=69
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009661788.1 Picoides pubescens isolate BGI_N307 unplaced genom...  45.5       0.002
+NW_009663293.1 Picoides pubescens isolate BGI_N307 unplaced genom...  43.7       0.006
+
+
+
+Query_5  1        ttttttttttC--TTCCTCCTAGGGGCTTCCTCCACTTCTG  39
+411      11116    ......A....AC......A...A.C...............  11076
+1916     1501503  .........C.--..........T.A.......          1501473
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 47824401743
+
+
+  Database: GCF_000699005.1_ASM69900v1_genomic.fna
+    Posted date:  Oct 5, 2020  9:02 PM
+  Number of letters in database: 1,167,323,935
+  Number of sequences in database:  31,254
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

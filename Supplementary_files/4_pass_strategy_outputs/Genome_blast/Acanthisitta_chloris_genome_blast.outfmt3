@@ -1,0 +1,173 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000695815.1_ASM69581v1_genomic.fna
+           53,875 sequences; 1,035,876,403 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_008654270.1 Acanthisitta chloris isolate BGI_N310 unplaced gen...  42.1       0.010
+
+
+
+Query_1  39     CAGAGGTAAGTACATTTATGTGAAA  63
+4575     40710  .................G.......  40686
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 47605706038
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_008654270.1 Acanthisitta chloris isolate BGI_N310 unplaced gen...  48.1       2e-04
+
+
+
+Query_2  31     CCAGAGAGAACAACCAAGGGTAAGAGAT  58
+4575     39468  .................A..........  39441
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 53815145956
+
+
+Query= exon_5
+
+Length=69
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_008654270.1 Acanthisitta chloris isolate BGI_N310 unplaced gen...  58.0       2e-07
+NW_008685150.1 Acanthisitta chloris isolate BGI_N310 unplaced gen...  42.1       0.011
+
+
+
+Query_3  1      ttttttttttCTTCCTCCTAGGGGCTTCCTCCATTTCTGGCAAACTGA  48
+4575     34535         .........T..................G......G.....  34495
+35455    25272  .....................                             25252
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 52780239303
+
+
+  Database: GCF_000695815.1_ASM69581v1_genomic.fna
+    Posted date:  Oct 10, 2020  4:08 PM
+  Number of letters in database: 1,035,876,403
+  Number of sequences in database:  53,875
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000695815.1_ASM69581v1_genomic.fna
+           53,875 sequences; 1,035,876,403 total letters
+
+
+
+Query= exon_3
+
+Length=389
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_008654270.1 Acanthisitta chloris isolate BGI_N310 unplaced gen...  396        2e-108
+
+
+
+Query_1  1      GTGGAAGATGCAGGCAAGAGACTTCCAAAGAAATTATTTGCCTGGAGAAAATGGACGGGTGGTGTACCTGCTGTATGAAATCAGGTGGAGAAGTGGTTCCATCTGGAGGAACTGGTGCTCGAACAACCGTGAACAACACGCTGAAGTCAACTTCCTGGAAAATCACTTCAATGACAGGACACAAACTCCTTGCTCCATCACCTGGTTCCTTTCAACTAGTCCCTGTGGAAACTGCTCCAGAAGGATTCTGGAGTTCCTGAGGTCACACCCTAACGTGACC  280
+4575     39072  .........A...C...AT.....T...................ACC..C.CCC..A..CA..A...............T.............A.................A........A.....T....CC.....T...............T........TGT.......G..TTC...C.GT............T..............T....C.........G..................................T...T..C..T......  38793
+
+Query_1  281    TTGGTAATATATGCAGCCAAGCTGTTCAGGCACCTCGATTTCCGGAACCGACAAGGTCTCCGCACCCTGATGGTGAATAGAGTCACTCTACGTATCATGAGTCCTGAAG  389
+4575     38792  ....A.........C.....A..C.........ACG...A....T..T..GA........TA..A....GCAA.....G......T.A............A..T..C..  38684
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 371299394927
+
+
+Query= exon_4
+
+Length=119
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_008654270.1 Acanthisitta chloris isolate BGI_N310 unplaced gen...  94.2       8e-18
+
+
+
+Query_2  1      ATTACAGCTACTGCTGGAGAAATTTTGTTGCACACCAGCCTGGAGAAGATAATTATTGGCCCCAGAACTTCATTTTATACTTCGTTCTGAATAGCATAGAACTCTTACACATCTTTTTG  119
+4575     37509  .......T........................T...CA.GA...C.....G.C............C....TGC.GC.C..A..T........GCA.G...G..T.GT......C.....  37391
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 93088262520
+
+
+  Database: GCF_000695815.1_ASM69581v1_genomic.fna
+    Posted date:  Oct 10, 2020  4:08 PM
+  Number of letters in database: 1,035,876,403
+  Number of sequences in database:  53,875
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

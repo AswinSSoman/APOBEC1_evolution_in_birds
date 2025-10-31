@@ -1,0 +1,133 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_004320205.1_Lagopus_muta_japonica_ver1.0_genomic.fna
+           62,806 sequences; 1,002,559,668 total letters
+
+
+
+Query= exon_1
+
+Length=64
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 37031964522
+
+
+Query= exon_2
+
+Length=70
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 42033646200
+
+
+Query= exon_3
+
+Length=431
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+BJCA01015927.1 Lagopus muta japonica DNA, Lamu_15927, cell line: ...  184        2e-44
+
+
+
+Query_3  1     CTGCTGATACTTTTATTTCAGGTGGAAGATGCAGCCAGATGACTTCAAATCAAACTATTTGCCTTCCCAACACCCAAAGGTCGTGTACTTGATGTATGCGATCAAATGGCGCAAAGGTACCGTCTGGAGGGGTTGGTGCTCAAACAATCCTACCCAACACGCTGAAGTCAACTTCTTGGAAAATTGCTTCAAGCCCTTGTCATCAGCTTCCTGCTCTATCACCTGGGTCTTATCTACTACCCCCTGTGGGAAGTGCTCCAAAAGAATTCTGGAGTTCCTG  280
+15926    2646                                                                                                                                                   ...T...........A..C.T.................C........TGG....C......T...T....TC.CTG........C.....----..T...A......A.A...T.GG.A.....CA...C...A.  2776
+15926    1417  ..........A...G....G.A........T.....T............ATG............                                                                                                                                                                                                                          1480
+
+Query_3  281   AGGATACACCCCAATGTAACCCTGAAAATATTCGCAGCCAAGATTTTCAAACATCTGGATATTCGTAACCGGCAAGGTCTCAGGAACCTGA-CAGAGAAAGGAGTCATCATACGTATTATGAGTCCTGCAGGTAACCCAACTACTCTTCATC  431
+15926    2777  ..A.A.T..TA..G...G...T..G......A.A........T.G.......--.....C...T.....T......ACT......G.....TG.TG.....C.-........T.C..C....A.GT..A......T....-....T......  2924
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 400245072800
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+BJCA01015927.1 Lagopus muta japonica DNA, Lamu_15927, cell line: ...  142        2e-32
+
+
+
+Query_4  1     ACTGTATATTTCTTTTCTCAGATTACAGTTCCAGCTGGAAAAGATTTGTTGCATACCAACATGGAGAAGAAGATTATTGGCCCTGGAATTTCATTCTGCACATCCTTCTGAACTGCATAGAGCTACACCGTATCATTTTGGTTAGTAGCCACTTTAAAGAA  161
+15926    4085  ...........................A..AGT.G......GA...G.......G...............T.G...........T..GC....C.TAAT.T...T....CC....AG.......TTGT.A...A.................G...G.....  4245
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 132097454808
+
+
+Query= exon_5
+
+Length=75
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 47037651700
+
+
+  Database: GCA_004320205.1_Lagopus_muta_japonica_ver1.0_genomic.fna
+    Posted date:  Apr 25, 2021  2:13 PM
+  Number of letters in database: 1,002,559,668
+  Number of sequences in database:  62,806
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,175 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_013398095.1_ASM1339809v1_genomic.fna
+           13,191 sequences; 1,116,409,996 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VZRY01003905.1 Rhynochetos jubatus isolate B10K-DU-029-58 scaffol...  127        2e-28
+VZRY01003509.1 Rhynochetos jubatus isolate B10K-DU-029-58 scaffol...  40.1       0.042
+VZRY01001499.1 Rhynochetos jubatus isolate B10K-DU-029-58 scaffol...  40.1       0.042
+
+
+
+Query_1  1        CAGACAAATCCAGAAATATCCATGGCTGCTGTCACTGATAGAGGTAAGTACATGTATGTGAAAA  64
+3904     15921    ................................................................  15984
+3508     489543                                     ....................            489524
+1498     1394022                                ....................                1394041
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 51343937668
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VZRY01003905.1 Rhynochetos jubatus isolate B10K-DU-029-58 scaffol...  46.1       8e-04
+
+
+
+Query_2  31     CCAGAGAGAACAACCAAAGGTAAGAGATATAGTTCTATC  69
+3904     17294  .................G.......T.C.C.........  17332
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 58040973016
+
+
+Query= exon_5
+
+Length=78
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VZRY01003905.1 Rhynochetos jubatus isolate B10K-DU-029-58 scaffol...  87.7       3e-16
+
+
+
+Query_3  4      TTTCTTTCTTCCTGCTAGGGGCTTCCTCCATTGCTGGCAAACTTTAAATACTAACAAGTATCAGCAGCATGCTTT  78
+3904     21817  ....................................C.....--.G......G....AC................  21889
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 66970353480
+
+
+  Database: GCA_013398095.1_ASM1339809v1_genomic.fna
+    Posted date:  Sep 29, 2020  6:54 PM
+  Number of letters in database: 1,116,409,996
+  Number of sequences in database:  13,191
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_013398095.1_ASM1339809v1_genomic.fna
+           13,191 sequences; 1,116,409,996 total letters
+
+
+
+Query= exon_3
+
+Length=389
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VZRY01003905.1 Rhynochetos jubatus isolate B10K-DU-029-58 scaffol...  567        6e-160
+
+
+
+Query_1  1      GTGGAAGATACGGCCAAATGACTTCAAAAGAAATTATTTGCCTGGCCAACATCCAAAGGTGGTGTACCTCCTGTATGAAATCAGGTGGAGCAGAGGTACCATCTGGAGGAACTGGTGCTCAAACAATTCTACCCAACATGCTGAAGTCAACTTCTTGGAAAATTGTTTCAAGGCAATGCCATCAGTTTCTTGCTCCATCACTTGGGTCCTATCTACTACCCCCTGTGGGAAATGCTCCAGAAGAATTCTGGAGTTCCTGAGGGTACATCCCAATGTGACC  280
+3904     17770  ...........A..T..............................T...T...................G........................A.A..........A..GT.............G..T...................................A.........C.C.......A...............TC....................A...................................................A.T...  18049
+
+Query_1  281    TTGGAAATATACGCAGCCAAGCTGTTCAAGCACCTGGATATCCGTAACCGGCAAGGTCTCAGGAACCTGGCAATGAATGGAGTCATTATACGTATCATGAATCTTGCAG  389
+3904     18050  .........................................T.A....T.C..........AAC.....................C..............C........  18158
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 399528384850
+
+
+Query= exon_4
+
+Length=119
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VZRY01003905.1 Rhynochetos jubatus isolate B10K-DU-029-58 scaffol...  162        2e-38
+
+
+
+Query_2  1      ATTACAGTTACGGGTGGAAAAGATTTGTTGCATACCAACGTGGAGAAGATGATTATTGGCCCTGGAGCTTCGCTTCATACATCCTTCTGAATTGGATAGAGCTCTATCATATCCTTT  117
+3904     19408  .........G.T.T.................C.......A.............G.C....T..........A...........T.....................T...........  19524
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 100442471130
+
+
+  Database: GCA_013398095.1_ASM1339809v1_genomic.fna
+    Posted date:  Sep 29, 2020  6:54 PM
+  Number of letters in database: 1,116,409,996
+  Number of sequences in database:  13,191
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

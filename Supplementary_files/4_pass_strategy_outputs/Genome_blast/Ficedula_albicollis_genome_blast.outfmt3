@@ -1,0 +1,175 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000247815.1_FicAlb1.5_genomic.fna
+           21,428 sequences; 1,118,343,587 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_021671.1 Ficedula albicollis isolate OC2 chromosome 1, FicAlb1...  60.0       5e-08
+
+
+
+Query_1  7         AATCCAGAAATACCCATGGCCTCTGTCAGTGCCAGAGGTAAGTACATTTATGTGAAAG  64
+0        91286290  ....................TG...ATG..............A......C........  91286233
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 51426062618
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_021671.1 Ficedula albicollis isolate OC2 chromosome 1, FicAlb1...  97.6       2e-19
+
+
+
+Query_2  2         CACAAATCTTTTCTACACAGGTCCCTCATCCAGAGAGAACAACCAAGGGTAAGAGAT  58
+0        91284896  ..........................T.C............................  91284840
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 58133809916
+
+
+Query= exon_5
+
+Length=69
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_021671.1 Ficedula albicollis isolate OC2 chromosome 1, FicAlb1...  97.6       2e-19
+
+
+
+Query_3  1         ttttttttttCTTCCTCCTAGGGGCTTCCTCCATTTCTGGCAAACTGAATGCTAACGAGCCTCACCACC  69
+0        91279979  .........C.......................C.....TG...................A........  91279911
+0        91280206  .........C.......................C.....TG...................A........  91280138
+0        91280055  .........C.......................C.....TG...................           91279996
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 57015852033
+
+
+  Database: GCF_000247815.1_FicAlb1.5_genomic.fna
+    Posted date:  Oct 15, 2020  8:14 PM
+  Number of letters in database: 1,118,343,587
+  Number of sequences in database:  21,428
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000247815.1_FicAlb1.5_genomic.fna
+           21,428 sequences; 1,118,343,587 total letters
+
+
+
+Query= exon_3
+
+Length=389
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_021671.1 Ficedula albicollis isolate OC2 chromosome 1, FicAlb1...  504        6e-141
+NC_021681.1 Ficedula albicollis isolate OC2 chromosome 9, FicAlb1...  50.9       4e-04 
+
+
+
+Query_1  1         GTGGAAGATGCAGGCAAGAGACTTCCAAAGAAATTATTTGCCTGGAGAAAATGGACGGGTGGTGTACCTGCTGTATGAAATCAGGTGGAGAAGTGGTTCCATCTGGAGGAACTGGTGCTCGAACAACCGTGAACAACACGCTGAAGTCAACTTCCTGGAAAATCACTTCAATGACAGGACACAAACTCCTTGCTCCATCACCTGGTTCCTTTCAACTAGTCCCTGTGGAAACTGCTCCAGAAGGATTCTGGAGTTCCTGAGGTCACACCCTAACGTGACC  280
+0        91284410  .....G.......C......................C.CA...A.CC.....................................A....A.G.A..........................A.....T.C.........T......A........T.........G.............C........T.......T...................................G.......A............A....................T......  91284131
+16       17178355                                                                                    .........T...T........AC.............G..                                                                                                                                                                17178394
+
+Query_1  281       TTGGTAATATATGCAGCCAAGCTGTTCAGGCACCTCGATTTCCGGAACCGACAAGGTCTCCGCACCCTGATGGTGAATAGAGTCACTCTACGTATCATGAGTCCTGAAG  389
+0        91284130  ...AA.......A....................TA...GA........................A......AA.....G....GG..G.G.A........A..T.....  91284022
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 400129196202
+
+
+Query= exon_4
+
+Length=119
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_021671.1 Ficedula albicollis isolate OC2 chromosome 1, FicAlb1...  143        5e-33
+
+
+
+Query_2  1         ATTACAGCTACTGCTGGAGAAATTTTGTTGCACACCAGCCTGGAGAAGATAATTATTGGCCCCAGAACTTCATTTTATACTTCGTTCTGAATAGCATAGAACTCTTACACATCTTTTTG  119
+0        91282864  .......T..........C..................A..........T.C.....CA..........A...C.G..C.....T........T....G........C..T.........  91282746
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 100594995750
+
+
+  Database: GCF_000247815.1_FicAlb1.5_genomic.fna
+    Posted date:  Oct 15, 2020  8:14 PM
+  Number of letters in database: 1,118,343,587
+  Number of sequences in database:  21,428
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

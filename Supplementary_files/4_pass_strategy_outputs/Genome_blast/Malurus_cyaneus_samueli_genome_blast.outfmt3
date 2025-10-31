@@ -1,0 +1,173 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_009741485.1_mCya_1.0_genomic.fna
+           4,330 sequences; 1,078,891,882 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM019214.1 Malurus cyaneus samueli chromosome 1, whole genome sho...  91.7       1e-17
+
+
+
+Query_1  7         AATCCAGAAATACCCATGGCCTCTGTCAGTGCCAGAGGTAAGTACATTTATGTGAAAG  64
+0        90163562  ....................TG.........G..........................  90163505
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 49625441332
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM019214.1 Malurus cyaneus samueli chromosome 1, whole genome sho...  63.9       3e-09
+
+
+
+Query_2  23        TCCCTCATCCAGAGAGAACAACCAAGGGTAAGAGAT  58
+0        90162110  .........................A..........  90162075
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 56098324984
+
+
+Query= exon_5
+
+Length=69
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM019214.1 Malurus cyaneus samueli chromosome 1, whole genome sho...  71.9       1e-11
+CM019236.1 Malurus cyaneus samueli chromosome Z, whole genome sho...  40.1       0.045
+
+
+
+Query_3  1         ttttttttttCTTCCTCCTAGGGGCTTCCTCCATTTCTGGCAAACTGAATGCTAAC  56
+0        90158190  ......A.........G.C....A...............T................  90158135
+189      13505937   ....................                                     13505918
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 55019511042
+
+
+  Database: GCA_009741485.1_mCya_1.0_genomic.fna
+    Posted date:  Sep 18, 2020  8:25 PM
+  Number of letters in database: 1,078,891,882
+  Number of sequences in database:  4,330
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_009741485.1_mCya_1.0_genomic.fna
+           4,330 sequences; 1,078,891,882 total letters
+
+
+
+Query= exon_3
+
+Length=389
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM019214.1 Malurus cyaneus samueli chromosome 1, whole genome sho...  444        5e-123
+
+
+
+Query_1  1         GTGGAAGATGCAGGCAAGAGACTTCCAAAGAAATTATTTGCCTGGAGAAAATGG---ACGGGTGGTGTACCTGCTGTATGAAATCAGGTGGAGAAGTGGTTCCATCTGGAGGAACTGGTGCTCGAACAACCGTGAACAACACGCTGAAGTCAACTTCCTGGAAAATCACTTCAATGACAGGACACAAACTCCTTGCTCCATCACCTGGTTCCTTTCAACTAGTCCCTGTGGAAACTGCTCCAGAAGGATTCTGGAGTTCCTGAGGTCACACCCTAACGTG  277
+0        90161699  ..........G..C.................T....C.CA...A.CC.CC..CATCA....AGC................................AC.........................A.G...T.C.C.T..G..T........................TGT......A.....C.....GT............................G................T...............G.........................T...  90161420
+
+Query_1  278       ACCTTGGTAATATATGCAGCCAAGCTGTTCAGGCACCTCGATTTCCGGAACCGACAAGGTCTCCGCACCCTGATGGTGAATAGAGTCACTCTACGTATCATGAGTCCTGAAG  389
+0        90161419  ......AG......C.......G..............A....AA...T......G............A.......AG....GAG......G...T.......G.........  90161308
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 386195239416
+
+
+Query= exon_4
+
+Length=119
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM019214.1 Malurus cyaneus samueli chromosome 1, whole genome sho...  143        5e-33
+
+
+
+Query_2  1         ATTACAGCTACTGCTGGAGAAATTTTGTTGCACACCAGCCTGGAGAAGATAATTATTGGCCCCAGAACTTCATTTTATACTTCGTTCTGAATAGCATAGAACTCTTACACATCTTTTTG  119
+0        90160158  .......T........................T.................G....................GC.GA....A..TG.......TT..C.........T.GT.........  90160040
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 97088968080
+
+
+  Database: GCA_009741485.1_mCya_1.0_genomic.fna
+    Posted date:  Sep 18, 2020  8:25 PM
+  Number of letters in database: 1,078,891,882
+  Number of sequences in database:  4,330
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,131 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_002218305.1_ASM221830v1_genomic.fna
+           34,302 sequences; 1,045,281,893 total letters
+
+
+
+Query= exon_1
+
+Length=64
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 37595571732
+
+
+Query= exon_2
+
+Length=70
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 43861500354
+
+
+Query= exon_3
+
+Length=431
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 417687412400
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+MCFN01000655.1 Callipepla squamata strain Texas jcf7180005234617,...  71.6       4e-11
+
+
+
+Query_4  1       ACTGTATATTTCTTTTCTCAGATTACAGTTACAGTTGGAAAAAATTCGTTGCATACCAA  59
+654      123677  ..A........................A....TAG.......G.C.G............  123735
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 137845901820
+
+
+Query= exon_5
+
+Length=75
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+MCFN01000655.1 Callipepla squamata strain Texas jcf7180005234617,...  56.3       1e-06
+MCFN01000097.1 Callipepla squamata strain Texas jcf7180005234788,...  44.6       0.002
+
+
+
+Query_5  3        ATTTCTGTCTTCTTGCTAGGGGCTTCCTCCAGTG---TCAAACTTTGAATACTAACACCAACAGCATG  67
+654      126983   ......T..C...........A.........T..CTT............                     127031
+96       1623957                                         .......A..G..................  1623929
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 49083107539
+
+
+  Database: GCA_002218305.1_ASM221830v1_genomic.fna
+    Posted date:  Oct 23, 2020  6:28 PM
+  Number of letters in database: 1,045,281,893
+  Number of sequences in database:  34,302
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

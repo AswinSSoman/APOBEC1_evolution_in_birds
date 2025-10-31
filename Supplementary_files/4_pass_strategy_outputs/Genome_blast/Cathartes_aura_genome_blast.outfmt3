@@ -1,0 +1,147 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_000699945.1_ASM69994v1_genomic.fna
+           104,141 sequences; 1,152,571,117 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JMFT01093613.1 Cathartes aura isolate BGI_N323 contig93613, whole...  77.0       3e-13
+
+
+
+Query_1  1      CAGAGAAATCCAGAAATATCCATGGCTGCGGTCATTGATAGAGGTGAGTGCACGTGTGTGAA  62
+36966    10768  ....C........................CA...C..........A...A..T..A......  10829
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 41387586084
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JMFT01093613.1 Cathartes aura isolate BGI_N323 contig93613, whole...  101        3e-20
+
+
+
+Query_2  1      TCACAAATCTTTTCTGTATAGATCCTGCACCCAGAGAGAACAACCAAGGGTAAGAAATACAGTTCTATCA  70
+36966    12110  ...............A..C.................-C.................G..............  12178
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 48285517098
+
+
+Query= exon_3
+
+Length=431
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JMFT01093613.1 Cathartes aura isolate BGI_N323 contig93613, whole...  591        6e-167
+
+
+
+Query_3  1      CTGCTGATACTTTTGTCCCAGGTGGAAGATGCAGCCAAATGACTTCAAAAGAAATTATTTGCCTGGCTGTTATCCAAAGGTGGTATACCTGCTGTATGAAATCAAATGGAGGAGAGGTACCACCTGGAGGAACTGGTGCTCAAACAGTCGTAACCTACATGCTGAAGTCAACTTCTTGGAAAACTGTTTCAAGGCTGTGCCATCAGTTTCTTGCTCCATGACCTGGTTCCTGTCTGCTATCCCCTGTGGGAAATGTTCCAGAAGAATTCTGGAGTTCCTG  280
+36966    12564  ......G..........G.........A---....................................CAAC.....G.......G..........G........TG.....C..........T........G..............A.TC..C..A...........................T...........CA......................C......G....A...A...C....G..........C........................  12840
+
+Query_3  281    AAGGTATATCCCAATGTGACCTTGGAAATATATGCTGCCAAGCTGTTCAAGCACCTGGATATCCGTAACCGGCAAGGTCTCAGGAATCTGGCAATGAATGGAGTCATTATACGTATCATGAATCTTGCAGGTAACCCAGCTACTCTTTGGC  431
+36966    12841  GG....G..A.........................A..................................................C.......C.................A......................................  12991
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 459737098400
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JMFT01093613.1 Cathartes aura isolate BGI_N323 contig93613, whole...  211        7e-53
+
+
+
+Query_4  1      CTGGATATTCTCTCTTCTCAGATTACAATTACTGCTGGAAAAGATTTGTTGCATATCAACATGGAGAAGATGATTATTGGCCTCAGGGCTTCGCTTCACACATCTTGCTGAACTGGATAGAGCTCTGTCATATCCTTTGGGTTAGTAGGCACTTGAAGAAA  161
+36966    14203  ........-..................GC..............G...........C..G....................A..C...A...........T.......T.....T....C....................TCA.C..................  14362
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 151740735696
+
+
+Query= exon_5
+
+Length=78
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JMFT01093613.1 Cathartes aura isolate BGI_N323 contig93613, whole...  98.7       1e-19
+
+
+
+Query_5  1      ATGTTTCTTTCTTCCTCACAGGAGCTTCCTCCATTGCTGGCAAACTTTGCATACTAGCAAGCATCAGCAGTATGCTTT  78
+36966    16678  ................GCT...G......................--..A......A.............C.......  16753
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 57482758450
+
+
+  Database: GCA_000699945.1_ASM69994v1_genomic.fna
+    Posted date:  Dec 10, 2021  4:51 PM
+  Number of letters in database: 1,152,571,117
+  Number of sequences in database:  104,141
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

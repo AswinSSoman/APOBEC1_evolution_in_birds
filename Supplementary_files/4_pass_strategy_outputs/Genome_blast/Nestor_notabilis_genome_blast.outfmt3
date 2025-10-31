@@ -1,0 +1,149 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000696875.1_ASM69687v1_genomic.fna
+           42,180 sequences; 1,053,559,886 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009918615.1 Nestor notabilis isolate BGI_N333 unplaced genomic...  78.8       7e-14
+
+
+
+Query_1  1      CACACAAAACCAGAAACATCCATGGCTGCTGTCAGTGGCAGAGGTAAGTAAATTTATGTGAAA  63
+9138     41846  ..G.....T.......T.................C...T.........A.T..G.........  41784
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 37885638456
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009918615.1 Nestor notabilis isolate BGI_N333 unplaced genomic...  75.2       1e-12
+
+
+
+Query_2  3      ACAAATCTTTTCCATATAGATCCTGCATCCAGAAAGAAAAACCAAGGGTAAGAGAT  58
+9138     41505  ...........GT......G.......C..........C......A..........  41450
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 44199911532
+
+
+Query= exon_3
+
+Length=431
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009918615.1 Nestor notabilis isolate BGI_N333 unplaced genomic...  459        2e-127
+NW_009943054.1 Nestor notabilis isolate BGI_N333 unplaced genomic...  46.4       0.005 
+
+
+
+Query_3  1       CTGCTGGTACTTCTGTTGCAGGTGGAAGATACAGCCAAAAGACTTCAAAAGA-AATTATTTGCCTGGCCAACATCCACAGGTGGTGTACCTGCTCTATGAAATCAGGTGGAGAAATGGTTCCATCTGGAGGAACTGGTTCTCAAACAATCGTAACCAACATGCTGAAGTCAACTTCTTGGAAAATTGCTTCAGTGATGTGCCACCAGCTCCTTGTTCCATCACCTGGTTCCTTTCAACTAGTCCCTGTGGAAAATGCTCCAGGAGAATTCTGGAGTTCCT  279
+9138     41072   ..C.....G...T..........................C............-............TA...G......A.........G......G...........A....AC.GA...A............G.....G..........TC..C.................................T....AG.CCAA....T...T.T....C.....T......G....G..T..A.CA.....C..GG....T.....A...........T.....  40794
+33577    129280                                            ...G......C.............A.....C......                                                                                                                                                                                                           129316
+
+Query_3  280     GAGGACACATCGTAATGTGACCTTGGAAATATACGCAGCCAAGCTGTTCAGGCACCAGGATATACGCAACCGGCAAGGTCTCTGCAACCTGGTGATGAATGGAGTCACTATACATATCATGAATCTTGCAGGTAACCCAGCTACTCTTTG  429
+9138     40793   ...TGT.T...CC............A........................A.....T.....AC..T.................G.......CA.AT..CA......T.....G.........C....A..........A......C...  40644
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 420900922400
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009918615.1 Nestor notabilis isolate BGI_N333 unplaced genomic...  213        2e-53
+
+
+
+Query_4  1      ACTGGATATCTCTCTTCCTAGATTACAGTTACTGCTGGAAAAGATTTGTTGCATACCAACATGGAGAAGATGATTATTGGCCCCAGAACTTCGCTGCATACATCTTTCTGAATTGGAGAGAGCTTGGTCATATCTTTTTGGTTAGTAGACACCTGAAGAA  160
+9138     39511  .......C.........TC........A.....A............................................T....TG...T......C.....................C......CT........C.............G...TA......  39352
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 138908439912
+
+
+Query= exon_5
+
+Length=69
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009918615.1 Nestor notabilis isolate BGI_N333 unplaced genomic...  73.4       3e-12
+
+
+
+Query_5  3      GTTTCTTTCTTCCTACTAGGGTCTTCCTCCATTGCTGCCATACTGAATACTAATAAGCATCACCA  67
+9138     37756  ...C..........G......A......G..A........A............CT....C..G..  37692
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 43147532686
+
+
+  Database: GCF_000696875.1_ASM69687v1_genomic.fna
+    Posted date:  Oct 9, 2020  2:05 PM
+  Number of letters in database: 1,053,559,886
+  Number of sequences in database:  42,180
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

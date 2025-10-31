@@ -1,0 +1,178 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_001715985.3_ASM171598v3_genomic.fna
+           3,619 sequences; 1,072,328,541 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_021940836.1 Manacus vitellinus isolate BGI_N305 unplaced genom...  60.0       4e-08
+
+
+
+Query_1  10      CCAGAAATACCCATGGCCTCTGTCAGTGCCAGAGGTAAGTACATTTATGTGAAA  63
+3537     797242  .......C.T.......TG.........G............A............  797295
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 49324116354
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_021940836.1 Manacus vitellinus isolate BGI_N305 unplaced genom...  48.1       2e-04
+NW_021939122.1 Manacus vitellinus isolate BGI_N305 unplaced genom...  40.1       0.046
+
+
+
+Query_2  3         ACAAATCTTTTCTACACAGGTCCCTCATCCAGAGAGAACAACCAAGGGTAAGAGAT  58
+3537     798689    ............C.T.T..A...TG........A....A.................  798744
+1823     10081616  ..........G..G..............                              10081643
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 55757696748
+
+
+Query= exon_5
+
+Length=69
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_021940836.1 Manacus vitellinus isolate BGI_N305 unplaced genom...  52.0       1e-05
+NW_021940682.1 Manacus vitellinus isolate BGI_N305 unplaced genom...  40.1       0.045
+NW_021939396.1 Manacus vitellinus isolate BGI_N305 unplaced genom...  40.1       0.045
+
+
+
+Query_3  2         tttttttttCTTCCTCCTAGGGGCTTCCTCCATTTCTGGCAAACTGAATGCTAACGAGCCTCACCACC  69
+3537     803676          .........A......T...........G...C..T.......A....TA...A........  803737
+3383     857277      ....................                                                857258
+2097     28995998  ....................                                                  28996017
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 54685433349
+
+
+  Database: GCF_001715985.3_ASM171598v3_genomic.fna
+    Posted date:  Nov 19, 2020  6:34 PM
+  Number of letters in database: 1,072,328,541
+  Number of sequences in database:  3,619
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_001715985.3_ASM171598v3_genomic.fna
+           3,619 sequences; 1,072,328,541 total letters
+
+
+
+Query= exon_3
+
+Length=389
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_021940836.1 Manacus vitellinus isolate BGI_N305 unplaced genom...  459        2e-127
+
+
+
+Query_1  1       GTGGAAGATGCAGGCAAGAGACTTCCAAAGAAATTATTTGCCTGGAGAAAATGGACGGGTGGTGTACCTGCTGTATGAAATCAGGTGGAGAAGTGGTTCCATCTGGAGGAACTGGTGCTCGAACAACCGTGAACAACACGCTGAAGTCAACTTCCTG--GAAAATCACTTCAATGACAGGACACA---AACTCCT-TGCTCCATCACCTGGTTCCTTTCAACTAGTCCCTGTGGAAACTGCTCCA--GAAGGATTCTGGAGTTCCTGAGGTCACACCCTA  272
+3537     799120  .........A...C...A.......A...................CC..C..CC..A...............C...................A.......................T...A.....T...A.C.....T...............T..--......TG.....G...TGT.C...C---.G.....-..T......................................A.......--.G..A..................A....T.G..  799391
+3537     790081                                                                                                                                          ..T.........T....T...CA.......TT.AG.....A.CC.T...GTA.TG..AAC..T.............A...G..CTGG..C.......TG.......G..AT...--..A.....T...                  790206
+
+Query_1  273     ACGTGACCTTGGTAATATATGCAGCCAAGCTGTTCAGGCACCTCGATTTCCGGAACCGACAAGGTCTCCGCACCCTGATGGTGAATAGAGTCACTCTACGTATCATGAGTCCTGAAG  389
+3537     799392  .T..........A......C......................AG...A.A..C.....G.........T...A....G..A.....G........A...A........A..T..C..  799508
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 383853454016
+
+
+Query= exon_4
+
+Length=119
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_021940836.1 Manacus vitellinus isolate BGI_N305 unplaced genom...  112        3e-23
+
+
+
+Query_2  1       ATTACAGCTACTGCTGGAGAAATTTTGTTGCACACCAGCCTGGAGAAGATAATTATTGGCCCCAGAACTTCATTTTATACTTCGTTCTGAATAGCATAGAACTCTTACACATCTTTTTG  119
+3537     801248  .......T..........A..GA.........T....A.A..........G....................GC.GC....A..T........T.G.G...G..TGGT..T.........  801366
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 96500123100
+
+
+  Database: GCF_001715985.3_ASM171598v3_genomic.fna
+    Posted date:  Nov 19, 2020  6:34 PM
+  Number of letters in database: 1,072,328,541
+  Number of sequences in database:  3,619
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

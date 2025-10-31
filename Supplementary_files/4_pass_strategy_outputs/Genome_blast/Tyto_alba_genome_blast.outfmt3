@@ -1,0 +1,147 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_018691265.1_T.alba_DEE_v4.0_genomic.fna
+           70 sequences; 1,249,867,532 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_024881295.1 Tyto alba isolate M040663 unplaced genomic scaffol...  72.5       1e-11
+
+
+
+Query_1  7        AAACCAGAAACATCCATGGCTGCTGTCAGTGGCAGAGGTAAGTAAATTTATGTGAAA  63
+34       1098899  ..T.......T.................C..AT...........C..G.........  1098955
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 44995160592
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_024881295.1 Tyto alba isolate M040663 unplaced genomic scaffol...  72.5       1e-11
+
+
+
+Query_2  3        ACAAATCTTTTCCATATAGATCCTGCATCCAGAAAGAAAAACCAAGGGTAAGAGATGT-CATCTATCAC  70
+34       1100190  ......T.....T............A.......G...GC...............C.A.AGT........  1100258
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 52494354024
+
+
+Query= exon_3
+
+Length=431
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_024881295.1 Tyto alba isolate M040663 unplaced genomic scaffol...  470        1e-130
+
+
+
+Query_3  1        CTGCTGGTACTTCTGTTGCAGGTGGAAGATACAGCCAAAAGACTTCAAAAGAAATTATTTGCCTGGCCAACATCCACAGGTGGTGTACCTGCTCTATGAAATCAGGTGGAGAAATGGTTCCATCTGGAGGAACTGGTTCTCAAACAATCGTAACCAACATGCTGAAGTCAACTTCTTGGAAAATTGCTTCAGTGATGTGCCACCAGCTCCTTGTTCCATCACCTGGTTCCTTTCAACTAGTCCCTGTGGAAAATGCTCCAGGAGAATTCTGGAGTTCCTG  280
+34       1100642  ....G.......T..........................T................T...................A..............A.G................TC.GA...A..GC........G.....G..........TC...G...G.............T..A...........T....AG.CCA.....T...T.TT...C..TG........G....A.TT....CA........G.......T...A...........A......  1100921
+
+Query_3  281      AGGACACATCGTAATGTGACCTTGGAAATATACGCAGCCAAGCTGTTCAGGCACCAGGATATACGCAACCGGCAAGGTCTCTGCAACCTGGTGATGAATGGAGTCACTATACATATCATGAATCTTGCAGGTAACCCAGCTACTCTTTGG  430
+34       1100922  ...GT....TCC......G.........G...T......C...............T......CT.T...T.......GA..A.G.G.....CA.............T...............................A...........  1101071
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 499946144800
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_024881295.1 Tyto alba isolate M040663 unplaced genomic scaffol...  120        1e-25
+
+
+
+Query_4  1        ACTGGATATCTCTCTTCCTAGATTACAGTTACTGCTGGAAAAGATTTGTTGCATACCAACATGGAGAAGATGATTATTGGCCCCAGAACT  90
+34       1102910  .........A...TC..--................................................G.............TG....G..  1102997
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 164982246264
+
+
+Query= exon_5
+
+Length=69
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_024881295.1 Tyto alba isolate M040663 unplaced genomic scaffol...  77.9       3e-13
+
+
+
+Query_5  3        GTTTCTTTCTTCCTACTAGGGTCTTCCTCCATTGCTGCCATACTGAATACTAATAAGCATCACCA  67
+34       1105312  ..............GT..............G...T..G..AG...........C........G..  1105376
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 51244488452
+
+
+  Database: GCF_018691265.1_T.alba_DEE_v4.0_genomic.fna
+    Posted date:  Dec 15, 2021  1:06 AM
+  Number of letters in database: 1,249,867,532
+  Number of sequences in database:  70
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

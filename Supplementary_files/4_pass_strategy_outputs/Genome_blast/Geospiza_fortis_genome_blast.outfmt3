@@ -1,0 +1,151 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000277835.1_GeoFor_1.0_genomic.fna
+           27,239 sequences; 1,065,292,181 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_005054444.1 Geospiza fortis unplaced genomic scaffold, GeoFor_...  112        1e-23
+
+
+
+Query_1  1        TACACAAATCCAGAAATACCCATGGCTGCTGTCAGTGCCAGAGGTAAGTACATTTATGTGAAAG  64
+147      1212318  ......................G.........................................  1212255
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 38323061604
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_005054444.1 Geospiza fortis unplaced genomic scaffold, GeoFor_...  118        9e-26
+NW_005054349.1 Geospiza fortis unplaced genomic scaffold, GeoFor_...  42.8       0.006
+
+
+
+Query_2  1        TCACAAATCTTTTCTACACAGGTCCCTCATCCAGAGAGAACAACCAAGGGTAAGAGATGTAGCTCTGCCA  70
+147      1210914  ............................................A......................T..  1210845
+52       2525372            ......-.....A.................                                2525400
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 44710238538
+
+
+Query= exon_3
+
+Length=428
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_005054444.1 Geospiza fortis unplaced genomic scaffold, GeoFor_...  547        6e-154
+
+
+
+Query_3  1        ACTGCTGGTACTCTTCTTCAGGTGGAAGATGCAGCCAGAAGACTTCCAAAGAAATTATTCACCTAGACAAAATGGAAGGGTGTACCTGCTGTATGAAATCAGGTGGAGAAGCAGTTCCATCTGGAGGAACTGGTGCTCAAACAATCCTGAACAACATGCTGAAGTCAACTTCCTGGAAAATCATTTCAATAACCAGCCACAAACTCCTTGCTGCATCACCTGGTTCCTTTCAGCTAGTCCCTGTGGAAACTGCTGCAGAAGGATTCTGAAGTTCCTGAGG  280
+147      1210501  ...............................G.....AG..T..............T.C.................CA.........................C.......AC..G.TG..C................G......GG................A..................G........T.GG........T........C...................A...................................G...........  1210222
+
+Query_3  281      TCACACCCTAACGTGACCTTGGTAATTTGTGCAGCCAAGCTGTTCAGGCACCTCGATATCCGGAACCGACGAGGCCTCCGCAGCCTGATGATGAATGGAGTCGCTATACGTATCATGAATCTTGAAGGTAACCCAGACACTCT  423
+147      1210221  ....G.................AT..A.A....................C..GA...TCA..........A...T...T.TGA....................................C.............G..CT.....  1210079
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 422585765484
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_005054444.1 Geospiza fortis unplaced genomic scaffold, GeoFor_...  273        6e-72
+
+
+
+Query_4  1        ACTGGGTATCTCTCTTCTTAGATTACAGGTACTGCTGGAGAAATTTTGTTGCACACCAACCTGGACAAGATGATTATTGGCCCCAGAACGTCACTTTATACTTCATTTTGAATAGCATAGAACTCTTACATATCTTTTTGGTAAGTAGACACCTGAAAAAA  161
+147      1208337  .................................................................G......................T..................C...G.................................................  1208177
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 140514297000
+
+
+Query= exon_5
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_005054444.1 Geospiza fortis unplaced genomic scaffold, GeoFor_...  98.7       9e-20
+NW_005054349.1 Geospiza fortis unplaced genomic scaffold, GeoFor_...  50.0       4e-05
+
+
+
+Query_5  1        AtttttttttCTTCCTCTGT---AGG---ATCTTCCTCC--ATTTCTGGCAAACTGAATGCTAACAAGCCTCACCACC  70
+147      1205910   ................CA.---...---.G........--........................G...A....T...  1205842
+52       4817220  ......G......T..T.C.TTC...GCA..T.......CA...G....A..............A....T...       4817292
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 44710238538
+
+
+  Database: GCF_000277835.1_GeoFor_1.0_genomic.fna
+    Posted date:  Oct 28, 2021  5:27 PM
+  Number of letters in database: 1,065,292,181
+  Number of sequences in database:  27,239
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

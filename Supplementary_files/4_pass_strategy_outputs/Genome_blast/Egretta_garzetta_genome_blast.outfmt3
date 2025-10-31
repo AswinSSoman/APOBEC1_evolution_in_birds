@@ -1,0 +1,175 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000687185.1_ASM68718v1_genomic.fna
+           11,791 sequences; 1,206,501,934 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009259039.1 Egretta garzetta isolate BGI_Z169 unplaced genomic...  109        6e-23
+
+
+
+Query_1  2       AGACAAATCCAGAAATATCCATGGCTGCTGTCACTGATAGAGGTAAGTACATGTATGTGAAAA  64
+827      233042  ................................................G.....T........  233104
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 55489326016
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009259039.1 Egretta garzetta isolate BGI_Z169 unplaced genomic...  77.8       2e-13
+
+
+
+Query_2  4       CAAATCTTTTCTATATAGATCTTGCACCCAGAGAGAACAACCAAAGGTAAGAGA-TATAGTTCTATC  69
+827      234721  ............T........C..............G.....G.G.........T............  234787
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 62727064192
+
+
+Query= exon_5
+
+Length=78
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009259039.1 Egretta garzetta isolate BGI_Z169 unplaced genomic...  89.7       7e-17
+NW_009260172.1 Egretta garzetta isolate BGI_Z169 unplaced genomic...  42.1       0.015
+NW_009258665.1 Egretta garzetta isolate BGI_Z169 unplaced genomic...  42.1       0.015
+
+
+
+Query_3  1       ATGTTTCTTTCTTCCTGCTAGGGGCTTCCTCCATTGCTGGCAAACTTTAAATACTAACAAGTATCAGCAGCATGCT  76
+827      239658  ................................---.....T.......G.........G..C.............   239729
+1960     455386                          .....................                                 455406
+453      126857                                                         .....................  126837
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 72377381760
+
+
+  Database: GCF_000687185.1_ASM68718v1_genomic.fna
+    Posted date:  Oct 5, 2020  2:45 PM
+  Number of letters in database: 1,206,501,934
+  Number of sequences in database:  11,791
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000687185.1_ASM68718v1_genomic.fna
+           11,791 sequences; 1,206,501,934 total letters
+
+
+
+Query= exon_3
+
+Length=389
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009259039.1 Egretta garzetta isolate BGI_Z169 unplaced genomic...  648        0.0  
+
+
+
+Query_1  1       GTGGAAGATACGGCCAAATGACTTCAAAAGAAATTATTTGCCTGGCCAACATCCAAAGGTGGTGTACCTCCTGTATGAAATCAGGTGGAGCAGAGGTACCATCTGGAGGAACTGGTGCTCAAACAATTCTACCCAACATGCTGAAGTCAACTTCTTGGAAAATTGTTTCAAGGCAATGCCATCAGTTTCTTGCTCCATCACTTGGGTCCTATCTACTACCCCCTGTGGGAAATGCTCCAGAAGAATTCTGGAGTTCCTGAGGGTACATCCCAATGTGACC  280
+827      235487  ...........A.........................................................G..................................................G.....................................................C..........................C....................................................................T.G.......  235766
+
+Query_1  281     TTGGAAATATACGCAGCCAAGCTGTTCAAGCACCTGGATATCCGTAACCGGCAAGGTCTCAGGAACCTGGCAATGAATGGAGTCATTATACGTATCATGAATCTTGCAG  389
+827      235767  ...........T...............................................G........A......................A...A.............  235875
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 431796835854
+
+
+Query= exon_4
+
+Length=119
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009259039.1 Egretta garzetta isolate BGI_Z169 unplaced genomic...  158        3e-37
+
+
+
+Query_2  1       ATTACAGTTACGGGTGGAAAAGATTTGTTGCATACCAACGTGGAGAAGATGATTATTGGCCCTGGAGCTTCGCTTCATACATCCTTCTGAATTGGATAGAGCTCTATCATATCCTTT  117
+827      237123  ...........T.........T..............G..A.........A.G..................T............T........CA..C........G...........  237239
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 108554399550
+
+
+  Database: GCF_000687185.1_ASM68718v1_genomic.fna
+    Posted date:  Oct 5, 2020  2:45 PM
+  Number of letters in database: 1,206,501,934
+  Number of sequences in database:  11,791
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

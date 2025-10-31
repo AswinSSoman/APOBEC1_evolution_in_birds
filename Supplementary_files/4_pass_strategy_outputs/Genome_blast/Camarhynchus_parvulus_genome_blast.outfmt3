@@ -1,0 +1,151 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_901933205.1_STF_HiC_genomic.fna
+           1,345 sequences; 1,051,609,828 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044571.1 Camarhynchus parvulus chromosome 1, STF_HiC, whole ge...  112        1e-23
+
+
+
+Query_1  1         TACACAAATCCAGAAATACCCATGGCTGCTGTCAGTGCCAGAGGTAAGTACATTTATGTGAAAG  64
+0        86750343  ......................G.........................................  86750280
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 37856598048
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044571.1 Camarhynchus parvulus chromosome 1, STF_HiC, whole ge...  118        9e-26
+NC_044600.1 Camarhynchus parvulus chromosome 4A, STF_HiC, whole g...  42.8       0.006
+
+
+
+Query_2  1         TCACAAATCTTTTCTACACAGGTCCCTCATCCAGAGAGAACAACCAAGGGTAAGAGATGTAGCTCTGCCA  70
+0        86748938  ............................................A......................T..  86748869
+29       2524615             ......-.....A.................                                2524643
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 44166031056
+
+
+Query= exon_3
+
+Length=428
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044571.1 Camarhynchus parvulus chromosome 1, STF_HiC, whole ge...  552        5e-155
+
+
+
+Query_3  1         ACTGCTGGTACTCTTCTTCAGGTGGAAGATGCAGCCAGAAGACTTCCAAAGAAATTATTCACCTAGACAAAATGGAAGGGTGTACCTGCTGTATGAAATCAGGTGGAGAAGCAGTTCCATCTGGAGGAACTGGTGCTCAAACAATCCTGAACAACATGCTGAAGTCAACTTCCTGGAAAATCATTTCAATAACCAGCCACAAACTCCTTGCTGCATCACCTGGTTCCTTTCAGCTAGTCCCTGTGGAAACTGCTGCAGAAGGATTCTGAAGTTCCTGAGG  280
+0        86748525  ...............................G.....AG..T..............T.C.................CA.........................C.......AC..G.TG..C................G......GG................A..................G........T.AG........T........C...................A...................................G...........  86748246
+
+Query_3  281       TCACACCCTAACGTGACCTTGGTAATTTGTGCAGCCAAGCTGTTCAGGCACCTCGATATCCGGAACCGACGAGGCCTCCGCAGCCTGATGATGAATGGAGTCGCTATACGTATCATGAATCTTGAAGGTAACCCAGACACTCT  423
+0        86748245  ....G.................AT..A.A....................C..GA...TCA..........A...T...T.TGA....................................C................CT.....  86748103
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 417472548801
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044571.1 Camarhynchus parvulus chromosome 1, STF_HiC, whole ge...  273        6e-72
+
+
+
+Query_4  1         ACTGGGTATCTCTCTTCTTAGATTACAGGTACTGCTGGAGAAATTTTGTTGCACACCAACCTGGACAAGATGATTATTGGCCCCAGAACGTCACTTTATACTTCATTTTGAATAGCATAGAACTCTTACATATCTTTTTGGTAAGTAGACACCTGAAAAAA  161
+0        86746362  .................................................................G......................T..................C...G.................................................  86746202
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 138807348636
+
+
+Query= exon_5
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044571.1 Camarhynchus parvulus chromosome 1, STF_HiC, whole ge...  94.2       4e-18
+NC_044600.1 Camarhynchus parvulus chromosome 4A, STF_HiC, whole g...  50.0       4e-05
+
+
+
+Query_5  1         AtttttttttCTTCCTCTGT---AGG---ATCTTCCTCC--ATTTCTGGCAAACTGAATGCTAACAAGCCTCACCACC  70
+0        86743935   ....G...........CA.---...---.G........--........................G...A....T...  86743867
+29       4800877   ......G......T..T.C.TTC...GCA..T.......CA...G....A..............A....T...       4800949
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 44166031056
+
+
+  Database: GCF_901933205.1_STF_HiC_genomic.fna
+    Posted date:  Nov 17, 2020  2:48 PM
+  Number of letters in database: 1,051,609,828
+  Number of sequences in database:  1,345
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,143 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_016647715.1_ASM1664771v1_genomic.fna
+           2,446 sequences; 1,061,110,005 total letters
+
+
+
+Query= exon_1
+
+Length=64
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 38197494612
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JACDJE010000474.1 Pavo muticus isolate YNLC101 scaffold522, whole...  55.4       9e-07
+
+
+
+Query_2  10      TTTTCTGCATAGGTCGTGCACCCAGACAGAACAACCAAAGGTAAGACATATTGTTCTATC  69
+1917     175454  ...............CCT...T....GT..G...TG..G.......G.........C...  175513
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 44563743714
+
+
+Query= exon_3
+
+Length=431
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JACDJE010000474.1 Pavo muticus isolate YNLC101 scaffold522, whole...  265        1e-68
+
+
+
+Query_3  1       CTGCTGATACTTTTATTTCAGGTGGAAGATGCAGCCAGATGACTTCAAATCAAACTATTTGCCTTCCCAACACCCAAAGGTCGTGTACTTGATGTATGCGATCAAATGGCGCAAAGGTACCGTCTGGAGGGGTTGGTGCTCAAACAATCCTACCCAACACGCTGAAGTCAACTTCTTGGAAAATTGCTTCAAGCCCTTGTCATCAGCTTCCTGCTCTATCACCTGGGTCTTATCTACTACCCCCTGTGGGAAGTGCTCCAAAAGAATTCTGGAGTTCCTG  280
+1917     177130                                                                                                                                                   ...T...........A........C.............CC.......AGG....C......T...T.....C.C..........C......................A.A...T.G..A...C.CA.......A.  177264
+1917     175929  ..............G......A.....A..T......A...........--.TG..........GA......A.TG.G...GT.A.G.C.TT.C..A.AAC.T.GG..TA...C......TA........AA........A.....                                                                                                                                        176072
+
+Query_3  281     AGGATACACCCCAATGTAACCCTGAAAATATTCGCAGCCAAGATTTTCAAACATCTGGATATTCGTAACCGGCAAGGTCTCAGGAACCTGACAGAGAAAGGAGTCATCATACGTATTATGAGTCCTGCAGGTAACCCAACTACTCTTCATC  431
+1917     177265  ....G.T..TA......G...T..G......A.A....T...T.G........C.....C...T.....T......A.T......G.....TTAT.G....CA.......GT.........A..T..A...........-...........  177414
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 424413671600
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JACDJE010000474.1 Pavo muticus isolate YNLC101 scaffold522, whole...  166        2e-39
+
+
+
+Query_4  3       TGTATATTTCTTTTCTCAGATTACAGTTCCAGCTGGAAAAGATTTGTTGCATACCAACATGGAGAAGAAGATTATTGGCCCTGGAATTTCATTCTGCACATCCTTCTGAACTGCATAGAGCTACACCGTATCATTTTGGTTAGTAGCCACTTTAAAGAA  161
+1917     178586  .........................A..G.T.G...........G.......................T.G...........T..GC.....-----.....T....CC....GG.......CTGT.A.....................G...G.....  178739
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 140057157372
+
+
+Query= exon_5
+
+Length=75
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JACDJE010000474.1 Pavo muticus isolate YNLC101 scaffold522, whole...  45.5       0.002
+
+
+
+Query_5  3       CATTTCTGTCCTCTTT-TAGGGGCTTCCTCCAGTG---TTAAACCTTGAA  48
+1917     173634  .......T.......GC...............T..CTT.C....T.....  173683
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 49868951299
+
+
+  Database: GCA_016647715.1_ASM1664771v1_genomic.fna
+    Posted date:  Oct 28, 2021  4:19 PM
+  Number of letters in database: 1,061,110,005
+  Number of sequences in database:  2,446
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

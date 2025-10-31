@@ -1,0 +1,142 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000703405.1_ASM70340v1_genomic.fna
+           54,728 sequences; 1,070,836,417 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009716482.1 Apaloderma vittatum isolate BGI_N311 unplaced geno...  47.3       4e-04
+
+
+
+Query_1  1     CATACAAATCCAGAAATATCCATGGCTGCTGCTGCTGGCAGAGGTAAGTACATTTGTGTGAAA  63
+23851    8107  ..G...C...A..................CATCA.CA.T.A....G......AG.........  8169
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 38494945188
+
+
+Query= exon_2
+
+Length=70
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 44910769386
+
+
+Query= exon_3
+
+Length=431
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009716482.1 Apaloderma vittatum isolate BGI_N311 unplaced geno...  502        2e-140
+
+
+
+Query_3  1      CTGCTGATACTTTTGTCACAGGTGGAAGATACAGCCAAATGACTTTCAAAGAAATTATTTGCCTGACCAACACCCACAGGCAGTATACCTGCTGTATGAATTCAGGTGGAGAAGAGGTTCCATCTGGAGGAAATGGTGCTCAAACAATCGTGCCCAACATGCTGAAGTCAACTTCTTGGAAAATTGTTTCAATGGCA-TTCCACCAGTTCCTTGCTCCATTACCTGGTTCCTTTCTACTACTCCCTGTGGGAACTGCTCCAGAAGGATTCTGGAGTTCCT  279
+23851    9749   ......G..............................G.GC....CA...T..............G.....GT...A.T..G..G...........C...A..........C......A.............C................C.A.................T......................-....C.G...T.....TA.........C...........A........A..........GA...........A........A.....  10027
+
+Query_3  280    GAGGTTACATCCCAATGTGACCTTGGAAATATATGCCGCCAAACTCTTCAGGCACACGGATATCCGTAATCGGAAAGGTCTCTACAACCTGGCAATGAATGGAGTCATTATACGTATCATGAATCTTGCAGGTAACCCAACTGCTCTTTGGC  431
+23851    10028  ....G.......T....................C..A...CGG..G........TCT............C...C.......TAGGG.T.......AC...........G...............G...A.............A.........  10179
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 427655939600
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009716482.1 Apaloderma vittatum isolate BGI_N311 unplaced geno...  150        2e-34
+
+
+
+Query_4  6      ATATCTCTTTTCTCAGATTACAGTTACTGCTGGAGAAATTTTGTTG--CATACCCACGAGGACAAGATGACTATTGGCCCCAGCACTTTGCTGCACACATCTTTCTGAATGCAAGAGAGCTTTGTCACATCCTTTTGGTTAGTAGACACCTGAAGAAA  161
+23851    11314  ......T.C.........................A..CA.......TA...GAG...--...A.......G............AG...C...T.................TGG.C......CCA...T.......G........AG............  11469
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 141140908260
+
+
+Query= exon_5
+
+Length=69
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009716482.1 Apaloderma vittatum isolate BGI_N311 unplaced geno...  74.3       3e-12
+
+
+
+Query_5  2      TGTCTCTTTCTTCCTTCTAGGGGCTTCCTCCATTGCTGGCAGACTGAGTACTAGCAAACATCA  64
+23851    13737  ...T...........G......T................A.AG....A...C.A.........  13799
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 43841465353
+
+
+  Database: GCF_000703405.1_ASM70340v1_genomic.fna
+    Posted date:  Nov 19, 2020  7:26 PM
+  Number of letters in database: 1,070,836,417
+  Number of sequences in database:  54,728
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

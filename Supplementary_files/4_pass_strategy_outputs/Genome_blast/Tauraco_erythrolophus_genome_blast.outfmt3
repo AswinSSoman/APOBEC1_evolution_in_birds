@@ -1,0 +1,171 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000709365.1_ASM70936v1_genomic.fna
+           59,587 sequences; 1,155,540,733 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_010049387.1 Tauraco erythrolophus isolate BGI_N340 unplaced ge...  87.7       2e-16
+
+
+
+Query_1  1    CAGACAAATCCAGAAATATCCATGGCTGCTGTCACTGATAGAGGTAAGTACATGTATGTGAAAA  64
+16536    828  ...............GC..................C..................G.C.......  891
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 53105535682
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_010049387.1 Tauraco erythrolophus isolate BGI_N340 unplaced ge...  67.9       2e-10
+
+
+
+Query_2  4     CAAATCTTTTCTATATAGATCTTGCACCCAGAGAGAACAACCAAAGGTAAGAGATATAGTTCTATC  69
+16536    2133  ..............C...G..C.C.........G........G.G............G........  2198
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 60032344684
+
+
+Query= exon_5
+
+Length=78
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_010049387.1 Tauraco erythrolophus isolate BGI_N340 unplaced ge...  99.6       7e-20
+
+
+
+Query_3  1     ATGTTTCTTTCTTCCTGCTAGGGGCTTCCTCCATTGCTGGCAAACTTTAAATACTAACAAGTATCAGCAGCATGCTT  77
+16536    6498  ...................................C....A....--..............C.........G.....  6572
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 69268090020
+
+
+  Database: GCF_000709365.1_ASM70936v1_genomic.fna
+    Posted date:  Oct 5, 2020  7:49 PM
+  Number of letters in database: 1,155,540,733
+  Number of sequences in database:  59,587
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000709365.1_ASM70936v1_genomic.fna
+           59,587 sequences; 1,155,540,733 total letters
+
+
+
+Query= exon_3
+
+Length=389
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_010049387.1 Tauraco erythrolophus isolate BGI_N340 unplaced ge...  603        8e-171
+
+
+
+Query_1  1     GTGGAAGATACGGCCAAATGACTTCAAAAGAAATTATTTGCCTGGCCAACATCCAAAGGTGGTGTACCTCCTGTATGAAATCAGGTGGAGCAGAGGTACCATCTGGAGGAACTGGTGCTCAAACAATTCTACCCAACATGCTGAAGTCAACTTCTTGGAAAATTGTTTCAAGGCAATGCCATCAGTTTCTTGCTCCATCACTTGGGTCCTATCTACTACCCCCTGTGGGAAATGCTCCAGAAGAATTCTGGAGTTCCTGAGGGTACATCCCAATGTGACC  280
+16536    2606  ...........A.T..........................................G............G...............................................T............................................C..C........C.....G..T.................C........G........G..................GA..................A.....G...............  2885
+
+Query_1  281   TTGGAAATATACGCAGCCAAGCTGTTCAAGCACCTGGATATCCGTAACCGGCAAGGTCTCAGGAACCTGGCAATGAATGGAGTCATTATACGTATCATGAATCTTGCAG  389
+16536    2886  ......................................G.C.......A.......A.............................C......................  2994
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 413022285888
+
+
+Query= exon_4
+
+Length=119
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_010049387.1 Tauraco erythrolophus isolate BGI_N340 unplaced ge...  131        3e-29
+
+
+
+Query_2  1     ATTACAGTTACGGGTGGAAAAGATTTGTTGCATACCAACGTGGAGAAGATGATTATTGGCCCTGGAGCTTCGCTTCATACATCCTTCTGAATTGGATAGAGCTCTATCATATCCTTT  117
+16536    5239  ......AC...T...............C....CGT....AC...........C..................A......G....T........CA..........C...GC.......  5355
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 103843143900
+
+
+  Database: GCF_000709365.1_ASM70936v1_genomic.fna
+    Posted date:  Oct 5, 2020  7:49 PM
+  Number of letters in database: 1,155,540,733
+  Number of sequences in database:  59,587
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

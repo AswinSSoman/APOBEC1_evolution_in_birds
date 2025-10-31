@@ -1,0 +1,147 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000691845.1_ASM69184v1_genomic.fna
+           53,499 sequences; 1,062,961,556 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_008594306.1 Merops nubicus isolate BGI_N331 unplaced genomic s...  49.1       1e-04
+
+
+
+Query_1  20    CCATGGCTGCTGTCAGTGTCAGAGGTAAGTACATGTATGTGAAA  63
+13679    9994  ............C..C..A..........GG.....G..A....  9951
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 38212689024
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_008594306.1 Merops nubicus isolate BGI_N331 unplaced genomic s...  64.4       2e-09
+
+
+
+Query_2  1     TCACAAATCTTTTCTACACAGGTCCCTCATCCAGAGAGAACACCCAAGGGTAAGAGATGTAGCTCTGTCA  70
+13679    8712  .....G.........GT.T......TG..C...........CA...G...........AC.TT.......  8643
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 44581470528
+
+
+Query= exon_3
+
+Length=431
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_008594306.1 Merops nubicus isolate BGI_N331 unplaced genomic s...  390        1e-106
+
+
+
+Query_3  3     TGCTGGTACTCTT--CTTCAGGTGGAAGATACAGCCAAGAGACTTCCAAAGGAATTATTCGCCCAGACAACATGGACGGGTGGTGTACCTGCTGTATGAAATCAGGTGGAGAAGAGGTTCCATCTGGAGGAACTGGTGCTTGAACAACCATGAACAACATGCTGAAGTCAACTTCCTGGAAAATCATTTCAATGGCAGGCCACAAACCCCTTGCTCCATCACCTGGTTCCTTTCAACTAGTCCCTGTGGAAAGTGCTCCAGAAGGATTCTGGATTTCCTG  280
+13679    8297  .........-...GG.CA.............G.....GAT..A...A...CA........A..TGAC..C.G.CC.A............................A...........AA.....................CC.....TAT...C.....................T........TG......G.C..A....TCTGTTT....................T.A..T...GCC.......C...A...........A......A.G.....A  8019
+
+Query_3  281   AGGTCGCACCCTAATGTGACCTTGGTAATATATGCAGCCAAGCTGTTCAGGCACCATGATATCCGCAACCGACAAGGTCTCCGCAACCTGAATATGAATGGAGTCACTATACGTATCATGAATGTTGAAGGTAACCCAGCTACTCTT  427
+13679    8018  .C.G.A..T..C..G..........A.............................TG..G.....T.....G.........ATGG.....GCAG............TCC..............C...C.............G.....  7872
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 424521234800
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_008594306.1 Merops nubicus isolate BGI_N331 unplaced genomic s...  117        1e-24
+
+
+
+Query_4  3     TGGGTATCTCTCTTCTTAGATTACAGATACTGCTGGAGAAATTTTGTTGCATACCAAGCTGGAGAAGATGATTATTGTCCCCAGAACATCACTGTATACTTCCTTCTTAATTGCACAGAACTCTTTCATATATTTTTGGTAAGTAGACACCTGAAGA  159
+13679    7091  ..C..G........T.C.........T..........A.C.A...............CG....C....A.T...C..G.......G.T..T..CC....A..T....G..C..G.G...G...CA...C..CC..C....T.....GT..T......  6935
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 140106131220
+
+
+Query= exon_5
+
+Length=69
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_008594306.1 Merops nubicus isolate BGI_N331 unplaced genomic s...  80.6       2e-14
+
+
+
+Query_5  4     tttttttCTTCCTCCTAGGGGCTTCCTCCACTTCTGGCAAACTGAATGCTAACAGGCATCACCA  67
+13679    4349  ...C.........G..................G..........A..CA......A......G..  4286
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 43520006944
+
+
+  Database: GCF_000691845.1_ASM69184v1_genomic.fna
+    Posted date:  Nov 21, 2020  10:52 AM
+  Number of letters in database: 1,062,961,556
+  Number of sequences in database:  53,499
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

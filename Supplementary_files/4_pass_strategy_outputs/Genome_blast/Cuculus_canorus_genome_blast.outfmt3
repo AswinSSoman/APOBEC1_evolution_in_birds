@@ -1,0 +1,129 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000709325.1_ASM70932v1_genomic.fna
+           14,930 sequences; 1,153,894,225 total letters
+
+
+
+Query= exon_1
+
+Length=64
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 41525142660
+
+
+Query= exon_2
+
+Length=70
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 48445999770
+
+
+Query= exon_3
+
+Length=431
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 461372558000
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009245354.1 Cuculus canorus isolate BGI_N303 unplaced genomic ...  159        4e-37
+
+
+
+Query_4  5       TGGATATCTCTTTTC--AGATTACAATTACTGGTGGAAAAGATTTGCTGCATGCCAACATGGAGAGGATGATTATTGGCCCTGGAGCTTCGTTTCATACATCTTTCTGAATCAGATAGAGCTCCGTCACATCCTTTTGGTTAGTAGGCACTTGAAGAAA  161
+2169     657237  .....G.........TC........G......T.............T.....AT...G.......A...T.C........A.T..A...T.C..................CTG..C.......AAG..T....C...C............C........  657079
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 152256885660
+
+
+Query= exon_5
+
+Length=78
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009245354.1 Cuculus canorus isolate BGI_N303 unplaced genomic ...  83.3       9e-15
+
+
+
+Query_5  1       ATGTTTCTTTCTTCCTGCTAGGGGCTTCCTCCGTTCCTGGAAAACTTTAAATACTAACAAGCATCAGCAGCATGCTT  77
+2169     652228  ......A.........................A..G...TC....--.G.....C......T.......A.G.....  652154
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 57673809250
+
+
+  Database: GCF_000709325.1_ASM70932v1_genomic.fna
+    Posted date:  Dec 24, 2020  3:46 PM
+  Number of letters in database: 1,153,894,225
+  Number of sequences in database:  14,930
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

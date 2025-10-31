@@ -1,0 +1,133 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000146605.3_Turkey_5.1_genomic.fna
+           185,175 sequences; 1,115,474,681 total letters
+
+
+
+Query= exon_1
+
+Length=64
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 39970432116
+
+
+Query= exon_2
+
+Length=70
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 46632170802
+
+
+Query= exon_3
+
+Length=431
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_015011.2 Meleagris gallopavo isolate NT-WF06-2002-E0010 breed ...  209        7e-52
+
+
+
+Query_3  1         CTGCTGATACTTTTATTTCAGGTGGAAGATGCAGCCAGATGACTTCAAATCAAACTATTTGCCTTCCCAACACCCAAAGGTCGTGTACTTGATGTATGCGATCAAATGGCGCAAAGGTACCGTCTGGAGGGGTTGGTGCTCAAACAATCCTACCCAACACGCTGAAGTCAACTTCTTGGAAAATTGCTTCAAGCCCTTGTCATCAGCTTCCTGCTCTATCACCTGGGTCTTATCTACTACCCCCTGTGGGAAGTGCTCCAAAAGAATTCTGGAGTTCCTG  280
+0        74411522                                                                                                                                                   ...T....T......AT......TG........A....C........TGG....C......T...T.....C.CTGT.......C.....C........-.......A.A...T.G..A.....CA....G..A.  74411655
+0        74410333  ..............G......A........T..................ATG............                                                                                                                                                                                                                          74410396
+
+Query_3  281       AGGATACACCCCAATGTAACCCTGAAAATATTCGCAGCCAAGATTTTCAAACATCTGGATATTCGTAACCGGCAAGGTCTCAGGAACCTGACAGAGAAAGGAGTCATCATACGTATTATGAGTCCTGCAGGTAACCCAACTACTCTTCATC  431
+0        74411656  ....A.T..TAT.....G.A.T..G......A.A........T.GC......--.....C...T.....T......A.T............TGAT.G....CA........T.....G...A..T..A...........-....T......  74411803
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 443893702400
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_015011.2 Meleagris gallopavo isolate NT-WF06-2002-E0010 breed ...  142        3e-32
+
+
+
+Query_4  1         ACTGTATATTTCTTTTCTCAGATTACAGTTCCAGCTGGAAAAGATTTGTTGCATACCAACATGGAGAAGAAGATTATTGGCCCTGGAATTTCATTCTGCACATCCTTCTGAACTGCATAGAGCTACACCGTATCATTTTGGTTAGTAGCCACTTTAAAGAA  161
+0        74412973  ...........................A..ATT.G.......A...G.......G...............T.G..........CT..GC....C.TCAT.....T....CC....GG.......CTGT.A...A..........A......G...G.....  74413133
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 146533807992
+
+
+Query= exon_5
+
+Length=75
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 52183619707
+
+
+  Database: GCF_000146605.3_Turkey_5.1_genomic.fna
+    Posted date:  Dec 17, 2021  7:20 PM
+  Number of letters in database: 1,115,474,681
+  Number of sequences in database:  185,175
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

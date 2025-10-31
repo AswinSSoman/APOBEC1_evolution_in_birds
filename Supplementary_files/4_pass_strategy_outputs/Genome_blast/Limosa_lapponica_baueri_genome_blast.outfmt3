@@ -1,0 +1,147 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_002844005.1_Godwit_v1_genomic.fna
+           32,319 sequences; 1,034,771,378 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+KZ508061.1 Limosa lapponica baueri isolate BTGAFAM01 unplaced gen...  100        2e-20
+
+
+
+Query_1  1      CAGACAAATCCAGAAACATCCATGGCTGCTGTCCCTGATAGAGGTATGTGAAAAGCATGT  60
+2426     24162  ................T........................................G..  24221
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 37219192056
+
+
+Query= exon_2
+
+Length=69
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+KZ508061.1 Limosa lapponica baueri isolate BTGAFAM01 unplaced gen...  121        3e-26
+
+
+
+Query_2  1      TCGCAAATCTTTTCTATATAGGTCCTGCAGCCAGAGAGAACAACCAAAGGTAAGGATACAGTTCTATCA  69
+2426     25509  ..A..................................................................  25577
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 42388524286
+
+
+Query= exon_3
+
+Length=431
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+KZ508061.1 Limosa lapponica baueri isolate BTGAFAM01 unplaced gen...  675        0.0  
+
+
+
+Query_3  1      CTACTGGCAATTTTGTCACAGGTGGAAGATACTTCCAGATGACTTCATAAGAAATTATTTTCCGGACCAACATCCAAATGCAGTGTATGTGCTGTATGAAATCAGGTGGAGCAGAGGTACCATCTGGAGGAGCTGGTGCTCAAACAGTTTTGACCAACATGCTGAAGTCAACTTCTTGGAAAATTATTTCAAGGCCAGGCCATCAGCTTCTTGCTCTATCACCTGGTTCCTATCTACTACCCCCTGTGGGAGATGCTCCAGAAGAATTCTGGAGTTCCTG  280
+2426     25967  .........T......TG..........................................G...................TG.....CC...............................G.........................A.....C................................G...........T........T.........................................................................  26246
+
+Query_3  281    AGGGCACACCCCAATGTGACCTTGGAAATATATGCAGCCAAGCTGTTCAAGCACTTGGATATACGTAACCGGCAAGGTCTCAAGAACCTGGCAATGAATGGAGTCATTATACGTATCATGGATCTTCCAGGTAACCCAGCTACTCTTTG  429
+2426     26247  ........T...............A.......C.....................C.......G..................C......................................A.....G......................  26395
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 413507795600
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+KZ508061.1 Limosa lapponica baueri isolate BTGAFAM01 unplaced gen...  214        5e-54
+
+
+
+Query_4  1      ACTGGATATCTCTTTTCTCAGATTACAGTTACTGCTGGAAAACCTTTGTTGCATACCAACGTGCAGAAGACATTTATTGGTCCTGGAGATTCAAGTCATATATCTTTCTGAATTGCATGGAGCTCTATCGTATCCTTTTGGTTAGTAGGCATTTGAAGAAA  161
+2426     28285  .........T.................A...............A...................G......TGGA......C............GT....GC................CA..........A............G..................  28445
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 136466104764
+
+
+Query= exon_5
+
+Length=78
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+KZ508061.1 Limosa lapponica baueri isolate BTGAFAM01 unplaced gen...  77.9       3e-13
+
+
+
+Query_5  1      ATGTTTCTTTCTCTCTGCTAGGGGCTTCCTCCATTGCT-------TTGAATACTAACAAGCATCAGCA----GCTTTCGAGCTCACTTT  78
+2426     30802  ............T.........................TCCTCCA...CT.C..-C............GCAT......A..........  30889
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 51693322300
+
+
+  Database: GCA_002844005.1_Godwit_v1_genomic.fna
+    Posted date:  Dec 10, 2021  4:49 PM
+  Number of letters in database: 1,034,771,378
+  Number of sequences in database:  32,319
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

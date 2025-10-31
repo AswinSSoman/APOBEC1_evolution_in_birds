@@ -1,0 +1,147 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_012275295.1_bMelUnd1.mat.Z_genomic.fna
+           864 sequences; 1,171,617,451 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_047531.1 Melopsittacus undulatus isolate bMelUnd1 chromosome 5...  78.8       8e-14
+
+
+
+Query_1  6         AAATCCAGAAATACCCATGGCTGCTGTCAGTGGCAGAGGTAAGTACATTTATGTGAAA  63
+7        41762014  .....T.......T...............C..AT..............G.........  41762071
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 42177357324
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_047531.1 Melopsittacus undulatus isolate bMelUnd1 chromosome 5...  60.8       2e-08
+
+
+
+Query_2  1         CACAAAtttttttCCGCATAGATCCCTCATCCAGAGAGAACAACCAAAGGTAAGAGATGTAGCTCTATCA  70
+7        41762340  .......C.....TAT-........TG.GC.....C......................AC..T.G.....  41762408
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 49206916878
+
+
+Query= exon_3
+
+Length=434
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_047531.1 Melopsittacus undulatus isolate bMelUnd1 chromosome 5...  317        2e-84
+
+
+
+Query_3  2         CTGCTGGTACTCTTATT-CAGGTGGAAGATGGAGCCAAGAG-ACTTCCAAAGATATTACTCACCTAGCCACCATCATCAACGGAGCGTGTACCTGCTGTATGAAATCAGGTGGAGAAGACGTTCCATCTGGAGGAACTGGTGCTCAAGCAATCCTCATCAGCATGCTGAAGTCAACTTCCTGGAAAATTGTTTCAATAACAGGCCACAAGTTCCTTGCTCCATCACCTGGTTCCTTTCAGCTAGTCCCTGTGGAAATTGCTCCAGAAGGATTGTGGAGTT  279
+7        41762796  ...T......CT..G.CG............AC.....-...T.....A.....A....T.TG....A...A....--...A..C.-....G........................C...G..A........................A..GGT.GACC..A..................T................GGC..AC...TC....T.......T..T...........A..TA...CA.....C..G.TA..T........A...C....T..  41763071
+
+Query_3  280       CCTGAGGTCACACCCTAATGTGACCTTGAGAATATACGCAGCCAGGCTGTTCAGGCACCACGATAACCGTAACCGAGAAGGTCTCCGCAACCTGATGAGGAATGAGGTCACTGTACTTATCATGGGTCCTGAAGGTAACC  419
+7        41763072  ......TGG.T.T..C............GA......T.......A........A...T.TG...........T..GC........T.G......GCA.AT...AGA....T.A...AC......A...T.TC........  41763211
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 472151038801
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_047531.1 Melopsittacus undulatus isolate bMelUnd1 chromosome 5...  174        5e-42
+
+
+
+Query_4  1         ACTGGGTATCTCTCTTCCTAGATTACAGTTACTGCTGGAGAAATTTTGTTGCATACCAGCCTGGAGAAGATGATTATTGGCCCCAGAACTTCGCTGAATACATCTGTCTGAATTTCACAGAACTCTTTCGTATCTTTTTGGTTAGTAGACAGCTGAAGAAA  161
+7        41764323  .....A.C.........AC....................A..GA..............AAA......................TG..GT......CC........T........GG.....G....G..A....C.............G..CT........  41764483
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 154650196140
+
+
+Query= exon_5
+
+Length=69
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_047531.1 Melopsittacus undulatus isolate bMelUnd1 chromosome 5...  81.5       3e-14
+
+
+
+Query_5  1         TTTTTTATTTCTTCCTGCCAGGGACTTCCTCCATTTCTGTCAAACTGAATGCTAACAAGCAC  62
+7        41766758  ..G..C............T...........G..A.G..............A...........  41766819
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 48035323619
+
+
+  Database: GCF_012275295.1_bMelUnd1.mat.Z_genomic.fna
+    Posted date:  Oct 2, 2020  5:07 PM
+  Number of letters in database: 1,171,617,451
+  Number of sequences in database:  864
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

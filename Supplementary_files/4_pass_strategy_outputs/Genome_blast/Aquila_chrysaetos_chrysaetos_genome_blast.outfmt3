@@ -1,0 +1,171 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_900496995.4_bAquChr1.4_genomic.fna
+           144 sequences; 1,233,704,830 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044020.1 Aquila chrysaetos chrysaetos chromosome 17, bAquChr1....  111        2e-23
+
+
+
+Query_1  1         CAGACAAATCCAGAAATATCCATGGCTGCTGTCACTGATAGAGGTAAGTACATGTATGTGAAAA  64
+16       21421238  .................................G.................C............  21421301
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 56750302948
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044020.1 Aquila chrysaetos chrysaetos chromosome 17, bAquChr1....  71.9       1e-11
+
+
+
+Query_2  26        TGCACCCAGAGAGAACAACCAAAGGTAAGAGATATAGTTCTATC  69
+16       21422602  .................T....G.....................  21422645
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 64152516376
+
+
+Query= exon_5
+
+Length=78
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044020.1 Aquila chrysaetos chrysaetos chromosome 17, bAquChr1....  85.7       1e-15
+
+
+
+Query_3  1         ATGTTTCTTTCTTCCTGCTAGGGGCTTCCTCCATTGCTGGCAAACTTTAAATACTAACAAGTATCAGCAGCATG  74
+16       21427156  .......................A.....G..T............--.G............C............  21427227
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 74022134280
+
+
+  Database: GCF_900496995.4_bAquChr1.4_genomic.fna
+    Posted date:  Dec 15, 2021  3:54 PM
+  Number of letters in database: 1,233,704,830
+  Number of sequences in database:  144
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_900496995.4_bAquChr1.4_genomic.fna
+           144 sequences; 1,233,704,830 total letters
+
+
+
+Query= exon_3
+
+Length=389
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044020.1 Aquila chrysaetos chrysaetos chromosome 17, bAquChr1....  635        5e-180
+
+
+
+Query_1  1         GTGGAAGATACGGCCAAATGACTTCAAAAGAAATTATTTGCCTGGCCAACATCCAAAGGTGGTGTACCTCCTGTATGAAATCAGGTGGAGCAGAGGTACCATCTGGAGGAACTGGTGCTCAAACAATTCTACCCAACATGCTGAAGTCAACTTCTTGGAAAATTGTTTCAAGGCAATGCCATCAGTTTCTTGCTCCATCACTTGGGTCCTATCTACTACCCCCTGTGGGAAATGCTCCAGAAGAATTCTGGAGTTCCTGAGGGTACATCCCAATGTGACC  280
+16       21423053  .......C...A........................C..............................A.G....................................................................C...................................C.C......T........T........C...............................................................T..T...........  21423332
+
+Query_1  281       TTGGAAATATACGCAGCCAAGCTGTTCAAGCACCTGGATATCCGTAACCGGCAAGGTCTCAGGAACCTGGCAATGAATGGAGTCATTATACGTATCATGAATCTTGCAG  389
+16       21423333  ...............................................................G.........................................T...  21423441
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 441664731028
+
+
+Query= exon_4
+
+Length=119
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044020.1 Aquila chrysaetos chrysaetos chromosome 17, bAquChr1....  167        5e-40
+
+
+
+Query_2  1         ATTACAGTTACGGGTGGAAAAGATTTGTTGCATACCAACGTGGAGAAGATGATTATTGGCCCTGGAGCTTCGCTTCATACATCCTTCTGAATTGGATAGAGCTCTATCATATCCTTT  117
+16       21424673  ...........T.C.........................A.........G.....................A...........T........CA..C........C...........  21424789
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 111033058860
+
+
+  Database: GCF_900496995.4_bAquChr1.4_genomic.fna
+    Posted date:  Dec 15, 2021  3:54 PM
+  Number of letters in database: 1,233,704,830
+  Number of sequences in database:  144
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

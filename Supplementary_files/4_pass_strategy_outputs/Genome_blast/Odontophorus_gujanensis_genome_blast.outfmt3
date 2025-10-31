@@ -1,0 +1,131 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_013399175.1_ASM1339917v1_genomic.fna
+           26,662 sequences; 977,719,362 total letters
+
+
+
+Query= exon_1
+
+Length=64
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 36148981056
+
+
+Query= exon_2
+
+Length=70
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 41032858692
+
+
+Query= exon_3
+
+Length=431
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 390757136000
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VXAB01009316.1 Odontophorus gujanensis isolate B10K-DU-001-53 sca...  59.0       2e-07
+
+
+
+Query_4  4      GTATATTTCTTTTCTCAGATTACAGTTACAGTTGGAAAAAATTCGTTGCATACCAA  59
+9315     43618  ................T--.....A....TAG.......G...G............  43565
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 128956893648
+
+
+Query= exon_5
+
+Length=75
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VXAB01009316.1 Odontophorus gujanensis isolate B10K-DU-001-53 sca...  51.8       1e-05
+VXAB01010077.1 Odontophorus gujanensis isolate B10K-DU-001-53 sca...  44.6       0.002
+
+
+
+Query_5  3       ATTTCTGTCTTCTTGCTAGGGGCTTCCTCCAGTG---TCAAACTTTGAATACTAACACCAACAGCATG  67
+9315     40308   ......T..C...........A.........T..CTT......C.....                     40260
+10076    191198                                         .......A..G..................  191170
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 45917722822
+
+
+  Database: GCA_013399175.1_ASM1339917v1_genomic.fna
+    Posted date:  Oct 23, 2020  12:18 AM
+  Number of letters in database: 977,719,362
+  Number of sequences in database:  26,662
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

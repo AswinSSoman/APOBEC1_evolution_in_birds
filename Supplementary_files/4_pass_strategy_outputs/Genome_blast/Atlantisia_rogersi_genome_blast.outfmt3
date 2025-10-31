@@ -1,0 +1,173 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_013401215.1_ASM1340121v1_genomic.fna
+           159,311 sequences; 1,168,394,043 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VZUJ01079419.1 Atlantisia rogersi isolate OUT-0055 NODE_2048_leng...  56.0       7e-07
+VZUJ01047088.1 Atlantisia rogersi isolate OUT-0055 NODE_20089_len...  40.1       0.044
+
+
+
+Query_1  1      CAGACAAATCCAGAAATATCCATGGCTGCTGTCACTGATAGAGGTAAGTACATGTATGTG  60
+79418    35430  ......G.........G............C...TA...C............G...G....  35489
+47087    6918               ....................                              6899
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 53614216470
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VZUJ01079419.1 Atlantisia rogersi isolate OUT-0055 NODE_2048_leng...  46.1       8e-04
+
+
+
+Query_2  31     CCAGAGAGAACAACCAAAGGTAAGAGATATAGTTC  65
+79418    36754  ..............G..G...........C.....  36788
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 60607375140
+
+
+Query= exon_5
+
+Length=78
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VZUJ01079419.1 Atlantisia rogersi isolate OUT-0055 NODE_2048_leng...  75.8       1e-12
+
+
+
+Query_3  1      ATGTTTCTTTCTTCCTGCTAGGGGCTTCCTCCATTGCTGGCAAACT  46
+79418    41348  .................................C......G.....  41393
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 69931586700
+
+
+  Database: GCA_013401215.1_ASM1340121v1_genomic.fna
+    Posted date:  Dec 10, 2021  4:53 PM
+  Number of letters in database: 1,168,394,043
+  Number of sequences in database:  159,311
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_013401215.1_ASM1340121v1_genomic.fna
+           159,311 sequences; 1,168,394,043 total letters
+
+
+
+Query= exon_3
+
+Length=389
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VZUJ01079419.1 Atlantisia rogersi isolate OUT-0055 NODE_2048_leng...  450        1e-124
+
+
+
+Query_1  1      GTGGAAGATACGGCCAAATGACTTCAAAAGAAATTATTTGCCTGGCCAACATCCAAAGGTGGTGTACCTCCTGTATGAAATCAGGTGGAGCAGAGGTACCATCTGGAGGAACTGGTGCTCAAACAATTCTACCCAACATGCTGAAGTCAACTTCTTGGAAAATTGTTTCAAGGCAATGCCATCAGTTTCTTGCTCCATCACTTGGGTCCTATCTACTACCCCCTGTGGGAAATGCTCCAGAAGAATTCTGGAGTTCCTGAGGGTACATCCCAATGTGACC  280
+79418    37176  ...........A....G.........G...G..C..CC.....AA...G.....CCG............G.............A....C...........G.........................CC..................................C...GC.CGCTTCTC......G.C...............C..............C..............T..............C........T.....T.C................  37455
+
+Query_1  281    TTGGAAATATACGCAGCCAAGCTGTTCAAGCACCTGGATATCCGTAACCGGCAAGGTCTCAGGAACCTGGCAATGAATGGAGTCATTATACGTATCATGAATCTTGCAG  389
+79418    37456  ...A.T..C.....T.............G......C....A...............C...C.........T......C......TGC........T.....C...T...  37564
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 416517033916
+
+
+Query= exon_4
+
+Length=119
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VZUJ01079419.1 Atlantisia rogersi isolate OUT-0055 NODE_2048_leng...  131        4e-29
+
+
+
+Query_2  1      ATTACAGTTACGGGTGGAAAAGATTTGTTGCATACCAACGTGGAGAAGATGATTATTGGCCCTGGAGCTTCGCTTCATACATCCTTCTGAATTGGATAGAGCTCTATCATATCCTTT  117
+79418    39043  ...........TTC....G..T.........C......TA.........A............CA..CA...A.C.........T............C........C...........  39159
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 104739662160
+
+
+  Database: GCA_013401215.1_ASM1340121v1_genomic.fna
+    Posted date:  Dec 10, 2021  4:53 PM
+  Number of letters in database: 1,168,394,043
+  Number of sequences in database:  159,311
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

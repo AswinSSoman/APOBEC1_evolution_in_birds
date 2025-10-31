@@ -1,0 +1,151 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_013399015.1_ASM1339901v1_genomic.fna
+           19,989 sequences; 1,006,681,283 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VWZX01007183.1 Galbula dea isolate B10K-DU-001-62 scaffold1534, w...  72.5       1e-11
+VWZX01007460.1 Galbula dea isolate B10K-DU-001-62 scaffold37, who...  44.6       0.001
+
+
+
+Query_1  1        CAAACAAGTCCAGAAATACCCATGGCTGCTGTCAGTGTCAGAGGTAAGTACATTTATGTGAA  62
+7182     39225    ..G...CA..........................C.CG............G..GG.......  39286
+7459     2261072                             ..A....A........AC................   2261039
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 37227238460
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VWZX01007183.1 Galbula dea isolate B10K-DU-001-62 scaffold1534, w...  64.4       2e-09
+
+
+
+Query_2  1      TCACGAATCTTTTCTACACAGGTCCCTCACCCAGAGAGAACACCCAAGGGTAAGAGATGTAGCTCTGTCA  70
+7182     40409  ....A.G........GTGT....T.TG...............A...............CC..A...A...  40478
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 42257106822
+
+
+Query= exon_3
+
+Length=431
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VWZX01007183.1 Galbula dea isolate B10K-DU-001-62 scaffold1534, w...  349        3e-94
+
+
+
+Query_3  1      ACTGCTGGTACTCTTCTT-CAGGTGGAAGATACAGCCAAGAGACTTCCAAAGGAATTATTGGCCCAGACAAAATGGACGGGTGGTGTACCTGCTGTATGAAATCAGGTGGAGAAGAGGTTCCATCTGGAGGAACTGGTGCTTGAACAACCACGAACAACATGCTGAAGTCAACTTCCTGGAAAATCATTTCAATGACAGGCCACAAACTCCTTGCTCCATCACCTGGTTCCTTTCAACTAGTCCCTGTGGAAAGTGCTCCAGAAGGATTCTGGATTTCCT  279
+7182     40924  .........GT.T..G.CA...............A....AT......A...TA.......T...TG.C...CGCCC.AA.C.............................G.C......AA..C.................CA.....TTCTTCC........C...A........T........TG......G.CTCT...TTC.GT.T......................A..T....CC........G..A..........AA........G.....  41203
+
+Query_3  280    GAGGTCGCACCCTAATGTGACCTTGGTAATATATGCAGCCAAGCTGTTCAGGCACCACGATATCCGCAACCGACAAGGCCTCCGCAACCTGAAAATGAACGGAGTCACCATCCGTATCATGAATCTTGAAGGTAACCCAGCTGCTCTTTG  429
+7182     41204  ...TG.A..T..C.........C...A....A..................A.....TG........T.....GA.G..T...A.TG.....GT..............TTC.A............G...C.......T..A..A..T....  41353
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 402424649600
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VWZX01007183.1 Galbula dea isolate B10K-DU-001-62 scaffold1534, w...  134        4e-30
+
+
+
+Query_4  3      TGGGTGTCTCTCTTCTTAGATTACAGGTACTGCTGGAGAAATTTTGTTGCATACCAAGCTGGAGAAGATGATTATTGTCCCCAGAACGTCACTGTATACTTCCTTCTTAATTGCACAGAACTCTTTCGTATATTTTTGGTAAGTAGACACCTGAAGAAA  161
+7182     42534  ...A.A..........C....................A..GA...............CA.........A.......TG.......G.T...TCCC....A..T..G.G...CAG.....G...AA..A...CC..A....T.....G...T........  42692
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 132805411464
+
+
+Query= exon_5
+
+Length=69
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VWZX01007183.1 Galbula dea isolate B10K-DU-001-62 scaffold1534, w...  50.9       4e-05
+VWZX01004970.1 Galbula dea isolate B10K-DU-001-62 scaffold3960, w...  42.8       0.006
+
+
+
+Query_5  3      ttttttttCTTCCTCCTAGGGGCTTCCTCCACTTCTGGCGAACTGAATGCTAACAGGCATC  63
+7182     44507   ...C......TT.G................T.G...T.A........CA...T.A.T...  44566
+4969     39874  .......................                                        39896
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 41250985231
+
+
+  Database: GCA_013399015.1_ASM1339901v1_genomic.fna
+    Posted date:  Jan 7, 2022  8:37 PM
+  Number of letters in database: 1,006,681,283
+  Number of sequences in database:  19,989
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

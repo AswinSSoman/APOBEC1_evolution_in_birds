@@ -1,0 +1,149 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_018139145.1_ASM1813914v1_genomic.fna
+           542 sequences; 1,240,179,868 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM030802.1 Gymnogyps californianus isolate 813 chromosome 1, whol...  72.5       1e-11
+
+
+
+Query_1  1          CAGAGAAATCCAGAAATATCCATGGCTGCGGTCATTGATAGAGGTGAGTGCACGTGTGTGAA  62
+0        134417519  ....C........................CA...C..........A...A..T..A..C...  134417580
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 44645928912
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM030802.1 Gymnogyps californianus isolate 813 chromosome 1, whol...  101        3e-20
+
+
+
+Query_2  1          TCACAAATCTTTTCTGTATAGATCCTGCACCCAGAGAGAACAACCAAGGGTAAGAAATACAGTTCTATCA  70
+0        134418861  ...............A..C.................-C.................G..............  134418929
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 52086917064
+
+
+Query= exon_3
+
+Length=431
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM030802.1 Gymnogyps californianus isolate 813 chromosome 1, whol...  584        9e-165
+CM030803.1 Gymnogyps californianus isolate 813 chromosome 2, whol...  46.4       0.005 
+
+
+
+Query_3  1          CTGCTGATACTTTTGTCCCAGGTGGAAGATGCAGCCAAATGACTTCAAAAGAAATTATTTGCCTGGCTGTTATCCAAAGGTGGTATACCTGCTGTATGAAATCAAATGGAGGAGAGGTACCACCTGGAGGAACTGGTGCTCAAACAGTCGTAACCTACATGCTGAAGTCAACTTCTTGGAAAACTGTTTCAAGGCTGTGCCATCAGTTTCTTGCTCCATGACCTGGTTCCTGTCTGCTATCCCCTGTGGGAAATGTTCCAGAAGAATTCTGGAGTTCCTG  280
+0        134419315  ......G.........TG............A....................................CAAC..........A..G..........G........TG.....C..........T........G..............A.TC..C..C...........................T...........CA......................C......G....A...A...CT..............C........................  134419594
+1        7309503                          ....T.G...T.....C..................                                                                                                                                                                                                                                 7309537
+
+Query_3  281        AAGGTATATCCCAATGTGACCTTGGAAATATATGCTGCCAAGCTGTTCAAGCACCTGGATATCCGTAACCGGCAAGGTCTCAGGAATCTGGCAATGAATGGAGTCATTATACGTATCATGAATCTTGCAGGTAACCCAGCTACTCTTTGGC  431
+0        134419595  GG.A..C..A.........................A.................T................................C.......CA................A...........G..........................  134419745
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 496065226400
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM030802.1 Gymnogyps californianus isolate 813 chromosome 1, whol...  211        7e-53
+
+
+
+Query_4  1          CTGGATATTCTCTCTTCTCAGATTACAATTACTGCTGGAAAAGATTTGTTGCATATCAACATGGAGAAGATGATTATTGGCCTCAGGGCTTCGCTTCACACATCTTGCTGAACTGGATAGAGCTCTGTCATATCCTTTGGGTTAGTAGGCACTTGAAGAAA  161
+0        134420951  ........-..................GC..............T...........C..G....................A..C...A...........T.......T.....T....C....................TCA.C..................  134421110
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 163701667800
+
+
+Query= exon_5
+
+Length=78
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM030802.1 Gymnogyps californianus isolate 813 chromosome 1, whol...  94.2       5e-18
+
+
+
+Query_5  1          ATGTTTCTTTCTTCCTCACAGGAGCTTCCTCCATTGCTGGCAAACTTTGCATACTAGCAAGCATCAGCAGTATGCTTT  78
+0        134423415  ................GCT...GT.....................--..A......A.............C.......  134423490
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 62008234600
+
+
+  Database: GCA_018139145.1_ASM1813914v1_genomic.fna
+    Posted date:  Dec 10, 2021  5:19 PM
+  Number of letters in database: 1,240,179,868
+  Number of sequences in database:  542
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

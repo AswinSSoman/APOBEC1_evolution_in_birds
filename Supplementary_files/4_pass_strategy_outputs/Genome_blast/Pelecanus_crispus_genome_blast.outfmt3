@@ -1,0 +1,147 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000687375.1_ASM68737v1_genomic.fna
+           63,982 sequences; 1,160,924,693 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009085556.1 Pelecanus crispus isolate BGI_N334 unplaced genomi...  92.4       1e-17
+
+
+
+Query_1  2      AGACAAATCCAGAAATATCCATGGCTGCTGTCACTGATAGAGGTAAGTGCATGTTTGTGAAAA  64
+28268    20076  ................G....................C..........A....GA........  20014
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 41728795092
+
+
+Query= exon_2
+
+Length=71
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009085556.1 Pelecanus crispus isolate BGI_N334 unplaced genomi...  55.4       1e-06
+
+
+
+Query_2  1      TCACAAATCTTTTCTTTATAGATCCTGCACCCAGA  35
+28268    18715  ...............A..............A....  18681
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 49842727471
+
+
+Query= exon_3
+
+Length=431
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009085556.1 Pelecanus crispus isolate BGI_N334 unplaced genomi...  679        0.0  
+
+
+
+Query_3  1      CTGCTGCTAATTTTGTTGCAGGTGGAAGATACAGCCAAATGACTTCAAAAGAAATTATTTGCCTGGCCAACATCCAAAGGTGGTGTACCTGCTGTATGAAATCAGGTGGAGCAGAGGTACCATCTGGAGGAACTGGTGCTCGAACAATTCTACCCAACATGCTGAAGTCAACTTCTTGGAAAATTGTTTCAAGGCCATGCCATCAGTTTCTTGCTCCATCACCTGGGTCCTATCTACTACCCCCTGTGGGAAATGCTCCAGAAGAATTCTGGAGTTCCTG  280
+28268    18273  ......G..C..C...............T........G.A............................................A..............................................G.........A..........AA...........................................G..............................G...................................................  17994
+
+Query_3  281    AGGGTACATCCTAGTGTGACCTTGGAAATATATGCAGCCAAGCTGTTCAAGCACCTGGATATCCGTAACCGGCAAGGTCTGAGGAACCTAGCAATGAATGGAGTCATTATACATATAATGAATCTTGCAGGTAACCCAACTACTCTTTGGC  431
+28268    17993  ...........C.A...............C..............C.........................A.........C........G......................G...C..................................  17843
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 463576500400
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009085556.1 Pelecanus crispus isolate BGI_N334 unplaced genomi...  201        3e-50
+
+
+
+Query_4  1      ACTGGATATCTCTCTTCTCAGATTACAGTTACTGGTGGAAAATATTTGTTGCATACCGACATGGAGAAGAAGGTTATTGGCCCTGGAGCTTTGCTTCATACATCTTTCTGAATCAGACAGAGCTCTGTCATATCCTTTTGGTTAGTAGGCACCTGAAAAAA  161
+28268    16640  ..................................C.......G..........C...A............T.A.............GA...CTG.C.................TG..T.......C........TA................T....G...  16480
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 152997136380
+
+
+Query= exon_5
+
+Length=75
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009085556.1 Pelecanus crispus isolate BGI_N334 unplaced genomi...  104        3e-21
+
+
+
+Query_5  1      ATGTTTCTTTCTTCCTGCTAGGGGCTTCCTCCG---CTGGTAAACTTTGAATACTAACGAGCATCAGCAGCATGCCTT  75
+28268    14671  ................................ATTC....C...........T.....A................T..  14594
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 54479260259
+
+
+  Database: GCF_000687375.1_ASM68737v1_genomic.fna
+    Posted date:  Dec 10, 2021  4:48 PM
+  Number of letters in database: 1,160,924,693
+  Number of sequences in database:  63,982
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

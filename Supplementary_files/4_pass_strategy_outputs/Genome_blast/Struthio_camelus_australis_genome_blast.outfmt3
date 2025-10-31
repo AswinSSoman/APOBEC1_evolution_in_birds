@@ -1,0 +1,134 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000698965.1_ASM69896v1_genomic.fna
+           6,915 sequences; 1,225,041,896 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009271190.1 Struthio camelus australis isolate BGI_N308 unplac...  43.7       0.006
+
+
+
+Query_1  1        CAGACAAATCCA--GAAACATCCATGGCTGCTGTCCCTGATAGAGGTATGTGAAAAGCATGTATG  63
+1188     3279148  ........GA..AC.T.G..G.A.A.T......G.ATG.G...............T.........  3279084
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 44094537936
+
+
+Query= exon_2
+
+Length=69
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 50218779316
+
+
+Query= exon_3
+
+Length=431
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 489931012400
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009272133.1 Struthio camelus australis isolate BGI_N308 unplac...  146        2e-33
+
+
+
+Query_4  1     ACTGGATATCTCTTTTCTCAGATTACAGTTACTGCTGGAAAACCTTTGTTGCATACCAACGTGCAGAAGACATTTATTGGTCCTGGAGATTCAAGTCATATATCTTTCTGAATTGCATGGAGCTCTATCGTATCCTTTTGGTTAGTAGGC-ATTTGAAGAAA  161
+2131     8987  .........T.A.........................A....G.-..........G..G.AG.G......TGA.....A.C.......C...TCT.....A...A..T....C..G..A.......G..A........C.........A.A.......A...  8827
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 161679059652
+
+
+Query= exon_5
+
+Length=78
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009272133.1 Struthio camelus australis isolate BGI_N308 unplac...  51.8       2e-05
+
+
+
+Query_5  1     ATGTTTCTTTCTCTCTG-CTAGGGGCTTCCTCCATTGCT--------TTGAATACTAACAAGCATCAGCAG----CTTTCGAGCTCACTTT  78
+2131     6439  ..T.....C...-...AT......CA...T.........GGCAAGCT......G.................CATA....T...T....C..  6350
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 61242413800
+
+
+  Database: GCF_000698965.1_ASM69896v1_genomic.fna
+    Posted date:  Jan 7, 2022  8:37 PM
+  Number of letters in database: 1,225,041,896
+  Number of sequences in database:  6,915
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

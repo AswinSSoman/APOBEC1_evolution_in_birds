@@ -1,0 +1,141 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_005519975.1_AIIM_Pcri_1.0_genomic.fna
+           179,332 sequences; 1,027,510,962 total letters
+
+
+
+Query= exon_1
+
+Length=64
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 37838752926
+
+
+Query= exon_2
+
+Length=70
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 42944565972
+
+
+Query= exon_3
+
+Length=431
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+QZWQ01179143.1 Pavo cristatus isolate SKPea2016_SI scaffold997_le...  269        2e-70
+QZWQ01052066.1 Pavo cristatus isolate SKPea2016_SI scaffold52342_...  90.6       4e-16
+
+
+
+Query_3  1       CTGCTGATACTTTTATTTCAGGTGGAAGATGCAGCCAGATGACTTCAAATCAAACTATTTGCCTTCCCAACACCCAAAGGTCGTGTACTTGATGTATGCGATCAAATGGCGCAAAGGTACCGTCTGGAGGGGTTGGTGCTCAAACAATCCTACCCAACACGCTGAAGTCAACTTCTTGGAAAATTGCTTCAAGCCCTTGTCATCAGCTTCCTGCTCTATCACCTGGGTCTTATCTACTACCCCCTGTGGGAAGTGCTCCAAAAGAATTCTGGAGTTCCTG  280
+179142   823535                                                                                                                                                   ...T...........A........C.............CC.......AGG....C......T...T.....C.C..........C......................A.A...T.G..A...C.CA.......A.  823669
+52065    266     ..............G......A.....A..T......A...........--.TG..........GA......A.TG.G...GT.A.G.C.TT.C..A.AAC.T.GG..TA...C......TA........AA........A.....                                                                                                                                        123
+
+Query_3  281     AGGATACACCCCAATGTAACCCTGAAAATATTCGCAGCCAAGATTTTCAAACATCTGGATATTCGTAACCGGCAAGGTCTCAGGAACCTGACAGAGAAAGGAGTCATCATACGTATTATGAGTCCTGCAGGTAACCCAACTACTCTTCATC  431
+179142   823670  ....G.T..TA......G...T..G......A.A....T...T.G........C.....C...T.....T......A.T......G.....TTAT.G....CA........T.........A..T..A...........-...........  823819
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 408780668000
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+QZWQ01179143.1 Pavo cristatus isolate SKPea2016_SI scaffold997_le...  158        3e-37
+
+
+
+Query_4  3       TGTATATTTCTTTTCTCAGATTACAGTTCCAGCTGGAAAAGATTTGTTGCATACCAACATGGAGAAGAAGATTATTGGCCCTGGAATTTCATTCTGCACATCCTTCTGAACTGCATAGAGCTACACCGTATCATTTTGGTTAGTAGCCACTTTAAAGAA  161
+179142   824991  .........................A..G.T.G...........G..................-....T.G...........T..GC.....-----.....T....CC....GG.......CTGT.A.....................G...G.....  825143
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 134944964088
+
+
+Query= exon_5
+
+Length=75
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+QZWQ01179143.1 Pavo cristatus isolate SKPea2016_SI scaffold997_le...  45.5       0.002
+QZWQ01002980.1 Pavo cristatus isolate SKPea2016_SI scaffold3143_l...  45.5       0.002
+
+
+
+Query_5  3       CATTTCTGTCCTCTTT-TAGGGGCTTCCTCCAGTG---TTAAACCTTGAA  48
+179142   827204  .......T.......GC...............T..CTT.C....T.....  827253
+2979     85465   .......T.......GC...............T..CTT.C....T.....  85416
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 48057014302
+
+
+  Database: GCA_005519975.1_AIIM_Pcri_1.0_genomic.fna
+    Posted date:  Oct 17, 2020  2:53 PM
+  Number of letters in database: 1,027,510,962
+  Number of sequences in database:  179,332
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,132 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_001577835.2_Coturnix_japonica_2.1_genomic.fna
+           2,012 sequences; 927,656,957 total letters
+
+
+
+Query= exon_1
+
+Length=64
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 34321297421
+
+
+Query= exon_2
+
+Length=70
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 38959226082
+
+
+Query= exon_3
+
+Length=431
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_029516.1 Coturnix japonica isolate 7356 chromosome 1, Coturnix...  247        2e-63
+
+
+
+Query_3  146       AATCCTACCCAACACGCTGAAGTCAACTTCTTGGAAAATTGCTTCAAGCCCTTGTCATCAGCTTCCTGCTCTATCACCTGGGTCTTATCTACTACCCCCTGTGGGAAGTGCTCCAAAAGAATTCTGGAGTTCCTGAGGATACACCCCAATGTAACCCTGAAAATATTCGCAGCCAAGATTTTCAAACATCTGGATATTCGTAACCGGCAAGGTCTCAGGAACCTGACAGAGAAAGGAGTCATCATACGTATTATGAGTCCTGCAGGTAACCCAACTACTC  425
+0        68560521  ...T...........A.........G............C........TGG....C....CAT...T.....C.C..........C...........A..........A.AG..T.G..A.....CA.......A.G...G.T..TA......G...T..G......A.A.T......T.G........C.....C...T.....T......A.T......G.....TGAT.G....CA..G.....T.........A..T..AC..........-.....  68560799
+
+Query_3  426       TTCATC  431
+0        68560800  ......  68560805
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 371966235397
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_029516.1 Coturnix japonica isolate 7356 chromosome 1, Coturnix...  122        2e-26
+
+
+
+Query_4  1         ACTGTATATTTCTTTTCTCAGATTACAGTTCCAGCTGGAAAAGATTTGTTGCATACCAACATGGAGAAGAAGATTATTGGCCCTGGAATTTCATTCTGCA--CATCCTTCTGAACTGCATAGAGCTACACCGTATCATTTTGGTTAGTAG  148
+0        68561966  .......G.C.G...............A..A.T.G.........C.G....T......G...........T.G...........T..GC...--...C..TG....T....CC....GG.......CTGT.A...T..............  68562113
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 122443016388
+
+
+Query= exon_5
+
+Length=75
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 43597229187
+
+
+  Database: GCF_001577835.2_Coturnix_japonica_2.1_genomic.fna
+    Posted date:  Dec 17, 2021  7:05 PM
+  Number of letters in database: 927,656,957
+  Number of sequences in database:  2,012
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

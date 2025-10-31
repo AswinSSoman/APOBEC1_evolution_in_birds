@@ -1,0 +1,134 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_003342895.1_casCas1_genomic.fna
+           3,184 sequences; 1,209,001,349 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+PTFA01000021.1 Casuarius casuarius isolate B32419 scaffold_20, wh...  43.7       0.006
+
+
+
+Query_1  3       GAAAAATCCAGAAATATCCATGGCTGCTGTCACTGA  38
+1113     936944  ...............T....G..T.....GG.....  936909
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 43520839092
+
+
+Query= exon_2
+
+Length=70
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 50774312274
+
+
+Query= exon_3
+
+Length=431
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 483561058000
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+PTFA01000416.1 Casuarius casuarius isolate B32419 scaffold_415, w...  177        1e-42
+
+
+
+Query_4  1       ACTGGATATCTCTCTTCTCAGATTACAGTTTCTGTTGGAAAAGATTTGTTGCATACCAACATGGAGAAGAAGAGTATTGGCCCTGGAGCTTCGCTTCATACATCTTTCTGAATTGGATAGAGCTCTGTCATATCCTTTGGGTTAGTAAGC-ACCTGAAGAAA  161
+2536     291496  .............T................A...----....A....-......................T..T.............CA...T.......A...A..T....C..........G.C............T........G..A..T....A...  291340
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 159575989716
+
+
+Query= exon_5
+
+Length=76
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+PTFA01000416.1 Casuarius casuarius isolate B32419 scaffold_415, w...  52.7       2e-05
+
+
+
+Query_5  19      TAGGGGCTTCCTCCATTGCTGCCAAAC--TGAATACTTACAAACATCAGCAGCACGCTTT  76
+2536     289100  ......GA.............G...G.TT.....G.CC....G...........TA....  289041
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 58027785456
+
+
+  Database: GCA_003342895.1_casCas1_genomic.fna
+    Posted date:  Dec 16, 2021  11:20 AM
+  Number of letters in database: 1,209,001,349
+  Number of sequences in database:  3,184
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,147 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_009650955.1_bCorMon1.pri_genomic.fna
+           105 sequences; 1,112,734,094 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_045477.1 Corvus moneduloides isolate bCorMon1 chromosome 2, bC...  67.1       5e-10
+
+
+
+Query_1  1         CAAACAAATCCAGAAATACCCATGGCTGCTGATGGTGCCAGAGGTAAGAACATTTCTGTGAAAG  64
+1        30624794  ..C....G.......G...............TCA...G..........C.....AA....G...  30624857
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 40058321544
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_045477.1 Corvus moneduloides isolate bCorMon1 chromosome 2, bC...  71.6       1e-11
+
+
+
+Query_2  2         CACAAATCTTTTCTACACAGGTCCCTTACCCAGAGAGAACAACCAAGGGTAAGAGATGTAGCTCTGTCA  70
+1        30626239  .......A......GT....A..T.C.GT....C.GC.............................C..  30626307
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 46734708468
+
+
+Query= exon_3
+
+Length=431
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_045477.1 Corvus moneduloides isolate bCorMon1 chromosome 2, bC...  544        7e-153
+
+
+
+Query_3  1         ACTGCTGGTACTCTTCTTCAGGTGGAGGATGCAGCCAAGAGACTTCCAAAGAAATTACTCACCTAGCCAAAATGGACGGGTGGTGTACCTGCTGTATGAAATCAGATGGAAAGGAGGTTCCATCTGGAGGAACTGGTGCTCAAACAATCCTGAACAACATGCTGAAATCAACTTCTTGGAAAATCGCTTCAATGACAGGCCACAAACTTCTTGCTCTATCACCTGGTTCCTTTCAACTAGTCCCTGTGGAAAGTGCTCCAAAAGGATTCTGGAATTCCTG  280
+1        30626650  .....C.........A..........A...AG....GG............T......T..G.........C..C......G........................G....G.A.................................C..A.AG.............G..........A......T.T.....A............GT.C.......C..................G......................TG.............G......  30626929
+
+Query_3  281       AGGTCACACCCTAATGTGACCTTGAAAATATATACAGCCAAGCTGTTCAGGCACTACGAGATCCGGAACCGACAAGGTCTCCGCAACCTGATAATGAATGGAGTGGCTGTGCATATCATGAATCTTGAAGGTAACCCAGCTGCTCTTTGTC  431
+1        30626930  .A.....G....T....................G.........................T.....T...A..G........T........GG....C.......CA..A.A.....A.......C................A.........  30627080
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 445092335600
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_045477.1 Corvus moneduloides isolate bCorMon1 chromosome 2, bC...  186        3e-45
+
+
+
+Query_4  1         ACTGGGTATCTCTCTTCTTAGATTACAGTTACTGCTGGACAAATTTTGTTGCACACCAACCTGGAGAAGTTCATTATCAGCCCCAGAACATCACTGTACACTTCTTTCTGAATTGCATGGAACTCTTCCATATCTTTTTGGTTAGTAGACACCTGAAGAAA  161
+1        30628205  .......................................G...C.......TCT.............---.......TG.A.....G..T...A..C.....A..............GA......C.T.G.....A.................C.......  30628362
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 146880498468
+
+
+Query= exon_5
+
+Length=69
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_045477.1 Corvus moneduloides isolate bCorMon1 chromosome 2, bC...  86.0       6e-16
+
+
+
+Query_5  3         tttttttCCTTCCTCCTAGGGGCTTCCTCCACTTCTGTGAAACTGAATGCTAACGAGCATCACCACC  69
+1        30631556  ..G....T.......................T.....AC........CA.....A............  30631622
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 45621977314
+
+
+  Database: GCF_009650955.1_bCorMon1.pri_genomic.fna
+    Posted date:  Nov 17, 2021  1:39 PM
+  Number of letters in database: 1,112,734,094
+  Number of sequences in database:  105
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,147 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_009819775.1_bPhoRub2.pri_genomic.fna
+           90 sequences; 1,246,226,932 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM020215.1 Phoenicopterus ruber ruber isolate bPhoRub2 chromosome...  64.4       2e-09
+
+
+
+Query_1  1         ACAGATAAATGC-GAAATATCCATGGCTGCTGTCACTGAAAGA-GGTAAGTACATGGATGTCAA  62
+0        85542596  .....C....C.A.......................C.GT...G......C.....T....G..  85542533
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 44864078832
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM020215.1 Phoenicopterus ruber ruber isolate bPhoRub2 chromosome...  100        3e-20
+
+
+
+Query_2  6         AATCTTTTCTATATAGATCCTGCACCCAGAAAGAACCACCAAGGGTAAGAGAACAACCAAGTTCT  70
+0        85541240  ........................T.....G.....A..A.........................  85541176
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 52341425304
+
+
+Query= exon_3
+
+Length=431
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM020215.1 Phoenicopterus ruber ruber isolate bPhoRub2 chromosome...  570        2e-160
+
+
+
+Query_3  1         CTGCTGGTACTTTTGTCCCAGGTGGAAGATACAGCCAGATGACTTCAAAGGAAATTATTTGCCTCACCAACATCCAAGGGTGGTGTACCTACTGTATGAAATCAGGTGGAGCAGAGGTACCATCTGGAGGAACTGGTGTTCAAACAGTTCTACCCAACATGCTGAAATCAACTTCTTGGAAAATTGTTTCAAAACCAGCAAAACAGTTTCTTGCTCCATCATCTGGGTCCTATCTACTACCCCCTGTGGGAAATGCTCCAGAAGAATTCTGGAGTTCCTG  280
+0        85540793  ..................T......................T........-........C....GG..G...............A...............T.A--.....................-...........C.......A.C..........C................................GG..GTGCC.T.....................................T...............G....................T..  85540518
+
+Query_3  281       A-GGGTACATCCCAATGTGACCTTGGAAATATATGCAGCCAAGCTGTTCAAGCACCTGGATACCCGTAATCGACAAGGTCTCAGGCACCTGGCAATGAAAGGAATCATTATACATATCATGAATGTTGCAGGTAACCCAACTGCTCTTTGTC  431
+0        85540517  .G.............................C.C......-.....................T......C..G............G.............T...G.........G..........-A................A.........  85540368
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 498489656800
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM020215.1 Phoenicopterus ruber ruber isolate bPhoRub2 chromosome...  237        5e-61
+
+
+
+Query_4  1         ACTGGATATCTTTCTTCTCAGATTACAGTTACTGGTGGAAAAGATTTGTTGCATGCCAACATGGAGAAGATGATTATTGGCCCTGGAACTTTGCTTCATACATCTTTGTGAATCAGCTAGTGCTCCATCATATCCTTTTGGTTAGTAGGCACTTGAAGAAA  161
+0        85539166  ...........C...............A.........................CA................................T...CA......C....................A....TG...........C......................  85539006
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 164501610504
+
+
+Query= exon_5
+
+Length=76
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM020215.1 Phoenicopterus ruber ruber isolate bPhoRub2 chromosome...  102        1e-20
+
+
+
+Query_5  1         ATGTTTCTTCTTTCATGCTAGGGGCTTCCTCCATTGCTGGCAAACTGAATACTAACAAGCATCAGCAAGATGCTTT  76
+0        85536728  .........TC...C...........................G......C.................GC.G.....  85536653
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 59818771776
+
+
+  Database: GCA_009819775.1_bPhoRub2.pri_genomic.fna
+    Posted date:  Jan 7, 2022  8:36 PM
+  Number of letters in database: 1,246,226,932
+  Number of sequences in database:  90
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

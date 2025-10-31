@@ -1,0 +1,173 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_003676055.1_GouldianFinch_genomic.fna
+           18,372 sequences; 1,070,785,140 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+QUSF01000006.1 Erythrura gouldiae isolate Red01 scaffold_6, whole...  87.7       2e-16
+
+
+
+Query_1  9         TCCAGAAATACCCATGGCCTCTGTCAGTGCCAGAGGTAAGTACATTTATGTGAAAG  64
+5        41167434  ..................TG....T...............................  41167379
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 49240904424
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+QUSF01000006.1 Erythrura gouldiae isolate Red01 scaffold_6, whole...  113        4e-24
+
+
+
+Query_2  1         TCACAAATCTTTTCTACACAGGTCCCTCATCCAGAGAGAACAACCAAGGGTAAGAGA  57
+5        41166007  .........................................................  41165951
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 55663631088
+
+
+Query= exon_5
+
+Length=69
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+QUSF01000006.1 Erythrura gouldiae isolate Red01 scaffold_6, whole...  105        9e-22
+QUSF01000012.1 Erythrura gouldiae isolate Red01 scaffold_12, whol...  40.1       0.045
+
+
+
+Query_3  1         ttttttttttCTTCCTCCTAGGGGCTTCCTCCATTTCTGGCAAACTGAATGCTAACGAGCCTCACCACC  69
+5        41161005  .................................C.....................T.G..A........  41160937
+11       16135490   ....................                                                  16135509
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 54593176644
+
+
+  Database: GCA_003676055.1_GouldianFinch_genomic.fna
+    Posted date:  Sep 30, 2020  10:41 PM
+  Number of letters in database: 1,070,785,140
+  Number of sequences in database:  18,372
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_003676055.1_GouldianFinch_genomic.fna
+           18,372 sequences; 1,070,785,140 total letters
+
+
+
+Query= exon_3
+
+Length=389
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+QUSF01000006.1 Erythrura gouldiae isolate Red01 scaffold_6, whole...  531        4e-149
+
+
+
+Query_1  1         GTGGAAGATGCAGGCAAGAGACTTCCAAAGAAATTATTTGCCTGGAGAAAATGGACGGGTGGTGTACCTGCTGTATGAAATCAGGTGGAGAAGTGGTTCCATCTGGAGGAACTGGTGCTCGAACAACCGTGAACAACACGCTGAAGTCAACTTCCTGGAAAATCACTTCAATGACAGGACACAAACTCCTTGCTCCATCACCTGGTTCCTTTCAACTAGTCCCTGTGGAAACTGCTCCAGAAGGATTCTGGAGTTCCTGAGGTCACACCCTAACGTGACC  280
+5        41165597  .........A...C...............T...C..C.CA..CA..C..............................................A.......................T.T.......AACA.C.....T..........................T............C....................................................G....................T...........G........T......  41165318
+
+Query_1  281       TTGGTAATATATGCAGCCAAGCTGTTCAGGCACCTCGATTTCCGGAACCGACAAGGTCTCCGCACCCTGATGGTGAATAGAGTCACTCTACGTATCATGAGTCCTGAAG  389
+5        41165317  ..................................A....A....C...................A....GAAA....CG........A............A..T.....  41165209
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 384213998820
+
+
+Query= exon_4
+
+Length=119
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+QUSF01000006.1 Erythrura gouldiae isolate Red01 scaffold_6, whole...  139        2e-31
+
+
+
+Query_2  1         ATTACAGCTACTGCTGGAGAAATTTTGTTGCACACCAGCCTGGAGAAGATAATTATTGGCCCCAGAACTTCATTTTATACTTCGTTCTGAATAGCATAGAACTCTTACACATCTTTTTG  119
+5        41164061  .......G........................T....AG...........G.......T.........G...C.G...G....T....T...T...C.........T.GT.........  41163943
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 96322711680
+
+
+  Database: GCA_003676055.1_GouldianFinch_genomic.fna
+    Posted date:  Sep 30, 2020  10:41 PM
+  Number of letters in database: 1,070,785,140
+  Number of sequences in database:  18,372
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

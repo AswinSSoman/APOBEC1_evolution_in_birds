@@ -1,0 +1,131 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_008692595.2_Cv_LA_2.0_genomic.fna
+           6,035 sequences; 948,540,911 total letters
+
+
+
+Query= exon_1
+
+Length=64
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 35089984742
+
+
+Query= exon_2
+
+Length=70
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 39831621102
+
+
+Query= exon_3
+
+Length=431
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 380292304261
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VONY02000001.1 Colinus virginianus isolate B-91918 sc1, whole gen...  67.1       1e-09
+
+
+
+Query_4  1          ACTGTATATTTCTTTTCTCAGATTACAGTTACAGTTGGAAAAAATTCGTTGCATACCAA  59
+0        109936274  ..A........................A....TAG.......G.C.G.....C......  109936216
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 125184298272
+
+
+Query= exon_5
+
+Length=75
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VONY02000001.1 Colinus virginianus isolate B-91918 sc1, whole gen...  47.3       5e-04
+VONY02000002.1 Colinus virginianus isolate B-91918 sc2, whole gen...  44.6       0.002
+
+
+
+Query_5  3          ATTTCTGTCTTCTTGCTAGGGGCTTCCTCCAGTG---TCAAACTTTGAATACTAACACCAACAGCATG  67
+0        109933029  ......T.GC...........A.G.......T..CTT............                     109932981
+1        19317244                                          .......A..G..................  19317216
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 44573480757
+
+
+  Database: GCA_008692595.2_Cv_LA_2.0_genomic.fna
+    Posted date:  Oct 28, 2021  10:16 AM
+  Number of letters in database: 948,540,911
+  Number of sequences in database:  6,035
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,134 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_003343035.1_aptRow1_genomic.fna
+           4,120 sequences; 1,228,902,913 total letters
+
+
+
+Query= exon_1
+
+Length=64
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 44236351908
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_020450197.1 Apteryx rowi isolate R43461 unplaced genomic scaff...  42.8       0.007
+
+
+
+Query_2  17      TATAGATCCTGCATCCAGAAAGA  39
+3002     649005  .......................  648983
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 51609077226
+
+
+Query= exon_3
+
+Length=431
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 491510077200
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_020450847.1 Apteryx rowi isolate R43461 unplaced genomic scaff...  162        3e-38
+
+
+
+Query_4  1       ACTGGATATCTCTCTTCCTAGATTACAGTTACTGCTGGAAAAGATTTGTTGCATACCAACATGGAGAAGATGATTATTGGCCCCAGAACTTCGCTGCATACATCTTTCTGAATTGGAGAGAGCTTGGTCATATCTTTTTGGTTAGTAGACACCT  154
+3652     391706  .........T...T...TC.C.............T..A....-.............G..........................TG..G....T..T....A...A..T....C....T......CTC.....C.C................G..  391554
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 162199413156
+
+
+Query= exon_5
+
+Length=69
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_020450847.1 Apteryx rowi isolate R43461 unplaced genomic scaff...  45.5       0.002
+
+
+
+Query_5  4       TTTCTTTCTTCCTACTAGGGTCTTCCTCCATTGCTGCCATAC--TGAATACTAATAAGCATCACCA  67
+3652     389147  .....C.....TGT.......A...........T..A..AG.TT.....G.CC.C........G..  389082
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 50380289673
+
+
+  Database: GCF_003343035.1_aptRow1_genomic.fna
+    Posted date:  Nov 20, 2021  1:04 PM
+  Number of letters in database: 1,228,902,913
+  Number of sequences in database:  4,120
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

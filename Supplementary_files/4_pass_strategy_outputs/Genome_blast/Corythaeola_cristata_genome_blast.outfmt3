@@ -1,0 +1,171 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_013396815.1_ASM1339681v1_genomic.fna
+           36,534 sequences; 1,091,055,752 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+WBMX01012573.1 Corythaeola cristata isolate B10K-CU-031-40 scaffo...  105        8e-22
+
+
+
+Query_1  4     ACAAATCCAGAAATATCCATGGCTGCTGTCACTGATAGAGGTAAGTACATGTATGTGAAAA  64
+12572    4231  .............C.......................................C.......  4171
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 50158314440
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+WBMX01012573.1 Corythaeola cristata isolate B10K-CU-031-40 scaffo...  83.8       3e-15
+
+
+
+Query_2  4     CAAATCTTTTCTATATAGATCTTGCACCCAGAGAGAACAACCAAAGGTAAGAGATATAGTTCTATC  69
+12572    2863  ..................G..C.A....................G...........C..G......  2798
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 56700703280
+
+
+Query= exon_5
+
+Length=78
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+WBMX01000499.1 Corythaeola cristata isolate B10K-CU-031-40 scaffo...  121        2e-26
+
+
+
+Query_3  1       ATGTTTCTTTCTTCCTGCTAGGGGCTTCCTCCATTGCTGGCAAACTTTAAATACTAACAAGTATCAGCAGCATGCTT  77
+498      274527  ................................G..C....A....................C...............  274451
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 65423888400
+
+
+  Database: GCA_013396815.1_ASM1339681v1_genomic.fna
+    Posted date:  Nov 21, 2020  12:14 PM
+  Number of letters in database: 1,091,055,752
+  Number of sequences in database:  36,534
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_013396815.1_ASM1339681v1_genomic.fna
+           36,534 sequences; 1,091,055,752 total letters
+
+
+
+Query= exon_3
+
+Length=389
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+WBMX01012573.1 Corythaeola cristata isolate B10K-CU-031-40 scaffo...  603        8e-171
+
+
+
+Query_1  1     GTGGAAGATACGGCCAAATGACTTCAAAAGAAATTATTTGCCTGGCCAACATCCAAAGGTGGTGTACCTCCTGTATGAAATCAGGTGGAGCAGAGGTACCATCTGGAGGAACTGGTGCTCAAACAATTCTACCCAACATGCTGAAGTCAACTTCTTGGAAAATTGTTTCAAGGCAATGCCATCAGTTTCTTGCTCCATCACTTGGGTCCTATCTACTACCCCCTGTGGGAAATGCTCCAGAAGAATTCTGGAGTTCCTGAGGGTACATCCCAATGTGACC  280
+12572    2399  ...........A.T............G.............................G............G...............................................T........................................................C.....G..T.................C.................T...................A..................A..............A......  2120
+
+Query_1  281   TTGGAAATATACGCAGCCAAGCTGTTCAAGCACCTGGATATCCGTAACCGGCAAGGTCTCAGGAACCTGGCAATGAATGGAGTCATTATACGTATCATGAATCTTGCAG  389
+12572    2119  ...........T..........................C.C.......A.......A..G................................C............A...  2011
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 390192504884
+
+
+Query= exon_4
+
+Length=119
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+WBMX01000499.1 Corythaeola cristata isolate B10K-CU-031-40 scaffo...  153        1e-35
+
+
+
+Query_2  1       ATTACAGTTACGGGTGGAAAAGATTTGTTGCATACCAACGTGGAGAAGATGATTATTGGCCCTGGAGCTTCGCTTCATACATCCTTCTGAATTGGATAGAGCTCTATCATATCCTTT  117
+498      276841  ......A....T...............C.....G.....A......G.........................T..........T........CA..........CG...C.......  276725
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 98099663940
+
+
+  Database: GCA_013396815.1_ASM1339681v1_genomic.fna
+    Posted date:  Nov 21, 2020  12:14 PM
+  Number of letters in database: 1,091,055,752
+  Number of sequences in database:  36,534
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

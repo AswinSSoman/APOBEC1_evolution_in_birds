@@ -1,0 +1,175 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_907165065.1_bCapEur3.1_genomic.fna
+           121 sequences; 1,177,791,212 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+OU015528.1 Caprimulgus europaeus genome assembly, chromosome: 5       95.6       9e-19
+OU015527.1 Caprimulgus europaeus genome assembly, chromosome: Z       42.1       0.011
+
+
+
+Query_1  7         AATCCAGAAATATCCATGGCTGCTGTCACTGATAGAGGTAAGTACATGTATGTGAA  62
+4        4488452   .............................................C...G......  4488507
+36       55586527                    .........T..............                55586550
+36       78586491  .....................                                     78586511
+36       31492574              ....................                          31492555
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 54178295564
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+OU015528.1 Caprimulgus europaeus genome assembly, chromosome: 5       67.9       2e-10
+
+
+
+Query_2  4        CAAATCTTTTCTATATAGATCTTGCACCCAGAGAGAACAACCAAAGGTAAGAGATATA  61
+4        4489668  ..............G...G..C.T....................G.......A.....  4489725
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 61245029768
+
+
+Query= exon_5
+
+Length=78
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+OU015528.1 Caprimulgus europaeus genome assembly, chromosome: 5       63.9       4e-09
+
+
+
+Query_3  1        ATGTTTCTTTCTTCCTGCTAGGGGCTTCCTCCATTG  36
+4        4497559  ................T...................  4497594
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 70667342040
+
+
+  Database: GCA_907165065.1_bCapEur3.1_genomic.fna
+    Posted date:  Nov 20, 2021  4:35 PM
+  Number of letters in database: 1,177,791,212
+  Number of sequences in database:  121
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_907165065.1_bCapEur3.1_genomic.fna
+           121 sequences; 1,177,791,212 total letters
+
+
+
+Query= exon_3
+
+Length=389
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+OU015528.1 Caprimulgus europaeus genome assembly, chromosome: 5       581        9e-164
+
+
+
+Query_1  1        GTGGAAGATACGGCCAAATGACTTCAAAAGAAATTATTTGCCTGGCCAACATCCAAAGGTGGTGTACCTCCTGTATGAAATCAGGTGGAGCAGAGGTACCATCTGGAGGAACTGGTGCTCAAACAATTCTACCCAACATGCTGAAGTCAACTTCTTGGAAAATTGTTTCAAGGCAATGCCATCAGTTTCTTGCTCCATCACTTGGGTCCTATCTACTACCCCCTGTGGGAAATGCTCCAGAAGAATTCTGGAGTTCCTGAGGGTACATCCCAATGTGACC  280
+4        4490562  ...........A.......T.........A..................GT.......CAC.........G..............A......................................T...............................................TC.T.A........................C..............C..T..............T.......A....G..............C.......T.....A...  4490841
+
+Query_1  281      TTGGAAATATACGCAGCCAAGCTGTTCAAGCACCTGGATATCCGTAACCGGCAAGGTCTCAGGAACCTGGCAATGAATGGAGTCATTATACGTATCATGAATCTTGCAG  389
+4        4490842  .......................................G...........G...........................................T.............  4490950
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 421647911038
+
+
+Query= exon_4
+
+Length=119
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+OU015528.1 Caprimulgus europaeus genome assembly, chromosome: 5       153        1e-35
+
+
+
+Query_2  1        ATTACAGTTACGGGTGGAAAAGATTTGTTGCATACCAACGTGGAGAAGATGATTATTGGCCCTGGAGCTTCGCTTCATACATCCTTCTGAATTGGATAGAGCTCTATCATATCCTTT  117
+4        4492185  ...........T.C.......C..............C..A.....................T....A...T............T..G.......T.G........G...........  4492301
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 106000893270
+
+
+  Database: GCA_907165065.1_bCapEur3.1_genomic.fna
+    Posted date:  Nov 20, 2021  4:35 PM
+  Number of letters in database: 1,177,791,212
+  Number of sequences in database:  121
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

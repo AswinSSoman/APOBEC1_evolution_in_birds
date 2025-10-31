@@ -1,0 +1,173 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000695765.1_ASM69576v1_genomic.fna
+           67,520 sequences; 1,087,290,853 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_010194005.1 Mesitornis unicolor isolate BGI_N332 unplaced geno...  71.9       1e-11
+
+
+
+Query_1  1     CAGACAAATCCAGAAATATCCATGGCTGCTGTCACTGATAGAGGTAAGTACATGTATGTGAAAA  64
+38010    2399  ....G........................G....T..........G...G..C..G........  2336
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 49959472678
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_010194005.1 Mesitornis unicolor isolate BGI_N332 unplaced geno...  91.7       1e-17
+
+
+
+Query_2  4     CAAATCTTTTCTATATAGATCTTGCACCCAGAGAGAACAACCAAAGGTAAGAGATATAGTTCTATC  69
+38010    1070  ............G........C......................G.......A...C.........  1005
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 56475925636
+
+
+Query= exon_5
+
+Length=78
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_010177553.1 Mesitornis unicolor isolate BGI_N332 unplaced geno...  83.8       4e-15
+
+
+
+Query_3  1     ATGTTTCTTTCTTCCTGCTAGGGGCTTCCTCCATTGCTGGCAAACTTTAAATACTAACAAGTATCAGCAGCATGCTTT  78
+21558    2780  ................CAC...A.........................GC......G....C........T.......  2857
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 65164529580
+
+
+  Database: GCF_000695765.1_ASM69576v1_genomic.fna
+    Posted date:  Oct 2, 2020  2:17 PM
+  Number of letters in database: 1,087,290,853
+  Number of sequences in database:  67,520
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000695765.1_ASM69576v1_genomic.fna
+           67,520 sequences; 1,087,290,853 total letters
+
+
+
+Query= exon_3
+
+Length=389
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_010194005.1 Mesitornis unicolor isolate BGI_N332 unplaced geno...  558        3e-157
+
+
+
+Query_1  1    GTGGAAGATACGGCCAAATGACTTCAAAAGAAATTATTTGCCTGGCCAACATCCAAAGGTGGTGTACCTCCTGTATGAAATCAGGTGGAGCAGAGGTACCATCTGGAGGAACTGGTGCTCAAACAATTCTACCCAACATGCTGAAGTCAACTTCTTGGAAAATTGTTTCAAGGCAATGCCATCAGTTTCTTGCTCCATCACTTGGGTCCTATCTACTACCCCCTGTGGGAAATGCTCCAGAAGAATTCTGGAGTTCCTGAGGGTACATCCCAATGTGACC  280
+38010    608  .........G.A..................................TGTT.............A.....G.............AA.....G..........C.......................G.CG..A..T...........................C...........TG......................G..C...T....G...G...T...............T.........................A....T..............  329
+
+Query_1  281  TTGGAAATATACGCAGCCAAGCTGTTCAAGCACCTGGATATCCGTAACCGGCAAGGTCTCAGGAACCTGGCAATGAATGGAGTCATTATACGTATCATGAATCTTGCAG  389
+38010    328  ...........T..T..................................................T...........................................  220
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 388500788414
+
+
+Query= exon_4
+
+Length=119
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_010177553.1 Mesitornis unicolor isolate BGI_N332 unplaced geno...  149        1e-34
+NW_010207783.1 Mesitornis unicolor isolate BGI_N332 unplaced geno...  48.2       3e-04
+
+
+
+Query_2  1       ATTACAGTTACGGGTGGAAAAGATTTGTTGCATACCAACGTGGAGAAGATGATTATTGGCCCTGGAGCTTCGCTTCATACATCCTTCTGAATTGGATAGAGCTCTATCATATCCTTT  117
+21558    825     ......A....T.C....................T....A.....................TCA.G...........C.....T.G.....C.............G...........  941
+51788    199720               ..........................                                                                                199695
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 97679949570
+
+
+  Database: GCF_000695765.1_ASM69576v1_genomic.fna
+    Posted date:  Oct 2, 2020  2:17 PM
+  Number of letters in database: 1,087,290,853
+  Number of sequences in database:  67,520
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

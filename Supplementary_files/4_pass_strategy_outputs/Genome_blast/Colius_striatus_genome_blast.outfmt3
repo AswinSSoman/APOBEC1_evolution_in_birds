@@ -1,0 +1,147 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000690715.1_ASM69071v1_genomic.fna
+           70,188 sequences; 1,075,931,597 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_010696177.1 Colius striatus isolate BGI_N325 unplaced genomic ...  59.0       7e-08
+
+
+
+Query_1  7      AATCCAGAAATATCCATGGCTGCTGCTGCTGGCAGAGGTAAG  48
+37291    13979  ......................T..TC....A..........  13938
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 38662787988
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_010696177.1 Colius striatus isolate BGI_N325 unplaced genomic ...  65.3       2e-09
+
+
+
+Query_2  1      TCACAAATATTTTCTGTATAGATCCTACAGCCAGAGAGAACAACCAAAGGTAAGAGATGTAGCTCTAT  68
+37291    12637  ..............CA..C....G..G..C.T...A..G........G.......A..A...T.....  12570
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 45106585986
+
+
+Query= exon_3
+
+Length=431
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_010696177.1 Colius striatus isolate BGI_N325 unplaced genomic ...  474        1e-131
+
+
+
+Query_3  2      TGCTGATACTTTTGTCACAGGTGGAAGATACAGCCAAATGACTTTCAAAGAAATTATTTGCCTGACCAACACCCACAGGCAGTATACCTGCTGTATGAATTCAGGTGGAGAAGAGGTTCCATCTGGAGGAAATGGTGCTCAAACAATCGTGCCCAACATGCTGAAGTCAACTTCTTGGAAAATTGTTTCAATGGCATTCCACCAGTTCCTTGCTCCATTACCTGGTTCCTTTCTACTACTCCCTGTGGGAACTGCTCCAGAAGGATTCTGGAGTTCCTGA  281
+37291    12198  .....G....C....TG..................T.....T..CA..................G......T...A...TG...C.G............G..........C......A.............C.............C.TC.A.T........A............C................G..TGGG...T.....T..........C......G....A...GT...C..T........A...........A...T.......TT...  11919
+
+Query_3  282    GGTTACATCCCAATGTGACCTTGGAAATATATGCCGCCAAACTCTTCAGGCACACGGATATCCGTAATCGGAAAGGTCTCTACAACCTGGCAATGAATGGAGTCATTATACGTATCATGAATCTTGCAGGTAACCCAACTGCTCTTTGGC  431
+37291    11918  ..G.....T..............A..........A.....G..A....A....CT....T.......C............AGG.......TG............G.C..........................T.T..T.A.........  11769
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 429502307600
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_010696177.1 Colius striatus isolate BGI_N325 unplaced genomic ...  169        2e-40
+
+
+
+Query_4  1      ACTAGATATCTCTTTTCTCAGATTACAGTTACTGCTGGAGAAATTTTGTTGCATACCCACGAGGACAAGATGACTATTGGCCCCAGCACTTTGCTGCACACATCTTTCTGAATGCAAGAGAGCTTTGTCACATCCTTTTGGTTAGTAGACACCTGAAGAAA  161
+37291    10599  ...G....C..................A...........A..CA...........T.A..AT...G.......T.........TG.A........T..T.............CTGG.C......CC....T.................G...T........  10439
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 141754291140
+
+
+Query= exon_5
+
+Length=69
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_010696177.1 Colius striatus isolate BGI_N325 unplaced genomic ...  77.0       3e-13
+
+
+
+Query_5  1     ATGTCTCTTTCTTCCTTCTAGGGGCTTCCTCCATTGCTGGCAGACTGAGTACTAGCAAACATCACTG  67
+37291    8165  ....T.......C...G......A................A.T.T...A.........G.....G..  8099
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 44032619653
+
+
+  Database: GCF_000690715.1_ASM69071v1_genomic.fna
+    Posted date:  Nov 19, 2020  10:52 PM
+  Number of letters in database: 1,075,931,597
+  Number of sequences in database:  70,188
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

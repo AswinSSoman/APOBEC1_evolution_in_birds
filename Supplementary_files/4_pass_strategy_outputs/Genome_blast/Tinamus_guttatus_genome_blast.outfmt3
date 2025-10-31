@@ -1,0 +1,129 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000705375.1_ASM70537v2_genomic.fna
+           82,514 sequences; 1,047,056,493 total letters
+
+
+
+Query= exon_1
+
+Length=64
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 37610859636
+
+
+Query= exon_2
+
+Length=70
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 43879336242
+
+
+Query= exon_3
+
+Length=428
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 414665927923
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_010578121.1 Tinamus guttatus isolate BGI_N309 unplaced genomic...  91.5       4e-17
+
+
+
+Query_4  1       ACTGGGTATCTCTCTTCTTAGATTACAGGTACTGCTGGAGAAATTTTGTTGCACACCAACCTGGACAAGATGATTATTGGCCCCAGAACGTCACTTTATACTTCATTTTGAATAGCATAGAACTCTTACATATCTTTTTGGTAAGTAGAC-ACCTGAAAA  159
+1749     196713  .....A...T...T.C..C.........T........A.A...AA..-...G.T..T...A..---................TTG..G.TG.TT.AC...AA...........T.G.....G....GT......A.......T.AC.T..A..T......  196558
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 137895593484
+
+
+Query= exon_5
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_010577444.1 Tinamus guttatus isolate BGI_N309 unplaced genomic...  45.5       0.002
+
+
+
+Query_5  1       AtttttttttCTTCCTCTGTAGGATCTTCCTCCATTTCTGGCAAA  45
+1072     156725  .............--.T...--...T..............A....  156685
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 43879336242
+
+
+  Database: GCF_000705375.1_ASM70537v2_genomic.fna
+    Posted date:  Nov 21, 2020  5:50 PM
+  Number of letters in database: 1,047,056,493
+  Number of sequences in database:  82,514
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

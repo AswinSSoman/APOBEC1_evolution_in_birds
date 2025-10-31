@@ -1,0 +1,138 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_019232065.1_USGS_Curo_1.0_genomic.fna
+           1,502 sequences; 1,010,657,860 total letters
+
+
+
+Query= exon_1
+
+Length=64
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 37392840322
+
+
+Query= exon_2
+
+Length=70
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_024885532.1 Centrocercus urophasianus isolate 14NV4802_14NV808...  43.7       0.006
+
+
+
+Query_2  1         TCACAAATCTTTTCTGCATAGGTCGTGCACT  31
+1391     19792696  ........G............C.A.......  19792726
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 42445863768
+
+
+Query= exon_3
+
+Length=431
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_024884364.1 Centrocercus urophasianus isolate 14NV4802_14NV808...  212        5e-53
+
+
+
+Query_3  1       CTGTTGATACTTTTATTTCAGGTGGAAGATACAGCCAGATGACTTCAAATCAAACTATTTGCCTTCCCAACACCCAAAGGTGGTGTGCCTGCTGTATGCGATCAAGTGGCGCAGAGGTAAAGTCTGGAAGGGTTGGTGCACAAACAATTCTACCCAACACGCTGAAGTCAACTTCTTGGAAAATTGCTTCAAGCCCTTGTCATCAGCTTCTTGCTCTATCACCTGGGTCTTATCTACTACCCCCTGTGGGAAATGCTCCAGAAGAATTCTGGAGTTCCTG  280
+223      596326                                                                                                                                                   ...............A..C.T.................C........TGG....C......T........TC.C.G........C.....----..T............A...T..G.A.....CA.......A.  596456
+223      595109  ...C......A...G....G.A........T.....T............ATG............                                                                                                                                                                                                                          595172
+
+Query_3  281     AGGATCCACCCCAATGTAACCCTGGAAATATTCGCAGCCAAGATTTTCAAACATCTGGATATTCGTAATCGGCAAGGTCTCAGGAACCTGATGATGAAAGGAGTCATCATACGTATTATGCGTCCTGCAGGTAACCCAACTACTCTTCATC  431
+223      596457  ..A.AAT..TA......G...T.......G.A.A......G.T.G.......--.....C...T....CA......ACT......G..........G..A.CA.G......T.C..C...AA.GT..A......T....-....T......  596604
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 404244519200
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_024884364.1 Centrocercus urophasianus isolate 14NV4802_14NV808...  160        9e-38
+
+
+
+Query_4  1       ACTGTATATTTCTTTTCTCAGATTACAGTTACAGTTGGAAAAAATTCGTTGCATACCAACATGGAGAAGAAGATTATTGGCCCTGGAGTTTCAGTCTGTACATCCTTCTGAACTGCATAGAGCTCAAGCGTATCATTTTGGTTAGTAGCCACTTTAAAGAA  161
+223      597765  .....G.....................A...GT.G......G....G.......G...............T.G...........T...C....C.TCA..T...T....CC....GG.......TTGT.....A.................G...G.....  597925
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 133401087864
+
+
+Query= exon_5
+
+Length=75
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 47498942788
+
+
+  Database: GCF_019232065.1_USGS_Curo_1.0_genomic.fna
+    Posted date:  Oct 27, 2021  12:46 PM
+  Number of letters in database: 1,010,657,860
+  Number of sequences in database:  1,502
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
