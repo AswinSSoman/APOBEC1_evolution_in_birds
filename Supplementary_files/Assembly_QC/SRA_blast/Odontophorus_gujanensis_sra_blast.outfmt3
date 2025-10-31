@@ -1,0 +1,211 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: SRR10019947_8_SRR9946993_5_7_8.fa
+           564,455,052 sequences; 50,918,946,604 total letters
+
+
+
+Query= exon_1
+
+Length=64
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1051404318080
+
+
+Query= exon_2
+
+Length=70
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1051404318080
+
+
+Query= exon_3
+
+Length=431
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SRR10019948.18742828 FCC4RJ0ACXX:5:2107:17337:95764/2                 110        1e-20
+SRR9946993.39740585 FCC4TG1ACXX:5:2316:18376:18192/2                  94.2       1e-15
+
+
+
+Query_3    20   AGGTGGAAGATACAGCCAGATGACTTCAAATCAAACTATTTGCCTTCCCAACACCCAAAGGTGGTGTGCCTGCTGTATGCGATCAAGTGGCGCAGAGGTAAAGTCTGGAAGGGTTGGTGCACAAACAATTCTACCCAACACGCTGAAGTCAACTTCTTGGAAAATTGCTTCAAGCCCTTGTCATCAGCTTCTTGCTCTATCACCTGGGTCTTATCTACTACCCCCTGTGGGAAATGCTCCAGAAGAATTCTGGAGTTCCTGAGGATCCACCCCAATGTAA  299
+102093412  148  ............A....GA.A.........AG...T.........AATG...CT...C.........AT.....A....AA....G....A.A......TCCA......G.AA...C...T........CG..G......T.......                                                                                                                                      1
+198076860  1                                                                                                                                                                                                              .....T..C.T..G..A..T..T.....AG.G........G..G..................TCA..T..TC.C..G.  78
+
+Query_3    300  CCCTGGAAATATTCGCAGCCAAGATTTTCAAACATCTGGATATTCGTAATCGGCAAGGTCTCAGGAACCTG  370
+198076860  79   ..T....G....AT.........C.G....GG..C.A....G.C....TC...G.C..G...T.C......  149
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1051404318080
+
+
+Query= exon_4
+
+Length=161
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SRR9946995.33283273 FCC4TG1ACXX:4:2216:11515:63315/2                  59.0       7e-06
+SRR9946995.27093821 FCC4TG1ACXX:4:2202:11233:10921/2                  59.0       7e-06
+SRR9946995.10276959 FCC4TG1ACXX:4:1210:13573:24792/2                  59.0       7e-06
+SRR9946995.38589983 FCC4TG1ACXX:4:2313:19868:41782/1                  59.0       7e-06
+SRR9946995.27110629 FCC4TG1ACXX:4:2202:7359:15084/1                   59.0       7e-06
+SRR9946995.27067477 FCC4TG1ACXX:4:2202:10270:4383/1                   59.0       7e-06
+SRR9946995.15250279 FCC4TG1ACXX:4:1306:4931:1920/1                    59.0       7e-06
+SRR9946995.9129237 FCC4TG1ACXX:4:1207:1050:49937/1                    59.0       7e-06
+SRR9946993.18098058 FCC4TG1ACXX:5:1312:12824:72841/2                  59.0       7e-06
+SRR9946993.16017184 FCC4TG1ACXX:5:1307:5322:81061/2                   59.0       7e-06
+SRR9946993.15810357 FCC4TG1ACXX:5:1307:5310:33356/2                   59.0       7e-06
+SRR9946993.7970075 FCC4TG1ACXX:5:1204:12075:56267/2                   59.0       7e-06
+SRR9946993.37204135 FCC4TG1ACXX:5:2310:11095:31558/1                  59.0       7e-06
+SRR9946993.30028393 FCC4TG1ACXX:5:2209:20155:27123/1                  59.0       7e-06
+SRR9946993.1259295 FCC4TG1ACXX:5:1104:10295:27209/1                   59.0       7e-06
+SRR10019948.33244494 FCC4RJ0ACXX:5:2313:3439:24869/2                  59.0       7e-06
+SRR10019948.15144186 FCC4RJ0ACXX:5:1313:7654:55878/2                  59.0       7e-06
+SRR10019948.14845053 FCC4RJ0ACXX:5:1312:13511:86475/2                 59.0       7e-06
+SRR10019948.26664054 FCC4RJ0ACXX:5:2211:2288:59911/1                  59.0       7e-06
+SRR10019948.26660409 FCC4RJ0ACXX:5:2211:16570:58953/1                 59.0       7e-06
+SRR10019948.26658507 FCC4RJ0ACXX:5:2211:21164:58356/1                 59.0       7e-06
+SRR10019948.6880404 FCC4RJ0ACXX:5:1207:6362:9756/1                    59.0       7e-06
+SRR9946995.37788228 FCC4TG1ACXX:4:2311:12861:57297/2                  57.2       2e-05
+SRR9946993.7968671 FCC4TG1ACXX:5:1204:4341:56245/2                    54.5       3e-04
+SRR9946995.6133657 FCC4TG1ACXX:4:1116:19576:6133/2                    53.6       3e-04
+SRR9946995.14688164 FCC4TG1ACXX:4:1304:5030:63347/1                   50.0       0.004
+SRR9946995.6061872 FCC4TG1ACXX:4:1115:11811:88545/1                   50.0       0.004
+SRR9946993.4554670 FCC4TG1ACXX:5:1112:7853:33418/2                    50.0       0.004
+
+
+
+Query_4    4    GTATATTTCTTTTCTCAGATTACAGTTACAGTTGGAAAAAATTCGTTGCATACCAA  59
+271883233  98   ................T--.....A....TAG.......G...G............  45
+265693781  18   ................T--.....A....TAG.......G...G............  71
+248876919  58   ................T--.....A....TAG.......G...G............  111
+237023906  95   ................T--.....A....TAG.......G...G............  42
+225544552  91   ................T--.....A....TAG.......G...G............  38
+225501400  68   ................T--.....A....TAG.......G...G............  15
+213684202  36   ................T--.....A....TAG.......G...G............  89
+207563160  108  ................T--.....A....TAG.......G...G............  55
+176434333  76   ................T--.....A....TAG.......G...G............  23
+174353459  94   ................T--.....A....TAG.......G...G............  41
+174146632  127  ................T--.....A....TAG.......G...G............  74
+166306350  40   ................T--.....A....TAG.......G...G............  93
+155442762  93   ................T--.....A....TAG.......G...G............  40
+148267020  132  ................T--.....A....TAG.......G...G............  79
+119497922  73   ................T--.....A....TAG.......G...G............  126
+116595078  81   ................T--.....A....TAG.......G...G............  28
+98494770   98   ................T--.....A....TAG.......G...G............  45
+98195637   32   ................T--.....A....TAG.......G...G............  85
+75126595   65   ................T--.....A....TAG.......G...G............  12
+75122950   141  ................T--.....A....TAG.......G...G............  88
+75121048   78   ................T--.....A....TAG.......G...G............  25
+55342945   63   ................T--.....A....TAG.......G...G............  10
+276388188  150   ...............T--.....A....TAG.......G...T............  98
+166304946  79   ................T--.....A....TAGG......G...G............  132
+244733617  1       .............T--.....A....TAG.......G...G............  51
+213122087  150       ...........T--.....A....TAG.......G...G............  102
+204495795  49   ................--T.....A....TAG.......G...G.......       1
+162890945  90   ................--T.....A....TAG..C....G...G.G..........  143
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1051404318080
+
+
+Query= exon_5
+
+Length=75
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SRR9946993.29108339 FCC4TG1ACXX:5:2207:4212:7875/2                    56.3       3e-05
+SRR9946993.30659232 FCC4TG1ACXX:5:2210:15864:79828/1                  56.3       3e-05
+SRR10019947.11978854 11978854/2                                       52.7       4e-04
+SRR9946995.5808073 FCC4TG1ACXX:4:1115:9465:31572/2                    51.8       4e-04
+SRR9946995.16578898 FCC4TG1ACXX:4:1309:9834:19325/1                   51.8       4e-04
+SRR9946995.14636203 FCC4TG1ACXX:4:1304:17582:50720/1                  51.8       4e-04
+SRR9946993.29424881 FCC4TG1ACXX:5:2207:5907:82443/2                   51.8       4e-04
+SRR9946993.25684609 FCC4TG1ACXX:5:2114:15804:75035/1                  51.8       4e-04
+SRR10019948.25486899 FCC4RJ0ACXX:5:2208:13408:83444/1                 51.8       4e-04
+SRR10019948.8182320 FCC4RJ0ACXX:5:1210:13329:41041/1                  50.0       0.001
+
+
+
+Query_5    3    ATTTCTGTCTTCTTGCTAGGGGCTTCCTCCAGTG---TCAAACTTTGAA  48
+187444614  68   ......T..C...........A.........T..CTT............  20
+148897859  128  ......T..C...........A.........T..CTT............  80
+36210124   49     ....T..C...........A.........T..CTT............  3
+244408033  84   ......T..C...........A.........T..CTT......C.....  132
+215012821  145  ......T..C...........A.........T..CTT......C.....  97
+213070126  55   ......T..C...........A.........T..CTT......C.....  7
+187761156  134  ......T..C...........A.........T..CTT......C.....  86
+143923236  9    ......T..C...........A.........T..CTT......C.....  57
+73949440   137  ......T..C...........A.........T..CTT......C.....  89
+56644861   48   ......T..C...........A.........T..CTT......C....   1
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1051404318080
+
+
+  Database: SRR10019947_8_SRR9946993_5_7_8.fa
+    Posted date:  Oct 9, 2020  7:27 PM
+  Number of letters in database: 50,918,946,604
+  Number of sequences in database:  564,455,052
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

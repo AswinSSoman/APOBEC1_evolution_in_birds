@@ -1,0 +1,124 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: SRR9946892_906_907.fa
+           556,450,182 sequences; 47,383,992,984 total letters
+
+
+
+Query= exon_1
+
+Length=64
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 946482789120
+
+
+Query= exon_2
+
+Length=70
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 946482789120
+
+
+Query= exon_3
+
+Length=432
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SRR9946892.2259185 FCC4BF5ACXX:8:1105:3196:91079/2                    50.0       0.010
+
+
+
+Query_3   196  CTCTGCCTTCAGTTTCTTGCTCCATCACCTGGTT  229
+51150637  115  ............C.....-...............  147
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 946482789120
+
+
+Query= exon_4
+
+Length=161
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 946482789120
+
+
+Query= exon_5
+
+Length=69
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 946482789120
+
+
+  Database: SRR9946892_906_907.fa
+    Posted date:  May 27, 2022  4:45 PM
+  Number of letters in database: 47,383,992,984
+  Number of sequences in database:  556,450,182
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
