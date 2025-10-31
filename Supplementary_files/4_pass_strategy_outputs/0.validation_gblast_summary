@@ -1,0 +1,4 @@
+Species               Group            Query                               Q_len  Q_ORF  Location  Strand  Gaps  SS1_disruption  SS2_disruption  %_Q_cov  Cons_len  Cons_ORF
+Serinus_canaria       Passeriformes    APOBEC1_Serinus_canaria_ensembl.fa  585    ✅     same      same    0     -               -               100      585       ✅
+Anas_platyrhynchos    Anseriformes     APOBEC1_Anas_platyrhynchos.fa       591    ✅     same      same    0     -               -               100      591       ✅
+Aptenodytes_forsteri  Sphenisciformes  APOBEC1_Aptenodytes_forsteri.fa     594    ✅     same      same    0     -               -               100      594       ✅

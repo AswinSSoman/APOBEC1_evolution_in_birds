@@ -1,0 +1,173 @@
+                                             /------- Apteryx_rowi             	Apterygiformes       -                                                                 -
+                                         /---+                                 	
+                                         |   |   /--- Dromaius_novaehollandiae 	Casuariiformes       -                                                                 -
+                                     /---+   \---+                             	
+                                     |   |       \--- Casuarius_casuarius      	Casuariiformes       -                                                                 -
+                                  /--+   |                                     	
+                                  |  |   \----------- Anomalopteryx_didiformis 	Dinornithiformes     -                                                                 -
+                              /---+  |                                         	
+                              |   |  \--------------- Rhea_americana           	Rheiformes           -                                                                 -
+/-----------------------------+   |                                            	
+|                             |   \------------------ Struthio_camelus         	Struthioniformes     -                                                                 -
+|                             |                                                	
+|                             \---------------------- Tinamus_guttatus         	Tinamiformes         -                                                                 -
+|                                                                              	
+|          /----------------------------------------- Alectura_lathami         	Galliformes          >scaffold523_whole_(0.4Mb)                                        [7;31m[K❮  109_[m[K[7;32m[KNANOG[m[K_1(1.9)[04;33m[K_5.8_[m[K[7;32m[KNANOG[m[K_0(2.5)[04;33m[K_17_[m[K[7;32m[KAPOBEC1[m[K_1(1)[04;33m[K_8.2_[m[K[7;32m[KAPOBEC1[m[K_0(1.3)[04;33m[K_7.2_[m[K[7;32m[KAICDA[m[K(1.3)[04;33m[K_14_[m[K[7;32m[KMFAP5[m[K(1.3)[04;33m[K_26.5_[m[K[7;32m[KRIMKLB[m[K(31.1)[7;31m[K_200❯ [m[K
+|          |                                                                   	
+|          |                                     /--- Colinus_virginianus      	Galliformes          -                                                                 -
+|          |                                 /---+                             	
+|          |          /----------------------+   \--- Callipepla_squamata      	Galliformes          -                                                                 -
+|          |          |                      |                                 	
+|          |          |                      \------- Odontophorus_gujanensis  	Galliformes          -                                                                 -
+|          |          |                                                        	
+|          |          |                          /--- Bambusicola_thoracicus   	Galliformes          -                                                                 -
+|          |          |   /----------------------+                             	
+|          |      /---+   |                      \--- Coturnix_japonica        	Galliformes          -                                                                 -
+|          |      |   |   |                                                    	
+|          |      |   |   |       /------------------ Meleagris_gallopavo      	Galliformes          >chromosome_1_(190.7Mb)                                           [7;31m[K❮  74260.3_[m[K[7;32m[KNECAP1[m[K(7.7)[04;33m[K_9.3_[m[K[7;32m[KFOXJ2[m[K(27.7)[04;33m[K_77.9_[m[K[7;32m[KAICDA[m[K(6.8)[04;33m[K_21.1_[m[K[7;32m[KLOC104912818[m[K(8.5)[04;33m[K_4.4_[m[K[7;32m[KLOC100542155[m[K(4.2)[04;33m[K_32.4_[m[K[7;32m[KLOC100542307[m[K(10.9)[04;33m[K_67.5_[m[K[7;32m[KLOC100542775[m[K(37.3)[7;31m[K_116076❯ [m[K
+|          |      |   |   |       |                                            	
+|          |      |   |   |       |      /----------- Lyrurus_tetrix           	Galliformes          -                                                                 -
+|          |      |   |   |   /---+  /---+                                     	
+|      /---+      |   \---+   |   |  |   |   /------- Tympanuchus_cupido       	Galliformes          -                                                                 -
+|      |   |      |       |   |   |  |   \---+                                 	
+|      |   |      |       |   |   |  |       |   /--- Centrocercus_urophasianus	Galliformes          -                                                                 -
+|      |   |      |       |   |   \--+       \---+                             	
+|      |   |      |       |   |      |           \--- Centrocercus_minimus     	Galliformes          -                                                                 -
+|      |   |      |       |   |      |                                         	
+|      |   |      |       |   |      |           /--- Lagopus_muta             	Galliformes          -                                                                 -
+|      |   |      |       \---+      \-----------+                             	
+|      |   |   /--+           |                  \--- Lagopus_leucura          	Galliformes          -                                                                 -
+|      |   |   |  |           |                                                	
+|      |   |   |  |           |                  /--- Pavo_cristatus           	Galliformes          -                                                                 -
+|      |   |   |  |           |              /---+                             	
+|      |   |   |  |           |          /---+   \--- Pavo_muticus             	Galliformes          -                                                                 -
+|  /---+   |   |  |           |          |   |                                 	
+|  |   |   |   |  |           |          |   \------- Gallus_gallus            	Galliformes          -                                                                 -
+|  |   |   |   |  |           \----------+                                     	
+|  |   |   \---+  |                      |       /--- Chrysolophus_pictus      	Galliformes          -                                                                 -
++  |   |       |  |                      |   /---+                             	
+|  |   |       |  |                      \---+   \--- Phasianus_colchicus      	Galliformes          -                                                                 -
+|  |   |       |  |                          |                                 	
+|  |   |       |  |                          \------- Syrmaticus_mikado        	Galliformes          -                                                                 -
+|  |   |       |  |                                                            	
+|  |   |       |  \---------------------------------- Numida_meleagris         	Galliformes          -                                                                 -
+|  |   |       |                                                               	
+|  |   |       \------------------------------------- Penelope_pileata         	Galliformes          -                                                                 -
+|  |   |                                                                       	
+|  |   |                                     /------- Anser_cygnoides          	Anseriformes         >scaffold_AnsCyg_PRJNA183603_v1.0_scaffold407_whole_(0.7Mb)       [7;31m[K❮  109.9_[m[K[7;32m[KLOC106048089[m[K(30)[04;33m[K_18.7_[m[K[7;32m[KLOC106048073[m[K(5.7)[04;33m[K_4.1_[m[K[7;32m[KLOC106048065[m[K(4.9)[04;33m[K_31_[m[K[7;32m[KAPOBEC1[m[K(6.6)[04;33m[K_8.3_[m[K[7;32m[KAICDA[m[K(6.4)[04;33m[K_12.7_[m[K[7;32m[KMFAP5[m[K(10.3)[04;33m[K_15.7_[m[K[7;32m[KRIMKLB[m[K(48)[7;31m[K_380.4❯ [m[K
+|  |   \-------------------------------------+                                 	
+|  |                                         |   /--- Aythya_fuligula          	Anseriformes         -                                                                 -
+|  |                                         \---+                             	
+|  |                                             \--- Anas_platyrhynchos       	Anseriformes         >chromosome_1_(207.2Mb)                                           [7;31m[K❮  79741_[m[K[7;32m[KRIMKLB[m[K(49.5)[04;33m[K_13.8_[m[K[7;32m[KMFAP5[m[K(9.1)[04;33m[K_12.7_[m[K[7;32m[KAICDA[m[K(7.5)[04;33m[K_6.7_[m[K[7;32m[KAPOBEC1[m[K(9.9)[04;33m[K_27.6_[m[K[7;32m[KLOC101795050[m[K(4.7)[04;33m[K_4.8_[m[K[7;32m[KLOC101791705[m[K(5)[04;33m[K_17.4_[m[K[7;32m[KSLC2[m[K[7;32m[KA3[m[K(10.6)[7;31m[K_127318❯ [m[K
+|  |                                                                           	
+|  |                                             /--- Corythaeola_cristata     	Musophagiformes      -                                                                 -
+|  |                                         /---+                             	
+|  |       /---------------------------------+   \--- Tauraco_erythrolophus    	Musophagiformes      >scaffold_ASM70936v1_scaffold3373_whole_(0.0Mb)                   [7;31m[K❮  2.8_[m[K[7;32m[KLOC104373639[m[K(3.5)[7;31m[K_2.2❯ [m[K
+|  |       |                                 |                                 	
+|  |       |                                 \------- Cuculus_canorus          	Cuculiformes         -                                                                 -
+|  |       |                                                                   	
+|  |       |                                     /--- Galbula_dea              	Galbuliformes        >scaffold1534_whole_(0.3Mb)                                       [7;31m[K❮  11.5_[m[K[7;32m[KNANOG[m[K_0(2.2)[04;33m[K_7.3_[m[K[7;32m[KNANOG[m[K_1(3.1)[04;33m[K_16.8_[m[K[7;32m[KAPOBEC1[m[K(1.6)[04;33m[K_8.8_[m[K[7;32m[KAICDA[m[K(2)[04;33m[K_14.7_[m[K[7;32m[KMFAP5[m[K(1.3)[04;33m[K_31.2_[m[K[7;32m[KRIMKLB[m[K(30.5)[7;31m[K_201.6❯ [m[K
+|  |       |                                 /---+                             	
+|  |       |                             /---+   \--- Picoides_pubescens       	Piciformes           >scaffold_ASM69900v1_scaffold229_whole_(0.7Mb)                    [7;31m[K❮  556.8_[m[K[7;32m[KRIMKLB[m[K(63.4)[04;33m[K_36_[m[K[7;32m[KMFAP5[m[K(14)[04;33m[K_17.1_[m[K[7;32m[KAICDA[m[K(2.7)[04;33m[K_15.1_[m[K[7;32m[KAPOBEC1[m[K(0.4)[7;31m[K_8❯ [m[K
+|  |       |                             |   |                                 	
+|  |       |                         /---+   \------- Apaloderma_vittatum      	Trogoniformes        >scaffold_ASM70340v1_scaffold10025_whole_(0.0Mb)                  [7;31m[K❮  9.7_[m[K[7;32m[KAPOBEC1[m[K(0.6)[04;33m[K_12.9_[m[K[7;32m[KAICDA[m[K(1.6)[7;31m[K_2.9❯ [m[K
+|  |       |                         |   |                                     	
+|  |       |                      /--+   \----------- Colius_striatus          	Coliiformes          >scaffold_ASM69071v1_scaffold50246_whole_(0.0Mb)                  [7;31m[K❮  10.5_[m[K[7;32m[KAPOBEC1[m[K(1.7)[7;31m[K_5❯ [m[K
+|  |       |                      |  |                                         	
+|  |       |                      |  |           /--- Upupa_epops              	Upupiformes          -                                                                 -
+|  |       |                  /---+  \-----------+                             	
+|  |       |                  |   |              \--- Buceros_rhinoceros       	Bucerotiformes       -                                                                 -
+|  |       |                  |   |                                            	
+|  |       |                  |   |              /--- Merops_nubicus           	Coraciiformes        >scaffold_ASM69184v1_scaffold13182_whole_(0.0Mb)                  [7;31m[K❮  0_[m[K[7;32m[KLOC103768585[m[K(1.3)[04;33m[K_5.6_[m[K[7;32m[KLOC103768586[m[K(10.8)[7;31m[K_10.7❯ [m[K
+|  |       |      /-----------+   \--------------+                             	
+|  |       |      |           |                  \--- Leptosomus_discolor      	Coraciiformes        -                                                                 -
+|  |       |      |           |                                                	
+|  |       |      |           |                  /--- Melopsittacus_undulatus  	Psittaciformes       >chromosome_5_(87.1Mb)                                            [7;31m[K❮  41685.7_[m[K[7;32m[KLOC101867703[m[K(11)[04;33m[K_19.8_[m[K[7;32m[KLOC101867873[m[K(5.3)[04;33m[K_7_[m[K[7;32m[KLOC101868037[m[K(3)[04;33m[K_30_[m[K[7;32m[KLOC106023490[m[K(5.3)[04;33m[K_7.9_[m[K[7;32m[KLOC101879319[m[K(4.9)[04;33m[K_12.6_[m[K[7;32m[KLOC101868203[m[K(11)[04;33m[K_13.3_[m[K[7;32m[KLOC101868372[m[K(46.3)[7;31m[K_45220.2❯ [m[K
+\--+       |      |           |              /---+                             	
+   |       |      |           \--------------+   \--- Nestor_notabilis         	Psittaciformes       >scaffold_ASM69687v1_scaffold4422_whole_(0.1Mb)                   [7;31m[K❮  0.8_[m[K[7;32m[KMFAP5[m[K(8)[04;33m[K_18.1_[m[K[7;32m[KAICDA[m[K(1.6)[04;33m[K_12.1_[m[K[7;32m[KLOC104402026[m[K(13.2)[04;33m[K_0_[m[K[7;32m[KLOC104402027[m[K(0.4)[7;31m[K_15.3❯ [m[K
+   |       |   /--+                          |                                 	
+   |   /---+   |  |                          \------- Tyto_alba                	Strigiformes         -                                                                 -
+   |   |   |   |  |                                                            	
+   |   |   |   |  |   /------------------------------ Acanthisitta_chloris     	Passeriformes        >scaffold_ASM69581v1_scaffold7561_whole_(0.1Mb)                   [7;31m[K❮  0.8_[m[K[7;32m[KMFAP5[m[K(9.8)[04;33m[K_16.5_[m[K[7;32m[KAICDA[m[K(1.6)[04;33m[K_5.9_[m[K[7;32m[KLOC103810518[m[K(6.2)[04;33m[K_10.4_[m[K[7;32m[KLOC103810520[m[K(2.8)[7;31m[K_6.1❯ [m[K
+   |   |   |   |  |   |                                                        	
+   |   |   |   |  |   |   /-------------------------- Manacus_vitellinus       	Passeriformes        >scaffold_ASM171598v3_scaffold_83_pilon_whole_(2.0Mb)             [7;31m[K❮  712.3_[m[K[7;32m[KLOC103755227[m[K(8.4)[04;33m[K_25.6_[m[K[7;32m[KLOC103755205[m[K(5.8)[04;33m[K_6.2_[m[K[7;32m[KLOC103755228[m[K(2.5)[04;33m[K_29.1_[m[K[7;32m[KLOC103755230[m[K(13.8)[04;33m[K_6_[m[K[7;32m[KAICDA[m[K(1.6)[04;33m[K_13.4_[m[K[7;32m[KMFAP5[m[K(14)[04;33m[K_13.5_[m[K[7;32m[KRIMKLB[m[K(42.4)[7;31m[K_1123.3❯ [m[K
+   |   |   |   |  |   |   |                                                    	
+   |   |   |   |  \---+   |                      /--- Ficedula_albicollis      	Passeriformes        >chromosome_1_(120.0Mb)                                           [7;31m[K❮  91185.4_[m[K[7;32m[KRIMKLB[m[K(41.8)[04;33m[K_18.2_[m[K[7;32m[KMFAP5[m[K(10.8)[04;33m[K_1.9_[m[K[7;32m[KAICDA[m[K(16)[04;33m[K_6_[m[K[7;32m[KLOC101816226[m[K(4.3)[04;33m[K_7.7_[m[K[7;32m[KLOC101813722[m[K(7.7)[04;33m[K_32.6_[m[K[7;32m[KLOC101816028[m[K(2.6)[04;33m[K_5.7_[m[K[7;32m[KLOC101815823[m[K(5.7)[7;31m[K_28656❯ [m[K
+   |   |   |   |      |   |       /--------------+                             	
+   |   |   |   |      |   |       |              \--- Stachyris_ruficeps       	Passeriformes        -                                                                 -
+   |   |   |   |      |   |       |                                            	
+   |   |   |   |      |   |       |          /------- Zonotrichia_albicollis   	Passeriformes        >scaffold_Zonotrichia_albicollis-1.0.1_Scaffold177_whole_(1.0Mb)  [7;31m[K❮  127.6_[m[K[7;32m[KLOC102067333[m[K(3.8)[04;33m[K_4.5_[m[K[7;32m[KLOC102067494[m[K(2.6)[04;33m[K_30.3_[m[K[7;32m[KLOC102064430[m[K(5.2)[04;33m[K_6.2_[m[K[7;32m[KLOC102064599[m[K(6.9)[04;33m[K_3.7_[m[K[7;32m[KLOC102067674[m[K(3.8)[04;33m[K_13.8_[m[K[7;32m[KMFAP5[m[K(11.3)[04;33m[K_14.3_[m[K[7;32m[KRIMKLB[m[K(49.2)[7;31m[K_753.1❯ [m[K
+   |   |   |   |      \---+   /---+  /-------+                                 	
+   |   |   |   |          |   |   |  |       |   /--- Camarhynchus_parvulus    	Passeriformes        >chromosome_1_(115.3Mb)                                           [7;31m[K❮  86647.8_[m[K[7;32m[KRIMKLB[m[K(50.6)[04;33m[K_13.2_[m[K[7;32m[KMFAP5[m[K(11.2)[04;33m[K_13.7_[m[K[7;32m[KAICDA[m[K(2.2)[04;33m[K_7.5_[m[K[7;32m[KLOC115903149[m[K(5)[04;33m[K_8_[m[K[7;32m[KLOC115903158[m[K(6.9)[04;33m[K_25.7_[m[K[7;32m[KLOC115903167[m[K(2.4)[04;33m[K_6.1_[m[K[7;32m[KLOC115908427[m[K(5.7)[7;31m[K_28501.9❯ [m[K
+   |   |   |   |          |   |   |  |       \---+                             	
+   |   |   |   |          |   |   |  |           \--- Geospiza_fortis          	Passeriformes        >scaffold_GeoFor_1.0_scaffold286_whole_(1.8Mb)                    [7;31m[K❮  1119.2_[m[K[7;32m[KRIMKLB[m[K(40.3)[04;33m[K_14.4_[m[K[7;32m[KMFAP5[m[K(11)[04;33m[K_13.6_[m[K[7;32m[KAICDA[m[K(2)[04;33m[K_5.3_[m[K[7;32m[KLOC102039999[m[K(4.6)[04;33m[K_8_[m[K[7;32m[KLOC115948607[m[K(4.2)[04;33m[K_30.9_[m[K[7;32m[KLOC102040514[m[K(2.7)[04;33m[K_5.8_[m[K[7;32m[KLOC102040680[m[K(5.9)[7;31m[K_521.1❯ [m[K
+   |   |   |   |          |   |   \--+                                         	
+   |   |   |   |          |   |      |           /--- Passer_domesticus        	Passeriformes        -                                                                 -
+   |   |   |   |          |   |      |   /-------+                             	
+   |   |   |   |          |   |      |   |       \--- Serinus_canaria          	Passeriformes        >chromosome_1_(114.8Mb)                                           [7;31m[K❮  28575.4_[m[K[7;32m[KLOC103827200[m[K(5.7)[04;33m[K_6.6_[m[K[7;32m[KLOC103812484[m[K(2.6)[04;33m[K_26.3_[m[K[7;32m[KLOC103812485[m[K(7.8)[04;33m[K_6.2_[m[K[7;32m[KLOC103812486[m[K(8)[04;33m[K_3.4_[m[K[7;32m[KLOC103812487[m[K(6.3)[04;33m[K_11_[m[K[7;32m[KLOC103812488[m[K(11.4)[04;33m[K_13.4_[m[K[7;32m[KLOC103827201[m[K(45.6)[7;31m[K_86103.7❯ [m[K
+   |   |   |   |          \---+      \---+                                     	
+   |   |   |   |              |          |       /--- Lonchura_striata         	Passeriformes        >chromosome_1_(114.9Mb)                                           [7;31m[K❮  86405.5_[m[K[7;32m[KRIMKLB[m[K(41.5)[04;33m[K_5.5_[m[K[7;32m[KMFAP5[m[K(18.9)[04;33m[K_10.9_[m[K[7;32m[KAICDA[m[K(4.7)[04;33m[K_8.2_[m[K[7;32m[KLOC110472351[m[K(17.6)[04;33m[K_27.9_[m[K[7;32m[KLOC110472350[m[K(3.2)[04;33m[K_5.9_[m[K[7;32m[KLOC110472349[m[K(5.6)[04;33m[K_19.3_[m[K[7;32m[KLOC110472320[m[K(11.5)[7;31m[K_28295.9❯ [m[K
+   |   |   |   |              |          |   /---+                             	
+   |   |   |   |              |          \---+   \--- Taeniopygia_guttata      	Passeriformes        >chromosome_1_(114.4Mb)                                           [7;31m[K❮  28320.3_[m[K[7;32m[KLOC100224972[m[K(11.5)[04;33m[K_19.3_[m[K[7;32m[KLOC100227862[m[K(7)[04;33m[K_4_[m[K[7;32m[KLOC100230680[m[K(4.6)[04;33m[K_25.2_[m[K[7;32m[KLOC101233449[m[K(21.2)[04;33m[K_3.3_[m[K[7;32m[KAICDA[m[K(6.4)[04;33m[K_8.7_[m[K[7;32m[KMFAP5[m[K(12.9)[04;33m[K_13.2_[m[K[7;32m[KRIMKLB[m[K(50.7)[7;31m[K_85867.3❯ [m[K
+   |   |   |   |              |              |                                 	
+   |   |   \---+              |              \------- Erythrura_gouldiae       	Passeriformes        -                                                                 -
+   |   |       |              |                                                	
+   |   |       |              |                  /--- Corvus_moneduloides      	Passeriformes        >chromosome_2_(123.3Mb)                                           [7;31m[K❮  30569.2_[m[K[7;32m[KLOC116436358[m[K(6.6)[04;33m[K_5.1_[m[K[7;32m[KLOC116436365[m[K(3.1)[04;33m[K_26.2_[m[K[7;32m[KLOC116439419[m[K(7.5)[04;33m[K_8.9_[m[K[7;32m[KLOC116439420[m[K(5.5)[04;33m[K_3.3_[m[K[7;32m[KLOC116439421[m[K(7.1)[04;33m[K_8.1_[m[K[7;32m[KMFAP5[m[K(11.8)[04;33m[K_13.4_[m[K[7;32m[KRIMKLB[m[K(51.3)[7;31m[K_92613❯ [m[K
+   |   |       |              \------------------+                             	
+   |   |       |                                 \--- Malurus_cyaneus          	Passeriformes        -                                                                 -
+   |   |       |                                                               	
+   |   |       |                                 /--- Columba_livia            	Columbiformes        >scaffold_Cliv_1.0_scaffold402_whole_(1.5Mb)                      [7;31m[K❮  451.9_[m[K[7;32m[KRIMKLB[m[K(45.5)[04;33m[K_5.4_[m[K[7;32m[KMFAP5[m[K(21)[04;33m[K_10.3_[m[K[7;32m[KAICDA[m[K(6.5)[04;33m[K_7.3_[m[K[7;32m[KLOC102087964[m[K(5.4)[04;33m[K_10.8_[m[K[7;32m[KLOC110364178[m[K(17.2)[04;33m[K_6.5_[m[K[7;32m[KLOC102098726[m[K(4.6)[04;33m[K_5.3_[m[K[7;32m[KLOC102098910[m[K(7.2)[7;31m[K_893.2❯ [m[K
+   |   |       |                             /---+                             	
+   |   |       |                             |   \--- Opisthocomus_hoazin      	Opisthocomiformes    >scaffold_ASM69207v1_scaffold446_whole_(1.0Mb)                    [7;31m[K❮  604.8_[m[K[7;32m[KLOC104332447[m[K(6.5)[04;33m[K_7.2_[m[K[7;32m[KLOC104332461[m[K(9)[04;33m[K_0.2_[m[K[7;32m[KLOC104332462[m[K(13.9)[04;33m[K_17_[m[K[7;32m[KLOC104332463[m[K(1.2)[04;33m[K_13.2_[m[K[7;32m[KAICDA[m[K(6.6)[04;33m[K_11.6_[m[K[7;32m[KMFAP5[m[K(8.8)[04;33m[K_22.1_[m[K[7;32m[KRIMKLB[m[K(37.4)[7;31m[K_262.6❯ [m[K
+   |   |       |      /----------------------+                                 	
+   |   |       |      |                      |   /--- Podilymbus_podiceps      	Podicipediformes     -                                                                 -
+   |   |       |      |                      \---+                             	
+   |   |       |      |                          \--- Phoenicopterus_ruber     	Phoenicopteriformes  -                                                                 -
+   |   |       |      |                                                        	
+   |   |       |      |              /--------------- Cariama_cristata         	Cariamiformes        >scaffold_ASM69053v1_scaffold6445_whole_(0.1Mb)                   [7;31m[K❮  0.5_[m[K[7;32m[KLOC104162400[m[K(8.8)[04;33m[K_5.5_[m[K[7;32m[KLOC104162402[m[K(1.8)[04;33m[K_5.7_[m[K[7;32m[KAICDA[m[K(5.2)[04;33m[K_11.9_[m[K[7;32m[KAPOBEC1[m[K(1.1)[7;31m[K_13.4❯ [m[K
+   |   |       |      |              |                                         	
+   \---+       |      |           /--+           /--- Atlantisia_rogersi       	Gruiformes           -                                                                 -
+       |       |      |           |  |   /-------+                             	
+       |       |      |           |  |   |       \--- Chlamydotis_macqueenii   	Gruiformes           -                                                                 -
+       |       |      |           |  \---+                                     	
+       |       |      |           |      |       /--- Rhynochetos_jubatus      	Gruiformes           -                                                                 -
+       |       |      |           |      |   /---+                             	
+       |       |      |           |      \---+   \--- Eurypyga_helias          	Gruiformes           >scaffold_ASM69077v1_scaffold4298_whole_(0.0Mb)                   [7;31m[K❮  5.3_[m[K[7;32m[KLOC104513938[m[K(0.4)[04;33m[K_15.6_[m[K[7;32m[KAICDA[m[K(1.5)[7;31m[K_12.2❯ [m[K
+       |       |      |       /---+          |                                 	
+       |       |      |       |   |          \------- Mesitornis_unicolor      	Gruiformes           -                                                                 -
+       |       \------+       |   |                                            	
+       |              |       |   |              /--- Gymnogyps_californianus  	Accipitriformes      -                                                                 -
+       |              |       |   |          /---+                             	
+       |              |       |   |      /---+   \--- Cathartes_aura           	Accipitriformes      >_(0.1Mb)                                                         [7;31m[K❮  12.6_[m[K[7;32m[KN323[m[K_01558(1.7)[04;33m[K_11.5_[m[K[7;32m[KN323[m[K_01559(1.6)[04;33m[K_17.1_[m[K[7;32m[KN323[m[K_01560(1.3)[7;31m[K_7.9❯ [m[K
+       |              |       |   |      |   |                                 	
+       |              |       |   \------+   \------- Pterocles_gutturalis     	Ciconiiformes        >scaffold_ASM69924v1_scaffold18499_whole_(0.0Mb)                  [7;31m[K❮  0.5_[m[K[7;32m[KMFAP5[m[K(8.2)[04;33m[K_16.2_[m[K[7;32m[KAICDA[m[K(1.6)[04;33m[K_9.5_[m[K[7;32m[KLOC104466318[m[K(4)[7;31m[K_7.7❯ [m[K
+       |              |       |          |                                     	
+       |              |       |          |   /------- Phaethon_lepturus        	Pelecaniformes       >scaffold_ASM68728v1_scaffold10403_whole_(0.0Mb)                  [7;31m[K❮  9.6_[m[K[7;32m[KLOC104618144[m[K(1.9)[04;33m[K_12.2_[m[K[7;32m[KAICDA[m[K(5.3)[7;31m[K_0.4❯ [m[K
+       |              |   /---+          \---+                                 	
+       |              |   |   |              |   /--- Egretta_garzetta         	Pelecaniformes       >scaffold_ASM68718v1_scaffold363_whole_(0.7Mb)                    [7;31m[K❮  178.1_[m[K[7;32m[KLOC104122768[m[K(6)[04;33m[K_7.1_[m[K[7;32m[KLOC104122782[m[K(3.7)[04;33m[K_19.6_[m[K[7;32m[KLOC104122783[m[K(5.7)[04;33m[K_11.7_[m[K[7;32m[KLOC118451892[m[K(8.3)[04;33m[K_8.3_[m[K[7;32m[KAICDA[m[K(1.6)[04;33m[K_19_[m[K[7;32m[KMFAP5[m[K(8.5)[04;33m[K_24.7_[m[K[7;32m[KRIMKLB[m[K(37.7)[7;31m[K_405.3❯ [m[K
+       |              |   |   |              \---+                             	
+       |              |   |   |                  \--- Pelecanus_crispus        	Pelecaniformes       >scaffold_ASM68737v1_scaffold52044_whole_(0.0Mb)                  [7;31m[K❮  0.4_[m[K[7;32m[KAICDA[m[K(5.4)[04;33m[K_8.8_[m[K[7;32m[KLOC104031014[m[K(5.4)[7;31m[K_7❯ [m[K
+       |              |   |   |                                                	
+       |              |   |   |                  /--- Fulmarus_glacialis       	Procellariiformes    >scaffold_ASM69083v1_scaffold9538_whole_(0.1Mb)                   [7;31m[K❮  13_[m[K[7;32m[KLOC104081376[m[K(0.5)[04;33m[K_15.7_[m[K[7;32m[KLOC104081377[m[K(0.3)[04;33m[K_11.8_[m[K[7;32m[KAICDA[m[K(5.2)[04;33m[K_7.5_[m[K[7;32m[KLOC104081378[m[K(0.6)[7;31m[K_10.2❯ [m[K
+       |              |   |   |              /---+                             	
+       |              |   |   |          /---+   \--- Aptenodytes_forsteri     	Sphenisciformes      >scaffold_ASM69914v1_Scaffold286_whole_(1.1Mb)                    [7;31m[K❮  918.2_[m[K[7;32m[KLOC103908552[m[K(8.1)[04;33m[K_24_[m[K[7;32m[KLOC103908540[m[K(6.1)[04;33m[K_7.2_[m[K[7;32m[KLOC103908554[m[K(30.9)[04;33m[K_10_[m[K[7;32m[KAPOBEC1[m[K(5.9)[04;33m[K_8.8_[m[K[7;32m[KAICDA[m[K(5.3)[04;33m[K_11_[m[K[7;32m[KMFAP5[m[K(12.3)[7;31m[K_32.7❯ [m[K
+       |              |   |   |          |   |                                 	
+       |              \---+   |          |   \------- Gavia_stellata           	Gaviiformes          >scaffold_ASM69087v1_scaffold8431_whole_(0.0Mb)                   [7;31m[K❮  13.5_[m[K[7;32m[KLOC104264505[m[K(0.3)[04;33m[K_11.4_[m[K[7;32m[KAICDA[m[K(5.2)[7;31m[K_0.7❯ [m[K
+       |                  |   \----------+                                     	
+       |                  |              |       /--- Calidris_pugnax          	Charadriiformes      >scaffold_ASM143184v1_scaffold36_whole_(4.1Mb)                    [7;31m[K❮  941.8_[m[K[7;32m[KRIMKLB[m[K(62.6)[04;33m[K_24.1_[m[K[7;32m[KMFAP5[m[K(12.1)[04;33m[K_9.6_[m[K[7;32m[KAICDA[m[K(7.6)[04;33m[K_9.3_[m[K[7;32m[KLOC106886857[m[K(7)[04;33m[K_9.2_[m[K[7;32m[KLOC106886846[m[K(5.6)[04;33m[K_22.3_[m[K[7;32m[KLOC106886831[m[K(4.5)[04;33m[K_7_[m[K[7;32m[KLOC106886858[m[K(5.9)[7;31m[K_2985.2❯ [m[K
+       |                  |              |   /---+                             	
+       |                  |              \---+   \--- Limosa_lapponica         	Charadriiformes      >scaffold_scaffold02427_scaffold02427_whole_(0.1Mb)               [7;31m[K❮  3.7_[m[K[7;32m[KLLAP[m[K_13942(29.6)[04;33m[K_7.1_[m[K[7;32m[KLLAP[m[K_13943(5.7)[04;33m[K_12.8_[m[K[7;32m[KLLAP[m[K_13944(4.7)[7;31m[K_0.8❯ [m[K
+       |                  |                  |                                 	
+       |                  |                  \------- Charadrius_vociferus     	Charadriiformes      >scaffold_ASM70802v2_scaffold561_whole_(1.7Mb)                    [7;31m[K❮  753.4_[m[K[7;32m[KLOC104294499[m[K(5.8)[04;33m[K_7.5_[m[K[7;32m[KLOC104294527[m[K(13.2)[04;33m[K_10.9_[m[K[7;32m[KLOC104294528[m[K(0.4)[04;33m[K_13_[m[K[7;32m[KLOC104294529[m[K(0.9)[04;33m[K_12.4_[m[K[7;32m[KAICDA[m[K(1.6)[04;33m[K_16.6_[m[K[7;32m[KMFAP5[m[K(8.9)[04;33m[K_25.6_[m[K[7;32m[KRIMKLB[m[K(36.7)[7;31m[K_805.4❯ [m[K
+       |                  |                                                    	
+       |                  |                      /--- Falco_cherrug            	Falconiformes        >scaffold_F_cherrug_v1.0_scaffold132_1_whole_(5.2Mb)              [7;31m[K❮  4479.6_[m[K[7;32m[KRIMKLB[m[K(65.1)[04;33m[K_6.7_[m[K[7;32m[KMFAP5[m[K(11.6)[04;33m[K_11.4_[m[K[7;32m[KAICDA[m[K(5.1)[04;33m[K_7_[m[K[7;32m[KLOC102048970[m[K(7)[04;33m[K_15.1_[m[K[7;32m[KLOC114017759[m[K(9.7)[04;33m[K_18.5_[m[K[7;32m[KLOC102049495[m[K(5.9)[04;33m[K_6.9_[m[K[7;32m[KLOC102056636[m[K(6)[7;31m[K_528.1❯ [m[K
+       |                  \----------------------+                             	
+       |                                         \--- Aquila_chrysaetos        	Accipitriformes      >chromosome_17_(29.7Mb)                                           [7;31m[K❮  21365.6_[m[K[7;32m[KLOC115352854[m[K(5.8)[04;33m[K_7.3_[m[K[7;32m[KLOC115352748[m[K(2.6)[04;33m[K_21.2_[m[K[7;32m[KLOC115352791[m[K(6.5)[04;33m[K_0.5_[m[K[7;32m[KLOC115352776[m[K(18.1)[04;33m[K_8.2_[m[K[7;32m[KAICDA[m[K(5.2)[04;33m[K_10.8_[m[K[7;32m[KMFAP5[m[K(12.1)[04;33m[K_13.4_[m[K[7;32m[KRIMKLB[m[K(60.6)[7;31m[K_8161.2❯ [m[K
+       |                                                                       	
+       |                                         /--- Calypte_anna             	Apodiformes          >chromosome_1_(197.6Mb)                                           [7;31m[K❮  86343.5_[m[K[7;32m[KRIMKLB[m[K(42.6)[04;33m[K_17.5_[m[K[7;32m[KMFAP5[m[K(11.8)[04;33m[K_13.8_[m[K[7;32m[KAICDA[m[K(1.7)[04;33m[K_12.3_[m[K[7;32m[KAPOBEC1[m[K(3.7)[04;33m[K_30.4_[m[K[7;32m[KLOC103536965[m[K(3.1)[04;33m[K_6.3_[m[K[7;32m[KLOC103536966[m[K(5.8)[04;33m[K_22.1_[m[K[7;32m[KLOC103536967[m[K(11)[7;31m[K_111025❯ [m[K
+       |                                     /---+                             	
+       \-------------------------------------+   \--- Chaetura_pelagica        	Apodiformes          -                                                                 -
+                                             |                                 	
+                                             \------- Caprimulgus_europaeus    	Caprimulgiformes     -                                                                 -
+                                                                               	
+                                                                               	
