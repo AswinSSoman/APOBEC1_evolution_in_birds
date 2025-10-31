@@ -1,0 +1,88 @@
+
+
+>code => Universal
+
+>Loaded a multiple sequence alignment with **60** sequences, **274** codons, and **1** partitions from `/home/neo/bird_db1/aswin/APOBEC1/relaxed_selection/amniotes_as_bg/12_amniotes_as_bg/one_birds_as_fg_all_amniotes_as_bg/all_cds.aln`
+
+>test => fg
+
+>reference => bg
+The number of points in the initial distributional guess for likelihood fitting (permissible range = [1,10000], default value = 250, integer): 
+>grid-size => 250
+The number of initial random guesses to 'seed' rate values optimization (permissible range = [1,25], default value = 1, integer): 
+>starting-points => 1
+
+
+### Branch sets for RELAX analysis
+
+>multiple-hits => None
+* Selected 20 branches as the _Reference_ set: `Eublepharis_macularius, Candoia_aspera, Thamnophis_elegans, Crotalus_tigris, Node7, Node5, Anolis_carolinensis, Sceloporus_undulatus, Node10, Node4, Rhineura_floridana, Node3, Crocodylus_porosus, Gavialis_gangeticus, Node17, Alligator_sinensis, Node16, Malaclemys_terrapin_pileata, Chelonia_mydas, Node116`
+* Selected 1 branches as the _Test_ set: `Serinus_canaria`
+* 96 branches are in the unclassified (nuisance) set: `Tauraco_erythrolophus, Corythaeola_cristata, Node24, Chaetura_pelagica, Calypte_anna, Node28, Caprimulgus_europaeus, Node27, Node23, Egretta_garzetta, Pelecanus_crispus, Node40, Aptenodytes_forsteri, Fulmarus_glacialis, Node43, Node39, Gavia_stellata, Node38, Eurypyga_helias, Rhynochetos_jubatus, Node48, Phaethon_lepturus, Node47, Node37, Atlantisia_rogersi, Node36, Calidris_pugnax, Limosa_lapponica, Node54, Charadrius_vociferus, Node53, Node35, Mesitornis_unicolor, Columba_livia, Node59, Podilymbus_podiceps, Phoenicopterus_ruber, Node62, Node58, Node34, Opisthocomus_hoazin, Node33, Merops_nubicus, Galbula_dea, Node71, Buceros_rhinoceros, Node70, Apaloderma_vittatum, Node69, Colius_striatus, Node68, Aquila_chrysaetos_chrysaetos, Node67, Melopsittacus_undulatus, Nestor_notabilis, Node81, Stachyris_ruficeps, Ficedula_albicollis, Corvus_moneduloides, Taeniopygia_guttata, Lonchura_striata_domestica, Node95, Erythrura_gouldiae, Node94, Node92, Zonotrichia_albicollis, Node100, Passer_domesticus, Node99, Node91, Node89, Node87, Manacus_vitellinus, Node86, Acanthisitta_chloris, Node85, Malurus_cyaneus_samueli, Node84, Node80, Falco_cherrug, Node79, Cariama_cristata, Node78, Node66, Node32, Node22, Anas_platyrhynchos, Aythya_fuligula, Node111, Anser_cygnoides, Node110, Alectura_lathami, Node109, Node21, Node15, Node14`
+The number omega rate classes to include in the model (permissible range = [2,10], default value = 3, integer): 
+>rates => 3
+
+>models => Minimal
+
+>srv => No
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths => Yes
+
+### Deleted 11 zero-length internal branches: `Node10, Node23, Node32, Node33, Node34, Node35, Node67, Node68, Node78, Node79, Node85`
+* Log(L) = -14658.48, AIC-c = 29567.61 (125 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  6.061
+
+### Obtaining the global omega estimate based on relative GTR branch lengths and nucleotide substitution biases
+* Log(L) = -14459.00, AIC-c = 29165.87 (123 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  6.184
+* non-synonymous/synonymous rate ratio for *Reference* =   0.7464
+* non-synonymous/synonymous rate ratio for *Test* =   0.8220
+* non-synonymous/synonymous rate ratio for *Unclassified* =   0.7960
+
+### Improving branch lengths, nucleotide substitution biases, and global dN/dS ratios under a full codon model
+* Log(L) = -14452.20, AIC-c = 29152.27 (123 estimated parameters)
+* non-synonymous/synonymous rate ratio for *Reference* =   0.6082
+* non-synonymous/synonymous rate ratio for *Test* =   0.9153
+* non-synonymous/synonymous rate ratio for *Unclassified* =   0.8327
+
+### Fitting the alternative model to test K != 1
+* Log(L) = -14278.34, AIC-c = 28820.80 (131 estimated parameters)
+* Relaxation/intensification parameter (K) =     0.01
+* The following rate distribution was inferred for **test** branches
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.869     |   44.428    |                                   |
+|         Neutral evolution         |     1.000     |   52.166    |                                   |
+|      Diversifying selection       |     1.048     |    3.405    |       Collapsed rate class        |
+
+* The following rate distribution was inferred for **reference** branches
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.000     |   44.428    |                                   |
+|         Neutral evolution         |     1.000     |   52.166    |                                   |
+|      Diversifying selection       |    48.970     |    3.405    |                                   |
+
+
+### * Potential convergence issues due to flat likelihood surfaces; checking to see whether K > 1 or K < 1 is robustly inferred
+
+### Fitting the null (K := 1) model
+* Log(L) = -14282.90, AIC-c = 28827.88 (130 estimated parameters)
+* The following rate distribution for test/reference branches was inferred
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.000     |   43.660    |                                   |
+|         Neutral evolution         |     1.000     |   53.311    |                                   |
+|      Diversifying selection       |    46.517     |    3.028    |                                   |
+
+----
+## Test for relaxation (or intensification) of selection [RELAX]
+Likelihood ratio test **p =   0.0025**.
+>Evidence for *relaxation of selection* among **test** branches _relative_ to the **reference** branches at P<=0.05
+----
+
