@@ -1,0 +1,231 @@
+<svg version="1.1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="667" height="400" viewBox = "0 0 667 400"
+onclick="mouseclick(evt)">
+
+<script type="text/ecmascript">
+
+<![CDATA[
+    function mouseover(evt, target) { 
+    var gv = document.getElementById("globalVariable");
+    var previoustarget = gv.firstChild.nodeValue;
+    if (previoustarget != "none") 
+    {
+        	document.getElementById(gv.firstChild.nodeValue).setAttributeNS(null, "visibility", "hidden");
+    }
+    document.getElementById(target).setAttributeNS(null, "visibility", "visible");
+    gv.firstChild.nodeValue = target;
+        }
+
+    function mouseclick(evt) { 
+    var gv = document.getElementById("globalVariable");
+    var previoustarget = gv.firstChild.nodeValue;
+    if (previoustarget != "none") {
+        	document.getElementById(gv.firstChild.nodeValue).setAttributeNS(null, "visibility", "hidden");
+        }
+    }
+]]>
+  </script>
+<style type="text/css" >
+
+<![CDATA[
+    rect.anc_exon {
+              stroke-width:3;
+                  }
+
+    rect.non_anc_exon {
+              stroke: black; stroke-width:3; stroke-dasharray: 5,5;
+                    }
+
+    text {
+              font-size: 18px;
+              font-family: Courier New;
+          }
+                    ]]>
+</style>
+
+<defs>
+    <text x="150" y="40" id="globalVariable">none</text>
+</defs>
+
+  <rect class="anc_exon" x="0" y="35.0" width="0" height="30" style="fill:#87bcbc;fill-opacity:1.00" />
+  <rect class="anc_exon" x="0" y="35.0" width="305.6" height="30" style="fill:#87bcbc;fill-opacity:1.00" />
+  <polygon points="63.2,35.0 65.7,25.0 60.7,25.0" style="fill:#121212; stroke-opacity:1; fill-opacity:1"/>
+  <line x1="181.60000000000002" y1="35.0" x2="181.60000000000002" y2="65.0" style="stroke:#121212;stroke-width:3;"/>
+  <line x1="227.20000000000002" y1="35.0" x2="227.20000000000002" y2="65.0" style="stroke:#121212; stroke-width:1.6; stroke-opacity:1"/>
+  <polygon points="260.0,35.0 262.5,25.0 257.5,25.0" style="fill:#121212; stroke-opacity:1; fill-opacity:1"/>
+  <text style="" text-anchor="middle">
+<tspan x="63.2" y="16.0" style="font-size:18px;fill:#121212;" >+1</tspan>  </text>
+  <text style="" text-anchor="middle">
+<tspan x="180.8" y="26.0" style="font-size:18px;fill:#121212;" >TAG</tspan>  </text>
+  <text style="" text-anchor="middle">
+<tspan x="226.4" y="26.0" style="font-size:18px;fill:#121212;" >-2</tspan>  </text>
+  <text style="" text-anchor="middle">
+<tspan x="260.0" y="16.0" style="font-size:18px;fill:#121212;" >+2</tspan>  </text>
+  <line x1="305.6" y1="50.0" x2="345.0" y2="50.0" style="stroke:#999; stroke-width:3;" />
+  <rect class="anc_exon" x="345" y="35.0" width="95" height="30" style="fill:#87bcbc;fill-opacity:1.00" />
+  <line x1="360.2" y1="35.0" x2="360.2" y2="65.0" style="stroke:#121212;stroke-width:3;"/>
+  <line x1="374.6" y1="35.0" x2="374.6" y2="65.0" style="stroke:#121212;stroke-width:3;"/>
+  <line x1="403.4" y1="35.0" x2="403.4" y2="65.0" style="stroke:#121212; stroke-width:1.6; stroke-opacity:1"/>
+  <polygon points="409.8,35.0 412.3,25.0 407.3,25.0" style="fill:#121212; stroke-opacity:1; fill-opacity:1"/>
+  <text style="" text-anchor="middle">
+<tspan x="366.6" y="26.0" style="font-size:18px;fill:#121212;" >TAG</tspan><tspan x="366.6" y="8.0" style="font-size:18px;fill:#121212;" >TAA</tspan>  </text>
+  <text style="" text-anchor="middle">
+<tspan x="406.2" y="16.0" style="font-size:18px;fill:#121212;" >-2</tspan><tspan x="406.2" y="-2.0" style="font-size:18px;fill:#121212;" >+2</tspan>  </text>
+  <line x1="440" y1="50.0" x2="460" y2="50.0" style="stroke:#999; stroke-width:3;" />
+  <line x1="460" y1="50.0" x2="460" y2="50.0" style="stroke:#999; stroke-width:3;" />
+  <line x1="460" y1="50.0" x2="460" y2="50.0" style="stroke:#999; stroke-width:3;" />
+  <line x1="460" y1="50.0" x2="480" y2="50.0" style="stroke:#999; stroke-width:3;" />
+  <rect class="anc_exon" x="480" y="35.0" width="26" height="30" style="fill:#87bcbc;fill-opacity:1.00" />
+  <polygon points="495.2,35.0 497.7,25.0 492.7,25.0" style="fill:#121212; stroke-opacity:1; fill-opacity:1"/>
+  <text style="" text-anchor="middle">
+<tspan x="495.2" y="16.0" style="font-size:18px;fill:#121212;" >+2</tspan>  </text>
+  <rect class="anc_exon" x="506" y="35.0" width="0" height="30" style="fill:#87bcbc;fill-opacity:1.00" />
+  <text style="" >
+<tspan x="0" y="83.0" style="font-size:18px;" >SP rna-XM_013092901.3.9</tspan>  </text>
+  <rect class="anc_exon" x="0" y="135.0" width="0" height="30" style="fill:#87bcbc;fill-opacity:1.00" />
+  <rect class="anc_exon" x="0" y="135.0" width="17.6" height="30" style="fill:#cf232b;fill-opacity:1.00" />
+  <line x1="17.6" y1="150.0" x2="57.0" y2="150.0" style="stroke:#999; stroke-width:3;" />
+  <rect class="anc_exon" x="57" y="135.0" width="22" height="30" style="fill:#87bcbc;fill-opacity:1.00" />
+  <line x1="79" y1="150.0" x2="119" y2="150.0" style="stroke:#999; stroke-width:3;" />
+  <rect class="anc_exon" x="119" y="135.0" width="311" height="30" style="fill:#87bcbc;fill-opacity:1.00" />
+  <line x1="140.6" y1="135.0" x2="140.6" y2="165.0" style="stroke:#121212; stroke-width:1.6; stroke-opacity:1"/>
+  <line x1="306.20000000000005" y1="135.0" x2="306.20000000000005" y2="165.0" style="stroke:#121212;stroke-width:3;"/>
+  <line x1="351.8" y1="135.0" x2="351.8" y2="165.0" style="stroke:#121212; stroke-width:1.6; stroke-opacity:1"/>
+  <polygon points="384.6,135.0 387.1,125.0 382.1,125.0" style="fill:#121212; stroke-opacity:1; fill-opacity:1"/>
+  <text style="" text-anchor="middle">
+<tspan x="139.8" y="126.0" style="font-size:18px;fill:#121212;" >-2</tspan>  </text>
+  <text style="" text-anchor="middle">
+<tspan x="305.4" y="126.0" style="font-size:18px;fill:#121212;" >TAG</tspan>  </text>
+  <text style="" text-anchor="middle">
+<tspan x="351.0" y="126.0" style="font-size:18px;fill:#121212;" >-2</tspan>  </text>
+  <text style="" text-anchor="middle">
+<tspan x="384.6" y="116.0" style="font-size:18px;fill:#121212;" >+2</tspan>  </text>
+  <line x1="430" y1="150.0" x2="470" y2="150.0" style="stroke:#999; stroke-width:3;" />
+  <rect class="anc_exon" x="470" y="135.0" width="95" height="30" style="fill:#87bcbc;fill-opacity:1.00" />
+  <line x1="485.2" y1="135.0" x2="485.2" y2="165.0" style="stroke:#121212;stroke-width:3;"/>
+  <line x1="499.6" y1="135.0" x2="499.6" y2="165.0" style="stroke:#121212;stroke-width:3;"/>
+  <line x1="528.4" y1="135.0" x2="528.4" y2="165.0" style="stroke:#121212; stroke-width:1.6; stroke-opacity:1"/>
+  <polygon points="534.8,135.0 537.3,125.0 532.3,125.0" style="fill:#121212; stroke-opacity:1; fill-opacity:1"/>
+  <text style="" text-anchor="middle">
+<tspan x="491.6" y="126.0" style="font-size:18px;fill:#121212;" >TAG</tspan><tspan x="491.6" y="108.0" style="font-size:18px;fill:#121212;" >TAA</tspan>  </text>
+  <text style="" text-anchor="middle">
+<tspan x="531.2" y="116.0" style="font-size:18px;fill:#121212;" >-2</tspan><tspan x="531.2" y="98.0" style="font-size:18px;fill:#121212;" >+2</tspan>  </text>
+  <line x1="565" y1="150.0" x2="585" y2="150.0" style="stroke:#999; stroke-width:3;" />
+  <line x1="585" y1="150.0" x2="585" y2="150.0" style="stroke:#999; stroke-width:3;" />
+  <line x1="585" y1="150.0" x2="585" y2="150.0" style="stroke:#999; stroke-width:3;" />
+  <line x1="585" y1="150.0" x2="605" y2="150.0" style="stroke:#999; stroke-width:3;" />
+  <rect class="anc_exon" x="605" y="135.0" width="26" height="30" style="fill:#87bcbc;fill-opacity:1.00" />
+  <polygon points="620.2,135.0 622.7,125.0 617.7,125.0" style="fill:#121212; stroke-opacity:1; fill-opacity:1"/>
+  <text style="" text-anchor="middle">
+<tspan x="620.2" y="116.0" style="font-size:18px;fill:#121212;" >+2</tspan>  </text>
+  <rect class="anc_exon" x="631" y="135.0" width="0" height="30" style="fill:#87bcbc;fill-opacity:1.00" />
+  <text style="" >
+<tspan x="0" y="183.0" style="font-size:18px;" >SP rna-XM_027449866.2.9</tspan>  </text>
+  <rect class="anc_exon" x="0" y="235.0" width="0" height="30" style="fill:#87bcbc;fill-opacity:1.00" />
+  <rect class="anc_exon" x="0" y="235.0" width="17.6" height="30" style="fill:#cf232b;fill-opacity:1.00" />
+  <line x1="17.6" y1="250.0" x2="57.0" y2="250.0" style="stroke:#999; stroke-width:3;" />
+  <rect class="anc_exon" x="57" y="235.0" width="22" height="30" style="fill:#87bcbc;fill-opacity:1.00" />
+  <line x1="79" y1="250.0" x2="119" y2="250.0" style="stroke:#999; stroke-width:3;" />
+  <rect class="anc_exon" x="119" y="235.0" width="311" height="30" style="fill:#87bcbc;fill-opacity:1.00" />
+  <line x1="140.6" y1="235.0" x2="140.6" y2="265.0" style="stroke:#121212; stroke-width:1.6; stroke-opacity:1"/>
+  <line x1="306.20000000000005" y1="235.0" x2="306.20000000000005" y2="265.0" style="stroke:#121212;stroke-width:3;"/>
+  <line x1="351.8" y1="235.0" x2="351.8" y2="265.0" style="stroke:#121212; stroke-width:1.6; stroke-opacity:1"/>
+  <polygon points="384.6,235.0 387.1,225.0 382.1,225.0" style="fill:#121212; stroke-opacity:1; fill-opacity:1"/>
+  <text style="" text-anchor="middle">
+<tspan x="139.8" y="226.0" style="font-size:18px;fill:#121212;" >-2</tspan>  </text>
+  <text style="" text-anchor="middle">
+<tspan x="305.4" y="226.0" style="font-size:18px;fill:#121212;" >TAG</tspan>  </text>
+  <text style="" text-anchor="middle">
+<tspan x="351.0" y="226.0" style="font-size:18px;fill:#121212;" >-2</tspan>  </text>
+  <text style="" text-anchor="middle">
+<tspan x="384.6" y="216.0" style="font-size:18px;fill:#121212;" >+2</tspan>  </text>
+  <line x1="430" y1="250.0" x2="470" y2="250.0" style="stroke:#999; stroke-width:3;" />
+  <rect class="anc_exon" x="470" y="235.0" width="95" height="30" style="fill:#87bcbc;fill-opacity:1.00" />
+  <line x1="485.2" y1="235.0" x2="485.2" y2="265.0" style="stroke:#121212;stroke-width:3;"/>
+  <line x1="499.6" y1="235.0" x2="499.6" y2="265.0" style="stroke:#121212;stroke-width:3;"/>
+  <line x1="528.4" y1="235.0" x2="528.4" y2="265.0" style="stroke:#121212; stroke-width:1.6; stroke-opacity:1"/>
+  <polygon points="534.8,235.0 537.3,225.0 532.3,225.0" style="fill:#121212; stroke-opacity:1; fill-opacity:1"/>
+  <text style="" text-anchor="middle">
+<tspan x="491.6" y="226.0" style="font-size:18px;fill:#121212;" >TAG</tspan><tspan x="491.6" y="208.0" style="font-size:18px;fill:#121212;" >TAA</tspan>  </text>
+  <text style="" text-anchor="middle">
+<tspan x="531.2" y="216.0" style="font-size:18px;fill:#121212;" >-2</tspan><tspan x="531.2" y="198.0" style="font-size:18px;fill:#121212;" >+2</tspan>  </text>
+  <line x1="565" y1="250.0" x2="585" y2="250.0" style="stroke:#999; stroke-width:3;" />
+  <line x1="585" y1="250.0" x2="585" y2="250.0" style="stroke:#999; stroke-width:3;" />
+  <line x1="585" y1="250.0" x2="585" y2="250.0" style="stroke:#999; stroke-width:3;" />
+  <line x1="585" y1="250.0" x2="605" y2="250.0" style="stroke:#999; stroke-width:3;" />
+  <rect class="anc_exon" x="605" y="235.0" width="26" height="30" style="fill:#87bcbc;fill-opacity:1.00" />
+  <polygon points="620.2,235.0 622.7,225.0 617.7,225.0" style="fill:#121212; stroke-opacity:1; fill-opacity:1"/>
+  <text style="" text-anchor="middle">
+<tspan x="620.2" y="216.0" style="font-size:18px;fill:#121212;" >+2</tspan>  </text>
+  <rect class="anc_exon" x="631" y="235.0" width="0" height="30" style="fill:#87bcbc;fill-opacity:1.00" />
+  <text style="" >
+<tspan x="0" y="283.0" style="font-size:18px;" >SP rna-XM_038173084.1.9</tspan>  </text>
+  <rect class="anc_exon" x="0" y="335.0" width="0" height="30" style="fill:#87bcbc;fill-opacity:1.00" />
+  <rect class="anc_exon" x="0" y="335.0" width="43.2" height="30" style="fill:#87bcbc;fill-opacity:1.00" />
+  <line x1="43.2" y1="350.0" x2="83.0" y2="350.0" style="stroke:#999; stroke-width:3;" />
+  <rect class="anc_exon" x="83" y="335.0" width="264" height="30" style="fill:#87bcbc;fill-opacity:1.00" />
+  <line x1="117.80000000000001" y1="335.0" x2="117.80000000000001" y2="365.0" style="stroke:#121212; stroke-width:0.8; stroke-opacity:1"/>
+  <line x1="223.8" y1="335.0" x2="223.8" y2="365.0" style="stroke:#121212;stroke-width:3;"/>
+  <line x1="269.4" y1="335.0" x2="269.4" y2="365.0" style="stroke:#121212; stroke-width:1.6; stroke-opacity:1"/>
+  <polygon points="302.20000000000005,335.0 304.70000000000005,325.0 299.70000000000005,325.0" style="fill:#121212; stroke-opacity:1; fill-opacity:1"/>
+  <text style="" text-anchor="middle">
+<tspan x="117.4" y="326.0" style="font-size:18px;fill:#121212;" >-1</tspan>  </text>
+  <text style="" text-anchor="middle">
+<tspan x="223.0" y="326.0" style="font-size:18px;fill:#121212;" >TAG</tspan>  </text>
+  <text style="" text-anchor="middle">
+<tspan x="268.6" y="326.0" style="font-size:18px;fill:#121212;" >-2</tspan>  </text>
+  <text style="" text-anchor="middle">
+<tspan x="302.20000000000005" y="316.0" style="font-size:18px;fill:#121212;" >+2</tspan>  </text>
+  <line x1="347" y1="350.0" x2="387" y2="350.0" style="stroke:#999; stroke-width:3;" />
+  <rect class="anc_exon" x="387" y="335.0" width="95" height="30" style="fill:#87bcbc;fill-opacity:1.00" />
+  <line x1="402.2" y1="335.0" x2="402.2" y2="365.0" style="stroke:#121212;stroke-width:3;"/>
+  <line x1="416.6" y1="335.0" x2="416.6" y2="365.0" style="stroke:#121212;stroke-width:3;"/>
+  <line x1="445.4" y1="335.0" x2="445.4" y2="365.0" style="stroke:#121212; stroke-width:1.6; stroke-opacity:1"/>
+  <polygon points="451.8,335.0 454.3,325.0 449.3,325.0" style="fill:#121212; stroke-opacity:1; fill-opacity:1"/>
+  <text style="" text-anchor="middle">
+<tspan x="408.6" y="326.0" style="font-size:18px;fill:#121212;" >TAG</tspan><tspan x="408.6" y="308.0" style="font-size:18px;fill:#121212;" >TAA</tspan>  </text>
+  <text style="" text-anchor="middle">
+<tspan x="448.2" y="316.0" style="font-size:18px;fill:#121212;" >-2</tspan><tspan x="448.2" y="298.0" style="font-size:18px;fill:#121212;" >+2</tspan>  </text>
+  <line x1="482" y1="350.0" x2="502" y2="350.0" style="stroke:#999; stroke-width:3;" />
+  <line x1="502" y1="350.0" x2="502" y2="350.0" style="stroke:#999; stroke-width:3;" />
+  <line x1="502" y1="350.0" x2="502" y2="350.0" style="stroke:#999; stroke-width:3;" />
+  <line x1="502" y1="350.0" x2="522" y2="350.0" style="stroke:#999; stroke-width:3;" />
+  <rect class="anc_exon" x="522" y="335.0" width="26" height="30" style="fill:#87bcbc;fill-opacity:1.00" />
+  <polygon points="537.2,335.0 539.7,325.0 534.7,325.0" style="fill:#121212; stroke-opacity:1; fill-opacity:1"/>
+  <text style="" text-anchor="middle">
+<tspan x="537.2" y="316.0" style="font-size:18px;fill:#121212;" >+2</tspan>  </text>
+  <rect class="anc_exon" x="548" y="335.0" width="0" height="30" style="fill:#87bcbc;fill-opacity:1.00" />
+  <text style="" >
+<tspan x="0" y="383.0" style="font-size:18px;" >SP rna-XM_038173085.1.9</tspan>  </text>
+
+
+
+<script type="text/ecmascript">
+<![CDATA[
+function draw_bbox(text_id)
+{
+    var text_elem = document.getElementById(text_id);
+    var offset_px = 2;
+    var offset_py = 0;
+    bbox = text_elem.getBBox();
+    var box = document.createElementNS(document.rootElement.namespaceURI,'rect');
+    box.setAttribute('x', bbox.x - offset_px);
+    box.setAttribute('y', bbox.y - offset_py);
+    box.setAttribute('width', bbox.width + offset_px * 2);
+    box.setAttribute('height', bbox.height + offset_py * 2);
+    box.setAttribute('style','fill: white;'+'stroke: black;'+'stroke-width: 1px;');
+    text_elem.insertBefore(box,text_elem.childNodes[0]);
+
+    var svg = text_elem.parentNode;
+    svg.appendChild(text_elem);
+}
+
+for (var i=1; i < 1; i++)
+{
+draw_bbox("Mouseover" + i);
+}
+]]> 
+</script>
+</svg>
