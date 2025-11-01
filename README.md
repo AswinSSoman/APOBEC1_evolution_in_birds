@@ -4,7 +4,6 @@
 **Repository for the analyses, code, and input data** supporting the article:
 
 > **“Deciphering APOBEC1 in Avians: Unravelling Loss Events and Functional Insights”**
-> *[Authors et al., 2025]*
 
 ---
 
