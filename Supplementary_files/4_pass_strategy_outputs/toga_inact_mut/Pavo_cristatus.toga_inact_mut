@@ -1,0 +1,1385 @@
+GENE: rna-XM_038179410.1
+# rna-XM_038179410.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179410.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179410.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179410.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179410.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179410.1	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_038179410.1	1	7	0	Deleted exon	-	masked	DEL_7
+# rna-XM_038179410.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179410.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179410.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179410.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179410.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179410.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179440.1
+# rna-XM_038179440.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179440.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179440.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179440.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179440.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179440.1	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_038179440.1	1	7	0	Deleted exon	-	masked	DEL_7
+# rna-XM_038179440.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179440.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179440.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179440.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179440.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179440.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_005012412.5
+# rna-XM_005012412.5	1	1	1	ATG	ATG->ATG	masked	ATG_1
+# rna-XM_005012412.5	1	1	87	ATG	ATG->ATG	masked	ATG_2
+# rna-XM_005012412.5	1	2	0	Deleted exon	-	masked	DEL_1
+# rna-XM_005012412.5	1	5	263	ATG	ATG->ATG	masked	ATG_3
+# rna-XM_005012412.5	1	6	281	ATG	ATG->ATG	masked	ATG_4
+# rna-XM_005012412.5	1	6	290	ATG	ATG->ATG	masked	ATG_5
+# rna-XM_005012412.5	1	6	336	ATG	ATG->ATG	masked	ATG_6
+# rna-XM_005012412.5	1	6	338	ATG	ATG->ATG	masked	ATG_7
+# rna-XM_005012412.5	1	6	343	ATG	ATG->ATG	masked	ATG_8
+# rna-XM_005012412.5	1	7	400	ATG	ATG->ATG	masked	ATG_9
+# rna-XM_005012412.5	1	8	418	ATG	ATG->ATG	masked	ATG_10
+# rna-XM_005012412.5	1	8	480	ATG	ATG->ATG	masked	ATG_11
+# rna-XM_005012412.5	1	9	0	Deleted exon	-	masked	DEL_2
+# rna-XM_005012412.5	1	10	0	Deleted exon	-	masked	DEL_3
+# rna-XM_005012412.5	1	INTACT_PERC_IGNORE_M 0.8330275229357799
+# rna-XM_005012412.5	1	INTACT_PERC_INTACT_M 0.8330275229357799
+# rna-XM_005012412.5	1	INTACT_CODONS_PROP 0.8330275229357799
+# rna-XM_005012412.5	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_005012412.5	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_005012412.5	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179554.1
+# rna-XM_038179554.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179554.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179554.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179554.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179554.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179554.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179554.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179554.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179554.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179554.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179554.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_027449868.2
+# rna-XM_027449868.2	1	1	1	ATG	ATG->ATG	masked	ATG_1
+# rna-XM_027449868.2	1	1	46	ATG	ATG->ATG	masked	ATG_2
+# rna-XM_027449868.2	1	2	98	ATG	ATG->ATG	masked	ATG_3
+# rna-XM_027449868.2	1	2	103	ATG	ATG->ATG	masked	ATG_4
+# rna-XM_027449868.2	1	3	0	Deleted exon	-	masked	DEL_1
+# rna-XM_027449868.2	1	4	217	ATG	ATG->ATG	masked	ATG_6
+# rna-XM_027449868.2	1	4	226	ATG	ATG->ATG	masked	ATG_7
+# rna-XM_027449868.2	1	5	0	Deleted exon	-	masked	DEL_2
+# rna-XM_027449868.2	1	INTACT_PERC_IGNORE_M 0.524547803617571
+# rna-XM_027449868.2	1	INTACT_PERC_INTACT_M 0.524547803617571
+# rna-XM_027449868.2	1	INTACT_CODONS_PROP 0.524547803617571
+# rna-XM_027449868.2	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_027449868.2	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_027449868.2	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038178164.1
+# rna-XM_038178164.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038178164.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038178164.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038178164.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038178164.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038178164.1	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_038178164.1	1	7	0	Deleted exon	-	masked	DEL_7
+# rna-XM_038178164.1	1	8	0	Deleted exon	-	masked	DEL_8
+# rna-XM_038178164.1	1	9	0	Deleted exon	-	masked	DEL_9
+# rna-XM_038178164.1	1	10	0	Deleted exon	-	masked	DEL_10
+# rna-XM_038178164.1	1	11	0	Deleted exon	-	masked	DEL_11
+# rna-XM_038178164.1	1	12	0	Deleted exon	-	masked	DEL_12
+# rna-XM_038178164.1	1	13	0	Deleted exon	-	masked	DEL_13
+# rna-XM_038178164.1	1	14	0	Deleted exon	-	masked	DEL_14
+# rna-XM_038178164.1	1	15	0	Deleted exon	-	masked	DEL_15
+# rna-XM_038178164.1	1	16	0	Deleted exon	-	masked	DEL_16
+# rna-XM_038178164.1	1	17	0	Deleted exon	-	masked	DEL_17
+# rna-XM_038178164.1	1	18	0	Deleted exon	-	masked	DEL_18
+# rna-XM_038178164.1	1	19	0	Deleted exon	-	masked	DEL_19
+# rna-XM_038178164.1	1	20	0	Deleted exon	-	masked	DEL_20
+# rna-XM_038178164.1	1	21	0	Deleted exon	-	masked	DEL_21
+# rna-XM_038178164.1	1	22	0	Deleted exon	-	masked	DEL_22
+# rna-XM_038178164.1	1	23	0	Deleted exon	-	masked	DEL_23
+# rna-XM_038178164.1	1	24	0	Deleted exon	-	masked	DEL_24
+# rna-XM_038178164.1	1	25	0	Deleted exon	-	masked	DEL_25
+# rna-XM_038178164.1	1	26	0	Deleted exon	-	masked	DEL_26
+# rna-XM_038178164.1	1	27	0	Deleted exon	-	masked	DEL_27
+# rna-XM_038178164.1	1	28	0	Deleted exon	-	masked	DEL_28
+# rna-XM_038178164.1	1	29	0	Deleted exon	-	masked	DEL_29
+# rna-XM_038178164.1	1	30	0	Deleted exon	-	masked	DEL_30
+# rna-XM_038178164.1	1	31	0	Deleted exon	-	masked	DEL_31
+# rna-XM_038178164.1	1	32	0	Deleted exon	-	masked	DEL_32
+# rna-XM_038178164.1	1	33	0	Deleted exon	-	masked	DEL_33
+# rna-XM_038178164.1	1	34	0	Deleted exon	-	masked	DEL_34
+# rna-XM_038178164.1	1	35	0	Deleted exon	-	masked	DEL_35
+# rna-XM_038178164.1	1	36	0	Deleted exon	-	masked	DEL_36
+# rna-XM_038178164.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038178164.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038178164.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038178164.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038178164.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038178164.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_005029990.5
+# rna-XM_005029990.5	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_005029990.5	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_005029990.5	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_005029990.5	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_005029990.5	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_005029990.5	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_005029990.5	1	7	0	Deleted exon	-	masked	DEL_7
+# rna-XM_005029990.5	1	8	0	Deleted exon	-	masked	DEL_8
+# rna-XM_005029990.5	1	9	0	Deleted exon	-	masked	DEL_9
+# rna-XM_005029990.5	1	10	0	Deleted exon	-	masked	DEL_10
+# rna-XM_005029990.5	1	11	0	Deleted exon	-	masked	DEL_11
+# rna-XM_005029990.5	1	12	0	Deleted exon	-	masked	DEL_12
+# rna-XM_005029990.5	1	13	0	Deleted exon	-	masked	DEL_13
+# rna-XM_005029990.5	1	14	0	Deleted exon	-	masked	DEL_14
+# rna-XM_005029990.5	1	15	0	Deleted exon	-	masked	DEL_15
+# rna-XM_005029990.5	1	16	0	Deleted exon	-	masked	DEL_16
+# rna-XM_005029990.5	1	17	0	Deleted exon	-	masked	DEL_17
+# rna-XM_005029990.5	1	18	0	Deleted exon	-	masked	DEL_18
+# rna-XM_005029990.5	1	19	0	Deleted exon	-	masked	DEL_19
+# rna-XM_005029990.5	1	20	0	Deleted exon	-	masked	DEL_20
+# rna-XM_005029990.5	1	21	0	Deleted exon	-	masked	DEL_21
+# rna-XM_005029990.5	1	22	0	Deleted exon	-	masked	DEL_22
+# rna-XM_005029990.5	1	23	0	Deleted exon	-	masked	DEL_23
+# rna-XM_005029990.5	1	24	0	Deleted exon	-	masked	DEL_24
+# rna-XM_005029990.5	1	25	0	Deleted exon	-	masked	DEL_25
+# rna-XM_005029990.5	1	26	0	Deleted exon	-	masked	DEL_26
+# rna-XM_005029990.5	1	27	0	Deleted exon	-	masked	DEL_27
+# rna-XM_005029990.5	1	28	0	Deleted exon	-	masked	DEL_28
+# rna-XM_005029990.5	1	29	0	Deleted exon	-	masked	DEL_29
+# rna-XM_005029990.5	1	30	0	Deleted exon	-	masked	DEL_30
+# rna-XM_005029990.5	1	31	0	Deleted exon	-	masked	DEL_31
+# rna-XM_005029990.5	1	32	0	Deleted exon	-	masked	DEL_32
+# rna-XM_005029990.5	1	33	0	Deleted exon	-	masked	DEL_33
+# rna-XM_005029990.5	1	34	0	Deleted exon	-	masked	DEL_34
+# rna-XM_005029990.5	1	35	0	Deleted exon	-	masked	DEL_35
+# rna-XM_005029990.5	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_005029990.5	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_005029990.5	1	INTACT_CODONS_PROP 0.0
+# rna-XM_005029990.5	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_005029990.5	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_005029990.5	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179418.1
+# rna-XM_038179418.1	1	1	0	Missing exon	-	masked	MDEL_1
+# rna-XM_038179418.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179418.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179418.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179418.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179418.1	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_038179418.1	1	7	0	Deleted exon	-	masked	DEL_7
+# rna-XM_038179418.1	1	8	0	Deleted exon	-	masked	DEL_8
+# rna-XM_038179418.1	1	9	0	Deleted exon	-	masked	DEL_9
+# rna-XM_038179418.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179418.1	1	INTACT_PERC_INTACT_M 0.0029498525073746312
+# rna-XM_038179418.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179418.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179418.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179418.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179569.1
+# rna-XM_038179569.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179569.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179569.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179569.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179569.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179569.1	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_038179569.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179569.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179569.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179569.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179569.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179569.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179551.1
+# rna-XM_038179551.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179551.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179551.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179551.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179551.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179551.1	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_038179551.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179551.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179551.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179551.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179551.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179551.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_027449866.2
+# rna-XM_027449866.2	1	1	0	Deleted exon	-	unmasked	DEL_1
+# rna-XM_027449866.2	1	2	0	Deleted exon	-	unmasked	DEL_2
+# rna-XM_027449866.2	1	3	38	ATG	GTG->ATG	masked	ATG_2
+# rna-XM_027449866.2	1	3	39	FS_DEL	-1	unmasked	FS_1
+# rna-XM_027449866.2	1	3	135	ATG	GAG->ATG	masked	ATG_3
+# rna-XM_027449866.2	1	3	143	ATG	ATG->ATG	masked	ATG_4
+# rna-XM_027449866.2	1	4	162	FS_DEL	-1	unmasked	FS_2
+# rna-XM_027449866.2	1	4	172	COMPENSATION	FS_3-4	unmasked	C_1
+# rna-XM_027449866.2	1	4	172	FS_DEL	-2	masked	FS_3
+# rna-XM_027449866.2	1	5	193	FS_INS	+2	masked	FS_4
+# rna-XM_027449866.2	1	INTACT_PERC_IGNORE_M 0.5329949238578681
+# rna-XM_027449866.2	1	INTACT_PERC_INTACT_M 0.5329949238578681
+# rna-XM_027449866.2	1	INTACT_CODONS_PROP 0.6091370558375635
+# rna-XM_027449866.2	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_027449866.2	1	MIDDLE_IS_INTACT FALSE
+# rna-XM_027449866.2	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179429.1
+# rna-XM_038179429.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179429.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179429.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179429.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179429.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179429.1	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_038179429.1	1	7	0	Deleted exon	-	masked	DEL_7
+# rna-XM_038179429.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179429.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179429.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179429.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179429.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179429.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_027449882.2
+# rna-XM_027449882.2	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_027449882.2	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_027449882.2	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_027449882.2	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_027449882.2	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_027449882.2	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_027449882.2	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_027449882.2	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_027449882.2	1	INTACT_CODONS_PROP 0.0
+# rna-XM_027449882.2	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_027449882.2	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_027449882.2	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_027449859.2
+# rna-XM_027449859.2	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_027449859.2	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_027449859.2	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_027449859.2	1	INTACT_CODONS_PROP 0.0
+# rna-XM_027449859.2	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_027449859.2	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_027449859.2	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_027449863.2
+# rna-XM_027449863.2	1	1	1	ATG	ATG->ATG	masked	ATG_1
+# rna-XM_027449863.2	1	3	125	ATG	ATG->ATG	masked	ATG_2
+# rna-XM_027449863.2	1	4	156	ATG	ATG->ATG	masked	ATG_3
+# rna-XM_027449863.2	1	4	198	ATG	ATG->ATG	masked	ATG_4
+# rna-XM_027449863.2	1	4	219	ATG	GTA->ATG	masked	ATG_5
+# rna-XM_027449863.2	1	4	226	ATG	ATG->ATG	masked	ATG_6
+# rna-XM_027449863.2	1	INTACT_PERC_IGNORE_M 1.0
+# rna-XM_027449863.2	1	INTACT_PERC_INTACT_M 1.0
+# rna-XM_027449863.2	1	INTACT_CODONS_PROP 1.0
+# rna-XM_027449863.2	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_027449863.2	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_027449863.2	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179528.1
+# rna-XM_038179528.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179528.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179528.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179528.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179528.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179528.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179528.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179528.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179528.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179528.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179528.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_027449878.2
+# rna-XM_027449878.2	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_027449878.2	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_027449878.2	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_027449878.2	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_027449878.2	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_027449878.2	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_027449878.2	1	7	0	Deleted exon	-	masked	DEL_7
+# rna-XM_027449878.2	1	8	0	Deleted exon	-	masked	DEL_8
+# rna-XM_027449878.2	1	9	0	Deleted exon	-	masked	DEL_9
+# rna-XM_027449878.2	1	10	0	Deleted exon	-	masked	DEL_10
+# rna-XM_027449878.2	1	11	0	Deleted exon	-	masked	DEL_11
+# rna-XM_027449878.2	1	12	0	Deleted exon	-	masked	DEL_12
+# rna-XM_027449878.2	1	13	0	Deleted exon	-	masked	DEL_13
+# rna-XM_027449878.2	1	14	0	Deleted exon	-	masked	DEL_14
+# rna-XM_027449878.2	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_027449878.2	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_027449878.2	1	INTACT_CODONS_PROP 0.0
+# rna-XM_027449878.2	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_027449878.2	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_027449878.2	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179537.1
+# rna-XM_038179537.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179537.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179537.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179537.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179537.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179537.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179537.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179537.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179537.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179537.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179537.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_027449879.2
+# rna-XM_027449879.2	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_027449879.2	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_027449879.2	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_027449879.2	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_027449879.2	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_027449879.2	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_027449879.2	1	7	0	Deleted exon	-	masked	DEL_7
+# rna-XM_027449879.2	1	8	0	Deleted exon	-	masked	DEL_8
+# rna-XM_027449879.2	1	9	0	Deleted exon	-	masked	DEL_9
+# rna-XM_027449879.2	1	10	0	Deleted exon	-	masked	DEL_10
+# rna-XM_027449879.2	1	11	0	Deleted exon	-	masked	DEL_11
+# rna-XM_027449879.2	1	12	0	Deleted exon	-	masked	DEL_12
+# rna-XM_027449879.2	1	13	0	Deleted exon	-	masked	DEL_13
+# rna-XM_027449879.2	1	14	0	Deleted exon	-	masked	DEL_14
+# rna-XM_027449879.2	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_027449879.2	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_027449879.2	1	INTACT_CODONS_PROP 0.0
+# rna-XM_027449879.2	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_027449879.2	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_027449879.2	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179456.1
+# rna-XM_038179456.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179456.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179456.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179456.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179456.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179456.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179456.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179456.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179456.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179456.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179456.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179576.1
+# rna-XM_038179576.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179576.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179576.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179576.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179576.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179576.1	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_038179576.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179576.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179576.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179576.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179576.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179576.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179485.1
+# rna-XM_038179485.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179485.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179485.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179485.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179485.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179485.1	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_038179485.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179485.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179485.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179485.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179485.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179485.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_013092901.3
+# rna-XM_013092901.3	1	1	1	ATG	ATG->ATG	masked	ATG_1
+# rna-XM_013092901.3	1	1	21	FS_DEL	-1	unmasked	FS_1
+# rna-XM_013092901.3	1	1	116	ATG	GAG->ATG	masked	ATG_2
+# rna-XM_013092901.3	1	1	124	ATG	ATG->ATG	masked	ATG_3
+# rna-XM_013092901.3	1	2	143	FS_DEL	-1	unmasked	FS_2
+# rna-XM_013092901.3	1	2	153	COMPENSATION	FS_3-4	unmasked	C_1
+# rna-XM_013092901.3	1	2	153	FS_DEL	-2	masked	FS_3
+# rna-XM_013092901.3	1	3	174	FS_INS	+2	masked	FS_4
+# rna-XM_013092901.3	1	INTACT_PERC_IGNORE_M 0.6067415730337079
+# rna-XM_013092901.3	1	INTACT_PERC_INTACT_M 0.6067415730337079
+# rna-XM_013092901.3	1	INTACT_CODONS_PROP 0.7247191011235955
+# rna-XM_013092901.3	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_013092901.3	1	MIDDLE_IS_INTACT FALSE
+# rna-XM_013092901.3	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_027449872.2
+# rna-XM_027449872.2	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_027449872.2	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_027449872.2	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_027449872.2	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_027449872.2	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_027449872.2	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_027449872.2	1	7	0	Deleted exon	-	masked	DEL_7
+# rna-XM_027449872.2	1	8	0	Deleted exon	-	masked	DEL_8
+# rna-XM_027449872.2	1	9	0	Deleted exon	-	masked	DEL_9
+# rna-XM_027449872.2	1	10	0	Deleted exon	-	masked	DEL_10
+# rna-XM_027449872.2	1	11	0	Deleted exon	-	masked	DEL_11
+# rna-XM_027449872.2	1	12	0	Deleted exon	-	masked	DEL_12
+# rna-XM_027449872.2	1	13	0	Deleted exon	-	masked	DEL_13
+# rna-XM_027449872.2	1	14	0	Deleted exon	-	masked	DEL_14
+# rna-XM_027449872.2	1	15	0	Deleted exon	-	masked	DEL_15
+# rna-XM_027449872.2	1	16	0	Deleted exon	-	masked	DEL_16
+# rna-XM_027449872.2	1	17	0	Deleted exon	-	masked	DEL_17
+# rna-XM_027449872.2	1	18	0	Deleted exon	-	masked	DEL_18
+# rna-XM_027449872.2	1	19	0	Deleted exon	-	masked	DEL_19
+# rna-XM_027449872.2	1	20	0	Deleted exon	-	masked	DEL_20
+# rna-XM_027449872.2	1	21	0	Deleted exon	-	masked	DEL_21
+# rna-XM_027449872.2	1	22	0	Deleted exon	-	masked	DEL_22
+# rna-XM_027449872.2	1	23	0	Deleted exon	-	masked	DEL_23
+# rna-XM_027449872.2	1	24	0	Deleted exon	-	masked	DEL_24
+# rna-XM_027449872.2	1	25	0	Deleted exon	-	masked	DEL_25
+# rna-XM_027449872.2	1	26	0	Deleted exon	-	masked	DEL_26
+# rna-XM_027449872.2	1	27	0	Deleted exon	-	masked	DEL_27
+# rna-XM_027449872.2	1	28	0	Deleted exon	-	masked	DEL_28
+# rna-XM_027449872.2	1	29	0	Deleted exon	-	masked	DEL_29
+# rna-XM_027449872.2	1	30	0	Deleted exon	-	masked	DEL_30
+# rna-XM_027449872.2	1	31	0	Deleted exon	-	masked	DEL_31
+# rna-XM_027449872.2	1	32	0	Deleted exon	-	masked	DEL_32
+# rna-XM_027449872.2	1	33	0	Deleted exon	-	masked	DEL_33
+# rna-XM_027449872.2	1	34	0	Deleted exon	-	masked	DEL_34
+# rna-XM_027449872.2	1	35	0	Deleted exon	-	masked	DEL_35
+# rna-XM_027449872.2	1	36	0	Deleted exon	-	masked	DEL_36
+# rna-XM_027449872.2	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_027449872.2	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_027449872.2	1	INTACT_CODONS_PROP 0.0
+# rna-XM_027449872.2	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_027449872.2	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_027449872.2	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038173255.1
+# rna-XM_038173255.1	1	1	1	ATG	ATG->ATG	masked	ATG_1
+# rna-XM_038173255.1	1	1	14	ATG	ATG->ATG	masked	ATG_2
+# rna-XM_038173255.1	1	1	20	ATG	ATG->ATG	masked	ATG_3
+# rna-XM_038173255.1	1	1	42	ATG	ATG->ATG	masked	ATG_4
+# rna-XM_038173255.1	1	3	166	ATG	ATG->ATG	masked	ATG_5
+# rna-XM_038173255.1	1	4	197	ATG	ATG->ATG	masked	ATG_6
+# rna-XM_038173255.1	1	4	239	ATG	ATG->ATG	masked	ATG_7
+# rna-XM_038173255.1	1	4	260	ATG	GTA->ATG	masked	ATG_8
+# rna-XM_038173255.1	1	4	267	ATG	ATG->ATG	masked	ATG_9
+# rna-XM_038173255.1	1	INTACT_PERC_IGNORE_M 0.9876923076923076
+# rna-XM_038173255.1	1	INTACT_PERC_INTACT_M 0.9876923076923076
+# rna-XM_038173255.1	1	INTACT_CODONS_PROP 0.9876923076923076
+# rna-XM_038173255.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038173255.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038173255.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179461.1
+# rna-XM_038179461.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179461.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179461.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179461.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179461.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179461.1	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_038179461.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179461.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179461.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179461.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179461.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179461.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179495.1
+# rna-XM_038179495.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179495.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179495.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179495.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179495.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179495.1	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_038179495.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179495.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179495.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179495.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179495.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179495.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_021267454.3
+# rna-XM_021267454.3	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_021267454.3	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_021267454.3	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_021267454.3	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_021267454.3	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_021267454.3	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_021267454.3	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_021267454.3	1	INTACT_CODONS_PROP 0.0
+# rna-XM_021267454.3	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_021267454.3	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_021267454.3	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179572.1
+# rna-XM_038179572.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179572.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179572.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179572.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179572.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179572.1	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_038179572.1	1	7	0	Deleted exon	-	masked	DEL_7
+# rna-XM_038179572.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179572.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179572.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179572.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179572.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179572.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179381.1
+# rna-XM_038179381.1	1	1	1	ATG	ATG->ATG	masked	ATG_1
+# rna-XM_038179381.1	1	6	167	ATG	ATG->ATG	masked	ATG_2
+# rna-XM_038179381.1	1	6	218	ATG	GTG->ATG	masked	ATG_3
+# rna-XM_038179381.1	1	6	224	ATG	GCG->ATG	masked	ATG_4
+# rna-XM_038179381.1	1	INTACT_PERC_IGNORE_M 1.0
+# rna-XM_038179381.1	1	INTACT_PERC_INTACT_M 1.0
+# rna-XM_038179381.1	1	INTACT_CODONS_PROP 1.0
+# rna-XM_038179381.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179381.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179381.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179445.1
+# rna-XM_038179445.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179445.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179445.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179445.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179445.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179445.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179445.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179445.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179445.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179445.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179445.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179443.1
+# rna-XM_038179443.1	1	1	0	Missing exon	-	unmasked	MDEL_1
+# rna-XM_038179443.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179443.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179443.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179443.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179443.1	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_038179443.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179443.1	1	INTACT_PERC_INTACT_M 0.023696682464454975
+# rna-XM_038179443.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179443.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179443.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179443.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179509.1
+# rna-XM_038179509.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179509.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179509.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179509.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179509.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179509.1	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_038179509.1	1	7	0	Deleted exon	-	masked	DEL_7
+# rna-XM_038179509.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179509.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179509.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179509.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179509.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179509.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038175222.1
+# rna-XM_038175222.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038175222.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038175222.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038175222.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038175222.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038175222.1	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_038175222.1	1	7	0	Deleted exon	-	masked	DEL_7
+# rna-XM_038175222.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038175222.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038175222.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038175222.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038175222.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038175222.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_027449874.2
+# rna-XM_027449874.2	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_027449874.2	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_027449874.2	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_027449874.2	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_027449874.2	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_027449874.2	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_027449874.2	1	7	0	Deleted exon	-	masked	DEL_7
+# rna-XM_027449874.2	1	8	0	Deleted exon	-	masked	DEL_8
+# rna-XM_027449874.2	1	9	0	Deleted exon	-	masked	DEL_9
+# rna-XM_027449874.2	1	10	0	Deleted exon	-	masked	DEL_10
+# rna-XM_027449874.2	1	11	0	Deleted exon	-	masked	DEL_11
+# rna-XM_027449874.2	1	12	0	Deleted exon	-	masked	DEL_12
+# rna-XM_027449874.2	1	13	0	Deleted exon	-	masked	DEL_13
+# rna-XM_027449874.2	1	14	0	Deleted exon	-	masked	DEL_14
+# rna-XM_027449874.2	1	15	0	Deleted exon	-	masked	DEL_15
+# rna-XM_027449874.2	1	16	0	Deleted exon	-	masked	DEL_16
+# rna-XM_027449874.2	1	17	0	Deleted exon	-	masked	DEL_17
+# rna-XM_027449874.2	1	18	0	Deleted exon	-	masked	DEL_18
+# rna-XM_027449874.2	1	19	0	Deleted exon	-	masked	DEL_19
+# rna-XM_027449874.2	1	20	0	Deleted exon	-	masked	DEL_20
+# rna-XM_027449874.2	1	21	0	Deleted exon	-	masked	DEL_21
+# rna-XM_027449874.2	1	22	0	Deleted exon	-	masked	DEL_22
+# rna-XM_027449874.2	1	23	0	Deleted exon	-	masked	DEL_23
+# rna-XM_027449874.2	1	24	0	Deleted exon	-	masked	DEL_24
+# rna-XM_027449874.2	1	25	0	Deleted exon	-	masked	DEL_25
+# rna-XM_027449874.2	1	26	0	Deleted exon	-	masked	DEL_26
+# rna-XM_027449874.2	1	27	0	Deleted exon	-	masked	DEL_27
+# rna-XM_027449874.2	1	28	0	Deleted exon	-	masked	DEL_28
+# rna-XM_027449874.2	1	29	0	Deleted exon	-	masked	DEL_29
+# rna-XM_027449874.2	1	30	0	Deleted exon	-	masked	DEL_30
+# rna-XM_027449874.2	1	31	0	Deleted exon	-	masked	DEL_31
+# rna-XM_027449874.2	1	32	0	Deleted exon	-	masked	DEL_32
+# rna-XM_027449874.2	1	33	0	Deleted exon	-	masked	DEL_33
+# rna-XM_027449874.2	1	34	0	Deleted exon	-	masked	DEL_34
+# rna-XM_027449874.2	1	35	0	Deleted exon	-	masked	DEL_35
+# rna-XM_027449874.2	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_027449874.2	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_027449874.2	1	INTACT_CODONS_PROP 0.0
+# rna-XM_027449874.2	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_027449874.2	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_027449874.2	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_021267452.3
+# rna-XM_021267452.3	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_021267452.3	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_021267452.3	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_021267452.3	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_021267452.3	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_021267452.3	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_021267452.3	1	7	0	Deleted exon	-	masked	DEL_7
+# rna-XM_021267452.3	1	8	0	Deleted exon	-	masked	DEL_8
+# rna-XM_021267452.3	1	9	0	Deleted exon	-	masked	DEL_9
+# rna-XM_021267452.3	1	10	0	Deleted exon	-	masked	DEL_10
+# rna-XM_021267452.3	1	11	0	Deleted exon	-	masked	DEL_11
+# rna-XM_021267452.3	1	12	0	Deleted exon	-	masked	DEL_12
+# rna-XM_021267452.3	1	13	0	Deleted exon	-	masked	DEL_13
+# rna-XM_021267452.3	1	14	0	Deleted exon	-	masked	DEL_14
+# rna-XM_021267452.3	1	15	0	Deleted exon	-	masked	DEL_15
+# rna-XM_021267452.3	1	16	0	Deleted exon	-	masked	DEL_16
+# rna-XM_021267452.3	1	17	0	Deleted exon	-	masked	DEL_17
+# rna-XM_021267452.3	1	18	0	Deleted exon	-	masked	DEL_18
+# rna-XM_021267452.3	1	19	0	Deleted exon	-	masked	DEL_19
+# rna-XM_021267452.3	1	20	0	Deleted exon	-	masked	DEL_20
+# rna-XM_021267452.3	1	21	0	Deleted exon	-	masked	DEL_21
+# rna-XM_021267452.3	1	22	0	Deleted exon	-	masked	DEL_22
+# rna-XM_021267452.3	1	23	0	Deleted exon	-	masked	DEL_23
+# rna-XM_021267452.3	1	24	0	Deleted exon	-	masked	DEL_24
+# rna-XM_021267452.3	1	25	0	Deleted exon	-	masked	DEL_25
+# rna-XM_021267452.3	1	26	0	Deleted exon	-	masked	DEL_26
+# rna-XM_021267452.3	1	27	0	Deleted exon	-	masked	DEL_27
+# rna-XM_021267452.3	1	28	0	Deleted exon	-	masked	DEL_28
+# rna-XM_021267452.3	1	29	0	Deleted exon	-	masked	DEL_29
+# rna-XM_021267452.3	1	30	0	Deleted exon	-	masked	DEL_30
+# rna-XM_021267452.3	1	31	0	Deleted exon	-	masked	DEL_31
+# rna-XM_021267452.3	1	32	0	Deleted exon	-	masked	DEL_32
+# rna-XM_021267452.3	1	33	0	Deleted exon	-	masked	DEL_33
+# rna-XM_021267452.3	1	34	0	Deleted exon	-	masked	DEL_34
+# rna-XM_021267452.3	1	35	0	Deleted exon	-	masked	DEL_35
+# rna-XM_021267452.3	1	36	0	Deleted exon	-	masked	DEL_36
+# rna-XM_021267452.3	1	37	0	Missing exon	-	masked	MDEL_1
+# rna-XM_021267452.3	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_021267452.3	1	INTACT_PERC_INTACT_M 0.0020847810979847115
+# rna-XM_021267452.3	1	INTACT_CODONS_PROP 0.0
+# rna-XM_021267452.3	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_021267452.3	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_021267452.3	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179500.1
+# rna-XM_038179500.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179500.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179500.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179500.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179500.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179500.1	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_038179500.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179500.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179500.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179500.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179500.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179500.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179474.1
+# rna-XM_038179474.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179474.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179474.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179474.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179474.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179474.1	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_038179474.1	1	7	0	Deleted exon	-	masked	DEL_7
+# rna-XM_038179474.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179474.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179474.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179474.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179474.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179474.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_027447770.2
+# rna-XM_027447770.2	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_027447770.2	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_027447770.2	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_027447770.2	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_027447770.2	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_027447770.2	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_027447770.2	1	7	0	Deleted exon	-	masked	DEL_7
+# rna-XM_027447770.2	1	8	0	Deleted exon	-	masked	DEL_8
+# rna-XM_027447770.2	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_027447770.2	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_027447770.2	1	INTACT_CODONS_PROP 0.0
+# rna-XM_027447770.2	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_027447770.2	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_027447770.2	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179482.1
+# rna-XM_038179482.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179482.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179482.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179482.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179482.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179482.1	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_038179482.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179482.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179482.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179482.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179482.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179482.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179463.1
+# rna-XM_038179463.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179463.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179463.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179463.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179463.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179463.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179463.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179463.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179463.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179463.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179463.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038173085.1
+# rna-XM_038173085.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038173085.1	1	2	23	STOP	ATG->TGA	unmasked	STOP_1
+# rna-XM_038173085.1	1	2	117	ATG	GAG->ATG	masked	ATG_2
+# rna-XM_038173085.1	1	2	125	ATG	ATG->ATG	masked	ATG_3
+# rna-XM_038173085.1	1	3	144	FS_DEL	-1	unmasked	FS_2
+# rna-XM_038173085.1	1	3	154	COMPENSATION	FS_3-4	unmasked	C_1
+# rna-XM_038173085.1	1	3	154	FS_DEL	-2	masked	FS_3
+# rna-XM_038173085.1	1	4	175	FS_INS	+2	masked	FS_4
+# rna-XM_038173085.1	1	INTACT_PERC_IGNORE_M 0.5977653631284916
+# rna-XM_038173085.1	1	INTACT_PERC_INTACT_M 0.5977653631284916
+# rna-XM_038173085.1	1	INTACT_CODONS_PROP 0.6759776536312849
+# rna-XM_038173085.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038173085.1	1	MIDDLE_IS_INTACT FALSE
+# rna-XM_038173085.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179414.1
+# rna-XM_038179414.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179414.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179414.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179414.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179414.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179414.1	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_038179414.1	1	7	0	Deleted exon	-	masked	DEL_7
+# rna-XM_038179414.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179414.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179414.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179414.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179414.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179414.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_021267451.3
+# rna-XM_021267451.3	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_021267451.3	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_021267451.3	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_021267451.3	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_021267451.3	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_021267451.3	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_021267451.3	1	7	0	Deleted exon	-	masked	DEL_7
+# rna-XM_021267451.3	1	8	0	Deleted exon	-	masked	DEL_8
+# rna-XM_021267451.3	1	9	0	Deleted exon	-	masked	DEL_9
+# rna-XM_021267451.3	1	10	0	Deleted exon	-	masked	DEL_10
+# rna-XM_021267451.3	1	11	0	Deleted exon	-	masked	DEL_11
+# rna-XM_021267451.3	1	12	0	Deleted exon	-	masked	DEL_12
+# rna-XM_021267451.3	1	13	0	Deleted exon	-	masked	DEL_13
+# rna-XM_021267451.3	1	14	0	Deleted exon	-	masked	DEL_14
+# rna-XM_021267451.3	1	15	0	Deleted exon	-	masked	DEL_15
+# rna-XM_021267451.3	1	16	0	Deleted exon	-	masked	DEL_16
+# rna-XM_021267451.3	1	17	0	Deleted exon	-	masked	DEL_17
+# rna-XM_021267451.3	1	18	0	Deleted exon	-	masked	DEL_18
+# rna-XM_021267451.3	1	19	0	Deleted exon	-	masked	DEL_19
+# rna-XM_021267451.3	1	20	0	Deleted exon	-	masked	DEL_20
+# rna-XM_021267451.3	1	21	0	Deleted exon	-	masked	DEL_21
+# rna-XM_021267451.3	1	22	0	Deleted exon	-	masked	DEL_22
+# rna-XM_021267451.3	1	23	0	Deleted exon	-	masked	DEL_23
+# rna-XM_021267451.3	1	24	0	Deleted exon	-	masked	DEL_24
+# rna-XM_021267451.3	1	25	0	Deleted exon	-	masked	DEL_25
+# rna-XM_021267451.3	1	26	0	Deleted exon	-	masked	DEL_26
+# rna-XM_021267451.3	1	27	0	Deleted exon	-	masked	DEL_27
+# rna-XM_021267451.3	1	28	0	Deleted exon	-	masked	DEL_28
+# rna-XM_021267451.3	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_021267451.3	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_021267451.3	1	INTACT_CODONS_PROP 0.0
+# rna-XM_021267451.3	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_021267451.3	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_021267451.3	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179578.1
+# rna-XM_038179578.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179578.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179578.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179578.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179578.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179578.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179578.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179578.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179578.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179578.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179578.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179420.1
+# rna-XM_038179420.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179420.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179420.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179420.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179420.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179420.1	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_038179420.1	1	7	0	Deleted exon	-	masked	DEL_7
+# rna-XM_038179420.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179420.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179420.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179420.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179420.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179420.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179517.1
+# rna-XM_038179517.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179517.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179517.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179517.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179517.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179517.1	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_038179517.1	1	7	0	Deleted exon	-	masked	DEL_7
+# rna-XM_038179517.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179517.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179517.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179517.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179517.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179517.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_005012419.5
+# rna-XM_005012419.5	1	1	1	ATG	ATG->ATG	masked	ATG_1
+# rna-XM_005012419.5	1	2	6	ATG	ATG->ATG	masked	ATG_2
+# rna-XM_005012419.5	1	3	53	ATG	ATG->ATG	masked	ATG_3
+# rna-XM_005012419.5	1	3	139	ATG	ATG->ATG	masked	ATG_4
+# rna-XM_005012419.5	1	INTACT_PERC_IGNORE_M 1.0
+# rna-XM_005012419.5	1	INTACT_PERC_INTACT_M 1.0
+# rna-XM_005012419.5	1	INTACT_CODONS_PROP 1.0
+# rna-XM_005012419.5	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_005012419.5	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_005012419.5	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179447.1
+# rna-XM_038179447.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179447.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179447.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179447.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179447.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179447.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179447.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179447.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179447.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179447.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179447.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179532.1
+# rna-XM_038179532.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179532.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179532.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179532.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179532.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179532.1	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_038179532.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179532.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179532.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179532.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179532.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179532.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179404.1
+# rna-XM_038179404.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179404.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179404.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179404.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179404.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179404.1	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_038179404.1	1	7	0	Deleted exon	-	masked	DEL_7
+# rna-XM_038179404.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179404.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179404.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179404.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179404.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179404.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179542.1
+# rna-XM_038179542.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179542.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179542.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179542.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179542.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179542.1	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_038179542.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179542.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179542.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179542.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179542.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179542.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_027449862.2
+# rna-XM_027449862.2	1	1	1	ATG	ATG->ATG	masked	ATG_1
+# rna-XM_027449862.2	1	1	7	ATG	ATG->ATG	masked	ATG_2
+# rna-XM_027449862.2	1	1	29	ATG	ATG->ATG	masked	ATG_3
+# rna-XM_027449862.2	1	3	153	ATG	ATG->ATG	masked	ATG_4
+# rna-XM_027449862.2	1	4	184	ATG	ATG->ATG	masked	ATG_5
+# rna-XM_027449862.2	1	4	226	ATG	ATG->ATG	masked	ATG_6
+# rna-XM_027449862.2	1	4	247	ATG	GTA->ATG	masked	ATG_7
+# rna-XM_027449862.2	1	4	254	ATG	ATG->ATG	masked	ATG_8
+# rna-XM_027449862.2	1	INTACT_PERC_IGNORE_M 0.9871794871794872
+# rna-XM_027449862.2	1	INTACT_PERC_INTACT_M 0.9871794871794872
+# rna-XM_027449862.2	1	INTACT_CODONS_PROP 0.9871794871794872
+# rna-XM_027449862.2	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_027449862.2	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_027449862.2	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_013092906.4
+# rna-XM_013092906.4	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_013092906.4	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_013092906.4	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_013092906.4	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_013092906.4	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_013092906.4	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_013092906.4	1	7	0	Deleted exon	-	masked	DEL_7
+# rna-XM_013092906.4	1	8	0	Deleted exon	-	masked	DEL_8
+# rna-XM_013092906.4	1	9	0	Deleted exon	-	masked	DEL_9
+# rna-XM_013092906.4	1	10	0	Deleted exon	-	masked	DEL_10
+# rna-XM_013092906.4	1	11	0	Deleted exon	-	masked	DEL_11
+# rna-XM_013092906.4	1	12	0	Deleted exon	-	masked	DEL_12
+# rna-XM_013092906.4	1	13	0	Deleted exon	-	masked	DEL_13
+# rna-XM_013092906.4	1	14	0	Deleted exon	-	masked	DEL_14
+# rna-XM_013092906.4	1	15	0	Deleted exon	-	masked	DEL_15
+# rna-XM_013092906.4	1	16	0	Deleted exon	-	masked	DEL_16
+# rna-XM_013092906.4	1	17	0	Deleted exon	-	masked	DEL_17
+# rna-XM_013092906.4	1	18	0	Deleted exon	-	masked	DEL_18
+# rna-XM_013092906.4	1	19	0	Deleted exon	-	masked	DEL_19
+# rna-XM_013092906.4	1	20	0	Deleted exon	-	masked	DEL_20
+# rna-XM_013092906.4	1	21	0	Deleted exon	-	masked	DEL_21
+# rna-XM_013092906.4	1	22	0	Deleted exon	-	masked	DEL_22
+# rna-XM_013092906.4	1	23	0	Deleted exon	-	masked	DEL_23
+# rna-XM_013092906.4	1	24	0	Deleted exon	-	masked	DEL_24
+# rna-XM_013092906.4	1	25	0	Deleted exon	-	masked	DEL_25
+# rna-XM_013092906.4	1	26	0	Deleted exon	-	masked	DEL_26
+# rna-XM_013092906.4	1	27	0	Deleted exon	-	masked	DEL_27
+# rna-XM_013092906.4	1	28	0	Deleted exon	-	masked	DEL_28
+# rna-XM_013092906.4	1	29	0	Deleted exon	-	masked	DEL_29
+# rna-XM_013092906.4	1	30	0	Deleted exon	-	masked	DEL_30
+# rna-XM_013092906.4	1	31	0	Deleted exon	-	masked	DEL_31
+# rna-XM_013092906.4	1	32	0	Deleted exon	-	masked	DEL_32
+# rna-XM_013092906.4	1	33	0	Deleted exon	-	masked	DEL_33
+# rna-XM_013092906.4	1	34	0	Deleted exon	-	masked	DEL_34
+# rna-XM_013092906.4	1	35	0	Deleted exon	-	masked	DEL_35
+# rna-XM_013092906.4	1	36	0	Deleted exon	-	masked	DEL_36
+# rna-XM_013092906.4	1	37	0	Missing exon	-	masked	MDEL_1
+# rna-XM_013092906.4	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_013092906.4	1	INTACT_PERC_INTACT_M 0.0020833333333333333
+# rna-XM_013092906.4	1	INTACT_CODONS_PROP 0.0
+# rna-XM_013092906.4	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_013092906.4	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_013092906.4	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_005012411.5
+# rna-XM_005012411.5	1	1	1	ATG	ATG->ATG	masked	ATG_1
+# rna-XM_005012411.5	1	1	87	ATG	ATG->ATG	masked	ATG_2
+# rna-XM_005012411.5	1	2	0	Deleted exon	-	masked	DEL_1
+# rna-XM_005012411.5	1	5	262	ATG	ATG->ATG	masked	ATG_3
+# rna-XM_005012411.5	1	6	280	ATG	ATG->ATG	masked	ATG_4
+# rna-XM_005012411.5	1	6	289	ATG	ATG->ATG	masked	ATG_5
+# rna-XM_005012411.5	1	6	335	ATG	ATG->ATG	masked	ATG_6
+# rna-XM_005012411.5	1	6	337	ATG	ATG->ATG	masked	ATG_7
+# rna-XM_005012411.5	1	6	342	ATG	ATG->ATG	masked	ATG_8
+# rna-XM_005012411.5	1	7	399	ATG	ATG->ATG	masked	ATG_9
+# rna-XM_005012411.5	1	8	417	ATG	ATG->ATG	masked	ATG_10
+# rna-XM_005012411.5	1	8	479	ATG	ATG->ATG	masked	ATG_11
+# rna-XM_005012411.5	1	9	0	Deleted exon	-	masked	DEL_2
+# rna-XM_005012411.5	1	10	0	Deleted exon	-	masked	DEL_3
+# rna-XM_005012411.5	1	INTACT_PERC_IGNORE_M 0.8327205882352942
+# rna-XM_005012411.5	1	INTACT_PERC_INTACT_M 0.8327205882352942
+# rna-XM_005012411.5	1	INTACT_CODONS_PROP 0.8327205882352942
+# rna-XM_005012411.5	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_005012411.5	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_005012411.5	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179526.1
+# rna-XM_038179526.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179526.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179526.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179526.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179526.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179526.1	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_038179526.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179526.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179526.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179526.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179526.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179526.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_027449880.2
+# rna-XM_027449880.2	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_027449880.2	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_027449880.2	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_027449880.2	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_027449880.2	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_027449880.2	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_027449880.2	1	7	0	Deleted exon	-	masked	DEL_7
+# rna-XM_027449880.2	1	8	0	Deleted exon	-	masked	DEL_8
+# rna-XM_027449880.2	1	9	0	Deleted exon	-	masked	DEL_9
+# rna-XM_027449880.2	1	10	0	Deleted exon	-	masked	DEL_10
+# rna-XM_027449880.2	1	11	0	Deleted exon	-	masked	DEL_11
+# rna-XM_027449880.2	1	12	0	Deleted exon	-	masked	DEL_12
+# rna-XM_027449880.2	1	13	0	Deleted exon	-	masked	DEL_13
+# rna-XM_027449880.2	1	14	0	Deleted exon	-	masked	DEL_14
+# rna-XM_027449880.2	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_027449880.2	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_027449880.2	1	INTACT_CODONS_PROP 0.0
+# rna-XM_027449880.2	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_027449880.2	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_027449880.2	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_027449871.2
+# rna-XM_027449871.2	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_027449871.2	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_027449871.2	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_027449871.2	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_027449871.2	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_027449871.2	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_027449871.2	1	7	0	Deleted exon	-	masked	DEL_7
+# rna-XM_027449871.2	1	8	0	Deleted exon	-	masked	DEL_8
+# rna-XM_027449871.2	1	9	0	Deleted exon	-	masked	DEL_9
+# rna-XM_027449871.2	1	10	0	Deleted exon	-	masked	DEL_10
+# rna-XM_027449871.2	1	11	0	Deleted exon	-	masked	DEL_11
+# rna-XM_027449871.2	1	12	0	Deleted exon	-	masked	DEL_12
+# rna-XM_027449871.2	1	13	0	Deleted exon	-	masked	DEL_13
+# rna-XM_027449871.2	1	14	0	Deleted exon	-	masked	DEL_14
+# rna-XM_027449871.2	1	15	0	Deleted exon	-	masked	DEL_15
+# rna-XM_027449871.2	1	16	0	Deleted exon	-	masked	DEL_16
+# rna-XM_027449871.2	1	17	0	Deleted exon	-	masked	DEL_17
+# rna-XM_027449871.2	1	18	0	Deleted exon	-	masked	DEL_18
+# rna-XM_027449871.2	1	19	0	Deleted exon	-	masked	DEL_19
+# rna-XM_027449871.2	1	20	0	Deleted exon	-	masked	DEL_20
+# rna-XM_027449871.2	1	21	0	Deleted exon	-	masked	DEL_21
+# rna-XM_027449871.2	1	22	0	Deleted exon	-	masked	DEL_22
+# rna-XM_027449871.2	1	23	0	Deleted exon	-	masked	DEL_23
+# rna-XM_027449871.2	1	24	0	Deleted exon	-	masked	DEL_24
+# rna-XM_027449871.2	1	25	0	Deleted exon	-	masked	DEL_25
+# rna-XM_027449871.2	1	26	0	Deleted exon	-	masked	DEL_26
+# rna-XM_027449871.2	1	27	0	Deleted exon	-	masked	DEL_27
+# rna-XM_027449871.2	1	28	0	Deleted exon	-	masked	DEL_28
+# rna-XM_027449871.2	1	29	0	Deleted exon	-	masked	DEL_29
+# rna-XM_027449871.2	1	30	0	Deleted exon	-	masked	DEL_30
+# rna-XM_027449871.2	1	31	0	Deleted exon	-	masked	DEL_31
+# rna-XM_027449871.2	1	32	0	Deleted exon	-	masked	DEL_32
+# rna-XM_027449871.2	1	33	0	Deleted exon	-	masked	DEL_33
+# rna-XM_027449871.2	1	34	0	Deleted exon	-	masked	DEL_34
+# rna-XM_027449871.2	1	35	0	Deleted exon	-	masked	DEL_35
+# rna-XM_027449871.2	1	36	0	Deleted exon	-	masked	DEL_36
+# rna-XM_027449871.2	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_027449871.2	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_027449871.2	1	INTACT_CODONS_PROP 0.0
+# rna-XM_027449871.2	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_027449871.2	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_027449871.2	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179574.1
+# rna-XM_038179574.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179574.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179574.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179574.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179574.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179574.1	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_038179574.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179574.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179574.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179574.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179574.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179574.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038172945.1
+# rna-XM_038172945.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038172945.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038172945.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038172945.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038172945.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038172945.1	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_038172945.1	1	7	0	Deleted exon	-	masked	DEL_7
+# rna-XM_038172945.1	1	8	0	Deleted exon	-	masked	DEL_8
+# rna-XM_038172945.1	1	9	0	Deleted exon	-	masked	DEL_9
+# rna-XM_038172945.1	1	10	0	Deleted exon	-	masked	DEL_10
+# rna-XM_038172945.1	1	11	0	Deleted exon	-	masked	DEL_11
+# rna-XM_038172945.1	1	12	0	Deleted exon	-	masked	DEL_12
+# rna-XM_038172945.1	1	13	0	Deleted exon	-	masked	DEL_13
+# rna-XM_038172945.1	1	14	0	Deleted exon	-	masked	DEL_14
+# rna-XM_038172945.1	1	15	0	Deleted exon	-	masked	DEL_15
+# rna-XM_038172945.1	1	16	0	Deleted exon	-	masked	DEL_16
+# rna-XM_038172945.1	1	17	0	Deleted exon	-	masked	DEL_17
+# rna-XM_038172945.1	1	18	0	Deleted exon	-	masked	DEL_18
+# rna-XM_038172945.1	1	19	0	Deleted exon	-	masked	DEL_19
+# rna-XM_038172945.1	1	20	0	Deleted exon	-	masked	DEL_20
+# rna-XM_038172945.1	1	21	0	Deleted exon	-	masked	DEL_21
+# rna-XM_038172945.1	1	22	0	Deleted exon	-	masked	DEL_22
+# rna-XM_038172945.1	1	23	0	Deleted exon	-	masked	DEL_23
+# rna-XM_038172945.1	1	24	0	Deleted exon	-	masked	DEL_24
+# rna-XM_038172945.1	1	25	0	Deleted exon	-	masked	DEL_25
+# rna-XM_038172945.1	1	26	0	Deleted exon	-	masked	DEL_26
+# rna-XM_038172945.1	1	27	0	Deleted exon	-	masked	DEL_27
+# rna-XM_038172945.1	1	28	0	Deleted exon	-	masked	DEL_28
+# rna-XM_038172945.1	1	29	0	Deleted exon	-	masked	DEL_29
+# rna-XM_038172945.1	1	30	0	Deleted exon	-	masked	DEL_30
+# rna-XM_038172945.1	1	31	0	Deleted exon	-	masked	DEL_31
+# rna-XM_038172945.1	1	32	0	Deleted exon	-	masked	DEL_32
+# rna-XM_038172945.1	1	33	0	Deleted exon	-	masked	DEL_33
+# rna-XM_038172945.1	1	34	0	Deleted exon	-	masked	DEL_34
+# rna-XM_038172945.1	1	35	0	Deleted exon	-	masked	DEL_35
+# rna-XM_038172945.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038172945.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038172945.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038172945.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038172945.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038172945.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038173341.1
+# rna-XM_038173341.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038173341.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038173341.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038173341.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038173341.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038173341.1	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_038173341.1	1	7	0	Deleted exon	-	masked	DEL_7
+# rna-XM_038173341.1	1	8	0	Deleted exon	-	masked	DEL_8
+# rna-XM_038173341.1	1	9	0	Deleted exon	-	masked	DEL_9
+# rna-XM_038173341.1	1	10	0	Deleted exon	-	masked	DEL_10
+# rna-XM_038173341.1	1	11	0	Deleted exon	-	masked	DEL_11
+# rna-XM_038173341.1	1	12	0	Deleted exon	-	masked	DEL_12
+# rna-XM_038173341.1	1	13	0	Deleted exon	-	masked	DEL_13
+# rna-XM_038173341.1	1	14	0	Deleted exon	-	masked	DEL_14
+# rna-XM_038173341.1	1	15	0	Deleted exon	-	masked	DEL_15
+# rna-XM_038173341.1	1	16	0	Deleted exon	-	masked	DEL_16
+# rna-XM_038173341.1	1	17	0	Deleted exon	-	masked	DEL_17
+# rna-XM_038173341.1	1	18	0	Deleted exon	-	masked	DEL_18
+# rna-XM_038173341.1	1	19	0	Deleted exon	-	masked	DEL_19
+# rna-XM_038173341.1	1	20	0	Deleted exon	-	masked	DEL_20
+# rna-XM_038173341.1	1	21	0	Deleted exon	-	masked	DEL_21
+# rna-XM_038173341.1	1	22	0	Deleted exon	-	masked	DEL_22
+# rna-XM_038173341.1	1	23	0	Deleted exon	-	masked	DEL_23
+# rna-XM_038173341.1	1	24	0	Deleted exon	-	masked	DEL_24
+# rna-XM_038173341.1	1	25	0	Deleted exon	-	masked	DEL_25
+# rna-XM_038173341.1	1	26	0	Deleted exon	-	masked	DEL_26
+# rna-XM_038173341.1	1	27	0	Deleted exon	-	masked	DEL_27
+# rna-XM_038173341.1	1	28	0	Deleted exon	-	masked	DEL_28
+# rna-XM_038173341.1	1	29	0	Deleted exon	-	masked	DEL_29
+# rna-XM_038173341.1	1	30	0	Deleted exon	-	masked	DEL_30
+# rna-XM_038173341.1	1	31	0	Deleted exon	-	masked	DEL_31
+# rna-XM_038173341.1	1	32	0	Deleted exon	-	masked	DEL_32
+# rna-XM_038173341.1	1	33	0	Deleted exon	-	masked	DEL_33
+# rna-XM_038173341.1	1	34	0	Deleted exon	-	masked	DEL_34
+# rna-XM_038173341.1	1	35	0	Deleted exon	-	masked	DEL_35
+# rna-XM_038173341.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038173341.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038173341.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038173341.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038173341.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038173341.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179546.1
+# rna-XM_038179546.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179546.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179546.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179546.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179546.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179546.1	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_038179546.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179546.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179546.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179546.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179546.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179546.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-NM_001310412.1
+# rna-NM_001310412.1	1	1	1	ATG	ATG->ATG	masked	ATG_1
+# rna-NM_001310412.1	1	1	19	ATG	ATG->ATG	masked	ATG_2
+# rna-NM_001310412.1	1	1	35	FS_INS	+1	unmasked	FS_1
+# rna-NM_001310412.1	1	2	76	ATG	ATG->ATG	masked	ATG_3
+# rna-NM_001310412.1	1	2	104	ATG	ATG->ATG	masked	ATG_4
+# rna-NM_001310412.1	1	3	162	ATG	ATG->ATG	masked	ATG_5
+# rna-NM_001310412.1	1	3	181	ATG	ACG->ATG	masked	ATG_6
+# rna-NM_001310412.1	1	4	212	ATG	GTG->ATG	masked	ATG_7
+# rna-NM_001310412.1	1	4	287	ATG	ATG->ATG	masked	ATG_8
+# rna-NM_001310412.1	1	INTACT_PERC_IGNORE_M 0.8844884488448845
+# rna-NM_001310412.1	1	INTACT_PERC_INTACT_M 0.8844884488448845
+# rna-NM_001310412.1	1	INTACT_CODONS_PROP 0.9966996699669967
+# rna-NM_001310412.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-NM_001310412.1	1	MIDDLE_IS_INTACT FALSE
+# rna-NM_001310412.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179372.1
+# rna-XM_038179372.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179372.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179372.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179372.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179372.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179372.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179372.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038172125.1
+# rna-XM_038172125.1	1	1	0	Deleted exon	-	unmasked	DEL_1
+# rna-XM_038172125.1	1	3	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038172125.1	1	4	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038172125.1	1	5	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038172125.1	1	6	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038172125.1	1	7	0	Deleted exon	-	masked	DEL_6
+# rna-XM_038172125.1	1	INTACT_PERC_IGNORE_M 0.3413173652694611
+# rna-XM_038172125.1	1	INTACT_PERC_INTACT_M 0.3413173652694611
+# rna-XM_038172125.1	1	INTACT_CODONS_PROP 0.3413173652694611
+# rna-XM_038172125.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038172125.1	1	MIDDLE_IS_INTACT FALSE
+# rna-XM_038172125.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_027449881.2
+# rna-XM_027449881.2	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_027449881.2	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_027449881.2	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_027449881.2	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_027449881.2	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_027449881.2	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_027449881.2	1	7	0	Deleted exon	-	masked	DEL_7
+# rna-XM_027449881.2	1	8	0	Deleted exon	-	masked	DEL_8
+# rna-XM_027449881.2	1	9	0	Deleted exon	-	masked	DEL_9
+# rna-XM_027449881.2	1	10	0	Deleted exon	-	masked	DEL_10
+# rna-XM_027449881.2	1	11	0	Deleted exon	-	masked	DEL_11
+# rna-XM_027449881.2	1	12	0	Deleted exon	-	masked	DEL_12
+# rna-XM_027449881.2	1	13	0	Deleted exon	-	masked	DEL_13
+# rna-XM_027449881.2	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_027449881.2	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_027449881.2	1	INTACT_CODONS_PROP 0.0
+# rna-XM_027449881.2	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_027449881.2	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_027449881.2	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_027449861.2
+# rna-XM_027449861.2	1	1	1	ATG	ATG->ATG	masked	ATG_1
+# rna-XM_027449861.2	1	3	76	ATG	ATG->ATG	masked	ATG_2
+# rna-XM_027449861.2	1	4	95	ATG	ATG->ATG	masked	ATG_3
+# rna-XM_027449861.2	1	4	109	ATG	ATG->ATG	masked	ATG_4
+# rna-XM_027449861.2	1	4	120	ATG	ATG->ATG	masked	ATG_5
+# rna-XM_027449861.2	1	4	141	ATG	ATG->ATG	masked	ATG_6
+# rna-XM_027449861.2	1	5	179	ATG	ATG->ATG	masked	ATG_7
+# rna-XM_027449861.2	1	5	218	ATG	ATG->ATG	masked	ATG_8
+# rna-XM_027449861.2	1	6	243	ATG	ATG->ATG	masked	ATG_9
+# rna-XM_027449861.2	1	6	250	ATG	ATG->ATG	masked	ATG_10
+# rna-XM_027449861.2	1	8	343	ATG	ATG->ATG	masked	ATG_11
+# rna-XM_027449861.2	1	8	350	ATG	ATG->ATG	masked	ATG_12
+# rna-XM_027449861.2	1	9	403	ATG	ATG->ATG	masked	ATG_13
+# rna-XM_027449861.2	1	9	419	ATG	ATG->ATG	masked	ATG_14
+# rna-XM_027449861.2	1	10	485	ATG	ATG->ATG	masked	ATG_15
+# rna-XM_027449861.2	1	10	488	ATG	ATG->ATG	masked	ATG_16
+# rna-XM_027449861.2	1	INTACT_PERC_IGNORE_M 1.0
+# rna-XM_027449861.2	1	INTACT_PERC_INTACT_M 1.0
+# rna-XM_027449861.2	1	INTACT_CODONS_PROP 1.0
+# rna-XM_027449861.2	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_027449861.2	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_027449861.2	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_027449873.2
+# rna-XM_027449873.2	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_027449873.2	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_027449873.2	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_027449873.2	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_027449873.2	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_027449873.2	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_027449873.2	1	7	0	Deleted exon	-	masked	DEL_7
+# rna-XM_027449873.2	1	8	0	Deleted exon	-	masked	DEL_8
+# rna-XM_027449873.2	1	9	0	Deleted exon	-	masked	DEL_9
+# rna-XM_027449873.2	1	10	0	Deleted exon	-	masked	DEL_10
+# rna-XM_027449873.2	1	11	0	Deleted exon	-	masked	DEL_11
+# rna-XM_027449873.2	1	12	0	Deleted exon	-	masked	DEL_12
+# rna-XM_027449873.2	1	13	0	Deleted exon	-	masked	DEL_13
+# rna-XM_027449873.2	1	14	0	Deleted exon	-	masked	DEL_14
+# rna-XM_027449873.2	1	15	0	Deleted exon	-	masked	DEL_15
+# rna-XM_027449873.2	1	16	0	Deleted exon	-	masked	DEL_16
+# rna-XM_027449873.2	1	17	0	Deleted exon	-	masked	DEL_17
+# rna-XM_027449873.2	1	18	0	Deleted exon	-	masked	DEL_18
+# rna-XM_027449873.2	1	19	0	Deleted exon	-	masked	DEL_19
+# rna-XM_027449873.2	1	20	0	Deleted exon	-	masked	DEL_20
+# rna-XM_027449873.2	1	21	0	Deleted exon	-	masked	DEL_21
+# rna-XM_027449873.2	1	22	0	Deleted exon	-	masked	DEL_22
+# rna-XM_027449873.2	1	23	0	Deleted exon	-	masked	DEL_23
+# rna-XM_027449873.2	1	24	0	Deleted exon	-	masked	DEL_24
+# rna-XM_027449873.2	1	25	0	Deleted exon	-	masked	DEL_25
+# rna-XM_027449873.2	1	26	0	Deleted exon	-	masked	DEL_26
+# rna-XM_027449873.2	1	27	0	Deleted exon	-	masked	DEL_27
+# rna-XM_027449873.2	1	28	0	Deleted exon	-	masked	DEL_28
+# rna-XM_027449873.2	1	29	0	Deleted exon	-	masked	DEL_29
+# rna-XM_027449873.2	1	30	0	Deleted exon	-	masked	DEL_30
+# rna-XM_027449873.2	1	31	0	Deleted exon	-	masked	DEL_31
+# rna-XM_027449873.2	1	32	0	Deleted exon	-	masked	DEL_32
+# rna-XM_027449873.2	1	33	0	Deleted exon	-	masked	DEL_33
+# rna-XM_027449873.2	1	34	0	Deleted exon	-	masked	DEL_34
+# rna-XM_027449873.2	1	35	0	Deleted exon	-	masked	DEL_35
+# rna-XM_027449873.2	1	36	0	Deleted exon	-	masked	DEL_36
+# rna-XM_027449873.2	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_027449873.2	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_027449873.2	1	INTACT_CODONS_PROP 0.0
+# rna-XM_027449873.2	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_027449873.2	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_027449873.2	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179451.1
+# rna-XM_038179451.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179451.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179451.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179451.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179451.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179451.1	1	6	0	Deleted exon	-	masked	DEL_6
+# rna-XM_038179451.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179451.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179451.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179451.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179451.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179451.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038179558.1
+# rna-XM_038179558.1	1	1	0	Deleted exon	-	masked	DEL_1
+# rna-XM_038179558.1	1	2	0	Deleted exon	-	masked	DEL_2
+# rna-XM_038179558.1	1	3	0	Deleted exon	-	masked	DEL_3
+# rna-XM_038179558.1	1	4	0	Deleted exon	-	masked	DEL_4
+# rna-XM_038179558.1	1	5	0	Deleted exon	-	masked	DEL_5
+# rna-XM_038179558.1	1	INTACT_PERC_IGNORE_M 0.0
+# rna-XM_038179558.1	1	INTACT_PERC_INTACT_M 0.0
+# rna-XM_038179558.1	1	INTACT_CODONS_PROP 0.0
+# rna-XM_038179558.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038179558.1	1	MIDDLE_IS_INTACT TRUE
+# rna-XM_038179558.1	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: rna-XM_038173084.1
+# rna-XM_038173084.1	1	1	0	Deleted exon	-	unmasked	DEL_1
+# rna-XM_038173084.1	1	2	0	Deleted exon	-	unmasked	DEL_2
+# rna-XM_038173084.1	1	3	38	ATG	GTG->ATG	masked	ATG_2
+# rna-XM_038173084.1	1	3	39	FS_DEL	-1	unmasked	FS_1
+# rna-XM_038173084.1	1	3	135	ATG	GAG->ATG	masked	ATG_3
+# rna-XM_038173084.1	1	3	143	ATG	ATG->ATG	masked	ATG_4
+# rna-XM_038173084.1	1	4	162	FS_DEL	-1	unmasked	FS_2
+# rna-XM_038173084.1	1	4	172	COMPENSATION	FS_3-4	unmasked	C_1
+# rna-XM_038173084.1	1	4	172	FS_DEL	-2	masked	FS_3
+# rna-XM_038173084.1	1	5	193	FS_INS	+2	masked	FS_4
+# rna-XM_038173084.1	1	INTACT_PERC_IGNORE_M 0.5329949238578681
+# rna-XM_038173084.1	1	INTACT_PERC_INTACT_M 0.5329949238578681
+# rna-XM_038173084.1	1	INTACT_CODONS_PROP 0.6091370558375635
+# rna-XM_038173084.1	1	OUT_OF_CHAIN_PROP 0.0
+# rna-XM_038173084.1	1	MIDDLE_IS_INTACT FALSE
+# rna-XM_038173084.1	1	MIDDLE_IS_PRESENT TRUE
+
