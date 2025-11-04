@@ -36,14 +36,6 @@ p <- ggplot(data, aes(x = GA_edit_sites, y = ERV_content,
 # Display in R
 print(p)
 
-# Save high-resolution image
-#ggsave(
-#  filename = "GA_edit_vs_ERV_content_highres.png",
-#  plot = p,
-#  width = 8,
-#  height = 6,
-#  dpi = 600
-#)
 
 # Save as high-quality PDF
 ggsave(
