@@ -1,0 +1,11 @@
+Species                     Total_GA_edit_sites  Family(GA_count,2nd_highest_count,Corrected_GA_count)
+Alligator_mississippiensis  22417                ERVL(19923,8089,11834)                                 Gypsy(850,405,445)   ERV4(6539,2317,4222)  ERV1(9219,3303,5916)
+Anolis_carolinensis         11872                Gypsy(13262,1441,11821)                                Pao(90,52,38)        Copia(17,4,13)
+Chrysemys_picta_bellii      0                    -
+Petromyzon_marinus          943                  ERV1(62,23,39)                                         Gypsy(1446,542,904)
+Thamnophis_sirtalis         0                    -
+Xenopus_laevis              0                    -
+Latimeria_chalumnae         0                    -
+Danio_rerio                 887                  DIRS(17,9,8)                                           ERV1(1032,173,859)   Ngaro(29,9,20)
+Callorhinchus_milii         0                    -
+Pleurodeles_waltl           0                    -

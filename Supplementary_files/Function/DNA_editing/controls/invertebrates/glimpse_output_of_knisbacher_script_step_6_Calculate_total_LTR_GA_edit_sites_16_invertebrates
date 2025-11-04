@@ -1,0 +1,17 @@
+Species                        Total_GA_edit_sites  Family(GA_count,2nd_highest_count,Corrected_GA_count)
+Anopheles_gambiae              0                    -
+Apis_mellifera                 0                    -
+Aplysia_californica            0                    -
+Caenorhabditis_briggsae        0                    -
+Caenorhabditis_elegans         0                    -
+Ciona_intestinalis             0                    -
+Drosophila_ananassae           84                   Gypsy(149,65,84)
+Drosophila_erecta              8                    Gypsy(13,5,8)
+Drosophila_grimshawi           0                    -
+Drosophila_melanogaster        0                    -
+Drosophila_mojavensis          29                   Gypsy(44,15,29)
+Drosophila_pseudoobscura       0                    -
+Latimeria_chalumnae            0                    -
+Pristionchus_pacificus         0                    -
+Strongylocentrotus_purpuratus  0                    -
+Tribolium_castaneum            0                    -

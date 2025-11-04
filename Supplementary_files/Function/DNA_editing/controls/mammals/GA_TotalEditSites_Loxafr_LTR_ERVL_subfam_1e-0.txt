@@ -1,0 +1,2 @@
+GA Loxafr LTR ERVL MER21-int 13 5 8
+GA Loxafr LTR ERVL LTR6_LA 12 10 2

@@ -1,0 +1,11 @@
+Species                     Total_num_output_files  Num_GA_Clusters_analyzed  Num_Consensus_maps_made  Num_Consensus_blast_outputs
+Alligator_mississippiensis  217                     4                         8                        714
+Anolis_carolinensis         324                     6                         12                       186
+Chrysemys_picta_bellii      0                       0                         0                        0
+Petromyzon_marinus          162                     3                         6                        188
+Thamnophis_sirtalis         54                      1                         2                        2
+Xenopus_laevis              0                       0                         0                        0
+Latimeria_chalumnae         0                       0                         0                        0
+Danio_rerio                 378                     7                         14                       306
+Callorhinchus_milii         0                       0                         0                        0
+Pleurodeles_waltl           0                       0                         0                        0

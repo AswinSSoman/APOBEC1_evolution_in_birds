@@ -1,0 +1,4 @@
+GA Droana LTR Gypsy Gypsy12_I 47 20 27
+GA Droana LTR Gypsy OSVALDO_I 35 13 22
+GA Droana LTR Gypsy OSVALDO_I 36 15 21
+GA Droana LTR Gypsy OSVALDO_I 31 17 14

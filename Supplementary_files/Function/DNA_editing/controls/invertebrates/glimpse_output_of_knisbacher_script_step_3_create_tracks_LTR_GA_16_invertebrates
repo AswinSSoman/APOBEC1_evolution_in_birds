@@ -1,0 +1,17 @@
+Species                        Total_num_output_files  Num_GA_Clusters_analyzed  Num_Consensus_maps_made  Num_Consensus_blast_outputs
+Anopheles_gambiae              162                     3                         6                        50
+Apis_mellifera                 0                       0                         0                        0
+Aplysia_californica            0                       0                         0                        0
+Caenorhabditis_briggsae        0                       0                         0                        0
+Caenorhabditis_elegans         0                       0                         0                        0
+Ciona_intestinalis             54                      1                         2                        2
+Drosophila_ananassae           162                     3                         6                        62
+Drosophila_erecta              108                     2                         4                        54
+Drosophila_grimshawi           108                     2                         4                        12
+Drosophila_melanogaster        162                     3                         6                        72
+Drosophila_mojavensis          162                     3                         6                        32
+Drosophila_pseudoobscura       108                     2                         4                        12
+Latimeria_chalumnae            0                       0                         0                        0
+Pristionchus_pacificus         0                       0                         0                        0
+Strongylocentrotus_purpuratus  0                       0                         0                        0
+Tribolium_castaneum            0                       0                         0                        0

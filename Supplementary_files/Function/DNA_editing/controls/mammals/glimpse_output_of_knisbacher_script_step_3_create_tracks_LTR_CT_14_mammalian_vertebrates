@@ -1,0 +1,15 @@
+Species                   Total_num_output_files  Num_CT_Clusters_analyzed  Num_Consensus_maps_made  Num_Consensus_blast_outputs
+Bos_taurus                216                     4                         8                        162
+Ceratotherium_simum       162                     3                         6                        160
+Cricetulus_griseus        162                     3                         6                        24
+Equus_caballus            270                     5                         10                       300
+Erinaceus_europaeus       162                     3                         6                        168
+Galeopterus_variegatus    162                     3                         6                        136
+Homo_sapiens              270                     5                         10                       646
+Loxodonta_africana        270                     5                         10                       126
+Monodelphis_domestica     162                     3                         6                        690
+Mus_musculus              216                     4                         8                        572
+Ornithorhynchus_anatinus  162                     3                         6                        20
+Oryctolagus_cuniculus     216                     4                         8                        106
+Pan_troglodytes           216                     4                         8                        646
+Tursiops_truncatus        162                     3                         6                        120
