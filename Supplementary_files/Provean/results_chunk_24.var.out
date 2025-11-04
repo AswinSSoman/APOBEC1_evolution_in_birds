@@ -1,0 +1,44 @@
+## PROVEAN v1.1 output ##
+# Query sequence file:	human.aa
+# Variation file:	chunk_24.var
+# Protein database:	/media/aswin/gene_loss/APOBEC1/bird_mammal_A1_comparison/blast_nr_v4/nr
+[20:32:18] searching related sequences...
+[20:58:34] clustering subject sequences...
+# Number of clusters:	30
+# Number of supporting sequences used:	232
+[20:58:37] computing delta alignment scores...
+## PROVEAN scores ##
+# VARIATION	SCORE
+A179V	-1.692
+A179E	-2.417
+L180I	-1.641
+L180T	-4.277
+L180R	-4.984
+L180M	-1.686
+L180C	-4.382
+L180V	-2.454
+E181V	-6.457
+L182F	-3.413
+L182V	-2.486
+H183C	-6.299
+H183F	-4.112
+H183L	-5.793
+H183S	-4.967
+H183Y	-1.539
+H183R	-4.555
+H183G	-6.049
+H183K	-5.085
+H183N	-3.895
+H183Q	-4.193
+H183Y	-1.539
+H183Q	-4.193
+H183R	-4.555
+H183S	-4.967
+C184H	-9.189
+C184R	-8.975
+C184N	-9.308
+C184Q	-9.196
+I186L	-1.282
+I186F	-2.688
+I186S	-4.379
+I186T	-3.509
