@@ -1,0 +1,711 @@
+#Batch CD-search tool	NIH/NLM/NCBI
+#cdsid	QM3-qcdsearch-1A1E72DAFF6DB8BC-16719D59BB09A935
+#datatype	feats
+#status	0
+#Start time	2025-02-24T22:46:58	Run time	0:00:00:33
+#status	success
+
+Query	Type	Title	coordinates	complete size	mapped size	source domain
+Q#1 - >aid_mammals_NM_020661.4	specific	active site	E26,Y28,L49,N51,H56,V57,E58,C87,C90	9	9	238610
+Q#1 - >aid_mammals_NM_020661.4	specific	catalytic motif	H56,V57,E58,P86,C87,C90	6	6	238610
+Q#1 - >aid_mammals_NM_020661.4	specific	Zn binding site	H56,E58,C87,C90	4	4	238610
+Q#2 - >aid_mammals_NM_001071809.5	specific	active site	E26,Y28,L49,N51,H56,V57,E58,C87,C90	9	9	238610
+Q#2 - >aid_mammals_NM_001071809.5	specific	catalytic motif	H56,V57,E58,P86,C87,C90	6	6	238610
+Q#2 - >aid_mammals_NM_001071809.5	specific	Zn binding site	H56,E58,C87,C90	4	4	238610
+Q#3 - >aid_mammals_XM_005570042.4	specific	active site	E26,Y28,L49,N51,H56,V57,E58,C87,C90	9	9	238610
+Q#3 - >aid_mammals_XM_005570042.4	specific	catalytic motif	H56,V57,E58,P86,C87,C90	6	6	238610
+Q#3 - >aid_mammals_XM_005570042.4	specific	Zn binding site	H56,E58,C87,C90	4	4	238610
+Q#4 - >aid_mammals_XM_003905939.4	specific	active site	E26,Y28,L49,N51,H56,V57,E58,C87,C90	9	9	238610
+Q#4 - >aid_mammals_XM_003905939.4	specific	catalytic motif	H56,V57,E58,P86,C87,C90	6	6	238610
+Q#4 - >aid_mammals_XM_003905939.4	specific	Zn binding site	H56,E58,C87,C90	4	4	238610
+Q#5 - >aid_mammals_XM_023192413.2	specific	active site	E26,Y28,L49,N51,H56,V57,E58,C87,C90	9	9	238610
+Q#5 - >aid_mammals_XM_023192413.2	specific	catalytic motif	H56,V57,E58,P86,C87,C90	6	6	238610
+Q#5 - >aid_mammals_XM_023192413.2	specific	Zn binding site	H56,E58,C87,C90	4	4	238610
+Q#6 - >aid_mammals_XM_033222874.1	specific	active site	E26,Y28,L49,N51,H56,V57,E58,C87,C90	9	9	238610
+Q#6 - >aid_mammals_XM_033222874.1	specific	catalytic motif	H56,V57,E58,P86,C87,C90	6	6	238610
+Q#6 - >aid_mammals_XM_033222874.1	specific	Zn binding site	H56,E58,C87,C90	4	4	238610
+Q#7 - >aid_mammals_XM_019626172.1	specific	active site	E26,Y28,L49,N51,H56,V57,E58,C87,C90	9	9	238610
+Q#7 - >aid_mammals_XM_019626172.1	specific	catalytic motif	H56,V57,E58,P86,C87,C90	6	6	238610
+Q#7 - >aid_mammals_XM_019626172.1	specific	Zn binding site	H56,E58,C87,C90	4	4	238610
+Q#8 - >aid_mammals_XM_015540827.2	specific	active site	E26,Y28,L49,N51,H56,V57,E58,C87,C90	9	9	238610
+Q#8 - >aid_mammals_XM_015540827.2	specific	catalytic motif	H56,V57,E58,P86,C87,C90	6	6	238610
+Q#8 - >aid_mammals_XM_015540827.2	specific	Zn binding site	H56,E58,C87,C90	4	4	238610
+Q#9 - >aid_mammals_XM_045464401.1	specific	active site	E60,Y62,L83,N85,H90,V91,E92,C121,C124	9	9	238610
+Q#9 - >aid_mammals_XM_045464401.1	specific	catalytic motif	H90,V91,E92,P120,C121,C124	6	6	238610
+Q#9 - >aid_mammals_XM_045464401.1	specific	Zn binding site	H90,E92,C121,C124	4	4	238610
+Q#10 - >aid_mammals_XM_043562467.1	specific	active site	E26,Y28,L49,N51,H56,V57,E58,C87,C90	9	9	238610
+Q#10 - >aid_mammals_XM_043562467.1	specific	catalytic motif	H56,V57,E58,P86,C87,C90	6	6	238610
+Q#10 - >aid_mammals_XM_043562467.1	specific	Zn binding site	H56,E58,C87,C90	4	4	238610
+Q#11 - >aid_birds_XM_005012419.5	specific	active site	E26,Y28,L49,N51,H56,V57,E58,C87,C90	9	9	238610
+Q#11 - >aid_birds_XM_005012419.5	specific	catalytic motif	H56,V57,E58,P86,C87,C90	6	6	238610
+Q#11 - >aid_birds_XM_005012419.5	specific	Zn binding site	H56,E58,C87,C90	4	4	238610
+Q#12 - >aid_birds_XM_009973429.3	specific	active site	E66,Y68,L89,N91,H96,V97,E98,C127,C130	9	9	238610
+Q#12 - >aid_birds_XM_009973429.3	specific	catalytic motif	H96,V97,E98,P126,C127,C130	6	6	238610
+Q#12 - >aid_birds_XM_009973429.3	specific	Zn binding site	H96,E98,C127,C130	4	4	238610
+Q#13 - >aid_birds_XM_040576300.1	specific	active site	E26,Y28,L49,N51,H56,V57,E58,C87,C90	9	9	238610
+Q#13 - >aid_birds_XM_040576300.1	specific	catalytic motif	H56,V57,E58,P86,C87,C90	6	6	238610
+Q#13 - >aid_birds_XM_040576300.1	specific	Zn binding site	H56,E58,C87,C90	4	4	238610
+Q#14 - >aid_birds_NM_001243222.2	specific	active site	E26,Y28,L49,N51,H56,V57,E58,C87,C90	9	9	238610
+Q#14 - >aid_birds_NM_001243222.2	specific	catalytic motif	H56,V57,E58,P86,C87,C90	6	6	238610
+Q#14 - >aid_birds_NM_001243222.2	specific	Zn binding site	H56,E58,C87,C90	4	4	238610
+Q#15 - >aid_birds_XM_031611523.1	specific	active site	E26,Y28,L49,N51,H56,V57,E58,C87,C90	9	9	238610
+Q#15 - >aid_birds_XM_031611523.1	specific	catalytic motif	H56,V57,E58,P86,C87,C90	6	6	238610
+Q#15 - >aid_birds_XM_031611523.1	specific	Zn binding site	H56,E58,C87,C90	4	4	238610
+Q#16 - >aid_birds_XM_021384693.1	specific	active site	E26,Y28,L49,N51,H56,V57,E58,C87,C90	9	9	238610
+Q#16 - >aid_birds_XM_021384693.1	specific	catalytic motif	H56,V57,E58,P86,C87,C90	6	6	238610
+Q#16 - >aid_birds_XM_021384693.1	specific	Zn binding site	H56,E58,C87,C90	4	4	238610
+Q#17 - >aid_birds_XM_032446791.1	specific	active site	E26,Y28,L49,N51,H56,V57,E58,C87,C90	9	9	238610
+Q#17 - >aid_birds_XM_032446791.1	specific	catalytic motif	H56,V57,E58,P86,C87,C90	6	6	238610
+Q#17 - >aid_birds_XM_032446791.1	specific	Zn binding site	H56,E58,C87,C90	4	4	238610
+Q#18 - >aid_birds_XM_003202611.4	specific	active site	E26,Y28,L49,N51,H56,V57,E58,C87,C90	9	9	238610
+Q#18 - >aid_birds_XM_003202611.4	specific	catalytic motif	H56,V57,E58,P86,C87,C90	6	6	238610
+Q#18 - >aid_birds_XM_003202611.4	specific	Zn binding site	H56,E58,C87,C90	4	4	238610
+Q#19 - >aid_birds_XM_042810335.1	specific	active site	E26,Y28,L49,N51,H56,V57,E58,C87,C90	9	9	238610
+Q#19 - >aid_birds_XM_042810335.1	specific	catalytic motif	H56,V57,E58,P86,C87,C90	6	6	238610
+Q#19 - >aid_birds_XM_042810335.1	specific	Zn binding site	H56,E58,C87,C90	4	4	238610
+Q#20 - >aid_birds_XM_042867746.1	specific	active site	E32,Y34,L55,N57,H62,V63,E64,C93,C96	9	9	238610
+Q#20 - >aid_birds_XM_042867746.1	specific	catalytic motif	H62,V63,E64,P92,C93,C96	6	6	238610
+Q#20 - >aid_birds_XM_042867746.1	specific	Zn binding site	H62,E64,C93,C96	4	4	238610
+Q#21 - >aid_crocodiles_XM_019516048.1	specific	active site	E26,Y28,L49,N51,H56,V57,E58,C87,C90	9	9	238610
+Q#21 - >aid_crocodiles_XM_019516048.1	specific	catalytic motif	H56,V57,E58,P86,C87,C90	6	6	238610
+Q#21 - >aid_crocodiles_XM_019516048.1	specific	Zn binding site	H56,E58,C87,C90	4	4	238610
+Q#22 - >aid_crocodiles_XM_019544150.1	specific	active site	E26,Y28,L49,N51,H56,V57,E58,C87,C90	9	9	238610
+Q#22 - >aid_crocodiles_XM_019544150.1	specific	catalytic motif	H56,V57,E58,P86,C87,C90	6	6	238610
+Q#22 - >aid_crocodiles_XM_019544150.1	specific	Zn binding site	H56,E58,C87,C90	4	4	238610
+Q#23 - >aid_squamates_XM_020814695.1	specific	active site	E26,Y28,L49,N51,H56,V57,E58,C87,C90	9	9	238610
+Q#23 - >aid_squamates_XM_020814695.1	specific	catalytic motif	H56,V57,E58,P86,C87,C90	6	6	238610
+Q#23 - >aid_squamates_XM_020814695.1	specific	Zn binding site	H56,E58,C87,C90	4	4	238610
+Q#24 - >aid_snakes_XM_039366679.1	specific	active site	E26,Y28,L49,N51,H56,V57,E58,C87,C90	9	9	238610
+Q#24 - >aid_snakes_XM_039366679.1	specific	catalytic motif	H56,V57,E58,P86,C87,C90	6	6	238610
+Q#24 - >aid_snakes_XM_039366679.1	specific	Zn binding site	H56,E58,C87,C90	4	4	238610
+Q#25 - >aid_amphibians_XM_044299809.1	specific	active site	E26,Y28,L49,N51,H56,A57,E58,C88,C91	9	9	238610
+Q#25 - >aid_amphibians_XM_044299809.1	specific	catalytic motif	H56,A57,E58,P87,C88,C91	6	6	238610
+Q#25 - >aid_amphibians_XM_044299809.1	specific	Zn binding site	H56,E58,C88,C91	4	4	238610
+Q#26 - >aid_bony_fishes_XM_030157935.1	generic	active site	H60,V61,E62,P99,C100,C103	6	6	238610
+Q#26 - >aid_bony_fishes_XM_030157935.1	generic	Zn binding site	H60,E62,C100,C103	4	4	238610
+Q#27 - >aid_bony_fishes_XM_018736254.1	specific	active site	E30,Y32,L53,N55,H60,V61,E62,C99,C102	9	9	238610
+Q#27 - >aid_bony_fishes_XM_018736254.1	specific	catalytic motif	H60,V61,E62,P98,C99,C102	6	6	238610
+Q#27 - >aid_bony_fishes_XM_018736254.1	specific	Zn binding site	H60,E62,C99,C102	4	4	238610
+Q#28 - >aid_bony_fishes_XM_026999173.2	specific	active site	E39,Y41,L62,N64,H69,V70,E71,C108,C111	9	9	238610
+Q#28 - >aid_bony_fishes_XM_026999173.2	specific	catalytic motif	H69,V70,E71,P107,C108,C111	6	6	238610
+Q#28 - >aid_bony_fishes_XM_026999173.2	specific	Zn binding site	H69,E71,C108,C111	4	4	238610
+Q#29 - >aid_bony_fishes_XM_042490942.1	generic	active site	H60,V61,E62,P99,C100,C103	6	6	238610
+Q#29 - >aid_bony_fishes_XM_042490942.1	generic	Zn binding site	H60,E62,C100,C103	4	4	238610
+Q#30 - >aid_cartilaginous_fishes_XM_038822280.1	specific	active site	E26,Y28,L49,N51,H56,A57,E58,C87,C90	9	9	238610
+Q#30 - >aid_cartilaginous_fishes_XM_038822280.1	specific	catalytic motif	H56,A57,E58,P86,C87,C90	6	6	238610
+Q#30 - >aid_cartilaginous_fishes_XM_038822280.1	specific	Zn binding site	H56,E58,C87,C90	4	4	238610
+Q#31 - >aid_bony_fishes_XM_023815482.1	generic	active site	H60,V61,E62,P98,C99,C102	6	6	238610
+Q#31 - >aid_bony_fishes_XM_023815482.1	generic	Zn binding site	H60,E62,C99,C102	4	4	238610
+Q#32 - >aid_bony_fishes_XM_035395479.1	specific	active site	E30,Y32,L53,N55,H60,V61,E62,C99,C102	9	9	238610
+Q#32 - >aid_bony_fishes_XM_035395479.1	specific	catalytic motif	H60,V61,E62,P98,C99,C102	6	6	238610
+Q#32 - >aid_bony_fishes_XM_035395479.1	specific	Zn binding site	H60,E62,C99,C102	4	4	238610
+Q#33 - >aid_bony_fishes_XM_034611389.1	specific	active site	E105,Y107,L128,N130,H135,V136,E137,C175,C178	9	9	238610
+Q#33 - >aid_bony_fishes_XM_034611389.1	specific	catalytic motif	H135,V136,E137,P174,C175,C178	6	6	238610
+Q#33 - >aid_bony_fishes_XM_034611389.1	specific	Zn binding site	H135,E137,C175,C178	4	4	238610
+Q#34 - >aid_bony_fishes_XM_029504128.1	specific	active site	E30,Y32,F53,N55,H60,A61,E62,C100,C103	9	9	238610
+Q#34 - >aid_bony_fishes_XM_029504128.1	specific	catalytic motif	H60,A61,E62,P99,C100,C103	6	6	238610
+Q#34 - >aid_bony_fishes_XM_029504128.1	specific	Zn binding site	H60,E62,C100,C103	4	4	238610
+Q#35 - >aid_bony_fishes_XM_019868933.1	specific	active site	E30,Y32,L53,N55,H60,V61,E62,C100,C103	9	9	238610
+Q#35 - >aid_bony_fishes_XM_019868933.1	specific	catalytic motif	H60,V61,E62,P99,C100,C103	6	6	238610
+Q#35 - >aid_bony_fishes_XM_019868933.1	specific	Zn binding site	H60,E62,C100,C103	4	4	238610
+Q#36 - >aid_bony_fishes_XM_041942113.1	generic	active site	H60,V61,E62,P99,C100,C103	6	6	238610
+Q#36 - >aid_bony_fishes_XM_041942113.1	generic	Zn binding site	H60,E62,C100,C103	4	4	238610
+Q#37 - >apobec2_mammals_NM_009694.3	specific	active site	K67,F69,L90,D92,H98,A99,E100,C128,C131	9	9	238610
+Q#37 - >apobec2_mammals_NM_009694.3	specific	catalytic motif	H98,A99,E100,P127,C128,C131	6	6	238610
+Q#37 - >apobec2_mammals_NM_009694.3	specific	Zn binding site	H98,E100,C128,C131	4	4	238610
+Q#38 - >apobec2_mammals_XM_021218325.2	specific	active site	K67,F69,L90,D92,H98,A99,E100,C128,C131	9	9	238610
+Q#38 - >apobec2_mammals_XM_021218325.2	specific	catalytic motif	H98,A99,E100,P127,C128,C131	6	6	238610
+Q#38 - >apobec2_mammals_XM_021218325.2	specific	Zn binding site	H98,E100,C128,C131	4	4	238610
+Q#39 - >apobec2_mammals_NM_001106883.1	specific	active site	K67,F69,L90,D92,H98,A99,E100,C128,C131	9	9	238610
+Q#39 - >apobec2_mammals_NM_001106883.1	specific	catalytic motif	H98,A99,E100,P127,C128,C131	6	6	238610
+Q#39 - >apobec2_mammals_NM_001106883.1	specific	Zn binding site	H98,E100,C128,C131	4	4	238610
+Q#40 - >apobec2_mammals_XM_031346632.1	specific	active site	K67,F69,L90,D92,H98,A99,E100,C128,C131	9	9	238610
+Q#40 - >apobec2_mammals_XM_031346632.1	specific	catalytic motif	H98,A99,E100,P127,C128,C131	6	6	238610
+Q#40 - >apobec2_mammals_XM_031346632.1	specific	Zn binding site	H98,E100,C128,C131	4	4	238610
+Q#41 - >apobec2_mammals_XM_028859949.2	specific	active site	K67,F69,L90,D92,H98,A99,E100,C128,C131	9	9	238610
+Q#41 - >apobec2_mammals_XM_028859949.2	specific	catalytic motif	H98,A99,E100,P127,C128,C131	6	6	238610
+Q#41 - >apobec2_mammals_XM_028859949.2	specific	Zn binding site	H98,E100,C128,C131	4	4	238610
+Q#42 - >apobec2_mammals_XM_040729146.1	specific	active site	K67,F69,L90,D92,H98,A99,E100,C128,C131	9	9	238610
+Q#42 - >apobec2_mammals_XM_040729146.1	specific	catalytic motif	H98,A99,E100,P127,C128,C131	6	6	238610
+Q#42 - >apobec2_mammals_XM_040729146.1	specific	Zn binding site	H98,E100,C128,C131	4	4	238610
+Q#43 - >apobec2_mammals_XM_006996903.3	specific	active site	K67,F69,L90,D92,H98,A99,E100,C128,C131	9	9	238610
+Q#43 - >apobec2_mammals_XM_006996903.3	specific	catalytic motif	H98,A99,E100,P127,C128,C131	6	6	238610
+Q#43 - >apobec2_mammals_XM_006996903.3	specific	Zn binding site	H98,E100,C128,C131	4	4	238610
+Q#44 - >apobec2_mammals_XM_048445448.1	specific	active site	K67,F69,L90,D92,H98,A99,E100,C128,C131	9	9	238610
+Q#44 - >apobec2_mammals_XM_048445448.1	specific	catalytic motif	H98,A99,E100,P127,C128,C131	6	6	238610
+Q#44 - >apobec2_mammals_XM_048445448.1	specific	Zn binding site	H98,E100,C128,C131	4	4	238610
+Q#45 - >apobec2_mammals_XM_041656097.1	specific	active site	K67,F69,L90,D92,H98,A99,E100,C128,C131	9	9	238610
+Q#45 - >apobec2_mammals_XM_041656097.1	specific	catalytic motif	H98,A99,E100,P127,C128,C131	6	6	238610
+Q#45 - >apobec2_mammals_XM_041656097.1	specific	Zn binding site	H98,E100,C128,C131	4	4	238610
+Q#50 - >apobec2_birds_XM_015650861.2	specific	dimer interface	V14,G15,F17,L18,F21,W65,A75,M79,G80,L81,G83,A84,L86,A87,L88,W90,A91,P94,L95	22	19	320706
+Q#52 - >apobec2_birds_XM_015885266.2	specific	active site	K66,F68,L87,D89,H95,A96,E97,C125,C128	9	9	238610
+Q#52 - >apobec2_birds_XM_015885266.2	specific	catalytic motif	H95,A96,E97,P124,C125,C128	6	6	238610
+Q#52 - >apobec2_birds_XM_015885266.2	specific	Zn binding site	H95,E97,C125,C128	4	4	238610
+Q#56 - >apobec2_birds_XM_042884229.1	specific	active site	K66,F68,L87,D89,H95,A96,E97,C125,C128	9	9	238610
+Q#56 - >apobec2_birds_XM_042884229.1	specific	catalytic motif	H95,A96,E97,P124,C125,C128	6	6	238610
+Q#56 - >apobec2_birds_XM_042884229.1	specific	Zn binding site	H95,E97,C125,C128	4	4	238610
+Q#57 - >apobec2_turtles_XM_032768496.1	specific	active site	K66,F68,L87,D89,H95,V96,E97,C125,C128	9	9	238610
+Q#57 - >apobec2_turtles_XM_032768496.1	specific	catalytic motif	H95,V96,E97,P124,C125,C128	6	6	238610
+Q#57 - >apobec2_turtles_XM_032768496.1	specific	Zn binding site	H95,E97,C125,C128	4	4	238610
+Q#58 - >apobec2_crocodiles_XM_019546696.1	specific	active site	K73,F75,L94,D96,L112,P113,E114,C132,C135	9	9	238610
+Q#58 - >apobec2_crocodiles_XM_019546696.1	specific	catalytic motif	L112,P113,E114,P131,C132,C135	6	6	238610
+Q#58 - >apobec2_crocodiles_XM_019546696.1	specific	Zn binding site	L112,E114,C132,C135	4	4	238610
+Q#60 - >apobec2_turtles_XM_006119340.3	specific	active site	K67,F69,L88,D90,H96,A97,E98,C126,C129	9	9	238610
+Q#60 - >apobec2_turtles_XM_006119340.3	specific	catalytic motif	H96,A97,E98,P125,C126,C129	6	6	238610
+Q#60 - >apobec2_turtles_XM_006119340.3	specific	Zn binding site	H96,E98,C126,C129	4	4	238610
+Q#65 - >apobec2_crocodiles_XM_019514218.1	specific	active site	K73,F75,L94,D96,L112,P113,E114,C132,C135	9	9	238610
+Q#65 - >apobec2_crocodiles_XM_019514218.1	specific	catalytic motif	L112,P113,E114,P131,C132,C135	6	6	238610
+Q#65 - >apobec2_crocodiles_XM_019514218.1	specific	Zn binding site	L112,E114,C132,C135	4	4	238610
+Q#66 - >apobec2_squamates_XM_028734032.1	specific	active site	K75,F77,L96,D98,H104,A105,E106,C134,C137	9	9	238610
+Q#66 - >apobec2_squamates_XM_028734032.1	specific	catalytic motif	H104,A105,E106,P133,C134,C137	6	6	238610
+Q#66 - >apobec2_squamates_XM_028734032.1	specific	Zn binding site	H104,E106,C134,C137	4	4	238610
+Q#67 - >apobec2_crocodiles_XM_006025077.2	specific	active site	K73,F75,L94,D96,L112,P113,E114,C132,C135	9	9	238610
+Q#67 - >apobec2_crocodiles_XM_006025077.2	specific	catalytic motif	L112,P113,E114,P131,C132,C135	6	6	238610
+Q#67 - >apobec2_crocodiles_XM_006025077.2	specific	Zn binding site	L112,E114,C132,C135	4	4	238610
+Q#68 - >apobec2_turtles_XM_034767373.1	specific	active site	K65,F67,L86,D88,H94,A95,E96,C124,C127	9	9	238610
+Q#68 - >apobec2_turtles_XM_034767373.1	specific	catalytic motif	H94,A95,E96,P123,C124,C127	6	6	238610
+Q#68 - >apobec2_turtles_XM_034767373.1	specific	Zn binding site	H94,E96,C124,C127	4	4	238610
+Q#71 - >apobec2_squamates_XM_042465465.1	specific	active site	K71,F73,L92,D94,H100,A101,E102,C130,C133	9	9	238610
+Q#71 - >apobec2_squamates_XM_042465465.1	specific	catalytic motif	H100,A101,E102,P129,C130,C133	6	6	238610
+Q#71 - >apobec2_squamates_XM_042465465.1	specific	Zn binding site	H100,E102,C130,C133	4	4	238610
+Q#73 - >apobec2_amphibians_XM_029572901.1	specific	active site	K69,F71,L90,E93,H98,A99,E100,C128,C131	9	9	238610
+Q#73 - >apobec2_amphibians_XM_029572901.1	specific	catalytic motif	H98,A99,E100,P127,C128,C131	6	6	238610
+Q#73 - >apobec2_amphibians_XM_029572901.1	specific	Zn binding site	H98,E100,C128,C131	4	4	238610
+Q#77 - >apobec2_bony_fishes_XM_043223708.1	specific	active site	K107,F109,I128,E131,H136,A137,E138,C166,C169	9	9	238610
+Q#77 - >apobec2_bony_fishes_XM_043223708.1	specific	catalytic motif	H136,A137,E138,P165,C166,C169	6	6	238610
+Q#77 - >apobec2_bony_fishes_XM_043223708.1	specific	Zn binding site	H136,E138,C166,C169	4	4	238610
+Q#79 - >apobec2_bony_fishes_XM_039682429.1	specific	active site	K138,F140,L157,D159,H165,A166,E167,C195,C198	9	9	238610
+Q#79 - >apobec2_bony_fishes_XM_039682429.1	specific	catalytic motif	H165,A166,E167,P194,C195,C198	6	6	238610
+Q#79 - >apobec2_bony_fishes_XM_039682429.1	specific	Zn binding site	H165,E167,C195,C198	4	4	238610
+Q#80 - >apobec2_bony_fishes_XM_047025850.1	specific	active site	K120,F122,L141,D143,H149,S150,E151,C179,C182	9	9	238610
+Q#80 - >apobec2_bony_fishes_XM_047025850.1	specific	catalytic motif	H149,S150,E151,P178,C179,C182	6	6	238610
+Q#80 - >apobec2_bony_fishes_XM_047025850.1	specific	Zn binding site	H149,E151,C179,C182	4	4	238610
+Q#81 - >apobec2_amphibians_XM_030220724.1	specific	active site	K67,F69,L88,E91,H96,A97,E98,C126,C129	9	9	238610
+Q#81 - >apobec2_amphibians_XM_030220724.1	specific	catalytic motif	H96,A97,E98,P125,C126,C129	6	6	238610
+Q#81 - >apobec2_amphibians_XM_030220724.1	specific	Zn binding site	H96,E98,C126,C129	4	4	238610
+Q#82 - >apobec2_bony_fishes_XM_030375856.1	specific	active site	K94,Y96,L114,D116,H122,A123,E124,C152,C155	9	9	238610
+Q#82 - >apobec2_bony_fishes_XM_030375856.1	specific	catalytic motif	H122,A123,E124,P151,C152,C155	6	6	238610
+Q#82 - >apobec2_bony_fishes_XM_030375856.1	specific	Zn binding site	H122,E124,C152,C155	4	4	238610
+Q#83 - >apobec2_bony_fishes_XM_016258796.1	specific	active site	K107,F109,I128,D130,H136,A137,E138,C166,C169	9	9	238610
+Q#83 - >apobec2_bony_fishes_XM_016258796.1	specific	catalytic motif	H136,A137,E138,P165,C166,C169	6	6	238610
+Q#83 - >apobec2_bony_fishes_XM_016258796.1	specific	Zn binding site	H136,E138,C166,C169	4	4	238610
+Q#84 - >apobec2_bony_fishes_XM_026247634.1	specific	active site	K91,F93,I112,D114,H120,A121,E122,C150,C153	9	9	238610
+Q#84 - >apobec2_bony_fishes_XM_026247634.1	specific	catalytic motif	H120,A121,E122,P149,C150,C153	6	6	238610
+Q#84 - >apobec2_bony_fishes_XM_026247634.1	specific	Zn binding site	H120,E122,C150,C153	4	4	238610
+Q#85 - >apobec2_bony_fishes_NM_001013314.2	specific	active site	K99,F101,I118,D120,H126,A127,E128,C156,C159	9	9	238610
+Q#85 - >apobec2_bony_fishes_NM_001013314.2	specific	catalytic motif	H126,A127,E128,P155,C156,C159	6	6	238610
+Q#85 - >apobec2_bony_fishes_NM_001013314.2	specific	Zn binding site	H126,E128,C156,C159	4	4	238610
+Q#86 - >apobec2_bony_fishes_XM_012827831.3	specific	active site	K122,F124,L142,D144,H150,V151,E152,C180,C183	9	9	238610
+Q#86 - >apobec2_bony_fishes_XM_012827831.3	specific	catalytic motif	H150,V151,E152,P179,C180,C183	6	6	238610
+Q#86 - >apobec2_bony_fishes_XM_012827831.3	specific	Zn binding site	H150,E152,C180,C183	4	4	238610
+Q#87 - >apobec2_bony_fishes_XM_042088503.1	specific	active site	K113,F115,L133,D135,H141,V142,E143,C171,C174	9	9	238610
+Q#87 - >apobec2_bony_fishes_XM_042088503.1	specific	catalytic motif	H141,V142,E143,P170,C171,C174	6	6	238610
+Q#87 - >apobec2_bony_fishes_XM_042088503.1	specific	Zn binding site	H141,E143,C171,C174	4	4	238610
+Q#88 - >apobec2_bony_fishes_XM_048255597.1	specific	active site	K113,F115,L133,D135,H141,V142,E143,C171,C174	9	9	238610
+Q#88 - >apobec2_bony_fishes_XM_048255597.1	specific	catalytic motif	H141,V142,E143,P170,C171,C174	6	6	238610
+Q#88 - >apobec2_bony_fishes_XM_048255597.1	specific	Zn binding site	H141,E143,C171,C174	4	4	238610
+Q#89 - >apobec2_lungfishes_XM_044076492.1	specific	active site	K119,F121,V140,D142,H148,A149,E150,C178,C181	9	9	238610
+Q#89 - >apobec2_lungfishes_XM_044076492.1	specific	catalytic motif	H148,A149,E150,P177,C178,C181	6	6	238610
+Q#89 - >apobec2_lungfishes_XM_044076492.1	specific	Zn binding site	H148,E150,C178,C181	4	4	238610
+Q#93 - >apobec2_cartilaginous_fishes_XM_038820724.1	specific	active site	K68,F70,V89,D91,H97,A98,E99,C127,C130	9	9	238610
+Q#93 - >apobec2_cartilaginous_fishes_XM_038820724.1	specific	catalytic motif	H97,A98,E99,P126,C127,C130	6	6	238610
+Q#93 - >apobec2_cartilaginous_fishes_XM_038820724.1	specific	Zn binding site	H97,E99,C127,C130	4	4	238610
+Q#94 - >apobec2_cartilaginous_fishes_XM_041194849.1	specific	active site	K68,F70,V89,D91,H97,A98,E99,C127,C130	9	9	238610
+Q#94 - >apobec2_cartilaginous_fishes_XM_041194849.1	specific	catalytic motif	H97,A98,E99,P126,C127,C130	6	6	238610
+Q#94 - >apobec2_cartilaginous_fishes_XM_041194849.1	specific	Zn binding site	H97,E99,C127,C130	4	4	238610
+Q#95 - >apobec2_cartilaginous_fishes_XM_033042362.1	specific	active site	K61,F63,V82,D84,H90,A91,E92,C120,C123	9	9	238610
+Q#95 - >apobec2_cartilaginous_fishes_XM_033042362.1	specific	catalytic motif	H90,A91,E92,P119,C120,C123	6	6	238610
+Q#95 - >apobec2_cartilaginous_fishes_XM_033042362.1	specific	Zn binding site	H90,E92,C120,C123	4	4	238610
+Q#96 - >apobec2_cartilaginous_fishes_XM_043716962.1	specific	active site	K68,F70,V89,D91,H97,A98,E99,C127,C130	9	9	238610
+Q#96 - >apobec2_cartilaginous_fishes_XM_043716962.1	specific	catalytic motif	H97,A98,E99,P126,C127,C130	6	6	238610
+Q#96 - >apobec2_cartilaginous_fishes_XM_043716962.1	specific	Zn binding site	H97,E99,C127,C130	4	4	238610
+Q#97 - >apobec3h_mammals_NM_181773.5	specific	catalytic motif	H54,A55,E56,P84,C85,C88	6	6	238610
+Q#97 - >apobec3h_mammals_NM_181773.5	specific	Zn binding site	H54,E56,C85,C88	4	4	238610
+Q#98 - >apobec3h_mammals_NM_001142606.1	specific	catalytic motif	H54,A55,E56,P84,C85,C88	6	6	238610
+Q#98 - >apobec3h_mammals_NM_001142606.1	specific	Zn binding site	H54,E56,C85,C88	4	4	238610
+Q#99 - >apobec3h_mammals_XM_003905558.5	specific	active site	K27,L29,L47,N49,H54,A55,E56,C85,C88	9	9	238610
+Q#99 - >apobec3h_mammals_XM_003905558.5	specific	catalytic motif	H54,A55,E56,P84,C85,C88	6	6	238610
+Q#99 - >apobec3h_mammals_XM_003905558.5	specific	Zn binding site	H54,E56,C85,C88	4	4	238610
+Q#100 - >apobec3h_mammals_XM_017859885.1	specific	active site	K46,L48,L66,N68,H73,A74,E75,C104,C107	9	9	238610
+Q#100 - >apobec3h_mammals_XM_017859885.1	specific	catalytic motif	H73,A74,E75,P103,C104,C107	6	6	238610
+Q#100 - >apobec3h_mammals_XM_017859885.1	specific	Zn binding site	H73,E75,C104,C107	4	4	238610
+Q#101 - >apobec3h_mammals_XM_010389264.2	specific	active site	K27,L29,L47,N49,H54,A55,E56,C85,C88	9	9	238610
+Q#101 - >apobec3h_mammals_XM_010389264.2	specific	catalytic motif	H54,A55,E56,P84,C85,C88	6	6	238610
+Q#101 - >apobec3h_mammals_XM_010389264.2	specific	Zn binding site	H54,E56,C85,C88	4	4	238610
+Q#102 - >apobec3h_mammals_XM_005567255.4	specific	active site	K27,L29,L47,N49,H54,A55,E56,C85,C88	9	9	238610
+Q#102 - >apobec3h_mammals_XM_005567255.4	specific	catalytic motif	H54,A55,E56,P84,C85,C88	6	6	238610
+Q#102 - >apobec3h_mammals_XM_005567255.4	specific	Zn binding site	H54,E56,C85,C88	4	4	238610
+Q#103 - >apobec3h_mammals_XM_033233928.1	specific	active site	K46,L48,L66,N68,H73,A74,E75,C104,C107	9	9	238610
+Q#103 - >apobec3h_mammals_XM_033233928.1	specific	catalytic motif	H73,A74,E75,P103,C104,C107	6	6	238610
+Q#103 - >apobec3h_mammals_XM_033233928.1	specific	Zn binding site	H73,E75,C104,C107	4	4	238610
+Q#104 - >apobec3h_mammals_XM_011712320.1	specific	active site	K27,L29,L47,N49,H54,A55,E56,C85,C88	9	9	238610
+Q#104 - >apobec3h_mammals_XM_011712320.1	specific	catalytic motif	H54,A55,E56,P84,C85,C88	6	6	238610
+Q#104 - >apobec3h_mammals_XM_011712320.1	specific	Zn binding site	H54,E56,C85,C88	4	4	238610
+Q#105 - >apobec3h_mammals_XM_038006207.1	specific	active site	K27,L29,L47,N49,H54,A55,E56,C85,C88	9	9	238610
+Q#105 - >apobec3h_mammals_XM_038006207.1	specific	catalytic motif	H54,A55,E56,P84,C85,C88	6	6	238610
+Q#105 - >apobec3h_mammals_XM_038006207.1	specific	Zn binding site	H54,E56,C85,C88	4	4	238610
+Q#106 - >apobec3h_mammals_XM_017544594.2	specific	active site	R30,Y32,F50,N52,H57,A58,E59,C88,C91	9	9	238610
+Q#106 - >apobec3h_mammals_XM_017544594.2	specific	catalytic motif	H57,A58,E59,P87,C88,C91	6	6	238610
+Q#106 - >apobec3h_mammals_XM_017544594.2	specific	Zn binding site	H57,E59,C88,C91	4	4	238610
+Q#107 - >apobec3h_mammals_XM_032267124.1	specific	active site	R29,Y31,F49,N51,H56,A57,E58,C87,C90	9	9	238610
+Q#107 - >apobec3h_mammals_XM_032267124.1	specific	catalytic motif	H56,A57,E58,P86,C87,C90	6	6	238610
+Q#107 - >apobec3h_mammals_XM_032267124.1	specific	Zn binding site	H56,E58,C87,C90	4	4	238610
+Q#108 - >apobec3h_mammals_XM_008584744.1	specific	active site	K92,Y94,F112,N114,H119,A120,E121,C150,C153	9	9	238610
+Q#108 - >apobec3h_mammals_XM_008584744.1	specific	catalytic motif	H119,A120,E121,P149,C150,C153	6	6	238610
+Q#108 - >apobec3h_mammals_XM_008584744.1	specific	Zn binding site	H119,E121,C150,C153	4	4	238610
+Q#109 - >apobec3h_mammals_NM_001242451.1	specific	active site	K57,Y59,F77,N79,H84,A85,E86,C115,C118	9	9	238610
+Q#109 - >apobec3h_mammals_NM_001242451.1	specific	catalytic motif	H84,A85,E86,P114,C115,C118	6	6	238610
+Q#109 - >apobec3h_mammals_NM_001242451.1	specific	Zn binding site	H84,E86,C115,C118	4	4	238610
+Q#110 - >apobec3h_mammals_XM_044779602.1	specific	active site	K57,Y59,F77,N79,H84,A85,E86,C115,C118	9	9	238610
+Q#110 - >apobec3h_mammals_XM_044779602.1	specific	catalytic motif	H84,A85,E86,P114,C115,C118	6	6	238610
+Q#110 - >apobec3h_mammals_XM_044779602.1	specific	Zn binding site	H84,E86,C115,C118	4	4	238610
+Q#111 - >apobec3h_mammals_XM_046646519.1	specific	active site	K57,Y59,F77,N79,H84,A85,E86,C115,C118	9	9	238610
+Q#111 - >apobec3h_mammals_XM_046646519.1	specific	catalytic motif	H84,A85,E86,P114,C115,C118	6	6	238610
+Q#111 - >apobec3h_mammals_XM_046646519.1	specific	Zn binding site	H84,E86,C115,C118	4	4	238610
+Q#112 - >apobec3h_mammals_XM_047786222.1	specific	active site	K27,Y29,F47,N49,H54,A55,E56,C85,C88	9	9	238610
+Q#112 - >apobec3h_mammals_XM_047786222.1	specific	catalytic motif	H54,A55,E56,P84,C85,C88	6	6	238610
+Q#112 - >apobec3h_mammals_XM_047786222.1	specific	Zn binding site	H54,E56,C85,C88	4	4	238610
+Q#113 - >apobec3h_mammals_XM_019660576.1	specific	active site	E27,Y29,F46,N48,H53,A54,E55,C84,C87	9	9	238610
+Q#113 - >apobec3h_mammals_XM_019660576.1	specific	catalytic motif	H53,A54,E55,P83,C84,C87	6	6	238610
+Q#113 - >apobec3h_mammals_XM_019660576.1	specific	Zn binding site	H53,E55,C84,C87	4	4	238610
+Q#114 - >apobec3h_mammals_NM_001346124.1	specific	active site	K52,Y54,F72,N74,H79,A80,E81,C110,C113	9	9	238610
+Q#114 - >apobec3h_mammals_NM_001346124.1	specific	catalytic motif	H79,A80,E81,P109,C110,C113	6	6	238610
+Q#114 - >apobec3h_mammals_NM_001346124.1	specific	Zn binding site	H79,E81,C110,C113	4	4	238610
+Q#115 - >apobec3h_mammals_XM_010612773.3	specific	active site	V26,Y28,L46,T48,H53,A54,E55,C84,C87	9	9	238610
+Q#115 - >apobec3h_mammals_XM_010612773.3	specific	catalytic motif	H53,A54,E55,P83,C84,C87	6	6	238610
+Q#115 - >apobec3h_mammals_XM_010612773.3	specific	Zn binding site	H53,E55,C84,C87	4	4	238610
+Q#116 - >apobec3h_mammals_XM_031017629.1	specific	active site	T27,Y29,C46,Q48,H54,A55,E56,C85,C88	9	9	238610
+Q#116 - >apobec3h_mammals_XM_031017629.1	specific	catalytic motif	H54,A55,E56,P84,C85,C88	6	6	238610
+Q#116 - >apobec3h_mammals_XM_031017629.1	specific	Zn binding site	H54,E56,C85,C88	4	4	238610
+Q#117 - >apobec3a_mammals_NM_001193289.2	specific	active site	K30,Y32,L55,N57,H70,A71,E72,C101,C106	9	9	238610
+Q#117 - >apobec3a_mammals_NM_001193289.2	specific	catalytic motif	H70,A71,E72,P100,C101,C106	6	6	238610
+Q#117 - >apobec3a_mammals_NM_001193289.2	specific	Zn binding site	H70,E72,C101,C106	4	4	238610
+Q#118 - >apobec3a_mammals_NM_001246231.1	specific	active site	Q33,Y35,L58,N60,H73,V74,E75,C104,C109	9	9	238610
+Q#118 - >apobec3a_mammals_NM_001246231.1	specific	catalytic motif	H73,V74,E75,P103,C104,C109	6	6	238610
+Q#118 - >apobec3a_mammals_NM_001246231.1	specific	Zn binding site	H73,E75,C104,C109	4	4	238610
+Q#119 - >apobec3a_mammals_XM_045363609.2	specific	active site	Q33,Y35,L58,N60,H73,A74,E75,C104,C109	9	9	238610
+Q#119 - >apobec3a_mammals_XM_045363609.2	specific	catalytic motif	H73,A74,E75,P103,C104,C109	6	6	238610
+Q#119 - >apobec3a_mammals_XM_045363609.2	specific	Zn binding site	H73,E75,C104,C109	4	4	238610
+Q#120 - >apobec3a_mammals_XM_003905553.4	specific	active site	Q33,Y35,L58,N60,H73,A74,E75,C104,C109	9	9	238610
+Q#120 - >apobec3a_mammals_XM_003905553.4	specific	catalytic motif	H73,A74,E75,P103,C104,C109	6	6	238610
+Q#120 - >apobec3a_mammals_XM_003905553.4	specific	Zn binding site	H73,E75,C104,C109	4	4	238610
+Q#121 - >apobec3a_mammals_XM_017509037.2	specific	active site	Q33,Y35,N61,N65,H74,A75,E76,C105,C108	9	9	238610
+Q#121 - >apobec3a_mammals_XM_017509037.2	specific	catalytic motif	H74,A75,E76,P104,C105,C108	6	6	238610
+Q#121 - >apobec3a_mammals_XM_017509037.2	specific	Zn binding site	H74,E76,C105,C108	4	4	238610
+Q#122 - >apobec3a_mammals_XM_032266681.1	specific	active site	Q33,Y35,N61,N65,H74,A75,E76,C105,C108	9	9	238610
+Q#122 - >apobec3a_mammals_XM_032266681.1	specific	catalytic motif	H74,A75,E76,P104,C105,C108	6	6	238610
+Q#122 - >apobec3a_mammals_XM_032266681.1	specific	Zn binding site	H74,E76,C105,C108	4	4	238610
+Q#123 - >apobec3a_mammals_NM_001301845.1	specific	active site	Q33,Y35,N61,N65,H74,A75,E76,C105,C108	9	9	238610
+Q#123 - >apobec3a_mammals_NM_001301845.1	specific	catalytic motif	H74,A75,E76,P104,C105,C108	6	6	238610
+Q#123 - >apobec3a_mammals_NM_001301845.1	specific	Zn binding site	H74,E76,C105,C108	4	4	238610
+Q#124 - >apobec3a_mammals_XM_045520648.1	generic	active site	H68,V69,E70,P98,C99,C102	6	6	238610
+Q#124 - >apobec3a_mammals_XM_045520648.1	generic	Zn binding site	H68,E70,C99,C102	4	4	238610
+Q#125 - >apobec3a_mammals_XM_024761575.1	generic	active site	H117,A118,E119,P147,C148,C151	6	6	238610
+Q#125 - >apobec3a_mammals_XM_024761575.1	generic	Zn binding site	H117,E119,C148,C151	4	4	238610
+Q#126 - >apobec3a_mammals_XM_033866022.1	specific	active site	K30,Y32,V55,N57,H68,A69,E70,C99,C102	9	9	238610
+Q#126 - >apobec3a_mammals_XM_033866022.1	specific	catalytic motif	H68,A69,E70,P98,C99,C102	6	6	238610
+Q#126 - >apobec3a_mammals_XM_033866022.1	specific	Zn binding site	H68,E70,C99,C102	4	4	238610
+Q#127 - >apobec3a_mammals_XM_045165241.1	specific	active site	K18,Y20,V43,N45,H56,A57,E58,C87,C90	9	9	238610
+Q#127 - >apobec3a_mammals_XM_045165241.1	specific	catalytic motif	H56,A57,E58,P86,C87,C90	6	6	238610
+Q#127 - >apobec3a_mammals_XM_045165241.1	specific	Zn binding site	H56,E58,C87,C90	4	4	238610
+Q#128 - >apobec3a_mammals_XM_036455789.2	specific	catalytic motif	H68,A69,E70,P98,C99,C102	6	6	238610
+Q#128 - >apobec3a_mammals_XM_036455789.2	specific	Zn binding site	H68,E70,C99,C102	4	4	238610
+Q#131 - >apobec3a_mammals_XM_036252695.1	specific	active site	Q29,Y31,L54,N56,H66,A67,E68,C96,C99	9	9	238610
+Q#131 - >apobec3a_mammals_XM_036252695.1	specific	catalytic motif	H66,A67,E68,P95,C96,C99	6	6	238610
+Q#131 - >apobec3a_mammals_XM_036252695.1	specific	Zn binding site	H66,E68,C96,C99	4	4	238610
+Q#132 - >apobec3a_mammals_XM_039225711.1	specific	active site	K45,Y47,L70,N72,H84,S85,E86,C115,C118	9	9	238610
+Q#132 - >apobec3a_mammals_XM_039225711.1	specific	catalytic motif	H84,S85,E86,P114,C115,C118	6	6	238610
+Q#132 - >apobec3a_mammals_XM_039225711.1	specific	Zn binding site	H84,E86,C115,C118	4	4	238610
+Q#163 - >validated_A1_Birds_Acanthisitta_chloris	generic	active site	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#163 - >validated_A1_Birds_Acanthisitta_chloris	generic	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#164 - >validated_A1_Birds_Alectura_lathami	generic	active site	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#164 - >validated_A1_Birds_Alectura_lathami	generic	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#165 - >validated_A1_Birds_Anas_platyrhynchos	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#165 - >validated_A1_Birds_Anas_platyrhynchos	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#166 - >validated_A1_Birds_Anser_cygnoides	specific	active site	P35,V37,C56,N58,H63,A64,E65,C92,C95	9	9	238610
+Q#166 - >validated_A1_Birds_Anser_cygnoides	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#166 - >validated_A1_Birds_Anser_cygnoides	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#167 - >validated_A1_Birds_Apaloderma_vittatum	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#167 - >validated_A1_Birds_Apaloderma_vittatum	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#168 - >validated_A1_Birds_Aptenodytes_forsteri	specific	active site	P35,V37,C56,N58,H63,A64,E65,C92,C95	9	9	238610
+Q#168 - >validated_A1_Birds_Aptenodytes_forsteri	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#168 - >validated_A1_Birds_Aptenodytes_forsteri	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#169 - >validated_A1_Birds_Aquila_chrysaetos_chrysaetos	specific	active site	P35,V37,C56,N58,H63,A64,E65,C92,C95	9	9	238610
+Q#169 - >validated_A1_Birds_Aquila_chrysaetos_chrysaetos	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#169 - >validated_A1_Birds_Aquila_chrysaetos_chrysaetos	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#170 - >validated_A1_Birds_Atlantisia_rogersi	specific	active site	V37,Y39,C56,N58,H63,A64,E65,C92,C95	9	9	238610
+Q#170 - >validated_A1_Birds_Atlantisia_rogersi	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#170 - >validated_A1_Birds_Atlantisia_rogersi	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#171 - >validated_A1_Birds_Aythya_fuligula	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#171 - >validated_A1_Birds_Aythya_fuligula	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#172 - >validated_A1_Birds_Buceros_rhinoceros	specific	active site	V79,Y81,C98,N100,H105,A106,E107,C134,C137	9	9	238610
+Q#172 - >validated_A1_Birds_Buceros_rhinoceros	specific	catalytic motif	H105,A106,E107,P133,C134,C137	6	6	238610
+Q#172 - >validated_A1_Birds_Buceros_rhinoceros	specific	Zn binding site	H105,E107,C134,C137	4	4	238610
+Q#173 - >validated_A1_Birds_Calidris_pugnax	generic	active site	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#173 - >validated_A1_Birds_Calidris_pugnax	generic	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#174 - >validated_A1_Birds_Calypte_anna	specific	active site	V37,Y39,S57,E59,H63,A64,E65,C92,C95	9	9	238610
+Q#174 - >validated_A1_Birds_Calypte_anna	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#174 - >validated_A1_Birds_Calypte_anna	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#175 - >validated_A1_Birds_Caprimulgus_europaeus	specific	active site	T37,Y39,C56,N58,H63,A64,E65,C92,C95	9	9	238610
+Q#175 - >validated_A1_Birds_Caprimulgus_europaeus	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#175 - >validated_A1_Birds_Caprimulgus_europaeus	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#176 - >validated_A1_Birds_Cariama_cristata	specific	active site	V37,Y39,C56,N58,H63,A64,E65,C92,C95	9	9	238610
+Q#176 - >validated_A1_Birds_Cariama_cristata	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#176 - >validated_A1_Birds_Cariama_cristata	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#177 - >validated_A1_Birds_Chaetura_pelagica	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#177 - >validated_A1_Birds_Chaetura_pelagica	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#178 - >validated_A1_Birds_Charadrius_vociferus	specific	active site	V37,Y39,C56,N58,H63,A64,E65,C92,C95	9	9	238610
+Q#178 - >validated_A1_Birds_Charadrius_vociferus	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#178 - >validated_A1_Birds_Charadrius_vociferus	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#179 - >validated_A1_Birds_Colius_striatus	specific	active site	P35,V37,C56,H63,A64,E65,C92,C95	9	8	238610
+Q#179 - >validated_A1_Birds_Colius_striatus	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#179 - >validated_A1_Birds_Colius_striatus	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#180 - >validated_A1_Birds_Columba_livia	generic	active site	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#180 - >validated_A1_Birds_Columba_livia	generic	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#181 - >validated_A1_Birds_Corvus_moneduloides	specific	active site	H34,R36,C56,H63,A64,E65,C92,C95	9	8	238610
+Q#181 - >validated_A1_Birds_Corvus_moneduloides	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#181 - >validated_A1_Birds_Corvus_moneduloides	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#182 - >validated_A1_Birds_Corythaeola_cristata	specific	active site	V37,Y39,C56,N58,H63,A64,E65,C92,C95	9	9	238610
+Q#182 - >validated_A1_Birds_Corythaeola_cristata	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#182 - >validated_A1_Birds_Corythaeola_cristata	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#183 - >validated_A1_Birds_Egretta_garzetta	specific	active site	P35,V37,C56,N58,H63,A64,E65,C92,C95	9	9	238610
+Q#183 - >validated_A1_Birds_Egretta_garzetta	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#183 - >validated_A1_Birds_Egretta_garzetta	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#184 - >validated_A1_Birds_Erythrura_gouldiae	specific	active site	V37,Y39,C56,N58,H63,A64,E65,C92,C95	9	9	238610
+Q#184 - >validated_A1_Birds_Erythrura_gouldiae	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#184 - >validated_A1_Birds_Erythrura_gouldiae	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#185 - >validated_A1_Birds_Eurypyga_helias	specific	active site	V37,Y39,C56,H63,A64,E65,C92,C95	9	8	238610
+Q#185 - >validated_A1_Birds_Eurypyga_helias	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#185 - >validated_A1_Birds_Eurypyga_helias	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#186 - >validated_A1_Birds_Falco_cherrug	generic	active site	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#186 - >validated_A1_Birds_Falco_cherrug	generic	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#187 - >validated_A1_Birds_Ficedula_albicollis	specific	active site	V37,Y39,C56,N58,H63,A64,E65,C92,C95	9	9	238610
+Q#187 - >validated_A1_Birds_Ficedula_albicollis	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#187 - >validated_A1_Birds_Ficedula_albicollis	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#188 - >validated_A1_Birds_Fulmarus_glacialis	specific	active site	V37,Y39,C56,N58,H63,A64,E65,C92,C95	9	9	238610
+Q#188 - >validated_A1_Birds_Fulmarus_glacialis	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#188 - >validated_A1_Birds_Fulmarus_glacialis	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#189 - >validated_A1_Birds_Galbula_dea	generic	active site	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#189 - >validated_A1_Birds_Galbula_dea	generic	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#190 - >validated_A1_Birds_Gavia_stellata	specific	active site	V37,Y39,C56,N58,H63,A64,E65,C92,C95	9	9	238610
+Q#190 - >validated_A1_Birds_Gavia_stellata	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#190 - >validated_A1_Birds_Gavia_stellata	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#191 - >validated_A1_Birds_Limosa_lapponica	specific	active site	V37,Y39,C56,N58,H63,A64,E65,C92,C95	9	9	238610
+Q#191 - >validated_A1_Birds_Limosa_lapponica	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#191 - >validated_A1_Birds_Limosa_lapponica	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#192 - >validated_A1_Birds_Lonchura_striata_domestica	specific	active site	V37,Y39,C56,N58,H63,A64,E65,C92,C95	9	9	238610
+Q#192 - >validated_A1_Birds_Lonchura_striata_domestica	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#192 - >validated_A1_Birds_Lonchura_striata_domestica	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#193 - >validated_A1_Birds_Malurus_cyaneus_samueli	specific	catalytic motif	H64,A65,E66,P92,C93,C96	6	6	238610
+Q#193 - >validated_A1_Birds_Malurus_cyaneus_samueli	specific	Zn binding site	H64,E66,C93,C96	4	4	238610
+Q#194 - >validated_A1_Birds_Manacus_vitellinus	specific	active site	V37,Y39,F56,N58,H63,A64,E65,C92,C95	9	9	238610
+Q#194 - >validated_A1_Birds_Manacus_vitellinus	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#194 - >validated_A1_Birds_Manacus_vitellinus	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#195 - >validated_A1_Birds_Melopsittacus_undulatus	specific	active site	P35,A37,C56,H63,A64,E65,C92,C95	9	8	238610
+Q#195 - >validated_A1_Birds_Melopsittacus_undulatus	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#195 - >validated_A1_Birds_Melopsittacus_undulatus	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#197 - >validated_A1_Birds_Mesitornis_unicolor	generic	active site	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#197 - >validated_A1_Birds_Mesitornis_unicolor	generic	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#198 - >validated_A1_Birds_Nestor_notabilis	specific	active site	P35,V37,C56,N58,H63,A64,E65,C92,C95	9	9	238610
+Q#198 - >validated_A1_Birds_Nestor_notabilis	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#198 - >validated_A1_Birds_Nestor_notabilis	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#199 - >validated_A1_Birds_Opisthocomus_hoazin	specific	active site	P35,V37,C56,N58,H63,A64,E65,C92,C95	9	9	238610
+Q#199 - >validated_A1_Birds_Opisthocomus_hoazin	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#199 - >validated_A1_Birds_Opisthocomus_hoazin	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#200 - >validated_A1_Birds_Passer_domesticus	specific	active site	G35,M37,C56,N58,H63,A64,E65,C92,C95	9	9	238610
+Q#200 - >validated_A1_Birds_Passer_domesticus	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#200 - >validated_A1_Birds_Passer_domesticus	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#201 - >validated_A1_Birds_Pelecanus_crispus	specific	active site	P31,V33,C52,N54,H59,A60,E61,C88,C91	9	9	238610
+Q#201 - >validated_A1_Birds_Pelecanus_crispus	specific	catalytic motif	H59,A60,E61,P87,C88,C91	6	6	238610
+Q#201 - >validated_A1_Birds_Pelecanus_crispus	specific	Zn binding site	H59,E61,C88,C91	4	4	238610
+Q#202 - >validated_A1_Birds_Phaethon_lepturus	specific	active site	P35,V37,C56,N58,H63,A64,E65,C92,C95	9	9	238610
+Q#202 - >validated_A1_Birds_Phaethon_lepturus	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#202 - >validated_A1_Birds_Phaethon_lepturus	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#203 - >validated_A1_Birds_Phoenicopterus_ruber	specific	active site	V37,Y39,C56,N58,H63,A64,E65,C92,C95	9	9	238610
+Q#203 - >validated_A1_Birds_Phoenicopterus_ruber	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#203 - >validated_A1_Birds_Phoenicopterus_ruber	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#204 - >validated_A1_Birds_Podilymbus_podiceps	specific	active site	V37,Y39,C56,H63,A64,E65,C92,C95	9	8	238610
+Q#204 - >validated_A1_Birds_Podilymbus_podiceps	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#204 - >validated_A1_Birds_Podilymbus_podiceps	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#205 - >validated_A1_Birds_Rhynochetos_jubatus	generic	active site	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#205 - >validated_A1_Birds_Rhynochetos_jubatus	generic	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#206 - >validated_A1_Birds_Serinus_canaria	specific	active site	V37,Y39,C56,N58,H63,A64,E65,C92,C95	9	9	238610
+Q#206 - >validated_A1_Birds_Serinus_canaria	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#206 - >validated_A1_Birds_Serinus_canaria	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#207 - >validated_A1_Birds_Stachyris_ruficeps	specific	active site	V37,Y39,C56,N58,H63,A64,E65,C92,C95	9	9	238610
+Q#207 - >validated_A1_Birds_Stachyris_ruficeps	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#207 - >validated_A1_Birds_Stachyris_ruficeps	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#208 - >validated_A1_Birds_Taeniopygia_guttata	specific	active site	V37,Y39,C56,N58,H63,A64,E65,C92,C95	9	9	238610
+Q#208 - >validated_A1_Birds_Taeniopygia_guttata	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#208 - >validated_A1_Birds_Taeniopygia_guttata	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#209 - >validated_A1_Birds_Tauraco_erythrolophus	specific	active site	V37,Y39,C56,N58,H63,A64,E65,C92,C95	9	9	238610
+Q#209 - >validated_A1_Birds_Tauraco_erythrolophus	specific	catalytic motif	H63,A64,E65,P91,C92,C95	6	6	238610
+Q#209 - >validated_A1_Birds_Tauraco_erythrolophus	specific	Zn binding site	H63,E65,C92,C95	4	4	238610
+Q#210 - >validated_A1_Birds_Zonotrichia_albicollis	specific	active site	G35,V37,C55,N57,H62,A63,E64,C91,C94	9	9	238610
+Q#210 - >validated_A1_Birds_Zonotrichia_albicollis	specific	catalytic motif	H62,A63,E64,P90,C91,C94	6	6	238610
+Q#210 - >validated_A1_Birds_Zonotrichia_albicollis	specific	Zn binding site	H62,E64,C91,C94	4	4	238610
+Q#211 - >ncbi_A1_mammals_NM_001304566.1	specific	catalytic motif	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#211 - >ncbi_A1_mammals_NM_001304566.1	specific	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#212 - >ncbi_A1_mammals_XM_017891879.1	specific	catalytic motif	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#212 - >ncbi_A1_mammals_XM_017891879.1	specific	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#213 - >ncbi_A1_mammals_XM_033222940.1	specific	catalytic motif	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#213 - >ncbi_A1_mammals_XM_033222940.1	specific	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#214 - >ncbi_A1_mammals_XM_017679611.2	specific	catalytic motif	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#214 - >ncbi_A1_mammals_XM_017679611.2	specific	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#215 - >ncbi_A1_mammals_XM_014850999.2	specific	active site	E35,C37,N49,W51,H61,V62,E63,C93,C96	9	9	238610
+Q#215 - >ncbi_A1_mammals_XM_014850999.2	specific	catalytic motif	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#215 - >ncbi_A1_mammals_XM_014850999.2	specific	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#216 - >ncbi_A1_mammals_XM_027594959.2	specific	catalytic motif	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#216 - >ncbi_A1_mammals_XM_027594959.2	specific	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#217 - >ncbi_A1_mammals_XM_039874331.1	specific	catalytic motif	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#217 - >ncbi_A1_mammals_XM_039874331.1	specific	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#218 - >ncbi_A1_mammals_XM_036866675.1	generic	active site	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#218 - >ncbi_A1_mammals_XM_036866675.1	generic	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#219 - >ncbi_A1_mammals_XM_045464739.1	specific	catalytic motif	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#219 - >ncbi_A1_mammals_XM_045464739.1	specific	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#220 - >ncbi_A1_mammals_XM_025995608.1	specific	catalytic motif	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#220 - >ncbi_A1_mammals_XM_025995608.1	specific	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#221 - >ncbi_A1_mammals_XM_033117874.1	specific	catalytic motif	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#221 - >ncbi_A1_mammals_XM_033117874.1	specific	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#222 - >ncbi_A1_mammals_XM_038439081.1	specific	catalytic motif	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#222 - >ncbi_A1_mammals_XM_038439081.1	specific	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#223 - >ncbi_A1_mammals_XM_024733279.1	generic	active site	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#223 - >ncbi_A1_mammals_XM_024733279.1	generic	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#224 - >ncbi_A1_mammals_XM_046013806.1	generic	active site	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#224 - >ncbi_A1_mammals_XM_046013806.1	generic	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#225 - >ncbi_A1_mammals_XM_010946370.2	specific	catalytic motif	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#225 - >ncbi_A1_mammals_XM_010946370.2	specific	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#226 - >ncbi_A1_mammals_XM_032473167.1	specific	catalytic motif	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#226 - >ncbi_A1_mammals_XM_032473167.1	specific	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#228 - >ncbi_A1_mammals_NM_001310163.1	generic	active site	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#228 - >ncbi_A1_mammals_NM_001310163.1	generic	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#229 - >ncbi_A1_mammals_XM_044226824.1	generic	active site	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#229 - >ncbi_A1_mammals_XM_044226824.1	generic	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#230 - >ncbi_A1_mammals_XM_047743589.1	generic	active site	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#230 - >ncbi_A1_mammals_XM_047743589.1	generic	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#231 - >ncbi_A1_mammals_XM_022577513.2	generic	active site	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#231 - >ncbi_A1_mammals_XM_022577513.2	generic	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#232 - >ncbi_A1_mammals_XM_005875978.1	specific	catalytic motif	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#232 - >ncbi_A1_mammals_XM_005875978.1	specific	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#233 - >ncbi_A1_mammals_XM_004313327.3	specific	catalytic motif	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#233 - >ncbi_A1_mammals_XM_004313327.3	specific	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#235 - >ncbi_A1_mammals_XM_027093053.1	generic	active site	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#235 - >ncbi_A1_mammals_XM_027093053.1	generic	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#236 - >ncbi_A1_mammals_NM_001082341.1	specific	catalytic motif	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#236 - >ncbi_A1_mammals_NM_001082341.1	specific	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#237 - >ncbi_A1_mammals_XM_018048507.1	specific	catalytic motif	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#237 - >ncbi_A1_mammals_XM_018048507.1	specific	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#238 - >ncbi_A1_mammals_XM_012175461.5	specific	catalytic motif	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#238 - >ncbi_A1_mammals_XM_012175461.5	specific	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#239 - >ncbi_A1_mammals_XM_003126519.4	specific	active site	E35,C37,N57,H61,V62,E63,C93,C96	9	8	238610
+Q#239 - >ncbi_A1_mammals_XM_003126519.4	specific	catalytic motif	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#239 - >ncbi_A1_mammals_XM_003126519.4	specific	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#240 - >ncbi_A1_mammals_XM_006069764.4	specific	catalytic motif	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#240 - >ncbi_A1_mammals_XM_006069764.4	specific	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#241 - >ncbi_A1_mammals_XM_002687817.4	specific	catalytic motif	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#241 - >ncbi_A1_mammals_XM_002687817.4	specific	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#242 - >ncbi_A1_mammals_XM_047788574.1	specific	active site	E35,C37,N57,H61,V62,E63,C93,C96	9	8	238610
+Q#242 - >ncbi_A1_mammals_XM_047788574.1	specific	catalytic motif	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#242 - >ncbi_A1_mammals_XM_047788574.1	specific	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#243 - >ncbi_A1_mammals_XM_040235091.1	specific	catalytic motif	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#243 - >ncbi_A1_mammals_XM_040235091.1	specific	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#244 - >ncbi_A1_mammals_NM_001134391.2	specific	catalytic motif	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#244 - >ncbi_A1_mammals_NM_001134391.2	specific	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#245 - >ncbi_A1_mammals_NM_012907.2	specific	catalytic motif	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#245 - >ncbi_A1_mammals_NM_012907.2	specific	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#246 - >ncbi_A1_mammals_NM_001281656.1	specific	active site	E35,C37,N57,H61,V62,E63,C93,C96	9	8	238610
+Q#246 - >ncbi_A1_mammals_NM_001281656.1	specific	catalytic motif	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#246 - >ncbi_A1_mammals_NM_001281656.1	specific	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#247 - >ncbi_A1_mammals_XM_048444296.1	specific	catalytic motif	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#247 - >ncbi_A1_mammals_XM_048444296.1	specific	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#248 - >ensembl_A1_paralog_Testudines_ENSCPBG00000014331	specific	active site	V46,Y48,C66,N68,H73,A74,E75,C105,C108	9	9	238610
+Q#248 - >ensembl_A1_paralog_Testudines_ENSCPBG00000014331	specific	catalytic motif	H73,A74,E75,P104,C105,C108	6	6	238610
+Q#248 - >ensembl_A1_paralog_Testudines_ENSCPBG00000014331	specific	Zn binding site	H73,E75,C105,C108	4	4	238610
+Q#249 - >ensembl_A1_paralog_Sphenodontia_ENSSPUG00000009044	generic	active site	H67,A68,E69,P98,Y99,C102	6	6	238610
+Q#249 - >ensembl_A1_paralog_Sphenodontia_ENSSPUG00000009044	generic	Zn binding site	H67,E69,Y99,C102	4	4	238610
+Q#250 - >ensembl_A1_like_Birds_ENSSHBG00005018954	generic	active site	H54,A55,E56,P85,C86,C89	6	6	238610
+Q#250 - >ensembl_A1_like_Birds_ENSSHBG00005018954	generic	Zn binding site	H54,E56,C86,C89	4	4	238610
+Q#251 - >ensembl_A1_Birds_ENSGFOG00000010983	specific	catalytic motif	H58,A59,E60,P86,C87,C90	6	6	238610
+Q#251 - >ensembl_A1_Birds_ENSGFOG00000010983	specific	Zn binding site	H58,E60,C87,C90	4	4	238610
+Q#253 - >ensembl_A1_Birds_ENSPMJG00000003541	specific	active site	G52,Y56,C73,N75,H80,A81,E82,C109,C112	9	9	238610
+Q#253 - >ensembl_A1_Birds_ENSPMJG00000003541	specific	catalytic motif	H80,A81,E82,P108,C109,C112	6	6	238610
+Q#253 - >ensembl_A1_Birds_ENSPMJG00000003541	specific	Zn binding site	H80,E82,C109,C112	4	4	238610
+Q#254 - >ensembl_A1_Birds_ENSTGUG00000013118	specific	active site	V51,Y53,C70,N72,H77,A78,E79,C106,C109	9	9	238610
+Q#254 - >ensembl_A1_Birds_ENSTGUG00000013118	specific	catalytic motif	H77,A78,E79,P105,C106,C109	6	6	238610
+Q#254 - >ensembl_A1_Birds_ENSTGUG00000013118	specific	Zn binding site	H77,E79,C106,C109	4	4	238610
+Q#255 - >ensembl_A1_Birds_ENSSHBG00005018953	specific	catalytic motif	H27,A28,E29,P55,C56,C59	6	6	238610
+Q#255 - >ensembl_A1_Birds_ENSSHBG00005018953	specific	Zn binding site	H27,E29,C56,C59	4	4	238610
+Q#256 - >ensembl_A1_paralog_Squamata_ENSPMRG00000022315	specific	catalytic motif	H40,A41,E42,P71,C72,C75	6	6	238610
+Q#256 - >ensembl_A1_paralog_Squamata_ENSPMRG00000022315	specific	Zn binding site	H40,E42,C72,C75	4	4	238610
+Q#258 - >ensembl_A1_paralog_Testudines_ENSCPBG00000014328	generic	active site	H64,A65,E66,P95,C96,C99	6	6	238610
+Q#258 - >ensembl_A1_paralog_Testudines_ENSCPBG00000014328	generic	Zn binding site	H64,E66,C96,C99	4	4	238610
+Q#259 - >ensembl_A1_paralog_Testudines_ENSCPBG00000014327	generic	active site	H102,A103,E104,P133,C134,C137	6	6	238610
+Q#259 - >ensembl_A1_paralog_Testudines_ENSCPBG00000014327	generic	Zn binding site	H102,E104,C134,C137	4	4	238610
+Q#260 - >ensembl_A1_paralog_Squamata_ENSSMRG00000004573	specific	catalytic motif	H44,A45,E46,P75,C76,C79	6	6	238610
+Q#260 - >ensembl_A1_paralog_Squamata_ENSSMRG00000004573	specific	Zn binding site	H44,E46,C76,C79	4	4	238610
+Q#261 - >ensembl_A1_Birds_ENSFALG00000023456	specific	active site	V18,Y20,C37,N39,H44,A45,E46,C73,C76	9	9	238610
+Q#261 - >ensembl_A1_Birds_ENSFALG00000023456	specific	catalytic motif	H44,A45,E46,P72,C73,C76	6	6	238610
+Q#261 - >ensembl_A1_Birds_ENSFALG00000023456	specific	Zn binding site	H44,E46,C73,C76	4	4	238610
+Q#262 - >ensembl_A1_like_Birds_ENSACCG00020016907	generic	active site	H54,A55,E56,P85,C86,C89	6	6	238610
+Q#262 - >ensembl_A1_like_Birds_ENSACCG00020016907	generic	Zn binding site	H54,E56,C86,C89	4	4	238610
+Q#263 - >ensembl_A1_paralog_Squamata_ENSACAG00000035333	generic	active site	H43,A44,E45,P74,C75,C78	6	6	238610
+Q#263 - >ensembl_A1_paralog_Squamata_ENSACAG00000035333	generic	Zn binding site	H43,E45,C75,C78	4	4	238610
+Q#265 - >ensembl_A1_paralog_Crocodylia_ENSCPRG00005000694	specific	catalytic motif	H62,A63,E64,P93,C94,C97	6	6	238610
+Q#265 - >ensembl_A1_paralog_Crocodylia_ENSCPRG00005000694	specific	Zn binding site	H62,E64,C94,C97	4	4	238610
+Q#266 - >ensembl_A1_paralog_Testudines_ENSCPBG00000014335	specific	catalytic motif	H64,A65,E66,P95,C96,C99	6	6	238610
+Q#266 - >ensembl_A1_paralog_Testudines_ENSCPBG00000014335	specific	Zn binding site	H64,E66,C96,C99	4	4	238610
+Q#268 - >orthodb_A1_paralog_Crocodylia_Alligator_sinensis_102381995	specific	catalytic motif	H62,A63,E64,P93,C94,C97	6	6	238610
+Q#268 - >orthodb_A1_paralog_Crocodylia_Alligator_sinensis_102381995	specific	Zn binding site	H62,E64,C94,C97	4	4	238610
+Q#269 - >orthodb_A1_paralog_Crocodylia_Alligator_mississippiensis_109281895	generic	active site	H62,A63,E64,P93,C94,C97	6	6	238610
+Q#269 - >orthodb_A1_paralog_Crocodylia_Alligator_mississippiensis_109281895	generic	Zn binding site	H62,E64,C94,C97	4	4	238610
+Q#270 - >orthodb_A1_paralog_Crocodylia_Gavialis_gangeticus_109296553	specific	active site	V35,H37,N53,H62,A63,E64,C94,C97	9	8	238610
+Q#270 - >orthodb_A1_paralog_Crocodylia_Gavialis_gangeticus_109296553	specific	catalytic motif	H62,A63,E64,P93,C94,C97	6	6	238610
+Q#270 - >orthodb_A1_paralog_Crocodylia_Gavialis_gangeticus_109296553	specific	Zn binding site	H62,E64,C94,C97	4	4	238610
+Q#271 - >orthodb_A1_paralog_Testudines_Chelonoidis_abingdonii_116823837	specific	catalytic motif	H65,A66,E67,P96,C97,C100	6	6	238610
+Q#271 - >orthodb_A1_paralog_Testudines_Chelonoidis_abingdonii_116823837	specific	Zn binding site	H65,E67,C97,C100	4	4	238610
+Q#272 - >orthodb_A1_paralog_Testudines_Gopherus_evgoodei_115646765	specific	active site	Y48,C66,N68,H73,A74,E75,C105,C108	9	8	238610
+Q#272 - >orthodb_A1_paralog_Testudines_Gopherus_evgoodei_115646765	specific	catalytic motif	H73,A74,E75,P104,C105,C108	6	6	238610
+Q#272 - >orthodb_A1_paralog_Testudines_Gopherus_evgoodei_115646765	specific	Zn binding site	H73,E75,C105,C108	4	4	238610
+Q#273 - >orthodb_A1_paralog_Testudines_Gopherus_evgoodei_115646762	specific	active site	V38,Y40,C58,N60,H65,A66,E67,C97,C100	9	9	238610
+Q#273 - >orthodb_A1_paralog_Testudines_Gopherus_evgoodei_115646762	specific	catalytic motif	H65,A66,E67,P96,C97,C100	6	6	238610
+Q#273 - >orthodb_A1_paralog_Testudines_Gopherus_evgoodei_115646762	specific	Zn binding site	H65,E67,C97,C100	4	4	238610
+Q#274 - >orthodb_A1_paralog_Testudines_Mauremys_reevesii_120397411	specific	catalytic motif	H65,A66,E67,P96,C97,C100	6	6	238610
+Q#274 - >orthodb_A1_paralog_Testudines_Mauremys_reevesii_120397411	specific	Zn binding site	H65,E67,C97,C100	4	4	238610
+Q#275 - >orthodb_A1_paralog_Testudines_Mauremys_reevesii_120372170	specific	active site	V37,Y39,C57,N59,H64,A65,E66,C96,C99	9	9	238610
+Q#275 - >orthodb_A1_paralog_Testudines_Mauremys_reevesii_120372170	specific	catalytic motif	H64,A65,E66,P95,C96,C99	6	6	238610
+Q#275 - >orthodb_A1_paralog_Testudines_Mauremys_reevesii_120372170	specific	Zn binding site	H64,E66,C96,C99	4	4	238610
+Q#276 - >orthodb_A1_paralog_Testudines_Gopherus_flavomarginatus_127046955	specific	catalytic motif	H65,A66,E67,P96,C97,C100	6	6	238610
+Q#276 - >orthodb_A1_paralog_Testudines_Gopherus_flavomarginatus_127046955	specific	Zn binding site	H65,E67,C97,C100	4	4	238610
+Q#277 - >orthodb_A1_paralog_Testudines_Malaclemys_terrapin_pileata_128843321	specific	catalytic motif	H65,A66,E67,P96,C97,C100	6	6	238610
+Q#277 - >orthodb_A1_paralog_Testudines_Malaclemys_terrapin_pileata_128843321	specific	Zn binding site	H65,E67,C97,C100	4	4	238610
+Q#278 - >orthodb_A1_paralog_Testudines_Trachemys_scripta_elegans_117884837	specific	catalytic motif	H65,A66,E67,P96,C97,C100	6	6	238610
+Q#278 - >orthodb_A1_paralog_Testudines_Trachemys_scripta_elegans_117884837	specific	Zn binding site	H65,E67,C97,C100	4	4	238610
+Q#279 - >orthodb_A1_paralog_Testudines_Trachemys_scripta_elegans_117884817	specific	active site	V37,Y39,C57,N59,H64,A65,E66,C96,C99	9	9	238610
+Q#279 - >orthodb_A1_paralog_Testudines_Trachemys_scripta_elegans_117884817	specific	catalytic motif	H64,A65,E66,P95,C96,C99	6	6	238610
+Q#279 - >orthodb_A1_paralog_Testudines_Trachemys_scripta_elegans_117884817	specific	Zn binding site	H64,E66,C96,C99	4	4	238610
+Q#280 - >orthodb_A1_paralog_Testudines_Caretta_caretta_125623396	generic	active site	H64,T65,E66,P95,C96,C99	6	6	238610
+Q#280 - >orthodb_A1_paralog_Testudines_Caretta_caretta_125623396	generic	Zn binding site	H64,E66,C96,C99	4	4	238610
+Q#281 - >orthodb_A1_paralog_Testudines_Chelonia_mydas_102933773	specific	catalytic motif	H65,A66,E67,P96,C97,C100	6	6	238610
+Q#281 - >orthodb_A1_paralog_Testudines_Chelonia_mydas_102933773	specific	Zn binding site	H65,E67,C97,C100	4	4	238610
+Q#282 - >orthodb_A1_paralog_Testudines_Chelonia_mydas_102943254	specific	active site	V37,Y39,C57,N59,H64,A65,E66,C96,C99	9	9	238610
+Q#282 - >orthodb_A1_paralog_Testudines_Chelonia_mydas_102943254	specific	catalytic motif	H64,A65,E66,P95,C96,C99	6	6	238610
+Q#282 - >orthodb_A1_paralog_Testudines_Chelonia_mydas_102943254	specific	Zn binding site	H64,E66,C96,C99	4	4	238610
+Q#283 - >orthodb_A1_paralog_Testudines_Chelonia_mydas_114018437	specific	active site	V37,Y39,C57,N59,H64,T65,E66,C96,C99	9	9	238610
+Q#283 - >orthodb_A1_paralog_Testudines_Chelonia_mydas_114018437	specific	catalytic motif	H64,T65,E66,P95,C96,C99	6	6	238610
+Q#283 - >orthodb_A1_paralog_Testudines_Chelonia_mydas_114018437	specific	Zn binding site	H64,E66,C96,C99	4	4	238610
+Q#284 - >orthodb_A1_paralog_Squamata_Python_bivittatus_103048122	generic	active site	H53,A54,E55,P83,C84,C87	6	6	238610
+Q#284 - >orthodb_A1_paralog_Squamata_Python_bivittatus_103048122	generic	Zn binding site	H53,E55,C84,C87	4	4	238610
+Q#286 - >orthodb_A1_paralog_Squamata_Anolis_carolinensis_100534649	generic	active site	H60,A61,E62,P91,C92,C95	6	6	238610
+Q#286 - >orthodb_A1_paralog_Squamata_Anolis_carolinensis_100534649	generic	Zn binding site	H60,E62,C92,C95	4	4	238610
+Q#287 - >orthodb_A1_paralog_Squamata_Eublepharis_macularius_129336583	specific	catalytic motif	H66,A67,E68,P97,C98,C101	6	6	238610
+Q#287 - >orthodb_A1_paralog_Squamata_Eublepharis_macularius_129336583	specific	Zn binding site	H66,E68,C98,C101	4	4	238610
+Q#288 - >orthodb_A1_paralog_Squamata_Podarcis_muralis_114588080	specific	catalytic motif	H95,A96,E97,P126,C127,C130	6	6	238610
+Q#288 - >orthodb_A1_paralog_Squamata_Podarcis_muralis_114588080	specific	Zn binding site	H95,E97,C127,C130	4	4	238610
+Q#289 - >orthodb_A1_paralog_Squamata_Podarcis_muralis_114588078	specific	catalytic motif	H66,A67,E68,P97,C98,C101	6	6	238610
+Q#289 - >orthodb_A1_paralog_Squamata_Podarcis_muralis_114588078	specific	Zn binding site	H66,E68,C98,C101	4	4	238610
+Q#290 - >orthodb_A1_paralog_Squamata_Sceloporus_undulatus_121920910	specific	catalytic motif	H66,A67,E68,P96,C97,C100	6	6	238610
+Q#290 - >orthodb_A1_paralog_Squamata_Sceloporus_undulatus_121920910	specific	Zn binding site	H66,E68,C97,C100	4	4	238610
+Q#291 - >orthodb_A1_paralog_Squamata_Sceloporus_undulatus_121922921	generic	active site	H62,A63,E64,P91,C92,C95	6	6	238610
+Q#291 - >orthodb_A1_paralog_Squamata_Sceloporus_undulatus_121922921	generic	Zn binding site	H62,E64,C92,C95	4	4	238610
+Q#292 - >orthodb_A1_paralog_Squamata_Zootoca_vivipara_118097952	specific	catalytic motif	H66,A67,E68,P97,C98,C101	6	6	238610
+Q#292 - >orthodb_A1_paralog_Squamata_Zootoca_vivipara_118097952	specific	Zn binding site	H66,E68,C98,C101	4	4	238610
+Q#294 - >ncbi_A1_like_Birds_XM_009937873.1	generic	active site	H56,A57,E58,P87,C88,C91	6	6	238610
+Q#294 - >ncbi_A1_like_Birds_XM_009937873.1	generic	Zn binding site	H56,E58,C88,C91	4	4	238610
+Q#298 - >ncbi_A1_like_Birds_XM_009950364.1	generic	active site	H46,A47,E48,P77,C78,C81	6	6	238610
+Q#298 - >ncbi_A1_like_Birds_XM_009950364.1	generic	Zn binding site	H46,E48,C78,C81	4	4	238610
+Q#311 - >ncbi_A1_like_Birds_XM_010184231.1	generic	active site	H48,A49,E50,P79,C80,C83	6	6	238610
+Q#311 - >ncbi_A1_like_Birds_XM_010184231.1	generic	Zn binding site	H48,E50,C80,C83	4	4	238610
+Q#312 - >ncbi_A1_like_Birds_XM_014940096.1	specific	catalytic motif	H54,A55,E56,P85,C86,C89	6	6	238610
+Q#312 - >ncbi_A1_like_Birds_XM_014940096.1	specific	Zn binding site	H54,E56,C86,C89	4	4	238610
+Q#313 - >ncbi_A1_like_Birds_XM_014940097.1	specific	catalytic motif	H46,A47,E48,P77,C78,C81	6	6	238610
+Q#313 - >ncbi_A1_like_Birds_XM_014940097.1	specific	Zn binding site	H46,E48,C78,C81	4	4	238610
+Q#314 - >ncbi_A1_like_Birds_XM_030041429.2	generic	active site	H74,A75,E76,P105,C106,C109	6	6	238610
+Q#314 - >ncbi_A1_like_Birds_XM_030041429.2	generic	Zn binding site	H74,E76,C106,C109	4	4	238610
+Q#315 - >ncbi_A1_like_Birds_XM_009562471.2	specific	catalytic motif	H54,A55,E56,P85,C86,C89	6	6	238610
+Q#315 - >ncbi_A1_like_Birds_XM_009562471.2	specific	Zn binding site	H54,E56,C86,C89	4	4	238610
+Q#318 - >curated_A1_like_Birds_Atlantisia_rogersi	specific	catalytic motif	H47,A48,E49,P78,C79,C82	6	6	238610
+Q#318 - >curated_A1_like_Birds_Atlantisia_rogersi	specific	Zn binding site	H47,E49,C79,C82	4	4	238610
+Q#322 - >curated_A1_like_Birds_Cathartes_aura	generic	active site	H55,A56,E57,P86,C87,C90	6	6	238610
+Q#322 - >curated_A1_like_Birds_Cathartes_aura	generic	Zn binding site	H55,E57,C87,C90	4	4	238610
+Q#323 - >curated_A1_like_Birds_Charadrius_vociferus	generic	active site	H54,A55,E56,P85,C86,C89	6	6	238610
+Q#323 - >curated_A1_like_Birds_Charadrius_vociferus	generic	Zn binding site	H54,E56,C86,C89	4	4	238610
+Q#326 - >curated_A1_like_Birds_Fulmarus_glacialis	specific	catalytic motif	H55,A56,E57,P86,C87,C90	6	6	238610
+Q#326 - >curated_A1_like_Birds_Fulmarus_glacialis	specific	Zn binding site	H55,E57,C87,C90	4	4	238610
+Q#327 - >curated_A1_like_Birds_Gavia_stellata	specific	catalytic motif	H54,A55,E56,P85,C86,C89	6	6	238610
+Q#327 - >curated_A1_like_Birds_Gavia_stellata	specific	Zn binding site	H54,E56,C86,C89	4	4	238610
+Q#328 - >curated_A1_like_Birds_Lonchura_striata_domestica	generic	active site	H57,A58,E59,P85,C86,C89	6	6	238610
+Q#328 - >curated_A1_like_Birds_Lonchura_striata_domestica	generic	Zn binding site	H57,E59,C86,C89	4	4	238610
+Q#329 - >curated_A1_like_Birds_Phoenicopterus_ruber	specific	catalytic motif	H56,A57,E58,P87,C88,C91	6	6	238610
+Q#329 - >curated_A1_like_Birds_Phoenicopterus_ruber	specific	Zn binding site	H56,E58,C88,C91	4	4	238610
+Q#330 - >curated_A1_like_Birds_Podilymbus_podiceps	generic	active site	H54,A55,E56,P85,C86,C89	6	6	238610
+Q#330 - >curated_A1_like_Birds_Podilymbus_podiceps	generic	Zn binding site	H54,E56,C86,C89	4	4	238610
+Q#331 - >curated_A1_like_Birds_Taeniopygia_guttata	generic	active site	H57,A58,E59,P85,C86,C89	6	6	238610
+Q#331 - >curated_A1_like_Birds_Taeniopygia_guttata	generic	Zn binding site	H57,E59,C86,C89	4	4	238610
+Q#333 - >curated_A1_like_Birds_Aptenodytes_forsteri	generic	active site	H54,A55,E56,P85,C86,C89	6	6	238610
+Q#333 - >curated_A1_like_Birds_Aptenodytes_forsteri	generic	Zn binding site	H54,E56,C86,C89	4	4	238610
+Q#336 - >curated_A1_like_Birds_Eurypyga_helias	generic	active site	H46,A47,E48,P77,C78,C81	6	6	238610
+Q#336 - >curated_A1_like_Birds_Eurypyga_helias	generic	Zn binding site	H46,E48,C78,C81	4	4	238610
+Q#338 - >curated_A1_like_Birds_Melopsittacus_undulatus	generic	active site	H46,A47,E48,P76,C77,C80	6	6	238610
+Q#338 - >curated_A1_like_Birds_Melopsittacus_undulatus	generic	Zn binding site	H46,E48,C77,C80	4	4	238610
+Q#339 - >curated_A1_like_Birds_Nestor_notabilis	generic	active site	H46,A47,E48,P77,C78,C81	6	6	238610
+Q#339 - >curated_A1_like_Birds_Nestor_notabilis	generic	Zn binding site	H46,E48,C78,C81	4	4	238610
+Q#340 - >curated_A1_like_Birds_Phaethon_lepturus	generic	active site	H54,A55,E56,P85,C86,C89	6	6	238610
+Q#340 - >curated_A1_like_Birds_Phaethon_lepturus	generic	Zn binding site	H54,E56,C86,C89	4	4	238610
+Q#344 - >ncbi_A1_marsupials_Antechinus_flavipes_XM_052001760.1	specific	catalytic motif	H53,A54,E55,P84,C85,C88	6	6	238610
+Q#344 - >ncbi_A1_marsupials_Antechinus_flavipes_XM_052001760.1	specific	Zn binding site	H53,E55,C85,C88	4	4	238610
+Q#345 - >ncbi_A1_marsupials_Dromiciops_gliroides_XM_043969123.1	specific	active site	E35,C37,N49,R52,H61,A62,E63,C93,C96	9	9	238610
+Q#345 - >ncbi_A1_marsupials_Dromiciops_gliroides_XM_043969123.1	specific	catalytic motif	H61,A62,E63,P92,C93,C96	6	6	238610
+Q#345 - >ncbi_A1_marsupials_Dromiciops_gliroides_XM_043969123.1	specific	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#346 - >ncbi_A1_marsupials_Gracilinanus_agilis_XM_044679766.1	specific	active site	E35,C37,N54,N56,H60,A61,E62,C92,C95	9	9	238610
+Q#346 - >ncbi_A1_marsupials_Gracilinanus_agilis_XM_044679766.1	specific	catalytic motif	H60,A61,E62,P91,C92,C95	6	6	238610
+Q#346 - >ncbi_A1_marsupials_Gracilinanus_agilis_XM_044679766.1	specific	Zn binding site	H60,E62,C92,C95	4	4	238610
+Q#347 - >ncbi_A1_marsupials_Monodelphis_domestica_NM_001032982.2	specific	active site	E35,C37,N54,N56,H60,A61,E62,C92,C95	9	9	238610
+Q#347 - >ncbi_A1_marsupials_Monodelphis_domestica_NM_001032982.2	specific	catalytic motif	H60,A61,E62,P91,C92,C95	6	6	238610
+Q#347 - >ncbi_A1_marsupials_Monodelphis_domestica_NM_001032982.2	specific	Zn binding site	H60,E62,C92,C95	4	4	238610
+Q#348 - >ncbi_A1_marsupials_Phascolarctos_cinereus_XM_020994411.1	specific	catalytic motif	H61,A62,E63,P92,C93,C96	6	6	238610
+Q#348 - >ncbi_A1_marsupials_Phascolarctos_cinereus_XM_020994411.1	specific	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#349 - >ncbi_A1_marsupials_Trichosurus_vulpecula_XM_036758653.1	specific	catalytic motif	H61,A62,E63,P92,C93,C96	6	6	238610
+Q#349 - >ncbi_A1_marsupials_Trichosurus_vulpecula_XM_036758653.1	specific	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#350 - >ncbi_A1_marsupials_Vombatus_ursinus_XM_027838535.1	specific	catalytic motif	H61,A62,E63,P92,C93,C96	6	6	238610
+Q#350 - >ncbi_A1_marsupials_Vombatus_ursinus_XM_027838535.1	specific	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#351 - >ncbi_A1_amphibians_Ambystoma_mexicanum_XM_069650576.1	specific	active site	D29,Y31,C49,N51,H56,A57,E58,C88,C91	9	9	238610
+Q#351 - >ncbi_A1_amphibians_Ambystoma_mexicanum_XM_069650576.1	specific	catalytic motif	H56,A57,E58,P87,C88,C91	6	6	238610
+Q#351 - >ncbi_A1_amphibians_Ambystoma_mexicanum_XM_069650576.1	specific	Zn binding site	H56,E58,C88,C91	4	4	238610
+Q#352 - >ncbi_A1_amphibians_Pleurodeles_waltl_XM_069201938.1	specific	active site	E29,Y31,C49,N51,H56,A57,E58,C88,C91	9	9	238610
+Q#352 - >ncbi_A1_amphibians_Pleurodeles_waltl_XM_069201938.1	specific	catalytic motif	H56,A57,E58,P87,C88,C91	6	6	238610
+Q#352 - >ncbi_A1_amphibians_Pleurodeles_waltl_XM_069201938.1	specific	Zn binding site	H56,E58,C88,C91	4	4	238610
+Q#353 - >manualncbi_A1_paralog_Testudines_XM_048822669.1	generic	active site	H65,A66,E67,P96,C97,C100	6	6	238610
+Q#353 - >manualncbi_A1_paralog_Testudines_XM_048822669.1	generic	Zn binding site	H65,E67,C97,C100	4	4	238610
+Q#355 - >manualncbi_A1_paralog_Testudines_XM_048822787.1	generic	active site	H64,A65,E66,P95,C96,C99	6	6	238610
+Q#355 - >manualncbi_A1_paralog_Testudines_XM_048822787.1	generic	Zn binding site	H64,E66,C96,C99	4	4	238610
+Q#357 - >manualncbi_A1_paralog_Testudines_XM_032778705.1	specific	active site	V31,Y33,C51,N53,H58,A59,E60,C90,C93	9	9	238610
+Q#357 - >manualncbi_A1_paralog_Testudines_XM_032778705.1	specific	catalytic motif	H58,A59,E60,P89,C90,C93	6	6	238610
+Q#357 - >manualncbi_A1_paralog_Testudines_XM_032778705.1	specific	Zn binding site	H58,E60,C90,C93	4	4	238610
+Q#358 - >manualncbi_A1_paralog_Testudines_XM_032778710.1	generic	active site	H64,A65,E66,P95,C96,C99	6	6	238610
+Q#358 - >manualncbi_A1_paralog_Testudines_XM_032778710.1	generic	Zn binding site	H64,E66,C96,C99	4	4	238610
+Q#360 - >manualncbi_A1_paralog_Testudines_XM_038404144.2	generic	active site	H64,A65,E66,P95,C96,C99	6	6	238610
+Q#360 - >manualncbi_A1_paralog_Testudines_XM_038404144.2	generic	Zn binding site	H64,E66,C96,C99	4	4	238610
+Q#362 - >manualncbi_A1_paralog_Testudines_XM_030538034.1	generic	active site	H64,A65,E66,P95,C96,C99	6	6	238610
+Q#362 - >manualncbi_A1_paralog_Testudines_XM_030538034.1	generic	Zn binding site	H64,E66,C96,C99	4	4	238610
+Q#363 - >manualncbi_A1_paralog_Testudines_XM_030538053.1	generic	active site	H64,A65,E66,P95,C96,C99	6	6	238610
+Q#363 - >manualncbi_A1_paralog_Testudines_XM_030538053.1	generic	Zn binding site	H64,E66,C96,C99	4	4	238610
+Q#364 - >manualncbi_A1_paralog_Testudines_XM_050944697.1	generic	active site	H64,A65,E66,P95,C96,C99	6	6	238610
+Q#364 - >manualncbi_A1_paralog_Testudines_XM_050944697.1	generic	Zn binding site	H64,E66,C96,C99	4	4	238610
+Q#365 - >manualncbi_A1_paralog_Testudines_XM_050944720.1	generic	active site	H64,A65,E66,P95,C96,C99	6	6	238610
+Q#365 - >manualncbi_A1_paralog_Testudines_XM_050944720.1	generic	Zn binding site	H64,E66,C96,C99	4	4	238610
+Q#367 - >manualncbi_A1_paralog_Testudines_XM_054040009.1	generic	active site	H64,A65,E66,P95,C96,C99	6	6	238610
+Q#367 - >manualncbi_A1_paralog_Testudines_XM_054040009.1	generic	Zn binding site	H64,E66,C96,C99	4	4	238610
+Q#371 - >manualncbi_A1_paralog_Testudines_XM_044997930.1	generic	active site	H64,A65,E66,P95,C96,C99	6	6	238610
+Q#371 - >manualncbi_A1_paralog_Testudines_XM_044997930.1	generic	Zn binding site	H64,E66,C96,C99	4	4	238610
+Q#372 - >manualncbi_A1_paralog_Testudines_XM_045008391.1	specific	catalytic motif	H65,A66,E67,P96,C97,C100	6	6	238610
+Q#372 - >manualncbi_A1_paralog_Testudines_XM_045008391.1	specific	Zn binding site	H65,E67,C97,C100	4	4	238610
+Q#373 - >manualncbi_A1_paralog_Testudines_XM_039522186.1	specific	active site	E49,Y51,C69,N71,H76,A77,E78,C108,C111	9	9	238610
+Q#373 - >manualncbi_A1_paralog_Testudines_XM_039522186.1	specific	catalytic motif	H76,A77,E78,P107,C108,C111	6	6	238610
+Q#373 - >manualncbi_A1_paralog_Testudines_XM_039522186.1	specific	Zn binding site	H76,E78,C108,C111	4	4	238610
+Q#376 - >manualncbi_A1_monotremes_XM_029054257.2	specific	catalytic motif	H61,V62,E63,P92,C93,C96	6	6	238610
+Q#376 - >manualncbi_A1_monotremes_XM_029054257.2	specific	Zn binding site	H61,E63,C93,C96	4	4	238610
+Q#377 - >manualncbi_A1_monotremes_XM_038767962.1	specific	catalytic motif	H62,V63,E64,P93,C94,C97	6	6	238610
+Q#377 - >manualncbi_A1_monotremes_XM_038767962.1	specific	Zn binding site	H62,E64,C94,C97	4	4	238610
+Q#378 - >manualncbi_A1_paralog_Crocodylia_XM_006032622.3	specific	active site	E31,H33,E50,H56,A57,E58,C83,C86	9	8	238610
+Q#378 - >manualncbi_A1_paralog_Crocodylia_XM_006032622.3	specific	catalytic motif	H56,A57,E58,P82,C83,C86	6	6	238610
+Q#378 - >manualncbi_A1_paralog_Crocodylia_XM_006032622.3	specific	Zn binding site	H56,E58,C83,C86	4	4	238610
