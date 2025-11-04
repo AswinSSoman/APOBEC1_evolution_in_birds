@@ -1,0 +1,20 @@
+
+>extracted_flanking_region_combined [1:802]  ( 1 - 802 ) - >APOBEC1_Mesitornis_unicolor.fa [1:198]  ( 1 - 198 )
+;C join(22..43,86..113,156..544,587..705,748..774)
+PAM = 100, BIAS = 0.0, u = 4.0, v = 10.0
+Score = 722.1 (746.2), 148.0 (=), 46.0 (#), 1.0 (g), 4.0 (u), (74.75 %)
+ALIGNMENT   1 / 1
+
+          M  A  A  V  T  R  R                                            G  P  A  P  R  V  N  N  R  R                                            W  K  I  Q  P  D  D  F  K  R  N  Y  L  P  G  Q  H  P  E  V  V  Y  L  L  Y  E  I  K  W  N  J  G  T  I  W  R  N  W  C  S  N  N  P  T  Q  H  A  E  
+      22 ATGGCTGCTGTCACTCGTAGAGgtaagtacatgtatgtgaaaatctcaaatcttttctatatagGTCCTGCACCCAGAGTGAACAACCGAAGgtaagagatatagttttatcattgctggtacttttgtagcagGTGGAAGATACAGCCAGATGACTTCAAAAGAAATTATTTGCCTGGCCAACATCCAGAGGTGGTGTACCTGCTGTATGAAATCAAGTGGAACAGCGGTACTATCTGGAGGAACTGGTGCTCAAACAATCCTACCCAACACGCTGAAG| extracted_flanking_region_combined
+       1  M  A  A  V  I  D  R                                            D  P  A  P  R  E  N  N  Q  G                                            W  K  M  Q  P  N  D  F  K  R  N  Y  L  P  G  C  Y  P  K  V  V  Y  L  L  Y  E  I  K  W  R  R  G  T  T  W  R  N  W  C  S  N  S  R  N  L  H  A  E  | APOBEC1_Mesitornis_unicolor.fa
+
+         V  N  F  L  E  N  H  F  N  V  M  S  S  V  S  C  S  I  T  W  G  I  S  T  T  P  C  G  K  C  S  R  R  I  L  E  F  L  T  T  H  P  N  V  T  L  E  I  Y  A  A  K  L  F  K  H  L  D  I  R  N  R  Q  G  L  R  N  L  A  M  N  G  V  V  I  C  I  M  N  L  A                                       
+     302 TCAACTTCTTGGAAAATCATTTCAATGTCATGTCATCAGTTTCTTGCTCCATCACCTGGGGCATATCTACTACCCCCTGTGGGAAATGCTCCAGAAGAATTCTGGAGTTCCTGACTACACATCCCAATGTGACCTTGGAAATATATGCAGCCAAGCTGTTCAAGCACTTGGATATCCGTAACCGGCAAGGTCTCAGGAACCTGGCAATGAATGGAGTCGTTATATGTATCATGAATCTTGCAGgtaacccaactactctttggcactggatatctctctt| extracted_flanking_region_combined
+      66 V  N  F  L  E  N  C  F  K  A  V  P  S  V  S  C  S  M  T  W  F  L  S  A  I  P  C  G  K  C  S  R  R  I  L  E  F  L  K  V  Y  P  N  V  T  L  E  I  Y  A  A  K  L  F  K  H  L  D  I  R  N  R  Q  G  L  R  N  L  A  M  N  G  V  I  I  R  I  M  N  L  A                                       | APOBEC1_Mesitornis_unicolor.fa
+
+              D  Y  J  Y  F  W  K  T  F  V  A  Y  Q  H  G  E  D  C  Y  W  P  W  H  F  A  S  Y  I  F  L  N  W  T  E  L  Y  H  I  L  S                                            G  L  P  P  L  P  A  N  -  -  -  -  U                                                                            
+     582 cccagATTACAGTTACTTCTGGAAAACATTTGTTGCATACCAACATGGAGAAGATTGTTATTGGCCCTGGCACTTCGCTTCATACATCTTTCTGAATTGGACAGAGCTCTATCATATCCTTTCGgttagtagggtacttgaagaaatgtttctttcttcctgctagGGTCTTCCTCCATTGCCGGCAAAC------------TGA                                                                           | extracted_flanking_region_combined
+     147      D  Y  N  Y  C  W  K  R  F  V  A  Y  Q  H  G  E  D  D  Y  W  P  Q  G  F  A  S  H  I  L  L  N  W  I  E  L  C  H  I  L  W                                            E  L  P  P  L  L  A  N  F  A  Y  X  -                                                                            | APOBEC1_Mesitornis_unicolor.fa
+
+

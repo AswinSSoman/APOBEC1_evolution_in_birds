@@ -1,0 +1,83 @@
+Command line: [exonerate -E --model p2g:b exonerate_query.aa extracted_flanking_region_combined.fa --maxintron 48 --ryo Rank: %r\nTarget in alignment: %ti : %tal (%tab - %tae)\nTarget in coding sequence: %ti : %tcl (%tcb - %tce)\nGene orientation: %g\nPercent identity: %pi\nPercent similarity: %ps\n>%ti (%tab - %tae)\n%tcs\n --querytype protein --targettype dna --showtargetgff yes --fsmmemory 28000 --alignmentwidth 270]
+Hostname: [neo]
+
+C4 Alignment:
+------------
+         Query: APOBEC1_Zonotrichia_albicollis.fa
+        Target: extracted_flanking_region_combined
+         Model: protein2genome:bestfit
+     Raw score: 853
+   Query range: 0 -> 194
+  Target range: 21 -> 772
+
+   1 : MetAlaAlaValSerAlaArg{G}  >>>> Target Intron 1 >>>>  {ly}ProSerSerArgGluAsnAsnGln{Gl}  >>>> Target Intron 2 >>>>  {y}TrpLysMetGlnProGluAspPheGlnArgAsnTyrSerProArgGlnAsnGlyArgValTyrLeuLeuTyrGluIleArgTrpArgSerSerSerIleTrpArgAsnTrpCysSerAsnAsnProGluGlnHisAl :  63
+       ! !||||||||||||||||||{|}            42 bp            {||}|||||||||||||||||||||:!!{||}            42 bp            {|}|||||||||:!!|||..!! !||||||||||||!:! !!|||||||||||||||!:!|||||||||||||||||||||||| !!|||!!! !!:!!:!! !!|||||||||||||||||||||  !|||||||||||
+       ArgAlaAlaValSerAlaArg{G}++                         ++{ly}ProSerSerArgGluAsnAsnLys{Gl}++                         ++{y}TrpLysMetGluProArgValPheGlnArgAsnPheProProArgGlnAsnGlyGlnValTyrLeuLeuTyrGluIleArgArgArgArgArgAlaValArgArgAsnTrpCysSerAsnAsnGlyGluGlnHisAl
+  22 : AGGGCTGCTGTCAGTGCCAGA{G}gt.........................ag{GT}CCCTCATCCAGAGAGAACAACAAA{GG}gt.........................ag{G}TGGAAGATGGAGCCAAGAGTCTTCCAAAGAAATTTTCCACCTAGACAAAATGGACAGGTGTACCTGCTGTATGAAATCAGGCGGAGAAGACGTGCTGTCCGGAGGAACTGGTGCTCGAACAATGGTGAACAACATGC : 292
+
+  64 : aGluValAsnPheLeuGluAsnHisPheAsnAsnGlnProGlnThrProCysCysIleThrTrpPheLeuSerAlaSerProCysGlyAsnCysCysArgArgIleLeuLysPheLeuArgSerHisProAsnValThrLeuValIleCysAlaAlaLysLeuPheArgHisLeuAspIleArgAsnArgArgGlyLeuArgSerLeuMetMetAsnGlyValAlaIleArgIleMetAsnLeuGlu{A}  >> : 146
+       ||||:!!|||||||||||||||!.!||||||! !::!||||||! !||||||! !||||||||||||||||||.!!|||||||||||||||||||||||||||||||||:!!||||||||||||!.!|||||||||||||||! !|||! !||||||||||||||||||! !! !|||  !|||||||||!:!|||||| !!..!||||||||||||||||||||||||||||||||||||||||||{|}    
+       aGluIleAsnPheLeuGluAsnArgPheAsnIleArgProGlnIleProCysSerIleThrTrpPheLeuSerThrSerProCysGlyAsnCysCysArgArgIleLeuGluPheLeuArgSerArgProAsnValThrLeuAspIleTyrAlaAlaLysLeuPheArgProArgAspSerArgAsnArgGlnGlyLeuCysAspLeuMetMetAsnGlyValAlaIleArgIleMetAsnLeuGlu{A}++  
+ 293 : TGAAATCAACTTCCTGGAAAATCGTTTCAATATCAGGCCACAAATTCCTTGCTCCATCACCTGGTTCCTTTCAACTAGTCCCTGTGGAAACTGCTGCAGAAGGATTCTGGAGTTCCTGAGGTCACGCCCTAACGTGACCTTGGATATATATGCAGCCAAGCTGTTCAGGCCCCGAGATTCACGGAACCGACAAGGTCTCTGTGACCTGATGATGAATGGAGTCGCTATACGTATCATGAACCTTGAA{G}gt.. : 544
+
+ 147 : >> Target Intron 3 >>>>  {sp}TyrArgTyrCysTrpArgAsnPheValAlaHisGlnProGlyGlnAspAspTyrTrpProGlnAsnValThrLeuTyrPheIleLeuAsnSerIleGluLeuLeuHisIlePheLeu  >>>> Target Intron 4 >>>>  AspLeuProProPheLeuAlaAsn*** : 194
+               42 bp            {||}||||||||||||||||||||||||||||||||||||||||||:!!||||||||||||||||||||||||||||||||||||||||||!:!|||||||||||||||||||||||||||            43 bp            !!:||||||||||||||||||||||||
+                              ++{sp}TyrArgTyrCysTrpArgAsnPheValAlaHisGlnProGlyGluAspAspTyrTrpProGlnAsnValThrLeuTyrPheIleLeuSerSerIleGluLeuLeuHisIlePheLeu++                         ++GluLeuProProPheLeuAlaAsn***
+ 545 : .......................ag{AT}TACAGGTACTGCTGGAGAAATTTTGTTGCACACCAACCTGGAGAAGATGATTATTGGCCCCAGAATGTCACTTTATACTTCATTCTGAGTAGCATAGAACTCTTACATATCTTTTTGgt.........................agGAGCTTCCTCCATTTCTGGCAAACTGA : 772
+
+vulgar: APOBEC1_Zonotrichia_albicollis.fa 0 194 . extracted_flanking_region_combined 21 772 + 853 M 7 21 S 0 1 5 0 2 I 0 38 3 0 2 S 1 2 M 8 24 S 0 2 5 0 2 I 0 38 3 0 2 S 1 1 M 128 384 S 0 1 5 0 2 I 0 38 3 0 2 S 1 2 M 39 117 5 0 2 I 0 39 3 0 2 M 9 27
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:bestfit 2.2.0
+##date 2022-10-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	gene	22	772	853	+	.	gene_id 1 ; sequence APOBEC1_Zonotrichia_albicollis.fa ; gene_orientation +
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	cds	22	43	.	+	.	
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	exon	22	43	.	+	.	insertions 0 ; deletions 0
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	splice5	44	45	.	+	.	intron_id 1 ; splice_site "GT"
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	intron	44	85	.	+	.	intron_id 1
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	splice3	84	85	.	+	.	intron_id 0 ; splice_site "AG"
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	cds	86	113	.	+	.	
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	exon	86	113	.	+	.	insertions 0 ; deletions 0
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	splice5	114	115	.	+	.	intron_id 2 ; splice_site "GT"
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	intron	114	155	.	+	.	intron_id 2
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	splice3	154	155	.	+	.	intron_id 1 ; splice_site "AG"
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	cds	156	541	.	+	.	
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	exon	156	541	.	+	.	insertions 0 ; deletions 0
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	splice5	542	543	.	+	.	intron_id 3 ; splice_site "GT"
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	intron	542	583	.	+	.	intron_id 3
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	splice3	582	583	.	+	.	intron_id 2 ; splice_site "AG"
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	cds	584	702	.	+	.	
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	exon	584	702	.	+	.	insertions 0 ; deletions 0
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	splice5	703	704	.	+	.	intron_id 4 ; splice_site "GT"
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	intron	703	745	.	+	.	intron_id 4
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	splice3	744	745	.	+	.	intron_id 3 ; splice_site "AG"
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	cds	746	772	.	+	.	
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	exon	746	772	.	+	.	insertions 0 ; deletions 0
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	similarity	22	772	853	+	.	alignment_id 1 ; Query APOBEC1_Zonotrichia_albicollis.fa ; Align 22 1 21 ; Align 88 9 24 ; Align 157 18 384 ; Align 586 147 117 ; Align 746 186 27
+# --- END OF GFF DUMP ---
+#
+Rank: 0
+Target in alignment: extracted_flanking_region_combined : 751 (21 - 772)
+Target in coding sequence: extracted_flanking_region_combined : 582 (21 - 769)
+Gene orientation: +
+Percent identity: 81.68
+Percent similarity: 88.48
+>extracted_flanking_region_combined (21 - 772)
+AGGGCTGCTGTCAGTGCCAGAGGTCCCTCATCCAGAGAGAACAACAAAGGGTGGAAGATGGAGCCAAGAG
+TCTTCCAAAGAAATTTTCCACCTAGACAAAATGGACAGGTGTACCTGCTGTATGAAATCAGGCGGAGAAG
+ACGTGCTGTCCGGAGGAACTGGTGCTCGAACAATGGTGAACAACATGCTGAAATCAACTTCCTGGAAAAT
+CGTTTCAATATCAGGCCACAAATTCCTTGCTCCATCACCTGGTTCCTTTCAACTAGTCCCTGTGGAAACT
+GCTGCAGAAGGATTCTGGAGTTCCTGAGGTCACGCCCTAACGTGACCTTGGATATATATGCAGCCAAGCT
+GTTCAGGCCCCGAGATTCACGGAACCGACAAGGTCTCTGTGACCTGATGATGAATGGAGTCGCTATACGT
+ATCATGAACCTTGAAGATTACAGGTACTGCTGGAGAAATTTTGTTGCACACCAACCTGGAGAAGATGATT
+ATTGGCCCCAGAATGTCACTTTATACTTCATTCTGAGTAGCATAGAACTCTTACATATCTTTTTGGAGCT
+TCCTCCATTTCTGGCAAACTGA
+
+-- completed exonerate analysis

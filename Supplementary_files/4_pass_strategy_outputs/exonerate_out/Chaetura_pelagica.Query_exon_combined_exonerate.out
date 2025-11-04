@@ -1,0 +1,83 @@
+Command line: [exonerate -E --model p2g:b exonerate_query.aa extracted_flanking_region_combined.fa --maxintron 48 --ryo Rank: %r\nTarget in alignment: %ti : %tal (%tab - %tae)\nTarget in coding sequence: %ti : %tcl (%tcb - %tce)\nGene orientation: %g\nPercent identity: %pi\nPercent similarity: %ps\n>%ti (%tab - %tae)\n%tcs\n --querytype protein --targettype dna --showtargetgff yes --fsmmemory 28000 --alignmentwidth 270]
+Hostname: [neo]
+
+C4 Alignment:
+------------
+         Query: APOBEC1_Acanthisitta_chloris.fa
+        Target: extracted_flanking_region_combined
+         Model: protein2genome:bestfit
+     Raw score: 735
+   Query range: 0 -> 195
+  Target range: 21 -> 774
+
+   1 : MetAlaAlaAlaAlaGlyArg{A}  >>>> Target Intron 1 >>>>  {sp}ProThrAlaArgGluAsnAsnGln{Ar}  >>>> Target Intron 2 >>>>  {g}TrpLysIleGlnProAsnAspPheGlnArgAsnTyrLeuProAspGlnHisProGlnAlaValTyrLeuLeuTyrGluPheArgTrpArgArgGlySerIleTrpArgLysTrpCysSerAsnAsnArgAlaGlnHi :  63
+       ||||||||||||.!!||||||{!}            42 bp            { !} !!.!!:!!|||||||||||||||{ !}            42 bp            {!}||||||||||||||||||||||||:!!||||||!:!||||||! !|||||||||.!.!.!||||||||||||||||||.!!||||||! !||||||!!!|||||||||!!.||||||!!!||||||  !.!!|||||
+       MetAlaAlaAlaThrGlyArg{G}++                         ++{ly}SerAlaSerArgGluAsnAsnGln{Gl}++                         ++{y}TrpLysIleGlnProAsnAspPheLysArgAsnPheLeuProGlyGlnHisProAspValValTyrLeuLeuTyrGluIleArgTrpThrArgGlyThrIleTrpArgAsnTrpCysThrAsnAsnSerThrGlnHi
+  22 : ATGGCTGCAGCCACTGGTAGA{G}gt.........................ag{GT}TCTGCATCCAGAGAGAACAACCAA{GG}gt.........................ag{G}TGGAAGATACAGCCAAATGACTTTAAAAGAAATTTTTTGCCTGGCCAACATCCAGATGTGGTGTATCTGCTGTATGAAATCAGGTGGACCAGAGGTACTATCTGGAGGAATTGGTGCACAAACAATTCTACCCAACA : 292
+
+  64 : sAlaGluValAsnPheLeuGluAsnCysPheAsnGlyIleProProValProCysSerIleThrTrpPheLeuSerThrThrProCysGlyAsnCysSerArgArgIleLeuGluPheLeuArgLeuHisProAsnValThrLeuGluIleTyrAlaAlaLysLeuPheArgHisThrAspIleArgAsnArgLysGlyLeuTyrAsnLeuAlaMetAsnGlyValIleIleArgIleMetAsnLeuAla{A}  : 147
+       ||||||||||||||||||||||||| !!||||||!.!! !||| !!||| !!||||||||||||||| !!|||||||||||||||||||||!!.||||||..!|||||||||||||||||||||:!!||||||||||||||||||||||||||||||||||||||||||!:!|||  !|||||||||||||||:!!||||||!::!!.||||||!  !..||||||||||||!.!||||||!!.! !! !{|} 
+       sAlaGluValAsnPheLeuGluAsnArgPheAsnAlaAsnProSerValSerCysSerIleThrTrpValLeuSerThrThrProCysGlyLysCysSerGluArgIleLeuGluPheLeuArgValHisProAsnValThrLeuGluIleTyrAlaAlaLysLeuPheLysHisLeuAspIleArgAsnArgGlnGlyLeuTrpLysLeuAlaAsnArgGlyValIleIleHisIleMetLysProGlu{A}+
+ 293 : TGCTGAAGTCAACTTCTTGGAAAATCGTTTCAATGCCAACCCATCAGTTTCTTGCTCCATCACCTGGGTCCTATCCACTACCCCCTGTGGGAAATGCTCTGAAAGAATTCTCGAGTTCCTGAGGGTACATCCCAATGTAACCCTAGAAATATATGCAGCCAAGCTGTTCAAGCACCTGGATATCCGGAACCGGCAGGGTCTCTGGAAACTGGCAAACAGAGGAGTCATTATACATATTATGAAACCTGAA{G}g : 545
+
+ 148 :  >>>> Target Intron 3 >>>>  {sp}TyrSerTyrCysTrpArgAsnPheValAlaTyrProArgGlyGlnAspAspTyrTrpProGlnHisPheAlaAlaHisIlePheLeuAsnAlaArgGluLeuCysHisIleLeuLeu  >>>> Target Intron 4 >>>>  GlyLeuProProLeuLeuAlaAsp*** : 195
+                  42 bp            {||}|||||||||  !|||!:!!..||||||  !|||! !!.!|||:!!|||||||||! !||||||:!!|||  ! !!:!!||||||||||||  ! !!||||||! !:!!|||||||||            42 bp            |||!!!|||||||||||||||:!!|||
+       +                         ++{sp}TyrSerTyrValTrpLysArgPheValIleTyrGlnHisGlyGluAspAspTyrLeuProGlnAsnPheMetProTyrIlePheLeuAsnGlnCysGluLeuSerAsnIleLeuLeu++                         ++GlyPheProProLeuLeuAlaAsn***
+ 546 : t.........................ag{AT}TACAGTTACGTCTGGAAAAGATTTGTTATATACCAACATGGAGAAGATGATTATTTGCCCCAGAACTTCATGCCATACATCTTTCTGAATCAGTGTGAACTCTCCAATATCCTTTTGgt.........................agGGGTTTCCTCCATTGTTGGCAAACTGA : 774
+
+vulgar: APOBEC1_Acanthisitta_chloris.fa 0 195 . extracted_flanking_region_combined 21 774 + 735 M 7 21 S 0 1 5 0 2 I 0 38 3 0 2 S 1 2 M 8 24 S 0 2 5 0 2 I 0 38 3 0 2 S 1 1 M 129 387 S 0 1 5 0 2 I 0 38 3 0 2 S 1 2 M 39 117 5 0 2 I 0 38 3 0 2 M 9 27
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:bestfit 2.2.0
+##date 2022-10-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	gene	22	774	735	+	.	gene_id 1 ; sequence APOBEC1_Acanthisitta_chloris.fa ; gene_orientation +
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	cds	22	43	.	+	.	
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	exon	22	43	.	+	.	insertions 0 ; deletions 0
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	splice5	44	45	.	+	.	intron_id 1 ; splice_site "GT"
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	intron	44	85	.	+	.	intron_id 1
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	splice3	84	85	.	+	.	intron_id 0 ; splice_site "AG"
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	cds	86	113	.	+	.	
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	exon	86	113	.	+	.	insertions 0 ; deletions 0
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	splice5	114	115	.	+	.	intron_id 2 ; splice_site "GT"
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	intron	114	155	.	+	.	intron_id 2
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	splice3	154	155	.	+	.	intron_id 1 ; splice_site "AG"
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	cds	156	544	.	+	.	
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	exon	156	544	.	+	.	insertions 0 ; deletions 0
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	splice5	545	546	.	+	.	intron_id 3 ; splice_site "GT"
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	intron	545	586	.	+	.	intron_id 3
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	splice3	585	586	.	+	.	intron_id 2 ; splice_site "AG"
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	cds	587	705	.	+	.	
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	exon	587	705	.	+	.	insertions 0 ; deletions 0
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	splice5	706	707	.	+	.	intron_id 4 ; splice_site "GT"
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	intron	706	747	.	+	.	intron_id 4
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	splice3	746	747	.	+	.	intron_id 3 ; splice_site "AG"
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	cds	748	774	.	+	.	
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	exon	748	774	.	+	.	insertions 0 ; deletions 0
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	similarity	22	774	735	+	.	alignment_id 1 ; Query APOBEC1_Acanthisitta_chloris.fa ; Align 22 1 21 ; Align 88 9 24 ; Align 157 18 387 ; Align 589 148 117 ; Align 748 187 27
+# --- END OF GFF DUMP ---
+#
+Rank: 0
+Target in alignment: extracted_flanking_region_combined : 753 (21 - 774)
+Target in coding sequence: extracted_flanking_region_combined : 585 (21 - 771)
+Gene orientation: +
+Percent identity: 71.88
+Percent similarity: 79.69
+>extracted_flanking_region_combined (21 - 774)
+ATGGCTGCAGCCACTGGTAGAGGTTCTGCATCCAGAGAGAACAACCAAGGGTGGAAGATACAGCCAAATG
+ACTTTAAAAGAAATTTTTTGCCTGGCCAACATCCAGATGTGGTGTATCTGCTGTATGAAATCAGGTGGAC
+CAGAGGTACTATCTGGAGGAATTGGTGCACAAACAATTCTACCCAACATGCTGAAGTCAACTTCTTGGAA
+AATCGTTTCAATGCCAACCCATCAGTTTCTTGCTCCATCACCTGGGTCCTATCCACTACCCCCTGTGGGA
+AATGCTCTGAAAGAATTCTCGAGTTCCTGAGGGTACATCCCAATGTAACCCTAGAAATATATGCAGCCAA
+GCTGTTCAAGCACCTGGATATCCGGAACCGGCAGGGTCTCTGGAAACTGGCAAACAGAGGAGTCATTATA
+CATATTATGAAACCTGAAGATTACAGTTACGTCTGGAAAAGATTTGTTATATACCAACATGGAGAAGATG
+ATTATTTGCCCCAGAACTTCATGCCATACATCTTTCTGAATCAGTGTGAACTCTCCAATATCCTTTTGGG
+GTTTCCTCCATTGTTGGCAAACTGA
+
+-- completed exonerate analysis

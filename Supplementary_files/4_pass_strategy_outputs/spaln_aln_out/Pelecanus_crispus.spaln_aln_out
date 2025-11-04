@@ -1,0 +1,20 @@
+
+>extracted_flanking_region_combined [1:804]  ( 1 - 804 ) - >APOBEC1_Egretta_garzetta.fa [1:197]  ( 1 - 197 )
+;C join(22..43,86..101,156..544,587..705,748..783)
+PAM = 100, BIAS = 0.0, u = 4.0, v = 10.0
+Score = 803.0 (832.5), 167.0 (=), 25.0 (#), 3.0 (g), 6.0 (u), (84.34 %)
+ALIGNMENT   1 / 1
+
+          M  A  A  V  T  D  R                                            D  P  A  -  -  -  -  H  R  R                                                        W  K  L  Q  P  E  D  F  K  R  N  Y  L  P  G  Q  H  P  K  V  V  Y  L  L  Y  E  I  R  W  J  R  G  T  I  W  R  J  W  C  S  N  N  S  K  
+      22 ATGGCTGCTGTCACTGACAGAGgtaagtacatggatgtgaaaatcacaaatcttttctatatagATCCTGCA------------CACAGAAGgtaagagagatagttccatcactgcatgctgccctgctggtacttctgttgcagGTGGAAGTTACAGCCAGAAGACTTCAAAAGAAATTATTTGCCTGGCCAACATCCAAAGGTGGTATACCTGCTGTATGAAATCAGGTGGAGCAGAGGTACCATCTGGAGGAGCTGGTGCTCAAACAATTCTAAAC| extracted_flanking_region_combined
+       1  M  A  A  V  T  D  R                                            D  P  A  P  R  E  S  N  R  G                                                        W  K  I  Q  P  N  D  F  K  R  N  Y  L  P  G  Q  H  P  K  V  V  Y  L  L  Y  E  I  R  W  S  R  G  T  I  W  R  N  W  C  S  N  N  S  T  | APOBEC1_Egretta_garzetta.fa
+
+         Q  H  A  E  V  N  F  L  E  N  C  F  K  A  R  P  S  V  S  C  S  I  T  W  V  L  S  T  T  P  C  G  K  C  S  R  R  I  L  E  F  L  R  V  H  P  N  V  T  L  E  I  Y  A  A  K  L  F  K  H  L  D  I  R  N  Q  Q  G  L  R  N  L  A  M  N  G  V  I  I  R  I  M  N  L  A                           
+     290 AACATGCTGAAGTCAACTTCTTGGAAAATTGTTTCAAGGCCAGGCCATCAGTTTCTTGCTCCATCACCTGGGTGCTATCTACTACCCCCTGTGGGAAATGCTCCAGAAGAATTCTGGAGTTCCTGAGGGTACATCCCAATGTGACCTTGGAAATCTATGCAGCCAAGCTCTTCAAGCACCTGGATATCCGTAACCAGCAAGGTCTCAGGAACCTGGCAATGAATGGAGTCATTATACGTATCATGAATCTTGCAGgtaacccaactactctttggcactg| extracted_flanking_region_combined
+      62 Q  H  A  E  V  N  F  L  E  N  C  F  K  A  M  P  S  V  S  C  S  I  T  W  V  L  S  T  T  P  C  G  K  C  S  R  R  I  L  E  F  L  R  V  H  P  S  V  T  L  E  I  Y  A  A  K  L  F  K  H  L  D  I  R  N  R  Q  G  L  R  N  L  A  M  N  G  V  I  I  H  I  M  N  L  A                           | APOBEC1_Egretta_garzetta.fa
+
+                          D  Y  J  Y  C  W  K  R  F  V  A  H  Q  H  G  E  D  D  Y  W  P  W  D  F  C  P  Y  I  F  L  N  W  I  E  L  R  H  I  Y  L                                            G  L  P  P  F  L  A  N  F  E  F  -  O                                                                
+     570 gatatctctcttctcagATTACAGTTACTGCTGGAAAAGATTTGTTGCACACCAACATGGAGAAGATGATTATTGGCCCTGGGACTTCTGTCCATACATCTTTCTGAATTGGATAGAGCTCCGTCATATCTATTTGgttagtaggcacttgaagaaaatgtttctttcttcctgctagGGGCTTCCTCCATTCCTGGCAAACTTTGAATTC---TAA                                                               | extracted_flanking_region_combined
+     147                  D  Y  S  Y  W  W  K  I  F  V  A  Y  R  H  G  E  E  G  Y  W  P  W  S  F  A  S  Y  I  F  L  N  Q  T  E  L  C  H  I  L  L                                            G  L  P  P  -  L  V  N  F  E  Y  X  -                                                                | APOBEC1_Egretta_garzetta.fa
+
+

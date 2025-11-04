@@ -1,0 +1,20 @@
+
+>extracted_flanking_region_combined [1:804]  ( 1 - 804 ) - >APOBEC1_Chaetura_pelagica.fa [1:195]  ( 1 - 195 )
+;C join(22..43,86..113,156..544,587..705,748..768)
+PAM = 150, BIAS = 0.0, u = 2.0, v = 9.0
+Score = 787.1 (818.9), 147.0 (=), 45.0 (#), 1.0 (g), 3.0 (u), (75.38 %)
+ALIGNMENT   1 / 1
+
+          M  A  A  V  T  D  R                                            G  P  S  P  R  E  N  N  Q  G                                            W  K  I  Q  P  N  Y  F  K  K  N  Y  L  P  G  Q  Y  P  N  T  V  Y  L  L  Y  E  I  R  W  J  R  G  T  I  W  R  N  W  C  S  N  N  S  T  Q  H  A  E  
+      22 ATGGCTGCTGTCACTGATAGAGgtaagtacctgtgtgtgaagatcacaaatcttttctatgtagGTCCTTCACCCAGAGAGAACAACCAAGGgtaagaaatataattccatcactgctggtacttttgtcacagGTGGAAGATACAGCCAAATTACTTCAAAAAAAATTATTTGCCTGGCCAGTATCCAAACACGGTGTACCTGCTGTATGAAATCAGATGGAGCAGAGGTACCATCTGGAGGAACTGGTGCTCAAATAATTCTACCCAACATGCTGAAG| extracted_flanking_region_combined
+       1  M  A  A  A  T  G  R                                            G  S  A  S  R  E  N  N  Q  G                                            W  K  I  Q  P  N  D  F  K  R  N  F  L  P  G  Q  H  P  D  V  V  Y  L  L  Y  E  I  R  W  T  R  G  T  I  W  R  N  W  C  T  N  N  S  T  Q  H  A  E  | APOBEC1_Chaetura_pelagica.fa
+
+         V  N  F  L  E  N  C  F  N  P  K  P  S  V  S  C  S  I  T  W  V  L  S  T  T  P  C  G  K  C  S  R  K  I  V  E  F  L  R  L  H  P  N  V  T  L  E  I  Y  A  A  K  L  F  K  H  L  D  V  R  N  R  E  G  L  R  N  L  A  M  N  G  V  I  I  R  I  M  N  L  A                                       
+     302 TCAACTTCTTGGAAAATTGTTTCAATCCTAAGCCATCAGTTTCTTGCTCCATCACCTGGGTCCTATCTACCACTCCCTGTGGGAAATGTTCCAGAAAAATTGTGGAGTTCCTGAGGCTACATCCTAATGTAACCTTGGAAATATACGCAGCCAAGCTGTTCAAGCACCTGGATGTCCGTAACCGGGAAGGTCTCAGGAACCTGGCAATGAATGGAGTCATTATACGTATTATGAATCTTGCAGgtaatccaactactctatggcactggatatctctctt| extracted_flanking_region_combined
+      66 V  N  F  L  E  N  R  F  N  A  N  P  S  V  S  C  S  I  T  W  V  L  S  T  T  P  C  G  K  C  S  E  R  I  L  E  F  L  R  V  H  P  N  V  T  L  E  I  Y  A  A  K  L  F  K  H  L  D  I  R  N  R  Q  G  L  W  K  L  A  N  R  G  V  I  I  H  I  M  K  P  E                                       | APOBEC1_Chaetura_pelagica.fa
+
+              D  Y  J  Y  C  W  K  T  F  V  A  Y  P  H  G  E  D  D  Y  W  P  W  N  F  A  S  Y  I  F  V  N  C  R  E  L  C  H  I  L  L                                            G  L  P  P  L  -  -  -  A  O                                                                                     
+     582 ttcagATTACAGTTACTGCTGGAAAACATTTGTTGCATACCCACATGGAGAAGATGATTATTGGCCTTGGAACTTTGCTTCATACATCTTTGTGAATTGTAGAGAGCTCTGTCATATCCTTTTGgttagtaggcactggaagtgaatgtttctttcttccttctagGGGCTTCCTCCATTG---------GCATAA                                                                                    | extracted_flanking_region_combined
+     147      D  Y  S  Y  V  W  K  R  F  V  I  Y  Q  H  G  E  D  D  Y  L  P  Q  N  F  M  P  Y  I  F  L  N  Q  C  E  L  S  N  I  L  L                                            G  F  P  P  L  L  A  N  X  -                                                                                     | APOBEC1_Chaetura_pelagica.fa
+
+

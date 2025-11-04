@@ -1,0 +1,20 @@
+
+>extracted_flanking_region_combined [1:803]  ( 1 - 803 ) - >APOBEC1_Charadrius_vociferus.fa [1:195]  ( 1 - 195 )
+;C join(22..43,86..113,155..543,586..704,747..767)
+PAM = 100, BIAS = 0.0, u = 4.0, v = 10.0
+Score = 769.2 (798.6), 153.0 (=), 39.0 (#), 1.0 (g), 3.0 (u), (78.46 %)
+ALIGNMENT   1 / 1
+
+          M  A  A  V  P  D  R                                            G  P  A  A  R  E  N  N  Q  R                                           W  K  I  L  P  D  D  F  I  R  N  Y  F  P  D  Q  H  P  N  A  V  Y  V  L  Y  E  I  R  W  J  R  G  T  I  W  R  J  W  C  S  N  J  F  D  Q  H  A  E  V
+      22 ATGGCTGCTGTCCCTGATAGAGgtatgtgaaaagcatgtatgttcgcaaatcttttctatatagGTCCTGCAGCCAGAGAGAACAACCAAAGgtaaggatacagttctatcactactggcaattttgtcacagGTGGAAGATACTTCCAGATGACTTCATAAGAAATTATTTTCCGGACCAACATCCAAATGCAGTGTATGTGCTGTATGAAATCAGGTGGAGCAGAGGTACCATCTGGAGGAGCTGGTGCTCAAACAGTTTTGACCAACATGCTGAAGT| extracted_flanking_region_combined
+       1  M  A  A  V  T  D  R                                            G  P  A  P  R  Q  N  N  Q  G                                           W  E  I  Q  P  D  D  F  I  R  N  Y  L  P  D  K  H  P  N  V  V  Y  L  L  Y  E  I  R  W  S  R  G  T  I  W  R  N  W  C  S  N  N  S  T  Q  H  A  E  V| APOBEC1_Charadrius_vociferus.fa
+
+           N  F  L  E  N  Y  F  K  A  R  P  S  A  S  C  S  I  T  W  F  L  S  T  T  P  C  G  R  C  S  R  R  I  L  E  F  L  R  A  H  P  N  V  T  L  E  I  Y  A  A  K  L  F  K  H  L  D  I  R  N  R  Q  G  L  K  N  L  A  M  N  G  V  I  I  R  I  M  D  L  P                                        
+     302 CAACTTCTTGGAAAATTATTTCAAGGCCAGGCCATCAGCTTCTTGCTCTATCACCTGGTTCCTATCTACTACCCCCTGTGGGAGATGCTCCAGAAGAATTCTGGAGTTCCTGAGGGCACACCCCAATGTGACCTTGGAAATATATGCAGCCAAGCTGTTCAAGCACTTGGATATACGTAACCGGCAAGGTCTCAAGAACCTGGCAATGAATGGAGTCATTATACGTATCATGGATCTTCCAGgtaacccagctactctttgacactggatatctcttttc| extracted_flanking_region_combined
+      67   N  F  L  E  N  C  F  K  A  M  P  S  V  S  C  S  I  T  W  F  L  S  T  T  P  C  G  R  C  S  R  R  I  L  K  F  L  R  V  H  P  N  V  T  L  K  I  H  A  A  K  L  F  K  H  L  D  M  R  N  R  Q  G  L  K  N  L  A  M  H  G  V  I  I  R  I  M  N  L  A                                        | APOBEC1_Charadrius_vociferus.fa
+
+             D  Y  J  Y  C  W  K  T  F  V  A  Y  Q  R  A  E  D  I  Y  W  S  W  R  F  K  S  Y  I  F  L  N  C  M  E  L  Y  R  I  L  L                                            G  L  P  P  L  L  -  -  -  U                                                                                      
+     582 tcagATTACAGTTACTGCTGGAAAACCTTTGTTGCATACCAACGTGCAGAAGACATTTATTGGTCCTGGAGATTCAAGTCATATATCTTTCTGAATTGCATGGAGCTCTATCGTATCCTTTTGgttagtaggcatttgaagaaaatgtttctttctctctgctagGGGCTTCCTCCATTGCTT---------TGA                                                                                     | extracted_flanking_region_combined
+     147     D  Y  S  Y  C  W  K  T  F  V  A  H  Q  H  G  A  E  D  Y  W  P  W  A  F  T  S  A  I  F  L  N  W  V  E  L  H  H  I  L  L                                            G  L  P  P  L  L  E  Y  X  -                                                                                      | APOBEC1_Charadrius_vociferus.fa
+
+

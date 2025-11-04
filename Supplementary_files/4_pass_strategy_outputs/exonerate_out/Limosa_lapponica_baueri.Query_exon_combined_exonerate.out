@@ -1,0 +1,83 @@
+Command line: [exonerate -E --model p2g:b exonerate_query.aa extracted_flanking_region_combined.fa --maxintron 48 --ryo Rank: %r\nTarget in alignment: %ti : %tal (%tab - %tae)\nTarget in coding sequence: %ti : %tcl (%tcb - %tce)\nGene orientation: %g\nPercent identity: %pi\nPercent similarity: %ps\n>%ti (%tab - %tae)\n%tcs\n --querytype protein --targettype dna --showtargetgff yes --fsmmemory 28000 --alignmentwidth 270]
+Hostname: [neo]
+
+C4 Alignment:
+------------
+         Query: APOBEC1_Aptenodytes_forsteri.fa
+        Target: extracted_flanking_region_combined
+         Model: protein2genome:bestfit
+     Raw score: 863
+   Query range: 0 -> 198
+  Target range: 21 -> 782
+
+   1 : MetAlaAlaValThrAspArg{A}  >>>> Target Intron 1 >>>>  {sp}LeuAlaProArgGluAsnAsnGln{Ar}  >>>> Target Intron 2 >>>>  {g}TrpLysIleArgProAsnAspPheLysArgAsnTyrLeuProGlyGlnHisProLysValValTyrLeuLeuTyrGluIleArgTrpSerArgGlyThrIleTrpArgAsnTrpCysSerAsnAsnSerThrGlnHi :  63
+       |||||||||||| !!||||||{!}            42 bp            { !}! !||| !!|||||||||||||||{||}            41 bp            {|}|||||||||! !|||:!!||||||! !|||||||||||||||! !|||||||||!!.|||||||||||||||||||||||||||||||||||||||||||||||||||!:!|||||||||||||||! !.!!|||||
+       MetAlaAlaValProAspArg{G}++                         ++{ly}ProAlaAlaArgGluAsnAsnGln{Ar}++                         ++{g}TrpLysIleLeuProAspAspPheIleArgAsnTyrLeuProAspGlnHisProAsnValValTyrLeuLeuTyrGluIleArgTrpSerArgGlyThrIleTrpArgSerTrpCysSerAsnAsnPheAlaGlnHi
+  22 : ATGGCTGCTGTCCCTGATAGA{G}gt.........................ag{GT}CCTGCAGCCAGAGAGAACAACCAA{AG}gt.........................ag{G}TGGAAGATACTTCCAGATGACTTCATAAGAAATTATTTGCCGGACCAACATCCAAATGTGGTGTACCTGCTGTATGAAATCAGGTGGAGCAGAGGTACGATCTGGAGGAGCTGGTGCTCAAACAATTTTGCCCAACA : 291
+
+  64 : sAlaGluValAsnPheLeuGluAsnCysPheLysAlaMetProSerValSerCysSerIleThrTrpValLeuSerThrThrProCysGlyLysCysSerArgArgIleLeuGluPheLeuArgValHisProAsnValThrLeuGluIleTyrAlaAlaLysLeuPheLysHisLeuAspIleArgAsnArgGlnGlyLeuArgAsnLeuAlaMetAsnGlyValIleIleArgIleMetAsnLeuAla{A}  : 147
+       ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| !!|||||||||||||||||||||!:!||||||||||||||||||||||||||||||!.!||||||||||||||||||:!!|||||||||||||||||||||||||||||||||!!:||||||||||||||||||!:!|||||||||||||||||||||||||||||||||||||||||||||{|} 
+       sAlaGluValAsnPheLeuGluAsnCysPheLysAlaMetProSerValSerCysSerIleThrTrpPheLeuSerThrThrProCysGlyArgCysSerArgArgIleLeuGluPheLeuArgAlaHisProAsnValThrLeuLysIleTyrAlaAlaLysLeuPheLysHisLeuAspMetArgAsnArgGlnGlyLeuGlnAsnLeuAlaMetAsnGlyValIleIleArgIleMetAsnLeuAla{A}+
+ 292 : TGCTGAAGTCAACTTCTTGGAAAATTGTTTCAAGGCCATGCCATCAGTTTCTTGCTCTATCACCTGGTTCCTATCTACTACCCCCTGTGGGAGATGCTCCAGAAGAATTCTGGAGTTCCTGAGGGCACATCCCAATGTGACCTTGAAAATATACGCAGCCAAGCTGTTCAAGCACCTGGATATGCGTAACCGGCAAGGTCTCCAGAACCTGGCAATGAATGGAGTCATTATACGTATCATGAATCTTGCA{G}g : 544
+
+ 148 :  >>>> Target Intron 3 >>>>  {sp}TyrSerTyrGlyTrpLysArgPheValAlaTyrGlnArgGlyGluAspAspTyrTrpProTrpSerPheAlaSerTyrIleLeuLeuAsnTrpIleGluLeuTyrHisIleLeuSer  >>>> Target Intron 4 >>>>  GlyLeuProProLeuLeuAlaAsnPheLysTyr*** : 198
+                  42 bp            {||}|||!:!||| !!||||||! !|||||||||||||||||||||||||||!  ||||||||||||!!!|||::!|||! !|||!!!||||||!! ! !||||||||||||||||||! !            42 bp            |||||||||||||||||| !!   !!.     !  !
+       +                         ++{sp}TyrAsnTyrCysTrpLysThrPheValAlaTyrGlnArgGlyGluAspGlyTyrTrpProTrpArgPheSerSerCysIlePheLeuAsnCysThrGluLeuTyrHisIleLeuLeu++                         ++GlyLeuProProLeuLeuProProLeuLeuProPro
+ 545 : t.........................ag{AT}TACAATTACTGCTGGAAAACATTTGTTGCATACCAACGTGGAGAAGATGGATATTGGCCCTGGAGATTCAGTTCATGCATCTTTCTGAATTGCACAGAGCTCTATCATATCCTTTTGgt.........................agGGGCTTCCTCCATTGCTTCCTCCATTGCTTCCTCCA : 782
+
+vulgar: APOBEC1_Aptenodytes_forsteri.fa 0 198 . extracted_flanking_region_combined 21 782 + 863 M 7 21 S 0 1 5 0 2 I 0 38 3 0 2 S 1 2 M 8 24 S 0 2 5 0 2 I 0 37 3 0 2 S 1 1 M 129 387 S 0 1 5 0 2 I 0 38 3 0 2 S 1 2 M 39 117 5 0 2 I 0 38 3 0 2 M 12 36
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:bestfit 2.2.0
+##date 2022-10-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	gene	22	782	863	+	.	gene_id 1 ; sequence APOBEC1_Aptenodytes_forsteri.fa ; gene_orientation +
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	cds	22	43	.	+	.	
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	exon	22	43	.	+	.	insertions 0 ; deletions 0
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	splice5	44	45	.	+	.	intron_id 1 ; splice_site "GT"
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	intron	44	85	.	+	.	intron_id 1
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	splice3	84	85	.	+	.	intron_id 0 ; splice_site "AG"
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	cds	86	113	.	+	.	
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	exon	86	113	.	+	.	insertions 0 ; deletions 0
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	splice5	114	115	.	+	.	intron_id 2 ; splice_site "GT"
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	intron	114	154	.	+	.	intron_id 2
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	splice3	153	154	.	+	.	intron_id 1 ; splice_site "AG"
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	cds	155	543	.	+	.	
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	exon	155	543	.	+	.	insertions 0 ; deletions 0
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	splice5	544	545	.	+	.	intron_id 3 ; splice_site "GT"
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	intron	544	585	.	+	.	intron_id 3
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	splice3	584	585	.	+	.	intron_id 2 ; splice_site "AG"
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	cds	586	704	.	+	.	
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	exon	586	704	.	+	.	insertions 0 ; deletions 0
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	splice5	705	706	.	+	.	intron_id 4 ; splice_site "GT"
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	intron	705	746	.	+	.	intron_id 4
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	splice3	745	746	.	+	.	intron_id 3 ; splice_site "AG"
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	cds	747	782	.	+	.	
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	exon	747	782	.	+	.	insertions 0 ; deletions 0
+extracted_flanking_region_combined	exonerate:protein2genome:bestfit	similarity	22	782	863	+	.	alignment_id 1 ; Query APOBEC1_Aptenodytes_forsteri.fa ; Align 22 1 21 ; Align 88 9 24 ; Align 156 18 387 ; Align 588 148 117 ; Align 747 187 36
+# --- END OF GFF DUMP ---
+#
+Rank: 0
+Target in alignment: extracted_flanking_region_combined : 761 (21 - 782)
+Target in coding sequence: extracted_flanking_region_combined : 594 (21 - 779)
+Gene orientation: +
+Percent identity: 82.56
+Percent similarity: 86.67
+>extracted_flanking_region_combined (21 - 782)
+ATGGCTGCTGTCCCTGATAGAGGTCCTGCAGCCAGAGAGAACAACCAAAGGTGGAAGATACTTCCAGATG
+ACTTCATAAGAAATTATTTGCCGGACCAACATCCAAATGTGGTGTACCTGCTGTATGAAATCAGGTGGAG
+CAGAGGTACGATCTGGAGGAGCTGGTGCTCAAACAATTTTGCCCAACATGCTGAAGTCAACTTCTTGGAA
+AATTGTTTCAAGGCCATGCCATCAGTTTCTTGCTCTATCACCTGGTTCCTATCTACTACCCCCTGTGGGA
+GATGCTCCAGAAGAATTCTGGAGTTCCTGAGGGCACATCCCAATGTGACCTTGAAAATATACGCAGCCAA
+GCTGTTCAAGCACCTGGATATGCGTAACCGGCAAGGTCTCCAGAACCTGGCAATGAATGGAGTCATTATA
+CGTATCATGAATCTTGCAGATTACAATTACTGCTGGAAAACATTTGTTGCATACCAACGTGGAGAAGATG
+GATATTGGCCCTGGAGATTCAGTTCATGCATCTTTCTGAATTGCACAGAGCTCTATCATATCCTTTTGGG
+GCTTCCTCCATTGCTTCCTCCATTGCTTCCTCCA
+
+-- completed exonerate analysis

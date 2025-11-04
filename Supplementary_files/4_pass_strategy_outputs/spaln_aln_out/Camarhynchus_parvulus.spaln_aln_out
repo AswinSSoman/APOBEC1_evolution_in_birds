@@ -1,0 +1,20 @@
+
+>extracted_flanking_region_combined [1:793]  ( 1 - 793 ) - >APOBEC1_Zonotrichia_albicollis.fa [1:194]  ( 1 - 194 )
+;C join(31..43,86..113,156..541,584..702,746..772)
+PAM = 100, BIAS = 0.0, u = 4.0, v = 10.0
+Score = 740.1 (830.8), 156.0 (=), 34.0 (#), 0.0 (g), 0.0 (u), (82.11 %)
+ALIGNMENT   1 / 1
+
+          V  J  A  R                                            G  P  S  S  R  E  N  N  K  G                                            W  K  M  E  P  R  V  F  Q  R  N  F  P  P  R  Q  N  G  Q  V  Y  L  L  Y  E  I  R  R  R  R  R  A  V  R  R  N  W  C  S  N  N  G  E  Q  H  A  E  I  N  F  L  
+      31 GTCAGTGCCAGAGgtaagtacatttatgtgaaagtcacaaatcttttctacacagGTCCCTCATCCAGAGAGAACAACAAAGGgtaagagatgtagctctgtcaactgctggtactcttcttcagGTGGAAGATGGAGCCAAGAGTCTTCCAAAGAAATTTTCCACCTAGACAAAATGGACAGGTGTACCTGCTGTATGAAATCAGGCGGAGAAGACGTGCTGTCCGGAGGAACTGGTGCTCGAACAATGGTGAACAACATGCTGAAATCAACTTCCTGG| extracted_flanking_region_combined
+       4  V  S  A  R                                            G  P  S  S  R  E  N  N  Q  G                                            W  K  M  Q  P  E  D  F  Q  R  N  Y  S  P  R  Q  N  G  R  V  Y  L  L  Y  E  I  R  W  R  S  S  S  I  W  R  N  W  C  S  N  N  P  E  Q  H  A  E  V  N  F  L  | APOBEC1_Zonotrichia_albicollis.fa
+
+         E  N  R  F  N  I  R  P  Q  I  P  C  S  I  T  W  F  L  S  T  J  P  C  G  N  C  C  R  R  I  L  E  F  L  R  S  R  P  N  V  T  L  D  I  Y  A  A  K  L  F  R  P  R  D  S  R  N  R  Q  G  L  C  D  L  M  M  N  G  V  A  I  R  I  M  N  L  E                                            D  Y  R
+     311 AAAATCGTTTCAATATCAGGCCACAAATTCCTTGCTCCATCACCTGGTTCCTTTCAACTAGTCCCTGTGGAAACTGCTGCAGAAGGATTCTGGAGTTCCTGAGGTCACGCCCTAACGTGACCTTGGATATATATGCAGCCAAGCTGTTCAGGCCCCGAGATTCACGGAACCGACAAGGTCTCTGTGACCTGATGATGAATGGAGTCGCTATACGTATCATGAACCTTGAAGgtaacccagctactctaagtgactgggtatctctcttcttagATTACAG| extracted_flanking_region_combined
+      69 E  N  H  F  N  N  Q  P  Q  T  P  C  C  I  T  W  F  L  S  A  S  P  C  G  N  C  C  R  R  I  L  K  F  L  R  S  H  P  N  V  T  L  V  I  C  A  A  K  L  F  R  H  L  D  I  R  N  R  R  G  L  R  S  L  M  M  N  G  V  A  I  R  I  M  N  L  E                                            D  Y  R| APOBEC1_Zonotrichia_albicollis.fa
+
+           Y  C  W  R  N  F  V  A  H  Q  P  G  E  D  D  Y  W  P  Q  N  V  T  L  Y  F  I  L  J  J  I  E  L  L  H  I  F  L                                             E  L  P  P  F  L  A  N  U                                                                                                   
+     591 GTACTGCTGGAGAAATTTTGTTGCACACCAACCTGGAGAAGATGATTATTGGCCCCAGAATGTCACTTTATACTTCATTCTGAGTAGCATAGAACTCTTACATATCTTTTTGgtaagtagacacctgaaaaaacttttgttttcttcctccatagGAGCTTCCTCCATTTCTGGCAAACTGA                                                                                                  | extracted_flanking_region_combined
+     149   Y  C  W  R  N  F  V  A  H  Q  P  G  Q  D  D  Y  W  P  Q  N  V  T  L  Y  F  I  L  N  S  I  E  L  L  H  I  F  L                                             D  L  P  P  F  L  A  N  -                                                                                                   | APOBEC1_Zonotrichia_albicollis.fa
+
+

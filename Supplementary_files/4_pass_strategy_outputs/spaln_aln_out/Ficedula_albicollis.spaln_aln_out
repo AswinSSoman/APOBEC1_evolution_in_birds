@@ -1,0 +1,20 @@
+
+>extracted_flanking_region_combined [1:795]  ( 1 - 795 ) - >APOBEC1_Stachyris_ruficeps.fa [1:195]  ( 1 - 195 )
+;C join(22..43,86..113,156..544,587..705,748..768)
+PAM = 100, BIAS = 0.0, u = 4.0, v = 10.0
+Score = 777.0 (799.2), 152.0 (=), 40.0 (#), 1.0 (g), 3.0 (u), (77.95 %)
+ALIGNMENT   1 / 1
+
+          M  A  A  D  G  A  R                                            G  P  L  P  R  E  N  N  Q  G                                            W  R  M  Q  P  R  D  F  Q  R  N  Y  S  P  J  Q  N  G  R  V  V  Y  L  L  Y  E  I  R  W  K  G  G  S  I  W  R  N  W  C  S  N  N  P  E  Q  H  A  E  
+      22 ATGGCTGCTGATGGTGCCAGAGgtaagaacatttctgtgaaagccacaaatcttttctacacagGTCCCTTACCCAGAGAGAACAACCAAGGgtaagagatgtagctctgtcaactgctggtactcttcttcagGTGGAGGATGCAGCCAAGAGACTTCCAAAGAAATTACTCACCTAGCCAAAATGGACGGGTGGTGTACCTGCTGTATGAAATCAGATGGAAAGGAGGTTCCATCTGGAGGAACTGGTGCTCAAACAATCCTGAACAACATGCTGAAA| extracted_flanking_region_combined
+       1  M  A  A  V  N  A  G                                            G  P  L  P  R  Q  N  N  Q  G                                            W  R  L  P  P  E  D  F  Q  R  N  Y  S  P  N  Q  I  G  R  V  V  Y  L  L  Y  E  I  R  W  R  R  G  S  I  W  R  N  W  C  S  N  N  H  E  R  H  A  E  | APOBEC1_Stachyris_ruficeps.fa
+
+         I  N  F  L  E  N  R  F  N  D  R  P  Q  T  S  C  S  I  T  W  F  L  S  T  J  P  C  G  K  C  S  K  R  I  L  E  F  L  R  S  H  P  N  V  T  L  K  I  Y  T  A  K  L  F  R  H  Y  E  I  R  N  R  Q  G  L  R  N  L  I  M  N  G  V  A  V  H  I  M  N  L  E                                       
+     302 TCAACTTCTTGGAAAATCGCTTCAATGACAGGCCACAAACTTCTTGCTCTATCACCTGGTTCCTTTCAACTAGTCCCTGTGGAAAGTGCTCCAAAAGGATTCTGGAATTCCTGAGGTCACACCCTAATGTGACCTTGAAAATATATACAGCCAAGCTGTTCAGGCACTACGAGATCCGGAACCGACAAGGTCTCCGCAACCTGATAATGAATGGAGTGGCTGTGCATATCATGAATCTTGAAGgtaacccagctgctctttgtcactgggtatctctctt| extracted_flanking_region_combined
+      66 V  N  F  L  E  N  H  F  S  D  R  P  Q  T  Q  C  F  I  T  W  F  L  S  T  S  P  C  G  N  C  S  R  R  I  L  E  F  L  R  S  H  P  N  V  T  L  E  I  Y  A  A  K  L  F  R  H  H  D  I  R  N  R  Q  G  L  R  S  L  I  M  N  G  V  T  I  R  I  M  N  L  G                                       | APOBEC1_Stachyris_ruficeps.fa
+
+              D  Y  J  Y  C  W  T  N  F  V  A  H  Q  P  G  E  V  H  Y  Q  P  Q  N  I  T  V  H  F  F  L  N  C  M  E  L  F  H  I  F  L                                            G  L  P  P  L  -  -  -  L  U                                                                                     
+     582 cttagATTACAGTTACTGCTGGACAAATTTTGTTGCACACCAACCTGGAGAAGTTCATTATCAGCCCCAGAACATCACTGTACACTTCTTTCTGAATTGCATGGAACTCTTCCATATCTTTTTGgttagtagacacctgaagaaatttttttttccttcctcctagGGGCTTCCTCCACTT---------CTGTGA                                                                                    | extracted_flanking_region_combined
+     147      D  Y  S  Y  C  W  R  N  F  V  A  H  Q  P  G  E  D  Y  Y  Q  D  Q  N  I  A  V  Y  S  F  L  N  H  R  E  L  F  H  I  F  W                                            G  L  P  P  L  P  S  N  X  -                                                                                     | APOBEC1_Stachyris_ruficeps.fa
+
+

@@ -1,0 +1,20 @@
+
+>extracted_flanking_region_combined [1:804]  ( 1 - 804 ) - >APOBEC1_Tauraco_erythrolophus.fa [1:195]  ( 1 - 195 )
+;C join(22..43,86..113,156..544,587..705,748..783)
+PAM = 100, BIAS = 0.0, u = 4.0, v = 10.0
+Score = 943.3 (968.1), 181.0 (=), 13.0 (#), 0.0 (g), 0.0 (u), (93.30 %)
+ALIGNMENT   1 / 1
+
+          M  A  A  V  T  D  R                                            G  P  T  P  R  E  N  N  Q  G                                            W  K  I  Q  S  N  D  F  R  R  N  Y  L  P  G  Q  H  P  R  V  V  Y  L  L  Y  E  I  R  W  J  R  G  T  I  W  R  N  W  C  S  N  N  S  T  Q  H  A  E  
+      22 ATGGCTGCTGTCACTGATAGAGgtaagtacatgtacgtgaaaatcacaaatcttttctatatagGTCCTACACCCAGAGAGAACAACCAAGGgtaagagatacaggtctatcactgctggtacttttgtcgcagGTGGAAGATACAGTCAAATGACTTCAGAAGAAATTATTTGCCTGGCCAACATCCAAGGGTGGTGTACCTGCTGTATGAAATCAGGTGGAGCAGAGGTACCATCTGGAGGAACTGGTGTTCAAACAATTCTACCCAACATGCTGAAG| extracted_flanking_region_combined
+       1  M  A  A  V  T  D  R                                            G  P  P  P  R  G  N  N  R  G                                            W  K  I  Q  S  N  D  F  K  R  N  Y  L  P  G  Q  H  P  R  V  V  Y  L  L  Y  E  I  R  W  S  R  G  T  I  W  R  N  W  C  S  N  N  S  T  Q  H  A  E  | APOBEC1_Tauraco_erythrolophus.fa
+
+         V  N  F  L  E  N  C  F  K  A  M  P  S  V  S  C  S  I  T  W  V  L  S  T  T  P  C  G  K  C  S  K  R  I  L  E  F  L  R  V  H  P  K  V  T  L  E  I  Y  A  A  K  L  F  K  H  L  D  T  R  N  R  Q  G  L  R  N  L  A  M  N  G  V  I  I  R  I  M  N  L  T                                       
+     302 TCAACTTCTTGGAAAATTGTTTCAAGGCCATGCCGTCTGTTTCTTGCTCCATCACCTGGGTCCTATCTACTACTCCCTGTGGGAAATGCTCCAAAAGAATTCTGGAGTTCCTAAGGGTACATCCCAAAGTGACCTTGGAAATATATGCAGCCAAGCTGTTCAAGCACCTGGACACCCGTAACAGGCAAGGACTGAGGAACCTGGCAATGAATGGAGTCATTATACGCATCATGAATCTTACAGgtaacccaacaactctttggctgactggatatctctt| extracted_flanking_region_combined
+      66 V  N  F  L  E  N  C  F  K  A  M  P  S  V  S  C  S  I  T  W  V  L  S  T  T  P  C  G  K  C  S  E  R  I  L  E  F  L  R  V  H  P  N  V  T  L  E  I  Y  A  A  K  L  F  K  H  L  E  T  R  N  R  Q  G  L  R  N  L  A  M  N  G  V  I  I  R  I  M  N  L  A                                       | APOBEC1_Tauraco_erythrolophus.fa
+
+              D  Y  N  Y  W  W  K  R  F  A  A  C  Q  H  G  E  D  D  Y  W  P  W  J  F  V  S  Y  I  F  L  N  Q  I  E  L  R  H  I  L  L                                            G  L  P  P  F  L  E  N  F  K  Y  O                                                                               
+     582 ttcagATTACAATTACTGGTGGAAAAGATTTGCTGCATGCCAACATGGAGAGGATGATTATTGGCCCTGGAGCTTCGTTTCATACATCTTTCTGAATCAGATAGAGCTCCGTCACATCCTTTTGgttagtaggcacttgaagaaaatgtttctttcttcctgctagGGGCTTCCTCCGTTCCTGGAAAACTTTAAATACTAA                                                                              | extracted_flanking_region_combined
+     147      D  Y  N  Y  W  W  K  R  F  A  A  R  Q  H  G  E  D  D  Y  W  P  W  S  F  T  S  C  I  F  L  N  Q  I  E  L  H  R  I  L  L                                            G  L  P  P  F  L  E  N  -  -  -  -                                                                               | APOBEC1_Tauraco_erythrolophus.fa
+
+

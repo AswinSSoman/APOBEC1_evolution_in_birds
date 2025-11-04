@@ -1,0 +1,22 @@
+
+>extracted_flanking_region_combined [1:801]  ( 1 - 801 ) - >APOBEC1_Aptenodytes_forsteri.fa [1:198]  ( 1 - 198 )
+;M Insert 1 chars at 102
+;M Deleted 1 chars at 704
+;C join(22..43,86..112,155..543,586..708,747..773)
+PAM = 150, BIAS = 0.0, u = 2.0, v = 9.0
+Score = 822.7 (796.3), 171.0 (=), 22.0 (#), 4.0 (g), 6.0 (u), (85.93 %)
+ALIGNMENT   1 / 1
+
+          M  A  A  I  T  D  R                                            D  P  A  P  R  A  N  N  Q  G                                            W  K  I  Q  P  N  D  F  K  R  N  Y  L  P  G  Q  H  P  K  V  V  Y  L  L  C  E  I  M  W  J  R  G  T  I  W  R  J  W  C  S  N  N  S  T  P  H  A  E  
+      22 ATGGCTGCCATCACTGATAGAGgtaagtacatgtatgcgaatatcacaaatcttttctatacagATCCTGCACCCAGAGC-AACAACCAAGGgtaagagatacagttctatcactgctggtacttttgttgcagGTGGAAGATACAGCCAAATGACTTCAAAAGAAATTATTTGCCTGGCCAACATCCAAAGGTAGTGTACCTGCTGTGTGAAATCATGTGGAGCAGAGGTACCATCTGGAGGAGCTGGTGCTCAAACAATTCTACCCCACATGCTGAAG| extracted_flanking_region_combined
+       1  M  A  A  V  T  D  R                                            D  L  A  P  R  E  N  N  Q  R                                            W  K  I  R  P  N  D  F  K  R  N  Y  L  P  G  Q  H  P  K  V  V  Y  L  L  Y  E  I  R  W  S  R  G  T  I  W  R  N  W  C  S  N  N  S  T  Q  H  A  E  | APOBEC1_Aptenodytes_forsteri.fa
+
+         V  N  F  L  E  N  C  F  K  A  M  P  S  V  S  C  S  I  T  W  V  L  S  T  T  P  C  G  K  C  S  R  R  I  L  E  F  L  G  I  H  T  N  V  T  L  E  I  Y  A  A  K  L  F  K  H  L  D  I  R  N  R  Q  G  L  R  N  L  A  T  N  G  V  I  I  H  I  M  N  R  A                                       
+     301 TCAACTTCTTGGAAAATTGTTTCAAGGCCATGCCATCAGTTTCTTGCTCCATCACCTGGGTCCTATCTACTACTCCCTGTGGGAAATGCTCCAGAAGAATTCTGGAGTTCCTGGGGATACATACCAATGTGACCTTGGAAATATATGCAGCCAAGCTGTTCAAGCATCTGGATATCCGTAACCGGCAAGGTCTCAGGAACCTGGCAACAAATGGAGTCATTATACATATCATGAATCGTGCAGgtaacccagctactctttggcactggatatctctctt| extracted_flanking_region_combined
+      66 V  N  F  L  E  N  C  F  K  A  M  P  S  V  S  C  S  I  T  W  V  L  S  T  T  P  C  G  K  C  S  R  R  I  L  E  F  L  R  V  H  P  N  V  T  L  E  I  Y  A  A  K  L  F  K  H  L  D  I  R  N  R  Q  G  L  R  N  L  A  M  N  G  V  I  I  R  I  M  N  L  A                                       | APOBEC1_Aptenodytes_forsteri.fa
+
+              D  Y  J  Y  C  W  K  J  F  V  A  Y  Q  H  G  E  D  D  Y  U  P  Q  J  F  A  S  Y  I  F  L  N  W  T  E  L  C  H  I  L  F   S                                        G  L  P  P  L  L  A  N  -  -  -  -  U                                                                            
+     581 ctcagATTACAGCTACTGCTGGAAAAGTTTTGTTGCATACCAGCATGGAGAAGATGATTATTGACCCCAGAGCTTCGCTTCATACATCTTTCTGAATTGGACAGAGCTCTGTCATATCCTTTTCaTCAgtaggcacttgaagaaaatgtttctttcttcctgctagGGTCTTCCTCCATTGCTGGCAAAC------------TGA                                                                           | extracted_flanking_region_combined
+     147      D  Y  S  Y  G  W  K  R  F  V  A  Y  Q  R  G  E  D  D  Y  W  P  W  S  F  A  S  Y  I  L  L  N  W  I  E  L  Y  H  I  L  -   S                                        G  L  P  P  L  L  A  N  F  K  Y  X  -                                                                            | APOBEC1_Aptenodytes_forsteri.fa
+
+
