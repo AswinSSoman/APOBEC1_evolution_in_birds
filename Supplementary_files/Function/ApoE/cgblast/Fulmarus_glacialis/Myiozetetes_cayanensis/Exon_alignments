@@ -1,0 +1,12 @@
+[07;32m[K>exon_3[m[K	
+	
+  
+  APOE_Myiozete      1 GCAGGTGGTGG--------GGGAGTTCC----GGG---CGCTGCGGAACGAGGCGCGGGA--CC---GCGCGG----CCGAGTACGGGGTGGAGGC---GAAGGCGCTGCTGGAGCAGAGCTGGGGGGACCTGAAGGCCCGGGGGGCTTCGTTCGCCCGAAAGCTGCGCAAGAGGCTGAACCGGGACGCGGAGGAGCTGAGGAA--GCGCTGGGACGGGGGGGTCGCCGCCCTCAGGGCC    211
+                          ||.|.|||        |.|||..||    |||   |.||||.|...||||||..|||  ||   |.||||    |.||.||||||||||||||   ||.|||   ..||||...|||.||||||||..|.||....||||||||..|.|.||||||.||.||.||.||..|..||||.|||||  ||||      ||.|||  |||                               
+  extracted_fla      1 ---GGAGCTGGAGAACCAAGCGAGCACCCTGAGGGCCACCCTGCAGGCGGAGGCGGCGGAGGCCTGGGGGCGGGTGACGGAATACGGGGTGGAGGCTCGGACGGC---TTTGGAATTGAGTTGGGGGGAGTTAAAAAATCGGGGGGCCACCTACGCCCGGAAACTTCGGAAACGTTTGAATCGGGA--CGGA------GAAGAATTGCG-------------------------------    195
+  
+  APOE_Myiozete    212 CTCTGGGGGATCCCCGAGACCCCCTGGGACCCCCAGGATTGA    253
+                                                                 
+  extracted_fla    195 ------------------------------------------    195
+
+

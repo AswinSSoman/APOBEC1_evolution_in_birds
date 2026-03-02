@@ -1,0 +1,124 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_003676055.1_GouldianFinch_genomic.fna
+           18,372 sequences; 1,070,785,140 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17124625536
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 127360029888
+
+
+Query= exon_3
+
+Length=544
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+QUSF01016419.1 Erythrura gouldiae isolate Red01 scaffold_17804, w...  90.6       6e-16
+QUSF01000089.1 Erythrura gouldiae isolate Red01 scaffold_89, whol...  58.1       3e-06
+QUSF01000007.1 Erythrura gouldiae isolate Red01 scaffold_7, whole...  49.1       0.002
+QUSF01005760.1 Erythrura gouldiae isolate Red01 scaffold_5941, wh...  48.2       0.002
+QUSF01005759.1 Erythrura gouldiae isolate Red01 scaffold_5940, wh...  48.2       0.002
+QUSF01001745.1 Erythrura gouldiae isolate Red01 scaffold_1751, wh...  48.2       0.002
+QUSF01001744.1 Erythrura gouldiae isolate Red01 scaffold_1750, wh...  48.2       0.002
+QUSF01001726.1 Erythrura gouldiae isolate Red01 scaffold_1732, wh...  48.2       0.002
+QUSF01001725.1 Erythrura gouldiae isolate Red01 scaffold_1731, wh...  48.2       0.002
+QUSF01001119.1 Erythrura gouldiae isolate Red01 scaffold_1123, wh...  48.2       0.002
+QUSF01001118.1 Erythrura gouldiae isolate Red01 scaffold_1122, wh...  48.2       0.002
+QUSF01000040.1 Erythrura gouldiae isolate Red01 scaffold_40, whol...  47.3       0.006
+QUSF01000032.1 Erythrura gouldiae isolate Red01 scaffold_32, whol...  47.3       0.006
+QUSF01000017.1 Erythrura gouldiae isolate Red01 scaffold_17, whol...  47.3       0.006
+QUSF01000015.1 Erythrura gouldiae isolate Red01 scaffold_15, whol...  47.3       0.006
+QUSF01000002.1 Erythrura gouldiae isolate Red01 scaffold_2, whole...  47.3       0.006
+QUSF01000150.1 Erythrura gouldiae isolate Red01 scaffold_150, who...  46.4       0.006
+
+
+
+Query_3  15        AGACCATGGAGGAGCT---G---GAGGCGCAGGTGGCAGAGCTGCAGGCCAAGCTGGGCCCCAgcggcgaggc-gggcgcggggctgcgtcgcgacgtggaggagctgggcgggcggctgcgggcCGAGCTGGTGGAGGCACGGGGCCGGGCAGCGCAGTACGGGGCCGAGGCGCGGGCCGTGCTGCAGCAGGGCGCCGAGGACCTGCGGAGCCGCCTGGCCGCCTACGCCCGCAAGCTGCGCAAGCGCCTGGCCAAGGACGCCGAGGAGCTGCGGAGCC  287
+16418    334                                                                                                            .......--......-............G.C.G..C.-.G..C.....--------.C........G...........GC.....G...TCA......CC.....C..CGC....GGC.......T....A.A...T.C..G........CAG.CGC...CA.............C.G.  168
+88       572401                                                                                                                                                                                                                                                                         ..............CGC..  572419
+88       413209    .....C..........---.---C...AC...AA...T......G.....C..G...                                                                                                                                                                                                                                 413159
+6        1023207                                                                                                                                                                                                                                                                                   ........  1023200
+1744     6292           ..C........GGA.---....A..T..A.......----...A..G..C.....AAG.T..A..A..A.C..T...A....TCG..G..GC..........CA...A.......                                                                                                                                                                  6399
+1743     3736           ..C........---.GAG....A..T..A.......----...A..G..C.....AAG.T..A..A..A.C..T...A....TCG..G..GC..........CA...A.......                                                                                                                                                                  3629
+1725     6299           ..C........GGA.---....A..T..A.......----...A..G..C.....AAG.T..A..A..A.C..T...A....TCA..G..GC..........CA...A.......                                                                                                                                                                  6406
+1724     3812           ..C........---.GAG....A..T..A.......----...A..G..C.....AAG.T..A..A..A.C..T...A....TCA..G..GC..........CA...A.......                                                                                                                                                                  3705
+31       7076169                                                                                                                                                ...........G.....CGG........-....G......C....                                                                                                7076212
+
+Query_3  288       GCCTGGCCGCCgcggccggcgaggtgcgggcccgggcggcgg-cgctgcacgaggggctgccgg-tgctgcgggc---gccgccgcggctggcggcgctgggACAGGCGCTG---GGC------GAGCAGGG---CCGCCGGGTGC---AGCGGGGGCTGCGGGAGGCGGTGCAGGAG  445
+16418    167       ..                                                                                                                                                                                  166
+88       572420    ...........AGCT...AG...C.........A.CT.AGCC-.....GC.C...A.....G..A...G...A..---.G..A...                                                                                              572501
+6        1023199   ...G...G.GGA....GC.A.G..A......T...CG...A.-.....--..GC....G.G...-...C.GC...CCG...C.T.T.C.G..G...T.G....-...GC.G.---...------.T..G...GGCT..G....-..---C.GC.....G.....CA....          1023048
+5759     406                                                                                                 ..T..G..A...C.C.......---...------........---.A.GA......---..                             451
+5758     3295                                                                                                ..T..G..A...C.C.......---...------........---.A.GA......---..                             3250
+1118     11880                                                                                               ..T..G..A...C.C.......---...------........---.A.GA......---..                             11925
+1117     3294                                                                                                ..T..G..A...C.C.......---...------........---.A.GA......---..                             3249
+39       1246329                                                                           ...---.G.........-.......----..G.....GC.---...CCAGGT....-...---...--...CC.---C.....T..............          1246252
+16       1104586                                                                                                                 ..---T..------........---...-...C...AGG...T..A..A.....T........T....  1104532
+14       14749440                                 ......A....G......TG...C......G..--..-.A.T..---.TG...----....A..A....CTG.T..A....CAG.C.------.....C..---G.A.AT..C.G---.....CA..G.............G..     14749561
+1        15574147                                                       ..A..C.....-...-....C.-----.....G.....T....CG..---.T....G..AG-..G------....G...---........C.----.......                        15574225
+149      26351                                                                                                                                                    ...---....................C...C..    26322
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 549020606904
+
+
+  Database: GCA_003676055.1_GouldianFinch_genomic.fna
+    Posted date:  Sep 30, 2020  10:41 PM
+  Number of letters in database: 1,070,785,140
+  Number of sequences in database:  18,372
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

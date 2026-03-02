@@ -1,0 +1,110 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_005870125.1_lonStrDom2_genomic.fna
+           2,015 sequences; 1,060,269,806 total letters
+
+
+
+Query= exon_1
+
+Length=43
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_021819240.1 Lonchura striata domestica isolate Mets1 unplaced ...  42.8       0.002
+
+
+
+Query_1  1      ATGAAGCTCTGGGTCGCGCTAGTGGCAGCAACGCTGCTGGCAG  43
+1034     41940  ......T.......G.....G.C...GCTG.............  41898
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 16963446416
+
+
+Query= exon_2
+
+Length=145
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_021819240.1 Lonchura striata domestica isolate Mets1 unplaced ...  64.4       5e-09
+NW_021819194.1 Lonchura striata domestica isolate Mets1 unplaced ...  64.4       5e-09
+
+
+
+Query_2  51     cccTCGCGGGTCTGGAGGGTCCTGGCGGTCCTGGAGGCAGCGGCTGAGAACGCGACGGAGCGGCTGCGGGAGACCCCCGTGGTGCAGCGGCTGCA  145
+1034     40273  ...G..A..A.T...G..T......G.AC...C.G..AG.....C............C.......C..CC.C.G.G..C...CC...........  40179
+988      10355  ...G..A..A.T...G..T......G.AC...C.G..AG.....C............C.......C..CC.C.G.G..C...CC...........  10261
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 122984519036
+
+
+Query= exon_3
+
+Length=253
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_021819280.1 Lonchura striata domestica isolate Mets1 unplaced ...  47.3       0.003
+NC_042590.1 Lonchura striata domestica isolate Mets1 chromosome 2...  47.3       0.003
+NC_042566.1 Lonchura striata domestica isolate Mets1 chromosome 1...  47.3       0.003
+NC_042594.1 Lonchura striata domestica isolate Mets1 chromosome 2...  46.4       0.003
+NW_021818468.1 Lonchura striata domestica isolate Mets1 unplaced ...  45.5       0.009
+NC_042571.1 Lonchura striata domestica isolate Mets1 chromosome 5...  44.6       0.009
+
+
+
+Query_3  67        GGAGGCGAAGGCGCTGCT-GGAGCAGAGCTGGGGGGACCTGAAGGCCCGGGGGGCTTCGTTCGCCCGAAAGCTGCGCAAGAGGCTGAACCGGGACGCGGAGGAGCTGAGGAAGCGCTGGGACgggggggTCGCCGCCCTCAGGGCCCTCTGGGGGATCCCCGAGA--C-CCCCTGGGA-CCCCCAGGAT  250
+1074     42164                                                                                                                                            .........A..C.C....ACC........--.-..T.A....-....A...    42211
+25       1951493                                                                                                                                                           ......A......--.-....C....-.....G....  1951525
+1        1184                                                                                                                                                            ......C........--.-....G....-.A......    1216
+29       3360053                                                                                                                                          ........A...C.CT...ACC.....G..--.-.........-.....       3360097
+29       580173                                                                                                                                           ...C....A..........ACC....AG..TC.-.........C..........  580225
+262      311                                                                                                                                                    ...A..C........C...T.G..--.A.........-.....G...   268
+262      547                                                                                                                                                        ........--.C.....G..--.A.........-.........   510
+6        10573207  ......A...........G............                                                                                                                                                                10573177
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 236426686388
+
+
+  Database: GCF_005870125.1_lonStrDom2_genomic.fna
+    Posted date:  Sep 27, 2020  4:04 PM
+  Number of letters in database: 1,060,269,806
+  Number of sequences in database:  2,015
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

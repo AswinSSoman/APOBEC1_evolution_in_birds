@@ -1,0 +1,32 @@
+[07;32m[K>exon_1[m[K	[03;04;32m[KLength:223[m[K | [03;04;32m[KIdentity:90/223(40.4%)[m[K | [03;04;32m[KSimilarity:90/223(40.4%)[m[K | [03;04;32m[KGaps:108/223(48.4%)[m[K | [03;04;32m[KScore:223.5[m[K
+	
+  
+  APOE_Dromaius      1 -------------------ATGAA--GCTCTGGGTTGCGCTGCTGGGAGCTGCCCTGCTTGCGG---------------------     43
+                                          |.|||  ||.|..|||||.||||||||||||||||||||||..||                     
+  extracted_fla      1 GGGGAACAGACATTTGGGAAGGAAGGGCACCTGGttgggctgctgggagctgccctgcttTGGGGACAGGGCGAGCAGAGCCCTT     85
+
+
+[07;32m[K>exon_2[m[K	[03;04;32m[KLength:223[m[K | [03;04;32m[KIdentity:90/223(40.4%)[m[K | [03;04;32m[KSimilarity:90/223(40.4%)[m[K | [03;04;32m[KGaps:108/223(48.4%)[m[K | [03;04;32m[KScore:223.5[m[K
+	
+  
+  APOE_Dromaius      1 -----------------------GCTGCAG---------------GGCTGAGCAGGGCCCCGAGGAGCCGCGGGCCGGGTGGGAAGCGGCCGTCGACAGCTTCTGGGAGTACGTGG---CCCAGCTGGGGCAGGCGGTGGAGAACGG----------------------CACCGCACGC-----GTGAAGAGCTCCGAGATCGGCCG-------CCAGCTCGA    148
+                                              .||||||               |.|||||||                 |||||.|||||||.|.||||.|.|.||||||||||||    ||||   ||||.|...||||.|.|.|.| ||||.|                      .|||.||..|     ||||.|        |||.|||.|       ||.|||   
+  extracted_fla      1 TGACAGCACAGTGAAGAGGCAGAACTGCAGTGGCTGTTGTTGACTGACTGAGCA-----------------GGGCCAGGTGggacggggccctgggcagcttctGGGA----GTGGCAACCCACCCACGGCACGAGATTG-GAACTGGGTgggttttaaggtcccttccaaccccaaccattctgtgatg--------gATTGGCTGTTGGGTCCCTGCT---    190
+
+
+[07;32m[K>exon_3[m[K	[03;04;32m[KLength:223[m[K | [03;04;32m[KIdentity:90/223(40.4%)[m[K | [03;04;32m[KSimilarity:90/223(40.4%)[m[K | [03;04;32m[KGaps:108/223(48.4%)[m[K | [03;04;32m[KScore:223.5[m[K
+	
+  
+  APOE_Dromaius      1 ---------CGGCCTCATCGCAGAGACCATGGAGGAGCT------GGAGGCGCAGGTGGCAGAGCT--GC-AGGCCAA----GCTGGGC---------CCCAGCGG-CGAGGCGGGCGCGGGGCTGCGTC------GCGACGTG-GAGGAGCTGGGCGGGCGGC-TGCGGGCCGAGCTGGTGGAGGCACGGGGCCGGGCAGCGC--AGTA-CGGGGCCGAGGCGCGGGCCGTGCTGCAGC    197
+                                ||  ||...|||.|     |||     |||      |||||.||||.|  |.|.|||  || |.||.||    ||.||||         |||.|||| ||...||.||..||||  |.|||      |||  ||| ||||.||.||||||||||| .|||||||.|  |.| |||||..|||||||||||.||||  ||.| |||   ||.||||| ||||||||.||   
+  extracted_fla      1 AAAACCGAACG--CTGTACGCTG-----ATG-----GCTTGCTGCGGAGGAGCAGCT--CGGTGCTCGGCGACGCAAAAGCCGCCGGGCTCTGCCgctccccgcggccgccccgtGCCTGGGG--GTGTCCCGGGGGCG--GTGCGAGGGGcagggcgggcggcgggcgggcccA--TAG-GgagggccggggccgggcggcgcGGAGaagcgg---cgcggcgc-ggccgtgCGGC---    212
+  
+  APOE_Dromaius    198 AGGGCGCCGAG----GACCTGC-----GGAGCC--GCCTGGCCGCCTACGCCCGCAAGCTGCGCAAGCG----CCTGGCCAAGGAC-GCCGAGGAGC-----------TGCGGAGCCGCCTGGCCGCC-GCGGC---CGGCGAGGTGC-------GGGCCCGGGCGGCGG-----------------CGCTGCACGAG--------GGGCTGCCGGTGCTGCGGGCGCCGCCGCGGCT-G    373
+                         |||.|||||    ||.||||     ||.|||  |||.|||||     |.|||  .||.|.||..|||    |.||.||..|||| |  |.|||||           ||.|||.||||.||| |||| |||||   ||||..||..|       ||||.|||..|||||                 |||  |.||||        |||||   ||.||.|||||    |.|.||||| |
+  extracted_fla    213 --GGCACcgagctgagagctgcaggtgggtgccgggccgggccg-----ggccg--ggccgtgccCGCGCGTCCGTGTCCCGGGACTG--GGGGAGCTCCGGCGGGCGTGGGGAACCGCGTGG-CGCCGGCGGCTTTCGGCTCGGCCCCCCCGCGGGGCGCGGAAGGCGGTAAAACGGAGAGGAGACCGC--CTCGAGCGGACGGAGGGCT---GGGGCGGCGGG----GACTCGGCTCG    431
+  
+  APOE_Dromaius    374 GCGGCG-CTG--------GGACAGGCG--CTGGGCGAG-------CAGGGCCGCCGGGTGCAGCGGGGGCTGC--GGGAGGCGGTGCAGGAGCTGTGGGCCTCG---GTGGACG--GCGT--CCTGCAGGGGCTCCTGGGCTGGCTGA-CGATGCTGCTGCCCAGCTCCCCAGCACTGCGCGACGCCCCCAAGCCTTGA    544
+                       |.||.| .||        ||||||.||  |..||||||       .||||..||..||.||..|||.|||.||  ||||.||      ||.|||.|...|||||   |.|.|||  |.||  |||        |||...|.||||.|| |||.||.|               |.|..||||                  
+  extracted_fla    432 GTGGGGAGTGGGGGAGACGGACAGACGGACGAGGCGAGAGCCCTCGAGGGATGCTCGGCGCTTCGGTGGCCGCGTGGGACGC------GGGGCTTTCTCCCTCGCGCGGGAACGCAGAGTTCCCT--------TCCGTAGTTGGCGGAGCGAAGCGG---------------GGAGCGCGC------------------    583
+
+

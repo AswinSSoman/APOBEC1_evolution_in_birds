@@ -1,0 +1,103 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_003676055.1_GouldianFinch_genomic.fna
+           18,372 sequences; 1,070,785,140 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17124625536
+
+
+Query= exon_2
+
+Length=145
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+QUSF01008682.1 Erythrura gouldiae isolate Red01 scaffold_9074, wh...  95.1       3e-18
+
+
+
+Query_2  19    CCACTCCCGCGccccccaccccacctcggccccccTCGCGGGTCTGGAGGGTCCTGGCGGTCCTGGAGGCAGCGGCTGAGAACGCGACGGAGCGGCTGCGGGAGACCCCCGTGGTGCAGCGGCTGCA  145
+8681     1886  ....C...A.C.....GG.G..C..CGC..TG......A....T...G.....T...G........G..AG.....C...........C........C..CC...G.G..C...GC...........  2012
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 124149272832
+
+
+Query= exon_3
+
+Length=253
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+QUSF01016419.1 Erythrura gouldiae isolate Red01 scaffold_17804, w...  124        1e-26
+QUSF01000229.1 Erythrura gouldiae isolate Red01 scaffold_229, who...  45.5       0.009
+QUSF01005201.1 Erythrura gouldiae isolate Red01 scaffold_5351, wh...  44.6       0.009
+QUSF01005200.1 Erythrura gouldiae isolate Red01 scaffold_5350, wh...  44.6       0.009
+QUSF01005195.1 Erythrura gouldiae isolate Red01 scaffold_5345, wh...  44.6       0.009
+QUSF01005194.1 Erythrura gouldiae isolate Red01 scaffold_5344, wh...  44.6       0.009
+QUSF01000122.1 Erythrura gouldiae isolate Red01 scaffold_122, who...  44.6       0.009
+
+
+
+Query_3  9       TGGGGGAGTTCCGGGCGCTGCGGAACGAGGCGCGGGACCGCGCGGCCGAGTACGGGGTGGAGGCGAAGGCGCTGCTGGAGCAGAGCTGGGGGGACCTGAAGGCCCGGGGGGCTTCGTTCGCCCGAAAGCTGCGCAAGAGGCTGAACCGGGACGCGGAGGAGCTGAGGAAGCGCTGGGACgggggggTCGCCGCCCTCAGGGCCCTCTGGGGGATCCCCGAG-ACCCCCTGGG-ACCCCCAGGA  249
+16418    338     ..C.....C.G............GC.....TCG...CG...........C.......C.......CG..............TC...GCC.CC.....CCGC.....C..C..CG.C......A.....T.C..G...C.C..C.G...C...CAC.........C..CG............                                                                158
+228      10675                                                                                                                                                                                                   ........A...C.....--.C....C..C..........-.G......    10630
+5200     1295                                                                                                                                                                                                                        .....A...-..........-C.........  1267
+5199     2886                                                                                                                                                                                                                        .....A...-..........-C.........  2914
+5194     1295                                                                                                                                                                                                                        .....A...-..........-C.........  1267
+5193     2892                                                                                                                                                                                                                        .....A...-..........-C.........  2920
+121      697872                                                                                                                                                                                                 ............T.T......T....AC.A-.G....A...TG.........  697822
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 238662177540
+
+
+  Database: GCA_003676055.1_GouldianFinch_genomic.fna
+    Posted date:  Sep 30, 2020  10:41 PM
+  Number of letters in database: 1,070,785,140
+  Number of sequences in database:  18,372
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

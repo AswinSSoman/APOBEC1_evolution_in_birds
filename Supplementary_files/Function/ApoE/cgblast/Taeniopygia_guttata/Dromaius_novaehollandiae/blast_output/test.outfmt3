@@ -1,0 +1,131 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_003957565.2_bTaeGut1.4.pri_genomic.fna
+           199 sequences; 1,056,271,262 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 16900254224
+
+
+Query= exon_2
+
+Length=148
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044224.2 Taeniopygia guttata isolate Blue55 chromosome 12, bTa...  44.6       0.005
+
+
+
+Query_2  68       GGAGTACGTGGCCCAGCTGGGGCAGGCGG  96
+13       8937365  .......C....A................  8937337
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 125695593429
+
+
+Query= exon_3
+
+Length=544
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_024545382.1 Taeniopygia guttata isolate Blue55 unplaced genomi...  88.7       2e-15
+NC_044219.2 Taeniopygia guttata isolate Blue55 chromosome 7, bTae...  63.5       8e-08
+NC_044235.2 Taeniopygia guttata isolate Blue55 chromosome 23, bTa...  53.6       4e-05
+NC_044241.2 Taeniopygia guttata isolate Blue55 chromosome Z, bTae...  50.9       5e-04
+NC_044242.2 Taeniopygia guttata isolate Blue55 chromosome 29, bTa...  49.1       0.002
+NC_044232.2 Taeniopygia guttata isolate Blue55 chromosome 20, bTa...  49.1       0.002
+NC_044222.2 Taeniopygia guttata isolate Blue55 chromosome 10, bTa...  49.1       0.002
+NC_044216.2 Taeniopygia guttata isolate Blue55 chromosome 4A, bTa...  49.1       0.002
+NC_044240.2 Taeniopygia guttata isolate Blue55 chromosome 28, bTa...  48.2       0.002
+NC_044238.2 Taeniopygia guttata isolate Blue55 chromosome 26, bTa...  48.2       0.002
+NC_044236.2 Taeniopygia guttata isolate Blue55 chromosome 24, bTa...  48.2       0.002
+NC_044211.2 Taeniopygia guttata isolate Blue55 chromosome 1, bTae...  48.2       0.002
+NC_044225.2 Taeniopygia guttata isolate Blue55 chromosome 13, bTa...  47.3       0.006
+NC_044214.2 Taeniopygia guttata isolate Blue55 chromosome 3, bTae...  47.3       0.006
+NC_044213.2 Taeniopygia guttata isolate Blue55 chromosome 2, bTae...  46.4       0.006
+
+
+
+Query_3  15        AGACCATGGAGGAGCTGGAGGCGCAGGTGGCAGAGCTGCAGGCCAAGCTGGGCCCCAgcggcgaggcgggcgcggggctgcgt-cgcgacgtggaggagctgggcgggcggctgcgggcCGAGCTGGTGGAGGCACGGGGCCGGGCAGCGCAGTACGGGGCCGAGG---CGCGGGCCGTGCTG--CAGCAGGGCGCCGAGGACCTG-CGGAGCCGCCTGGCCGCCTACGCCCGCAAGCTGCGCAAGCGCCTGGCCAAGGACGCCGAGGAGCTGCGGAGCC  287
+119      6413                                                                                                                    .....A...GAT..G.T.......G....CG..C..G..CG..........A....---.......GC.....--G...TCA......CC..T..C-..CGC....GGC.......T....A.A...T.C..G.........AG.CGC...CA.......A...A.C.A.  6250
+30       24732957                                                             ....G...C..-.......G...GG..G.G..G..CC.G..C..........GGCG......G..G..CC.G.---...........G.G..C.GG........-..---..-......G..                                                                                                     24733069
+21       7762064                                                                                                                                                                                                                                                                             ...........---  7762054
+11       5970718                                                                                                                           ......CA....C.G......T.C..G.A..C..G...........GACA.......A..G..CC........-...--..C..G.C...G...CG.G.....----........                                               5970825
+5        8769651                                                                                                                                                                                                                                                                        ..A................  8769633
+25       6694693   .....C...........C...AC...AA...T......G.....C..G...                                                                                                                                                                                                                                       6694643
+25       6842387                                                                                                                                                                                                                                                                        ..............TGC..  6842405
+0        38964082                                                                                                                                                                                                                                                                                 .........  38964090
+14       8574113                                                                                                        ...........G.G..CT..-..G..C..C...G................                                                                                                                                   8574161
+3        9925869                                                                                                                                                                                                                                                                                   .......G  9925876
+
+Query_3  288       G-CCTGGCCGCCgcggc--c-ggcgagg---tgc-ggg-cccgg----gc--ggc-gg-cgctgcacgagggg---ctgccggt---g-ctgcgggcgccgccgc-ggctggc---ggcgct---gggA-----CAGGCGCTG---GG---CGA--G-CAGGGCCGCCG--GG--TGCAGCGGGGGCTGCGGGAGGCGGTGCAGGAGCTGTGGGCCTCGGTGGACGGC--GTCCTGCAGGGGCTCCTGGGCTGGCTGACGATGCTGCTGCCCA  509
+119      6249      .-.                                                                                                                                                                                                                                                                                6248
+8        10208323                                                                       ....---.......G---.-.......G..T....G-.....C.---..G...---...GGGCTG.G..G....---C.---G.---.-.T...GG..T.TG..--G..T..C............---.C...C..G....G...G..GT.G..G.T..CG.GG....-...A..G.C...--.....C..GG.....CT....  10208494
+8        14370676                                                                                                                ..A---...C.C---....-----.--......---..---GC.--.-.G.........--..GC...-..C.C.........GA....C.-...T..GCC.....G..C..                                                     14370761
+8        10208306                                                                       ....---.......G---.-.......-..T....G-.....CG---..G...---.--------.C..G....---C-----------.G....T.--.--..--G..T..............                                                                                  10208386
+24       3573847                                                                                                        ....-...CC..---....-----...T-----.C....--.---..---..G--.-...........--..--G..C.GC.....C.....                                                                                  3573909
+32       2238035                                                    .--...-T.-.C....G..GT.C.---........---.-G.T...-.T.T.....-A..-.C.---.CT...CCG....-----.-.T.....---..AGG...AG.-...C.G.TG..--..--G..T..............                                                                                  2238147
+21       7762053   .-..C..A..AG.....GG.-....-..---...-...-GG.C.----.T--.CG-..-...-.GG..C....----G......---.C.G......----...G-.......GCT......---...C-----TGC..C...---..---..                                                                                                                          7761944
+11       16980276                                          ....----..--A..-..G......TG...C..---....G..----.-.-.A.T...TG...-----....A---..A...---.CTG-----.T..A....CAG.C---...--.-..C..G.A.AT--..--C.G.....CA..G.............G..                                                                       16980397
+5        8769632   .C..C...G.G..G...--.G...C..-----..-...-G....----..CA...-..-G..C..                                                                                                                                                                                                                  8769583
+29       144098                              ..---..G-C..-.GG.C----..--...-..-.C.CT..GC..CC.---.C....CC---T-.A..A.C......A..C...G..A---....GC---....-----GC...T.C.---..---G-------...--..G..--..--A..C.....C.G............C.GC.......                                                                 143965
+27       770904                                                                                                                  ..T---..G..A---...C-----.C.......---..---...--.-......A.GA.--..--.....                                                                                               770949
+25       6842406   .-..........AGCT.--.-.AG...C---...-...-.                                                                                                                                                                                                                                           6842436
+0        38964091  .-..G.---....G...--G-....C..---A..-...T..G..----.G--...-C.-...A..G.CCC...---.G.GA..C---.-G........                                                                                                                                                                                 38964162
+3        9925877   T-..---...G..G...--.-....C..CCA...T...-.....CGGC..--...T..-.....GG..C....GAG.......CCCG.-....T.....T..TCT-...---.---......---..TG-----.T....GCC---.C---..C--.G.C.C..T..TC--.---.C.T...............                                                                                 9926030
+2        488776                                                                                                                                                                                   .......................C...C..                                                                      488805
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 541863992709
+
+
+  Database: GCF_003957565.2_bTaeGut1.4.pri_genomic.fna
+    Posted date:  Apr 19, 2024  4:52 PM
+  Number of letters in database: 1,056,271,262
+  Number of sequences in database:  199
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

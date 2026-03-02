@@ -1,0 +1,86 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_009650955.1_bCorMon1.pri_genomic.fna
+           105 sequences; 1,112,734,094 total letters
+
+
+
+Query= exon_1
+
+Length=181
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_045477.1 Corvus moneduloides isolate bCorMon1 chromosome 2, bC...  47.3       0.002
+
+
+
+Query_1  95        CACCCCAGCCCCTTCCTTCTCTCCCTGC  122
+1        17409673  .......T....................  17409700
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 169135119448
+
+
+Query= exon_2
+
+Length=151
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 135753187978
+
+
+Query= exon_3
+
+Length=634
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 670976695917
+
+
+  Database: GCF_009650955.1_bCorMon1.pri_genomic.fna
+    Posted date:  Nov 17, 2021  1:39 PM
+  Number of letters in database: 1,112,734,094
+  Number of sequences in database:  105
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

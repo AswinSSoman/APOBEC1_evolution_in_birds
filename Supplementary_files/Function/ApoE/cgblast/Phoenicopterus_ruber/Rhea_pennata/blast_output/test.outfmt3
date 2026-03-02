@@ -1,0 +1,104 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_009819775.1_bPhoRub2.pri_genomic.fna
+           90 sequences; 1,246,226,932 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 19939592032
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 148300694318
+
+
+Query= exon_3
+
+Length=556
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM020216.1 Phoenicopterus ruber ruber isolate bPhoRub2 chromosome...  54.5       5e-05
+CM020233.1 Phoenicopterus ruber ruber isolate bPhoRub2 chromosome...  50.9       6e-04
+CM020231.1 Phoenicopterus ruber ruber isolate bPhoRub2 chromosome...  49.1       0.002
+CM020227.1 Phoenicopterus ruber ruber isolate bPhoRub2 chromosome...  48.2       0.002
+CM020215.1 Phoenicopterus ruber ruber isolate bPhoRub2 chromosome...  48.2       0.002
+CM020240.1 Phoenicopterus ruber ruber isolate bPhoRub2 chromosome...  47.3       0.007
+CM020218.1 Phoenicopterus ruber ruber isolate bPhoRub2 chromosome...  47.3       0.007
+CM020222.1 Phoenicopterus ruber ruber isolate bPhoRub2 chromosome...  46.4       0.007
+
+
+
+Query_3  119        GGGCGGCTGCGGGCTGAGATGGCGGAGGCACGGGGCCGGGTGGCGCAGTACGGCGCCGAGGCACAGGCCGTGCTGCAGCAGGGCGCTGAGGACCTGCGTGGCCGCCTGGCCGCCTACACCCGCAAGCTACGCAAGCGCCTGGCCAAGGA--CACCGA----GGAGCTGCGGAGCCGCCTGGCCGCCGCCGCCAGCA--AGGTGCAGGC-GCGGGTGGCGGAGCGGGCGGCAGCACTGCGCCAGGGGTTGCCGCCGCTGCGGGCGGCCCCTCGGCTGGCAG  389
+1        144918169                                                                                                                                                                                                                                                                 ..............--...C.C.G.  144918147
+18       6910603                                                                                                                                                                                                                                              .....GA.......C..-......A...A.C......CC.......  6910559
+16       4726999                                                                                                                                           ....C....---.G--...G..----.............A...C...A........                                                                                           4727045
+25       4390306    .......A.....G.C...-.....T..............                                                                                                                                                                                                                                                  4390268
+3        10544354                                                                                                                                                ........GG..A...TACG.............A.......--...G..G.....GC..CC..C...G.....C....AG.....                                                        10544272
+
+Query_3  390        CGCTGGGGCAGGTGCTTGGCGAGC---AGGGCCTCCGGGTGCAGCAGGGGCTGCAGG-AGGCG----GTGCA-GGAGCTGCGGGC-----CTCGCTGGATGGTGCCGT--GCAGGGGCTGCG-GAGCTGGCTGGCTGCGCTGCTGCCCAACGTGCCGCTGCTG  535
+1        144918146  .--....--....CT.C.A..T..GGC.......G....A.....-..CC...G.A.-C...T----....CT............-----....                                                                       144918068
+18       6910558    ......                                                                                                                                                               6910553
+12       21183360                                                                                                        .....A.--..........T.CA.....CT....GCT..........GC........-....  21183302
+0        733941           ......G.--...T.G..---....G.AGG..C............G.....C...G.CAGT.G...-..G.........AGGGG..-..A..CA..G..A..GG............-.-..A..--......                           733821
+7        32032618                                                 ...........-...-.----...T.-...........                                                                                 32032648
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 654267674550
+
+
+  Database: GCA_009819775.1_bPhoRub2.pri_genomic.fna
+    Posted date:  Jan 7, 2022  8:36 PM
+  Number of letters in database: 1,246,226,932
+  Number of sequences in database:  90
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

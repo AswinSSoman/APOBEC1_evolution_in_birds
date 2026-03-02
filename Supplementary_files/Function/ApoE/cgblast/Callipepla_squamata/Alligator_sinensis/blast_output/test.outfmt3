@@ -1,0 +1,88 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_002218305.1_ASM221830v1_genomic.fna
+           34,302 sequences; 1,045,281,893 total letters
+
+
+
+Query= exon_1
+
+Length=46
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+MCFN01000464.1 Callipepla squamata strain Texas jcf7180005234805,...  41.0       0.009
+MCFN01000180.1 Callipepla squamata strain Texas jcf7180005233374,...  41.0       0.009
+
+
+
+Query_1  14       CCGTGCTGCTCGGAGCCGT-GCTG-CTGCTG  42
+463      509745   .............C.....-....-.G..    509719
+179      1030780  ...................G....C......  1030810
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 19842759041
+
+
+Query= exon_2
+
+Length=136
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 111738723445
+
+
+Query= exon_3
+
+Length=577
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 570143317926
+
+
+  Database: GCA_002218305.1_ASM221830v1_genomic.fna
+    Posted date:  Oct 23, 2020  6:28 PM
+  Number of letters in database: 1,045,281,893
+  Number of sequences in database:  34,302
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

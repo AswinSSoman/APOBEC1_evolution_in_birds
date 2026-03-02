@@ -1,0 +1,92 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_003342895.1_casCas1_genomic.fna
+           3,184 sequences; 1,209,001,349 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 19342646096
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 143860172547
+
+
+Query= exon_3
+
+Length=556
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+PTFA01000079.1 Casuarius casuarius isolate B32419 scaffold_78, wh...  48.2       0.002
+PTFA01000031.1 Casuarius casuarius isolate B32419 scaffold_30, wh...  48.2       0.002
+PTFA01001346.1 Casuarius casuarius isolate B32419 scaffold_1345, ...  48.2       0.002
+PTFA01000091.1 Casuarius casuarius isolate B32419 scaffold_90, wh...  47.3       0.007
+
+
+
+Query_3  280      GCGGAGCCGCCTGGCCGCCGCCGCCAGCAAGGTGCAGGCGCGGGTGGCGGAGCGGGCGGCAGCACTGCGCCAGGGGTTGCCGCCGCTGCGGGCGGCCCCTCGGCTGGCAGCGCTGGGGCAGGTGCTTGGCGAGCAGGGCCTCCGGGTGCAGCAGGGGCTGCAGGA---GGCGGTGCAGGAGCTGCGG  463
+2940     3915194  ....CC.....CC.......G....GC.CG....T..-....C.G.....C............                                                                                                                              3915255
+2224     6279985                                                                                                                                    ........A..G...CG.....G.C..........GTG..G.C.........G....  6280041
+386      6827                                                                                                                                                    ..........AT..G.......---.C............       6792
+3074     465018                                                                                                                                                  ............C.A.....C.---C............G..     465055
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 634673888625
+
+
+  Database: GCA_003342895.1_casCas1_genomic.fna
+    Posted date:  Dec 16, 2021  11:20 AM
+  Number of letters in database: 1,209,001,349
+  Number of sequences in database:  3,184
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

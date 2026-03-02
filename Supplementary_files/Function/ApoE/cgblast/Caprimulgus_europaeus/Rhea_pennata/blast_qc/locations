@@ -1,0 +1,4 @@
+Location    #_hits  %_query_cov  %_identity  Lowest_evalue
+OU015545.1  2       14           54.5307     0.005
+OU015525.1  1       6.33333      24.6913     1.60e-04
+OU015523.1  1       17           33.3333     0.009

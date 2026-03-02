@@ -1,0 +1,2 @@
+NW_009899567.1	3131816	3131851	exon_1	NW_009899567.1	0	3219009	NW_009899567.1:1..3219009	.	+	RefSeq	region	.	ID=NW_009899567.1:1..3219009;Dbxref=taxon:30419;Name=Unknown;chromosome=Unknown;country=Venezuela;gbkey=Src;genome=genomic;isolate=BGI_N306;mol_type=genomic DNA;sex=female
+NW_009899841.1	2635326	2635350	exon_1_dup1	NW_009899841.1	0	3379109	NW_009899841.1:1..3379109	.	+	RefSeq	region	.	ID=NW_009899841.1:1..3379109;Dbxref=taxon:30419;Name=Unknown;chromosome=Unknown;country=Venezuela;gbkey=Src;genome=genomic;isolate=BGI_N306;mol_type=genomic DNA;sex=female

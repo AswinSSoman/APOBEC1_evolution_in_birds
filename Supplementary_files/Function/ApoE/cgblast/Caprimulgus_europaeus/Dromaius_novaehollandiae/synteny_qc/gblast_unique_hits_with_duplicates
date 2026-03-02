@@ -1,0 +1,4 @@
+Query        Subject     %_Query_covered_per_hsp  Query_length  Alignment_length  Q_start  Q_end  S_start  S_end    E_value   Bit_score
+exon_3       OU015545.1  19                       544           104               244      346    6090309  6090210  3.67e-06  58.1
+exon_3_dup1  OU015546.1  13                       544           77                346      418    6999921  6999845  0.002     49.1
+exon_3_dup2  OU015539.1  9                        544           51                401      451    9829100  9829149  0.002     49.1

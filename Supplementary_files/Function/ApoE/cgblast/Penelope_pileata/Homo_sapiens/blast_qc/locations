@@ -1,0 +1,4 @@
+Location        #_hits  %_query_cov  %_identity  Lowest_evalue
+WBMW01004814.1  1       2.66667      26.6667     6.37e-04
+WBMW01000888.1  1       1.33333      31.111      0.008
+WBMW01000802.1  1       2.66667      27.4853     0.002

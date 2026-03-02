@@ -1,0 +1,4 @@
+Location        #_hits  %_query_cov  %_identity  Lowest_evalue
+SPOS01000585.1  1       5.33333      24.6213     0.006
+SPOS01000180.1  1       2.66667      28.788      0.006
+SPOS01000162.1  1       2.33333      29.365      4.74e-04

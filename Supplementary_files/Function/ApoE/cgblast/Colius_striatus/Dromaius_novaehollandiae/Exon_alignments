@@ -1,0 +1,32 @@
+[07;32m[K>exon_1[m[K	[03;04;32m[KLength:216[m[K | [03;04;32m[KIdentity:97/216(44.9%)[m[K | [03;04;32m[KSimilarity:97/216(44.9%)[m[K | [03;04;32m[KGaps:94/216(43.5%)[m[K | [03;04;32m[KScore:220.5[m[K
+	
+  
+  APOE_Dromaius      1 ---------------------ATGAAGCTCTGGGTTGCGCT-GCTGGGAGCTGCCCTGCTTGCGG-----------------------     43
+                                            ||||||||||||||||.||| ||.||.|||||||..|.|  |.|                       
+  extracted_fla      1 agcagctcccagagcagctgcatgaAGCTCTGGGTTGGGCTAGCAGGTAGCTGCCAGGGT--CAGACGCCTCCTAAAGCTTTTCCATA     86
+
+
+[07;32m[K>exon_2[m[K	[03;04;32m[KLength:216[m[K | [03;04;32m[KIdentity:97/216(44.9%)[m[K | [03;04;32m[KSimilarity:97/216(44.9%)[m[K | [03;04;32m[KGaps:94/216(43.5%)[m[K | [03;04;32m[KScore:220.5[m[K
+	
+  
+  APOE_Dromaius      1 --------------------GC-TGCAGGGCTGAGCAGGGCCCCGAGGAGCCGCG---------GGCCGGGTGGGAAGCGGCCGTCGACAGC------TT---CTGGGAGTACGT---------------GGCCCAGCT----GGG--GCAGGC--GGTGG--AGAACGGC---ACCGCACGCGTGAAGAGCTCC-GAGATCGGCCGCCAGCTCGA    148
+                                           || |||||||||...||||||||||.|||||||||         ||||.||.||..||.|.|.||     ||      ||   |||.|||   ||               ||..|||||    |||  ||||||  |||||  ||..|.||   .||.||..|.||       || |.|.|.|||           
+  extracted_fla      1 TGGGATTCGGGGCCAGGTCGGCTTGCAGGGCTTCCCAGGGCCCCGGGGAGCCGCGGGGCCTCGCGGCCCGGAGGTGAGTGTCTGT-----GCCCGGTGTTAGGCTGTGAG---GTGggtggtgtggggaggggacagCTCTGAGGGATGCAGGCAGGGTGGGCAgtgctgccttgccccaacccTG-------CCTGGGGTGGGC-----------    190
+
+
+[07;32m[K>exon_3[m[K	[03;04;32m[KLength:216[m[K | [03;04;32m[KIdentity:97/216(44.9%)[m[K | [03;04;32m[KSimilarity:97/216(44.9%)[m[K | [03;04;32m[KGaps:94/216(43.5%)[m[K | [03;04;32m[KScore:220.5[m[K
+	
+  
+  APOE_Dromaius      1 CGGCCTCATCGCAGAGACCATGGAGGAGCTGGAGGCGCAGGTGGCA----GAGCTGCAGGCCAAGCTGGGCCCCAGCGGCGAGGCGGGCGCGGGGCTGCGTCGCGA---CGTGG---AGG-------AGCTGGGCGGGCGGCT-----GCGGGCCGAGCTGGTGGAGG--CACGGGGCCGGGCAGCGCAGTACGG-----GGCCGAGGCGCGGGC----CGT---GCTGCAG--------    196
+                                            .|||||          ||.|.||||    |||.|||  .|||| |.||||.|      ||.|||.|  |||||||.||    |||   |||||   |||       ||  |||...|| |||     ||.|.||.|| .||||.|||  .|||..|||   |||.|.|  ||||     |||.||||           |||   .|||.||        
+  extracted_fla      1 ---------------------CGAGGA----------CAAGGGGCACGGGGAGATGC--TCCAA-CAGGGCTC------CGGGGCTG--GCGGGGCAGC----CGAATGCGTGGGGCAGGGTATGATAG--GGGACAGC-GCTACGAAGCAGCCCCAG-GGGTGAAGGGCAACGCTGCC---CAGAGAA--ACGGGACATGGCAGAGG-------AAAACGTTTCTCTGAAGTATTAAGA    178
+  
+  APOE_Dromaius    197 --------------------CAGGGCGCCGAGGAC---CTGCGGAGCCGCCTGGCCGCC---------TACGCCCGCAAGCTGCGCA----------------------AGCGCCTGGCCAAGGACGCCGAGGAGCTGCGGAGCCGCCTGGCCGCCGCGGCCGGCGAGG----TGCGGGCCCGGGCGGCGGCGCTGC-------ACGAGGGGCT-----GCCGGTGCTGCGGGCGCCGCC    366
+                                           |||   |||.|||.|   |||.||||||....||||.||         |||       |||||||||                      ||||||.|     ||.||||| ||.||||.||.||||   ||  ||.||||.|||.|.||    ||||||.||||| |.|||.|||||       .|| ||||||     |||||.||||||||||..||.
+  extracted_fla    179 AAGAAGCGATCAATTACAAACAG---GCCAAGGGCTTTCTGGGGAGCCCGAGGGCCACCTGACTTTATTAC-------AGCTGCGCAGCCGGGACCGAGCTCCCTCCCCAGCGCCGG-----GGCCGCCG-GGGGCTgtggggccg---gg--gctgcgggcggagcgggggctgcggggccggg-gccggggctgcgggcggagcg-ggggctgcggggccggggctgcgggcggagcg    395
+  
+  APOE_Dromaius    367 GCGGCTGGCGGCGCTGGGACAGGCGCT--GGGC-GAGCAGGGCC------GCCGGG--------TGC------AGCGGGGGCTGCGGGAGGCGGTGCAGGAGCTGTGGGCCTCGGTGGACGGCGTCCTGCAGGGGCTCCTGGGCTG-----GCTGACGATGC---TGCTGC----CC--AGCTCCCCAGCACTGC--GCGACGCCCCCAAGCCTTGA    544
+                       |.|||| ||||.||.|||.|.||.|||  |||| ||||.|||.|      ||||||        |||      ||||||||||||||| |.|||.||.||.||||.||||      |||         ||.||||||.|.||||||     ||.|.||..||   .|||||    ||  .|||    .|..||||  |||..|              
+  extracted_fla    396 ggggct-gcggggccggggccggggctgcgggcggagcgggggctgcggggccggggctggggctgcgggcggagcgggggctgcggg-gccggggctggggctgcgggc------gga---------gcgggggctgcggggctggggctgcgggcggagcgggggctgcggggccggggct----ggggctgcgggcggag--------------    577
+
+

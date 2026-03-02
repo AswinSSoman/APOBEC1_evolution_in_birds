@@ -1,0 +1,88 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_001431845.1_ASM143184v1_genomic.fna
+           3,753 sequences; 1,229,094,286 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 19663887280
+
+
+Query= exon_2
+
+Length=190
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 196637071360
+
+
+Query= exon_3
+
+Length=718
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_015091952.1 Calidris pugnax isolate Ruff unplaced genomic scaf...  46.4       0.009
+
+
+
+Query_3  229    GGCCTCCCACCTGCGCAAGCTGCGCAAACGGCTGCTCCGCGACGCCGAGGACCTG  283
+1194     1760   ....A..T..GCC.....A...........C...AG........GG.....G...  1814
+1194     4820   ....A..T..GCC.....A...........C...AG........GG.....G...  4874
+1194     18029  ....A..T..GCC.....A...........C...AG........GG.....G...  18083
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 843076294340
+
+
+  Database: GCF_001431845.1_ASM143184v1_genomic.fna
+    Posted date:  Oct 26, 2021  7:17 PM
+  Number of letters in database: 1,229,094,286
+  Number of sequences in database:  3,753
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

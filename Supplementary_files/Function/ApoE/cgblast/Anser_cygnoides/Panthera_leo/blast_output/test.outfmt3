@@ -1,0 +1,67 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000971095.1_AnsCyg_PRJNA183603_v1.0_genomic.fna
+           7,593 sequences; 1,119,151,626 total letters
+
+
+
+Query= exon_1
+
+Length=200
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 190217052120
+
+
+Query= exon_2
+
+Length=685
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_013185960.1 Anser cygnoides domesticus breed Zhedong unplaced ...  47.3       0.008
+
+
+
+Query_2  620     CTGGTGGAGAAGTTGCAGGCGGCCGTGGGCACC  652
+306      164564  ...C..C.....C....................  164596
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 731771222922
+
+
+  Database: GCF_000971095.1_AnsCyg_PRJNA183603_v1.0_genomic.fna
+    Posted date:  Nov 22, 2020  10:14 AM
+  Number of letters in database: 1,119,151,626
+  Number of sequences in database:  7,593
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

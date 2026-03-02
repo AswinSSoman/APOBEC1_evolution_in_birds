@@ -1,0 +1,3 @@
+QUSF01016419.1	166	331	exon_3	QUSF01016419.1	0	1119	QUSF01016419.1:1..1119	.	+	Genbank	region	.	ID=QUSF01016419.1:1..1119;Dbxref=taxon:44316;gbkey=Src;isolate=Red01;mol_type=genomic DNA;phenotype=Red head;sex=male;tissue-type=muscle
+QUSF01010719.1	1216	1303	exon_3_dup1	QUSF01010719.1	0	1774	QUSF01010719.1:1..1774	.	+	Genbank	region	.	ID=QUSF01010719.1:1..1774;Dbxref=taxon:44316;gbkey=Src;isolate=Red01;mol_type=genomic DNA;phenotype=Red head;sex=male;tissue-type=muscle
+QUSF01010719.1	1270	1370	exon_3_dup2	QUSF01010719.1	0	1774	QUSF01010719.1:1..1774	.	+	Genbank	region	.	ID=QUSF01010719.1:1..1774;Dbxref=taxon:44316;gbkey=Src;isolate=Red01;mol_type=genomic DNA;phenotype=Red head;sex=male;tissue-type=muscle

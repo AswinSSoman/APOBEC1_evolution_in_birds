@@ -1,0 +1,91 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000690875.1_ASM69087v1_genomic.fna
+           61,831 sequences; 1,129,694,867 total letters
+
+
+
+Query= exon_1
+
+Length=43
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009324695.1 Gavia stellata isolate BGI_N328 unplaced genomic s...  41.0       0.008
+
+
+
+Query_1  11    GGGTTGCGCTGCTGGGAGCT--GCCCTGCTTGC  41
+47724    7052  ......-.............GG...........  7021
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 18048406880
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 134220310392
+
+
+Query= exon_3
+
+Length=544
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009309850.1 Gavia stellata isolate BGI_N328 unplaced genomic s...  48.2       0.002
+
+
+
+Query_3  404  GGCCGCCGGGTGCAGCGGGGGCTGCGGGAGGCGGTG  439
+32879    140  ..........G..G...........C.....G....  175
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 578550168378
+
+
+  Database: GCF_000690875.1_ASM69087v1_genomic.fna
+    Posted date:  Oct 5, 2020  1:17 PM
+  Number of letters in database: 1,129,694,867
+  Number of sequences in database:  61,831
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

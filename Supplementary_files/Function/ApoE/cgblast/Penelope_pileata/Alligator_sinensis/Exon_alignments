@@ -1,0 +1,28 @@
+[07;32m[K>exon_1[m[K	
+	
+  
+  APOE_Alligato      1 ------------------------AT-GAGGGTCTGGACCGTGCTGCTCGGAGCCGTGCTGCTGCTGGCGG---------------------     46
+                                               || ||    |.|.|||||||||||||||||..|||.|||||.||||.                     
+  extracted_fla      1 TCCCGCCGACCCTGGTTCCACCGAATCGA----CCGCACCGTGCTGCTCGGAGCGCTGCCGCTGCGGGCGCGCAGCCGAAGNCGGGCCGGGC     88
+
+
+[07;32m[K>exon_3[m[K	
+	
+  
+  APOE_Alligato      0 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------      0
+                                                                                                                                                                                                                                                                       
+  extracted_fla      1 ATCACCAACCTGATGGAAGTGCTGCAGCGCGACCCCGACAGCCGCGGCCCCCACCCCGGCCCGGNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN    240
+  
+  APOE_Alligato      1 ------------------CATGCTGATCAAGGACATGGTGGCGGAGCTGCAGGCGTACAGAAAGGACGTGGAAGAACGGCTGGGCCCGCACGCGGTGGTGATGCGGGAGCGGCTGCATACAGATGTGACGGTGCTGGGCGAGCGGCTGCGTG-TTGACATGGAGGAAGCCAAGACCCGGGTGCA-GCAGTACCTGGGTGAGGCTCGCCAAGTGGCGGGCCAGAACCTGGAAGATGTGCGC    220
+                                         |                  |.||.|||.|                   |.||  ||..|.||||   |||||      ||||||   ||||    |.| |||                .|||||| .|||||.| ..|.||||     .||||     ||.||||| |            ||||             |||  ||.|||.|||        ||
+  extracted_fla    241 NNNNNNNNNNNNNNNNNNC------------------GAGGGGGATC-------------------CCTG--AGTGCCGCTG---CCGCA------GGTGAT---GGAG----TTC-TAC----------------TGCGAGC-CCTGCGAGACCGCCATG-----TGCCA-----CGAGTGCACG------------GAGG-------------GGG--AGCACCGGGA--------GC    362
+  
+  APOE_Alligato    221 AGCCGCGTGGGCACCTACTTGCGCAAGCTGCGCAAGCGT-CTGGCCAAGGA-CACAGAGGAG---CTGC-GCCGCAAGCTGGAGGCCTACAGTGCGGAAGCCACCCGGCACCTGG-AGACCGTGCGCGAGGACCTGGAGCCGCTGCGCGAGAAGGGGCAGCAGCG----CCTGGCGGCCCTGCAGCAGGCATTGCGTGACCAG----------GGCCAGCGCTTGCGTGAGCAGCTGGAG    439
+                       |    |||   |||   |.|||   .|||||||.| ||| .|||   ||.| |||| |||.|   |||| ||.|| |||||||.|||    ||.|||         ||||   || ||                 ||.||.||        |.|||||||..|||    .|.|||||||        |||         ||.|          ||   |||   |.||     |||||.|
+  extracted_fla    363 A----CGT---CAC---CGTGC---CGCTGCGCGA-CGTGGTGG---AGCAGCACA-Aggcggccctgcagcagc-agctggacgCC----GTCCGG---------GGCA---GGTAG-----------------GGGGCGGC--------ACGGGGCAGGGGCGGGGTGCGGGCGGCC--------GGC---------CCGGNNNNNNNNNNGG---GCG---GGGT-----GCTGGCG    514
+  
+  APOE_Alligato    440 -------GTGCGC-GCCCAGGATATGCGTGGCTCCCTGGACCGCGCAGCCACGCAGCTGCAAGAGTGGCTCGAACCCTTC---CTTG---CGGACATCCGCACCCAGATGCAGGGGCTGCTGGA---CAAGCTGCAGGCCAAGGAGCAGCAGTAG    577
+                              ||||.| ||||.||.|.||| .||||||                ||||||||     |.||| ||   ||.||   ||.|   ||||.|||.||         |||..||||.||||   ||||....|||||               
+  extracted_fla    515 GCCGCCCGTGCCCAGCCCCGGCTCTGC-AGGCTCC----------------CGCAGCTG-----GCGGC-CG---CCATCGGGCTGGTGTCGGAGAtcagc---------cagcagctggtggAGCGCAAGAACGAGGCC---------------    619
+
+

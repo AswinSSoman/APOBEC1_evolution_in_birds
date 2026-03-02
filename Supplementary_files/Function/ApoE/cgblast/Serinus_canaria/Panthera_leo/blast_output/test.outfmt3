@@ -1,0 +1,75 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_022539315.1_serCan2020_genomic.fna
+           685 sequences; 1,050,352,878 total letters
+
+
+
+Query= exon_1
+
+Length=200
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 178556495760
+
+
+Query= exon_2
+
+Length=685
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_066321.1 Serinus canaria isolate serCan28SL12 chromosome 7, se...  55.4       1e-05
+NC_066338.1 Serinus canaria isolate serCan28SL12 chromosome 25, s...  49.1       0.002
+NC_066314.1 Serinus canaria isolate serCan28SL12 chromosome 1A, s...  48.2       0.002
+NC_066323.1 Serinus canaria isolate serCan28SL12 chromosome 9, se...  46.4       0.008
+
+
+
+Query_2  17        ACCATGAAGGAGGTGAAG-GCCTACAGGGAGGAGCTG---GAGGAGCAGCTG-G-GCCCCATG-GCCTC-GGAGACACAGGCCCGCGTGGCCAAGG-AGCTGCAGGCGGCGCAGGCCCGGCTGGCCTCGGACATGGAGGACGTGCGCAACCGCCTGGCGCAGTACCGCAGCGAGGTGCAGGCCATGCTGGGCCAGAGCGCCGAGGAGCTGCGGGGGCGCCTCGCCTCGCACCTGCGCAAGCTGCGCAAGCGGCTGCTCCGCGACGCCGAGGACCTGCACA  287
+8        19215534  ..A......AT.......-.....G.A..-.......TAT............A.-.T.A....-....                                                                                                                                                                                                                      19215471
+26       8671009                                ........---C.........A.-.A...G..G.A...A.A....C.G....G....AG...AGG..G.........A.C......                                                                                                                                                                       8670928
+11       12431267                ....C....C...T.........---.......T....-.-.                                                                                                                                                                                                                                  12431303
+
+Query_2  288       AGCGCCTGGCCGTGTACCGCGCCGGGGTGCGCGAGGGCGCCGAGCGCAGCGTCAGCTCCATCCGCGAGCGCTTCTGGCCGCTGGTGGAGCAGgcgcgcgcgcgcAACGCCAACGTGGCCGCCGTGGCCGCGCAGCCGCTGCGGGAGCGGGCCGAGGCCTTGGGC  451
+1        66581691                                                                                                                        .....A..G...........AC..A......AG........G....  66581646
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 686916894522
+
+
+  Database: GCF_022539315.1_serCan2020_genomic.fna
+    Posted date:  Oct 18, 2022  12:33 PM
+  Number of letters in database: 1,050,352,878
+  Number of sequences in database:  685
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

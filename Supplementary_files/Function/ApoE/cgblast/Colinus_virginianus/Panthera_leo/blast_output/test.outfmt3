@@ -1,0 +1,74 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_008692595.2_Cv_LA_2.0_genomic.fna
+           6,035 sequences; 948,540,911 total letters
+
+
+
+Query= exon_1
+
+Length=200
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VONY02002842.1 Colinus virginianus isolate B-91918 sc2843, whole ...  54.5       1e-05
+
+
+
+Query_1  48    GGGGCGGGGCCTGCTCAGG-GTtcccccctccttcccatcccagcccccctcctcc  102
+2840     1519  ...................AT..A.....C..A.....AT...-.........C..  1465
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 162170568216
+
+
+Query= exon_2
+
+Length=685
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VONY02000028.1 Colinus virginianus isolate B-91918 sc28, whole ge...  49.1       0.002
+VONY02000002.1 Colinus virginianus isolate B-91918 sc2, whole gen...  46.4       0.007
+
+
+
+Query_2  303       ACCGCGC-CGGGGTGCGCGAGGGCGCCGAGCGCAGCGTCAGCTCCATCCGCGAGCGCT  359
+27       1735221                           ..........A............G...C......  1735254
+1        67206254  ....A..A.........G...............C...                       67206290
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 620223402204
+
+
+  Database: GCA_008692595.2_Cv_LA_2.0_genomic.fna
+    Posted date:  Oct 28, 2021  10:16 AM
+  Number of letters in database: 948,540,911
+  Number of sequences in database:  6,035
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

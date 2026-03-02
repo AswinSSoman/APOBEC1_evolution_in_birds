@@ -1,0 +1,2 @@
+Query   Subject         Query_length  Alignment_length  Q_start  Q_end  S_start  S_end   E_value   Bit_score  Raw_score  %_Query_covered_per_sub  %_Query_covered_per_hsp  %_ident  Matches  Mismatches  Gaps  Strand
+exon_1  NW_013185900.1  181           31                104      134    662929   662959  5.36e-04  48.2       52         17                       17                       93.548   29       2           0     plus

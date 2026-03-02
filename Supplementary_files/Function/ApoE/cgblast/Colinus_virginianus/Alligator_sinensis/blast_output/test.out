@@ -1,0 +1,3 @@
+Query	Subject	Query_length	Alignment_length	Q_start	Q_end	S_start	S_end	E_value	Bit_score	Raw_score	%_Query_covered_per_sub	%_Query_covered_per_hsp	%_ident	Matches	Mismatches	Gaps	Strand	Query_sequence	Subject_sequence
+
+exon_1	VONY02000011.1	46	31	14	42	21508762	21508792	0.008	41.0	44	63	63	93.548	29	0	2	plus	CCGTGCTGCTCGGAGCCGT-GCTG-CTGCTG	CCGTGCTGCTCGGAGCCGTGGCTGCCTGCTG

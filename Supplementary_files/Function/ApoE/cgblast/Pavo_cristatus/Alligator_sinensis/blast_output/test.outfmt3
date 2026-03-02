@@ -1,0 +1,91 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_005519975.1_AIIM_Pcri_1.0_genomic.fna
+           179,332 sequences; 1,027,510,962 total letters
+
+
+
+Query= exon_1
+
+Length=46
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+QZWQ01176133.1 Pavo cristatus isolate SKPea2016_SI scaffold176477...  43.7       0.003
+
+
+
+Query_1  10   TGGA-CCGTGCTGCTCGGAGCCGTGCTGCTGCT  41
+176132   269  ....G............C....C..........  237
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 19430710962
+
+
+Query= exon_2
+
+Length=136
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 109387205738
+
+
+Query= exon_3
+
+Length=577
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+QZWQ01179134.1 Pavo cristatus isolate SKPea2016_SI scaffold1170_l...  48.2       0.002
+
+
+
+Query_3  352     GCCGCTGCGCGAGAAGGGGCAGCAGCGCCTGGCGGCCCTGCAGCAG  397
+179133   141899  ............CGT..T.G......A.AA................  141944
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 557985611820
+
+
+  Database: GCA_005519975.1_AIIM_Pcri_1.0_genomic.fna
+    Posted date:  Oct 17, 2020  2:53 PM
+  Number of letters in database: 1,027,510,962
+  Number of sequences in database:  179,332
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

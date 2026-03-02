@@ -1,0 +1,4 @@
+Location        #_hits  %_query_cov  %_identity  Lowest_evalue
+VONY02002842.1  1       14           41.9645     1.20e-05
+VONY02000028.1  1       2.5          45.588      0.002
+VONY02000002.1  1       2.5          44.5945     0.007

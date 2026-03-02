@@ -1,0 +1,24 @@
+[07;32m[K>exon_3[m[K	
+	
+  
+  APOE_Dromaius      1 CGGCCTCATCGCAGAGACCATGGAGGAGCTGGAGGCGCAGGTGGCAGAGCTGCAGGCCAAGCTGGGCCCCAGCGGCGAGGCGGGCGCGGGGCTGCGTCGCGACGTGGAGGAGCTGGGCGGGCGGCTGCGGGCCGAGCTGGTGGAGGCACGGGGCCGGGCAGCGCAGTACGGGGCCGAGGCGCGGGCCGTGCTGCAGCAGGGCGCCGAGGACCTGCGGAGCCGCCTGGCCGCCTACGCCCG    240
+                                                                                                                                                                                                                                                                       
+  extracted_fla      0 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------      0
+  
+  APOE_Dromaius    241 CAAGCTGCGCAAGCGCCTGGCCAAGGACGCCGAGGAGCTGCGG------AGC-----CGCCTGGCCGCCGCGGCCGGCGAGGTGCGGGCCCGGGCGGCGGCGCTGCACGAGGGGCTGCCGG---TGCTGCGGGCGCCGCCGCGGCTGGCGGCGCTGGGACAGGCGCTGGGCGAGCAGGGCCGC--CGGGTGCAGCGGGGGCTGCGGGAGGCGGTGCAGGAGCTGTGGGCCTCGGTGGACG    464
+                                      ||||||||   .|.|.||||.|||||.|      |||     ||.||.||.||.|        ||||.|||||               ||   ||||.|||||.||   .|||||.||||..|..|.|| |..||||..|||   ||.|.||             |||  ||||      |||||  |.|||.||.||.||||                      
+  extracted_fla      1 ---------------CCTGGCCA---GCTCGGAGGGGCTGCAGAAACCCAGCAGCAACGTCTCGCAGCTG--------GAGGCGCggg---------------tg---gaggagctgcaggacaaGCTGCAGGCGGAGGAGAGG-TACCGGCCATGG---AGACCCT-------------Cgcctcggg------ggggg--gggggggggggggcag----------------------    149
+  
+  APOE_Dromaius    465 GCGTCCTGCAGGGGCTCCTGGGCTGGCTGACGATGCTGCTGCCCAGCTCCCCAGCACTGCGCGACGCCCCCAAGCCTTGA----------------------------------------------------------------------------------------------------------------------------------------------------------------    544
+                           |||.|       |||                           |||                        ||||||.                                                                                                                                                                
+  extracted_fla    150 ----cctTC-------CCT---------------------------CTC------------------------GCCTTGGGCCNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN    327
+  
+  APOE_Dromaius    544 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------    544
+                                                                                                                                                                                                                                                                       
+  extracted_fla    328 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN    567
+  
+  APOE_Dromaius    544 -------------------    544
+                                          
+  extracted_fla    568 NNNNNNNNNNNNNNNNNNN    586
+
+

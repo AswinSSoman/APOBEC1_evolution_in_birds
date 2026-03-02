@@ -1,0 +1,28 @@
+[07;32m[K>exon_1[m[K	[03;04;32m[KLength:195[m[K | [03;04;32m[KIdentity:112/195(57.4%)[m[K | [03;04;32m[KSimilarity:112/195(57.4%)[m[K | [03;04;32m[KGaps:52/195(26.7%)[m[K | [03;04;32m[KScore:393.0[m[K
+	
+  
+  APOE_Myiozete      1 ---------------------ATGAAGCTCTGGGTCGCGCTAGTGGCAGC-AACGCTGCTGGCAG---------------------     43
+                                            ||||||.|||||||.|||.|.||||| || .|||||||||||||                     
+  extracted_fla      1 gccGTCCCCGCAGGTGACACCATGAAGTTCTGGGTGGCGTTGGTGGC-GCTGACGCTGCTGGCAGGTGAGTGCCCGTGCCCCATGC     85
+
+
+[07;32m[K>exon_2[m[K	[03;04;32m[KLength:195[m[K | [03;04;32m[KIdentity:112/195(57.4%)[m[K | [03;04;32m[KSimilarity:112/195(57.4%)[m[K | [03;04;32m[KGaps:52/195(26.7%)[m[K | [03;04;32m[KScore:393.0[m[K
+	
+  
+  APOE_Myiozete      1 ---------------------GCTGCGGGGCCGAACT-AG-----CCACTCCCGCGCCCCCCACCCCACCTCGGCCC--CCCTCGCGGGTCTGGAGGGTCCTGGCGGTCCTGGAGGCAGCGGCTGAGAACGCGACGGAGCGGCTGCGGGAGACCCCCGTGGTGCAGCGGCTGCA---------------------    145
+                                            ||||||||||.||||| ||     ||||.|||.|.|||||.||||  ||.|.||.|  ||||||.||.|.|||.||.||||||.|..|||.|.||..|||||.|||||||||||.||||||.|.||..|||.|.||.|||..|||||||||||                     
+  extracted_fla      1 tccgtttttttccccctgcaggCTGCGGGGCTGAACTGAGcgcccccacccccacccccccgaccc--cccccgCACTGCCCTcgaggatttgggggttcctggggaCCCTCGGGGAGGCGGCCGAGAACGCGACCGAGCGGATCCGCCAGAGCGCCCTGGGCCAGCGGCTGCAGTGAGTGCGGGGAAACACCCA    193
+
+
+[07;32m[K>exon_3[m[K	[03;04;32m[KLength:195[m[K | [03;04;32m[KIdentity:112/195(57.4%)[m[K | [03;04;32m[KSimilarity:112/195(57.4%)[m[K | [03;04;32m[KGaps:52/195(26.7%)[m[K | [03;04;32m[KScore:393.0[m[K
+	
+  
+  APOE_Myiozete      1 --------------------GCAG-GTGGTGGGGGAGTTCCGGGCGCTGCGGAACGAGGCGCGGGACCGCGCGGCCGAGTACGGGGTGGAGGCGAAGGCGCTGCTGGAGCAGAGCTGGGGGGACCTGAAGGCCCGGGGGGCTTCGTTCGCCCGAAAGCTGCGCAAGAGGCTGAACCGGGACGCGGAGGAGCTG-AG-GAAGCGCTGGGACGGGGGGGTCGCCGCCCTCAGGGCCCTCTG-    216
+                                           |.|| ||||||..||||.|.|.||||.|||||...||||||||||..|||||||||||||||||||..||||||..||||||||||||||..|||...|..||.||....|||||.||.||..|.||||||.|||||.|.||.|||.|.||||.|||.|||...||||||.|| || ||  |||||||||.|            ||||||||||||||| 
+  extracted_fla      1 aaattcccttttttcccccaggagcGTGGTGTCGGAGCTGCAGGCGATGCGGTTGGAGGCGCGGGCGCGCGCGGCCGAGTACGGGGCAGAGGCGCGggcgctgctggagctcagcgCCGCCGATCTCCGCGCCCGCGGCGCCGCCTTCGCCAGAAAGTTCCGGAAGCGCCTGAGCCGCGACCACGAGGAGATGCAGCGA--CGCTGGGACAG------------CCTCAGGGCCCTCTGG    226
+  
+  APOE_Myiozete    217 ----------------GGGGATCCCCGAGAC--CCCCTGGGACCCCCAGGATTGA--------    253
+                                       |||||||||..|.||  ||||.||.|||||.|      |        
+  extracted_fla    227 GCACCCCAGGATTGATGGGGATCCCAAAAACGgccccaggaaccccaa------aaacggccc    283
+
+

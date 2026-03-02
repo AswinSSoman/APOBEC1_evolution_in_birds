@@ -1,0 +1,8 @@
+[07;32m[K>exon_2[m[K	[03;04;32m[KLength:206[m[K | [03;04;32m[KIdentity:102/206(49.5%)[m[K | [03;04;32m[KSimilarity:102/206(49.5%)[m[K | [03;04;32m[KGaps:75/206(36.4%)[m[K | [03;04;32m[KScore:212.0[m[K
+	
+  
+  APOE_Dromaius      1 ----------GCTG-----------CAGGGCTGAGCAGGGCCCCGAGGAGCCGCGGGCCGGGTG----GGAAGCGGCCGTCGACAGCT--TCTGGGAGTAC--GTGGCCC---AGCTGGGGC----AGGCGGTGGAGAA-------CGGC-ACCGCACGCGTGAA-------GAGCTCCGAG--ATCGGCCGCCAGCTCGA-----    148
+                                 |.||           |||||||| ||||||||||||||.||.|.||||.|.|||    |||.|||| .||      ||  |||||  |.||  .||||.|   |.|.|||.|    |||.|..||||||       |.|| .||.||.|.| |||       |.|.|.|.||  ||.|.|.|      |||     
+  extracted_fla      1 ctctgctcctgttgTCAAACTCttccagggctg-gcagggccCCGAGGGGCTGGGGGCGGCGTGGGGTGGATGCGG-GGT------CTGGTCTGG--GCACCTCTGGCACCTTAACCGGGACCTcgaggggaaggagaaaacaaacctgCTTCCCCAGGAG-GAACGTTTTGGTGTTTCCAGCAATAGTCTG------CGAAGAGG    189
+
+

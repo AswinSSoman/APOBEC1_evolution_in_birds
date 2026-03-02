@@ -1,0 +1,3 @@
+Location        #_hits  %_query_cov  %_identity  Lowest_evalue
+VZDJ01001684.1  1       3.66667      31.0343     0.009
+VZDJ01001610.1  1       30.3333      26.232      7.79e-48

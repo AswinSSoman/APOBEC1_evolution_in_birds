@@ -1,0 +1,16 @@
+[07;32m[K>exon_3[m[K	
+	
+  
+  APOE_Rhea_pen      1 CGGCCTCATCGCGGAGACCATGGCAGAGCTGGAGGCGCAGGCGGTGGAGCTGCAGGCCCAGCTGGGCCCTGGTGGCGAGGCCAGCGTGGGGCTGCAGCGCGACGTGGAGGAGCTAGGTGGGCGGCTGCGGGCTGAGATGGCGGAG-GCACGGGGCCGGGTGGCGCAGTACGGCGCCGAGGCA-CAGGCCGTGCTGCAGCAGGGCGCTGAGGACCTGCGTGGCCGCCTGGCCGCCTAC---    235
+                                                                                                                                                      |||.|||       |||| .|||          |.||..||||..|.|     || |||  |||||| ||||....||||    ||| ||   |||||.|..||||||.|   
+  extracted_fla      1 -------------------------------------------------------------------------------------------------------------------------------CGGACTG-------GGAGCTCAC----------GTCGTCGTACTCCTC-----CACCAG--CGTGCT-CAGCCCCCCGCT----ACC-GC---GCCGCTTCTCCGCCTCCTGg     80
+  
+  APOE_Rhea_pen    236 -ACCCGCAAGCTACGCAAGCGCCTGGCCAAGGACACCGAGGAGCTGCGGAGCCGCCT-------GGCCGCCGCCGCCAGCAAG---GTGCAGGCGCGGGTGGCGGAGCGGGCGGCAGCACTGCGCCAGGGGTTGCCGCCGCTGCGGGCGGCCCCTCGGCTGGCAGC-GCTGGGGCAGGTGC--TTGGC---------GAGCAGGGCCTCCGGGTGCAGCAGGGGCTGCAGGAGGCGG---    449
+                        .|||||            ||||                           |||||||       |||| ||||||.|     |   ||||     ||||.|.|.||||  ||.||    .|||.||       ||.||||||.| .||..||||.||  |..|.|| ||.||.|.|||.||  .||||         ||||||||.||.|||..|||||.|.|||||||||| ||||   
+  extracted_fla     81 gtcccgc------------cgcc---------------------------gccgcctcccccgCGGCC-CCGCCGTC-----GTTTGTGC-----CGGGAGCCCGAGC--GCCGC----TTGCCCC-------GCGGCCGCTTC-CGCTCCCCCCCG--TCCCCGCAGCAGGAGGAGGCGCCGGTGGCCGCCAGGAAGAGCAGGGACtgcggcggcagcggcggctGCAGGA-gcggggg    253
+  
+  APOE_Rhea_pen    450 -TGCAGGAGCTGCGGGCCTCGCTGGATGGTGCCGTGCAGGGGCTGCGGAGCTGGC--------TGGCTGC-GCT--GCTGCCCAACG----------------TGCCGCTGCTGCTCGACGGCCCCAAGCCTTGA    556
+                        ||||||||..||||  || ||.|||..|.|..|.||||.||.|||||.||.|||        .|||||| |||  ||.||..|.||                |||.|..|||.||.|.||||    |||  ||.
+  extracted_fla    254 ctgcaggaggggcgG--CT-GCAGGAGCGGGAAGAGCAGCGGGTGCGGGGCCGGCGGGGGGGGAGGCTGCGGCTGGGCCGCGAAGCGCTTCCGTCTCCGGTGATGCAGTCGCTTCTTGTCGGC----AGC--TGC    379
+
+

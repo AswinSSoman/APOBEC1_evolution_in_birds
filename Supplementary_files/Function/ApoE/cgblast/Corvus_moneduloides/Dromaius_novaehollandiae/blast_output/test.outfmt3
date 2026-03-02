@@ -1,0 +1,102 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_009650955.1_bCorMon1.pri_genomic.fna
+           105 sequences; 1,112,734,094 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17803700144
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 132414994831
+
+
+Query= exon_3
+
+Length=544
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_045497.1 Corvus moneduloides isolate bCorMon1 chromosome 22, b...  55.4       1e-05
+NC_045505.1 Corvus moneduloides isolate bCorMon1 chromosome 30, b...  53.6       4e-05
+NC_045481.1 Corvus moneduloides isolate bCorMon1 chromosome 6, bC...  50.9       5e-04
+NC_045476.1 Corvus moneduloides isolate bCorMon1 chromosome 1, bC...  50.9       5e-04
+NC_045500.1 Corvus moneduloides isolate bCorMon1 chromosome 25, b...  48.2       0.002
+NC_045479.1 Corvus moneduloides isolate bCorMon1 chromosome 4, bC...  48.2       0.002
+
+
+
+Query_3  15         AGACCATGGAGGAGCTGGAGGCGCAGGTGGCAGAGCTGCAGGCCAAGCTGGGCCCCAgcggcgaggcgggcgcggggctgcgtcgcgacgtggaggagctgggcggg-cggctgcgggcC-----GAGCTGGTGGAGG----CACGGGGCCGG-GCAGCGCAGTACGGGGCCGAGGCGCGGGCCGTGCTGCAGCAGGGCGCCGAGGACCTGCGGAGCCGCCTGGCCGCCTACGCC--CGCAAGCTGCGCAAGCGCCTGGCCAAGGACGCCGAGGAGCTGC  281
+5        14056232                                                              ....G...C..-.......C.G.C..G.-..G..C..G..C.......G...GGC.....G-----.G..C..GC.G..----.--........-..G.G..C.GG........-....-......G..                                                                                              14056344
+0        102058847                                                                                                                                                  ......G..C..G...GG.CG.............G.C.GA.C.....T..G...G..G.C..GG....C.C....G..--....TCC....GG............                                 102058745
+0        78119330                                                                                                     ........--....A......TCGGGG..........CC.GGAG.C.........-.....T.....A.T.A..CT...T....G..                                                                                                 78119247
+24       5911621    .....C...........C...AC...AA...T......G.....C..G...                                                                                                                                                                                                                                       5911571
+
+Query_3  282        GGAGCCGCCTGGCCGCCgcggccggcgaggtgcgggcccgggcggcggcgctgcacgaggggctgccggtgctgc-gggcgccgccg--cgg---ctg-gcggcgctggg-ACAG-GC--GCTGGGCGAGCAG---GG-CCGCC---GGGTGCA---GCGGGGG-CTGCGGGAGGCGGTGCAGGAGCTG  448
+21       7909714                                         .....A.CT........TGCG..A..G..T..A..-..-..C.C.....C--...GAA.GA-......--...-C.C.-.A--..-.....C.G..---..A..C..---...ACG.CGG.......-..........A.C...G.......  7909846
+29       2243664                                      ....G......G..G..G..CGCC........G..C...A.C...G.....A.--GA.GCA.C.-...C...C...T..C.-.G--..C...G....---------....---...-..C---.......-.......                   2243778
+29       842879                                                                              ..-....C......AG...---.C---....-.A..A-G...-.A--..A..........GAC..-.G..G---...G..G---.......C.G.....C.....             842964
+0        470547                                                                                                                                                           ....---.......-............C...C..       470576
+3        41144898                                                               ......G..G.....-...G..T..G.---..---.A.T..C.-......-G...T..CG......---....---T.-...G.TGC...G..T---.......-......--...A....C..       41144797
+3        41144963                                                               ......G..G.....-...G..T..G.---..---.A.T..C.-......-G...T..CG......---....---T.-...G.TGC...G..T---.......-......--...A....C..       41144862
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 570830920407
+
+
+  Database: GCF_009650955.1_bCorMon1.pri_genomic.fna
+    Posted date:  Nov 17, 2021  1:39 PM
+  Number of letters in database: 1,112,734,094
+  Number of sequences in database:  105
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,4 @@
+Query   Subject         %_Query_covered_per_hsp  Query_length  Alignment_length  Q_start  Q_end  S_start   S_end     E_value   Bit_score
+exon_1  MOXI01000040.1  65                       43            28                12       39     4355030   4355057   0.002     42.8
+exon_3  MOXI01000031.1  23                       544           129               322      445    15262922  15263042  2.52e-07  60.8
+exon_3  MOXI01000240.1  19                       544           108               275      378    161       61        1.30e-04  52.7

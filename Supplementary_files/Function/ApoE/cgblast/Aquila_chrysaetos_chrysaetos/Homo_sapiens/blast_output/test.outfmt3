@@ -1,0 +1,91 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_900496995.4_bAquChr1.4_genomic.fna
+           144 sequences; 1,233,704,830 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 19739215072
+
+
+Query= exon_2
+
+Length=193
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044004.1 Aquila chrysaetos chrysaetos chromosome 1, bAquChr1.4...  44.6       0.008
+
+
+
+Query_2  140       GTCTGAGCAGGTGCAGG-AGGAGCTGCTCAGCTCCC  174
+0        30115624  ..........C..A...C.............A....  30115589
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 201093183130
+
+
+Query= exon_3
+
+Length=718
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_024470337.1 Aquila chrysaetos chrysaetos unplaced genomic scaf...  50.9       8e-04
+
+
+
+Query_3  529   GGAGGTGCGCGCCAAGCTGGAGGAGCAGGCCCAGCAGATACGCCTGCAGGCCGAGGCCTTC  589
+44       4930  .....A...G.......G.............A...---......G.GT.....CT...A..  4987
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 846318352292
+
+
+  Database: GCF_900496995.4_bAquChr1.4_genomic.fna
+    Posted date:  Dec 15, 2021  3:54 PM
+  Number of letters in database: 1,233,704,830
+  Number of sequences in database:  144
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

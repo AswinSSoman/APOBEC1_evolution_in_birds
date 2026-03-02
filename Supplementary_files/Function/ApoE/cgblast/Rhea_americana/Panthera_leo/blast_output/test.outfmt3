@@ -1,0 +1,73 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_003343005.1_rheAme1_genomic.fna
+           2,162 sequences; 1,160,836,514 total letters
+
+
+
+Query= exon_1
+
+Length=200
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 197331181180
+
+
+Query= exon_2
+
+Length=685
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+PTEV01000541.1 Rhea americana isolate MKP2758 scaffold_540, whole...  102        1e-19
+PTEV01000198.1 Rhea americana isolate MKP2758 scaffold_197, whole...  46.4       0.008
+
+
+
+Query_2  5       CTGATGGAGGAGACCATGAAGGAGGTGAAGGCCTACAGGGAGGAGCTGGAGGAGCAGCTGGGCCCCATGGCCTCGGAGACACAGGCCCGCGTGGCCAAGGAGCTGCAGGCGGCGCAG------GCCCGGCTGGCCTCGGACATGGAGGACGTGCGCAACCGCCTGGCGCAGTACCGCAGCGAGGTGCAGGCCATGCTGGGCCAGAGCGCCGAGGAGCTGCGGGGGCGCCTCGCCTCGCACCTGCGCA--AGCTGCGCAAGCGGCTGCTCCGCGACGCCGA  276
+1654     139573  ..C..C.C..........GCA...C..G....GC.GGC..T.......C...CC...........--...TGG..-------.....A......GGCT.C...GCG.C.T..A.G..CTAGGT.GG......CGGG.T..G....C...G.CA..GGG...AG...........G..GC.....CA......G.....CAG...G....T.....C.....T..C.....G...G.CT..ACC....--.............C...GC.AAG...A....  139841
+1079     491476                                                                                                                                                                                                              ....G............C.CC.AG...AG.C...TG--.....GG........G..GC....GG.GC...G.A...  491549
+
+Query_2  277     GGACCTGCACAAGCGCCTGGCCG  299
+1654     139842  ...G....GG.GC..........  139864
+1079     491550  .AG.....G.C...........   491571
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 759143247768
+
+
+  Database: GCA_003343005.1_rheAme1_genomic.fna
+    Posted date:  Jan 7, 2022  8:37 PM
+  Number of letters in database: 1,160,836,514
+  Number of sequences in database:  2,162
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

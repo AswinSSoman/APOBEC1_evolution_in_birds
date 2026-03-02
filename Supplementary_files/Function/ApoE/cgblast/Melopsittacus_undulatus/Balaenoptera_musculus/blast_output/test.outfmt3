@@ -1,0 +1,87 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_012275295.1_bMelUnd1.mat.Z_genomic.fna
+           864 sequences; 1,171,617,451 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 18745505968
+
+
+Query= exon_2
+
+Length=190
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_047528.1 Melopsittacus undulatus isolate bMelUnd1 chromosome 2...  51.8       5e-05
+
+
+
+Query_2  16       TGGAGCCAGAGCCGGAGCCCGAGGTGCAGCT---GGGGCGGGAGTGGCCCGGGTG  67
+1        82939    ............T......G...C..G....---..A..C....             82979
+1        1037219   ...A..G...........G.......T...GGC..T..C......C........  1037272
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 187454644960
+
+
+Query= exon_3
+
+Length=718
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 804882788229
+
+
+  Database: GCF_012275295.1_bMelUnd1.mat.Z_genomic.fna
+    Posted date:  Oct 2, 2020  5:07 PM
+  Number of letters in database: 1,171,617,451
+  Number of sequences in database:  864
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

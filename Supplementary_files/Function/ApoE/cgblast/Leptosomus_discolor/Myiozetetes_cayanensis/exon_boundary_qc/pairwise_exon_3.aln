@@ -1,0 +1,39 @@
+########################################
+# Program: needle
+# Rundate: Tue 19 Nov 2024 00:42:00
+# Commandline: needle
+#    -asequence APOE_Myiozetetes_cayanensis_exon_3.fa
+#    -bsequence extracted_flanking_region_exon_3.fa
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile pairwise_exon_3.aln
+#    -awidth3 10000
+# Align_format: srspair
+# Report_file: pairwise_exon_3.aln
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: APOE_Myiozetetes_cayanensis_exon_3
+# 2: extracted_flanking_region_exon_3
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 404
+# Identity:     112/404 (27.7%)
+# Similarity:   112/404 (27.7%)
+# Gaps:         260/404 (64.4%)
+# Score: 203.5
+# 
+#
+#=======================================
+
+APOE_Myiozete      1 ----------------------GCAGGTGGTGGGGGAGTTCCGGGCGCTGCGGAACGAGGCGCGGGACCGCGCGGCCGAGTACGGGGTG-GAGGCGAAGGCGCTGCTGGAGCAGAGCTGGGGGGACCTGAAGGCCCGGGGGGCTTCGTTCGCCCGAAAGCTGCGCAAGAGGCTGAACCGGGACGCGGAGGAGCTGAGGAA-GC--GCTGG---GACGGGGGGGTCGCCGCCCTCAGGGCCCT--------------CTGGGGGATC--CCCGAGACCCCCTGGGACCCCCAG--GATTGA--------------------------------------------------------------------------------------------------------    253
+                                           ||..|.|| |.|.|||.|||||||||||||||||||||||                     |||.|| ||        |.|||||        ..|||||                           |||                 ||||.|.||.|              .||||| ||  |||||   .||||.|.|||        ||||    ||              |||....|||  |.||||| ...|..||||..||.|  .|||.|                                                                                                        
+extracted_fla      1 GGAACCCAACTGGGCTGCCAAAGCGAGAGG-GAGCGAGATCCGGGCGCTGCGGAACGAGGCG---------------------GGGTTGTGA--------CTCTGCT--------TTTGGGG---------------------------CGC-----------------GGCTCATCCAG--------------AAGGAATGCCTGCTGGTTTCACGGAGAGGT--------TCAG----CTGTTTTCGTGCTTAGCTGTTCTATCAACGCGAGA-AATCAAGGACGTCCTGCTTATTTAAAACGGTTTTCTTGCACATTTcatgaagattttaaaagatttttactAATCGTATCTAAAGTGtgaattttattcatttatttattgttttgccTAGGCTTATT    295
+
+
+#---------------------------------------
+#---------------------------------------

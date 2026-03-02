@@ -1,0 +1,92 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_012275295.1_bMelUnd1.mat.Z_genomic.fna
+           864 sequences; 1,171,617,451 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 18745505968
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 139419495005
+
+
+Query= exon_3
+
+Length=556
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_047549.1 Melopsittacus undulatus isolate bMelUnd1 chromosome 2...  48.2       0.002
+NC_047536.1 Melopsittacus undulatus isolate bMelUnd1 chromosome 1...  47.3       0.007
+NC_047546.1 Melopsittacus undulatus isolate bMelUnd1 chromosome 2...  46.4       0.007
+
+
+
+Query_3  28        GCTGGAGGCGCAGGCGGTGGAGCTGCAGGCCCAGCTGG--GCCCTGGTG--GCGAGGCC---AGC--GTGGGGCTGCAGCGCGACGTGGAGGAGCTAGGTGGGCGGCTGCGGGCTGAGATGGCGGAGGCACGGGGCCGGGTGGCGCAGTACGGCGCCGAGGCACAGGCCGTGCTGCAGCAGGGCGCTGAGGACCTGCGTGGCCGCCTGGCCGCCTACACCCGCAAGCTACGCAAGCGCCTGGCCAAGGACACCGAGGAGCTGCGGAGCCGCCTGGCCGCC  298
+12       16440855  .....G...CA..A...C...........G..G.....CA.......A.GA...C....CCGG..TG.AC.C........C.CG.......C....                                                                                                                                                                                          16440760
+22       1081561     ............T..A...........A.A.....                                                                                                                                                                                                                                                     1081595
+
+Query_3  299       GCCGCCAGCAAGGTGCAGGCGCGGGTGGCGGAGCGGGCGGCAGCACTGCGCCAGGGGTTGCCGCCGCTGCGGGCGGCCCCTCGGCTGGCAGCGCTGGGGCAGGTGCTTGGCGAGCAGGGCCTCCGGGTGCAGCAGGGGCTGCAGGAGGCGGTGCAGGAGCTGCGG  463
+26       1256920                                                                                                                               ......T.....A.G......T..A.C..............  1256880
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 615085100175
+
+
+  Database: GCF_012275295.1_bMelUnd1.mat.Z_genomic.fna
+    Posted date:  Oct 2, 2020  5:07 PM
+  Number of letters in database: 1,171,617,451
+  Number of sequences in database:  864
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

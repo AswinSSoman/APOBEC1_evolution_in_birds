@@ -1,0 +1,12 @@
+[07;32m[K>exon_1[m[K	
+	
+  
+  APOE_Chrysemy      1 ATGGAC-CTG---------GCTTC--------------------CCAC-------ATGCTG-TGCA---CCCTAGCTTGTATCCCCTGTGGGGGACCGATGGGGGG---------TGTTAGGTCCCACCCTCCCTGCCCTCATTCACCCCA---GCCCCTTCCTTCTCTCCCTGCAGGCAA--AGCTGCAGCCATGA-----------AGGTTTTGATTGTGCTGCTCGGGGCAACCCT-    173
+                           || |||         |||||                    .|||       |||||| ||.|   |.||.||||             ||.|.|.|..|||.|         ||||               |..|||||..||.|.||   .||||||||||||||||| ||.|||.|  ||||||||.|||||           ||||||..||..|.|||...|.||||   || 
+  extracted_fla      1 ----ACACTGAACCACagagcttctttctttttaggcATATCTAGCACAGATTGGATGCTGATGAAAAGCACTGGCTT-------------GGCAGCAACAGGGAGAAAAACGTCTGTT---------------TATCCTCAAACAGCACAAgttccccttccttctctccc-gCTGGCCATCAGCTGCAGACATGAGGGCTCATCACAGGTTTCCATGTTACTGGGTGAGGCA---CTG    204
+  
+  APOE_Chrysemy    174 GCTGGCAG-------------    181
+                       ||||| ||             
+  extracted_fla    205 GCTGG-AGGTTCACAAGCCTT    224
+
+

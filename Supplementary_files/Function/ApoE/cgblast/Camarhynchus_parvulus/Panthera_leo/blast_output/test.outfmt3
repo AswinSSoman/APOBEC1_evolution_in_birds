@@ -1,0 +1,75 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_901933205.1_STF_HiC_genomic.fna
+           1,345 sequences; 1,051,609,828 total letters
+
+
+
+Query= exon_1
+
+Length=200
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 178766811260
+
+
+Query= exon_2
+
+Length=685
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_022147825.1 Camarhynchus parvulus unplaced genomic scaffold, S...  46.4       0.008
+NC_044594.1 Camarhynchus parvulus chromosome 24, STF_HiC, whole g...  46.4       0.008
+NC_044585.1 Camarhynchus parvulus chromosome 15, STF_HiC, whole g...  46.4       0.008
+
+
+
+Query_2  180      AGGTGCAGGCCATGCTGGGCCAGAGCGCCGAGGAGCTGCGGGGGCGCCTCGCCTCGCACCTGCGCAAGCTGCGCAAGCGGCTGCTCCGCGACGCCGAGGACCTGCACAAGCGCCTGGCCGTGTACCGCGCCGGGGTGCGCGAGGGCGCCGAGCGCAGCGTCAGCTCCATCCGCGAGCGCTTCTGGCCGCTGGTGGAGCAGgcgcgcgcgcgcAACGCCAACGTGGCCGCCGTGGCCGCGCAGCCGCTGCGGGA---GCGGGCCGAGGCCTTGGGCCAGCA  456
+185      17771                                                                                                                                                                                                                                                                                           .  17771
+23       806499   ..C.........G.A......C.TA...............                                                                                                                                                                                                                                                  806460
+14       4088648                                                                                                                                                                                                                                  ..A..G...T..C......A..G....C.CAC........-...T...T...-..G  4088701
+
+Query_2  457      GCTGCGCGGGCGGCTGGACGAGGTGCGCGAGCAGGTGGAGGAGATGCGG  505
+185      17772    ............C.........C..G..AG.G.CC......C.C.....  17820
+14       4088702  .--..A..............G..                            4088722
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 687725558982
+
+
+  Database: GCF_901933205.1_STF_HiC_genomic.fna
+    Posted date:  Nov 17, 2020  2:48 PM
+  Number of letters in database: 1,051,609,828
+  Number of sequences in database:  1,345
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

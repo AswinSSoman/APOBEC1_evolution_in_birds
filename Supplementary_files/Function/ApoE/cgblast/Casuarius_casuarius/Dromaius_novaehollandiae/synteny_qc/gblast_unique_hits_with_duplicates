@@ -1,0 +1,5 @@
+Query        Subject         %_Query_covered_per_hsp  Query_length  Alignment_length  Q_start  Q_end  S_start  S_end    E_value   Bit_score
+exon_1       PTFA01000166.1  63                       43            27                11       37     2307473  2307447  0.009     41.0
+exon_3       PTFA01000196.1  27                       544           166               288      433    1843508  1843670  1.08e-06  59.9
+exon_3_dup1  PTFA01000044.1  16                       544           87                75       161    1325644  1325726  3.77e-06  58.1
+exon_3_dup2  PTFA01000044.1  21                       544           121               340      453    4128486  4128599  1.60e-04  51.8

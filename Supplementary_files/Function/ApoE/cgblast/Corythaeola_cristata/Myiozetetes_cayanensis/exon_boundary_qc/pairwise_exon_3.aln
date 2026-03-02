@@ -1,0 +1,39 @@
+########################################
+# Program: needle
+# Rundate: Tue 19 Nov 2024 00:31:28
+# Commandline: needle
+#    -asequence APOE_Myiozetetes_cayanensis_exon_3.fa
+#    -bsequence extracted_flanking_region_exon_3.fa
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile pairwise_exon_3.aln
+#    -awidth3 10000
+# Align_format: srspair
+# Report_file: pairwise_exon_3.aln
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: APOE_Myiozetetes_cayanensis_exon_3
+# 2: extracted_flanking_region_exon_3
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 349
+# Identity:     158/349 (45.3%)
+# Similarity:   158/349 (45.3%)
+# Gaps:         148/349 (42.4%)
+# Score: 365.0
+# 
+#
+#=======================================
+
+APOE_Myiozete      1 ----------------------------------GCAGGTGGT------GGGGGAGTTCCGGGC-GCTGCGGAACGAGGCGCGGGACCGCGCGGCCGAGTACGGG-GTGGAGGCGAAGGCGCTGCTGGAGCAG-AGCTGGGGGGACCTGAAGGCCCGGGGGG-----CTTCGTTCGCCCGAAAGCTGCGCAAGAGGCTGAACCGGGA-CGCGGAGGAGCTGAGGAAGCGCTGGG-----------------------ACG-----------GGGGGGTCGCCGCCC-------------TCAGGGCCCTCTGGGGGATCCCCGAGACCCCCTGGGACCCCCAGGATTGA    253
+                                                       .||||||||      |..||||.|   ||| ||||||                 |||||||||.|..|||| |||||||.|..|||.|||||||||||| .|||||||    ||    ||||||.|||     .|.|| .||.||||..|..|||   ||.|.||||  |||| ||.||.||.||  .||.|||   |||                       |||           |..|..||.||||||             ||    |||.|.|||.|||.|||| .|||.|| ||..||.|.|       
+extracted_fla      1 TTGTGAGGTGGCGTTTGTCGCTCCCATTCCTTCCCCAGGTGGTTCCTCCGCCGGAGAT---GGCGGCTGCG-----------------Gcgcggccggggccgggcgtggaggagctggctctgctggagcagctgctgggg----ct----gcccggAGGGAACAAGTACG-GCGTCCGAGGGGAGCG---GAAGGTGAA--GGGAGCGAGGGggggc--gggcagc---gggcagCCATTACCCCCCTTCCCCAAACGCTTCCTaccccgccgcctccccgccccGCTCCTGCGCCGTC----CCCGCGGGGCGATTCCCG-CACCACC-GGTGCCGCGA-------    297
+
+
+#---------------------------------------
+#---------------------------------------

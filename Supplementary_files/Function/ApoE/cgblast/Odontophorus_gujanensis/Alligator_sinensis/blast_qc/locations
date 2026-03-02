@@ -1,0 +1,3 @@
+Location        #_hits  %_query_cov  %_identity  Lowest_evalue
+VXAB01013539.1  1       21           30.1077     0.009
+VXAB01009642.1  1       20.3333      31.0343     0.009

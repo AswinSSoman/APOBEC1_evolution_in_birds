@@ -1,0 +1,91 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000709325.1_ASM70932v1_genomic.fna
+           14,930 sequences; 1,153,894,225 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 18455857840
+
+
+Query= exon_2
+
+Length=148
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009244235.1 Cuculus canorus isolate BGI_N303 unplaced genomic ...  45.5       0.005
+
+
+
+Query_2  23      CGAGGAGCCGCGGGCCGGGTGGGAAGCGGCCG  54
+1050     393351  ......A............A....G.......  393320
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 137261889345
+
+
+Query= exon_3
+
+Length=544
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009244218.1 Cuculus canorus isolate BGI_N303 unplaced genomic ...  48.2       0.002
+
+
+
+Query_3  405      GCCGCCGGGTGCAGCGGGGGCTGCGGGAGGCGGTGCAG  442
+1033     2217424  .....TC.....C....................-....  2217388
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 591710305635
+
+
+  Database: GCF_000709325.1_ASM70932v1_genomic.fna
+    Posted date:  Dec 24, 2020  3:46 PM
+  Number of letters in database: 1,153,894,225
+  Number of sequences in database:  14,930
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

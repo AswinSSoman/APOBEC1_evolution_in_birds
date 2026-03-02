@@ -1,0 +1,94 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_008694505.1_ASM869450v1_genomic.fna
+           7,756 sequences; 1,041,446,934 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17701169726
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 123905419190
+
+
+Query= exon_3
+
+Length=556
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VZDJ01000346.1 Cyanoderma ruficeps isolate SRU082 scaffold34_len2...  50.9       5e-04
+VZDJ01007749.1 Cyanoderma ruficeps isolate SRU082 scaffold14_len5...  50.0       5e-04
+VZDJ01000062.1 Cyanoderma ruficeps isolate SRU082 scaffold325_len...  50.0       5e-04
+VZDJ01000078.1 Cyanoderma ruficeps isolate SRU082 scaffold287_len...  47.3       0.006
+VZDJ01003610.1 Cyanoderma ruficeps isolate SRU082 scaffold70771_l...  46.4       0.006
+
+
+
+Query_3  283       GAGCCGCCTGGCCGCCGCCGCCAGCAAGGTGCAGGCGCGGGTGGCGGAGCGGGCGGCAGCACTGCGCCAGGGGTTGCCGCCGCTGCGGGCGGCCCCTCGGCTGGCAGCGCTGGGGCAGGTGCTTGGCGAGCAGGGCCTCCGGGTGCAGCAGGGGCTGCAGGAGGCGGTGCA-GGAGCTGCGG-GCCTCGCTGG  473
+345      7620286                                                                                                                                    .........G....A.....-..CC...G.A.C...T....CT..........-......      7620229
+7748     46299940  ........--....GGA.....C.G.C..G.....A.....-....CC...............                                                                                                                                    46299881
+61       2705                                                                                                                                                     ...G..T.C........C...A.A....-..........A..A.......  2657
+77       1388893                                                                                                                                 ............GG...........A.C...GC.......C..                          1388851
+3609     1090                                                                                                                                                         .....T.....T........A..C-..........-.           1124
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 546633411450
+
+
+  Database: GCA_008694505.1_ASM869450v1_genomic.fna
+    Posted date:  Nov 19, 2020  1:04 PM
+  Number of letters in database: 1,041,446,934
+  Number of sequences in database:  7,756
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

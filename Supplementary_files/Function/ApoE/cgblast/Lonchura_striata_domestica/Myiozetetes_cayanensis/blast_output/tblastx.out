@@ -1,0 +1,4 @@
+Query	Subject	Query_length	Alignment_length	Q_start	Q_end	S_start	S_end	E_value	Bit_score	Raw_score	%_Query_covered_per_sub	%_Query_covered_per_hsp	%_ident	Matches	Mismatches	Gaps	Strand	Query_sequence	Subject_sequence
+
+exon_3	NC_042594.1	253	32	97	2	2388775	2388680	0.005	36.8	74	52	13	46.875	15	17	0	N/A	PALLQQRLRLHPVLGRAVPRLVPQRPELPHHL	PPLLSRGLRVRVPLPRAIPRCVPPCPQTPKHV
+exon_3	NC_042594.1	253	15	133	89	2388808	2388764	0.005	22.6	43	52	6	53.333	8	7	0	N/A	SGERSPPGLQVPPAL	AGSRGPPRLSQPPLL

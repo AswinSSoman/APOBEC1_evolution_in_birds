@@ -1,0 +1,88 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_003413605.1_Chrysolophus_pictus_GenomeV1.0_genomic.fna
+           14,294 sequences; 1,023,990,748 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17401524768
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 121805570418
+
+
+Query= exon_3
+
+Length=556
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+KZ860385.1 Chrysolophus pictus breed wild golden pheasant unplace...  51.8       1e-04
+KZ861448.1 Chrysolophus pictus breed wild golden pheasant unplace...  47.3       0.006
+
+
+
+Query_3  24       CAGAGCTGGAGGCGCAGGCGGTGGAGCTGCAGGCCCAGCTGG-GCCCTGGTGGCGAGGCCAGCGTGGGGCTGCAGCGCGACGTGGAGGAGCTAGGTGGGCGGCTGCGGGCTGAGATGGCGGAGGCACGGGGCCGGGTGGCGCAGTACGGCGCCGAGGCACAG-GCCGTGCTGCAGC-AGGG  201
+1042     1312905  ...........AT....CT..A.....A....---.......T..A....CT.-.....AG......A..G.......                                                                                                         1312832
+2911     821337                                                                                                                                              ...C....C.G............A.............G....  821296
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 537362507850
+
+
+  Database: GCA_003413605.1_Chrysolophus_pictus_GenomeV1.0_genomic.fna
+    Posted date:  Oct 10, 2020  3:22 PM
+  Number of letters in database: 1,023,990,748
+  Number of sequences in database:  14,294
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

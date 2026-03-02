@@ -1,0 +1,12 @@
+[07;32m[K>exon_1[m[K	
+	
+  
+  APOE_Chrysemy      1 --------------ATGGACCTGGCT--TC----CCACATGC--TGTGCACCC---------TAGCTTG---TATCCCCTGTGGGGGACCGATGGGGGGT----GTTAGGTCCCACCCTCCCTGCCCTCATTCACCCCAGCCCCTTCCTTCTCTCCCTGCAG-------GCAAAGCTG--------CAGCCATGAAGGTTTTGATTG---------TGCTGCTCGGGGCAACCCTGCT-G    177
+                                     ||     |.|||  ||    |.|||| |  |||||||.|         |||| ||   .|.||||.|||     ||     ..|||    .||.|.|||||.|||||||||||.|||.|.||||.|||||.|.|.||..|||||||.|       ||    |||        |.||..||..|...||.|.||         ||.||| |||...|||.|.||| |
+  extracted_fla      1 TGCTAATTGCTTTAAT-----TTGCTCATCTTAACAACAT-CTTTGTGCACTCACCCCTCTGTAGC-TGCCCAAGCCCCAGTG-----CC-----CTGGTCCTCCTTTGCTCccatcctccctgcccccatcctcccctgccccatACATCCATCCCTGCCGCCCCACCGC----CTGTTCGACCACGGCAGTGGGGCGCTTAACTGGGAGAGGCCTGGTGC-CGGCAAAACGCCGCTCG    218
+  
+  APOE_Chrysemy    178 GCAG-    181
+                       |.|| 
+  extracted_fla    219 GAAGC    223
+
+

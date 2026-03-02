@@ -1,0 +1,91 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_001870855.1_T_cupido_pinnatus_GPC_3440_v1_genomic.fna
+           12,186 sequences; 983,776,544 total letters
+
+
+
+Query= exon_1
+
+Length=46
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+MOXI01000094.1 Tympanuchus cupido pinnatus isolate GPC 3440 Scf7L...  41.0       0.009
+
+
+
+Query_1  14      CCGTGCTGCTCGGAGCCGTGCTGCTGC  40
+93       715191  ................A.A........  715217
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 18685502918
+
+
+Query= exon_2
+
+Length=136
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 105226277050
+
+
+Query= exon_3
+
+Length=577
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+MOXI01009456.1 Tympanuchus cupido pinnatus isolate GPC 3440 ScWaA...  48.2       0.002
+
+
+
+Query_3  352   GCCGCTGCGCGAGAAGGGGCAGCAGCGCCTGGCGGCCCTGCAGCAG  397
+9455     3800  ............CGT..T.G......A.AA................  3845
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 536935732788
+
+
+  Database: GCA_001870855.1_T_cupido_pinnatus_GPC_3440_v1_genomic.fna
+    Posted date:  Oct 10, 2020  3:16 PM
+  Number of letters in database: 983,776,544
+  Number of sequences in database:  12,186
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

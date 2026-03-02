@@ -1,0 +1,131 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_005870125.1_lonStrDom2_genomic.fna
+           2,015 sequences; 1,060,269,806 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 16963446416
+
+
+Query= exon_2
+
+Length=148
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_042585.1 Lonchura striata domestica isolate Mets1 chromosome 2...  46.4       0.001
+
+
+
+Query_2  18        GGCCCCGAGGAGCCGCGGGCCGGGTGGGAA  47
+20       12221570  .......G.........T............  12221541
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 126165153149
+
+
+Query= exon_3
+
+Length=544
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_042589.1 Lonchura striata domestica isolate Mets1 chromosome 2...  53.6       4e-05
+NC_042588.1 Lonchura striata domestica isolate Mets1 chromosome 2...  53.6       4e-05
+NC_042565.1 Lonchura striata domestica isolate Mets1 chromosome 1...  53.6       4e-05
+NC_042591.1 Lonchura striata domestica isolate Mets1 chromosome 2...  52.7       1e-04
+NC_042568.1 Lonchura striata domestica isolate Mets1 chromosome 3...  51.8       1e-04
+NC_042567.1 Lonchura striata domestica isolate Mets1 chromosome 2...  51.8       1e-04
+NC_042584.1 Lonchura striata domestica isolate Mets1 chromosome 1...  50.9       5e-04
+NC_042574.1 Lonchura striata domestica isolate Mets1 chromosome 8...  50.9       5e-04
+NC_042593.1 Lonchura striata domestica isolate Mets1 chromosome 2...  48.2       0.002
+NW_021819271.1 Lonchura striata domestica isolate Mets1 unplaced ...  47.3       0.006
+NC_042579.1 Lonchura striata domestica isolate Mets1 chromosome 1...  47.3       0.006
+NC_042576.1 Lonchura striata domestica isolate Mets1 chromosome 1...  47.3       0.006
+NC_042595.1 Lonchura striata domestica isolate Mets1 chromosome Z...  46.4       0.006
+NC_042585.1 Lonchura striata domestica isolate Mets1 chromosome 2...  46.4       0.006
+NC_042569.1 Lonchura striata domestica isolate Mets1 chromosome 4...  46.4       0.006
+
+
+
+Query_3  6          TCATCGCAGAGACCATGGAGGAGCTGGAGGCGCAGGTGGCAGAGCTGCAGGCCAAGCTGGGCCCCAgcggcgaggcgggcgcgg-ggctgcgtcgcgacgtggaggagctgg-gc-gggcggctgcgggcCGAGCTGGTGGA---GGCACGG---GGCCGGGCAG-CGCAGTACGGGGCCGAGGCGCGGGCCGTGCTGCAGCAGGGCGCCGAGGACCTGCGGAGCCGCCTGGCCGCCTACGCCCGCAAGCTGCGCAAGCGCCTGGCCAAGGACGCCGAGG  275
+24       801750                                                                                                                                                                                                                                                                                      .......  801744
+24       799258                                               .................A....--.....CC.......T...-..----.C...TC.CG.....C.....C..-...A..                                                                                                                                                                799187
+0        110725742                                                                                                                                .........G..--.C---C.AG...---........G.-G..C.AG........-....-......G..-.GG..C......T.C..G..GC.......                                                        110725829
+0        99395069                                                                                                                                                                                                                                                                                     ...G..  99395074
+3        46534052                                                                            .......T...C...C...C.T.CC.CG..C..G..G..-..C......TCC.......G..C..GC.G---...--..---........C.-G..G.GG........-...-.....                                                                                           46533947
+3        89136221                                                                                                                        ...............G..C..C..GCAG....G..CAG...A......-.....G.-.......G....G...                                                                                            89136151
+2        18204599                                                                       ....G...C...C--.-...A...G..G.G.CG..CC....C..-..-......AGCG......G..C..-.C.---.CGG...---........C.-A..C.GG..........--C.......G..                                                                                      18204711
+9        21743142   ...........-...-.CCC...........A..............A..                                                                                                                                                                                                                                         21743188
+30       35462583                                                                                                                                                        ...---..........C...G.CT.C......G........G..C.....                                                                                   35462537
+20       2198246                                                                                                                                                                                                                                                                                          ..  2198245
+
+Query_3  276        AGCTGCGGAGCCGCCTGGCCGCCgcggccggcg--aggtgcgggcccgggcggcgg-cgctgcacga-ggggctgccggtg-ctgc-ggg-cgcc-gccgcggctggc---ggcgctgggACAG-GC--GCTG---GGCG---AGCAGGGCCGCCGGGTG---C---AGCGGGGGCTGCGGGAGGCGGTGCAGGAGC  446
+24       801743     .......CGC.............AGCT...AG.--..C.......                                                                                                                                                          801701
+23       5759895                                                                                                     .......CC..---....--...T.C.-..--.--.---....---G..............G.---.---C.GC.....C.....                 5759833
+0        99395075   ...........G.G.......-......T.A.------A..C.......--...A.-......-..G-.C..GCA.G.C..-....T...-....-.GG....                                                                                                99395162
+26       1886665                                                                                                             ...---A.G..A...C.C.-..--....---....---........A..A.....---.---..                              1886620
+2        91409323                                                       ..C.-....-...C.T.....G...C.C.---..-...-...TA........C...---....GC.C.G--.-..--....---....---G..G.C.G...G...C.---.---T.G.C....G....                  91409424
+2        91409345                        .......G....CT..CC....C.---........-...G.GG..C-T....G.G...C.-GC..-...G...T-.G-....GC...---...C.C...-----..--....---....---G..G.C.G...G...C.---.---T.G.C....G....                  91409473
+2        151119190                                                ......-...-G..C.GG..C-..A..C.--....-.AC.-...-...G-.AG...-.G...---.........CGC.-..--....---....---C..T...-.....                                           151119276
+2        151646491            ...............C...-...--...GC......G..C....                                                                                                                                                 151646531
+19       6557001        ..............----...A...--.C--.C.......-...........-G.------.C-..C.GG.....-.-.G..--..-....-.G..G..GC..----T....G...G.G.-..--....---A..-----..G........                                            6556889
+28       6216639                                                                                                                               .-..--..G.---....CGG......CG..GG..C..---.---G....C..............C..G..C...  6216700
+1065     472513                                                                                                   .-.G...T.....T---........CC.G.A..CT..C.---...C---T..C.A...C.....A.TGG.---T....C.............C.A.G......  472424
+14       16932358                                                                                                                                      ..---T...---..........-...C..---.AGG...T..A..A.....T........T....   16932412
+11       17397368                                                ......A....G......TG..-.C......G..-.-.-.A-.T.-..TG-...----....A---..A....CTG.T.-.A--....CAG.C..---....C..G.A.AT..C.---G---.....CA..G.............G..      17397489
+20       2198244    ............CGGAC.AG..G......-...---........GG.T....CG..-...--------....GG.......C.G..-...-.-----...G.......GCT.........CTGC-..--C...---....                                                           2198131
+4        41010534                                                                                                                             ..-..--....---....---...--.......TC...---.---C.....CC.G......C.G.C...        41010483
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 543886365933
+
+
+  Database: GCF_005870125.1_lonStrDom2_genomic.fna
+    Posted date:  Sep 27, 2020  4:04 PM
+  Number of letters in database: 1,060,269,806
+  Number of sequences in database:  2,015
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

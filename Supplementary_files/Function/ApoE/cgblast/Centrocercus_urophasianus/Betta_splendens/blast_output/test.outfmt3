@@ -1,0 +1,110 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_019232065.1_USGS_Curo_1.0_genomic.fna
+           1,502 sequences; 1,010,657,860 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17180519736
+
+
+Query= exon_2
+
+Length=154
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 126326787750
+
+
+Query= exon_3
+
+Length=288
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_024884944.1 Centrocercus urophasianus isolate 14NV4802_14NV808...  48.2       8e-04
+
+
+
+Query_3  50       CTCCAGGCCAAGCTGAGCCCCTACACCGACG  80
+803      5072223  ..G.....................G......  5072193
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 260738102400
+
+
+Query= exon_4
+
+Length=352
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_024885000.1 Centrocercus urophasianus isolate 14NV4802_14NV808...  47.3       0.004
+
+
+
+Query_4  65       GGGCAGGTGGAGCCGCTGGTGCAGCAGG  92
+859      3403340  .......G....................  3403367
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 325417321600
+
+
+  Database: GCF_019232065.1_USGS_Curo_1.0_genomic.fna
+    Posted date:  Oct 27, 2021  12:46 PM
+  Number of letters in database: 1,010,657,860
+  Number of sequences in database:  1,502
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,2 @@
+Query   Subject         Query_length  Alignment_length  Q_start  Q_end  S_start  S_end  E_value   Bit_score  Raw_score  %_Query_covered_per_sub  %_Query_covered_per_hsp  %_ident  Matches  Mismatches  Gaps  Strand
+exon_2  PPHD01121158.1  685           72                454      524    805      875    1.74e-04  51.8       56         10                       10                       77.778   56       14          2     plus

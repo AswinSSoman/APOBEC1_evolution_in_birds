@@ -1,0 +1,39 @@
+########################################
+# Program: needle
+# Rundate: Mon 18 Nov 2024 23:52:14
+# Commandline: needle
+#    -asequence APOE_Dromaius_novaehollandiae_exon_2.fa
+#    -bsequence extracted_flanking_region_exon_2.fa
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile pairwise_exon_2.aln
+#    -awidth3 10000
+# Align_format: srspair
+# Report_file: pairwise_exon_2.aln
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: APOE_Dromaius_novaehollandiae_exon_2
+# 2: extracted_flanking_region_exon_2
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 190
+# Identity:     129/190 (67.9%)
+# Similarity:   129/190 (67.9%)
+# Gaps:          42/190 (22.1%)
+# Score: 569.0
+# 
+#
+#=======================================
+
+APOE_Dromaius      1 ---------------------GCTGCAGGGCTGAGCAGGGCCCCGAGGAGCCGCGGGCCGGGTGGGAAGCGGCCGTCGACAGCTTCTGGGAGTACGTGGCCCAGCTGGGGCAGGCGGTGGAGAACGGCACCGCACGCGTGAAGAGCTCCGAGATCGGCCGCCAGCTCGA---------------------    148
+                                          ||||..||||.||||.||||||.|||||||||||||||||.|||||||||||.||||||..||||||||||||||||||||||||||||||.|||||||||||||||||.|..||.|||||||||.||.||||.||||||.||||.||                     
+extracted_fla      1 CATGGGACAGGGATGCCACAGGCTGTGGGGCCGAGCTGGGCCCTGAGGAGCCGCGGGCCGGCTGGGAAGCGGCTGTCGACGCCTTCTGGGAGTACGTGGCCCAGCTGGGGCATGCGGTGGAGAACGGCACTGTGCGTGTGAAGAGCGCCCAGATTGGCCGCAAGCTTGAGTGAGTGCGGGGCACCAGTGC    190
+
+
+#---------------------------------------
+#---------------------------------------

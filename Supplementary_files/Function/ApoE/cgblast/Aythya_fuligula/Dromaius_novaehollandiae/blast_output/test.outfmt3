@@ -1,0 +1,99 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_009819795.1_bAytFul2.pri_genomic.fna
+           105 sequences; 1,127,004,725 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 18032030240
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 134113199920
+
+
+Query= exon_3
+
+Length=544
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_045563.1 Aythya fuligula isolate bAytFul2 chromosome 5, bAytFu...  53.6       4e-05
+NC_045561.1 Aythya fuligula isolate bAytFul2 chromosome 3, bAytFu...  53.6       4e-05
+NC_045585.1 Aythya fuligula isolate bAytFul2 chromosome 27, bAytF...  50.0       5e-04
+NC_045586.1 Aythya fuligula isolate bAytFul2 chromosome 28, bAytF...  47.3       0.006
+NC_045565.1 Aythya fuligula isolate bAytFul2 chromosome 7, bAytFu...  46.4       0.006
+
+
+
+Query_3  27        AGCTGGAGGCGCAGGTGGCAGAGCTGCAGGCCAAGCTGGGCCCCAgcggcgaggcgggcgcggggctgcgtcgcgacgtggaggagctgggcgggcggctgcgg-gcCGAGCTGGTGGAGGCA--CGGGGCCGGGCAGCGCA-GTACGGGGCCGAGGCGCGGGCCGTGCTGCAGCAGGGCGCCGAGGACCTGCGGAGCCGCCTGGCCGCCTACGCCCGCAAGCTGCGCAAGCGCCTGGCCAAGGACGCCGAGGAGCTGCGGAGCCGCCTGGCCGCCgc-g  301
+4        37138007                                                                                                                               .............G...G.GC........-....G......A.....T....C.T...                                                                                                   37138063
+2        66133604                                                                                                                                                                                                                                                                           ...G....T..T.C.  66133618
+26       4818130                                                                                                                                                                                                                                        ...T.............C..C..C...G..T.G..T..GG...G.A..G-.  4818081
+27       2837085   ..........A.GC....A...........A.......                                                                                                                                                                                                                                                    2837048
+6        5546623                                                                                                                                                       ...A....C............G.GT........AG......G...                                                                                         5546579
+6        31925814                                                                                    ..G..G.A.........G....C...CG..A..A..C...GGT.............G...-.GG.C......                                                                                                                                31925744
+
+Query_3  302       gccggcgaggtgcgggcccgggcggcggcgctgcacgaggggctgccggtg-ctgcgggcgccgccgcggctggcggcgctgggACAGGCGCTGGGCGAGCAGGGCCGCCGGGTGCAGCGGGGGCTGC  428
+2        66133619  ....C.TC....G....---...C.T..G.....-..T.C...G..G..G.G........C.T.....T....T..C......AGG.....-.C...TTT.C..-----.A....G............  66133736
+26       4818080   ....C.......                                                                                                                      4818069
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 578151754110
+
+
+  Database: GCF_009819795.1_bAytFul2.pri_genomic.fna
+    Posted date:  Jan 12, 2022  2:13 AM
+  Number of letters in database: 1,127,004,725
+  Number of sequences in database:  105
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

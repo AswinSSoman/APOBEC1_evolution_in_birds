@@ -1,0 +1,73 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_009650955.1_bCorMon1.pri_genomic.fna
+           105 sequences; 1,112,734,094 total letters
+
+
+
+Query= exon_1
+
+Length=200
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 189164260480
+
+
+Query= exon_2
+
+Length=685
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_045504.1 Corvus moneduloides isolate bCorMon1 chromosome 29, b...  47.3       0.008
+NC_045503.1 Corvus moneduloides isolate bCorMon1 chromosome 28, b...  47.3       0.008
+
+
+
+Query_2  36       CCTACAGGGAGGAGCTGGAGGAGCAGCTGGGCCCCATGGCCTCGGAGACACAGGCCCGCGTGGCCAAGGAGCTGCAGGCGGCGCAGGCCCGGCTGGCCTCGGACATGGAGGACGTGCGCAACCGCCTGGCGCAGTACCGCAGCGAGGTGCAGGCCATGCTGGGCCAGAGCGCCGAGGAGCTGCGGGGGCGCCTCGCCTCGCACCTGCGCAAGCTGCGCAAGCGGCTGCTCCGCGACGCCGAGGACCTGCACAAGCGCCTGGCCGTGTACCGCGCCGGGGT  315
+28       3066390  ...C..A.................G........                                                                                                                                                                                                                                                         3066358
+
+Query_2  316      GCGCGAGGGCGCCGAGCGCAGCGTCAGCTCCATCCGCGAGCGCTTCTGGCCGCTGGTGGAGCAGgcgcgcgcgcgcAACGCCAACGTGGCCGCCGTGGCCGCGCAGCCGCTGCGGGAGCGGGCCGAGGCCTTGGGCCAGCAGCTGCGCGGGCGGCTGGACGAGGTGCGCGAGCAGGTGGAGGAGATGCGGCTCAAGATGGAGGAGCAGGCCGACCAGATGCGCCAGCAGGCCGAGGCCTTCCAGGCCCGCCTCAAGAGCTGGTTCGAGCCCTTGGTGCAA  595
+
+Query_2  596      GACATGCAGCGCCAGTGGGCCGGGCTGGTGGAGAAGTTGCAGGCGGCCGTGGGCACC  652
+27       2158223                          ...C..C.....C....................  2158255
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 727725968706
+
+
+  Database: GCF_009650955.1_bCorMon1.pri_genomic.fna
+    Posted date:  Nov 17, 2021  1:39 PM
+  Number of letters in database: 1,112,734,094
+  Number of sequences in database:  105
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

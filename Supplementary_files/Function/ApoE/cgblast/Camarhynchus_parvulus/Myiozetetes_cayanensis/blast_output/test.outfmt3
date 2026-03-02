@@ -1,0 +1,102 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_901933205.1_STF_HiC_genomic.fna
+           1,345 sequences; 1,051,609,828 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17876772586
+
+
+Query= exon_2
+
+Length=145
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_022148493.1 Camarhynchus parvulus unplaced genomic scaffold, S...  88.7       4e-16
+
+
+
+Query_2  1     GCTGCGGGGCCGAACTA----GCCACTCCCGCGccccccaccccacctcggccccccTCGCGGGTCT--GGAGGGTCCTGGCGGTCCTGGAGGCAGCGGCTGAGAACGCGACGGAGCGGCTGCGGGAGACCCCCGTGG  132
+853      2715  .............G..GAGTG...C.A...C.......AC.....G.C.C......AC....A.G..TT..G..C......G..CT....G..AG.....C...........C...........CC...G.G..C...  2578
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 121982215468
+
+
+Query= exon_3
+
+Length=253
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_022148493.1 Camarhynchus parvulus unplaced genomic scaffold, S...  107        9e-22
+NW_022147825.1 Camarhynchus parvulus unplaced genomic scaffold, S...  48.2       7e-04
+NW_022148435.1 Camarhynchus parvulus unplaced genomic scaffold, S...  46.4       0.003
+NW_022148526.1 Camarhynchus parvulus unplaced genomic scaffold, S...  44.6       0.009
+NW_022148457.1 Camarhynchus parvulus unplaced genomic scaffold, S...  44.6       0.009
+NC_044599.1 Camarhynchus parvulus chromosome 29, STF_HiC, whole g...  44.6       0.009
+
+
+
+Query_3  9        TGGGGGAGTTCCGGGCGCTGCGGAACGAGGCGCGGGACCGCGCGGCCGAGTACGGGGTGGAGGCGAAGGCGCTGCTGGAGCAGAGCTGGGGGGACCTGAAGGCCCGGGGGGCTTCGTTCGCCCGAAAGCTGCGCAAGAGGCTGAACCGGGACGCGGAGGAGCTGAGGAAGCGCTGGGACgggggggTCGCCGCCCTCAGGGCCCTCTGGGGGATCCCC-GAGACCCCCT-GGGACCCCCAGGATTG  252
+853      475      ..C.....C.G....A......CTC.....T...C.CG...ATCT.........C.CA.......CGC........C....TC...GCC.CC......CGC..G..C..C..CG.C....G.A.....T.C..G..AC.C..CGG...C...CAC.........C...G.........G........G.GG..GA..C............A..C....-.                            257
+185      22243                                                                                                                                                                                                             .......T....C....--......T..-...........       22207
+795      77857                                                                                                                                                                                                    ...C.....A..C.CA...A.C...A-.........A-...........       77811
+795      77444                                                                                                                                                                                                                     ....C....A..........-............      77413
+886      2425                                                                                                                                                                                                                      ....C....A..........-...........       2395
+817      78493                                                                                                                                                                                                          ...A..C......-......-A.A.......T............      78534
+28       2407522                                                                                                                                                                                                                    ...C....-.G.......C-.............C..  2407489
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 234499993594
+
+
+  Database: GCF_901933205.1_STF_HiC_genomic.fna
+    Posted date:  Nov 17, 2020  2:48 PM
+  Number of letters in database: 1,051,609,828
+  Number of sequences in database:  1,345
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

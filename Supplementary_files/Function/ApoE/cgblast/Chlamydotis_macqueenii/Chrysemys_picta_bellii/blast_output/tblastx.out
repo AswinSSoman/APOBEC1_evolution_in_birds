@@ -1,0 +1,4 @@
+Query	Subject	Query_length	Alignment_length	Q_start	Q_end	S_start	S_end	E_value	Bit_score	Raw_score	%_Query_covered_per_sub	%_Query_covered_per_hsp	%_ident	Matches	Mismatches	Gaps	Strand	Query_sequence	Subject_sequence
+
+exon_3	NW_010460512.1	634	22	404	339	2358	2293	0.008	33.1	66	20	3	50.000	11	11	0	N/A	DAAVPCHGCCRLVAAGPGAQHS	DVCMKSRGCCRVVAAGGGTSHA
+exon_3	NW_010460512.1	634	20	332	273	2306	2247	0.008	28.1	55	20	3	50.000	10	10	0	N/A	GQCGPAPHRHRRPSCGAAPQ	GRRTPAPSLQKRPSCPSAPR

@@ -1,0 +1,90 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_003676055.1_GouldianFinch_genomic.fna
+           18,372 sequences; 1,070,785,140 total letters
+
+
+
+Query= exon_1
+
+Length=46
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+QUSF01000154.1 Erythrura gouldiae isolate Red01 scaffold_154, who...  41.9       0.010
+QUSF01000152.1 Erythrura gouldiae isolate Red01 scaffold_152, who...  41.9       0.010
+QUSF01000009.1 Erythrura gouldiae isolate Red01 scaffold_9, whole...  41.9       0.010
+
+
+
+Query_1  6        GGTCTGGACCGTGCTGCTCGGAGCCGTGCTGCTGCTGGCGG  46
+153      6599                ..........G............GC.....  6570
+151      6559                ..........G............GC.....  6530
+8        3052367  .....T.G...........T.T....CC.........T..   3052406
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 20335492824
+
+
+Query= exon_2
+
+Length=136
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 114517001664
+
+
+Query= exon_3
+
+Length=577
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 584337721968
+
+
+  Database: GCA_003676055.1_GouldianFinch_genomic.fna
+    Posted date:  Sep 30, 2020  10:41 PM
+  Number of letters in database: 1,070,785,140
+  Number of sequences in database:  18,372
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,104 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_008694505.1_ASM869450v1_genomic.fna
+           7,756 sequences; 1,041,446,934 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17701169726
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 123905419190
+
+
+Query= exon_3
+
+Length=544
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VZDJ01001610.1 Cyanoderma ruficeps isolate SRU082 scaffold22292_l...  106        7e-21
+VZDJ01007059.1 Cyanoderma ruficeps isolate SRU082 scaffold267617_...  50.9       5e-04
+VZDJ01000271.1 Cyanoderma ruficeps isolate SRU082 scaffold1962_le...  50.0       5e-04
+VZDJ01007747.1 Cyanoderma ruficeps isolate SRU082 scaffold6_len44...  49.1       0.002
+VZDJ01000063.1 Cyanoderma ruficeps isolate SRU082 scaffold170_len...  48.2       0.002
+VZDJ01000285.1 Cyanoderma ruficeps isolate SRU082 scaffold1821_le...  47.3       0.006
+VZDJ01000076.1 Cyanoderma ruficeps isolate SRU082 scaffold198_len...  47.3       0.006
+
+
+
+Query_3  15        AGACCATGGAGGAGCTGGAGGCGCAGGTGGCAGAGCTGCAGGCCAAGCTGGGCCCCAgc--ggcgaggcgggcgcggggctgcgtcgcgacgtggaggagctgggcgggcggctgcgggcCG------AGCTGGTGGAGGCA---CGGGGCCGGGCAGCGCAGTACGGGGCCGAGGCGCGGGCCGTGCTGCAGCAGGGCGCCGAGGACCTGCGGAGCCGCCTGGCCGCCTACGCCCGCAAGCTGCGCAAGCGCCTGGCCAAGGACGCCGAGGAGCTGCGG  283
+1609     2046                                                                                                                     ........AGC------T..G..A......G---...A....C..G..CG..........G...........GC.....G...T.A....G.CC..T..C..CGC....GGC.......T......G..A.....G..A.....C.G.CG....CAG.........A..  1887
+7058     1156           ....C........C..G..G.C..C.G...........GCG.....A.GAGG..CG........T.--.A..A......GGA..GA.C.C........---C............                                                                                                                                                                   1264
+270      34250                                             ........C....TG-...--..---......-.........A.-..G.G..G..TT....G..A....A.TGA.....G..GGGGTG...G..GC.G...TGAG...........T.A..G.GG......T..-...-......G....-...G.....                                                                                  34102
+62       2246670                                                                                                                                                                                                                                                  .........CC..........CCAG.T.............C  2246710
+62       2099432   .....C...........C...AC...AA...T......G.....C..G...                                                                                                                                                                                                                                       2099382
+75       105924                                                                                                                                                                                                                                   ...A..GC.......T--.......C.....GC...C.C............--....  105872
+
+Query_3  284       AGCCGCCTGGCCGCCgc-ggccg-gcgag---gtgcggg-cccgggcg-gcggcgctgcacgaggggctgccggtgctgcgg-gcgccgc-cgc-ggctggcggcgctgggACAGGCGCTGGGCGAGCAGGGCCGC--CGGGTGCAGCGGGGGCTGCGGGAGGCGGTGCAGGAGC  446
+1609     1886      ..G...                                                                                                                                                                           1881
+7746     14718770      .............G.....T...G.GCC.......-G.......A.......C.GG..CA.AC.G.G.C.-..G....A...G...G...G...C.C.C.A.G....CGC..G..G.....C.-G.C.GG..--....CC..........G...                   14718918
+62       2246711   GC..AG...AG.-....T....C-.G...---C......AGG...C..-....                                                                                                                            2246757
+284      292561                                                                                                       .......GC..CCG......-.....-..C....A.GAG....A..T.....A..............C.G...G..  292488
+75       105871    GA.....-.C.....T.-A...                                                                                                                                                           105852
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 534138933474
+
+
+  Database: GCA_008694505.1_ASM869450v1_genomic.fna
+    Posted date:  Nov 19, 2020  1:04 PM
+  Number of letters in database: 1,041,446,934
+  Number of sequences in database:  7,756
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

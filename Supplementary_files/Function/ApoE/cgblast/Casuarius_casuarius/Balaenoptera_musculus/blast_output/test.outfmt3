@@ -1,0 +1,88 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_003342895.1_casCas1_genomic.fna
+           3,184 sequences; 1,209,001,349 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 19342646096
+
+
+Query= exon_2
+
+Length=190
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+PTFA01000027.1 Casuarius casuarius isolate B32419 scaffold_26, wh...  45.5       0.007
+PTFA01000921.1 Casuarius casuarius isolate B32419 scaffold_920, w...  44.6       0.007
+
+
+
+Query_2  17       GGAGCCAGAGCCGGAGCCCGAGGTGCAGCTGGGGC--GGGAGTGGCCCGGG  65
+1779     6018166  ......G...........G...CC.G.........CG...CCG........  6018216
+3097     14687    ......-...........G...C......C..A..--C.....          14648
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 193424932640
+
+
+Query= exon_3
+
+Length=718
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 830516117115
+
+
+  Database: GCA_003342895.1_casCas1_genomic.fna
+    Posted date:  Dec 16, 2021  11:20 AM
+  Number of letters in database: 1,209,001,349
+  Number of sequences in database:  3,184
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

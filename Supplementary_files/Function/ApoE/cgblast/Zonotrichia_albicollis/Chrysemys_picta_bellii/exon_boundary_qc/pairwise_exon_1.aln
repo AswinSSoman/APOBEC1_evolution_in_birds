@@ -1,0 +1,39 @@
+########################################
+# Program: needle
+# Rundate: Tue 19 Nov 2024 01:11:00
+# Commandline: needle
+#    -asequence APOE_Chrysemys_picta_bellii_exon_1.fa
+#    -bsequence extracted_flanking_region_exon_1.fa
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile pairwise_exon_1.aln
+#    -awidth3 10000
+# Align_format: srspair
+# Report_file: pairwise_exon_1.aln
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: APOE_Chrysemys_picta_bellii_exon_1
+# 2: extracted_flanking_region_exon_1
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 250
+# Identity:     119/250 (47.6%)
+# Similarity:   119/250 (47.6%)
+# Gaps:          96/250 (38.4%)
+# Score: 264.0
+# 
+#
+#=======================================
+
+APOE_Chrysemy      1 -----------------ATGGACCTGGCTTCCCACATGCTGT----GCACCCTAGCTTGTATCCCCTGTGGGGGACC-------------GATGGGGGGTGTTAG-GTCCCACCCTCCCTGCCCTCATTCACCCCAGCCCCTTCCT--------------------------TCTCTCCCTGCAGGCAAAG---CTGC-AGCCATGAAGGT---TTTGATTGTGCTGCTC-GGGGCAACCCTGCTGGCAG    181
+                                      ||         ||||.||| |..||    |.|||   |...|.|| ||||.||||.||.|             |||...|||.|..|| |.|..|.|||||||||||..||||.|||||||||||||||                          ||.|.||..||  ||||||   |||| ||||||| ||.|   |.||.||| .|.||.| |.|||||        ||| 
+extracted_fla      1 ACGAATACCAAACCTTTAT---------TTCCAACA-GAGGTACCGGGACC---GGGAGAAT-CCCTTTGGGAGAGCTAAAATCGCCCTGGATACCGGGAGGCAGAGCCAAAGCCTCCCTGCCCCGATTccccccagccccttcctggCTGCCTGGGCTCGGTGTGGGTTCGTCACACCAAGC--GCAAAGCCCCTGCAAGCCATG-AGCTCTCTCTGCTTG-CCAGCCCAGAGGCAA--------GCA-    223
+
+
+#---------------------------------------
+#---------------------------------------

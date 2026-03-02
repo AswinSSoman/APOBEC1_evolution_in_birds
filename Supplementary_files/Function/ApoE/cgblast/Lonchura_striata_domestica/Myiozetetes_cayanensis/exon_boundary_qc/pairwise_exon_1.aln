@@ -1,0 +1,39 @@
+########################################
+# Program: needle
+# Rundate: Mon 18 Nov 2024 23:35:17
+# Commandline: needle
+#    -asequence APOE_Myiozetetes_cayanensis_exon_1.fa
+#    -bsequence extracted_flanking_region_exon_1.fa
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile pairwise_exon_1.aln
+#    -awidth3 10000
+# Align_format: srspair
+# Report_file: pairwise_exon_1.aln
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: APOE_Myiozetetes_cayanensis_exon_1
+# 2: extracted_flanking_region_exon_1
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 86
+# Identity:      37/86 (43.0%)
+# Similarity:    37/86 (43.0%)
+# Gaps:          44/86 (51.2%)
+# Score: 145.0
+# 
+#
+#=======================================
+
+APOE_Myiozete      1 ---------------------ATGAAGCTCTGGGTCGCGCTAGTGGCAGC-AACGCTGCTGGCAG---------------------     43
+                                          ||||||.|||||||.|||||.|.||| || .|||||||||||||                     
+extracted_fla      1 cgTTTCCCCGCAGGTGGCACCATGAAGTTCTGGGTGGCGCTGGCGGC-GCTGACGCTGCTGGCAGGTGAGTCCCCGCcgaaaattt     85
+
+
+#---------------------------------------
+#---------------------------------------

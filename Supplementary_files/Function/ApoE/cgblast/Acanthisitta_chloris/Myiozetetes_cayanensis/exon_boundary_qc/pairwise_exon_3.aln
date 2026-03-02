@@ -1,0 +1,39 @@
+########################################
+# Program: needle
+# Rundate: Tue 19 Nov 2024 00:08:41
+# Commandline: needle
+#    -asequence APOE_Myiozetetes_cayanensis_exon_3.fa
+#    -bsequence extracted_flanking_region_exon_3.fa
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile pairwise_exon_3.aln
+#    -awidth3 10000
+# Align_format: srspair
+# Report_file: pairwise_exon_3.aln
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: APOE_Myiozetetes_cayanensis_exon_3
+# 2: extracted_flanking_region_exon_3
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 359
+# Identity:     150/359 (41.8%)
+# Similarity:   150/359 (41.8%)
+# Gaps:         169/359 (47.1%)
+# Score: 285.5
+# 
+#
+#=======================================
+
+APOE_Myiozete      1 ------------------GCAGGTGGTGGGGGAG------TTCCGGGCGCTGCGGAACGAGGCGC-------------GGGACCGCGCGGCCGAGTACGGGGTG-GAGGC-----GAAGGCGCTGCTGGAGCAGA----GCTGGG--GGGACCTGAAGGCCCGGGGGGCTTCGTTC--GCCCGAAAG-------CTGCGCAAGAGGCTGAACCGGGACGCGGAGG-----------AGCTGAGGAAGCGC----------TGGGACGGGGGGGTCGCC----GCCCTCAGGGCCCTCTGGG--GGATCCCCGAGACCCCCTGGGACCCCCAGGA----TTGA-----------------    253
+                                       |||     ||..||||      ||||   |.||   ||.|.||||.|             ||||||      ||.| .|..||||| |||.|     |||..|.|        ||.|    .|||||  ||..|||| ||.|||             |  ||..|||.|       ||.|.||     ||||.||         |||           |||||.|||..|.|          ||.|||        |.||    .|||.||....||.|||||  |||| ||.|||||||||||||||||||||||    .|||                 
+extracted_fla      1 TGGATCCTGAGACCCCCAGCA-----TGAAGGAGTGACCCTTCC---CACT---GATCCAGGCACACCATTTCAGCTGGGGACC------CCCA-AAAAGGGTGTGAGACCCCCAgaaccccc--------caaaatcccctgGGATGGATCCTG-AGACCC-------------CCAGCATGAAGGAGTGACCCTTCCCA-----CTGATCC---------AGGCACACCATTTCAGCTGGGGACCCCCAAAAAGGGTGTGAGAC--------CCCCAgaaccccccaaaatcccctgGGATGGAT-CCTGAGACCCCCTGGGACCCCCAGGAGGGCATGAGACCCCCCAAGATCCCC    296
+
+
+#---------------------------------------
+#---------------------------------------

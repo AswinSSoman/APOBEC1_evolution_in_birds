@@ -1,0 +1,108 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_003435085.1_NTU_Smik_1.2_genomic.fna
+           71,281 sequences; 1,066,426,119 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17032024512
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 126658717430
+
+
+Query= exon_3
+
+Length=544
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+QGNR01000169.1 Syrmaticus mikado isolate TWDZ01 scaffold169, whol...  61.7       3e-07
+QGNR01000054.1 Syrmaticus mikado isolate TWDZ01 scaffold54, whole...  59.9       1e-06
+QGNR01000024.1 Syrmaticus mikado isolate TWDZ01 scaffold24, whole...  59.0       1e-06
+QGNR01000046.1 Syrmaticus mikado isolate TWDZ01 scaffold46, whole...  53.6       4e-05
+QGNR01000069.1 Syrmaticus mikado isolate TWDZ01 scaffold69, whole...  50.0       5e-04
+QGNR01000021.1 Syrmaticus mikado isolate TWDZ01 scaffold21, whole...  49.1       0.002
+QGNR01000168.1 Syrmaticus mikado isolate TWDZ01 scaffold168, whol...  48.2       0.002
+QGNR01000073.1 Syrmaticus mikado isolate TWDZ01 scaffold73, whole...  48.2       0.002
+QGNR01000011.1 Syrmaticus mikado isolate TWDZ01 scaffold11, whole...  47.3       0.006
+
+
+
+Query_3  22        GGAGGAGCTGGAGGCGCAGGTGGCAGAGCTGCAGGCCAAGCTGGGCCCCAgcgg-cgaggcgggcgcgg----ggctgcgtcgcgacgtggaggagctgggcgggcggctgcgggcCGAGCTGGTGGAGGCACGGGGCCGGGCAGCGCAGTACGGGGCCGAGGCGCGGGCCGTGCTGCAGCAGGGCGCCGAGGACCTGCGGAGCCGCCTGGCCGCCTACGCCCGCAAGCTGCGCAAGCGCCTGGCCAAGGACGCCGAGGAGCTGCGGAGCCGCCTGG-CC  295
+168      105023                                                                                                                                                                                                                                                                      ......--...........C..  105042
+45       1167353                                .............-.A......T..C.....-A.......GATC.T......G.GC..............C..                                                                                                                                                                                    1167423
+68       4387451                                                                                                                                                                                                                                                                          ...........G..-..  4387436
+68       4387237                                                                                                                                                                                                                                                                          ...........G..-..  4387222
+167      156181    .................T.CA...C...........                                                                                                                                                                                                                                                      156216
+
+Query_3  296       GCC-gcggccggcgaggtgc--gggcccgggcggc--ggcgctgcacgaggggctgc-c--ggtgctgcggg-cgcc----gcc-gcg-gctg-gcggc----gctgggACAGGCGCTGGGCGAGCAGG--G---CC---GCCGGGT--GCAGCGG-G--GGCTG---CGGGAGGCGGTGCAGGAG  445
+168      105043    ...T.G...T.T..-T....--...G...C.G...CG.......TG.....C.....-.--.A..GC.....-.--------..-TG.-...C-.....T---..G.A.C.T.......                                                                     105140
+53       4072477             ....C.....CG.............--.CG.AG..GG.C..C.G...-.CG...........G...G----...-.G.C..A.-AG...-----..C.CC.C....GGCT...G..T.C--.GAA..---.......--..G....-.--.....---...                 4072344
+23       16370712                               ......--...C.G..G..G..A.A-..-G--.CG..G.....-..G.----..T-.G.-....-.G...TGGC........T...........T.A...C-.---G.---.G....C--.GC.A..C.--...G.---....                16370826
+68       4387435   ..---G..G.....----T.--...T.....G.T.--T.G..C.G.G....CC.G..T.--..C........-..G.TCGG.G.-.G.-..G.C..C..----..G...C.GA...GA........T.C--.---..TCT..T.A.G--..G....-.GC...G.GGC....N.....G..G...   4387279
+68       4387221   ..---G..G.....----T.--...T.....G.T.--T.G..C.G.G....CC.G..T.--..C........-..G.TCGG.G.-.G.-..G.C..C..----..G...C.GA...GA........T.C--.---..TCT..T.A.G--..G..-.-.--...G.---....                4387084
+20       8346139                                                                          .-....----...C...-..-.-.....----.GG.A..GC...........G...----.---.G---......G--..C.A..-.------.---....C.....          8346211
+72       91217                                                                                                                                     .--.---..---......G--..G....-.--.....---.T.....G....        91252
+10       16607392                                                            .--.C......T.C-....----...-.AC-.--.-....-----..C...G.T..A..C.......GC..CG.---.G---....C.GCG..G....-C--...G.---..........C.GC....  16607490
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 545943017304
+
+
+  Database: GCA_003435085.1_NTU_Smik_1.2_genomic.fna
+    Posted date:  Apr 25, 2021  1:13 PM
+  Number of letters in database: 1,066,426,119
+  Number of sequences in database:  71,281
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

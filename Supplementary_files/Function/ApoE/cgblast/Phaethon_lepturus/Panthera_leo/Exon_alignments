@@ -1,0 +1,12 @@
+[07;32m[K>exon_1[m[K	
+	
+  
+  APOE_Panthera      1 ATGAAGGTTCTGT--GGGCGGC--------GCTGCTG------GTCGCACT---------------CCTGGCAGGTATGGGGCGGGGC-CTGCTCAGGGTTCCCCCCTCCTTCCCATCCCAGCCCCCCTCCTCC-CTGGGCCTCTCTTGTCTTTCTA-GGTCAAGCATGTCGGCTTT------TACCGGCGTCCATGGGAGTCTCTCACGCTCGGGCCTTGCAG-------------CCA    187
+                                ||||  |.|.|||        |||||||      |||.| ||               |||||.||||.|.||||.|||| |||||||||||.|||.|||.|||               .|.|||| |||..|||||.||       || ||..|.|.|.||.|.||||      ||||  |...|||   |||| |.||.|||  |..|||||||             .||
+  extracted_fla      1 ---------CTGTTGGAGTGGCTCCTTGTTGCTGCTGATGGGTGTCAC-CTCTGGACACGGACAGCCCTGGGAGGTGTTGGGCAGGGCACTGCTCAGGGTCCCCACCTGCTT---------------TTGCTCCTCTGCTCCTCTATT-------TATGGGGAGGAAAGTGGTCTTTATCACATACC--CTAACAT---AGTC-CACAGGCT--GTTCTTGCAGGGTGTGGAAGGAAACA    200
+  
+  APOE_Panthera    188 CGCCACTCCTTTG--------------------------------------    200
+                       .|        |||                                      
+  extracted_fla    201 GG--------TTGTAGTTCTCATCAGGTACAAGATCACATCAAGTctgaaa    243
+
+

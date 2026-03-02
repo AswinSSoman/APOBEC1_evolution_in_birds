@@ -1,0 +1,5 @@
+Query   Subject         %_Query_covered_per_hsp  Query_length  Alignment_length  Q_start  Q_end  S_start  S_end   E_value  Bit_score
+exon_2  VZRY01000776.1  10                       685           70                456      524    699721   699653  0.002    48.2
+exon_2  VZRY01000084.1  8                        685           56                619      674    396828   396878  0.002    48.2
+exon_2  VZRY01002531.1  9                        685           60                436      495    458160   458102  0.008    47.3
+exon_2  VZRY01001675.1  9                        685           67                418      478    6807     6741    0.008    46.4

@@ -1,0 +1,99 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_900496995.4_bAquChr1.4_genomic.fna
+           144 sequences; 1,233,704,830 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 19739215072
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 146810377826
+
+
+Query= exon_3
+
+Length=556
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044007.1 Aquila chrysaetos chrysaetos chromosome 4, bAquChr1.4...  54.5       5e-05
+NC_044012.1 Aquila chrysaetos chrysaetos chromosome 9, bAquChr1.4...  51.8       2e-04
+NC_044004.1 Aquila chrysaetos chrysaetos chromosome 1, bAquChr1.4...  48.2       0.002
+NW_024470385.1 Aquila chrysaetos chrysaetos unplaced genomic scaf...  47.3       0.007
+NC_044008.1 Aquila chrysaetos chrysaetos chromosome 5, bAquChr1.4...  47.3       0.007
+
+
+
+Query_3  27        AGCTGGAGGCGCAGGCGGTGGAGCTGCAGGCCCAGCTGGGCCCTGGTGGCGAGGCCAGCGTGGGGCTGCAGCGCGACGTGGAGGAGCTAGGTGGGCGGCTGCGGGCTGAGATGGCGGAGGCACGGGGCCGGGTGGCGCAGTACGGCGCCGAGGCACAGGCCGTGCTGCAGCAGGGCGCTGAGGACCTGCGTGGCCGCCTGGCCGCCTACACCCGCAAGCTACGCAAGCGCCTGGCCAAGGACACCGAGGAGCTGCGGAGCCGCCTGGCCGCCGCCGCCAG  306
+8        24423608  .........T.....T..A...........A.A.....                                                                                                                                                                                                                                                    24423571
+0        9994753                                                                                                                                                                                                                                                          .............A.......--...G..G...  9994723
+4        43606960                                                                                           ..........G...TC.G.-.TG.....C..GG.A..............T.CG.A.....AC...----.G..GC.A.........A......                                                                                                    43607047
+
+Query_3  307       CAAGGTGCAGGCGCGGGTGGCGGAGCGGGCGGCAGCACTGCGCCAGGGGTTGCCGCCGCTGCGGGCGGCCCCTCGGCTGGCAGCGCTGGGGCAGGTGCTTGGCGAGC---AGGGCCTCCGGGTGCAG-CAGGGGCTGCAGGAGGCGGTGCA-GGAGCTGCG--GGCCTCGCTGGATGGTGCCGTGCAGGGGCTGCGGA  497
+3        25521513                                                            ..............--...C.C.G..--....--....CT.C.A..T..GGC.......G....A....-.-..CC...G.A.C...T....CT.........--.......                              25521614
+8        29510350                                                                                                                         ..T.....G.........--.C...--.....-.....CCG.--..GG....A.....C.T...-..........      29510416
+8        18798974                                                                                                           ..---....G..G....G..T.-..........-..G...--....-..G......--...                                  18798924
+0        9994722   .-..CA....C...A.CC....--.........                                                                                                                                                                       9994693
+92       204336                                                                                                                                            .......C......T-..G....A.TC..T......T--...........CA...G......  204278
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 647692692150
+
+
+  Database: GCF_900496995.4_bAquChr1.4_genomic.fna
+    Posted date:  Dec 15, 2021  3:54 PM
+  Number of letters in database: 1,233,704,830
+  Number of sequences in database:  144
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

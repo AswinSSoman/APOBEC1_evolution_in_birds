@@ -1,0 +1,4 @@
+Location        #_hits  %_query_cov  %_identity  Lowest_evalue
+VZRY01006372.1  1       4.33333      26.291      4.34e-05
+VZRY01003669.1  1       2.33333      28.9473     0.006
+VZRY01001621.1  1       4            26.154      0.002

@@ -1,0 +1,12 @@
+[07;32m[K>exon_3[m[K	
+	
+  
+  APOE_Myiozete      1 -----------------------------------------GCAG--GTGGTGGGGGAGTTCCGGGC----------GC--------TGCGGAACGAGGCGCGGGACCGCGCGGCCGAGTACGGGGTGGA---------GGCGAAGGCGCTGCTGGAGCA-GAGCTGGG----GGGACCT--GAAGGCCCGGGGGGCTTCGTTCGCCCGAAAGCTGCGCAAGAGGCTGAACCGGGACGCG    163
+                                                                |.||  .|||||||..|.|     ||          ||        |||.|||..||..|.||||              |...||||||         ||..|||       ||||..| |||  |||    |||||||  .||||   ||.||..||     ||||.|||                    .|||..|.
+  extracted_fla      1 aaaatggtGGAAAAGTTGTgaagaaatagtgaaaaaatGGTGAAGAAATGGtgggaaaat-----gctgaaaaaaatgctgaaaaaatgctgaaaaagtgggggga--------------aaatggtggaaaaatggtgggaaaag-------tggaaaatgag--gggaaaagggacCTAAAAAGG---GGCGGAATT-----GCCCCAAA--------------------AGGAGCCC    184
+  
+  APOE_Myiozete    164 GAGGAGCTGAGGAAGCGCTGGGACGGGGGGGTCGCCGCCCTCAGGGCCCTCTGGGGGATCCCC--GAGACCCCCTGGGA-CCCCCAGGATTGA---------------------    253
+                       |||||||||.||..|||||||||   |||||.|.|.|||.||||||.||.|||||.|  ||||  ||||||||| |||| |||||||||||||                     
+  extracted_fla    185 GAGGAGCTGCGGCGGCGCTGGGA---GGGGGGCACGGCCGTCAGGGACCCCTGGGCG--CCCCTTGAGACCCCC-GGGACCCCCCAGGATTGAGGGGGGACCCCAAAAAATGAG    292
+
+

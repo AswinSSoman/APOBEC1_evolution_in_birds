@@ -1,0 +1,91 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_016699485.2_bGalGal1.mat.broiler.GRCg7b_genomic.fna
+           214 sequences; 1,053,332,251 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17906553679
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 125345799355
+
+
+Query= exon_3
+
+Length=556
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_052541.1 Gallus gallus isolate bGalGal1 chromosome 10, bGalGal...  50.0       5e-04
+NC_052534.1 Gallus gallus isolate bGalGal1 chromosome 3, bGalGal1...  46.4       0.006
+
+
+
+Query_3  24        CAGAGCTGGAGGCGCAGGCGGTGGAGCTGCAGGCCCAGCTGG-GCCCTGGTGGCGAGGC-CAGCGTGGGGCTGCAGCGCGACGTGGAGGAGCTAGGTGGGCGGCTGCGGGCTGAGATGGCGGAGGCACGGGGCCGGGTGGCGCAGTACGGCGCCGAGGCACAGGCCGTGCTGCAGCAGGGCGCTGAGGACCTGCGTGGCCGCCTGGCCGCCTACACCCGCAAGCTACGCAAGCGCCTGGCCAAGGACACCGAGGAGCTGCGGAGCCGCCTGGCCGCCGCC  301
+15       7680048                                                       ...T...A.....C........C..CG.CG.C........GG..G..............                                                                                                                                                                           7680106
+15       12848594  ...........AT....CT..A.....A....---.......T..A....CT.-.....-AGC.....A..G.......                                                                                                                                                                                                           12848667
+
+Query_3  302       GCCAGCAAGGTGCAGGCGCGGGTGGCGGAGCGGGCGGC  339
+6        53751671               .........................  53751647
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 552995948925
+
+
+  Database: GCF_016699485.2_bGalGal1.mat.broiler.GRCg7b_genomic.fna
+    Posted date:  Dec 15, 2021  3:23 PM
+  Number of letters in database: 1,053,332,251
+  Number of sequences in database:  214
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

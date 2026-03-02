@@ -1,0 +1,5 @@
+Query   Subject         %_Query_covered_per_hsp  Query_length  Alignment_length  Q_start  Q_end  S_start   S_end     E_value   Bit_score
+exon_1  VONY02000016.1  65                       43            28                12       39     16297453  16297480  0.002     42.8
+exon_3  VONY02000002.1  19                       544           104               107      209    28114991  28114892  3.60e-05  53.6
+exon_3  VONY02000016.1  14                       544           79                361      436    16238902  16238980  1.26e-04  51.8
+exon_3  VONY02000027.1  13                       544           74                379      447    4166251   4166181   0.005     47.3

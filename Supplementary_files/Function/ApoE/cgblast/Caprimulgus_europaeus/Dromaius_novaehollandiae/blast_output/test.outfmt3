@@ -1,0 +1,109 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_907165065.1_bCapEur3.1_genomic.fna
+           121 sequences; 1,177,791,212 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 18844607120
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 140156736657
+
+
+Query= exon_3
+
+Length=544
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+OU015545.1 Caprimulgus europaeus genome assembly, chromosome: 21      58.1       4e-06
+OU015546.1 Caprimulgus europaeus genome assembly, chromosome: 22      49.1       0.002
+OU015539.1 Caprimulgus europaeus genome assembly, chromosome: 15      49.1       0.002
+OU015536.1 Caprimulgus europaeus genome assembly, chromosome: 13      49.1       0.002
+OU015529.1 Caprimulgus europaeus genome assembly, chromosome: 6       49.1       0.002
+OU015524.1 Caprimulgus europaeus genome assembly, chromosome: 2       49.1       0.002
+OU015523.1 Caprimulgus europaeus genome assembly, chromosome: 1       48.2       0.002
+OU015528.1 Caprimulgus europaeus genome assembly, chromosome: 5       47.3       0.007
+OU015548.1 Caprimulgus europaeus genome assembly, chromosome: 24      46.4       0.007
+OU015534.1 Caprimulgus europaeus genome assembly, chromosome: 11      46.4       0.007
+
+
+
+Query_3  33         AGGCGCAGGTGGCAGAGCTGCAGGCCAAGCTGGGCCCC--Agcggcg-aggc-gggcgcggggctgcgtcgcgacgtggaggag--ctgg-gcgggcggctg--cgggcCGAGCTGGTGGAGGC-ACGGGGCCGGGCAGCGCAGTACGGGGCCGAGGC-GCGGGCCGTGCTGCAGCAGG-GCGCCGAGGAC-CTGCGGAGCCGCCTGGCCGCCTACGCCCGCAAGCTGCGCAAGCGCCTGGCCAAGGACGCCGAGGAGCTGCGGAGCCGCCTGGCCGCCg  299
+20       6090309                                                                                                                                                                                                                                    ........T...........C.--.....T..G.....C.....-..G...G.TGC  6090257
+12       1035634                                     .....GA.....G.C....T...A.......C...---..G..G....CG.GC....T........GC.GT.......G.....C..C..A-G...........                                                                                                                                                 1035733
+5        28903633                                                                                                                            ...-.............-..-G.C.........-...-A.....A.......                                                                                                             28903679
+0        125525641  ...A.A....................C......C..                                                                                                                                                                                                                                                      125525676
+10       12624288                                                                                                        .--.......-...C.G...C..G...C.A.GC.....G..G.G.............G...A.G..A.GC..T.....C.....CG..C.G....C.G.--....T.....                                                                      12624393
+
+Query_3  300        cggccggcg-aggtgcg-ggcccgggcggcggcgctgcacgag------gggctgccggtgctg-------cgggcgccgc-cgcggctggcg--gcgctgggACAGGC-GCTGGGCGAGCAGG-GCCGCCGGGT-GCAGCGGGGGCTGCGGGAGGCGG---TGCAGGAGCTGTGGGCCTCGGTGG  461
+20       6090256    ...GG....-...G...A..TGG...G......-.G.GG..C.------......                                                                                                                                     6090210
+21       6999921                                                          ..A..C.A..-------....A..A.AG......G....AG.......CG.....-..G...........A..G..T.C.G-....                                                6999845
+14       9829100                                                                                                                            ....-.....G..C.-C................-...C.---G..C..C....C..            9829149
+12       18825993       .....C.....G.-C..GGT.............TG.CG.CCGGCC.......A.....G.GGACTGA......G..G-......G....--.-....C.G-....A....C.G.C..C.---.........-..C..-..T.....T..                                   18825856
+1        45094314                                                                                      .....-....--.........GC...-........-..--C-..T.....---..G..........                                       45094368
+4        82392625                                                                                         ..A....--.T......G.....-........T..T..-...                                                            82392588
+4        26486212                                                                                   .-.......C.-.--......C..------..C.....-..G.C-..G......AC..C...........T..G.....---..                        26486280
+23       6996973                                                                                                                                                ........C..T.G.....CCC..A..................G..  6997018
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 604204967493
+
+
+  Database: GCA_907165065.1_bCapEur3.1_genomic.fna
+    Posted date:  Nov 20, 2021  4:35 PM
+  Number of letters in database: 1,177,791,212
+  Number of sequences in database:  121
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

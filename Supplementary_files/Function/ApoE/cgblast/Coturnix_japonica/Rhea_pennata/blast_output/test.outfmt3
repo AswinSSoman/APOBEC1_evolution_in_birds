@@ -1,0 +1,98 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_001577835.2_Coturnix_japonica_2.1_genomic.fna
+           2,012 sequences; 927,656,957 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 15769278965
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 110384234471
+
+
+Query= exon_3
+
+Length=556
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_029525.1 Coturnix japonica isolate 7356 chromosome 10, Coturni...  50.0       4e-04
+NC_029544.1 Coturnix japonica isolate 7356 linkage group LGE22C19...  47.3       0.005
+NC_029542.1 Coturnix japonica isolate 7356 chromosome 27, Coturni...  47.3       0.005
+NC_029538.1 Coturnix japonica isolate 7356 chromosome 23, Coturni...  47.3       0.005
+NC_029520.1 Coturnix japonica isolate 7356 chromosome 5, Coturnix...  47.3       0.005
+
+
+
+Query_3  75        GCGAGGC-CAGCGTGGGGCTGCAGC-GCGACGTGGAGGAGCTAGGTGGGCGGCTGCGGGCTGAGATGGCGGAGGCACGGGGCCGGGTGGCGCAGTACGGCGCCGAGGCACAGGCCGTGCTGCAGCAGGGCGCTGAGGACCTGCGTGGCCGCCTGGCCGCCTACACCCGCAAGCTACGCAAGCGCCTGGCCAAGGACACCGAGGAGCTGCGGAGCCGCCTGGCCGCCGCCGCCAGCAAGG-TGCAGGCGCGGGTGGCGGAGCGGG--CGGCAGCACTGCGC  349
+724      6609915   ...T...G............C.C..-CG.CG.C........GG..C..............                                                                                                                                                                                                                              6609973
+793      4612332                                                                                                                                                                                                                     ....GC...C.G.........TCC.GGT.C.....C....C.--..........AA....G..T.C..-.  4612266
+780      8690                       ........A...G.-...G..C.GG..AG.............G..C......T.....G.T...A..                                                                                                                                                                                                      8625
+620      20630103                                                                                                                                                                                                                                                   ..C..G.G...G..G.CT.....--.......G...G..  20630067
+
+Query_3  350       CAGGGGTTGCCGCCGCTGCGGG-CGGCCCCTCGGCTGGCAGCGCTGGGGCAGGTGCTTGGCGAGCAGGGCCTCCGGGTGCAGCAGGGGCTGCAGGAGGCGGTGCAGGAGCTGC  461
+800      421626                                                                               .....T.....A.A...........C........A...  421663
+793      4612265   ..C...--..G.TG..G.....G.......GG.A.G...G...........                                                                4612217
+620      20630066  .G....C....-.T........-.                                                                                           20630045
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 486987157125
+
+
+  Database: GCF_001577835.2_Coturnix_japonica_2.1_genomic.fna
+    Posted date:  Dec 17, 2021  7:05 PM
+  Number of letters in database: 927,656,957
+  Number of sequences in database:  2,012
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

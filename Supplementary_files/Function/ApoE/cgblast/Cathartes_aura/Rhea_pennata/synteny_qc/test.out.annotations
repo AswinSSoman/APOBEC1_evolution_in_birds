@@ -1,0 +1,2 @@
+KL327758.1	33970	34056	exon_1	1	-	KL327758.1	0	35468	KL327758.1:1..35468	.	+	Genbank	region	.	ID=KL327758.1:1..35468;Dbxref=taxon:43455;Name=Unknown;chromosome=Unknown;country=USA;gbkey=Src;genome=genomic;isolate=BGI_N323;mol_type=genomic DNA;sex=female
+KL327758.1	33970	34056	exon_1	1	-	KL327758.1	13886	34265	gene-N323_12108	.	+	Genbank	gene	.	ID=gene-N323_12108;Name=N323_12108;Note=contains frameshift;description=Mas-related G-protein coupled receptor member H;gbkey=Gene;gene_biotype=other;locus_tag=N323_12108

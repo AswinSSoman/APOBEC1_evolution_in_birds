@@ -1,0 +1,2 @@
+NC_021682.1	20320999	20321759	exon_4	1	-	NC_021682.1	19855974	20428150	aln249	.	+	RefSeq	match	.	ID=aln249;Target=NC_021682.1 19855975 20428150 +;gap_count=0;num_mismatch=0;pct_coverage=100;pct_identity_gap=100
+NC_021682.1	20320999	20321759	exon_4	1	-	NC_021682.1	0	21346708	NC_021682.1:1..21346708	.	+	RefSeq	region	.	ID=NC_021682.1:1..21346708;Dbxref=taxon:59894;Name=10;chromosome=10;collection-date=2009;country=Sweden: Oland;gbkey=Src;genome=chromosome;isolate=OC2;mol_type=genomic DNA;sex=male

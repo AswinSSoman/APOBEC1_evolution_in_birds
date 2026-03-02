@@ -1,0 +1,106 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_028858725.1_bColStr4.1.hap1_genomic.fna
+           191 sequences; 1,212,482,152 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 19399631920
+
+
+Query= exon_2
+
+Length=148
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_084772.1 Colius striatus isolate bColStr4 chromosome 14, bColS...  46.4       0.002
+NC_084764.1 Colius striatus isolate bColStr4 chromosome 6, bColSt...  44.6       0.006
+
+
+
+Query_2  1         GCTGTGGGGCCGAGCTG-GGCCCTGAGGAGCCGCGGGCCGGCTGGG  45
+15       2417280   ....A.......-..G.T...............A....T.....    2417322
+7        39550350                  .-............G..........G....  39550378
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 144284716947
+
+
+Query= exon_3
+
+Length=556
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_084770.1 Colius striatus isolate bColStr4 chromosome 12, bColS...  48.2       0.002
+NC_084759.1 Colius striatus isolate bColStr4 chromosome 1, bColSt...  48.2       0.002
+NC_084787.1 Colius striatus isolate bColStr4 chromosome 29, bColS...  47.3       0.007
+NW_026908411.1 Colius striatus isolate bColStr4 unplaced genomic ...  46.4       0.007
+NC_084766.1 Colius striatus isolate bColStr4 chromosome 8, bColSt...  46.4       0.007
+
+
+
+Query_3  27        AGCTGGAGGCGCAGGCGGTGGAGCTGCAGGCCCAGCTGGGCCCTGGTGGCGAGGCCAGCGTGGGGCTGCAGCGCGACGTGGAGGAGCTAGGTGGGCGGCTGCGGGCTGAGATGGCGGAGGCACGGGGCCGGGTGGCGCAGTACGGCGCCGAGGCACAGGCCGTGCTGCAGCAGGGCGCTGAGGACCTGCGTGGCCGCCTGGCCGCCTACACCCGCAAGCTACGCAAGCGCCTGGCCAAGGACACCGAGGAGCTGCGGAGCCGCCTGGCCGCCGCCGCCAG  306
+0        29905104                                                                                                                                                                                                                                                                       ...................  29905086
+36       652212    ..............CT..A...........A.A.....                                                                                                                                                                                                                                                    652175
+
+Query_3  307       CAAGGTGCAGGCGCGGGTGGCGGAGCGGGCGGCAGCACTGCGCCAGGGGTTGCCGCCGCTGCGGGCGGCCCCTCGGCTGGCAGCGCTGGGGCAGGTGCTTGGCGAGCAGGGCCTCCGGGTGCAG--CAGGGGCTGCAGGAGGCGGTGCAGGAGCTGCGGGCC--TCGCTGGATG-GTGCCGTGCAGGGGCTGCGGAGCTGGC--TGGCTGCG  511
+13       24840625                                                                                                         ........G..GA...A....AG.........G...G...A.A.....G....A...-A--G.AGA.C...-.-..A.A..........A..                   24840711
+13       24840493                                                                                                         ........G..GA...A....AG.........G...G...A.A.....G....A...                                                      24840549
+13       24840728                                                                                                         ........G..GA..AG....AG.........G...G...A.A.....G....A...-A--G.AGA.C...-.-..A.A..........A....                 24840816
+0        29905085  ..T..C.G..C.T.C.CCC.......C.....                                                                                                                                                                                      29905054
+54       10161                                                                                                                                .--....A...........A.C............A..                                                      10195
+9        30473470                                                                                                       ...G....A.G.......-..G.A-............--...A.-A....G........G.GGA.AGG..C..C.G.G..G.............G..G...AGG.......  30473575
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 636550021275
+
+
+  Database: GCF_028858725.1_bColStr4.1.hap1_genomic.fna
+    Posted date:  Apr 18, 2024  7:30 PM
+  Number of letters in database: 1,212,482,152
+  Number of sequences in database:  191
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,4 @@
+Query        Subject            %_Query_covered_per_hsp  Query_length  Alignment_length  Q_start  Q_end  S_start  S_end    E_value   Bit_score
+exon_3       JACDJE010000984.1  10                       556           55                410      464    2071     2020     4.13e-05  53.6
+exon_3_dup1  JACDJE010000002.1  14                       556           78                24       100    2565300  2565373  0.006     47.3
+exon_3_dup2  JACDJE010000233.1  21                       556           121               283      399    1110161  1110046  0.006     47.3

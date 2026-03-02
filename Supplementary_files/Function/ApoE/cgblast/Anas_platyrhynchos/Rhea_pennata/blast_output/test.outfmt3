@@ -1,0 +1,95 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_015476345.1_ZJU1.0_genomic.fna
+           756 sequences; 1,188,533,289 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 19016206032
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 141432852435
+
+
+Query= exon_3
+
+Length=556
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_051796.1 Anas platyrhynchos isolate Z2 breed Pekin duck chromo...  52.7       2e-04
+NC_051776.1 Anas platyrhynchos isolate Z2 breed Pekin duck chromo...  50.9       6e-04
+NC_051789.1 Anas platyrhynchos isolate Z2 breed Pekin duck chromo...  47.3       0.007
+NC_051773.1 Anas platyrhynchos isolate Z2 breed Pekin duck chromo...  46.4       0.007
+
+
+
+Query_3  118        TGGGCGGCTGCGGGCTGAGATGGCGGAGGCACGGGGCCGGGTGGCGCAGTACGGCGCCGAGGCACAGGCCGTGCTGCAGCAGGGCGCTGAGGACCTGCGTGGCCGCCTGGCCGCCTACACCCGCAAGCTACGCAAGCGCCTGGCCAAGGACACCGAGGAGCTGCGGAGCCGCCTGGCCGCCGCCGCCAGCAAGGTGCAGGCGCGGGTGGCGGAGCGGGCGGCAGCACTGCGCCAGGGGTTGCCGCCGCTGCGGGCGGCCCCTCGGCTGGCAGCGCTGGGG  397
+24       6554148                                                                                                                                                         ...............A.C.G.......TGC..TT.....CGG..C...........C....                                                                        6554088
+4        46797681                                                                                                                                                                                                                                                                                    .......  46797675
+17       7524092    ........C..T.....-..A.CA................--.......                                                                                                                                                                                                                                         7524137
+
+Query_3  398        CAGGTGCTTGGCGAGCAGGGCCTCCGGGTGCAGCAGGGGCTGCAGGAGGCGGTGCAGGAGCTGCGGG  464
+4        46797674   .........T..ACAGG.....CAGC.C...T.G......G........G.A...T.......      46797612
+1        164408496                              ........A......-.....-..............A..  164408532
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 623967672825
+
+
+  Database: GCF_015476345.1_ZJU1.0_genomic.fna
+    Posted date:  Dec 15, 2021  1:26 AM
+  Number of letters in database: 1,188,533,289
+  Number of sequences in database:  756
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

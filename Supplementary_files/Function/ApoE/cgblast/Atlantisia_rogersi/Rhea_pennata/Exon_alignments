@@ -1,0 +1,16 @@
+[07;32m[K>exon_3[m[K	
+	
+  
+  APOE_Rhea_pen      1 CGGCCTCATCGCGGAGACCA-----TGGCAGAGCTGGAG--GCGCAGGCGGTGGAGCT---GCAGGCCCAGCTGG-GCCCTGGTGGCGAGGCCAGCGTGGGGCTGCAGCGCGACGTGG---AGGAGCTAGGTGGGC--GGCTGCGGGC-TGAGATGGCGGAGGCACGGGGCCGGGTGGCGCAGTACGGCGCCGAGGCACAGGCCGTGCTGCAGCAGGGCGCTG----AGGACCTGCGTGG    219
+                                   ||||  ||     ||   |.|||||||  |.||.||.|.|||||||   |||||   |||||| |  |||| |||..|||     |||.||||.|||      |||   |||||||   .||||  ||||| |||| .|||.|||    ||||  |.||    |||.|||    ||.||.|.||||      |.||||..||| ||.||||    ||||.|||.|   
+  extracted_fla      1 ------------GGAG--CAGGAGTtg---gggctggagaagggctggagctggagcttgggcagg---agctggag--ctgg-ggcagggc-----tggagctggagc------tggggcaggagct---ggggcagggctg-gggcaggagctgg----ggca--gagc----tggggca----ggagctggggca------gggctggggca-ggagctggggcaggagctggg---    178
+  
+  APOE_Rhea_pen    220 CCGCCTGGCCGCCTACACCCGCAAGCTACGCAAGCGCCTGGCCAAGGACACCGAGGAGCTGCGG-AGCCGCCTGGCCGCCGCCGCCAGCAAGGTGCAGGCGCGGGTGGC-GGAGCGGGCGGCAGCACTGCGCCAGGGGTTGCCGCCGCTGCGGGCGGCCCCTCGG--CTGGCAGCGCTGGGGCAGGTGCTTGGCGAGCAGGGCCTCCGGGTGCAG-CAGGGGCTGCAGGAGGCGGTGCAG    454
+                                                    |||.|.||..||.|          ||||||||.|| ||  |.||||           ||| .||.||||        ||| |||||.||.|      |||.|.|||||.|                        ||  ||||.|   ||||||||||.|||.||   ||||||||.|      ||| ||    ||.|||||.||      .
+  extracted_fla    179 -----------------------------gcaggagctggggc----------aggagctggggcag--ggctgg-----------agc-tggggcag--------ggctggagctggag------ctgaggcAGGGCT------------------------GGAACTGGaa---ctggggcaggagctggg---gcagggccaC------CAGTCA----CTTCAGGAAGC------A    305
+  
+  APOE_Rhea_pen    455 GAGCTGCGGGCCTCGCTGGATGGTGCCGTGCAGGGGCTGCGGAGCTGGCTGGCTGCGCTGCTGCCCAACGTGCCGCTGCTGCTCGACGGCCCCAAGCCTTGA    556
+                       |||.|.||||.                                                                                           
+  extracted_fla    306 GAGATACGGGT-------------------------------------------------------------------------------------------    316
+
+

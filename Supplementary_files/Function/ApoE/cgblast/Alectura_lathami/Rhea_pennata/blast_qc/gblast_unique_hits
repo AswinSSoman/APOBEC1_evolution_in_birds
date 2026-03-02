@@ -1,0 +1,4 @@
+Query   Subject         %_Query_covered_per_hsp  Query_length  Alignment_length  Q_start  Q_end  S_start  S_end   E_value   Bit_score
+exon_2  VXAV01003967.1  39                       148           59                6        62     108584   108641  0.001     47.3
+exon_3  VXAV01004043.1  12                       556           65                267      331    52442    52506   4.94e-04  50.9
+exon_3  VXAV01010924.1  14                       556           80                385      464    52241    52167   0.006     46.4

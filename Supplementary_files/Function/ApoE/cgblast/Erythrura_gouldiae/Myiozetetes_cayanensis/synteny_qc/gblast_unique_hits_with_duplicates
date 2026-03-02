@@ -1,0 +1,4 @@
+Query        Subject         %_Query_covered_per_hsp  Query_length  Alignment_length  Q_start  Q_end  S_start  S_end   E_value   Bit_score
+exon_2       QUSF01008682.1  88                       145           127               19       145    1886     2012    3.00e-18  95.1
+exon_3       QUSF01016419.1  72                       253           181               9        189    338      158     1.19e-26  124
+exon_3_dup1  QUSF01000122.1  20                       253           51                200      249    697872   697822  0.009     44.6

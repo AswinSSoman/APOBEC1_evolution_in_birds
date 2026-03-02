@@ -1,0 +1,105 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_016699485.2_bGalGal1.mat.broiler.GRCg7b_genomic.fna
+           214 sequences; 1,053,332,251 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17906553679
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 125345799355
+
+
+Query= exon_3
+
+Length=544
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_052537.1 Gallus gallus isolate bGalGal1 chromosome 6, bGalGal1...  54.5       4e-05
+NC_052541.1 Gallus gallus isolate bGalGal1 chromosome 10, bGalGal...  53.6       4e-05
+NC_052555.1 Gallus gallus isolate bGalGal1 chromosome 24, bGalGal...  49.1       0.002
+NC_052549.1 Gallus gallus isolate bGalGal1 chromosome 18, bGalGal...  49.1       0.002
+NC_052535.1 Gallus gallus isolate bGalGal1 chromosome 4, bGalGal1...  49.1       0.002
+NC_052532.1 Gallus gallus isolate bGalGal1 chromosome 1, bGalGal1...  49.1       0.002
+NC_052558.1 Gallus gallus isolate bGalGal1 chromosome 27, bGalGal...  48.2       0.002
+NC_052534.1 Gallus gallus isolate bGalGal1 chromosome 3, bGalGal1...  47.3       0.006
+
+
+
+Query_3  51        TGCAGGCCAAGCTGGGCCCCAgcggc-gaggcgggcgcgg----ggctgcgtcgcga-cgtggaggagctgggcgggcggctgcgggcCGAGCTGGTGGAGGCACGGGGCCGGGCAGCGCAGTACG-GGGCCGAGGCGCGGGCCGTGCTGCAGCAGGGCGCCGAGGACCTGCGGAGCCGCCTGGCCGCCTACGCCCGCAAGCTGCGCAAGCGCCTGGCCAAGGACGCCGAGGAGCTGCGGAGCCGCCTGGCCGCCgcggccggcgaggtgcgggcccgg-  322
+11       5557452                          ...-.G......G....CCC-...C..C.....GG..C.......--....C..G...--...C......C..--.C..TG.C..............----G.-...G.TC....GC..G....G...G..GC.....                                                                                                                         5557328
+15       4180272                                                                                                                                                                                                                                                                                         .-  4180272
+34       5163340                                                                                                                                                                                                                                    ..............CTC.........T...AGCT.G.AG...A....T....A.C  5163286
+34       5166812   .............-.A....G.T...T....-A.......GATC.T......G.GC.-.............C..                                                                                                                                                                                                                5166742
+7        3949087                                ........G.C----.......G.C..---.A..C..G..-......T...G-......TCCC.G..A.....A...........-G....G.CG..T..C...G......                                                                                                                                              3948987
+0        23630947                                                                                                          ..................C...-.A....C.....                                                                                                                                               23630914
+37       1142597                                ..........C----...C...G...TG-A.G.......GC..-....A..AG.A..AG..G.GG..-......G...........C...                                                                                                                                                                   1142679
+
+Query_3  323       ---gc-----ggc---ggcgctgcacgaggggctgc----cggtgctgcgggc--gccgcc-gcggctggcggc----gctgggACAGGCGCTGGGCGAGCAGG--GCCGCCGGGTGCAGCGGGGGCTGCGGGAGGCGGTGCAGGAGCTG  448
+15       4180271   ---..-----...---...C.G.....G..A.AG------...C.--......--.G...T-.G......G...TGGC........T...........T.-.A.--..G..--..C.G.CG.C....C.GA.....T.CC.......G..  4180149
+34       5163285   TCA..CCGCT...CCA..A......G....CA....GTGGA.A.....A..C.AT..A..A-.........CC.----.....C....CA.....A...                                                     5163192
+28       3210980                                                      ..--......C.....-......----.GG.A..GC...........G...----..G......G..C.A...----.....C.....             3210908
+6        31752896                                          ..C......T.C.--......-.AC.--.....-----..C...G.T..A..CC......GC..CG..G....C.-..T....C...G...........C.GC....     31752991
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 540356041521
+
+
+  Database: GCF_016699485.2_bGalGal1.mat.broiler.GRCg7b_genomic.fna
+    Posted date:  Dec 15, 2021  3:23 PM
+  Number of letters in database: 1,053,332,251
+  Number of sequences in database:  214
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

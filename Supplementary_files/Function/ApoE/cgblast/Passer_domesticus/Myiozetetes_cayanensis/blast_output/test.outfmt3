@@ -1,0 +1,90 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_001700915.1_Passer_domesticus-1.0_genomic.fna
+           2,301 sequences; 1,042,720,703 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17725234909
+
+
+Query= exon_2
+
+Length=145
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 120947860984
+
+
+Query= exon_3
+
+Length=253
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+MBAE01002253.1 Passer domesticus isolate 8887266 scaffold02428, w...  71.6       6e-11
+MBAE01001215.1 Passer domesticus isolate 8887266 scaffold01286, w...  56.3       5e-06
+CM004528.1 Passer domesticus isolate 8887266 chromosome 1, whole ...  48.2       7e-04
+
+
+
+Query_3  164        GAGGAGCTGAGGAAGCGCTGGGACgggggggTCGCCGCCCTCAGGGCCCTCTGGGGGATCCCCGAGACC-CCCTGGGACCCCCAGGATTGA  253
+1994     468        .........C..CG.........G.....---.A.G...G......A..C.....C.CC..TT......-...G..AC.............  382
+957      294                                              .......A.....A...--.....T......A.................      248
+0        112414553                                                      ......-.....G....-................       112414584
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 232511323079
+
+
+  Database: GCA_001700915.1_Passer_domesticus-1.0_genomic.fna
+    Posted date:  Sep 20, 2020  8:52 PM
+  Number of letters in database: 1,042,720,703
+  Number of sequences in database:  2,301
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

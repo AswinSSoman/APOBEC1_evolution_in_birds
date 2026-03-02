@@ -1,0 +1,114 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_900496995.4_bAquChr1.4_genomic.fna
+           144 sequences; 1,233,704,830 total letters
+
+
+
+Query= exon_1
+
+Length=43
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044012.1 Aquila chrysaetos chrysaetos chromosome 9, bAquChr1.4...  41.9       0.009
+
+
+
+Query_1  14        TTGCGCTGCTGGGAGCTGCCCTGCT  38
+8        23345849  ...................G.....  23345873
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 19739215072
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 146810377826
+
+
+Query= exon_3
+
+Length=544
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_024470323.1 Aquila chrysaetos chrysaetos chromosome W unlocali...  61.7       3e-07
+NC_044004.1 Aquila chrysaetos chrysaetos chromosome 1, bAquChr1.4...  54.5       5e-05
+NC_044030.1 Aquila chrysaetos chrysaetos chromosome Z, bAquChr1.4...  50.0       6e-04
+NC_044027.1 Aquila chrysaetos chrysaetos chromosome 24, bAquChr1....  48.2       0.002
+NC_044021.1 Aquila chrysaetos chrysaetos chromosome 18, bAquChr1....  48.2       0.002
+NC_044012.1 Aquila chrysaetos chrysaetos chromosome 9, bAquChr1.4...  47.3       0.007
+NC_044008.1 Aquila chrysaetos chrysaetos chromosome 5, bAquChr1.4...  47.3       0.007
+NC_044011.1 Aquila chrysaetos chrysaetos chromosome 8, bAquChr1.4...  46.4       0.007
+
+
+
+Query_3  72        gcggc-gaggcgggcgcggggctgcgtcgcgacgtggaggagctgggcgggcgg-ctg-cgggcCGAGCTGGTGGAGGCACGGGGCCGGGCAGCGCAGTACGGGGCCGAGGCGCGGGCCGTGCTGCAGCAGGGCGCCGAGGACCTGCGGAGCCGCCTGGCCGCCTACGCCCGCAAGCTGCGCAAGCGCCTGGCCAAGGACGCCGAGGAGCTGCGGAGCCGCCTGGCCGCCgcggccggcga-ggtgcgggcccgggcg---gcggc-gct-----gca--  336
+29       3379057                                                                                                                                                                                                                                                                .....---....G-..G-----..G--  3379042
+0        29630067                                                                                                                                                                                                             .......--......-----...G.....A..A..A..A..A..C...---....---.....-CG.-----CGT--  29630122
+23       7922593                                                                                                                                                                                                                                        ......T....C-.........AGA.C.ACCT..T..-...-----T.TGG  7922550
+8        4004231                                                                                                                                                                                                                                        ...C........-..G.A...G.G.....---.GA..-..CTCCGC...--  4004274
+8        1146694                                               ..........T...T.......G.....C..C..AG...........                                                                                                                                                                                               1146740
+4        57364249                                                                                                                                                                                                                                                             ......A---....GA...-----..T--  57364267
+7        37328612  .....T........A.......---...C..C.TG.C...GTAA..........------......------...G...G...............                                                                                                                                                                                           37328533
+
+Query_3  337       --cgag--gggctgccggtgctgcgggcgccgccgcggctggcggcgctgg---gACAGGCGCTG-GG---CGAGCAGG-GCCGCCGGGTGCAGCGGGGGCTGCGGGAGGCGGTGCAG  442
+29       3379041   -----.--.C.....G..C.......CA.G..TT.....A....CT..G..CCG...T.......-..---..T..T..---...T..-...T..A...........             3378950
+0        29630123  --....--.A.GG.....A..G....C...A..A..A..G..A..A..C..---CGGC....GCC-.T---....G...A....G.C.C-..C.....A..A...........       29630223
+36       62681681                        ..........T...A..C.......---.---..G.C.----.-..---....GC..-.G..G....GCG..GC.....G...........G..    62681759
+23       5865335                                                                                 .-.........G..G...........C.....G....     5865300
+23       7922549   GC....CT....--....C..A...C...G...T..---...........C---CG.C..GC...-..---......----.T.....C..--....C......C..             7922461
+17       21447001                               ......-...........--..---T..CT....G.C..---..-..G.C-.G..G.....C.G..............             21447067
+8        4004275   --T.C.--T.C.G.....-..G....CG..G.--.....-........A..---CG...TG.AG.-..---........-.                                       4004339
+4        57364268  --G...--C......-..A..-.A.T...T....----....A..A....C---TG.T.CG....-C.GGC......C.-.G.A..T..C.G.....CA..G.............G..  57364370
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 632888287758
+
+
+  Database: GCF_900496995.4_bAquChr1.4_genomic.fna
+    Posted date:  Dec 15, 2021  3:54 PM
+  Number of letters in database: 1,233,704,830
+  Number of sequences in database:  144
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

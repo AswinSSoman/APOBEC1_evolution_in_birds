@@ -1,0 +1,4 @@
+Query        Subject         %_Query_covered_per_hsp  Query_length  Alignment_length  Q_start  Q_end  S_start   S_end     E_value   Bit_score
+exon_3       QGNR01000169.1  22                       544           125               275      394    105023    105140    2.72e-07  61.7
+exon_3_dup1  QGNR01000054.1  23                       544           135               305      430    4072477   4072344   9.51e-07  59.9
+exon_3_dup2  QGNR01000024.1  20                       544           116               322      431    16370712  16370826  9.51e-07  59.0

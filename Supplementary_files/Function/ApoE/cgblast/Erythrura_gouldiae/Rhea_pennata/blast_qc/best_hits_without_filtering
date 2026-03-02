@@ -1,0 +1,3 @@
+Query   Subject         Query_length  Alignment_length  Q_start  Q_end  S_start  S_end   E_value   Bit_score  Raw_score  %_Query_covered_per_sub  %_Query_covered_per_hsp  %_ident  Matches  Mismatches  Gaps  Strand
+exon_2  QUSF01000165.1  148           34                1        34     175979   175946  0.005     44.6       48         23                       23                       88.235   30       4           0     minus
+exon_3  QUSF01016419.1  556           167               124      289    331      166     5.41e-10  69.8       76         30                       30                       70.060   117      48          2     minus

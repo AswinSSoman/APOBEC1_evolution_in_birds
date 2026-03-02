@@ -1,0 +1,39 @@
+########################################
+# Program: needle
+# Rundate: Tue 19 Nov 2024 00:47:51
+# Commandline: needle
+#    -asequence APOE_Panthera_leo_exon_1.fa
+#    -bsequence extracted_flanking_region_exon_1.fa
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile pairwise_exon_1.aln
+#    -awidth3 10000
+# Align_format: srspair
+# Report_file: pairwise_exon_1.aln
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: APOE_Panthera_leo_exon_1
+# 2: extracted_flanking_region_exon_1
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 293
+# Identity:     123/293 (42.0%)
+# Similarity:   123/293 (42.0%)
+# Gaps:         145/293 (49.5%)
+# Score: 252.0
+# 
+#
+#=======================================
+
+APOE_Panthera      1 ---------------------------------ATGAAGGTTCTGTG---GGCGGCGCTGCTGGTCGCACTCCTGGCAGGTATGGGGCGGGGCCTGCTCAGGGTTCCCCCCTCCTTCCCATCCC--AGCCCCCCTC--CTCCCTGGGCCTCTCTTGTCTTTCTAGGT----------CAAGCATGTCGGCTTTTACCGGCGT---------CCATG-----GGAG------TCTCTCACGCTCG-----------GG---CCTTGCAGCCACGCCAC---------TCCTTTG    200
+                                                              ||||||   ||.||.|..|||      || .|||||||||.| ||.||||.||||||||||||||||       ||.|  |||  || |||.|||  ||.||  ||..||||           |||          .|||||      .||..|||.||||         ||.||     .|||      .|||.||.|||||           ||   |||  || |||||.|||         .||    
+extracted_fla      1 ttttttccccccagctccatcccctgcCCCCTC--------TCTGTGCCTGGGGGTGAAGCT------AC-ACTGGCAGGTCT-GGCCGGGACCTGCTCAGGGTTCCC-------TCGC--CCCGGAG-CCCACTCGGCTGCC--GGAATCTC-----------GGTTCcaacaacaaaagca------attaAACCAGCGTGCTAACGAGCCCTGTGCCCCGAGCCAACCACTCACAGGCTCGCTGACCACCACGGCCACCT--CA-CCACGGCACAGGCAAGCACCC----    241
+
+
+#---------------------------------------
+#---------------------------------------

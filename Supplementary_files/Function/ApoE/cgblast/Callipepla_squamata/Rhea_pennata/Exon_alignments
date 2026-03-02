@@ -1,0 +1,16 @@
+[07;32m[K>exon_3[m[K	
+	
+  
+  APOE_Rhea_pen      1 CGGCCTCATCGCGGAGACCATGGCAGAGCTGGAGG-----CGCAGGCGGTGGAGCTGCAGGCCCAGCTGGGCCCTGGTGGCGAGGCCAGCGTGGGGCTGCAG----CGCGACGTGGAGGA--GCTAGGT------------GGGCGGCTGCGGGCTGAGATGGCGGAGGCACGGGGCCGGGT--GGCGCAGTACGGCGCCGAGGCAC-AGGCCGTGCTGCAGCAG-GGCGCTGAGGACCT    213
+                                                               |||.|.||||   |||.|.||..|.|||    |||.|..||||   |.|| ||..|||||.|    |.|||||    |||  ||..|.|            |..|.|||||          .||.||..|.||..||||..|  |.||| .|.|..||||..||.|| ||||||.|||.|  |.| |.|||||    ||.
+  extracted_fla      1 -----------------------------------CCCCCCGCCGCCGGT---GCTCCCGGTGCCGCT----CCTTGGAGCGA---CCGC-TGCCGCTGCGGTGCTCCCGACG----GGATCGCCCGCTCCTCTCCGCCTCGCCCCGCTGC----------CGCTGActcccgccgccgcctccgccgc-ctccACCGCCCGGGGACGAGGCCGGGCTCC--CCGCGCCGCtg----ccc    173
+  
+  APOE_Rhea_pen    214 GCGTGGCCGCCTG-------GCCGCCTACACCCGC------------AAGCT-ACG----------------CAAGCGCCTG----GCCAAGGACACCGAGGAGCTGCGGAGCCG-----------CCTGG---CCGCCGCCGCCAGCAAGGTGCAGGCGCGGGTGGCGGAGCG-----------------GGCGGCAGCAC-TGCGCCAGGGGTTGCC-----GCCGCTGCGGGCGGCC    376
+                       |||..||||||.|       ||||||  ||||.||            .|||| |||                |.||||  ||    |||     |.||     |||.|.|.||||           |||||   |||||||||||        ||.|.|||.|..|.||..|||                 |.|||.|||.| .|||||   |.|||||     ||||||.| .||..||
+  extracted_fla    174 gcgccgccgccggccgcgccgccgcc--caCCAGCCCCTCGGACTGGGAGCTCACGTCGTCGTACTCCTCCACCAGCG--TGCTCAGCC-----CCCC-----GCTACCGCGCCGTTTCTCCGCCTCCTGggtcccgccgccgcc--------gccgccgccgccgccgccgcggccccgccgtcGTTTGTGCCGGGAGCCCGAGCGCC---GCTTGCCCCGCGGCCGCTTC-CGCTCCC    387
+  
+  APOE_Rhea_pen    377 CCTCGGCTGGCAGC-GCTGGGGCAGGTGC--TTGGC---------GAGCAGGGCCTCCGGGTGCAGCAGGGGCTGCAGGAGGCGG----TGCAGGAGCTGCGGGCCTCGCTGGA--------------TGGTGCCGTGCAGG-GGCTGCGGAGCTGGCT--GGCTGCGCTGC--TGC----CCAACG-------TGCCGCTGCTGCTCGACGGCCCCAAGCCTTGA    556
+                       ||.||  |..|.|| ||.||.|.|||.||  .||||         ||||||||.||.|||..|||||.|.|||||||||| ||||    ||||||||..||||  || ||.|||              .|||||.|.||.|| |||.|.|||||.||||  |||||.||.||  .||    ||..||       |||.||.|||.||.|.|||||.|         
+  extracted_fla    388 CCCCG--TCCCCGCAGCAGGAGGAGGCGCCGGTGGCCGCCAGGAAGAGCAGGGACtgcggcggcagcggcggctGCAGGA-GCggaggctgcaggaggggcgG--CT-GCAGGAGCGGGAAGAGCAGCGGgtgcggggccggcggcgggggAGCAGGCTGCGGCTGGGCCGCGAAGCGCTTCCGTCGCCGGTGATGCAGCCGCTTCTTGTcggccgc---------    598
+
+

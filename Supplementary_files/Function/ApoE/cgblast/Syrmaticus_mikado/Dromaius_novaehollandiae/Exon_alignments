@@ -1,0 +1,16 @@
+[07;32m[K>exon_3[m[K	
+	
+  
+  APOE_Dromaius      1 ------------------------------------------------------------------------CGGCCTCATC-----------GCAGAGAC--CATGGAGG-------------AGCTGGAGGCGCAGGTGGCAGAGCTGCAGGCCAAGCTGG----------GCCCCAGC-GGCGAG------GCGG--GCGCGGGGCTGCGT-----CGCGACGTGGAGGAGCTGGGC    118
+                                                                                               |||||    |           |||||.||  .||||.||             .||.|||||||..||.|||    ||          ||.|          |||||||| ||.|||      ||||  ||||||..|||.||     ||.|.|||.|||||       
+  extracted_fla      1 cccgcccccgcccggCGCGGTGCACGCCGGGACGCCTCCGCcgctcctcccgccgcccctcccGGCTGCCCCCGGCC----CGCCTGAATGGGGCAGATACAAGATGGCGGCGAACGCGAACTCGgccggaggcggcggcggc----ct----------cTCGCTCTTCGAATGCCCCAGCTGGTGAGCGGGCCGCGGCCGCGCGGTTCTGTGTTGCCGCGGGCCGTCGAGGA-------    215
+  
+  APOE_Dromaius    119 GGGCGGCTGC-GGGCCGAGCTGGTGGAGGCACGGGGCCGGGCAGCGCAGTACGGGGCCGAGGCGCGGGCCGTGCTGC--AGC----AGGGCGCCGAGGACCTGCGGAGCCGCCTGGCCGCCTACGCCCGCAAGCTGCGCAAGCGCCTGGCCAAGGACGCCGAGGAGCTG---CGGAG-----CCGCCTGGCCGCCGCGGCCGGCGAGGTGCGGGCCCGGGCGGCGGCGCTGCAC------    337
+                       |.|||||.|| .|||||.||.||.||||   |||.|.||||    ||.|.|| |||.|||..||||||    |||||  |||    .|||   |||||.|  |||||||||||.||||||            |..|||   |||.|.||        .|||.||..|||   |||||     |||.||.|.|||.||||.||||..||.||||        ||||||||.||.|      
+  extracted_fla    216 GAGCGGCCGCACGGCCGGGccgggggag---cggcggcggg----gcgggac-ggGACGAACCGCGGG----GCTGCGGAGCCTCACGGG---CGAGGGC--GCGGAGCcgccgggccgc------------ggggcg---gcgTCGGG--------TCCGGGGGTCTGGGCCGGAGGAGGCCCGGCTCGGCGCTGCGGGCGGctcggggcgg--------ggcggcgccgcgcggggcc    407
+  
+  APOE_Dromaius    338 -----GAGGG---GCT--GCCGGTGCTGCGGGCGCCGCCGCGGCTGGCGGCGCTGGGACAGGC-GCTGGGCGAGCAGGGCCG--CCG-GGTGCAGCGGGGGCT-GCGGGAGGCGGTGCAGGAGCTG-TGGGCCTCGGTGGACGGCGTCCTG-CAGGGGCTCCTGGGCTGGCTGACGATGCTGCTGCCCAGCTCCCCAGCACTGCGCGACGCCCCCAAGCCTTGA    544
+                            |||||   |||  |||..|||||.|||||     ||||  |||||||  |||.|.||. ||.|||||.|..|||.||  ||| ||.||.||||.|.|| .||||.|..||.|| |||||.| .|||||.||  ||.|||||||..| |.||||.| ||||||.||..||         .||||.|||   |.||.|||||.|..||.            
+  extracted_fla    408 GAGCGGAGGGCGAGCTGCGCCTCTGCtgagggcg-----gcgg--ggcggcg--gggccgggNGGCGGGGCGGGACGGGACGAACCGCGGGGCTGCGGAGCCTCACGGGCGAGGGCGC-GGAGCcgccgggccgcg--gggcggcgTCGGGTCCGGGGGT-CTGGGCCGGAGGA---------GGCCCGGCT---CGGCGCTGCGGGCGGct------------    594
+
+

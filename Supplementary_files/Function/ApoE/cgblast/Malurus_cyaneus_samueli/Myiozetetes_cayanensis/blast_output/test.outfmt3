@@ -1,0 +1,88 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_009741485.1_mCya_1.0_genomic.fna
+           4,330 sequences; 1,078,891,882 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17260399552
+
+
+Query= exon_2
+
+Length=145
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 125136892192
+
+
+Query= exon_3
+
+Length=253
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VKON01000784.1 Malurus cyaneus samueli chromUnkn_scaffold0784_unp...  44.6       0.009
+CM019226.1 Malurus cyaneus samueli chromosome 13, whole genome sh...  44.6       0.009
+
+
+
+Query_3  63        GGGTGGAGGCGAAGGCGCTGCTGGAGCAGAGCTGGGGGGACCTGAAGGCCCGGGGGGCTTCGTTCGCCCGAAAGCTGCGCAAGAGGCTGAACCGGGACGCGGAGGAGCTGAGGAAGCGCTGGGACgggggggTCGCCGCCCTCAGGGCCCTCTGGGGGATCCCCGAGACCCCCTGGGACCCCCAGGA  249
+783      18914                                                                                                                                                ...........C.A..A--......C...G....CT............  18869
+120      12363651  ..A......A..G..G.....A..G.G.............A...                                                                                                                                                 12363694
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 240563921986
+
+
+  Database: GCA_009741485.1_mCya_1.0_genomic.fna
+    Posted date:  Sep 18, 2020  8:25 PM
+  Number of letters in database: 1,078,891,882
+  Number of sequences in database:  4,330
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

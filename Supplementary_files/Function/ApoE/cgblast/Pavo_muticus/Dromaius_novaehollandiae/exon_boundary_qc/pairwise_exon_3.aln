@@ -1,0 +1,39 @@
+########################################
+# Program: needle
+# Rundate: Tue 19 Nov 2024 01:56:53
+# Commandline: needle
+#    -asequence APOE_Dromaius_novaehollandiae_exon_3.fa
+#    -bsequence extracted_flanking_region_exon_3.fa
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile pairwise_exon_3.aln
+#    -awidth3 10000
+# Align_format: srspair
+# Report_file: pairwise_exon_3.aln
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: APOE_Dromaius_novaehollandiae_exon_3
+# 2: extracted_flanking_region_exon_3
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 724
+# Identity:     318/724 (43.9%)
+# Similarity:   318/724 (43.9%)
+# Gaps:         313/724 (43.2%)
+# Score: 626.5
+# 
+#
+#=======================================
+
+APOE_Dromaius      1 CGGCCTCATCGCA---GAGACCATGGAGGAGCTGGAGGCGCAGGTGGCAGAGCTGCAGGCCAAGCTGGGCCCCAGCGGCGAGGCGGGCGCGGGGCTGCGTCGCGACGTG-----GAGGAGCTG-----GGCGGGCGGCTGCGGGCCGA--------GCTGGTGGAGGCACGGGGCCGGGC-AGCGCAG----TACGG-GGCCGAGGCGCGGGCCGTGCTGCAGCAGGGCGCCGAGGACCTGCG-GAGCCGCCT---GGCCGCCT-ACGCCCGCAAGCTGCG----------------CAAGCGCCTGGCCAAGGACGCCGAGGAGCTGC--GGAGCCGCCTGGCCGCCGCGGC-------CGGCGA----------GGTGCGGGCCCGGGCGGCGGCGCTGCACGAGGGGCTGCCGGT---GCT--------------------------------------------------------------------GCGGGCGCCGCCGCGGCTGG----CGGCGCTGGGACAGGCGCTGGGCGAGCAGG-GCCGCCGGGTGCA----GCGG-----GGGCTGCGGGAGGCGGTGCAGGAGCTGTGGGCCTCGGTGGACGGCGTCCTGCAGGGGCTCCTGG----GCTGGCTGACGATGCTGCTGCCCAGC------TCCCC--AGCACT---GCGCGACGCCCCCAAGCCTTGA-------------    544
+                               |||   ||   ||||||.|.||                  ||.||.||  ||||                          ||||..|..|.|..|||||     .|  |.|||     ||                ||        |.|.|| .||||||   .|||..| |.|||||    .|||| |||..|..|.|||.||     .|.||||..|.|||.||   |||| |..|||.||   |||||  | ||.|||||..|..|||                |.|||||..|||              |||.||  |||||||||||||.|.||.|||       ||||.|          ||.||||| |||.|||||||          |.|||| |||||   |||                                                                    |||||||.|||.|.||||||    .|||||||||||.|||||||||||.|.||| |.||.||||.| |    ||||     ||||.|..|||||||  |||.|   |..||||.||||.|  ||||  |.|..||.||..||.||    ||| ||.|..|||...|.||||.|||      ||.||  .|| ||   |||.|.||.||    ||.|.|.             
+extracted_fla      1 ----------gcatctga---catggaagtgc------------------agatgaag--caag--------------------------gGGGTGGAATTGAAACGTGACTCTAA--AACTGTCATTGG----------------GAAATGAAACGTTCGT-AAGGCAC---TCCGCACTAACGCAGGCTAAACGGCGGCGCACCCCCGGCCC-----CCCGCAGCTCCCCGCGG---TGCGTGTCCCGGCTCGGGGCCG--TGACTCCCGCTCGACGCGTTCGGGGCTCTCGGTTCGAGCGCTCGGC--------------AGCGGCTTGGAGCCGCCTggcgggcggggcggcggggcggccaTGTCCGGACTGGCGCGGG-CCGTGCGGCGG----------GTGGCT-CCGGTCGGGCTGGCGNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGGCGGGCggcgctggggctgggggctggcgCTGGGACTGGCGCTGGGCGTGAAGGCGGCGGCGGGCG-ACGAGGCGGACGGCGGGCCGGAGGAGGCG--GCACG---TCGGGGCTTCGGAG--CGGC--CATCGAGAGGAGCCGGGACCTGCT-GCGGCGGATCAAGGTGCCGAGCGTCGGATCGCCTGGGC-CTGGGGCGGGGCGTCC----GCGTAGGGGGCCGCAGAGGC    591
+
+
+#---------------------------------------
+#---------------------------------------

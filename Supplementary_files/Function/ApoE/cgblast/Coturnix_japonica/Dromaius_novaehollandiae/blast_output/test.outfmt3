@@ -1,0 +1,86 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_001577835.2_Coturnix_japonica_2.1_genomic.fna
+           2,012 sequences; 927,656,957 total letters
+
+
+
+Query= exon_1
+
+Length=43
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_029528.1 Coturnix japonica isolate 7356 chromosome 13, Coturni...  43.7       0.002
+
+
+
+Query_1  3       GAAGCTCTGGGTTGCGCTGCTGGGAGCTGCCCTGCT  38
+742      337614  ..T...T...C...G.................A...  337579
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 15769278965
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 110384234471
+
+
+Query= exon_3
+
+Length=544
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 475856022105
+
+
+  Database: GCF_001577835.2_Coturnix_japonica_2.1_genomic.fna
+    Posted date:  Dec 17, 2021  7:05 PM
+  Number of letters in database: 927,656,957
+  Number of sequences in database:  2,012
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

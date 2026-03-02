@@ -1,0 +1,196 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000747805.1_ChaPel_1.0_genomic.fna
+           19,072 sequences; 1,119,188,094 total letters
+
+
+
+Query= exon_1
+
+Length=43
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_009970726.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009970725.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009970724.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009970720.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009970718.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009970716.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009969339.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009954492.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009954442.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009954222.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009954194.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009954107.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009953962.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009953947.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009953911.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009953905.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009953864.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009953761.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009953722.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009953647.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009953564.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009953507.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009953496.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009953490.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009953481.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009953449.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009953415.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009953299.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009953295.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009953218.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009953202.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009953004.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009952990.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009952978.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009952974.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009952973.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009952893.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009952883.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009952798.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009952711.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009952533.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009952481.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009952435.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009952366.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009952265.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009952154.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009952052.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009951982.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009951917.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+NW_009951810.1 Chaetura pelagica isolate M959 unplaced genomic sc...  41.0       0.008
+
+
+
+Query_1  17        CGCTGCTGGGAGCTGCCCTGCT  38
+19069    1112475   ......................  1112454
+19068    5222693   ......................  5222672
+19067    2992542   ......................  2992521
+19067    4518504   ......................  4518483
+19063    4153099   ......................  4153078
+19061    4334119   ......................  4334098
+19059    603446    ......................  603425
+19059    5076258   ......................  5076279
+17682    5953863   ......................  5953884
+2835     1567032   ......................  1567011
+2785     3790500   ......................  3790521
+2565     1230218   ......................  1230197
+2537     2922708   ......................  2922729
+2450     3420851   ......................  3420830
+2305     1459222   ......................  1459243
+2290     313201    ......................  313222
+2254     222364    ......................  222343
+2254     325067    ......................  325088
+2248     694170    ......................  694149
+2207     157243    ......................  157222
+2104     3681639   ......................  3681660
+2065     1164864   ......................  1164843
+2065     1253634   ......................  1253655
+1990     3177960   ......................  3177939
+1907     472771    ......................  472750
+1850     3856997   ......................  3857018
+1839     3763951   ......................  3763972
+1839     4865590   ......................  4865569
+1839     19473827  ......................  19473806
+1833     557277    ......................  557298
+1824     890867    ......................  890846
+1824     1386669   ......................  1386648
+1792     1530866   ......................  1530887
+1758     32416     ......................  32437
+1642     2578031   ......................  2578010
+1638     9401847   ......................  9401868
+1638     10328069  ......................  10328090
+1561     4144842   ......................  4144863
+1545     518325    ......................  518304
+1347     406221    ......................  406242
+1333     2272596   ......................  2272575
+1321     64629     ......................  64608
+1317     9017507   ......................  9017486
+1317     10676727  ......................  10676748
+1316     11114904  ......................  11114925
+1316     11700822  ......................  11700801
+1316     12763965  ......................  12763944
+1236     162538    ......................  162517
+1236     941481    ......................  941460
+1226     184190    ......................  184211
+1141     1885839   ......................  1885818
+1054     7500212   ......................  7500191
+876      7730747   ......................  7730768
+824      271769    ......................  271748
+778      2778817   ......................  2778838
+709      3071011   ......................  3071032
+608      7127820   ......................  7127799
+497      42743     ......................  42764
+395      255103    ......................  255124
+325      91451     ......................  91430
+260      340164    ......................  340143
+153      4548      ......................  4527
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17898770400
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 133117565714
+
+
+Query= exon_3
+
+Length=544
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 573840190206
+
+
+  Database: GCF_000747805.1_ChaPel_1.0_genomic.fna
+    Posted date:  Apr 13, 2021  7:31 PM
+  Number of letters in database: 1,119,188,094
+  Number of sequences in database:  19,072
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

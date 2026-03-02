@@ -1,0 +1,98 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_907165065.1_bCapEur3.1_genomic.fna
+           121 sequences; 1,177,791,212 total letters
+
+
+
+Query= exon_1
+
+Length=43
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+OU015523.1 Caprimulgus europaeus genome assembly, chromosome: 1       41.0       0.009
+
+
+
+Query_1  15         TGCGCTGCTGGGAGCCACCCTG  36
+0        100877406  ......................  100877427
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 18844607120
+
+
+Query= exon_2
+
+Length=148
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+OU015545.1 Caprimulgus europaeus genome assembly, chromosome: 21      44.6       0.005
+
+
+
+Query_2  4         GTGGGGCCGAGCTGGGCCCTGAGGAGCCGCGGGCCGGCTGGGAAGCGGC  52
+20       11896425  .....A...T...........G.C....AG....T..G....C...A..  11896473
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 140156736657
+
+
+Query= exon_3
+
+Length=556
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+OU015525.1 Caprimulgus europaeus genome assembly, chromosome: 3       52.7       2e-04
+OU015545.1 Caprimulgus europaeus genome assembly, chromosome: 21      49.1       0.002
+
+
+
+Query_3  366       TGCGGGCGGCCCCTCGGCTGGCAGCGCTGGGGCAGGTGCTTGGCGAGC---AGGGCCTCCGGGTGCAGCAGGGGCTGCAGGAGGCGGTGCA-GGAGCTGCGGGCCTCGCTGGATGGTGCCGTGCAGGGGCTGCGGAGCT  500
+2        24932115  .............--...C.C.G..--....--....CT.C.A..T..GGC.......G....A.....-..CC...GG..C...T....CT................                                 24932215
+20       3441601                                                                                           ..G-.........TT........--......A-............A.....  3441647
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 618338417025
+
+
+  Database: GCA_907165065.1_bCapEur3.1_genomic.fna
+    Posted date:  Nov 20, 2021  4:35 PM
+  Number of letters in database: 1,177,791,212
+  Number of sequences in database:  121
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

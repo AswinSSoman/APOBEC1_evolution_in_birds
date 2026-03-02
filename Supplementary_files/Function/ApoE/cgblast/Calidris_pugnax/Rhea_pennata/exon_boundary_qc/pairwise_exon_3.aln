@@ -1,0 +1,39 @@
+########################################
+# Program: needle
+# Rundate: Mon 18 Nov 2024 22:29:13
+# Commandline: needle
+#    -asequence APOE_Rhea_pennata_exon_3.fa
+#    -bsequence extracted_flanking_region_exon_3.fa
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile pairwise_exon_3.aln
+#    -awidth3 10000
+# Align_format: srspair
+# Report_file: pairwise_exon_3.aln
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: APOE_Rhea_pennata_exon_3
+# 2: extracted_flanking_region_exon_3
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 734
+# Identity:     331/734 (45.1%)
+# Similarity:   331/734 (45.1%)
+# Gaps:         310/734 (42.2%)
+# Score: 615.5
+# 
+#
+#=======================================
+
+APOE_Rhea_pen      1 -------------------CGG---------CCTCATCGCGGAGACCATGGCAGAG----CTGGAGGCGCAG---GCGGTGGAGCTGCAGGCCCA---GCTGGGCCCTGGTG-GCGAGGCCAGCGTGGGGCTGCAGCGCGACGTGG------AGGAGCTAGGTGGG---------------------------------------CGGCTGCGGGCTG--AG-------ATGGCGGAGGCACGGGGC-CGGGTGGCGCAGTACGGC-GCCGAGGCAC-AGGCCGTG-CTGCAGCAGGGCGCT-GAGGACCTGCGTGGCCGCCTGGCCGCCTACACC-CGCAAGCTACGCAAGCGCCTGGCCAAGGACACCGAGGAGCTGCGGAGCCGCCT-------GGCCGCCGCCGCCAGCAAGGTGCAGGCGCG-GGTGGCGGAGCGGGCGGCAGCAC------TGCGCCAGGGGTTGCCGCCGCTGCGGGCGGCCCCTCGGCTGGCAGCGCTGGGGCAGGTGCTTGGCGAGCAGGGC-----CTCCGGGTGCAGCAGGGGCTGCAGGAGGCGGT------GCAGGAGCTGCGGGCCTCGCTGGATGGTGCCGTGCAGGGGCTGCG-----GAG---CTGGCTGG------CT-GCGC-------------------TGCTGCCCA----ACGTGCCGCTGCTGCTCGAC-----GGCCCCA-----------AGCCTTGA    556
+                                        |.|         |.||||..|.||           ||    |||||||||.||   ||.||||.|||.||||..||   |.|||.||.||||| |.||||.||||||||||||||  ||.|||.|||      |||||| ..|||||                                       |..||..|||.||  ||       |||| |||.||| |..|| ||.|.||..|..|..||| ||.||||..| .|||.||| |.||.||.||| ||| |.||||  .||||||.|  ||||.|||    || |||            |.||   ||   |||||.|.||||||||    ||.|||       ||||.|||.| ||||| ...|||.|||.|| |||                 |||      |||.||||                    .||||||| .||  ||| |.|.||||        |||...||||.|     .|..||||||.||||||.||        ||||      .||..|.||     |||             .||.|||.|||| ||     .||   ||  ||.|      || .|||                   ||||.|.||    ||.||    ||.||..||.|     |.|.|||           |||||.| 
+extracted_fla      1 tctgctttgtgcAGGAATCCAGTGTTTTGTTCTTCATAACTGA-----------AGGTTTCTGGAGGCGAAGGCTGCCGTGGGGCTCCAGGAGCACGGGTTGGACCTTGGTGCGGGAGGGCAGCGTGGGGCTGC--CGGGACCTGGGGTGCCAGGAGC-CCGTGGGGCAtcccgtcctcctcctccttgtcctcctcttcctcctcctctctgggGTGGCAGTTCCTCCATGG-GGAAGCA-GATGCTCGAGAGGATCCATGAGGCTGCAGAGGTTCTGGGCTGTGCCcgctgccggg-gctgggggac--acgTGGCTG--TGGCAGCC----CCTCGC------------CCCC---CC---GACACAGCGGAGCTGC----CCCCCTGCTCTCAGGCCCCCgtc-ccagc-ctctgctggctCGTGGT-----------------CACAGTTTGTGCCCCAG--------------------TGCCCCTC-ACT--CAG-GTTTGGGC--------GGCACTCAGGACATGAtgtgtgggtgctgcagggact--------CGGTCTCCCACCACAAACT-----CCT-------------AGTTCAGTGGCT-CGTTCTCCAGTTTCT--CTAGAATTCCCTCACGCctcatttttcacttccttttgCTTCACATCACACTTG----TGTTGAACGGCAGCGAGTCTCCAGCCGGAGTAGCAGCCTGG-    602
+
+
+#---------------------------------------
+#---------------------------------------

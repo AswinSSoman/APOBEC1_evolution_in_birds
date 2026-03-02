@@ -1,0 +1,120 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_901933205.1_STF_HiC_genomic.fna
+           1,345 sequences; 1,051,609,828 total letters
+
+
+
+Query= exon_1
+
+Length=43
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044585.1 Camarhynchus parvulus chromosome 15, STF_HiC, whole g...  42.8       0.002
+
+
+
+Query_1  5        AGCTCTGGGTTGCGCTGCTGGGAGCTGCCC  34
+14       9114420  ............T.........-.......  9114448
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17876772586
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 125136927937
+
+
+Query= exon_3
+
+Length=544
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_022148493.1 Camarhynchus parvulus unplaced genomic scaffold, S...  59.9       9e-07
+NC_044582.1 Camarhynchus parvulus chromosome 12, STF_HiC, whole g...  53.6       4e-05
+NC_044589.1 Camarhynchus parvulus chromosome 19, STF_HiC, whole g...  50.9       5e-04
+NW_022148303.1 Camarhynchus parvulus unplaced genomic scaffold, S...  49.1       0.002
+NC_044586.1 Camarhynchus parvulus chromosome 1A, STF_HiC, whole g...  49.1       0.002
+NC_044587.1 Camarhynchus parvulus chromosome 17, STF_HiC, whole g...  48.2       0.002
+NC_044580.1 Camarhynchus parvulus chromosome 10, STF_HiC, whole g...  47.3       0.006
+NW_022148592.1 Camarhynchus parvulus unplaced genomic scaffold, S...  46.4       0.006
+NC_044600.1 Camarhynchus parvulus chromosome 4A, STF_HiC, whole g...  46.4       0.006
+NC_044594.1 Camarhynchus parvulus chromosome 24, STF_HiC, whole g...  46.4       0.006
+NC_044590.1 Camarhynchus parvulus chromosome 20, STF_HiC, whole g...  46.4       0.006
+NC_044578.1 Camarhynchus parvulus chromosome 8, STF_HiC, whole ge...  46.4       0.006
+
+
+
+Query_3  21        TGGAGGAGCTGGAGGCGCAGGTGGCAGAGCTGCAGGCCAAGCTGGGCCCCAgcggcgaggcgg-------gcgcggggctgcgtcgc--gacgt-ggaggagctgggcgggc----ggctgcgg-gcCGAGCTGGTGGA---GGCACGGGGCC--GGGCAGCGCAGTACGGGGCC-GAGGCGCGGGCCGTGCTGCAGCAGGGCGCCGAGGACCTGCGGAGCCGCCTGGCCGCCTACGCCCGCAAGCTGCGCAAGCGCCTGGCCAAGGACGCCGAGGAGCT  279
+853      427                                                                                                                                                                           ......C.CAG-........C..GC....CG...TCA......CC........CGCG...GGC.......T..G.A.A...T.C..G..A.....C.G.CGC...CA.........  313
+16       1004830                                                    ........C..--.-------..CG.....A...G...--.GG.CC..G.....G.C......CGGG...A....C..G.G..C..G..CAGC...........--...G....--.CG.......-.-..G....                                                                                                 1004948
+16       1004581                                                                                                                                                 ...........GG........--.C........G.G...........G.-----...C.......G..                                                                        1004641
+23       806143                                                                                                                                                                                                                                                                                 ...........  806133
+19       11806419  ...............A.---------......G.....G...GA.C.G....G.C.A...T..AGAAGCA...G.C..AG.......GG..GC.-..........A...A..----.....                                                                                                                                                                 11806525
+7        27272020                                                                                                                                                                                                                                                                                        ..  27272021
+
+Query_3  280       GCGGAGCCGCCTGGCCGCCgc-ggccggcg--aggtgcgggcccgggc-ggcgg-cgctgca-cgaggggctgccggtgctgcgggc---gccgccgcggctggcggcgctgggACAG-GCGCTG---GGCGAGCAG-----GGCCG----CCGG--GTGCAGCGGGGGCTGCGGGAGGCGGTGCAGGAGCTGTGGGCCTCGGT  459
+853      312       ......G...                                                                                                                                                                                                    303
+11       1522912                                               ....-.....-G.--...G..C.......AG..A..C......TGT.AG.G...C..G...T.T.AG..CG.C.C.G....---T...G....-----.....----....--.-..T.........-...--.....-.....                  1522792
+18       6544608   ..............----...-A...--.C--.C.......-......-.....-G.-------.C..C.GG.....-..G..-...---....G..G..GC..-T....G...G.G.-......---A..--..G.-----.....----..                                                     6544496
+663      1407                                                                                     ..T....T---..A..A..A..A..A..G..A.---...-......---C.G...GC.--------..----....--.C.....A..A..A....C..CG.C...........             1318
+15       70468887                                                                                              .....G..GC........C...-...-.TA.G.---..G.-..G.-----..--.----....--.G.GGC.............G.....G..T..                  70468811
+15       1276566                                                                                                                                                          ....--C.............-....G.......TG..T..C.A...G......  1276517
+9        16846679                                            ......-A....G......T-G...C....-....G..-.A.T..---.TG...----....A..A....CTG.T.-.A....CAG.C......C-----..G.A----.AT.--.C.G.....CA..G.............G..                   16846800
+952      15847                                                                                                                             .....---TT.....T.-----.....GAAC....CG..........C...........A.C...                     15791
+29       6697666                                        ........A..-...C.-..--..C-....C.-....GCC...GC.CT..---.--....G.C.C.C.T........G.C.-.-..G.---..A....G.CCCGG....C----G...--.-..C...............                             6697550
+23       806132    ....GC.............                                                                                                                                                                                           806114
+7        27272022  ...........CC........G..AA....GC..C...A......A..A.....-..                                                                                                                                                     27272077
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 539454452229
+
+
+  Database: GCF_901933205.1_STF_HiC_genomic.fna
+    Posted date:  Nov 17, 2020  2:48 PM
+  Number of letters in database: 1,051,609,828
+  Number of sequences in database:  1,345
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

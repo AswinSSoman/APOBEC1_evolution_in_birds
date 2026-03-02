@@ -1,0 +1,110 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_003343005.1_rheAme1_genomic.fna
+           2,162 sequences; 1,160,836,514 total letters
+
+
+
+Query= exon_1
+
+Length=43
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+PTEV01000541.1 Rhea americana isolate MKP2758 scaffold_540, whole...  74.3       1e-12
+
+
+
+Query_1  1       ATGAAGCTCTGGGTTGCGCTGCTGGGAGCCACCCTGCTTGCAG  43
+1654     138669  .................A.........................  138711
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 18572450240
+
+
+Query= exon_2
+
+Length=148
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+PTEV01000541.1 Rhea americana isolate MKP2758 scaffold_540, whole...  268        3e-70
+
+
+
+Query_2  1       GCTGTGGGGCCGAGCTGGGCCCTGAGGAGCCGCGGGCCGGCTGGGAAGCGGCTGTCGACGCCTTCTGGGAGTACGTGGCCCAGCTGGGGCATGCGGTGGAGAACGGCACTGTGCGTGTGAAGAGCGCCCAGATTGGCCGCAAGCTTGA  148
+1654     139203  ....................................................................................................................................................  139350
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 138132084104
+
+
+Query= exon_3
+
+Length=556
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+PTEV01000541.1 Rhea americana isolate MKP2758 scaffold_540, whole...  990        0.0  
+PTEV01000063.1 Rhea americana isolate MKP2758 scaffold_62, whole ...  48.2       0.002
+PTEV01000169.1 Rhea americana isolate MKP2758 scaffold_168, whole...  47.3       0.007
+PTEV01000112.1 Rhea americana isolate MKP2758 scaffold_111, whole...  47.3       0.007
+PTEV01000383.1 Rhea americana isolate MKP2758 scaffold_382, whole...  46.4       0.007
+
+
+
+Query_3  1        CGGCCTCATCGCGGAGACCATGGCAGAGCTGGAGGCGCAGGCGGTGGAGCTGCAGGCCCAGCTGGGCCCTGGTGGCGAGGCCAGCGTGGGGCTGCAGCGCGACGTGGAGGAGCTAGGTGGGCGGCTGCGGGCTGAGATGGCGGAGGCACGGGGCCGGGTGGCGCAGTACGGCGCCGAGGCACAGGCCGTGCTGCAGCAGGGCGCTGAGGACCTGCGTGGCCGCCTGGCCGCCTACACCCGCAAGCTACGCAAGCGCCTGGCCAAGGACACCGAGGAGCTG  280
+1654     139569   ............................................................................................................................................................A.........................................................................................G.................................  139848
+
+Query_3  281      CGGAGCCGCCTGGCCGCCGCCGCCAGC-AAGGTGC-AGGC-GCGGGTGGCGGAGCGGGCGGCAGCACTGCGCCAGGGGTTGCCGCCGCTGCGGGCGGCCCCTCGGCTGGCAGCGCTGGGGCAGGTGCTTGGCGAGCAGGGCCTCCGGGTGCAGCAGGGGCT--GCAGGA--GGCGG-TGCAGGAGCTGCGGGCCTCGCTGGATGGTGCCGTGCAGGGGCTGCGGAGCTGGCTGGCTGCGCTGCTGCCCAACGTGCCGCTGCTGCTCGACGGCCCCAAGCC  552
+1654     139849   ...........................-.......-....-........................................................................................................................--......--.....-.................................................A.....................................................  140120
+1742     4253752                                                                                                                                      ........A..G...CG.....G.C....--......GC.....C........GG....                                                                                           4253808
+757      927346       ......G..............T.-.C.....A...A-.....                                                                                                                                                                                                                                            927307
+125      2348391                                                                                                                                                          ........GCG......--..G..C............A.C.....G.....                                                                               2348439
+1478     282956                ..............GCT....G-....A.A..T......T.A...A..--......G.......                                                                                                                                                                                                             283016
+
+Query_3  553      TTGA  556
+1654     140121   ....  140124
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 609403983300
+
+
+  Database: GCA_003343005.1_rheAme1_genomic.fna
+    Posted date:  Jan 7, 2022  8:37 PM
+  Number of letters in database: 1,160,836,514
+  Number of sequences in database:  2,162
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

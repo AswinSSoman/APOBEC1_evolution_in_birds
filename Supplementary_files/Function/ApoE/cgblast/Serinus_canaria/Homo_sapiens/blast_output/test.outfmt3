@@ -1,0 +1,86 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_022539315.1_serCan2020_genomic.fna
+           685 sequences; 1,050,352,878 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17855696156
+
+
+Query= exon_2
+
+Length=193
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 172254614132
+
+
+Query= exon_3
+
+Length=718
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_066319.1 Serinus canaria isolate serCan28SL12 chromosome 5, se...  53.6       5e-05
+
+
+
+Query_3  500      CGCCTGGACGAGGTGAAGGAGCAGGTGGCGGAGGTGCGCGC-CAAGCTGGAGGAGCAGGCCCA  561
+6        8722850  ...............CT.C..G.........C.C....G..G.T..-...C........G...  8722789
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 721577838741
+
+
+  Database: GCF_022539315.1_serCan2020_genomic.fna
+    Posted date:  Oct 18, 2022  12:33 PM
+  Number of letters in database: 1,050,352,878
+  Number of sequences in database:  685
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

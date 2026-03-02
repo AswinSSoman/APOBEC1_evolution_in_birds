@@ -1,0 +1,67 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_023343835.1_bLagMut1_primary_genomic.fna
+           165 sequences; 1,026,771,810 total letters
+
+
+
+Query= exon_1
+
+Length=200
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 175577161275
+
+
+Query= exon_2
+
+Length=685
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_064438.1 Lagopus muta isolate bLagMut1 chromosome 6, bLagMut1 ...  50.0       6e-04
+
+
+
+Query_2  454      GCAGCTGCGCGGGCGGCTGGACGAGGTGCGCGAGCAGGTGGAGGAGATGCGG  505
+8        6852736  ....G..G.....................TGC..G..A...C..C.C.....  6852787
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 671505418530
+
+
+  Database: GCF_023343835.1_bLagMut1_primary_genomic.fna
+    Posted date:  Nov 25, 2022  7:40 PM
+  Number of letters in database: 1,026,771,810
+  Number of sequences in database:  165
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

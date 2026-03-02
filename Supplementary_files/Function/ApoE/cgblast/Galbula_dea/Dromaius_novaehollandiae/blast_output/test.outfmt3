@@ -1,0 +1,95 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_013399015.1_ASM1339901v1_genomic.fna
+           19,989 sequences; 1,006,681,283 total letters
+
+
+
+Query= exon_1
+
+Length=43
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VWZX01000996.1 Galbula dea isolate B10K-DU-001-62 scaffold223, wh...  45.5       7e-04
+
+
+
+Query_1  7        CTCTGGGTTGCGCTGCTGGGAGCTGCCCTGCT  38
+995      2237893  ........G..A..............T.....  2237862
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17104746673
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 119726090638
+
+
+Query= exon_3
+
+Length=544
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VWZX01010067.1 Galbula dea isolate B10K-DU-001-62 scaffold91, who...  50.9       5e-04
+VWZX01007185.1 Galbula dea isolate B10K-DU-001-62 scaffold1265, w...  47.3       0.006
+VWZX01002541.1 Galbula dea isolate B10K-DU-001-62 scaffold378, wh...  47.3       0.006
+
+
+
+Query_3  25      GGAGCTGGAGGCGCAGGTGGCAGAGCTGCAGGCCAAGCTGGGCCCCAgcggcgaggcgggcgcggggctgcgtcgcgacgtggaggagctgggcgggcggctgcgggcCGAGCTGGTGGAGGCACGGGGCCGGGCAGCGCAG  166
+10066    352404  .........A....................                                                                                                                  352375
+7184     68333     ............G.C...AG..........A.......                                                                                                        68370
+2540     490753                                                                                   ..........------..........---..T...A...........CA........C...  490702
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 516109613112
+
+
+  Database: GCA_013399015.1_ASM1339901v1_genomic.fna
+    Posted date:  Jan 7, 2022  8:37 PM
+  Number of letters in database: 1,006,681,283
+  Number of sequences in database:  19,989
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

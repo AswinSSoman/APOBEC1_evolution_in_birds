@@ -1,0 +1,93 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000337975.1_F_cherrug_v1.0_genomic.fna
+           5,863 sequences; 1,174,811,715 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 18794454624
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 139782360872
+
+
+Query= exon_3
+
+Length=544
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_004994820.1 Falco cherrug unplaced genomic scaffold, F_cherrug...  51.8       2e-04
+NW_004994587.1 Falco cherrug unplaced genomic scaffold, F_cherrug...  50.9       5e-04
+NW_004994646.1 Falco cherrug unplaced genomic scaffold, F_cherrug...  49.1       0.002
+
+
+
+Query_3  27       AGCTGGAGGCGCAGGTGGCAGAGCTGCAGGCCAAGCTGGGCCCCAgcggcgaggcgggcgcggggctgcgtcgcgacgtggaggagctgggcgggcggctgcgggcCGAGCTGGTGGAGGCACGGGGCCGGGCAGCGCAGTACGGGGCCGAGGCGCGGGCCGTGCTGCAGCAGGGCGCCGAGGACCTGCGGAGCCGCCTGGCCGCCTACGCCCGCAAGCTGCGCAAGCGCCTGGCCAAGGACGCCGAGGAGCTGCGGAGCCGCCTGGCCGCCgcggccgg  306
+864      462094   ............G.....AG..........A.......                                                                                                                                                                                                                                                    462057
+864      462294   ............G.....AG..........A.......                                                                                                                                                                                                                                                    462257
+631      1195265                                                                        ....AG.......CT....--.T.C..........G.T-...................A..                                                                                                                                                       1195208
+
+Query_3  307      cgaggtgcgggcccgggcggcggcgctgcacgaggggctgccggtgctgcgggcgccgccgcggctggcggcgctgggACAGGCGCTGGGCGAGCAGGGCCGCCGGGTGCAGCGGGGGCTGCGGGAGGCGGTGCAGGAGCTGTGGGCCTCGGTGGACGGCGTCCTGCAGGGGCTCCTGGGCTGGCTG  493
+690      541964                                                                                                                                             .........AG.A.G..G.T.A..G...............T........  541916
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 602585170506
+
+
+  Database: GCF_000337975.1_F_cherrug_v1.0_genomic.fna
+    Posted date:  Oct 26, 2021  6:56 PM
+  Number of letters in database: 1,174,811,715
+  Number of sequences in database:  5,863
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

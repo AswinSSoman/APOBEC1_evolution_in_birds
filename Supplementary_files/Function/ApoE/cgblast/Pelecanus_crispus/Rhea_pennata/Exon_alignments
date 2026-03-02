@@ -1,0 +1,20 @@
+[07;32m[K>exon_3[m[K	
+	
+  
+  APOE_Rhea_pen      1 CGGCCTCATCGCGGAGACCATGGCAGAGCTGGAGGCGCAGGCGGTGGAGCTGCAGGCCCAGCTGGGCCCTGGTGGCGAGGCCAGCGTGGGGCTGCAGCGCGACGTGGAGGAGCTAGGTGGGCGGCTGCGGGCTGAGATGGCGGAGGCACGGGGCCGGGTGGCGCAGTACGGCGCCGAGGCACAGGCCGTGCTGCAGCAGGGCGCTGAGGACCTGCGTGGCCGCCTGGCCGCCTACACCCG    240
+                                                                                                                                                                                                                                                                       
+  extracted_fla      0 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------      0
+  
+  APOE_Rhea_pen    241 CAAGCTACGCAAGCGCCTGGCCAAGGACACCGAGGAGCTGCGGAGCCGCCTGGCCGCCGCCGCCAGCA------------AGGTGCAGGCGCGGGTGGCGGAGCGGGCGGCAGCACTGCGCCAGGGGTTGCCGCCGCTGCGGGCGG----------CCCCTCGGC--TGGCAG-----CGC--TGGGGCAGGTG-CTTGGCGAGCAGGGCCT--CCGGGTG-CAGCAGGGGCTG--CAGG    443
+                                      ||||||||   .|.|.||||.|||||.||..|               ||||||            ||.||.||||||||||||.|||    ||.||||.||                 ..|||||.|||||          |    ||||  ||| ||     |||  |||||  |||| |||.||        |||  ||||||| ||||..||..||  ||.|
+  extracted_fla      1 ---------------CCTGGCCA---GCTCGGAGGGGCTGCAGAAAC---------------CCAGCAGCAACGTCTCGCAGCTGGAGGCGCGggtggagga----gctgcaggac-----------------aAGCTGCAGGCGGAGGAGAGGTAC----CGGCCATGG-AGACCTCCGCCTTGGGG--GGTGCCTTCGC--------CCTCGCCGGGTGCCAGCCTGGCTTGTCCACG    171
+  
+  APOE_Rhea_pen    444 AGGCGGTGC---------AGGAG---------CTGCGGGCCTC---------GCTGGATGGTGCCGTGCAGGGGCTGCGGAGCTGGCTGGCTGCGCTGCTGCCCAACGTGCCGCTGCTGCTCGACGGCCCCAAGCCTTGA----------------------------------------------------------------------------------------------------    556
+                       |..||.|||         .||||         ||||.|.||||         ||||||..|....|||.|||.||||...|.|..|.|.|.||            |||.||.||.||...||..||.||..|||    ||                                                                                                    
+  extracted_fla    172 ACCCGTTGCTTCTCCGTAGGGAGAAGAGCATCCTGCTGTCCTCCAACCGCAAGCTGGAGAGGAAGGTGAAGGAGCTGACCATCCAGATCGATG------------ACGAGCGGCAGCACGTCAGCGACCAGAAG----GACCAGGTGGGNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN    395
+  
+  APOE_Rhea_pen    556 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------    556
+                                                                                                                                                                                                                                  
+  extracted_fla    396 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN    598
+
+

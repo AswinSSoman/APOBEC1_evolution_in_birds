@@ -1,0 +1,32 @@
+[07;32m[K>exon_1[m[K	
+	
+  
+  APOE_Rhea_pen      1 -----------------ATGAA----GCTCTGGGTT--GCGCTGCTGGGAGCCACCCTGCTTGCAG---------------------     43
+                                        ||.||    ||||||||||  |||||||||||||||| .|||||.||.|                     
+  extracted_fla      1 ctcagcTGCACCTAAAAATAAAACGTGCTCTGGGTTCAGCGCTGCTGGGAGCCA-ACTGCTCGCTGTGGCACTGGGGACTGCGTCCC     86
+
+
+[07;32m[K>exon_3[m[K	
+	
+  
+  APOE_Rhea_pen      1 CGGCCTCATCGCGGAGACCATGGCAGAGCTGGAGGCGCAGGCGGTGGAGCTGCAGGCCCAGCTGGGCCCTGGTGGCGAGGCCAGCGTGGGGCTGCAGCGCGACGTGGAGGAGCTAGGTGGGCGGCTGCGGGCTGAGATGGCGGAGGCACGGGGCCGGGTGGCGCAGTACGGCGCCGAGGCACAGGCCGTGCTGCAGCAGGGCGCTGAGGACCTGCGTGGCCGCCTGGCCGCCTACACCCG    240
+                                                                                                                                                                                                                                                                       
+  extracted_fla      0 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------      0
+  
+  APOE_Rhea_pen    241 CAAGCTACGCAAGCGCCTGGCCAAGGACACCGAGGAGCTGCGGAGCCGCCTGGCCGCCGCCGCCAGCAAGGTGCAGGCGCGGGTGGCGGAGCGGGCGGCAGCACTGCGCCAGGGGTTGCCGCCGCTGCGGGCGGCCCCTCGGCTGGCAGCGCTGGGGCAGGTGCTTGGCGAGC----AGGGCCTCCGGGTGCAG-----CAGGG----------GCTGCAGGAGGC---GGTGCAGGAGC    458
+                                                                                                                                                                                          ||||||.|||    ||||||      |||||     |||.|          ||.||.||||||   ||||.||||||
+  extracted_fla      1 -------------------------------------------------------------------------------------------------------------------------------------------------------------------CTTGGCCAGCTCCGAGGGCC------TGCAGAAGCCCAGCGGCAACGTCTCGCAGCTGGAGGCGCgggtggaggagc     71
+  
+  APOE_Rhea_pen    459 TGCGGGCCTCGCTGGATGGTGCCGTGCAGGGGCTGCGGAGCTGGCTGGCTGCGCTGCTGCCCAACGTGCCGCTGCTGCTCGACGGCCCCAAGCCTTGA----------------------------------------------------------------------------------------------------------------------------------------------    556
+                       |||.||.|..||||.|              |||.|.||||                       |.||.|||            |||||         .                                                                                                                                              
+  extracted_fla     72 tgcaggacaaGCTGCA--------------GGCGGAGGAG-----------------------AGGTACCG------------GGCCC---------NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN    253
+  
+  APOE_Rhea_pen    556 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------    556
+                                                                                                                                                                                                                                                                       
+  extracted_fla    254 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN    493
+  
+  APOE_Rhea_pen    556 ---------------------------------------------------------------------------------------------------------    556
+                                                                                                                                
+  extracted_fla    494 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN    598
+
+

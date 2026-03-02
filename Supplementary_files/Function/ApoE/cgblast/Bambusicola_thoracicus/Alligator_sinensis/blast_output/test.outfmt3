@@ -1,0 +1,91 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_002909625.1_Bthov1.0_genomic.fna
+           163,748 sequences; 1,032,295,167 total letters
+
+
+
+Query= exon_1
+
+Length=46
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+PPHD01000755.1 Bambusicola thoracicus isolate RTK389 B.A.C_754, w...  41.0       0.009
+
+
+
+Query_1  17     TGCTGCTCGGAGCCGTGCTGCTGCTGG  43
+754      26296  .......G.....T.............  26322
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 19529605449
+
+
+Query= exon_2
+
+Length=136
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 109947472825
+
+
+Query= exon_3
+
+Length=577
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+PPHD01061109.1 Bambusicola thoracicus isolate RTK389 B.A.C_61108,...  48.2       0.002
+
+
+
+Query_3  352   GCCGCTGCGCGAGAAGGGGCAGCAGCGCCTGGCGGCCCTGCAGCAG  397
+61108    3394  ............TGT..T.G......A.AA................  3349
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 560861562534
+
+
+  Database: GCA_002909625.1_Bthov1.0_genomic.fna
+    Posted date:  Nov 16, 2021  6:14 PM
+  Number of letters in database: 1,032,295,167
+  Number of sequences in database:  163,748
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

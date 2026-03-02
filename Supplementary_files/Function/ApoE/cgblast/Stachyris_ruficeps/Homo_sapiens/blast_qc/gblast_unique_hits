@@ -1,0 +1,2 @@
+Query   Subject         %_Query_covered_per_hsp  Query_length  Alignment_length  Q_start  Q_end  S_start  S_end   E_value   Bit_score
+exon_3  VZDJ01000130.1  9                        718           65                499      563    308272   308336  1.25e-06  59.9

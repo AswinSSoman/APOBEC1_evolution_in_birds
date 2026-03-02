@@ -1,0 +1,4 @@
+[32m3[0m
+[32mQuery_1 10 -> same_location[0m
+[32mQuery_2 23 -> same_location[0m
+[31mQuery_3 17	17	2 -> not_same_location[0m

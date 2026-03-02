@@ -1,0 +1,95 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_019238085.1_USGS_WTPT01_genomic.fna
+           7,343 sequences; 1,016,020,572 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17269104118
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 120881107375
+
+
+Query= exon_3
+
+Length=556
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_024962269.1 Lagopus leucura isolate 7727_CA_CO unplaced genomi...  47.3       0.006
+NW_024967805.1 Lagopus leucura isolate 7727_CA_CO unplaced genomi...  46.4       0.006
+NW_024967071.1 Lagopus leucura isolate 7727_CA_CO unplaced genomi...  46.4       0.006
+NW_024962264.1 Lagopus leucura isolate 7727_CA_CO unplaced genomi...  46.4       0.006
+
+
+
+Query_3  24        CAGAGCTGGAGGCGCAGGCGGTGGAGCTGCAGGCCCAGCTGG-GCCCTGGTGGCGAGGCCAGCGTGGGGCTGCAGCGCGACGTGGAGGAGCTAGGTGGGCGGCTGCGGGCTGAGATGGCGGAGGCACGGGGCCGGGTGGCGCAGTACGGCGCCGAGGCACAGGCCGTGCTGCAGCAGGGCGCTGAGGACCTGCGTGGCCGCCTGGCCGCCTACACCCGCAAGCTACGCAAGCGCCTGGCCAAGGACACCGAGGAGCTGCGGAGCCGCCTGGCC--GCCGC  300
+19       10149851  ...........AT....CT..A.....A....---.......T..A....CT.-.....GGC.....A..G.......                                                                                                                                                                                                            10149924
+14       61704914                                                                                                                                                                                                                                                             .............A........CG..A..  61704942
+
+Query_3  301       CGCCAGCAAGGTGCAGGCGCGGG-TGGCGGAGCGGGCGGCAGCACTGCGCCAGGGGTTGCCGCCGCTGCGGGCGGCCCCTCGGCTGGCAGCGCTGGGGCAGGTGCTTGGCGAGCAGGGCCTCCG-GGTGCAGCAGGGGCTGCAGGAGGCGGTGCAGG  455
+5555     871                                                                                                                        ..........AA............C......C.-.......T..  829
+4821     749                                                                                                                        ..........AA............C......C.-.......T..  707
+14       61704943  A.-....-..CA.......G...T.....AG.....                                                                                                                           61704976
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 533291292975
+
+
+  Database: GCF_019238085.1_USGS_WTPT01_genomic.fna
+    Posted date:  Oct 28, 2021  6:44 PM
+  Number of letters in database: 1,016,020,572
+  Number of sequences in database:  7,343
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

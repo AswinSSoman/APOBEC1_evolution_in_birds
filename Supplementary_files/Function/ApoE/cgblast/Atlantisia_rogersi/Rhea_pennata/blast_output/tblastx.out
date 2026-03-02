@@ -1,0 +1,4 @@
+Query	Subject	Query_length	Alignment_length	Q_start	Q_end	S_start	S_end	E_value	Bit_score	Raw_score	%_Query_covered_per_sub	%_Query_covered_per_hsp	%_ident	Matches	Mismatches	Gaps	Strand	Query_sequence	Subject_sequence
+
+exon_3	VZUJ01068391.1	556	25	126	200	518	592	0.003	34.1	68	21	4	48.000	12	13	0	N/A	CGLRWRRHGAGWRSTAPRHRPCCSR	CGTRWERGSAPTRDVGARERPCSAR
+exon_3	VZUJ01068391.1	556	19	183	239	657	713	0.003	28.6	56	21	3	47.368	9	10	0	N/A	RPCCSRALRTCVAAWPPTP	RLCDTRGARSALPVWPPTP

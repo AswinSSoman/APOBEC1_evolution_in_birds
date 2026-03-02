@@ -1,0 +1,100 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_001700915.1_Passer_domesticus-1.0_genomic.fna
+           2,301 sequences; 1,042,720,703 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17725234909
+
+
+Query= exon_2
+
+Length=148
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM004539.1 Passer domesticus isolate 8887266 chromosome 12, whole...  44.6       0.005
+
+
+
+Query_2  68        GGAGTACGTGGCCCAGCTGGGGCAGGCGG  96
+11       10657048  .......C....A................  10657076
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 124075822906
+
+
+Query= exon_3
+
+Length=544
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+MBAE01000325.1 Passer domesticus isolate 8887266 scaffold00333, w...  48.2       0.002
+CM004552.1 Passer domesticus isolate 8887266 chromosome 26, whole...  48.2       0.002
+CM004537.1 Passer domesticus isolate 8887266 chromosome 10, whole...  47.3       0.006
+CM004535.1 Passer domesticus isolate 8887266 chromosome 8, whole ...  46.4       0.006
+
+
+
+Query_3  11        GCAGAGACCATGGAGGAGCTGGAGGCGCAGGTGGCAGAGCTGCAGGCCAAGCTGGGCCCCAgcggcgaggcgggcgcggggctgcgtcgcgacgtggaggagctgggcgggcggctgcgggcCGAGCTGGTGGAGGCACGGGGCCGGGCAGCGCAGTACGGGGCCGAGGCGCGGGCCGTGCTGCAGCAGGGCGCCGAGGACCTGCGGAGCCGCCTGGCCGCCTACGCCCGCAAGCTGCGCAAGCGCCTGGCCAAGGACGCCGAGGAGCTGCGGAGCCGCC  290
+85       180716                                                                                                                                                                                                                                                                       ...C.................  180736
+7        1004841   ......-...-.C.............A.....A....G......                                                                                                                                                                                                                                              1004882
+
+Query_3  291       TGGCCGCCgcggccggcgaggtgcgggcccgggcggcgg-cgctgcacgaggggctgccggtgctgcgggcgccgccgcggctggcggcgctgggACAGGCGCTG---GGCGAGCAGGGCCGCCGGGTGCAGCGGGGGCTGCGGGAGGCGGTGCAG  442
+85       180737    G.........                                                                                                                                                    180746
+25       711167                                                                                       ..T..G..A...C.C.......---............A.GA........                          711212
+9        17537022                              ......A....G......TG...C......G..-..-.A.T...TG...----....A..A....CTG.T..A....CAG.C......C..G.A.AT..C.G.....CA..G.............G..  17537143
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 534879127836
+
+
+  Database: GCA_001700915.1_Passer_domesticus-1.0_genomic.fna
+    Posted date:  Sep 20, 2020  8:52 PM
+  Number of letters in database: 1,042,720,703
+  Number of sequences in database:  2,301
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

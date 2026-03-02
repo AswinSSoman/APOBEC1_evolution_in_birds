@@ -1,0 +1,98 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_023343835.1_bLagMut1_primary_genomic.fna
+           165 sequences; 1,026,771,810 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17455047840
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 122185275975
+
+
+Query= exon_3
+
+Length=556
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_064453.1 Lagopus muta isolate bLagMut1 chromosome 21, bLagMut1...  51.8       1e-04
+NC_064442.1 Lagopus muta isolate bLagMut1 chromosome 10, bLagMut1...  47.3       0.006
+NC_064447.1 Lagopus muta isolate bLagMut1 chromosome 15, bLagMut1...  46.4       0.006
+NC_064439.1 Lagopus muta isolate bLagMut1 chromosome 7, bLagMut1 ...  46.4       0.006
+NC_064434.1 Lagopus muta isolate bLagMut1 chromosome 2, bLagMut1 ...  46.4       0.006
+
+
+
+Query_3  24        CAGAGCTGGAGGCGCAGGCGGTGGAGCTGCAGGCCCAGCTGG-GCCCTGGTGGCGAGGCCAGCGTGGGGCTGCAGCGCGACGTGGAGGAGCTAGGTGGGCGGCTGCGGGCTGAGATGGCGGAGGCACGGGGCCGGGTGGCGCAGTACGGCGCCGAGGCACAGGCCGTGCTGCAGCAGGGCGCTGAGGACCTGCGTGGCCGCCTGGCCGCCTACACCCGCAAGCTACGCAAGCGCCTGGCCAAGGACACCGAGGAGCTGCGGAGCCGCCTGGCCGCCGCCG  302
+12       7552090   ...........AT....CT..A.....A....---.......T..A....CT.-.....AGC.....A..G.......                                                                                                                                                                                                            7552017
+
+Query_3  303       CCAGCAAGGTGCAGGCGCGGGTGGCGGAGCGGGCGGCAGCACTGCGCCAGGGGTTGCCGCCGCTGCGGGCGGCCCCTCGGCTGGCAGCGCTGGGGCAGGTGCTTGGCGAGCAGGGCCTCCG-GG-TGCAGCAGGGGCTGCAGGA---GGCGGTGCAGGAGCTGCGGGCCTCGCTGGATGGTGCCGTGCAGGGGCTG-CGGAGCTGGC  503
+23       1678620                                                                                                 ...T.....G..GCT......G..G.A-..-G..T..............----...--......G.....A..---G....T.A..-..--..T........TA.C.......  1678718
+17       2391922                                                                                                                  .......GG.-..C.....G.............---..G.C.....                                                    2391963
+9        49211058                                                                                                             ........A..G..-.C-G.....G.C..........GCG..G.C........GG....--..-..A...GC.G.AA.A....C..G..-...G..C...  49210965
+1        3551484                                                                                                                 ..........AA..-..........C......C.----.......T..                                                   3551442
+1        3556528                                                                                                                 ..........AA..-..........C......C.----.......T..                                                   3556486
+1        3561505                                                                                                                 ..........AA..-..........C......C.----.......T..                                                   3561463
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 539052514875
+
+
+  Database: GCF_023343835.1_bLagMut1_primary_genomic.fna
+    Posted date:  Nov 25, 2022  7:40 PM
+  Number of letters in database: 1,026,771,810
+  Number of sequences in database:  165
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

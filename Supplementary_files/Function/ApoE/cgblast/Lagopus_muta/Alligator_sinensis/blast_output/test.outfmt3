@@ -1,0 +1,91 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_023343835.1_bLagMut1_primary_genomic.fna
+           165 sequences; 1,026,771,810 total letters
+
+
+
+Query= exon_1
+
+Length=46
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_064458.1 Lagopus muta isolate bLagMut1 chromosome 26, bLagMut1...  44.6       7e-04
+
+
+
+Query_1  18       GCTGCTCGGAGCCGTGCTGCTGCTGGCGG  46
+28       2738910  ..G....T.....................  2738882
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 19508579745
+
+
+Query= exon_2
+
+Length=136
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 109864071675
+
+
+Query= exon_3
+
+Length=577
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_064433.1 Lagopus muta isolate bLagMut1 chromosome 1, bLagMut1 ...  48.2       0.002
+
+
+
+Query_3  352        GCCGCTGCGCGAGAAGGGGCAGCAGCGCCTGGCGGCCCTGCAGCAG  397
+0        194415315  ............CGT..T.G......A.AA................  194415270
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 560614615470
+
+
+  Database: GCF_023343835.1_bLagMut1_primary_genomic.fna
+    Posted date:  Nov 25, 2022  7:40 PM
+  Number of letters in database: 1,026,771,810
+  Number of sequences in database:  165
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

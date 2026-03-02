@@ -1,0 +1,4 @@
+Location        #_hits  %_query_cov  %_identity  Lowest_evalue
+MBAE01002253.1  1       12           25.926      6.42e-11
+MBAE01001215.1  1       6.33333      29.2517     4.93e-06
+CM004528.1      1       4.33333      31.313      7.32e-04

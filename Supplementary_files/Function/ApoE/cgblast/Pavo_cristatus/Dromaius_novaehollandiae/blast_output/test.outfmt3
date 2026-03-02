@@ -1,0 +1,112 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_005519975.1_AIIM_Pcri_1.0_genomic.fna
+           179,332 sequences; 1,027,510,962 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17388421610
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 121654929746
+
+
+Query= exon_3
+
+Length=544
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+QZWQ01001274.1 Pavo cristatus isolate SKPea2016_SI scaffold1235_l...  53.6       4e-05
+QZWQ01000021.1 Pavo cristatus isolate SKPea2016_SI scaffold16_len...  53.6       4e-05
+QZWQ01001296.1 Pavo cristatus isolate SKPea2016_SI scaffold1287_l...  52.7       1e-04
+QZWQ01179077.1 Pavo cristatus isolate SKPea2016_SI scaffold261_le...  50.9       5e-04
+QZWQ01001721.1 Pavo cristatus isolate SKPea2016_SI scaffold1792_l...  50.9       5e-04
+QZWQ01179170.1 Pavo cristatus isolate SKPea2016_SI scaffold1985_l...  49.1       0.002
+QZWQ01007866.1 Pavo cristatus isolate SKPea2016_SI scaffold8034_l...  48.2       0.002
+QZWQ01002417.1 Pavo cristatus isolate SKPea2016_SI scaffold2590_l...  48.2       0.002
+QZWQ01001577.1 Pavo cristatus isolate SKPea2016_SI scaffold1602_l...  47.3       0.006
+QZWQ01000929.1 Pavo cristatus isolate SKPea2016_SI scaffold910_le...  47.3       0.006
+QZWQ01002902.1 Pavo cristatus isolate SKPea2016_SI scaffold3093_l...  46.4       0.006
+QZWQ01000134.1 Pavo cristatus isolate SKPea2016_SI scaffold149_le...  46.4       0.006
+
+
+
+Query_3  18      CCATGGAGGAG---CTGGAGGCGCAGGTGGCAGAGCTGCAGGCCAAGCTGGGCCCCAgcggcgaggcgggcgcgg---ggctgcgtcgcga-cgtggaggagctgggcgggcggctgcgggcCGAGCTGGTGGAGGCACGGGGCCGGGCAGCGCAGTACGGGGCCGAGGCGCGGGCCGTGCTGCAGCAGGGCGCCGAGGACCTGCGGAGCCGCCTGGCCGCCTACGCCCGCAAGCTGCGCAAGCGCCTGGCCAAGGACGCCGAGGAGCTGCGGAGCCGCC  290
+1720     139714                                                             ....G......G....CCC...C..C.....GG..C.......--....C..G...--...C......C..--.C..TG.C..............                                                                                                                                139802
+7865     9001                                                                                                                                                                                                                                                                            ......--........  9014
+2416     78433                                                                                                                                                                                                                                                                           ......--........  78446
+2901     53443                                                                                                                 ...........---......A...........CG.....G..C...                                                                                                                              53485
+133      433465  ....C......ATC.......A....CG..TG................A..                                                                                                                                                                                                                                       433515
+
+Query_3  291     TGGCC--GCCgcggccggcgaggtgc--gggcccgggcggc--ggcgctgcacgaggggctgcc--ggtgctgcggg-cgccgcc-gcg-gctggcggc----gctgggACAGGCGCTGGGCGAGCAGG-G---CCGCCG-GGTGCAGCGGGGGCTGCGGGAGGCGGTGCAGGAGC  446
+1273     623159                                                                              .-.......C...-..-......----.GG.A..GC...........G...---.---.G....-..G..C.A...----...........           623087
+20       508724                                                                       ..G.....-A..G..G-...-....-...-----...........T..-.T...-..C..-.---.T.AG.-............                         508791
+1295     13142                                                                                             ..G......----......C.G....GC.C.G.C.GC..-.---...G..-.C...---.........A..C..A....G......  13069
+179076   296225                  ....C.....CG............T--.CG.AG..GG.C..C.G....CG...........G...G..T-.G.C..A.AG...-----..C.CC.C....GGCT...G..T.C-.GAA......-A..................                  296358
+179169   53474                                      ......--...C.G.....G..A.AG--.--..C.--.....-..G...T-.G.-.T...G...TGGC........T...........T.A...C.---G..G..-..                                   53382
+7865     9015    .....CG..T.G...T.T..-T.C..--...G...C.G...CG.......TG.....C......--.C..----.C.-...G...-TG.-...C..A..                                                                               9101
+2416     78447   .....CG..T.G...T.T..-T.C..--...G...C.G...CG.......TG.....C......--.C..----.C.-...G...-TG.-...C..A..                                                                               78533
+1576     159285                                                                 .--.C......T.C-.......-.AC-.--.....-----..CA....T..A..C.......GC..------..G.A-.CC..G....C...G...........C.GC....   159193
+928      569456                                                                                                                          ........C-.---.G....A..G..C..A.....G.............         569500
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 524261206710
+
+
+  Database: GCA_005519975.1_AIIM_Pcri_1.0_genomic.fna
+    Posted date:  Oct 17, 2020  2:53 PM
+  Number of letters in database: 1,027,510,962
+  Number of sequences in database:  179,332
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

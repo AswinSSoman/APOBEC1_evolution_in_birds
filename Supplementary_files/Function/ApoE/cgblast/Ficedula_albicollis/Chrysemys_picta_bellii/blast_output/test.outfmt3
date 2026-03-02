@@ -1,0 +1,86 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000247815.1_FicAlb1.5_genomic.fna
+           21,428 sequences; 1,118,343,587 total letters
+
+
+
+Query= exon_1
+
+Length=181
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 169893770600
+
+
+Query= exon_2
+
+Length=151
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 136362105350
+
+
+Query= exon_3
+
+Length=634
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_021695.1 Ficedula albicollis isolate OC2 chromosome 24, FicAlb...  46.4       0.007
+
+
+
+Query_3  47      GAGCTGCGGACCCGGTTCGGCCCCTACGCCCAGGAGGCCCAGCAGCGCCT  96
+34       914726  .........CG.G..C..A..................TG...G.CG....  914677
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 673960629357
+
+
+  Database: GCF_000247815.1_FicAlb1.5_genomic.fna
+    Posted date:  Oct 15, 2020  8:14 PM
+  Number of letters in database: 1,118,343,587
+  Number of sequences in database:  21,428
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

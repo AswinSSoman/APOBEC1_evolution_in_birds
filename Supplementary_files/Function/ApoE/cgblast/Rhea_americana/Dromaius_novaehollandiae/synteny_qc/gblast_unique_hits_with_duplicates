@@ -1,0 +1,6 @@
+Query        Subject         %_Query_covered_per_hsp  Query_length  Alignment_length  Q_start  Q_end  S_start  S_end    E_value    Bit_score
+exon_1       PTEV01000541.1  95                       43            41                1        41     138669   138709   9.27e-09   61.7
+exon_2       PTEV01000541.1  100                      148           148               1        148    139203   139350   2.93e-44   182
+exon_3       PTEV01000541.1  100                      544           556               1        544    139569   140124   2.76e-172  609
+exon_3_dup1  PTEV01000026.1  22                       544           119               322      440    5626481  5626372  3.62e-06   57.2
+exon_3_dup2  PTEV01000087.1  13                       544           79                278      349    2175670  2175595  0.002      49.1

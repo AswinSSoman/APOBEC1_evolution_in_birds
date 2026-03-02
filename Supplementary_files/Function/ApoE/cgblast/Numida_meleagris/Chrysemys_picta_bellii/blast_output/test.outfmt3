@@ -1,0 +1,91 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_002078875.1_NumMel1.0_genomic.fna
+           2,466 sequences; 1,043,264,150 total letters
+
+
+
+Query= exon_1
+
+Length=181
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_034427.1 Numida meleagris isolate 19003 breed g44 Domestic lin...  46.4       0.002
+
+
+
+Query_1  105       CCTTCCTTCTCTCCCTGCAGGCAAAGCTGC  134
+23       10374112  ............T.........C.......  10374141
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 158565280672
+
+
+Query= exon_2
+
+Length=151
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 127269501592
+
+
+Query= exon_3
+
+Length=634
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_034409.1 Numida meleagris isolate 19003 breed g44 Domestic lin...  50.9       6e-04
+
+
+
+Query_3  419        CAGGCCATGGGTGAGCAGAGCCAGAAG-GTGCGCGAG  454
+0        104041220  ............T..............C......A..  104041184
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 629042185512
+
+
+  Database: GCF_002078875.1_NumMel1.0_genomic.fna
+    Posted date:  Dec 17, 2021  7:20 PM
+  Number of letters in database: 1,043,264,150
+  Number of sequences in database:  2,466
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

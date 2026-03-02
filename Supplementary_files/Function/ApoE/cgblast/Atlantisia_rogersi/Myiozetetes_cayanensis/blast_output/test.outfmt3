@@ -1,0 +1,97 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_013401215.1_ASM1340121v1_genomic.fna
+           159,311 sequences; 1,168,394,043 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 18625482336
+
+
+Query= exon_2
+
+Length=145
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VZUJ01048756.1 Atlantisia rogersi isolate OUT-0055 NODE_24267_len...  46.4       0.001
+
+
+
+Query_2  24   CCCGCGccccccaccccacctcggccccccTCGCGGGTCTGG  65
+48755    414  .....A.......G...C..-..T......C...........  374
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 134997786784
+
+
+Query= exon_3
+
+Length=253
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VZUJ01023370.1 Atlantisia rogersi isolate OUT-0055 NODE_99100_len...  48.2       8e-04
+VZUJ01053461.1 Atlantisia rogersi isolate OUT-0055 NODE_40959_len...  47.3       0.003
+VZUJ01039964.1 Atlantisia rogersi isolate OUT-0055 NODE_76589_len...  45.5       0.010
+VZUJ01013003.1 Atlantisia rogersi isolate OUT-0055 NODE_117042_le...  44.6       0.010
+
+
+
+Query_3  208   GGCCCTCTGGGGGATCCCC-GAGACCCCCTGGGAC-CCCCAGGA  249
+23369    601             ....C....A...............-........  633
+53460    2694  ..A........--.....T-...............-...       2660
+39963    464     ...A.G.T....C....-.G.............-.....     500
+13002    206               ..C....-...............C........  176
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 259486080999
+
+
+  Database: GCA_013401215.1_ASM1340121v1_genomic.fna
+    Posted date:  Dec 10, 2021  4:53 PM
+  Number of letters in database: 1,168,394,043
+  Number of sequences in database:  159,311
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

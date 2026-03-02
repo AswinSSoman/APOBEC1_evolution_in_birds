@@ -1,0 +1,3 @@
+Query	Subject	Query_length	Alignment_length	Q_start	Q_end	S_start	S_end	E_value	Bit_score	Raw_score	%_Query_covered_per_sub	%_Query_covered_per_hsp	%_ident	Matches	Mismatches	Gaps	Strand	Query_sequence	Subject_sequence
+
+exon_3	KL308150.1	724	79	428	192	9340	9104	3.04e-04	48.7	100	33	33	35.443	28	51	0	N/A	AEAGRPQRLGWQCAGDLAPPEAPGAHGWHSHRARRPRVPLPCTQLGASADPRHPASSACASCAGVWRAAPVSPLCSGPA	AKGSQPGGLGWPCSGHEADPPAP*AAGRRGHLFSPPAPR*PGTSLQGCARCNHSASNPQNTMWGESILSDLSELCFSPA

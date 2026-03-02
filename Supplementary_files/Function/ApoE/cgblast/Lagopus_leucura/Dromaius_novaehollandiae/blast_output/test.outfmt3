@@ -1,0 +1,107 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_019238085.1_USGS_WTPT01_genomic.fna
+           7,343 sequences; 1,016,020,572 total letters
+
+
+
+Query= exon_1
+
+Length=43
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_024962275.1 Lagopus leucura isolate 7727_CA_CO unplaced genomi...  41.0       0.008
+
+
+
+Query_1  13       GTTGCGCTGCTGGGAGCTGCCCTGCTT  39
+25       4417883  ....A.................A....  4417857
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17269104118
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 120881107375
+
+
+Query= exon_3
+
+Length=544
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_024968254.1 Lagopus leucura isolate 7727_CA_CO unplaced genomi...  57.2       3e-06
+NW_024962269.1 Lagopus leucura isolate 7727_CA_CO unplaced genomi...  55.4       1e-05
+NW_024962290.1 Lagopus leucura isolate 7727_CA_CO unplaced genomi...  52.7       1e-04
+NW_024962289.1 Lagopus leucura isolate 7727_CA_CO unplaced genomi...  49.1       0.002
+NW_024962275.1 Lagopus leucura isolate 7727_CA_CO unplaced genomi...  47.3       0.006
+NW_024967080.1 Lagopus leucura isolate 7727_CA_CO unplaced genomi...  46.4       0.006
+
+
+
+Query_3  142      GGAGGCACGGGGCCGGGCAGCG-CAGTACGGGGCCGAGGCGCGGGCCGTGCTGCAGCAGGGCGCCGAGGACCTGCGGAGCCGCCTGGCCGCCTACGCCCGCAAGCTGCGCAAGCGCCTGGCCAAGGACGCCGAGGAGCTGCGGAGCCGCCTGGCC--GCCgcggccggcgaggtgcgggcccgggcggc--ggcgctgcacgagggg----ctgccggtgctgcgggcgccgcc-gcggctggcggc----gctgggACAGGCGCTGGGCGAGCAGGGCC  407
+6004     21599                                                                                                                                          ......--.............CG..T.G...T.T..-T.......G...C.G...CG.......TG.....C.----......C..----.T....G...-TG....C.....                                   21499
+19       1476491                                                                                                                                                                                         ......--...C.G..--......AGAG.G..G.CG..G......AG...T-.G......G...TGGC........T...........T.-.A...G  1476401
+40       3950333                                                                                                                                                                                                                                                                                      ....  3950330
+39       2812797                                                                                                                                                                                                                                    ........C.....-......----.GG.A..GC...........G...--..G  2812843
+25       2559761  ......G.C.............A...---..A.......A........G..                                                                                                                                                                                                                                       2559808
+4830     16313                                                                                                                                                                                                                                                                        ...........T..G..AG.  16294
+
+Query_3  408      GCCGGGTGCAGCGGGGGCTGCGGGAGGCGGTGCAGGAGCTG  448
+19       1476400  ..G.C.G......A.----.....C.....-..C....     1476368
+40       3950329  ......G..............C.....G....           3950298
+39       2812844  ......G..C.A...----.....C.....             2812869
+4830     16293    TG....A..T.....A.........---.C...G.......  16256
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 521101777707
+
+
+  Database: GCF_019238085.1_USGS_WTPT01_genomic.fna
+    Posted date:  Oct 28, 2021  6:44 PM
+  Number of letters in database: 1,016,020,572
+  Number of sequences in database:  7,343
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

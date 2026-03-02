@@ -1,0 +1,39 @@
+########################################
+# Program: needle
+# Rundate: Tue 19 Nov 2024 00:14:32
+# Commandline: needle
+#    -asequence APOE_Alligator_sinensis_exon_1.fa
+#    -bsequence extracted_flanking_region_exon_1.fa
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile pairwise_exon_1.aln
+#    -awidth3 10000
+# Align_format: srspair
+# Report_file: pairwise_exon_1.aln
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: APOE_Alligator_sinensis_exon_1
+# 2: extracted_flanking_region_exon_1
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 91
+# Identity:      37/91 (40.7%)
+# Similarity:    37/91 (40.7%)
+# Gaps:          48/91 (52.7%)
+# Score: 130.0
+# 
+#
+#=======================================
+
+APOE_Alligato      1 ATGAGGGTCTG----GACCG--------------------TGCTGCTCGGAGCCGTGCTGCTGCTGGCGG---------------------     46
+                        .|||.|||    ||.||                    ||||||||.|||||||||||||||.|.|||                     
+extracted_fla      1 ---CGGGGCTGCCCTGAGCGCATCCTCgccccgctgctgctgctgctctgagccgTGCTGCTGCCGCCGGGAGAGCTTTAAATAAGTCCGG     88
+
+
+#---------------------------------------
+#---------------------------------------

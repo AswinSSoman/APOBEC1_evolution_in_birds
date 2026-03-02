@@ -1,0 +1,40 @@
+[07;32m[K>exon_1[m[K	[03;04;32m[KLength:207[m[K | [03;04;32m[KIdentity:104/207(50.2%)[m[K | [03;04;32m[KSimilarity:104/207(50.2%)[m[K | [03;04;32m[KGaps:76/207(36.7%)[m[K | [03;04;32m[KScore:245.0[m[K
+	
+  
+  APOE_Dromaius      1 --------------------ATGA-AGCTCTGGGTTGCGCTGCTGGGAGCTGCCCTGCTT----GCGG------------------     43
+                                           .||| |||||||||||||.|||||||||||.|..||| ||    |.||                  
+  extracted_fla      1 GCCTCCCTGGGGCAGGAGATTTGAGAGCTCTGGGTTGCACTGCTGGGAGCGGTTCTG-TTCAGAGTGGTGAGCAGGGGGAGAGGTG     85
+
+
+[07;32m[K>exon_2[m[K	[03;04;32m[KLength:207[m[K | [03;04;32m[KIdentity:104/207(50.2%)[m[K | [03;04;32m[KSimilarity:104/207(50.2%)[m[K | [03;04;32m[KGaps:76/207(36.7%)[m[K | [03;04;32m[KScore:245.0[m[K
+	
+  
+  APOE_Dromaius      1 -----GC----TGCAGGGCTGAGCAGGGCCCCG-AGGAGCCGC----GGGCCGGGTGGGAAGCGGCCGTCGA--------CAGCTTCTGGGAGTAC-GTG------GCCCAG------CTGGGGCAGGCGGTGGAGAACGGCACCGCACGCGTGAAGAGC--------TCC--GAG------ATCGGC-CGCCA-------GCTCGA    148
+                            ||    |||.|.|||||||||..||.|| |||||||.|    |..||            .||.||||        |||||.|  |..||.| |||      ||..||      |||||||||||||||.||||.||||.|.|..||.||||||||        |.|  |||      |||.|| .|.||       |||   
+  extracted_fla      1 GCAGGGCTCAGTGCCGTGCTGAGCAGTTCCACGCAggagcctcctctgctcc------------accATCGAACTTGCATCAGCTGC--GCCGTGCGGTGAAACAAGCTGAGCTTATCCTGGGGCAGGCGGTGCAGAAAGGCAGCTCTGGCCTGAAGAGCATAAGAATTGCATGAGGAACATATCTGCAGGGCACAGAAGGGCT---    190
+
+
+[07;32m[K>exon_3[m[K	[03;04;32m[KLength:207[m[K | [03;04;32m[KIdentity:104/207(50.2%)[m[K | [03;04;32m[KSimilarity:104/207(50.2%)[m[K | [03;04;32m[KGaps:76/207(36.7%)[m[K | [03;04;32m[KScore:245.0[m[K
+	
+  
+  APOE_Dromaius      1 CGGCCTCATCGCAGAGACCATGGAGGAGCTGGAGGCGCAGGTGGCAGAGCTGCAGGCCAAGCTGGGCCCCAGCGGCGAGGCGGGCGCGGGGCTGCGTCGCGACGTGGAGGAGCTGGGCGGGCGGCTGCGGGCCGAGCTGGTGGAGGCACGGGGCCGGGCAGCGCAGTACGGGGCCGAGGCGCGGGCCGTGCTGCAGCAGGGCGCCGAGGACCTGCGGAGCCGCCTGGCCGCCTACGCCCG    240
+                                                                                                                                                                                                                                                                       
+  extracted_fla      0 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------      0
+  
+  APOE_Dromaius    241 CAAGCTGCGCAAGCGCCTGGCCAAGGACGCCGAGGAGCTGCGGAGCCGCCTGGCCGCCGCGGCCGGCGAGGTGCGGGCCCGGGCGGCGGCGCTGCACGAGGGGCTGCCGGTGCTGCGGGCGCCGCCGCGGCTGGCGGCGCTG-GGACAGGCGCTGG---GCGAGCAGGGCCGCCGGGTGCAGCGGGGGCTGCGGGAGGCGGTGCAGGAGCTGTGGGCCTCGGTGGACGGCGTCCTGCAGG    476
+                                      ||||||||   .|.||||||.|||||.|||  .||..||.||..||.|..|| ||.||..|||.||||.||.||.||||||.||...|||||.|                             ||.| |||.|||..|.||   .|||||    ||.||    ||.||.||                   ||.|||||                           
+  extracted_fla      1 ---------------CCTGGCCA---GCTCCGAGGGGCTGCAGAG--ACCCAGCAGCAACGTCTCGC-AGCTGGAGGCGCgggtggaggagctgcaggacaagctgcag-----------------------------gcagaggagaggtaCCGGCCACCGAGC----CCCCC----GCCGCCGG-------------------GGTGCTGT---------------------------    136
+  
+  APOE_Dromaius    477 GGCTCCTGGGCTGGCTGACGATGCTGCTGCCCAGCTCCCCAGCACTGCGCGACGCCCCCAAGCCTTGA----------------------------------------------------------------------------------------------------------------------------------------------------------------------------    544
+                         |.|||        ||.||.|       .|||||.||                        .||||.                                                                                                                                                                            
+  extracted_fla    137 --CACCT--------TGCCGGT-------ACCAGCCCC------------------------GCTTGCCNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN    335
+  
+  APOE_Dromaius    544 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------    544
+                                                                                                                                                                                                                                                                       
+  extracted_fla    336 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN    575
+  
+  APOE_Dromaius    544 -----------    544
+                                  
+  extracted_fla    576 NNNNNNNNNNN    586
+
+

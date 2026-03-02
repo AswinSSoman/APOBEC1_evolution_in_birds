@@ -1,0 +1,95 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_013396635.1_ASM1339663v1_genomic.fna
+           12,091 sequences; 1,027,970,763 total letters
+
+
+
+Query= exon_1
+
+Length=46
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+WBMW01001857.1 Penelope pileata isolate B10K-DU-001-08 scaffold33...  42.8       0.003
+WBMW01000471.1 Penelope pileata isolate B10K-DU-001-08 scaffold10...  41.0       0.009
+WBMW01000147.1 Penelope pileata isolate B10K-DU-001-08 scaffold13...  41.0       0.009
+
+
+
+Query_1  13       ACCGTGCTGCTCGGAG-CCGTGCTGCTGCTGGCG  45
+1856     238441   ................-.GC...C.....G....  238409
+470      1034974  ...C......C.....-.T.G............   1035005
+146      1077208     ........T....A...............    1077180
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 19525241814
+
+
+Query= exon_2
+
+Length=136
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 109955353268
+
+
+Query= exon_3
+
+Length=577
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+WBMW01003731.1 Penelope pileata isolate B10K-DU-001-08 scaffold40...  48.2       0.002
+
+
+
+Query_3  352   GCCGCTGCGCGAGAAGGGGCAGCAGCGCCTGGCGGCCCTGCAGCAG  397
+3730     2785  ............CGT..T.G......A.AA................  2740
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 561067384332
+
+
+  Database: GCA_013396635.1_ASM1339663v1_genomic.fna
+    Posted date:  Oct 17, 2020  11:44 AM
+  Number of letters in database: 1,027,970,763
+  Number of sequences in database:  12,091
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

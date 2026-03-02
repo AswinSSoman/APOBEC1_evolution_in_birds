@@ -1,0 +1,92 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000146605.3_Turkey_5.1_genomic.fna
+           185,175 sequences; 1,115,474,681 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17767599296
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 132102448114
+
+
+Query= exon_3
+
+Length=544
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_015036.2 Meleagris gallopavo isolate NT-WF06-2002-E0010 breed ...  53.6       4e-05
+NW_011215887.1 Meleagris gallopavo isolate NT-WF06-2002-E0010 bre...  48.2       0.002
+NC_015038.2 Meleagris gallopavo isolate NT-WF06-2002-E0010 breed ...  48.2       0.002
+
+
+
+Query_3  22       GGAGGAGCTGGAGGCGCAGGTGGCAGAGCTGCAGGCCAAGCTGGGCCCCAgcgg-cgaggcgggcgcgg----ggctgcgtcgcgacgtggaggagctgggcgggcggctgcgggcCGAGCTGGTGGAGGCACGGGGCCGGGCAGCGCAGTACGGGGCCGAGGCGCGGGCCGTGCTGCAGCAGGGCGCCGAGGACCTGCGGAGCCGCCTGGCCGCCTACGCCCGCAAGCTGCGCAAGCGCCTGGCCAAGGACGCCGAGGAGCTGCGGAGCCGCCTGGCCG  296
+9119     5176245                               .............-.A......T..C.....-A.......GATC.T......G.GC..............C..                                                                                                                                                                                    5176175
+122822   1211     .................T.CA...T...........                                                                                                                                                                                                                                                      1246
+
+Query_3  297      CCgcggccggcgaggtgcgggcccgggcggcggcgctgcacgaggggctgccggtgctgcgggcgccgccgcggctggcggcgctgggACAGGCGCTGGGCGAGCAGGGCCGCCGGGTGCAGCGGGGGCTGCGGGAGGCGGTG  439
+9312     3550346                                                                                                             ..........G..G...........C.....G....  3550381
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 569293673328
+
+
+  Database: GCF_000146605.3_Turkey_5.1_genomic.fna
+    Posted date:  Dec 17, 2021  7:20 PM
+  Number of letters in database: 1,115,474,681
+  Number of sequences in database:  185,175
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

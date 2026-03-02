@@ -1,0 +1,39 @@
+########################################
+# Program: needle
+# Rundate: Tue 19 Nov 2024 01:53:39
+# Commandline: needle
+#    -asequence APOE_Alligator_sinensis_exon_3.fa
+#    -bsequence extracted_flanking_region_exon_3.fa
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile pairwise_exon_3.aln
+#    -awidth3 10000
+# Align_format: srspair
+# Report_file: pairwise_exon_3.aln
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: APOE_Alligator_sinensis_exon_3
+# 2: extracted_flanking_region_exon_3
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 740
+# Identity:     348/740 (47.0%)
+# Similarity:   348/740 (47.0%)
+# Gaps:         284/740 (38.4%)
+# Score: 671.0
+# 
+#
+#=======================================
+
+APOE_Alligato      1 CATGCTGATCAAGGACATGGTGGCGGAGCTGCAGGCGTACAGAAAGGACGTGGAAGAA-----------CGGCTGGGCCC---------------GCACGCGGTGGTGATGCGGGAGC----GGCTGCATACAGA-TGTG--ACGGTGCTGGGCGAGCGGCTGC-GTGT---TG------------ACATGGAGGAAGCCAAGACCCGGGTGCAGCAGT------ACCTGGGTGAGGCTCGC-----CAAG-TGGCGGGCCA-------GAACCTGGAAGATGTGCGCAGCCGCGTGGGCACCTACTTGCGCAAGCTGCGCAAGCGTCTG--GCC-AAGGACACAGAGGAGCT--GCGCCGCAAGC---------TGGAGGCCTACAG-------TGCG-GAAGCCACCCGGCA----CCTGGAG---ACCGTGCGCGAGGACCTGGA------------GCCGCTGCGCGAGAAGGGGCAGCAGCGCCTGGCGGCCCTGCAGCAG---------GCATTGCGTGAC---CAGGGCCAGCGCTTG------------CGTGAGCAGCTGGAGGTGC---GCGCCCAGGATATGCGTGGCTCCCTGGACCG----CGCAG---CCACGCAGCTGCAAGAGTGGCTCGAACCCTTC---CTTG---CGGACATCCGCACCCAGATGCAGGGGCTGCTGGA---CAAGCTGCAGG------CCAAGGAGCAGCAGTAG-----    577
+                                                |||    ||.|.|||||||..|.||...|.|           |.||||.||||               ||||    |..|.||||     |    |.||||||.|..| ||||  .||.|||      |..|.|||| ||||   ||            ||.|        |||||    ..||||||||.|      .||||..||    ||.|     |||| ||  ||||||       .|.||||||||.||.|.|..|..|.|.|||         |.|   |..|.|...|.||.||  ||| ||||     |.||.|||  ||||||| .||         |||||..||||.|       |||| ||      |||.||    ||..|||   ||||.|.|||||.|||.|||            ||||||||||||...||.|.||||||.|..||||||||||||||||         ||..|.||.|.|   .||||   ||||.||            ||.|.|..||.|| |.|||   .|||||      |.||||   |||.|..|||    |||||   || ||||||||     |.||| ||   ||.||   ||.|   ||||.|||.||         |||..||||.|.||   ||||....|||      ||.| ||.|.||||.|.     
+extracted_fla      1 ---------------------------gct----gcctccagaaAGTGCCTGCCTGCattcccactgccctgctgtgccccccTGCATCCCTTCTGCAC----TCCTAATGC-----CTCCAGACTgcatccccactgtgccccgCTGC------ATTGCCTGCTGTGTCCCTGCCGTGCCCTCCTACCT--------ccaag----ctgtgcagcactgcgTCCCCCTGCATG----TCCCCAGCACAAGATG--GGGCCACCCCACTCATCCTGGAAGCTGNggggggggggggggg---------ggg---ggggggggcgggtGTGCCGCCGAAGG-----GGGGCGCTGAGCGCCGC-TGCCGCAGGTGATGGAGTTCTACTGCGAGTCCTGCGAGA------CCGCCATGTGCCGCGAGTGCACCGAGGGCGAGCACCGGGAGCACGTCACCGTGCCGCTGCGCGACGTGGTGGAGCAGCACAAGgcggccctgcagcagcagctggatgccATCCGCGGCAGGTAGGG---GCgcgtggggtgggggggtcGCGGGGTGCCGG-GCTGCTGGCCGCCC------TCCGTG---CCCAGCGCCGGCTCCGCAGGCTCC-CGCAGCTG-----GCGGC-CG---CCATCGCGCTGGTGTCGGAGATCAGC---------CAGCAGCTGGTAGAGCGCAAGAACGAGGCGGTGTCCGA-GATCGGCAGCACCTTCG    619
+
+
+#---------------------------------------
+#---------------------------------------

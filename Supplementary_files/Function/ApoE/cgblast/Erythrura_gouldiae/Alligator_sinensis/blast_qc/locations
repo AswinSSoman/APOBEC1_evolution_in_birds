@@ -1,0 +1,4 @@
+Location        #_hits  %_query_cov  %_identity  Lowest_evalue
+QUSF01000154.1  1       21.6667      30          0.010
+QUSF01000152.1  1       21.6667      30          0.010
+QUSF01000009.1  1       29           27.5        0.010

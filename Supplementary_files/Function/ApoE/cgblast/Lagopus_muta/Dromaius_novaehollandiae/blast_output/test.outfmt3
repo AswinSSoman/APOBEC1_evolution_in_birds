@@ -1,0 +1,125 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_023343835.1_bLagMut1_primary_genomic.fna
+           165 sequences; 1,026,771,810 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17455047840
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 122185275975
+
+
+Query= exon_3
+
+Length=544
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_064455.1 Lagopus muta isolate bLagMut1 chromosome 23, bLagMut1...  60.8       3e-07
+NC_064442.1 Lagopus muta isolate bLagMut1 chromosome 10, bLagMut1...  60.8       3e-07
+NC_064436.1 Lagopus muta isolate bLagMut1 chromosome 4, bLagMut1 ...  57.2       3e-06
+NC_064456.1 Lagopus muta isolate bLagMut1 chromosome 24, bLagMut1...  52.7       1e-04
+NC_064450.1 Lagopus muta isolate bLagMut1 chromosome 18, bLagMut1...  49.1       0.002
+NC_064435.1 Lagopus muta isolate bLagMut1 chromosome 3, bLagMut1 ...  48.2       0.002
+
+
+
+Query_3  22        GGAGGAGCTGGAGGCGCAGGTGGCAGAGCTGCAGGCCAAGCTGGGCCCCAgcggcgaggcgggcgcggggctgcgtcgcgacgtggaggagctgggcgggcggctgcgggcCGAGCTGGTGGAGGCACGGGGCCGGGCAGCGCAGTACGGGGCCGAGGCGCGGGCCGTGCTGCAGCAGGGCGCCGAGGACCTGCGGAGCCGCCTGGCCGCCTACGCCCGCAAGCTGCGCAAGCGCCTGGCCAAGGACGCCGAGGAGCTGCGGAGCCGCCTGGCC--GCCg  299
+6        70849948                                                                                                                                                                                                                                                               ......--.............CG..T.  70849972
+2        938310    .................T.CA...T...........                                                                                                                                                                                                                                                      938275
+
+Query_3  300       cggccggcgaggtgcgggcccgggcggc--ggcgctgcacgaggggctgccggtg-ctgcgggcgccgcc-gcggctggcggc----gctgggACAGGCGCTGGGCGAGCAGGGCCGCCGGGTGCAGCGGGGGCTGCGGGAGGCGGTGCAGGAGCTGTGGG  452
+25       4476053                                             ........G..G.-.......G..T..G-.G.....CG..G----....C.GGG.CT..G...GCT..G...G.TG....G..T..............-...--...G.......      4475948
+25       4476062                                             ........G..G.-.......G..T..G-.G.....CG..G----....C.GGG.CT..G...GCT..G...G.TG....G..T..............-...--...G..G....C...  4475953
+25       4476071                                             ........G..G.-.......G..T..G-.G.....CG..G----....C.GGG.CT..G...GCT..G...G.TG....G..T..............-...--...G..G....C...  4475962
+25       4476080                                             ........G..G.-.......G..T..G-.G.....CG..G----....C.GGG.CT..G...GCT..G...G.TG....G..T..............-...--...G..G....C...  4475971
+25       4476089                                             ........G..G.-.......G..T..G-.G.....CG..G----....C.GGG.CT..G...GCT..G...G.TG....G..T..............-...--...G..G....C...  4475980
+25       4476098                                             ........G..G.-.......G..T..G-.G.....CG..G----....C.GGG.CT..G...GCT..G...G.TG....G..T..............-...--...G..G....C...  4475989
+25       4476107                                             ........G..G.-.......G..T..G-.G.....CG..G----....C.GGG.CT..G...GCT..G...G.TG....G..T..............-...--...G..G....C...  4475998
+25       4476116                                             ........G..G.-.......G..T..G-.G.....CG..G----....C.GGG.CT..G...GCT..G...G.TG....G..T..............-...--...G..G....C...  4476007
+25       4476125                                             ........G..G.-.......G..T..G-.G.....CG..G----....C.GGG.CT..G...GCT..G...G.TG....G..T..............-...--...G..G....C...  4476016
+25       4476134                                             ........G..G.-.......G..T..G-.G.....CG..G----....C.GGG.CT..G...GCT..G...G.TG....G..T..............-...--...G..G....C...  4476025
+25       4476143                                             ........G..G.-.......G..T..G-.G.....CG..G----....C.GGG.CT..G...GCT..G...G.TG....G..T..............-...--...G..G....C...  4476034
+25       4476152                                             ........G..G.-.......G..T..G-.G.....CG..G----....C.GGG.CT..G...GCT..G...G.TG....G..T..............-...--...G..G....C...  4476043
+25       4476161                                             ........G..G.-.......G..T..G-.G.....CG..G----....C.GGG.CT..G...GCT..G...G.TG....G..T..............-...--...G..G....C...  4476052
+25       4476170                                             ........G..G.-.......G..T..G-.G.....CG..G----....C.GGG.CT..G...GCT..G...G.TG....G..T..............-...--...G..G....C...  4476061
+25       4476179                                             ........G..G.-.......G..T..G-.G.....CG..G----....C.GGG.CT..G...GCT..G...G.TG....G..T..............-...--...G..G....C...  4476070
+25       4476188                                             ........G..G.-.......G..T..G-.G.....CG..G----....C.GGG.CT..G...GCT..G...G.TG....G..T..............-...--...G..G....C...  4476079
+25       4476197                                             ........G..G.-.......G..T..G-.G.....CG..G----....C.GGG.CT..G...GCT..G...G.TG....G..T..............-...--...G..G....C...  4476088
+25       4476206                                             ........G..G.-.......G..T..G-.G.....CG..G----....C.GGG.CT..G...GCT..G...G.TG....G..T..............-...--...G..G....C...  4476097
+25       4476215                                             ........G..G.-.......G..T..G-.G.....CG..G----....C.GGG.CT..G...GCT..G...G.TG....G..T..............-...--...G..G....C...  4476106
+25       4476224                                             ........G..G.-.......G..T..G-.G.....CG..G----....C.GGG.CT..G...GCT..G...G.TG....G..T..............-...--...G..G....C...  4476115
+25       4476233                                             ........G..G.-.......G..T..G-.G.....CG..G----....C.GGG.CT..G...GCT..G...G.TG....G..T..............-...--...G..G....C...  4476124
+25       4476242                                             ........G..G.-.......G..T..G-.G.....CG..G----....C.GGG.CT..G...GCT..G...G.TG....G..T..............-...--...G..G....C...  4476133
+25       4476251                                             ........G..G.-.......G..T..G-.G.....CG..G----....C.GGG.CT..G...GCT..G...G.TG....G..T..............-...--...G..G....C...  4476142
+25       4476260                                             ........G..G.-.......G..T..G-.G.....CG..G----....C.GGG.CT..G...GCT..G...G.TG....G..T..............-...--...G..G....C...  4476151
+25       4476269                                             ........G..G.-.......G..T..G-.G.....CG..G----....C.GGG.CT..G...GCT..G...G.TG....G..T..............-...--...G..G....C...  4476160
+25       4476278                                             ........G..G.-.......G..T..G-.G.....CG..G----....C.GGG.CT..G...GCT..G...G.TG....G..T..............-...--...G..G....C...  4476169
+25       4476287                                             ........G..G.-.......G..T..G-.G.....CG..G----....C.GGG.CT..G...GCT..G...G.TG....G..T..............-...--...G..G....C...  4476178
+12       16230996                        ......--...C.G..--......AGAG...C.G.G.......A...T-.G......G...TGGC........T...........T.-.A...G..G.C.G......A.----.....C.....-..C....         16231116
+6        70849973  G...T.T..-T.......G...C.G...CG.......TG.....C.......C..-----.T....G...-TG....C.....                                                                                70850048
+26       1370620                                                                                                                   ..........G..............C.....G....               1370655
+20       2593580                                                                 ........C.....-......----.GG.A..GC...........G...--..G......G..C.A...----.....C.....                 2593508
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 526731314535
+
+
+  Database: GCF_023343835.1_bLagMut1_primary_genomic.fna
+    Posted date:  Nov 25, 2022  7:40 PM
+  Number of letters in database: 1,026,771,810
+  Number of sequences in database:  165
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

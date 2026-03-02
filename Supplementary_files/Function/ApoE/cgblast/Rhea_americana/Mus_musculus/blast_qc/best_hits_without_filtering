@@ -1,0 +1,3 @@
+Query   Subject         Query_length  Alignment_length  Q_start  Q_end  S_start  S_end   E_value   Bit_score  Raw_score  %_Query_covered_per_sub  %_Query_covered_per_hsp  %_ident  Matches  Mismatches  Gaps  Strand
+exon_2  PTEV01000288.1  169           24                139      162    106423   106400  0.006     44.6       48         14                       14                       100.000  24       0           0     minus
+exon_3  PTEV01000541.1  724           166               134      297    139699   139862  2.08e-04  51.8       56         23                       23                       67.470   112      50          4     plus

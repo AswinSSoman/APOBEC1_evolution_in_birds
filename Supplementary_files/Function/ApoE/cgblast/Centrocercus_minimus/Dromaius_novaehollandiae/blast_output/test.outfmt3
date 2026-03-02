@@ -1,0 +1,106 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_005890655.1_Cmin_1.0_genomic.fna
+           985 sequences; 1,000,043,310 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17000300900
+
+
+Query= exon_2
+
+Length=148
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SPOS01000106.1 Centrocercus minimus isolate UT7 scaffold106_size3...  46.4       0.001
+
+
+
+Query_2  7        GGGCTGAGCAGGGCC--CCGAGGAGCCG-CGGGCCGGGTGGGAAGCGG  51
+6        1446006  ...............GG...C.......C..A.....C....-.....  1446052
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 119001754655
+
+
+Query= exon_3
+
+Length=544
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SPOS01000174.1 Centrocercus minimus isolate UT7 scaffold174_size1...  58.1       3e-06
+SPOS01000091.1 Centrocercus minimus isolate UT7 scaffold91_size36...  49.1       0.002
+SPOS01000052.1 Centrocercus minimus isolate UT7 scaffold52_size47...  49.1       0.002
+SPOS01000028.1 Centrocercus minimus isolate UT7 scaffold28_size59...  49.1       0.002
+SPOS01000071.1 Centrocercus minimus isolate UT7 scaffold71_size41...  48.2       0.002
+SPOS01000590.1 Centrocercus minimus isolate UT7 scaffold590_size3...  46.4       0.006
+SPOS01000037.1 Centrocercus minimus isolate UT7 scaffold37_size54...  46.4       0.006
+
+
+
+Query_3  23       GAGGAGCTGGAGGCGCAGGTGGCAG-AGCTGCAGGCCAAGCTGGGCCCCAgcggcgaggcgggcgcggggctgcgtcgcgacgtggaggagctgggcgggcggctgcgggcCGAGCTGGTGGAGGCACGGGGCCGGGCAGCGCAGTACGGGGC--CGAGGCGCGGGCCGTGCTGCAGCAGGGCGCCGAGGACCTGCGGAGCCGCCTGGCCGCCTACGCCCGCAAGCTGCGCAAGCGCCTGGCCAAGGACGCCGAGGAGCTGCGGAGCCGC-CTGGCCGCC  298
+209      3401063                                                                                                                               ...............-..C.--......GG..C................                                                                                                            3401108
+687      2557028  ....................-....C.........                                                                                                                                                                                                                                                       2556995
+543      21448                                                                                                                                                                                                                                                                             .....G....GT..T  21462
+309      4088024                                                                                                                                 .............G..G..G......--..G.C......G..                                                                                                                 4087985
+
+Query_3  299      gcggccggcgaggtgcgggcccgggcggcggcgctgcacgaggggctgccggtgctgcgggcgccgcc-gcggctggcggcgctgggACAGGC---GCTGGGCGAGCAG-GGCC----GCCG-GGTGCAGCGGGGGCTGCGGGAGGCGGTG  439
+81       422275                                                                ..G...G-..T..C........G...C.G...CGG..C.......GC.-....----....-CAG...........-.......        422350
+909      3337897                                                                                                                ....----....-..-..............C.....G....  3337863
+476      4143503                                                              ........C.....-.......GG.A..GC...---........G....C....GGGG....A..G..G....C...C.....          4143581
+543      21463    .....T.-..-.....T.--.G....T....G.....----........G..-........-..T..G-.-.....-...-....C.---...T--..G....T-..-.-...T----..G.-..--.T..............          21576
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 513006553575
+
+
+  Database: GCA_005890655.1_Cmin_1.0_genomic.fna
+    Posted date:  Apr 25, 2021  2:28 PM
+  Number of letters in database: 1,000,043,310
+  Number of sequences in database:  985
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

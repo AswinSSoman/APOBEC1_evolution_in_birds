@@ -1,0 +1,113 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_015476345.1_ZJU1.0_genomic.fna
+           756 sequences; 1,188,533,289 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 19016206032
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 141432852435
+
+
+Query= exon_3
+
+Length=544
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_024010208.1 Anas platyrhynchos isolate Z2 breed Pekin duck unp...  53.6       5e-05
+NC_051774.1 Anas platyrhynchos isolate Z2 breed Pekin duck chromo...  53.6       5e-05
+NC_051794.1 Anas platyrhynchos isolate Z2 breed Pekin duck chromo...  50.0       6e-04
+NC_051773.1 Anas platyrhynchos isolate Z2 breed Pekin duck chromo...  50.0       6e-04
+NC_051804.1 Anas platyrhynchos isolate Z2 breed Pekin duck chromo...  48.2       0.002
+NC_051776.1 Anas platyrhynchos isolate Z2 breed Pekin duck chromo...  48.2       0.002
+NW_024009866.1 Anas platyrhynchos isolate Z2 breed Pekin duck unp...  47.3       0.007
+NC_051775.1 Anas platyrhynchos isolate Z2 breed Pekin duck chromo...  47.3       0.007
+NW_024009718.1 Anas platyrhynchos isolate Z2 breed Pekin duck unp...  46.4       0.007
+NC_051777.1 Anas platyrhynchos isolate Z2 breed Pekin duck chromo...  46.4       0.007
+NC_051772.1 Anas platyrhynchos isolate Z2 breed Pekin duck chromo...  46.4       0.007
+
+
+
+Query_3  21         TGGAGGAGCTGGAGGCGCAGGTGGCAGAGCTGCAGGCCAAGCTGGGCCCCAgcggcgaggc-gggcgcggggctgcgtcgcgacgtggaggagctgggcgggcggctgcgggcCGAGCTGGTGGAGGCACGG---GGCCGGGCAGCGCA-GTACGGGGCCGAGGCGCGGGCCGTGCTGCAGCAGGGCGCCGAGGACCTGCGGAGCCGCCTGGCCG-CCTACGCCCGCAAGCTGCGCAAGCGCCTGGCCAAGGA-CGCCGAGGAGCTGCGGAGCCGCCTGG  293
+560      3425       ...............A.G..C...AG.T.GA..-..A.GGC.C.....AAG....A..A..T.C.G....A....G.C..G..GC...........A...A.......                                                                                                                                                                              3319
+2        76314651                                                                                                                                                                                                                                                                                     ...G..  76314646
+22       797580                                                                                                                                                                                                                                                  ...T............-.C..C..C...G..T.G..T..GG..  797621
+1        99111081                                                          .....G-...G.G....GG.G.--...G.....C.TG..G.......G...GC.....T.G.....GCTG...TG..CTG..........G...-....T....                                                                                                                           99110982
+32       83357592                                                                                                          ...A........G....CCT....G.--.---..........G...-.GG.C......-...-.......G..                                                                                                          83357528
+4        38035470                                                                                                                                    ...---..........G...G.GC........-....G......A.....T..                                                                                                    38035518
+4        31120899                                                                                                                                                                                                            ..............C...G.....C..G.....----C.........G....G....                        31120951
+70       146106                                                                                                                                                 ........G-.G......A..........---..........                                                                                                    146069
+5        3174403                                                                                                                                                               ...A....C............G.GT........AG......G...                                                                                  3174447
+
+Query_3  294        CCGCCgc-ggccggcgaggtgcgggcccgggcggcggcgctgc-acgaggggctgccggtg-ctgcgggcgccgccgc--ggctg-gc-ggcgctgg-gACAGGCGCTG-GGCGAGCAGGGCCGCCGGGTGC-AGCGGGGGCTGCGGGAG-GCGGTGC  440
+2        76314645   ..T..C.C.....C.TC....G....---...C.T..G.....--..T.C...G..G..G.G........C.T.....--T....-T.-.C......-AGG.....-.C-...TTT.C..-----.A....G-............               76314519
+2        91681643                       ..........-...G.....GC.T...G....GA..G..CA-.-....C..G..G...CA...-.-.A-..A..C..A.C.G..A..-.-...-...G...G...G..---.-.......C.G.G.....-.......  91681520
+2        91752946                       ..........-...G.....GC.T...G....GA..G..CA-.-....C..G..G...CA...-.-.A-..A..C..A.C.G..A..-.-...-...G...G...G..---.-.......C.G.G.....-.......  91752823
+22       797622     .G.A..G-.....C.......                                                                                                                                           797641
+218      61773                                                                                               ........---.G.......-.......-T...G....A.C..G.....C.C........C-..       61830
+3        76054682                                                                                                         ....-..-..T...TG.A.........-..-...............T.A...C...  76054733
+0        128072535                                                ....CC...AG..G.-.......-.....T..--.-...C..A..G.T...-..GCC.G....A..G....T....-..G...C.G-G.G............C.-...      128072437
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 609705554589
+
+
+  Database: GCF_015476345.1_ZJU1.0_genomic.fna
+    Posted date:  Dec 15, 2021  1:26 AM
+  Number of letters in database: 1,188,533,289
+  Number of sequences in database:  756
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

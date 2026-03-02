@@ -1,0 +1,102 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_009650955.1_bCorMon1.pri_genomic.fna
+           105 sequences; 1,112,734,094 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17803700144
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 132414994831
+
+
+Query= exon_3
+
+Length=556
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_045478.1 Corvus moneduloides isolate bCorMon1 chromosome 3, bC...  51.8       2e-04
+NC_045497.1 Corvus moneduloides isolate bCorMon1 chromosome 22, b...  48.2       0.002
+NC_045483.1 Corvus moneduloides isolate bCorMon1 chromosome 8, bC...  48.2       0.002
+NC_045477.1 Corvus moneduloides isolate bCorMon1 chromosome 2, bC...  46.4       0.006
+
+
+
+Query_3  286        CCGCCTGGCCGCCGCCGC--CAGCAAGGTGCAGGCGCGGGTGGCGGAGCGG-GCGGCAGCACTGCGCCAGG-GGTTGCCGCCGCTGCGGGCGGCCCCTCGGCTGGCAGCGCTGGGGCAGGTGCTTGGCGAGCAGGG--CCTCCGGGTGCAGCAGGGGCTGCAG-GAGGCGGTGCAGGAGCTGCGGGCCTC----GCTG-GATGGTGCCGTGCAG--GGGCTGCGGAGCTGGCTGGCTGCGCTGCTGC  518
+2        671512                                 ............C..........A.....G...--........C..GCC.......                                                                                                                                                                     671565
+21       5854634                                                                                                                                    ........TG.AG.A..............G.....-C...G.......C..                                                                      5854683
+21       5854842                                                                                                                                    ........TG.AG.A..............G.....-C...G.......C..                                                                      5854891
+21       5854208                                                                                                                                                   ..............G.....-C...G.......C..                                                                      5854242
+21       5854253                                                                                                                                                   ..............G.....-C...G.......C..                                                                      5854287
+21       5854341                                                                                                                                                   ..............G.....-C...G.......C..                                                                      5854375
+21       5854429                                                                                                                                                   ..............G.....-C...G.......C..                                                                      5854463
+21       5854441                                                                                                                                                   ..............G.....-C...G.......C..                                                                      5854475
+21       5854453                                                                                                                                                   ..............G.....-C...G.......C..                                                                      5854487
+21       5854661                                                                                                                                                   ..............G.....-C...G.......C..                                                                      5854695
+21       5854869                                                                                                                                                   ..............G.....-C...G.......C..                                                                      5854903
+21       5854936                                                                                                                                                   ..............G.....-C...G.......C..                                                                      5854970
+7        17895080                                                                                                                   .....C..G...GC.G.-..C...--G..G....-..T..-..........A.CT....G..C..G........G..GCGGG....C.GA.C...G.G..T.CG..............CGG.......GG.....  17895209
+1        122107680  .....C............GG.T..TGT.C..T....G...........G..-.A...G..                                                                                                                                                                                             122107738
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 584183690475
+
+
+  Database: GCF_009650955.1_bCorMon1.pri_genomic.fna
+    Posted date:  Nov 17, 2021  1:39 PM
+  Number of letters in database: 1,112,734,094
+  Number of sequences in database:  105
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

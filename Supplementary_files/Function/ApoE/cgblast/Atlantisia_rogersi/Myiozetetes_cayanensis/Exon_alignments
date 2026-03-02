@@ -1,0 +1,20 @@
+[07;32m[K>exon_2[m[K	[03;04;32m[KLength:210[m[K | [03;04;32m[KIdentity:95/210(45.2%)[m[K | [03;04;32m[KSimilarity:95/210(45.2%)[m[K | [03;04;32m[KGaps:89/210(42.4%)[m[K | [03;04;32m[KScore:207.5[m[K
+	
+  
+  APOE_Myiozete      1 -----------------GCTGCGGGGCC------GAACTAGCCAC--TCCCGCGCCCCCCACCCCACCTCGGCCCCCCTCGCGGGTCT-GGAGGG-----------TCCT---------GGCG-GTCCTGGAGG--------CAG---CGGCTGAGAACGCGACG--GAGCGGCTGCGGGAGACC----CCCG-TGGTGCAGCGGCTGCA    145
+                                        ||.||    ||      |..||..||||  .|||||.|||||||.||| ||.||.||||||.||||||||| ||||.|           ||||         ||.| .|||.|.|||        |||   |||.|...|..||.|||  |||.||||        ||    ||.| ||||.           
+  extracted_fla      1 GACCCCCCCCCAGAACGGCCGC----CCCACACGGTCCTGCCCACGGCCccgcaccccccagccc-ccccgtccccccccgcGGGTCTGGGAGAGCGACTCAACTCTCCTCCAGCATCAGGAGCCTCCGGTAGGGATGACACCAGGTCCGGTTTCCATGGCAACGAAGAGAGGCT--------CCTTAACCAGTTGGTT-----------    186
+
+
+[07;32m[K>exon_3[m[K	[03;04;32m[KLength:210[m[K | [03;04;32m[KIdentity:95/210(45.2%)[m[K | [03;04;32m[KSimilarity:95/210(45.2%)[m[K | [03;04;32m[KGaps:89/210(42.4%)[m[K | [03;04;32m[KScore:207.5[m[K
+	
+  
+  APOE_Myiozete      1 GCAGGTGGTGGGGGAGTTCC-GGGCGCTGCGGAACGAGG----CGCGGGACCGCGCGGCCGAGTACGGGGT----GGAGGCGAAGGCGCTGCTGGAGCAGAG----------CTGGGGGGACCTGAAGGCCCGGGGGGCTTCGTTCGCCCGAAAGCTG----CGCAAGAGGCTGAACC----GGGACGCGGAGGAGC------TGA--------GGAAGCGCTGGGAC------------    187
+                             .||.|.|..|.||| ||||    |.|.||.|||    ||.|||     |.|||        ||||    |.||.|||||       ||||.||| |          ||||||        |||   ||||.|      ||.||      |||    |.|.||     |.|||    |||||.|..||||.|      .||        |||..|.|||||||            
+  extracted_fla      1 ------CGTAGAGCTGCTCCAGGGC----CAGGACCAGGGTCTCGTGGG-----GGGGC--------GGGTCCAGGAAGTCGAAG-------TGGATCAG-GTCGTTgatgcctgggg--------agg---ggggtg------tcacc------ctgggacccccag-----ggaccccctgggacccccaggaacccccagggaccccccagggaccccctgggacaccccagagtca    181
+  
+  APOE_Myiozete    188 -----GGG------GGGGTCGCC-----GCCCTCAGGG-CCCTCTGG----------GGGATCCCC-GAGACCCCCTGGGACCCCCAGGATTGA----------    253
+                            |||      ..||||.||     .|||.||||| |||.|.||          ||||.|||| |||||||||||||||||||||||   |          
+  extracted_fla    182 ccccagggacacccaaGGTCACCCAaggacccccagggacccccagggaccaccccagggacccccagagaccccctgggacccccagga---aCCCCCAGAGA    282
+
+

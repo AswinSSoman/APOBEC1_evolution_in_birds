@@ -1,0 +1,16 @@
+[07;32m[K>exon_3[m[K	
+	
+  
+  APOE_Rhea_pen      1 CGGCCTCATCGCGGAGACCATGGCAGAGCTGGAGGCGCAGG----CGGT--------GGA-GCTGCAGGCCCAGCTGGGCCCTGGTGGCG-AG-GCCAGCGTGGGGCTGCAGCGCGACGTGGAGGAGCTAGGTGGGCGGCTGCGGGCTG--AGATGGCGGAGGCACGGGGCCGGGTGGCGCAGTACGGCGCCGAGGCACAGGCCGTGCTGCAGCAGGGCGCTGAGGACCTGCGTGGCCGC    223
+                               ||||     |||||   ||||||.|    .|.|    ||||        ||| |.||..||      |||  ||||||  || || |||  ||..||||||| .||| .||||                    |||.||||  .|||                                                 |||||||||||||.||.|.|||.||||||||.||||
+  extracted_fla      1 --------TCGC-----CCATG---GAGCTGAA----TATGTTCTCGGTGACGTTAAGGATGGTGTCGG------TGG--CCTGGT--CGTAGCGCC--CGATGGGCTGC-CCGC-CCGTG--------------------GCGTGCTGCTTGAT-------------------------------------------------GTGCTGCAGCAGGTCGTTCAGGGCCTGCGTGACCGC    137
+  
+  APOE_Rhea_pen    224 C-TGGCCGCCTACACCCGCAAGCTACGCAAGCGCCTGGCCAAGGACACC--GAGGAGCTGCGGAGCCGCCTGGCCGCCGCCGCCAGCAAGGTGCAGGCGCGGGTGGC------GGAGCGGGCGGCAGCACTGCGCCAGGGGTTGCCGCCGCTG---CGGGCGGCCCCTCGGCTGGCAGCGCTGGGGC----AGGTGCT--TGGCGAGCAGGGCCTCCGGGTGCAGCAG-----GGG----    436
+                       | ||||.||   ||.||.||             ||||           |  |||||||||                     |.||           .|||.||||||      |||   |||..|..|||.||           ||.||||||   .||.|..|..||    ||.|||| ||    |    ||.||||  ||||.|         .|.|||| |||.|     |||    
+  extracted_fla    138 CGTGGCTGC---CATCCCCA-------------CCTG-----------CTTGAGGAGCTG---------------------GTCA-----------TCGCTGGTGGCTGCTTTGGA---GGCCTCCACACAGC-----------CCTCCGCTGATTTGGCCACCAACT----TGCCAGC-CT----CAATGAGCTGCTCCTGGCAA---------ACCGGTG-AGCTGATTGTGGGAGCC    285
+  
+  APOE_Rhea_pen    437 -----CTGCAGGAGGCGGTGCAGGAGCTGCGGGCCTCGCTGGATGGTGCCGTGCAGGGGCTGCGGAGCTGGCTGGCTGCGCTGCTGCCCAACGTGCCGCTGCTGCTCGACGGCCCCAAGCCTTGA    556
+                            |||.|||||       |||||..|                                                                                                
+  extracted_fla    286 ACTacctggaggag-------aggagaag------------------------------------------------------------------------------------------------    307
+
+

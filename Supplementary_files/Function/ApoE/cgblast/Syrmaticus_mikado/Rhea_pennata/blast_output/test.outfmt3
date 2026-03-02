@@ -1,0 +1,100 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_003435085.1_NTU_Smik_1.2_genomic.fna
+           71,281 sequences; 1,066,426,119 total letters
+
+
+
+Query= exon_1
+
+Length=43
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+QGNR01000014.1 Syrmaticus mikado isolate TWDZ01 scaffold14, whole...  41.9       0.008
+
+
+
+Query_1  5        AGCTCTGGGTTGC--GCTGCTGGGAGCCACCCTGCTTGC  41
+13       2240067  .....G...C...CT..............G.....C...  2240105
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17032024512
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 126658717430
+
+
+Query= exon_3
+
+Length=556
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+QGNR01000024.1 Syrmaticus mikado isolate TWDZ01 scaffold24, whole...  47.3       0.006
+QGNR01000194.1 Syrmaticus mikado isolate TWDZ01 scaffold194, whol...  46.4       0.006
+QGNR01000133.1 Syrmaticus mikado isolate TWDZ01 scaffold133, whol...  46.4       0.006
+QGNR01000077.1 Syrmaticus mikado isolate TWDZ01 scaffold77, whole...  46.4       0.006
+
+
+
+Query_3  91       GCTGCAGC-GCGAC-GTGGAGGAGCTAGGTGGGCGGCTGCGGGCTGAGATGGCGGAGGCACGGGGCCGGGTGGCGCAGTACGGCGCCGAGGCACAGGCCGTGCTGCAGCAGGGCGCTGAGGACCTGCGTGGCCGCCTGGCCGCCTACACCCGCAAGCTACGCAAGCGCCTGGCCAAGGACACCGAGGAGCTGCGGAGCCGCCTGGCCGCCGCCGCCAGCAAGGTGCAGGCGCGGGTGGCGGAGCGGG--CGGCAGCACTGCGCCAGGGGTTGCCGCCGCT  366
+193      138849   ........A...G.T....GC.G..G...--............GC.C......T.......T...A..                                                                                                                                                                                                                      138914
+132      1163606                                                                                                                                                                                                                                 .....C....C.--........A.AA....G..T.C..-...C...--..G.TG..G  1163555
+
+Query_3  367      GCGGG-CGGCCCCTCGGCTGGCAGCGCTGGGGCAGGTGCTTGGCGAGCAGGGCCTCCGGGTGCAGCAGGGGCTGCAGGA---GGCGGTGCAGGAGCTGCGGGCCTCGCTGGATGGTGCCGTGCAGGGGCTGCGGAGCTGGC  503
+23       279854                                                                   ...............---...CCA...........A..G..                                      279891
+132      1163554  .....G.......GG.A.G...............                                                                                                             1163521
+76       759144                                               ........A..G...CG.....G.C..........GCG..G.C........GG....--..-..A...GC.G.AA.A....C..G.....G..C...  759051
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 558713614200
+
+
+  Database: GCA_003435085.1_NTU_Smik_1.2_genomic.fna
+    Posted date:  Apr 25, 2021  1:13 PM
+  Number of letters in database: 1,066,426,119
+  Number of sequences in database:  71,281
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,8 @@
+[07;32m[K>exon_2[m[K	[03;04;32m[KLength:217[m[K | [03;04;32m[KIdentity:96/217(44.2%)[m[K | [03;04;32m[KSimilarity:96/217(44.2%)[m[K | [03;04;32m[KGaps:94/217(43.3%)[m[K | [03;04;32m[KScore:237.5[m[K
+	
+  
+  APOE_Rhea_pen      1 ---------------------GCTGTGGGGCCGAGCTGGGCCCTGAGGAGCCGCGGG--CCGGCTGGGAAGCGGC------TGTC-GACGCCT----TCTGGGAGTACGTGGCCCAGCTG-------GGGCA-TGC-----------GGTGGAGAACGGCACTGTGCGT----GTGAAGAGCGC------------CCAGATTGGCCGCAAGCTTGA    148
+                                            ||||.||||||||||||.||||||.|..||.||.||  ||||||||||     |      |.|| |||.|||    .|.|.|||..|..|||||.||||       ||||| |||           ||||.|.|       |.||..|    .|||||.||||            .||.|.||             
+  extracted_fla      1 CTCAGAGGCACCACCAGAGGTGCTGAGGGGCCGAGCTGTGCCCTGTGAGGCTGCTGGAACCGGCTGgga-----ccttttttttctgacccCTCCCCACAGAGAGCCCTGggccctgctgcagccctgggcacTGCCACCCCCCACAGGTGTACA-------TATGTTTAAAATTGAAGTGCGCGTTTTTAAAGaatcaaaatg-------------    192
+
+

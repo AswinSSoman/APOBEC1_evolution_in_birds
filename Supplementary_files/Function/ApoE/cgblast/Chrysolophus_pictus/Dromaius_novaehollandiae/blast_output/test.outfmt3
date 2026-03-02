@@ -1,0 +1,86 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_003413605.1_Chrysolophus_pictus_GenomeV1.0_genomic.fna
+           14,294 sequences; 1,023,990,748 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17401524768
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 121805570418
+
+
+Query= exon_3
+
+Length=544
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+KZ861225.1 Chrysolophus pictus breed wild golden pheasant unplace...  48.2       0.002
+
+
+
+Query_3  22      GGAGGAGCTGGAGGCGCAGGTGGCAGAGCTGCAGGC  57
+2525     221961  .................T.CA...T...........  221996
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 525079936242
+
+
+  Database: GCA_003413605.1_Chrysolophus_pictus_GenomeV1.0_genomic.fna
+    Posted date:  Oct 10, 2020  3:22 PM
+  Number of letters in database: 1,023,990,748
+  Number of sequences in database:  14,294
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

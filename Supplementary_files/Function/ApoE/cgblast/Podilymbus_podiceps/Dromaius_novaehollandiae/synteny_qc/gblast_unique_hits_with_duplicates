@@ -1,0 +1,5 @@
+Query        Subject         %_Query_covered_per_hsp  Query_length  Alignment_length  Q_start  Q_end  S_start  S_end   E_value   Bit_score
+exon_1       VXAO01000102.1  74                       43            32                10       41     700870   700839  0.009     41.0
+exon_3       VXAO01004120.1  11                       544           62                429      490    3992     3933    1.59e-04  51.8
+exon_3_dup1  VXAO01001166.1  11                       544           61                106      166    245658   245709  1.59e-04  51.8
+exon_3_dup2  VXAO01000407.1  11                       544           62                252      313    304167   304228  5.54e-04  50.0

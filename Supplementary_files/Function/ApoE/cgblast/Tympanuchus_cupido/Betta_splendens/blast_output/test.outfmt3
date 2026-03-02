@@ -1,0 +1,110 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_001870855.1_T_cupido_pinnatus_GPC_3440_v1_genomic.fna
+           12,186 sequences; 983,776,544 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 16718815036
+
+
+Query= exon_2
+
+Length=154
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 122927893750
+
+
+Query= exon_3
+
+Length=288
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+MOXI01000042.1 Tympanuchus cupido pinnatus isolate GPC 3440 Scf7L...  44.6       0.010
+
+
+
+Query_3  50       CTCCAGGCCAAGCTGAGCCCCTACACCGA  78
+41       5040522  ..G.....................G....  5040494
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 253720028712
+
+
+Query= exon_4
+
+Length=352
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+MOXI01000041.1 Tympanuchus cupido pinnatus isolate GPC 3440 Scf7L...  47.3       0.003
+
+
+
+Query_4  65      GGGCAGGTGGAGCCGCTGGTGCAGCAGG  92
+40       677895  .......G....................  677868
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 316658330408
+
+
+  Database: GCA_001870855.1_T_cupido_pinnatus_GPC_3440_v1_genomic.fna
+    Posted date:  Oct 10, 2020  3:16 PM
+  Number of letters in database: 983,776,544
+  Number of sequences in database:  12,186
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

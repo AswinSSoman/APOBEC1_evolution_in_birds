@@ -1,0 +1,3 @@
+Location        #_hits  %_query_cov  %_identity  Lowest_evalue
+PPHD01121158.1  1       5            38.889      1.74e-04
+PPHD01001552.1  1       2.5          46.774      0.002

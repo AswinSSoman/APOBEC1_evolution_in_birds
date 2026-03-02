@@ -1,0 +1,2 @@
+NW_015090880.1	4587345	4587430	exon_1	1	-	NW_015090880.1	0	13250018	NW_015090880.1:1..13250018	.	+	RefSeq	region	.	ID=NW_015090880.1:1..13250018;Dbxref=taxon:198806;Name=Unknown;chromosome=Unknown;gbkey=Src;genome=genomic;isolate=Ruff;mol_type=genomic DNA;old-name=Philomachus pugnax
+NW_015091952.1	1513	2099	exon_3	1	+	NW_015091952.1	0	18721	NW_015091952.1:1..18721	.	+	RefSeq	region	.	ID=NW_015091952.1:1..18721;Dbxref=taxon:198806;Name=Unknown;chromosome=Unknown;gbkey=Src;genome=genomic;isolate=Ruff;mol_type=genomic DNA;old-name=Philomachus pugnax

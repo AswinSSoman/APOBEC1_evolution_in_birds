@@ -1,0 +1,106 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_004143745.1_ASM414374v1_genomic.fna
+           39,678 sequences; 1,017,524,032 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17280370868
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 120948431030
+
+
+Query= exon_3
+
+Length=544
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_022205345.1 Phasianus colchicus isolate SZU-A5-319 unplaced ge...  57.2       3e-06
+NW_022242647.1 Phasianus colchicus isolate SZU-A5-319 unplaced ge...  55.4       1e-05
+NW_022205324.1 Phasianus colchicus isolate SZU-A5-319 unplaced ge...  51.8       1e-04
+NW_022205427.1 Phasianus colchicus isolate SZU-A5-319 unplaced ge...  50.0       5e-04
+NW_022227755.1 Phasianus colchicus isolate SZU-A5-319 unplaced ge...  49.1       0.002
+NW_022205432.1 Phasianus colchicus isolate SZU-A5-319 unplaced ge...  49.1       0.002
+NW_022205380.1 Phasianus colchicus isolate SZU-A5-319 unplaced ge...  49.1       0.002
+NW_022205675.1 Phasianus colchicus isolate SZU-A5-319 unplaced ge...  48.2       0.002
+NW_022236985.1 Phasianus colchicus isolate SZU-A5-319 unplaced ge...  46.4       0.006
+
+
+
+Query_3  22       GGAGGAGCTGGAGGCGCAGGTGGCAGAGCTGCAGGCCAAGCTGGGCCCCAgcggcgaggcgggcgcggggctgcgtcgcgacgtggaggagctgggcgggcggctgcgggcCGAGCTGGTGGAG--GCACGGGGCCGGGCAGCGCAGTAC-GGGGCCGAGGCGCG---GGCCGTGCTGCAGCAGGGCGCCGAGGACCTGCGGAGCCGCCTGGCCGCCTACGCCCGCAAGCTGCGCAAGCGCCTGGCCAAGGACGCCGAGGAGCTGCGGAGCCGCCTGG-C  294
+27       243895                                                                                                                                                                                                                                                                      ......--...........C.  243877
+109      4829454                                                                                                                 .............GT..G........C..--...CC.C.G..........G...GGC...........                                                                                                       4829389
+62       4365061                                                                                                                                                                                                                                                                          ...........G..-.  4365047
+357      295569   .................T.CA...C...........                                                                                                                                                                                                                                                      295534
+
+Query_3  295      CGCC-gcggccggcgaggtgc--gggcccgggcggc--ggcg-ctgcacgaggggctgc-c--ggtgctgcggg-cgcc----gcc-gcg-gctg-gcggc----gctgggACAGGCGCTGGGCGAGCAGG--G---CC---GCCGGGTGCAGCGGGGGCTGCGGGAG--GCG----GTGCAGGAGCTGTGGG  452
+27       243876   ....T.G...T.T..-T....--...G...C.G...CG....-...TG.....C.....-.--.C..GC.....---------...-TG.-...C-..A..T---..G.A.C.T.......                                                                          243778
+37329    8596178             ....C.....CG............T--.CG.-AG..GG.C..C.G...-.CG...........G...G----..T-.G.C..A.-AG...-----..C.CC.C....GGCT...G..T.C--.GAA..---.......................                              8596045
+6        7503134                                                              .--.C......T.C-....----...-.AC-.--.-....-----..C...G.T..A..C.......GC..CG.---.G---....C.-..G....C...G.......--...----.C.GC....         7503039
+22437    467                                                                        ..G.....-..G.----..T-.G.-....-.G...TGGC........T...........T.A...                                                                411
+114      8309087                                                                           .-....----...C...-..-.-.....----.GG.A..GC...........G...----.---.G---......G..C.A...----.....C.--...----.                 8309159
+62       4365046  ...---G..G.....----T.--...T.....G.T.--T.G.-.C.G.G....CC.G..T.--..C........-..G.TCGG.G.-.G.-..G.C..T..----..G...C.GA...GA........T.C--.---..TCT..T.A.G..G..-.....A.....                             4364908
+31667    524                                     ....G--....G....GG...C......-G--..A........-A..T----..G-.GA-..C.-CG..A----A.C.C.---..A....C.G....T.--------------....A..C................CT...AGAAC...G.......C...  397
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 521358829182
+
+
+  Database: GCF_004143745.1_ASM414374v1_genomic.fna
+    Posted date:  Dec 17, 2021  7:19 PM
+  Number of letters in database: 1,017,524,032
+  Number of sequences in database:  39,678
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,32 @@
+[07;32m[K>exon_1[m[K	[03;04;32m[KLength:169[m[K | [03;04;32m[KIdentity:123/169(72.8%)[m[K | [03;04;32m[KSimilarity:123/169(72.8%)[m[K | [03;04;32m[KGaps:21/169(12.4%)[m[K | [03;04;32m[KScore:515.0[m[K
+	
+  
+  APOE_Rhea_pen      1 ---------------------ATGAAGCTCTGGGTTGCGCTGCTGGGAGCCACCCTGCTTGCAG---------------------     43
+                                            |||||||||||||||||||||||||||||..||||||||||||                     
+  extracted_fla      1 ACCCCAGGTGAAGGCGCTGCCATGAAGCTCTGGGTTGcgctgctgggagctgccctGCTTGCAGGTGAGCGCCAAGCCCCGTGca     85
+
+
+[07;32m[K>exon_2[m[K	[03;04;32m[KLength:169[m[K | [03;04;32m[KIdentity:123/169(72.8%)[m[K | [03;04;32m[KSimilarity:123/169(72.8%)[m[K | [03;04;32m[KGaps:21/169(12.4%)[m[K | [03;04;32m[KScore:515.0[m[K
+	
+  
+  APOE_Rhea_pen      1 ---------------------GCTGTGGGGCCGAGCTGGGCCCTGAGGAGCCGCGGGCCGGCTGGGAAGCGGCTGTCGACGCCTTCTGGGAGTACGTGGCCCAGCTGGGGCATGCGGTGGAGAACGGCACTGTGCGTGTGAAGAGCGCCCAGATTGGCCGCAAGCTTGA    148
+                                            ||||.|.||||||||.||||...||||..||||..||||..|||||||.|||.||.||||||||||||.||||||||||||||||||||||.|||||||||||||||||||..||.||.|||||||||.||||.||||||.||||.||
+  extracted_fla      1 CATGTGGCCGGGCCGTTGTAGGCTGCGTGGCCGAGCCGGGCGACGAGGCTCCGCAAGCCGCATGGGAAGGGGCCGTTGACGCCTTCTGGCAGTACGTGGCCCAGCTGGGGCAGGCGGTGGAGAACGGCACTGCACGCGTCAAGAGCGCCGAGATCGGCCGCGAGCTGGA    169
+
+
+[07;32m[K>exon_3[m[K	[03;04;32m[KLength:169[m[K | [03;04;32m[KIdentity:123/169(72.8%)[m[K | [03;04;32m[KSimilarity:123/169(72.8%)[m[K | [03;04;32m[KGaps:21/169(12.4%)[m[K | [03;04;32m[KScore:515.0[m[K
+	
+  
+  APOE_Rhea_pen      1 CGGCCTCATCGC----------GGAGAC---CATGGCAGAGCTGGAGGCGC-------AGGCGGTGGAGCTGCAGGCCCAGCTGGGCCCTGGTGGCGAGGCCAGCGTGGGGCTGCAGCGCGA---CGTG-------GAGGAGCTAGGTGGGCGGCTGCGGGCTGAGATGGC--GGAGGCACGGGGCCGG-------GTGGCGCAGTACGGCGCCGAGGCACAGGCC-GTGCTGCAGCAGG    200
+                                 ||          ||||.|   |..|||.||||.||||.|||       ..||||.||.|||||.||.|     ||||        ||.|.|||||      |||| ||| ||   ||.|       |.||.|||.||||.|||.|.||      ||..|.|  ||.|||.|||||||||       | |||||   .||||||.|.||.|   ||| ||||..|..|.||
+  extracted_fla      1 ----------GCGAGCCGGGAGGGAGCCGCGCGAGGCCGAGCCGGAGCCGCCTGCCCGGCGCGGGGGGGCTGCGGGAC-----GGGC--------CGCGTCCAGC------CTGC-GCG-GACCCCGGGGGCCTCCGCGGGGCTTGGTGTGCGCCCGC------AGCAGCCCtgggggcgcggggccggcgctcGAG-ggcgc---ccggcgcggggggA---GCCGGTGCCCCGCCGGG    196
+  
+  APOE_Rhea_pen    201 GCGCTGAGGACCTGCGTGGCCGCCTGGCC-GCCTAC---ACCCGCAAGCTACGCAAGCGCCTG----GCCAA--GGACACCGAGGAGCTGCGGAGCCGCCTGGCCGCC----------------GCC------GCCAGCAAGGTG----CAG-------GCGCGGGTG--------------GCGGAGCGGGCGGCAGCA-CTGCGCCAGGGGTTGCCG---CCGCTGCGGGCGGCCCCT    379
+                       ||            ||||.|.|||..||| ||.|.|   .|||||      .||||    |||    ||.||  .|||..|   |.|||||   |.|||||.| ||||                |||      ||||.|   |||    |||       |||||..||              ||.||||||||||||||| |||.|.|||||...||||   |.||.||||||||||||.
+  extracted_fla    197 GC------------CGTGCCAGCCCAGCCGGCGTGCGGAGCCCGC------GGCAA----CTGTTCCGCTAATGTGACTTC---GCGCTGC---GACGCCTCG-CGCCCCGGGTTTTGCACCGTGCCTTTCATGCCACC---GTGTCACCAGCTCTTTAGCGCGTTTGTGGCACGCGCCACAGCTGAGCGGGCGGCAGCACCTGGGGCAGGGACAGCCGTgccggcggcgggcggccccg    404
+  
+  APOE_Rhea_pen    380 CGGCTGGC-AGCGCTGGGGCAG---------------------------GTGCTTGGCGAGCAGGGCC--TCCGGGTGCAGCAGGGGCTGCAGGAGGCGGTGCA-------GGA----GCTGCGGGCCTC--------GCTGGATGGTGCCGTGCAGGGGCTGCGGAGCTGGCTGGCTGCGCTGCTGCCCAACGTGCCGCT--GCTGCTCG----------ACGGCCCCAAGCCTTGA    556
+                       |||  ||| ||||  |.||.||                           .|||.|||      |||||  ||.|||.||..|  |.|||.|  |.|.||||.||       |||    |||||  ..|||        |||||||..|||  |.|.|||||         ||.||||.|         |||| |..||.||  ||.||.||          .|||.|||...|||   
+  extracted_fla    405 cgg--ggcgaGCG--GCGGGAGtctcgcctcgcctcgcctcgcctcgccttGCGTGG------GGGCCTTTCGGGGGGCTCC--GTGCTCC--GGGCCGGTTCAGCCCGGGGGACTTTGCTGC--ATCTCCATATAAGGCTGGATTTTGC--TCCCGGGGC---------GGGTGGCAG---------CCAA-GCCCCCCTTGGCAGCACGGAGAGCCGGATCGGgcccttccct---    602
+
+

@@ -1,0 +1,104 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_013396635.1_ASM1339663v1_genomic.fna
+           12,091 sequences; 1,027,970,763 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17470158749
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 122286794756
+
+
+Query= exon_3
+
+Length=544
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+WBMW01004128.1 Penelope pileata isolate B10K-DU-001-08 scaffold25...  51.8       1e-04
+WBMW01001862.1 Penelope pileata isolate B10K-DU-001-08 scaffold12...  50.9       5e-04
+WBMW01006476.1 Penelope pileata isolate B10K-DU-001-08 scaffold32...  49.1       0.002
+WBMW01005777.1 Penelope pileata isolate B10K-DU-001-08 scaffold14...  48.2       0.002
+WBMW01003753.1 Penelope pileata isolate B10K-DU-001-08 scaffold40...  48.2       0.002
+WBMW01001487.1 Penelope pileata isolate B10K-DU-001-08 scaffold26...  48.2       0.002
+WBMW01003367.1 Penelope pileata isolate B10K-DU-001-08 scaffold25...  46.4       0.006
+WBMW01002490.1 Penelope pileata isolate B10K-DU-001-08 scaffold44...  46.4       0.006
+
+
+
+Query_3  34      GGCGC-AGGTGGCAGAGCTGCAGGCCAAGCTGGGCCCCAgcggc-gaggcgggcgcggggctgcgt-cgcg---acgtggaggagctgggcgggcggctgcgggcCGAGCTGGTGGAGGCACGGGGCCG-GGCAGCGCAGTACGGGGCCGAGGCGCGGGCCGTGCTGCAGCAGGGCGCCGAGGACCTGCGGAGCCGCCTGGCCGCCTACGCCCGCAAGCTGCGCAAGCGCCTGGCCAAGGACGCCGAGGAGCTGCGGAGCCGCCTGGCCGCCgcggccgg  306
+4127     153820                                                                                         ....C..G......A...A......C...-............-...                                                                                                                                                     153863
+1861     40552                                                                                                                         .....C...G.T..G.....G.--..................G....G....G...                                                                                                            40499
+6475     4258    .....G..C....C...................C....                                                                                                                                                                                                                                                    4221
+6475     6892                      .............-.A....G.T...T....-A........A.C..C.G....GGC..............C..                                                                                                                                                                                               6822
+5776     236527                                                                                                                                                                                                                                                        .........A.G...AT---...-.....C.T..  236498
+1486     29359     ...-.........C..........C.......                                                                                                                                                                                                                                                        29389
+2489     3033           ......C...................--......                                                                                                                                                                                                                                                 3002
+
+Query_3  307     c-gaggtgcgggcccg-ggcg--gcggcg-ctgcacgaggggctgcc-ggtgctgcgggcgccgccgcg------g---ctggcggcgctgggACAGGCGCTGGGCGAGCAGG--GCCGCCGGGTGCAGCGGGGGCTGCGGGAGGCGGTG  439
+5776     236497  .C.......T..AG..T....AG.T....G...A.G..CC--.....C..A....GC..A.AG.G....------.GAG...CG.......T.GG...T....A.G...G...TG.....GC..--......A.............      236362
+3752     29159                                                                                                                   .--.........G..G...........C.....G....  29124
+3366     69707                          ..A...-.G.....--.A.....T-..............A..T...CGAGGC.---.G...C.A....---......---.........--------.A..C..---.........A......      69609
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 527156718246
+
+
+  Database: GCA_013396635.1_ASM1339663v1_genomic.fna
+    Posted date:  Oct 17, 2020  11:44 AM
+  Number of letters in database: 1,027,970,763
+  Number of sequences in database:  12,091
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

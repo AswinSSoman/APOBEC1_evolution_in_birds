@@ -1,0 +1,86 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_001700915.1_Passer_domesticus-1.0_genomic.fna
+           2,301 sequences; 1,042,720,703 total letters
+
+
+
+Query= exon_1
+
+Length=181
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 158483404048
+
+
+Query= exon_2
+
+Length=151
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 127203784828
+
+
+Query= exon_3
+
+Length=634
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM004537.1 Passer domesticus isolate 8887266 chromosome 10, whole...  48.2       0.002
+
+
+
+Query_3  80        GAGGCCCAGCAGCGCCTGGGC-AGCGAGGTGGAGGCGCTGACGGGGAAGCTGCGGGCCGACATGGAGGAGG  149
+9        20327118  .....T.G........C..C.G....-.C............--....G...CT......-..C..T.....  20327052
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 628717571316
+
+
+  Database: GCA_001700915.1_Passer_domesticus-1.0_genomic.fna
+    Posted date:  Sep 20, 2020  8:52 PM
+  Number of letters in database: 1,042,720,703
+  Number of sequences in database:  2,301
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

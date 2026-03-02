@@ -1,0 +1,8 @@
+[07;32m[K>exon_2[m[K	[03;04;32m[KLength:232[m[K | [03;04;32m[KIdentity:89/232(38.4%)[m[K | [03;04;32m[KSimilarity:89/232(38.4%)[m[K | [03;04;32m[KGaps:120/232(51.7%)[m[K | [03;04;32m[KScore:203.5[m[K
+	
+  
+  APOE_Podarcis      1 ---------------------GCTCCTTGGCCAACCCTGTCCCGGAA---GAAGG-GACAA----AATCCAAATGGGAGGAGACGGTGGATGTCTTCAGGGACGTAGTGACCAGGATTGGGGATGCGGCTGATGATGCCACTGCTCA---------GATCAAGAGTTCACAGC------TCAGCAA---------GGAACTGGA----------------------------    151
+                                            ..||||||        ||||..|..|   |.||| |||.|    |.||||||||||||||||||||||||| |||                        |..|||..|..||| || |||||||||         |.||||    ||..|||      |.||.||         .||..||||                            
+  extracted_fla      1 ataataataacaattattattattccttg--------tGTCTAGTGACTCGTAGGAGACTATTTGACTCCAAATGGGAGGAGACGGTGGATG-CTT------------------------GTCTGCCTCCCATG-TG-CACTGCTCAGTCTTTCTTGCTCAA----TCCTAGCAATGTGTTAGAAAATGCTCCTCCGATGTGGAGTTGGGTGGGTACGTGGGTAAAACCTCT    193
+
+

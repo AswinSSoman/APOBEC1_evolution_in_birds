@@ -1,0 +1,111 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_009819795.1_bAytFul2.pri_genomic.fna
+           105 sequences; 1,127,004,725 total letters
+
+
+
+Query= exon_1
+
+Length=76
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 54096085680
+
+
+Query= exon_2
+
+Length=66
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 42826067830
+
+
+Query= exon_3
+
+Length=190
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 180320252000
+
+
+Query= exon_4
+
+Length=718
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_045580.1 Aythya fuligula isolate bAytFul2 chromosome 22, bAytF...  50.0       7e-04
+NC_045576.1 Aythya fuligula isolate bAytFul2 chromosome 18, bAytF...  48.2       0.002
+
+
+
+Query_4  177       GCGAGGTGCAGGCCATGCTGGGCCAGTCCACCGAGGAGCTGCGGGCCCGCATGGCCTCCCACCTGCGCAAGCTGCGCAAGCGGCTGCTCCGCGACGCTGACGACCTGAAGAAGCGCCTGGCCGTCTACCAAGCTGGGGCCAGCGAGGGTGCCGAGCGCAGCTTGAGCGCCATCCGCGAGCGCTTCGGGCCCCTGGTGGAGCAGGGCCAATCGCGGGCAGCCACCCTGAGCACCCTGGCCGGCCAGCCGCTGCTGGAGCGT-GCCG-AGGCCTGGCGCCAG  454
+21       6492817                                 .............C......C.....A..A.....GAGG........                                                                                                                                                                                                             6492771
+21       6493177   .....C.........A....A...CC.A.G.............                                                                                                                                                                                                                                               6493135
+17       12665256                                                                                                                                                                                                                                                            .........GC....C.A..--.....G..  12665229
+
+Query_4  455       AAGCTGCACGGGCGCCTGGAGGAGGTGGGCGTCCGGGCC  493
+17       12665228  CG.....G.C....G.A..............G.G.....  12665190
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 774250009890
+
+
+  Database: GCF_009819795.1_bAytFul2.pri_genomic.fna
+    Posted date:  Jan 12, 2022  2:13 AM
+  Number of letters in database: 1,127,004,725
+  Number of sequences in database:  105
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

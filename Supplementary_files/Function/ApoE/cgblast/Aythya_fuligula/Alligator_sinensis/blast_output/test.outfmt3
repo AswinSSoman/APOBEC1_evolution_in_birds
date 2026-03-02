@@ -1,0 +1,87 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_009819795.1_bAytFul2.pri_genomic.fna
+           105 sequences; 1,127,004,725 total letters
+
+
+
+Query= exon_1
+
+Length=46
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 21413035910
+
+
+Query= exon_2
+
+Length=136
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 120589179760
+
+
+Query= exon_3
+
+Length=577
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_045578.1 Aythya fuligula isolate bAytFul2 chromosome 20, bAytF...  46.4       0.007
+
+
+
+Query_3  342      AGGACCTGGAGCCGCTG---CGCGAGAAGGGGCAGCAGCGCCTGGCGGCCCTGCAG  394
+19       8101673  ..A.........G.A..GTG..G.......A.A..G..AT................  8101728
+19       8107581  ..A.........G.A..GTG..G.......A.A..G..AT................  8107636
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 615342802620
+
+
+  Database: GCF_009819795.1_bAytFul2.pri_genomic.fna
+    Posted date:  Jan 12, 2022  2:13 AM
+  Number of letters in database: 1,127,004,725
+  Number of sequences in database:  105
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,111 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_022539315.1_serCan2020_genomic.fna
+           685 sequences; 1,050,352,878 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17855696156
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 124989628547
+
+
+Query= exon_3
+
+Length=544
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_066329.1 Serinus canaria isolate serCan28SL12 chromosome 15, s...  54.5       4e-05
+NC_066318.1 Serinus canaria isolate serCan28SL12 chromosome 4A, s...  51.8       1e-04
+NC_066331.1 Serinus canaria isolate serCan28SL12 chromosome 18, s...  50.9       5e-04
+NC_066341.1 Serinus canaria isolate serCan28SL12 chromosome 28, s...  50.0       5e-04
+NC_066324.1 Serinus canaria isolate serCan28SL12 chromosome 10, s...  50.0       5e-04
+NW_026108279.1 Serinus canaria isolate serCan28SL12 unplaced geno...  47.3       0.006
+NW_026108225.1 Serinus canaria isolate serCan28SL12 unplaced geno...  47.3       0.006
+NC_066340.1 Serinus canaria isolate serCan28SL12 chromosome 27, s...  46.4       0.006
+NC_066321.1 Serinus canaria isolate serCan28SL12 chromosome 7, se...  46.4       0.006
+NC_066316.1 Serinus canaria isolate serCan28SL12 chromosome 3, se...  46.4       0.006
+
+
+
+Query_3  28        GCTGGAGGCGCA-GGTGGCAGAGCTGCA-GGCCAAGCTGGGCCCCAgcggcgaggcgggcgcggggctgcgtcgcgacgtggaggagctgggcgggcggctgcgggcCGAGCTGGTGG--AGG-CACGGGGCCGG-GCAGC-GCAGTACGGGGCCGAGGCGCGGGCCGTGCTGCAGCAGGGCGCCGAGGACCTGCGGAGCCGCCTGGCCGCCTACGCCCGCAAGCTGCGCAAGCGCCTGGCCAAGGACGCCGAGGAGCTGCGGAGCCGCCTGGCCGCCgc  300
+5        3390012   ........G...A.............A.G.............                                                                                                                                                                                                                                                3389971
+12       1126277                                                                                  ...........A.GCA..A....A.....CT....AG.A--..CA........A..A.GG..A....G.............T...                                                                                                                      1126359
+109      4241                                                                                                                                                                                                                                                           ..G...............GCG.TG....-A.G...  4208
+3        89311439                                                                                                 ........C.....G..C.CC..GC...-GC....-.A..-.....-....G.-T......-...-.......G....GG..G...G...                                                                                                 89311357
+
+Query_3  301       ggccggcgaggtgcgggcccgggcggc-gg-cgctgcacgagg-ggctgc-cggt-gctgcggg--cgc---cgccgcggctggcggcgc--tgggACAGGCGCTG---GGCG---AGC---AGG-GCCG----CCGGG--TGCAG-CGGGGGCTGCGGGAGGCGGTGCAGGAGCTGTGGG  452
+17       9896135                                         .....A......-...CA..G.....--GC.---..G..G..TGA.......GG.....---..-...---...C-----.---...-.AG.----.T...GG....AA................-.A...G........     9896023
+19       2003778                       ....T..A..-G......---..-......-A..G-........--A..---T..A.GA....CA..G..--..C.GG..AT..A.---.AGA---T..---...A.AT.----.A...---..T.-.A............---.A......G....      2003656
+19       2003520                                           ...-...C..-G..A-........--A..---T..A.G.....CA..G..--..---....G....---CAG.---...---T.-----------.A..--A..T.-.A............---.A......G....C...  2003419
+19       2003510                                            ..-A.....-G..A-.....A..--G..---T..A.G.....CA..G..--..---....A....---CAG.---...TGC...-.G.T----G....--A.AT.-.A.............                     2003417
+29       1667348                                                                                                      .....G.---....CGG...---...-CG..----GGA.C--...G.-...C..............C..G......A.C...  1667281
+12       3895377                     ......A..-..G......TG...C-......-G..--..-.A.T.--..T---G...----....A..A..--..CTG.T..A....CAG.C..---...---.C.-.G.A----.AT..--C.G..-...CA..G.............G..            3895256
+12       13219168                                                                                                                                               .....-.............T..A..G........        13219136
+163      6693                                                                                                           .....---TT..---...---T..-....GAAC.....GG.....-....C...........A.C...G..           6752
+109      4207      ......A.C.----C....G....-----.-.....GCG....-A.....G...G-..C.A...CA...---T..T........A....                                                                                              4134
+28       2589278                                                                                                          ...---.T..---G..---C..-....----.....--...C.-.......GCA...C....                  2589322
+8        6307609                                                              .....--...AGG..G...T..G........--..C.G.G.....G.C--...C---..G---.T.-TAGC----....C--...T.-..........                          6307686
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 538820132859
+
+
+  Database: GCF_022539315.1_serCan2020_genomic.fna
+    Posted date:  Oct 18, 2022  12:33 PM
+  Number of letters in database: 1,050,352,878
+  Number of sequences in database:  685
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,24 @@
+[07;32m[K>exon_2[m[K	[03;04;32m[KLength:212[m[K | [03;04;32m[KIdentity:100/212(47.2%)[m[K | [03;04;32m[KSimilarity:100/212(47.2%)[m[K | [03;04;32m[KGaps:86/212(40.6%)[m[K | [03;04;32m[KScore:221.0[m[K
+	
+  
+  APOE_Dromaius      1 ------------------GCTGCAGGGC-TGAGCAGGGCCCCGAGGAGCCGCGGGCCGGGTGGGAAGCGGCCGTCGACAGCTTCTG------------------GGAGTACGTGGCCCAGCTGGGGCAGGCGG-TGGAGAAC--GGCACC----------GCAC-GCGTGAAGAGCTCCGA----GATCGGCC-GC-CAGCTC----GA---    148
+                                         |.|.||.|.| |.|.|||    .|.||||.||     |||.||       |.||..|||||...||||                  |||||||.||||.|||||||||||||||| ||     |  ||||||          ||.| ||.||||| ||..|||    ||.|..|| || ||||.|    ||   
+  extracted_fla      1 ACGTCTCCGTCCAGAAGTGGTACAAGACGTCACCAG----ACCAGGACCC-----CCGTGT-------GCCCCCCGACAAGATCTGGTCAAACAAGCAGTTCCAGGAGtacctggcacagctggggcaggcGGATG-----CTTGGCACCAGGTGCTGGTGCCCGGCATGAAG-GCGGCGATCCTGAACTCCCTGCGCAGCGCCCGGGACCG    190
+
+
+[07;32m[K>exon_3[m[K	[03;04;32m[KLength:212[m[K | [03;04;32m[KIdentity:100/212(47.2%)[m[K | [03;04;32m[KSimilarity:100/212(47.2%)[m[K | [03;04;32m[KGaps:86/212(40.6%)[m[K | [03;04;32m[KScore:221.0[m[K
+	
+  
+  APOE_Dromaius      1 -CGGCCTCATCGCAGA-GACCATGGAGGAGCT-GGAGGCGCAGG-TGG----------CAGAGCTGCAGGCCAAGCT--------------GGGCC-------CCAGCG-GC--------GAGG--------------CGGGCGCGGG-GCT-GCGTCGCGACGTGG---AGGAGCTGGGCGGGC---------------------------GGCTGCGG--GCCGAGCTGGTGGAGGCA    148
+                        ||||       .||| |    |||.||.||| |||.|||  || |||          .|||||||||||   ||||              |||.|       ||.||| ||        ||||              |.|||||||| ||| |||..||..|| ||   ||||||||..|||||                           ||||||||  ||  ||||||.||||   
+  extracted_fla      1 CCGGC-------AAGATG----TGGCGGCGCTGGGAAGCG--GGATGGGACGAGaagagagagctgcagg---agctcaaCTCCCGCCTGCGGGTCTTCGTGACCCGCGTgcgggagctggaggaggagaaccGCTTTCTGGCGCGGGAGCTGGCGGAGCTGCG-GGAGCAGGAGCTGATCGGGCTCCAGGTGCCCgagcaggagctggcctggctgcggatgc--agctggaggag---    218
+  
+  APOE_Dromaius    149 CGGGGCCGGGC--AGC--GCAGTACGGGGCCGAGGCGCGGGCCGTGCTGCAGCAGGGCGC-CGAGGACCTGCGGAGCCGC-CTGGCCGCCTACGCCCGCAAGCTGCGCAAGCGCCTGGCCAAGGACGCCGAGGAGCTGCGGAGCCGCCTGGCCGCCGCGGCCGGCGAGGTGCGGGCCCGGGCGGC-GGCGCTGCACGAGGGGCTGCCGGTGCTGCGGGCGCCGCCGCGGCTGGCGGCGCT    381
+                       |.|.|||||||  |||  |.||  |||.||  .||.|||||.||.|||||.|| |||.|| .|||||.||||||    || ||||.|||..|.|      .||||.|||                           |||||.|.||||||| .|||        ||||.|    |.||||||.|| ||||||||..|||.||||| |||.|| |.|.|||..|||    ||||.||.|||
+  extracted_fla    219 ctgagccGGGCGAAGCTGGAAG--CGGAGC--TGGAGCGGGACGGGCTGCGgc-gggagctggaggagctgcgg----GCGCTGGGCGCGGAGG------TGCTGGGCA---------------------------TGCGGCGGCGCCTGG-AGCC--------CGAGCT----GGCCGGGCAGCGGGCGCTGCTGGAGCGGCTG-CGGGGC-GAGTGCGTggcc----ctggaggagct    397
+  
+  APOE_Dromaius    382 GGGACAGGCGCT---GGGCGAGCAGGGCCGCCGGGTGCAGCGGGGGCTGCGGGAGGCGG------TGCAGGAGCTGTGGGCCTCGG-TGGAC---GGCGTCCTGCAG------------GGGCT---CCTGG----GCTGG-------CTGACGATGCTGCTGCCC------AGCT--------CCCCAGCACTGCGCGACGCCCCCAAGCCTTGA    544
+                       |...|.||.|||   ||.||||||.||.|.|..||.|.|||||..||.|||||||||||      |||.|||||||       ||| ||.||   |.||.|.|||.|            |||||   |||||    |||.|       || |||| |.||||||.|      ||||        .|||.|  ||||||                  
+  extracted_fla    398 gctgctggagctgcaggccGAGCACGGGCACATGGCGGAGCGGCAGCGGCGGGAGGCGGTGGAGATGCGGGAGCTG-------CGGCTGAACCTGGCCGCCTTGCCGCCCCCCTTGGCCgggctgagcctggaggagCTAGAGGAGACCT-ACGA-GATGCTGCTCAACCAGAGCTGCCGGGAGACCCTG--CTGCGC------------------    584
+
+

@@ -1,0 +1,39 @@
+########################################
+# Program: needle
+# Rundate: Tue 19 Nov 2024 00:29:23
+# Commandline: needle
+#    -asequence APOE_Rhea_pennata_exon_2.fa
+#    -bsequence extracted_flanking_region_exon_2.fa
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile pairwise_exon_2.aln
+#    -awidth3 10000
+# Align_format: srspair
+# Report_file: pairwise_exon_2.aln
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: APOE_Rhea_pennata_exon_2
+# 2: extracted_flanking_region_exon_2
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 211
+# Identity:     103/211 (48.8%)
+# Similarity:   103/211 (48.8%)
+# Gaps:          84/211 (39.8%)
+# Score: 250.0
+# 
+#
+#=======================================
+
+APOE_Rhea_pen      1 ---------------------GCTGTGGGGCCGAGCTG-GGCCCTGAGGAGCCGCGGGCCGGCT-------------GGGAAGCGGC--TG-TCGAC--------GCCTTCTGGGAGTACGTGGCC-------CAGCTGGGGCATGCGGTGGAGAACGGCACTGTGCGTGTGAAGAGCGCCCAGATTGGCCGCAAGCTTGA----------    148
+                                          ||||.||||||| ||.| |||||||||||||||.||||.||||             ||||||..||  || |||.|        |||.||.|      ||.||||       |.|||  |||| ||||    |..|||.||.| ||| |.|..|||.|||..|   |||||  .||..||          
+extracted_fla      1 gaaggggcagcgcggggctggGCTGAGGGGCCG-GCGGTGGCCCTGAGGAGCCGAGGGCTGGCTGTGGGTTAAGGAGGGGAAGGCGCGTTGCTCGCCGCCACCCTGCCCTCCG------CGGGGCCGGGCGTGCCGCT--GGCA-GCGG----GGCCGGTACCG-GCG-GGGCTGAGGGCCGGG---GGCCG--GGCCGGAGCAGCCCCGC    190
+
+
+#---------------------------------------
+#---------------------------------------

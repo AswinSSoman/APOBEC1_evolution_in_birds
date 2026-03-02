@@ -1,0 +1,67 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_019238085.1_USGS_WTPT01_genomic.fna
+           7,343 sequences; 1,016,020,572 total letters
+
+
+
+Query= exon_1
+
+Length=200
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 173703103875
+
+
+Query= exon_2
+
+Length=685
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_024962282.1 Lagopus leucura isolate 7727_CA_CO unplaced genomi...  50.0       6e-04
+
+
+
+Query_2  454      GCAGCTGCGCGGGCGGCTGGACGAGGTGCGCGAGCAGGTGGAGGAGATGCGG  505
+32       5708466  ....G..G.....................TGC..G..A...C..C.C.....  5708415
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 664328582106
+
+
+  Database: GCF_019238085.1_USGS_WTPT01_genomic.fna
+    Posted date:  Oct 28, 2021  6:44 PM
+  Number of letters in database: 1,016,020,572
+  Number of sequences in database:  7,343
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

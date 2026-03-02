@@ -1,0 +1,39 @@
+########################################
+# Program: needle
+# Rundate: Tue 19 Nov 2024 01:28:42
+# Commandline: needle
+#    -asequence APOE_Dromaius_novaehollandiae_exon_3.fa
+#    -bsequence extracted_flanking_region_exon_3.fa
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile pairwise_exon_3.aln
+#    -awidth3 10000
+# Align_format: srspair
+# Report_file: pairwise_exon_3.aln
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: APOE_Dromaius_novaehollandiae_exon_3
+# 2: extracted_flanking_region_exon_3
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 692
+# Identity:     341/692 (49.3%)
+# Similarity:   341/692 (49.3%)
+# Gaps:         252/692 (36.4%)
+# Score: 700.5
+# 
+#
+#=======================================
+
+APOE_Dromaius      1 -----------------------------------CG---GCCTCATCGCA-GAGACCATGG--AGGA-------GCTGGA--------GGCGCAGGTGGCAGAGCTGCAGGCCAAGCTGGGCCCCAGCGGCGAGGCGGGCGCGG--GGCTGCGTCGCGACGTGGA-GGAGCTGGGC-GGGCG-GCTGCGGGCCGAGCTGGTGGAGG------CACGGGGCCGGGCAGCGCAGTACGGGG-----------CCGAGGCGCGGGCCGTGCTGCAG--CAGGGCGCCGAGGACCTGCGGAGCCGCCTGGCCGCCTACGCCCGCAAGCTGCGCAAGCGCCTGGCCAAGGACGCCGAGGA----------GCTGCGGAGC-CGC-CTG-GCCGCCGCGGCCGGCGAGGTGCGGGCCC---GGGCGGCGGCGCTG-CACGAGGGGCTGCCGGTGCTGCGGGCGCCGCCGC-GGCTGGCG----GCGCTGGGA--CAGGCGCTGGGCGAGCAGGGCCGCCGGGTGCAGCGGGGGCTGCGGGAGGCGGTGCAGGAGCTGTGGGCCTCGGTGGAC--------GGCGTCCTGCAGGG---GCTC-CTGGGCTGGCTGACGATGCTGCTGCCCAGC-TCCCCAGC-----ACTGCGCGACGCCCCCAAGCCTTGA--------------------------    544
+                                                        ||   .||| .|.||| ||.||   ||  ||||       ||.|||        |||...||.||..|||||    |||.||||  |||.||||||.||.|| |.|.|||  |||.|||..||.||  ||| |||||.|.|| ||||| ||.||||||.|.||.||||...|      ||| ||||.||||         |||.|           |||    ||.|||||||    ||  |.||||||.|....|||.|||                        |||  |||| ||.||  ||||..||.|||||.|.|          ||.|||.||| ||| ||| ||..||.||.||.||    |||.|..||   .||| ||||.||.| ||||.|||||..|    ||..||.||.||||||| |.|..|||    .||| ||||  |||.|     |||.||.|..|||||     ||.|.|.|||.|.|.||..|||.|  |||| .||||     |||||||        ||||.|..||.|.|   |||| .|||||  ||.|.||     |.|.||..|| ||||  ||     .|||| |||||      ||||.|||                          
+extracted_fla      1 TTTCTTAGTACTTGGAGAAAGAAGGGCTTTTGTTCCGTTTTCCT-GTGGCACGAAAC---GGGAAGGACGGGACGGCGGGATGGGAGCGGGCTGGGGCGGGGGAGCT----GCCGAGCT--GCCGCAGCGGGGATGC-GACCCGGCAGGCGGCGGAGCCAC--GGACGGAGCCGCGCAGGGCGCGCCGCGGGCGGGGCCGGTGTCTGTCTCCTCAC-GGGCGGGGC---------CGGTGTGTGTCTCCTCCCG----GCCGGCCGTG----AGCCCCGGGCGCTGCTCTCCTTCGG------------------------AAG--GCGC-AGTGC--GGCCGTGGGCGCCGTGCAGCGCTGTAACGCAGCGCAGCGCGCTCTGAGCTCCCACGTCCCGC----TGCAGATCCTTACGGC-GCGGAGCAGTCACGCGGGGCCAC----GCGACGCGCACCGCCGCAGCCCCGCGACCCACGC-GGGACGCAGcc-----gcgcgcggccccgcc-----cACCCGCGGCGGAGCGAACCGGGG--GGAG-GGTGG-----GGTGGACCCCCGCGGGGCGGCGCGCCGCGCACGCTCATTGGGC--GCCGCCG-----GTTTCCTCGCGTCCC--GCTATTGGCTGC-CGACG------AGCCGTGACGTCACGGGGCGCGCCTTCTGTGATT    588
+
+
+#---------------------------------------
+#---------------------------------------

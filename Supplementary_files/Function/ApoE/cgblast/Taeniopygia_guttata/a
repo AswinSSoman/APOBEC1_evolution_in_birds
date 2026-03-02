@@ -1,0 +1,100 @@
+  [01;04;07;35m[K- EXON ALIGNMENTS[m[K
+  - [01;04;38m[KAlligator_sinensis[m[K
+     [07;32m[K>exon_1[m[K
+     
+       APOE_Alligato      1 --------------------ATGAG-GGTCTGGACCGTGCTGCTCGGAGCCGTGCTGCTGCTG-------------GCGG--------     46
+                                                ..|.| |||||.|.|||||||||||.|.||||..|||||||||             ||||        
+       extracted_fla      1 ggccccgcgccgcgcccgcctCGCGCGGTCTTGGCCGTGCTGCTCTGTGCCGCCCTGCTGCTGTCGCTGCCTGTGAGCGGCGCCGGCG     88
+     
+     [07;32m[K>exon_3[m[K
+     
+       APOE_Alligato      1 ------------CATGCTGATC-AAGG-ACAT-----------------------GGTGGCGGAGCTGCAGGCGTA-CAGAAAGGA-----CG-TGGA-----AGAACGGCTGGGCCCGC---ACGC---GGTGG-TGATGCG--GGAGCGGCT------GCATACAG--ATGTGACGGTGCTGGGCGAGCGGCTGCGTGTTGACATGGAGGAAGCCAAGACCCGGGTGCAGCAGTACCT    174
+                                        |||||   || |||| ||||                       ||||  .||||.||||..|.| ||| .||||     || ||||     ||  ||||   |||.||   ||||   ||||| |||.|.|  |||||||||      |||..|||  |         |.|||||   .|||||.|    |.|.|||.|           |.|||.|||||    |||
+       extracted_fla      1 GAGAAGAGACCCCATGC---TCGAAGGCACATCCCTGGAGTGTCTGTGCCCCACaggtg--tgagcagcagctggagcag-gaggagcaggcgCTGGAGCTGCAG--CGGC---GCCGGCTCTACGCCGAGGTGGCTGAGGAGAAGGAGCGGCTGAGCCAGCAAGCAGCCA---------GGTGGGC---AGGCTGgg----ggcctgggg-----------ctgggggcagc----cct    198
+       
+       APOE_Alligato    175 G---GGTGAGGCTCGCCAAGTGGC-----GGGCCAGA--ACC--TGGAAGATGTGCGCAGCCGCGTGGGCACCTACTTGCGCAAGCTGCGCAAGC---GTCTGGCCAAG---------GACACAGAGGAGCTGCGCCGCAAGCTGGAGGCCTACAGTGCGGAAGCCACCCGGCACCTGGAGACCG-TGCGCGAGGACCTGGAGCCGCTGCGC----GAGAAGGGGCAGCAGCGCCTGGCG    385
+                            |   .|||.||||       .|||     ||||||||  .||  .||||||.|.||         |||         ||.|.|.||||.|  |||   |||||..||.|         ||..|||||||||||||.||..|||||||||||.||||..|||....|||||||          .|| ||||   ||||   |||    |..||    |||||||.|.||||| |...||||
+       extracted_fla    199 gagctgtggggct-------gggctcccTGGGCCAGATTTCCGTGGGAAGAGGGGC---------TGG---------TGTGGATGCTggg--agctgtgtctgtgcaggcagcgagcagaggcagaggagctgcgGCGGCAGCTGGAGGCCAACAGCTCGGCCCTCACCCGG----------GCGCTGCG---GGAC---GAG----TATgccaaggagaaggaggagcag-gagaggcg    390
+       
+       APOE_Alligato    386 GCCCTGCAGCAGG---CATT--GCGTGACCAGGGCCAGCGCTTGCGTGAGCAGCTGGAGGTGCGCGCCCAGGATATGCGTGGCTC-------CCT-GGACC------GCGCAGC--CACGCAG-CTGCAAGAGTGGCTC---GAA---------------CCCTTCCTTGCGGACATCCGCAC--CCAGA--TGCAGGGGCTGCTGGACAAGCT------------GCAGGCCAAGGAG-    568
+                                 |||.||||   .|||  .|.|.|||   .|||||.|||   ||          |||||                ||||.|       ||| |||||      |.|||||  |.|.||| |.|||.|.|.||.||   |||               ||||||          |||.|||  .||||  ||.|||.||||..|||..||||            |||||||..|||| 
+       extracted_fla    391 -----GCACCAGGTCTGATTCCCCCTCACC---TCCAGCCCTT---TG----------GGTGC----------------TGGCACCACCAAGCCTCGGACCCCACAGGGGCAGCCGCCCCCAGCCAGCACGGGAGGGTCCCAGAACTGAGCTgttgttttcccttc----------tcctcacAGGCAGAACTGAAGgtgctgaaggagcagctggagctggagaagcaggCCTGGGAGG    583
+       
+       APOE_Alligato    569 -CA-------GCAGTAG-------------------    577
+                             ||       |.||.||                   
+       extracted_fla    584 CCAACTACGTGAAGAAGGAGGTAATGGCAAGAGCTG    619
+     
+  - [01;04;38m[KPodarcis_muralis[m[K
+     [07;32m[K>exon_1[m[K
+     
+       APOE_Podarcis      1 ---------------------ATGAAATTCCTTGCCCTGTTTTTCACAGCAGTCCTGCTGGGAG---------------------     43
+                                                 |.|||||||||||||....|||||||||||||..||.||||||                     
+       extracted_fla      1 CTACGCcatatattttcagaaaggaaattcCTTGCCAGCATTTTCACAGCAGTGGTGGTGGGAGAATTCCTGTCCTTAAGAACAT     85
+     
+  - [01;04;38m[KDromaius_novaehollandiae[m[K
+     [07;32m[K>exon_2[m[K	[03;04;32m[KLength:214[m[K | [03;04;32m[KIdentity:96/214(44.9%)[m[K | [03;04;32m[KSimilarity:96/214(44.9%)[m[K | [03;04;32m[KGaps:90/214(42.1%)[m[K | [03;04;32m[KScore:213.0[m[K
+     
+       APOE_Dromaius      1 ------------------GCTGCAGG------GCTGAGCAGGGCCCCGAGGAGCCGCGGGCCGGGTGGGAAGCGGCC--GTCGA-----CAGCTTCTGGGAGTACGTGGCCCAGCTGGGGCAGGCGG-TGGAGAAC--GGCACC----------GCACG----------------CGTGAAGA----GCTCCGAGATCGG--CCGCCAGCTCGA    148
+                                              |.|.||.|      .|.||.||||.|||       |||.|.|||...||..||  |.||  |||.|     ||| |||..|||||||.||||.|||||||||||||||| ||     |  ||||||          ||.||                |.||||.|    ||.|.|.|..|||  |||         
+       extracted_fla      1 ACGTCTCCGTCCAGAAGTGGTACAAGATGTCACCAGATCAGGACCC-------CCGTGTGCCCCCTGACAA--GACCTGGTCAAACAAGCAG-TTCCAGGAGtacctggcacagctggggcaggcGGATG-----CTTGGCACCAGGTGCTGGTGCCCGGTATGAAGGCGGCGATCCTGAACACTCTGCGCAGTGCCCGGGACCG---------    190
+     
+     [07;32m[K>exon_3[m[K	[03;04;32m[KLength:214[m[K | [03;04;32m[KIdentity:96/214(44.9%)[m[K | [03;04;32m[KSimilarity:96/214(44.9%)[m[K | [03;04;32m[KGaps:90/214(42.1%)[m[K | [03;04;32m[KScore:213.0[m[K
+     
+       APOE_Dromaius      1 ---------------------------------------------------------------------------------------------CGGCCTCATCGCAGAGACC----AT-------------GGAGGAGC-TGGAGGCGCAGGTGGCAGAGCTGCAGGCCAAGCTGGGCCCCAGCGGCGAGGCGGGCGCGGGGCTGCGTCGCGACGTGGAGGAGCTGGGCGGGCGGCTGCG    129
+                                                                                                                         |  |||||    |..||||    ||             ..|||||| |         ||||.|.||||||||                   |||||.||||                    .||||||.|| |||||.|||     .
+       extracted_fla      1 aaaaattactcaaaattcccttttctcctccccaaaaatacctttttcttgacccaaaatcccattttttttcccccaaaattcccattttttc--cctca----aatgacccaaaattcccttttttcccccaggagcGT---------GGTGTCGGAGCTGCA-------------------GGCGATGCGG--------------------TTGGAGGCGC-GGGCGCGCG-----C    180
+       
+       APOE_Dromaius    130 GGCCGAGCTGGTGGAGGCACGGGGCCGGGCAGCGCAGTACGGGGCCGAGGCGCGGGCCGTGCTGCAGCAGGGCGCCGAGGACCTGCGGAGCCGCCTG----GCCGCCTACGCCCGCAAGCTGCGCAAGCGCCTG-GCCAAG-GACGCCGAGGAGCTGCGGAGCCGCCTGG--CCGCCGCGGCCGGCGAGGTGCGGGCCC---GGGCGGCGGCGCTGCACGA-----GGGGCTGC------    347
+                            |||||                              ||||||||||.|||||||||||..|||||.|||...||||||..||.||.||    ||||.|    |||||||.||||.|.|||.|.||.||||||||| |||  | |||..|||||||.|||.|.|.|| ||||  |.|||             |..||||||   |      |||.|..||.||     ||||.|.|      
+       extracted_fla    181 GGCCG------------------------------AGTACGGGGCAGAGGCGCGggcgctgctggagctcagcgCCGCCGATCTCCG----CGCCCGCGGCGCCGCCTTCGCCAGAAAGTTCCGGAAGCGCCTGAGCC--GCGACCACGAGGAGATGCAGCGACG-CTGGGACAGCC-------------TCAGGGCCCTCTG------GGCACCCCAGGATTGATGGGGATCCCAAAAA    364
+       
+       APOE_Dromaius    348 CGGTGCTGCGGGCGCCGCC----GCGGCTGGCGGCGCTGGGAC--------AGGCGCTGGG----CGAG---CAGGGCCG----CCGGGTGCAG------CGGGGGCTGCGGGAGG--CGGTGCAGGAG---CTG-----TGGGCCTCGG--------------TGG----------------ACGGCG----------TCCTGCAGGGGCTC-------------CTGGGCTGGCTGAC    495
+                            ||  ||..|.||..|| ||    .||||      |.|.||.||        .|||.|.|||    |.||   |.|..|||    |||||.||||      |||||     .|||||  ..|||.|..||   |||     ||||   .||              |||                |||| |          ||||..|.|||.||             .|||| |||     
+       extracted_fla    365 CG--gccccaggaacc-ccaaaaacggc------cccaGGAACCTCAAAAATGGCTCCGGGAACCCCAGAAACCGCCCCGGGATCCGGGAGCAGAATAAACGGGG-----TGGAGGAAAAGTGGAAAAGTGACTGAAAAATGGG---AGGAACTGTCAAAAAAATGGATTGAAAAATTCCAAAACGG-GATCAGAATGTTCCTAGAAGGGATCGGAAAACCCAAAAGTGGG-TGG-----    580
+       
+       APOE_Dromaius    496 GATGCTGCTGCCCAGCTCCCCAGCACTGCGCGACGCCCCCAAGCCTTGA    544
+                            |||..|                                           
+       extracted_fla    581 GATTGT-------------------------------------------    586
+     
+  - [01;04;38m[KRhea_pennata[m[K
+     [07;32m[K>exon_3[m[K
+     
+       APOE_Rhea_pen      1 CGGCCTCATCGCGGAGACCATGGCAGAGCTGGAGGCGCAGGCGGTGGAGCTGCAGGCCCAGCTGGGCCCTGGTGGCGAGGCCAGCGTGGG------------------GCTGC-------AGCG-----CGACGTGGAGGAGCTAGGTGG--GCGG--CTGCGGGCTGA----------------------GATGGCGGAGGCACGGGGCCGGGTGGC---GCAGTACGGCGCCGAGGCA    181
+                                                                            |.||||  |||.|| .|||.|| ||..|||...|.||||.||                  .||||       ||.|     .||.|.|.|.|||..|||..|  ||.|  |||..|.||.|                      ||||||            |||..||.|   ||..|| ||.|||...||.
+       extracted_fla      1 ------------------------------------------------GATGCA--CCCGGC-CGGCTCT-GTTCCGAAATCGGCGTTGGAATATGATCTTATATATACCTGCATATATAAGAGTAAATAGAAGAGAAAGAGGCAGGGAGAAGCCGCTCTGTTGCCTTACCACTCTGCCAGAGAACCTCTCGATGGC------------CCGCTTGACTTTGCCATA-GGTGCCTTTGCC    175
+       
+       APOE_Rhea_pen    182 C-AGGCCGTGCTGCAGCAGG--GCGCTG----AGGACCTGC--GTGG-------------CCGCCTG----------GCCGCC--TACACCCGCAAGCTACGCAAGCGCCTGG----------CCAAGGACACCGAGGAGCTGCGGAGCCGCCTGGCCGCCGCCGCCAGCAAGGTGCAGGCGCGGGTGGC-GGAGCGGGCGGCAGCACTGCGC----CAGGGGTTGCCGCCGCTGCGGGC    372
+                            | |||.| |.|||||||..|  |||.||    |||...|||  ||||             ||.||||          ||||||  |||..|||   |..|||.|..|.||.||          |||.||.|.||             |||||||.||||||||||||      |.||.|||..|||..|| |||| |.||.||.|..||||||    |.||||.|||.||.||.||||||
+       extracted_fla    176 CAAGGTC-TCCTGCAGCTCGTAGCGATGCTTCAGGTTGTGCTTGTGGTGATGCCGTTTCACCCCCTGCTGCTTCCGAGCCGCCGTTACCTCCG---GGGACGGAGCCACCCGGACCGGCTCTTCCatggccgcc-------------gccgcctcgccgccgccgcc------gggcgggccggggccgcaggag-gagcagcggggctgcgcggggctggggctgctgctgccgcgGGC    391
+       
+       APOE_Rhea_pen    373 GGCC-CCTCGG------------CTGGCAGCGCTG-GGGCA-GGTGCTTG-GCGAGCAG--GGCCTC-------------CGG---------------GTGCAGCA-GGGGCTGCAGGAGGCGGTGCAGGAGCTGCGGGCCTCGCTGGATGGTGCCGTGCAGGGGCTGCGGAG-----CTGGCTGGCTGC----------GCTGCTGC-CCAACGTGCCGCTGCTGCTC--GACGGCCCC    547
+                            |||| ||||||            |.|||.|||  | ||||| ||||  || |||..|.|  ||||||             |||               | |||.|| |||||     |.||||| ||.||    |||||||     ||             |||||.||||.|     |..|||..|.||          ||.||.|| ||..||||..||.||..|||  ..|||||| 
+       extracted_fla    392 GGCCGCCTCGGCGCCCTCCatgcccggcggcg--gcgggcacGGTG--TGAGCGCCCCGCCGGCCTCGCCGCCTCTGCCTCGGCCCCGCGCCCGCGCCG-GCACCacggggc-----gcggcgg-gcggg----gcgggcc-----gg-------------ggggcggcggcggcgcccccgctccccgccccttccccggcggcggcaccggcgtGGGGCGGCCCCtccgcccggccc-    597
+       
+       APOE_Rhea_pen    548 AAGCCTTGA    556
+                                     
+       extracted_fla    597 ---------    597
+     
+  - [01;04;38m[KMyiozetetes_cayanensis[m[K
+     [07;32m[K>exon_1[m[K	[03;04;32m[KLength:195[m[K | [03;04;32m[KIdentity:112/195(57.4%)[m[K | [03;04;32m[KSimilarity:112/195(57.4%)[m[K | [03;04;32m[KGaps:52/195(26.7%)[m[K | [03;04;32m[KScore:393.0[m[K
+     
+       APOE_Myiozete      1 ---------------------ATGAAGCTCTGGGTCGCGCTAGTGGCAGC-AACGCTGCTGGCAG---------------------     43
+                                                 ||||||.|||||||.|||.|.||||| || .|||||||||||||                     
+       extracted_fla      1 gccGTCCCCGCAGGTGACACCATGAAGTTCTGGGTGGCGTTGGTGGC-GCTGACGCTGCTGGCAGGTGAGTGCCCGTGCCCCATGC     85
+     
+     [07;32m[K>exon_2[m[K	[03;04;32m[KLength:195[m[K | [03;04;32m[KIdentity:112/195(57.4%)[m[K | [03;04;32m[KSimilarity:112/195(57.4%)[m[K | [03;04;32m[KGaps:52/195(26.7%)[m[K | [03;04;32m[KScore:393.0[m[K
+     
+       APOE_Myiozete      1 ---------------------GCTGCGGGGCCGAACT-AG-----CCACTCCCGCGCCCCCCACCCCACCTCGGCCC--CCCTCGCGGGTCTGGAGGGTCCTGGCGGTCCTGGAGGCAGCGGCTGAGAACGCGACGGAGCGGCTGCGGGAGACCCCCGTGGTGCAGCGGCTGCA---------------------    145
+                                                 ||||||||||.||||| ||     ||||.|||.|.|||||.||||  ||.|.||.|  ||||||.||.|.|||.||.||||||.|..|||.|.||..|||||.|||||||||||.||||||.|.||..|||.|.||.|||..|||||||||||                     
+       extracted_fla      1 tccgtttttttccccctgcaggCTGCGGGGCTGAACTGAGcgcccccacccccacccccccgaccc--cccccgCACTGCCCTcgaggatttgggggttcctggggaCCCTCGGGGAGGCGGCCGAGAACGCGACCGAGCGGATCCGCCAGAGCGCCCTGGGCCAGCGGCTGCAGTGAGTGCGGGGAAACACCCA    193
+     
+     [07;32m[K>exon_3[m[K	[03;04;32m[KLength:195[m[K | [03;04;32m[KIdentity:112/195(57.4%)[m[K | [03;04;32m[KSimilarity:112/195(57.4%)[m[K | [03;04;32m[KGaps:52/195(26.7%)[m[K | [03;04;32m[KScore:393.0[m[K
+     
+       APOE_Myiozete      1 --------------------GCAG-GTGGTGGGGGAGTTCCGGGCGCTGCGGAACGAGGCGCGGGACCGCGCGGCCGAGTACGGGGTGGAGGCGAAGGCGCTGCTGGAGCAGAGCTGGGGGGACCTGAAGGCCCGGGGGGCTTCGTTCGCCCGAAAGCTGCGCAAGAGGCTGAACCGGGACGCGGAGGAGCTG-AG-GAAGCGCTGGGACGGGGGGGTCGCCGCCCTCAGGGCCCTCTG-    216
+                                                |.|| ||||||..||||.|.|.||||.|||||...||||||||||..|||||||||||||||||||..||||||..||||||||||||||..|||...|..||.||....|||||.||.||..|.||||||.|||||.|.||.|||.|.||||.|||.|||...||||||.|| || ||  |||||||||.|            ||||||||||||||| 
+       extracted_fla      1 aaattcccttttttcccccaggagcGTGGTGTCGGAGCTGCAGGCGATGCGGTTGGAGGCGCGGGCGCGCGCGGCCGAGTACGGGGCAGAGGCGCGggcgctgctggagctcagcgCCGCCGATCTCCGCGCCCGCGGCGCCGCCTTCGCCAGAAAGTTCCGGAAGCGCCTGAGCCGCGACCACGAGGAGATGCAGCGA--CGCTGGGACAG------------CCTCAGGGCCCTCTGG    226
+       
+       APOE_Myiozete    217 ----------------GGGGATCCCCGAGAC--CCCCTGGGACCCCCAGGATTGA--------    253
+                                            |||||||||..|.||  ||||.||.|||||.|      |        
+       extracted_fla    227 GCACCCCAGGATTGATGGGGATCCCAAAAACGgccccaggaaccccaa------aaacggccc    283
+     

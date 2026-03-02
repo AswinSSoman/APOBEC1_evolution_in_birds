@@ -1,0 +1,73 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_001700915.1_Passer_domesticus-1.0_genomic.fna
+           2,301 sequences; 1,042,720,703 total letters
+
+
+
+Query= exon_1
+
+Length=200
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 177250784410
+
+
+Query= exon_2
+
+Length=685
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM004550.1 Passer domesticus isolate 8887266 chromosome 24, whole...  55.4       1e-05
+CM004554.1 Passer domesticus isolate 8887266 chromosome 28, whole...  47.3       0.007
+MBAE01000353.1 Passer domesticus isolate 8887266 scaffold00362, w...  46.4       0.007
+
+
+
+Query_2  177      GCGAGGTGCAGGCCATGCTGGGCCAGAGCGCCGAGGAGCTGCGGGGGCGCCTCG-CCTC-GCACCTGCGCAAGCTGC-GCAAGCGGCTGCTCCGCGACGCCGAGGACCTGCACAAGCGCCTGGCCGTGTACCGCGCCGGGGTGCGCGAGGGCGCCGAGCGCAGCGTCAGCTCCATCCGCGAGCGCTTCTGGCCGCTGGTGGAGCAGgcgcgcgcgcgcAACGCCAACGTGGCCGCCGTGGCCGCGCAGCCGCTGCGGGAGCGGGCCGAGGCCTTGGGCCA  453
+23       799721   ..C..C.........G.A......CCTA...............C.A....G.G.A..G.G..G..G...--......A..GG..-....GAG.C.T......CC..G....G.C........                                                                                                                                                                799603
+
+Query_2  454      GCAGCTGCGCGGGCGGCTGGACGAGGTGCGCGAGCAGGTGGAGGAGATGCGGCTCAAGATGGAGGAGCAGGCCGACCAGATGCGCCAGCAGGCCGAGGCCTTCCAGGCCCGCCTCAAGAGCTGGTTCGAGCCCTTGGTGCAAGACATGCAGCGCCAGTGGGCCGGGCTGGTGGAGAAGTTGCAGGCGGCCGTGGGCACC  652
+27       2060023                                                                                                                                                                        ...C..C.....C....................  2060055
+108      111269    ..C...G...............CCC..G............                                                                                                                                                                111308
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 681892689288
+
+
+  Database: GCA_001700915.1_Passer_domesticus-1.0_genomic.fna
+    Posted date:  Sep 20, 2020  8:52 PM
+  Number of letters in database: 1,042,720,703
+  Number of sequences in database:  2,301
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

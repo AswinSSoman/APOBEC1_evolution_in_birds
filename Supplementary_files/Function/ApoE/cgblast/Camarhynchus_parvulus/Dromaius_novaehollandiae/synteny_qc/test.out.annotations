@@ -1,0 +1,2 @@
+NC_044585.1	9114394	9114478	exon_1	1	+	NC_044585.1	0	14057472	NC_044585.1:1..14057472	.	+	RefSeq	region	.	ID=NC_044585.1:1..14057472;Dbxref=taxon:87175;Name=15;chromosome=15;gbkey=Src;genome=chromosome;mol_type=genomic DNA
+NW_022148493.1	26	612	exon_3	1	-	NW_022148493.1	0	20000	NW_022148493.1:1..20000	.	+	RefSeq	region	.	ID=NW_022148493.1:1..20000;Dbxref=taxon:87175;Name=Unknown;chromosome=Unknown;gbkey=Src;genome=genomic;mol_type=genomic DNA

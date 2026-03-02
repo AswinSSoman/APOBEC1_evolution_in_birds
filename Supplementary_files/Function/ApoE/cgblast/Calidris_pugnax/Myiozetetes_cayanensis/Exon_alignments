@@ -1,0 +1,20 @@
+[07;32m[K>exon_2[m[K	[03;04;32m[KLength:231[m[K | [03;04;32m[KIdentity:86/231(37.2%)[m[K | [03;04;32m[KSimilarity:86/231(37.2%)[m[K | [03;04;32m[KGaps:130/231(56.3%)[m[K | [03;04;32m[KScore:197.5[m[K
+	
+  
+  APOE_Myiozete      1 -GCTGCGGGGCCGAACTAGC--------------CACTCCCGCGCC---------CCCCACCCCACCTCGGC-CCCCCTCGCGGGTCTGGAGGGTCCTGGCGG-------------------------------------------------TCCTGGAGGCAGCGGCTGAGAACGCGACGGAGCGGCTGCGGGAGACCCCCGTGGTGCAGCGGCTGCA------------    145
+                        ||||.||||  |..|.|||              |.||||| ||.|         |||||.||||||||||| |||||| |.||..|||.|||||||||||.|                                                 |||||.|         |||     |||       |||..|||||        |||           |            
+  extracted_fla      1 GGCTGTGGGG--GTGCCAGCTCCTTGGGAGGATGCTCTCCC-CGTCCCACCACGGCCCCATCCCACCTCGGCACCCCCT-GTGGTCCTGCAGGGTCCTGGCAGCGCCCGGTGCAAATCTCTTCTTTAAGGGCCTCCTTTTCCCATTATTTCTTCCTGAA---------TGA-----CGA-------GCTTGGGGAG--------GGT-----------AATATTTGTTCCT    187
+
+
+[07;32m[K>exon_3[m[K	[03;04;32m[KLength:231[m[K | [03;04;32m[KIdentity:86/231(37.2%)[m[K | [03;04;32m[KSimilarity:86/231(37.2%)[m[K | [03;04;32m[KGaps:130/231(56.3%)[m[K | [03;04;32m[KScore:197.5[m[K
+	
+  
+  APOE_Myiozete      1 ---GCAGGTG---------------GTGGGGG-----AGTTCCGGGCGCTGCGGA-----ACGAGGCGCGGGACCGCGCGGCCGAGTACGGGGTGGAGGCGAAGGCGCTGCTGGAGCAGAGCTGGGGGGACCTGAAGGCCCGGGGGGCTTCGTTCGCCCGAAAGCTGCGCAAGAGGCTGAACCGGGACGCGGAGGAGCTGAGGAAGCGCTGGGACG----GGGGG-----GTCGCCGCCC    203
+                          ||.||||               .||||||     |  |||||     |||||     |.|||||..||||.||.||||||||||||||||.|||||||..||||.|||||||||||||.||||||||.||||.|..|||||||||..|.|.||||||.||.||||||||..|.||||.|||.||||.||||||||||||||..||||||||||    |||||     |..|||||||
+  extracted_fla      1 GTCGCTGGTGACGGACCTGAAGTCCCTGGGGGCCACCA--TCCGG-----GCGGACGTGGAGGAGGCCGGGGAGCGGGCGGCCGAGTACGGGGCGGAGGCGCGGGCGATGCTGGAGCAGAGTTGGGGGGAGCTGAGGAACCGGGGGGCCACCTACGCCCGCAAACTGCGCAAACGCCTGAGCCGCGACGGGGAGGAGCTGAGGAGACGCTGGGACGCCCTGGGGGAGAGAGCGGCCGCCC    233
+  
+  APOE_Myiozete    204 T---CA---------GGGC---------CCTCTGGGGGATCCCCGAGACCCCCTGGGACC----CCCAGGATTGA    253
+                       |   ||         ||||         ..||||||||        |||||||.||..||    |||||.     
+  extracted_fla    234 TGGGCAGGagttggggggctggggagaaggtcTGGGGG--------GACCCCCCGGCCCCTCGACCCAGC-----    295
+
+

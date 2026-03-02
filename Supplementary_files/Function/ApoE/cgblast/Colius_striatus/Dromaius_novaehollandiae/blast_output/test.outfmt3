@@ -1,0 +1,140 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_028858725.1_bColStr4.1.hap1_genomic.fna
+           191 sequences; 1,212,482,152 total letters
+
+
+
+Query= exon_1
+
+Length=43
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_084767.1 Colius striatus isolate bColStr4 chromosome 9, bColSt...  41.0       0.009
+
+
+
+Query_1  1         ATGAAGCTCTGGGTTGCGCT-GCTGGGAGCTGCC  33
+10       14887842  ................G...A..A..T.......  14887809
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 19399631920
+
+
+Query= exon_2
+
+Length=148
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_084777.1 Colius striatus isolate bColStr4 chromosome 19, bColS...  44.6       0.006
+NC_084764.1 Colius striatus isolate bColStr4 chromosome 6, bColSt...  44.6       0.006
+
+
+
+Query_2  3         TGCAGGGCTGAGCAGGGCCCCGAGGAGCCGCGGGCCGGGTGGG  45
+23       11730626  .........TCC..........G...........           11730659
+7        39550350                ......T......G...............  39550378
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 144284716947
+
+
+Query= exon_3
+
+Length=544
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_084774.1 Colius striatus isolate bColStr4 chromosome 16, bColS...  60.8       3e-07
+NC_084766.1 Colius striatus isolate bColStr4 chromosome 8, bColSt...  56.3       1e-05
+NC_084784.1 Colius striatus isolate bColStr4 chromosome 26, bColS...  53.6       5e-05
+NC_084787.1 Colius striatus isolate bColStr4 chromosome 29, bColS...  51.8       2e-04
+NC_084785.1 Colius striatus isolate bColStr4 chromosome 27, bColS...  51.8       2e-04
+NC_084773.1 Colius striatus isolate bColStr4 chromosome 15, bColS...  51.8       2e-04
+NC_084760.1 Colius striatus isolate bColStr4 chromosome 2, bColSt...  51.8       2e-04
+NC_084765.1 Colius striatus isolate bColStr4 chromosome 7, bColSt...  50.9       6e-04
+NC_084782.1 Colius striatus isolate bColStr4 chromosome 24, bColS...  49.1       0.002
+NC_084771.1 Colius striatus isolate bColStr4 chromosome 13, bColS...  48.2       0.002
+NC_084775.1 Colius striatus isolate bColStr4 chromosome 17, bColS...  46.4       0.007
+
+
+
+Query_3  27        AGCTGGAGGCGCAGGTGGCAGAGCTGCAGGCCAAGCTGGGCCCCAgcggcgaggc-gggc-gcggggctgcgtcgcgacgtggaggagctgggcgggcggctgcgggcCGAGCTGGTGGAGGCACGGGGCCGGGCAGCGCAGTACGGGGCCGAGGCGCGGGCCGTGCTGCAGCAGGGCGCCGAGGACCTGCGGAGCCGCCTGGCCGCCTACGCCCGCAAGCTGCGCAAGCGCCTGGCCAAGGACGCCGAGGAGCTGCGGAGCCGCCTGGCCG---CCgcg  301
+17       1867136                                                                                                                                                                                                                                                   ..C.....G..-....T..G....---..--.---.T...  1867166
+17       1867176                                                                                                                                                                                                                                                            ..G.......G....G--.....GGG.T...  1867204
+17       1867130                                                                                                                                                                                                                                                                                 ..---...G.  1867136
+17       1867246                                                                                                                                                                                                                                                            ..G.......G....G--.....GGG.T...  1867274
+9        31890682                                                                                                                                                                                                                                                                 ....G..T..GG.....---GG..T  31890661
+36       652212    ..............C...AG..........A.......                                                                                                                                                                                                                                                    652175
+34       1722992                                                                                                                                                                                                                                                                          ...C...G.---.....  1722979
+2        1158761                                                                                                                                                                                                                                                                 ......C.....C...G.---.G...  1158739
+8        40590963                                                                                                                                                                                                                                                           .............-..GG...G.---.G...  40590989
+14       516520                                                 ......G...C....T....A......GG.-..G.CC.C..G..C....CT.-...C.....G---....C.....CGG...........C.G..G.GG........-....G....                                                                                                                        516630
+
+Query_3  302       gccggcgagg----tgc-----gggcccggg-cggcggc------g--ctgcac---gag--g-ggctgc---cggtgctgcgggcg--ccg--c---cg----cgg-ctg-gc----ggcgctg-g--gA-CAG---GCGCTG-GGC--GA-GCA---GGGCCGC-----C---GGG-TGCAGCG--GGGGCTGCG--GGAGGCGG--T---GCAGGAGCTGTGGGCCTCGGTGGACGGC-GTC---CTGCA---GGGGCTCCTGGGCTGGCTGACGAT  498
+17       1867167   .G...A.C..GGGC...-----...G.....--.C...G------.--....GG---.C.--.-A..G.------.G........-.--...--G---G.----.T.-.G.-..----..A..G.-.--.G-.T.------.G.-...CG.G-..C---...G.TG-----.---...-C.G....--.........--..-.C...--G---..T..G....C....                                                      1867315
+17       1867205   .G...A.C..GGGC...-----...G.....G.T....-------.--.G.AG.---.-.--.-......---G..----..C..G.--...--G---G.----.T.-.G.-..----..A..G.-.--.G-.T.------.G.-...CG.G-..T---...G.TG-----.---...-C.G....--.........--..-.C...--G---..T..G....C....                                                      1867353
+17       1867137   ....C..G..GC--..T-----...G.....G.T....-------.--.G.AG.---.-.--.-......---G..----..C..G.--...--G---G.----.T.-.G.-..----..A..G.-.--.G-.T.------.G.-...------.G---....T..---------...-C.G....--.........--..-.C...--G---..C..G....C....                                                      1867277
+17       1867275   .G...A.C..GGGC...-----...G.....--.CT..G------.--....GG---.C.--.-A..G.------.G........------.--.---..----G..-...-.G----.CT..G.-.CG..G.G.---.G....-C.G--.--..T---...G.TG-----.---...-C.G....--.........--..-.C...--G---..T..G....C....                                                      1867423
+9        31890660  ..G..A.C..----G..TGCG-.....G...-.T....G------.--.C.GGG---CT.--C-..GA..---...-........A.--...GG.---..----G..-...-CG----..A..C.-.--.C-.G.---.-....-C.G--..-..G---......GGGCTG.---...-A..G.G.CC.........--....C...GC.---..G.....                                                             31890503
+9        31890545                ...-----...AG....--.C...G------.--....GG---...CC.-......---G..A..--.....T--G..--GGAG..----G..-...-CG----..A..G.-.--.C-.G.---.-....-C.G--..-..G---....T..---------...-A..C.G.CC.........--....C...GC.---..G.....                                                             31890407
+31       2006667                                                                                              .--.---..----G..-...C.G----..G....-C--.G-G..---CT..G.-..G--CT-..G---...G.TG-----.---...-G..T...--.........--..G...T.--.---.--.......C...                                                       2006580
+31       2006645                                                              .--.-A.....---G..G........G.--.T.--.---G.----G..-...-CG----..G....-C--.G-GG.---..TG..-..A--.CT..G---...G.TG-----.---...-G..T...--.........--..G..                                                                              2006550
+31       2006250     ...G.G.C----...-----...---...-.T....G------.GG....-----.G.--.-......---G..G.A......G.----.--.---T.----...-GG.-..TTTG..G....-T--.G---.---.G....---.--..-.-----....T..-----G---...-G..T...--........----....G.C--.---..G..G....C...                                                       2006111
+34       1722978   .G..CT....----G.G-----CT..GG...-.TC..-.------.--...GG.---CC.--.C...C..---G..C....A...G.--.T.--.---G.----G..-..---.----C......-.--.C-TCC---......-...--CC-.GC---..-....---------...-C..TC..--.........--..                                                                                 1722853
+16       325208                                                                                    .......GC...--G---..----...-.C.-.G----....GC.C.--..-...CCG.....C-...--.G-..GCGG.......-----G---...-C.GC...--.........--..                                                                                 325123
+16       4518081                                                                                         .--.G.--.---..----...G...-..A---.....C.-T--.G-.G.---......-...--.C-..T---..---..-----.---...-A..--T.--.C...A.A.--T.-.....--C---......CG..C.....G..C..                                               4518176
+16       22132262                                                                                                                                        .---.G....-C.T--..-..C---....A.G-----.TGT..C-.......--.........--T...C...------....--.......                                                        22132199
+2        1158738   ..T.T..G.C----...AGCGG....T....-A......TGTTGG.--.....G---CG.--.-....-.---T..A.G.T...A.T--..C--.---..GCGG...-...-T.----..-....-C--AG-.G.---.G...CC...--.--..-----...T.T-----.---...C.......--......C..GC..C...T.--.CGG..T.C...-.G....TC...C..-....T...GGG.....GCG........G.C.GC.....T..-G  1158521
+8        21385389                                                                .-......GGG...C....A...A.--.A.--G---GC----G..-...-CG----..A..A.-.--.C-------.G....-A.G--..-...---....G.G-----.TGA...-A....G.--C........--........                                                                           21385290
+8        40590990  ..-...--------.T.-----...G.T..T-.C.A...------.--....C.TCG...--A-C..AT.---T..........CG.------------.----...-.-.-..----...-.G.-.--.C-.T.---...GC.-..A--.--..G---.C.GT..-----G---...--..C...--.........--..                                                                                 40591108
+29       5304909                                                                                                                                                                       ..-----.---...--..T...--.........--..G...----.---..........C...                                                       5304868
+18       2955348                                                                                                                                                                  ....T..-----G---...-G..T...--.........--..G...T.--.---...C.G.G.C....                                                       2955397
+
+Query_3  499       GCTGCTGC  506
+2        1158520   .....A..  1158513
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 622000306503
+
+
+  Database: GCF_028858725.1_bColStr4.1.hap1_genomic.fna
+    Posted date:  Apr 18, 2024  7:30 PM
+  Number of letters in database: 1,212,482,152
+  Number of sequences in database:  191
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,39 @@
+########################################
+# Program: needle
+# Rundate: Mon 18 Nov 2024 23:18:13
+# Commandline: needle
+#    -asequence APOE_Podarcis_muralis_exon_2.fa
+#    -bsequence extracted_flanking_region_exon_2.fa
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile pairwise_exon_2.aln
+#    -awidth3 10000
+# Align_format: srspair
+# Report_file: pairwise_exon_2.aln
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: APOE_Podarcis_muralis_exon_2
+# 2: extracted_flanking_region_exon_2
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 225
+# Identity:      98/225 (43.6%)
+# Similarity:    98/225 (43.6%)
+# Gaps:         106/225 (47.1%)
+# Score: 197.0
+# 
+#
+#=======================================
+
+APOE_Podarcis      1 GCTCCTTGGCCAACCCTGTCC-----------------------------CGGAAGAAGGGACAAAATCCAAATGGGAGGAGA-------CG-GTGGAT-GTCTTCA--GGGACGTAGTGACCAGGATTGGGGATGCG---GCTGATGATGCCACT-GCTCAGATCAAGAGTTCACAGCT---CAGCA------------------AGGAA--CTGGA-------    151
+                         |.||  ||.|.|||  |                             ||||||||||.|||||.|.||||||||||||||       || ||||.| .|||.||  ..|||||  |..|||        |.|.||   |||||.|    ||.| ||||       .||||   ||||   ..|||                  |||||  |.|||       
+extracted_fla      1 ----CGTG--CAGCACTG--CAACGGGGAcgggagaagaaagaaaggagacgGAAGAAGGAACAAAGTTCAAATGGGAGGAGAAATTCATCGCGTGGTTCCTCTCCACCCTGACGT--TTCCCA--------GCTACGTGAGCTGAAG----CAGTGGCTC-------CAGTT---AGCTTGGTGGCAAAATTCCTTTTGACTTGTAGGAAGCCCGGACTTTATT    193
+
+
+#---------------------------------------
+#---------------------------------------

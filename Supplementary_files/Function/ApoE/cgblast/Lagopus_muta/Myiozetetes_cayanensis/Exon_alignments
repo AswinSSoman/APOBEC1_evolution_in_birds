@@ -1,0 +1,8 @@
+[07;32m[K>exon_2[m[K	[03;04;32m[KLength:197[m[K | [03;04;32m[KIdentity:99/197(50.3%)[m[K | [03;04;32m[KSimilarity:99/197(50.3%)[m[K | [03;04;32m[KGaps:62/197(31.5%)[m[K | [03;04;32m[KScore:255.0[m[K
+	
+  
+  APOE_Myiozete      1 -------------------GCT--GCGGGGCCGAACTAGCCACTCCCGCGCCCCCCACCCCACCTCGGCCCCCCTCGCGGGTCTGGA-GGGTCCTGGCGGTCCTGGAGGCAGCGGCTGAG-AACGCGACGGAGCGGCTGCGG--------GAGACCC-----------CCGTGGTGCAG-------CGGCTGCA---    145
+                                          |||  .||||||||||||.||..||.|.|..||||.||||.|||.||||..|.||||||||||..|.| ||.|||...|||.||         ||.|..|| |||||.||...||||.|| ||        |.|||||           |.|||.|.|||       ||||..||   
+  extracted_fla      1 gggagggggcgGCCCTGCGGCTCCCCGGGGCCGAACTGGCGGCTGCGGGACCCCGCACCGCACGTCGGGTCGCCTCGCGGGTGGGCACGGTTCCCCACGGCCC---------CGCCATAGAAACGCCACCCCGCGGGTG-GGCCGCACACGCGACCCCGGGTCCTCATCGGTGTTCCAGCGCCGTTCGGCCCCAAAG    187
+
+

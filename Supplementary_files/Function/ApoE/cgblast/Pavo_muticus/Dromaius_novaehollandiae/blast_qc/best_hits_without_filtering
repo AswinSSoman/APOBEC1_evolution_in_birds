@@ -1,0 +1,2 @@
+Query   Subject            Query_length  Alignment_length  Q_start  Q_end  S_start  S_end    E_value  Bit_score  Raw_score  %_Query_covered_per_sub  %_Query_covered_per_hsp  %_ident  Matches  Mismatches  Gaps  Strand
+exon_3  JACDJE010000149.1  544           64                355      413    6258229  6258292  0.002    49.1       53         11                       11                       78.125   50       9           5     plus

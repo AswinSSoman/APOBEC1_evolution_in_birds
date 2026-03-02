@@ -1,0 +1,4 @@
+Location        #_hits  %_query_cov  %_identity  Lowest_evalue
+WBMX01018595.1  1       2.33333      28.9473     0.006
+WBMX01001471.1  1       21.6667      31.0343     0.008
+WBMX01000278.1  1       6.66667      31.0343     0.005

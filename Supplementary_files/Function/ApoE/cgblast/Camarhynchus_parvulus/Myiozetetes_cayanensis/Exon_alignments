@@ -1,0 +1,20 @@
+[07;32m[K>exon_2[m[K	[03;04;32m[KLength:193[m[K | [03;04;32m[KIdentity:116/193(60.1%)[m[K | [03;04;32m[KSimilarity:116/193(60.1%)[m[K | [03;04;32m[KGaps:48/193(24.9%)[m[K | [03;04;32m[KScore:395.0[m[K
+	
+  
+  APOE_Myiozete      1 ---------------------GCTGCGGGGCCGA----ACTAGCCACTCCCGCGCCCCCCACCCCACCTCGGCCCC--CCTCGCGGGTCTGGAGGGTCCTGGCGGTCCTGGAGGCAGCGGCTGAGAACGCGACGGAGCGGCTGCGGGAGA---CCC---CCGTG---GTGCAG---------CGGCTGCA---    145
+                                            |||||||||||||    |.|.|||.|.|||.|||||||..|||||.|.|.|||||  ||.||.||.|.|||.||.||||||.||..||||.||..|||||.|||||||||||.|||||||||||..|||   |||   |||||   ||||||         |||..|.|   
+  extracted_fla      1 tccatttttttccctctccaggctgcGGGGCCGAGCTGAGTGGCCCCACCCCCgcccccacccccagccccgcccccaccGCGAGGctttgggggctcctgggggctctgggggaggCGGCCGAGAACGCGACCGAGCGGCTGCGCCAGAGCGCCCTGGCCGTGAAAGTGCAGTGAGTAAATcggggggaaaa    193
+
+
+[07;32m[K>exon_3[m[K	[03;04;32m[KLength:193[m[K | [03;04;32m[KIdentity:116/193(60.1%)[m[K | [03;04;32m[KSimilarity:116/193(60.1%)[m[K | [03;04;32m[KGaps:48/193(24.9%)[m[K | [03;04;32m[KScore:395.0[m[K
+	
+  
+  APOE_Myiozete      1 -----------------GCA----GGTGGTGGGGGAGTTCCGGGCGCTGCGGAACGAGGCGCGGGACCGCGCG----GCCGAGTACGGGGTGGAGGCGAAGGCGCTGCTGGAGCAGAGCTGGGGGGACCTGAAGGCCCGGGGGGCTTCGTTCGCCCGAAAGCTGCGCAAGAGGCTGAACCGGGACGCGGAGGAGCTGAGGAAGCGCTGGGACGGGGGGGTCGCCGCCCTCAGGGCCCTCT    215
+                                        |||    ||.|.||.|||||.|.||||.||||||...|||||.|||    ||||||    .|||||||||.|..|||||||...||||||||.||||..|||...|..||||||...||.||.||.||..|.||||.|.|||||.|.||.||..|.||...|||.|||...|||||||||.|||.|||||||||.||||||||.|..||..||.|||||||||
+  extracted_fla      1 ACTCTCGCTGTTTCTCCGCAGGGCGGCGCtgcgggagctgcgggagctgcgCTCCGAGGTGCG----CGCGCGCATCTCCGAGTACGCGCAGGAGGCGCGCGCGCTGCTCGAGCTCAGCGCCGCCGACCTGCGCGCGCGCGGCGCCGCCTTCGGCAGAAAGTTCCGGAAACGCCTCGGCCGCGACCACGAGGAGCTGCGGAGGCGCTGGGAGGGGGGGGTGGGGGCGATCCGGGCCCTCT    236
+  
+  APOE_Myiozete    216 GGGGGATCCCC------------GAGACCCCCTGGGACCCCCAGGATTGA-------------------    253
+                       |||.||.||||            |||||||||||.||          ||.                   
+  extracted_fla    237 GGGAGACCCccgggggtgggggagagaCCCCCTGaga----------tggggaggggaaaaggaaataa    295
+
+

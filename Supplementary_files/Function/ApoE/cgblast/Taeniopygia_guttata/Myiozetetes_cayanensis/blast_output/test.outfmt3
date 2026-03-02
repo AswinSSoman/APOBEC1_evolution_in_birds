@@ -1,0 +1,106 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_003957565.2_bTaeGut1.4.pri_genomic.fna
+           199 sequences; 1,056,271,262 total letters
+
+
+
+Query= exon_1
+
+Length=43
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_024545382.1 Taeniopygia guttata isolate Blue55 unplaced genomi...  42.8       0.002
+
+
+
+Query_1  1     ATGAAGCTCTGGGTCGCGCTAGTGGCAGCAACGCTGCTGGCAG  43
+119      7739  ......T.......G...T.G.....GCTG.............  7697
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 16900254224
+
+
+Query= exon_2
+
+Length=145
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_024545382.1 Taeniopygia guttata isolate Blue55 unplaced genomi...  85.1       5e-15
+
+
+
+Query_2  1     GCTGCGGGGCCGAACT-AGC-----CACTCCCGCGccccccaccccacctcggccccccTCGCGGGTCTGGAGGGTCCTGGCGGTCCTGGAGGCAGCGGCTGAGAACGCGACGGAGCGGCTGCGGGAGACCCCCGTGGTGCAGCGGCTGCA  145
+119      7144  ..........T.....G...GCCCC...C...A.C.....G.....C..CGCA.TG......A..A.T...G..T......G.AC...C.G..AG.....C...........C......A.C..CC...G.G..C...GC...........  6994
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 122526796956
+
+
+Query= exon_3
+
+Length=253
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_024545382.1 Taeniopygia guttata isolate Blue55 unplaced genomi...  113        2e-23
+NC_044242.2 Taeniopygia guttata isolate Blue55 chromosome 29, bTa...  48.2       7e-04
+NC_054764.1 Taeniopygia guttata isolate Blue55 chromosome 32, bTa...  47.3       0.003
+NC_054763.1 Taeniopygia guttata isolate Blue55 chromosome 31, bTa...  45.5       0.009
+NC_044232.2 Taeniopygia guttata isolate Blue55 chromosome 20, bTa...  44.6       0.009
+NC_044223.2 Taeniopygia guttata isolate Blue55 chromosome 11, bTa...  44.6       0.009
+
+
+
+Query_3  5         GTGGTGGGGGAGTTCCGGGCGCTGCGGAACGAGGCGCGGGACCGCGCGGCCGAGTACGGGGTGGAGGCGAAGGCGCTGCTGGAGCAGAGCTGGGGGGACCTGAAGGCCCGGGGGGCTTCGTTCGCCCGAAAGCTGCGCAAGAGGCTGAACCGGGACGCGGAGGAGCTGAGGAAGCGCTGGGACgggggggTCGCCGCCCTCAGGGCCCTCTGGGGGATCCC-CGAGACCCCC-TGGGAC-CCCCAGGAT  250
+119      6424      ......TC....C.G.A....A.....TTG..........CG...................CA......CG..............TC...GCC.CC..T..CCGC.....C..C..CG.C......A.....T.C..G...C.C....G...C...CAC......A..CA.CGA.........A.------------.................                                     6223
+32       232944                                                                                                                                                                                                              ..A..........-.C...-..G.......-......A.G.......  232901
+35       1022804                                                                                                                                                                                                        ....GA.A..........ACC...-.AG.......A......-.........  1022755
+34       1404631                                                                                                                                                                                                        ....GT.A....G..C....C...-..........G..A...-....G...   1404583
+21       13581919                                                                                                                                                                                                         ......A..C.CCT....C...-..........--.....-....G...   13581963
+12       10254274                                                                                                                                                                                                     ............T.T......G....A.A.AG.....-G..TG.-........   10254324
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 235547160116
+
+
+  Database: GCF_003957565.2_bTaeGut1.4.pri_genomic.fna
+    Posted date:  Apr 19, 2024  4:52 PM
+  Number of letters in database: 1,056,271,262
+  Number of sequences in database:  199
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

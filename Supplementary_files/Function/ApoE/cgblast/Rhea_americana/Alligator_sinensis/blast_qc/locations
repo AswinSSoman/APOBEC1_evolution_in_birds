@@ -1,0 +1,3 @@
+Location        #_hits  %_query_cov  %_identity  Lowest_evalue
+PTEV01000541.1  1       11           23.5897     6.52e-16
+PTEV01000072.1  1       24.6667      29.4117     8.46e-04

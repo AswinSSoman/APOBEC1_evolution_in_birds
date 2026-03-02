@@ -1,0 +1,122 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_003342905.1_droNov1_genomic.fna
+           2,778 sequences; 1,192,254,075 total letters
+
+
+
+Query= exon_1
+
+Length=43
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_020451817.1 Dromaius novaehollandiae isolate 6597 unplaced gen...  41.0       0.009
+
+
+
+Query_1  11       GGGTTGCGCTGCTGGGAGCTGCCCTGC  37
+502      2651983  ...C.......G...............  2651957
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 19074865104
+
+
+Query= exon_2
+
+Length=148
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_020453664.1 Dromaius novaehollandiae isolate 6597 unplaced gen...  45.5       0.005
+NW_020453641.1 Dromaius novaehollandiae isolate 6597 unplaced gen...  45.5       0.005
+
+
+
+Query_2  1       GCTGCAGGGCTGAGCAG-GGCCCCGAGGAGCCGCGGGCCGGGTGGGAAGCGGCCGTCGACAGCTTCTGGGAGTACGTGGCCCAGCTGGGGCAGGCGGTGGAGAACGG  106
+2349     138063                                                                             ....................T.....C.G...  138032
+2326     28832   ..C..C.........CCT...A......G...............                                                                 28875
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 141868648047
+
+
+Query= exon_3
+
+Length=544
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_020452350.1 Dromaius novaehollandiae isolate 6597 unplaced gen...  51.8       2e-04
+NW_020452538.1 Dromaius novaehollandiae isolate 6597 unplaced gen...  50.9       6e-04
+NW_020451817.1 Dromaius novaehollandiae isolate 6597 unplaced gen...  50.9       6e-04
+NW_020451639.1 Dromaius novaehollandiae isolate 6597 unplaced gen...  50.9       6e-04
+NW_020453328.1 Dromaius novaehollandiae isolate 6597 unplaced gen...  50.0       6e-04
+NW_020453560.1 Dromaius novaehollandiae isolate 6597 unplaced gen...  49.1       0.002
+NW_020453392.1 Dromaius novaehollandiae isolate 6597 unplaced gen...  48.2       0.002
+NW_020452250.1 Dromaius novaehollandiae isolate 6597 unplaced gen...  47.3       0.007
+NW_020453908.1 Dromaius novaehollandiae isolate 6597 unplaced gen...  46.4       0.007
+
+
+
+Query_3  149      CGGGGCCGGGCAGCGCAGTACGGGGCCGAGGCGCG-GGCCGTGCTGCAGCAGGGCGCCGAGGACCTGCGGAGCCGCCTGGCCGCCTACGCCCGCAAGCTGCGCAAGCGCCTGGCCAAGGACGCCGAGGAGCTGCGGAG---CCGCCT-GGCCGCCg-cgg--ccggcgag-gtgcg-ggcccg-ggcggcgg-cgctgcac--gaggggctgccggtg-ctgcgg-gc-gc-cgccg-cggctg-gcggcgctgggACAGGCGCT--GGGCGAGCAGGGC  406
+1035     565040                                                                                                                                                                                                                ...........G.G.C.A..T..T..-G..T.T....G.-...-......---.......--.....T..---.G  564977
+1035     855907   ................G.--........G......C.....G..                                                                                                                                                                                                                                              855866
+1223     1246727                                                                                                                           ....C............---.G...G-.T...GG.-..C--G...-...CCG...-......-A.......-..                                                                                       1246665
+502      1858076                               ....G.-...A.C..C..G..G..A..GG....C..C...................                                                                                                                                                                                                     1858022
+502      1858055                                                                                                                       .....GG....CC.C......---......-........C...--G...G...                                                                                                                1858009
+324      1966712                                                                                                                                       .....---..-..G-....A.G.G...--......C.-.C.-.-T.....C...CC.TTT...C..C.CC.C.........--..-.CC...-..-C.G.C...-..CG..-.......--.C.GC....GC--....-..AG.C..  1966588
+2013     382813                                                                                                                                 ..G.........CCT.....G-........-...GCG.....C.-.....-.T.AAA-C.......C..G.TTG.--.G...C...G.TC..-.G....-..-.                                                    382906
+2245     898576                                                                                                                                                                                                                                                                                         ..  898577
+2077     376991                                                                                                                                    ..C......---......G...T..GT-.T.--..A.G...-YG...C....A.-........-T.--.GG.--.C...........A.-----..-A.-.G-.C...-G.....C.G...C...                            377093
+935      28725                                                                                                                                                                                                                                                                  ...........GG...T.........  28750
+
+Query_3  407      CGCCGGG-----TGCAGCGGG---GGCTGCGGGAGGCGGTGCAGGAGCTGTGGGCCTCGGTGGACGGCGTCCTGCAGGGGCTCCTGGGCTGGCTGACGATGCTGCTGCCCAGCTCCC---CAGCACTGCGCGA-CGCCC  533
+1035     564976   ....T..-----G...C.A..AGCT.....T......C...G..C.....C....                                                                                      564927
+324      1966587  A.....A------..G....C---...A...........                                                                                                      1966558
+2245     898578   T......-----...-.....---.........C.A......C....                                                                                              898615
+935      28751    .C.A...GGGGA.....-...---A...........                                                                                                         28782
+2593     26162                                                                                               ....T..............G......TGT......C.A....G.....  26209
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 611582161941
+
+
+  Database: GCF_003342905.1_droNov1_genomic.fna
+    Posted date:  Nov 13, 2020  10:57 AM
+  Number of letters in database: 1,192,254,075
+  Number of sequences in database:  2,778
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

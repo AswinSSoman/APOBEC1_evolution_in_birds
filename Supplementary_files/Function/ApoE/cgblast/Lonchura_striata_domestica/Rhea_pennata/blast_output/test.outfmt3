@@ -1,0 +1,106 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_005870125.1_lonStrDom2_genomic.fna
+           2,015 sequences; 1,060,269,806 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 16963446416
+
+
+Query= exon_2
+
+Length=148
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_042581.1 Lonchura striata domestica isolate Mets1 chromosome 1...  45.5       0.005
+
+
+
+Query_2  1        GCTGTGGGGCCGAGCTGGGCCCTGAGGAGCCG  32
+16       8910989  ...............G.....G.....G....  8910958
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 126165153149
+
+
+Query= exon_3
+
+Length=556
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_042586.1 Lonchura striata domestica isolate Mets1 chromosome 2...  58.1       3e-06
+NC_042567.1 Lonchura striata domestica isolate Mets1 chromosome 2...  54.5       4e-05
+NC_042587.1 Lonchura striata domestica isolate Mets1 chromosome 2...  50.9       5e-04
+NC_042589.1 Lonchura striata domestica isolate Mets1 chromosome 2...  50.0       5e-04
+NC_042566.1 Lonchura striata domestica isolate Mets1 chromosome 1...  49.1       0.002
+NW_021819259.1 Lonchura striata domestica isolate Mets1 unplaced ...  47.3       0.006
+NC_042568.1 Lonchura striata domestica isolate Mets1 chromosome 3...  47.3       0.006
+NW_021819176.1 Lonchura striata domestica isolate Mets1 unplaced ...  46.4       0.006
+
+
+
+Query_3  267        ACACCGAGGAGCTGC-GGAGCCGCCTGGCCGCCGCCGCCAGCAAGGTGCAGGCGCGGGTGGC-GGAGCGGGCGGCAGCACTGCGCCAGGGGTTGCCGCCGCTGCGGGCGGCC-CCTCGGCTGGCAGCGCTGGGGCAGGTGCTTGGCGAGCAGGGCCTCCGGGTGCAGCAGGGGCTGCAGGAG--GCGGTGCA-GGAGCTGC-GGGCCTCGCTGGATGGTGCCGTGCAGGGGCTGC-GGAGCTG-GCTGG--CTGCGCTGCTGC  518
+21       4545040                                                                                                                                                        ......G..G.A..G..T..............G.CT..A.G...--.......----.AGG....C.-..G..--............-A.G..A.C....C--.A.G.....A..  4545142
+21       4545032                                                                                                                                                         .....G..G.A..G..T..............-.--..--....-..G.....A....AGA....CCA..-..--............A..G....-CAG..--.A.......     4545130
+2        128927364                                                                                                                                                      .........G....A.....-..CC...G.A.C.--..T....CT........-........GC...-----...----C....C..-..C....-.....AC.....         128927272
+22       1168951                                                                                                                                                                    ..A..T..............-.--..--....-........-A..---G....C.-..G..--............A...A.A.-C....--.             1169026
+24       802280     ..G.......C....A.....-......TGC..TT.....C.G..C...........C....-.C..                                                                                                                                                                                                      802216
+1        62534841                      .......C............------.G..G...CG...CC..A....-.A..A..G.GG......--....C..GG..T.............G.......                                                                                                                                                 62534932
+1053     19795                                                                                                                                                           ........G....A..T................                                                                                   19827
+3        97984547                ..-..G.....--.............C...--C.TA........CC...-..G.....G...G..C.CC....                                                                                                                                                                                   97984481
+970      56728                                                                                                                                                                                  ........C.--CA.C....-........-A...GCA....C.-..A..--......C.....G.......-.                    56664
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 556608854025
+
+
+  Database: GCF_005870125.1_lonStrDom2_genomic.fna
+    Posted date:  Sep 27, 2020  4:04 PM
+  Number of letters in database: 1,060,269,806
+  Number of sequences in database:  2,015
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

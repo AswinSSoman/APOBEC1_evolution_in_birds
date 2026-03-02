@@ -1,0 +1,107 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_018139145.2_ASM1813914v2_genomic.fna
+           542 sequences; 1,240,248,578 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 19843743104
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 147587710340
+
+
+Query= exon_3
+
+Length=544
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_059488.1 Gymnogyps californianus isolate 813 chromosome 18, AS...  53.6       5e-05
+NC_059499.1 Gymnogyps californianus isolate 813 chromosome 29, AS...  51.8       2e-04
+NC_059484.1 Gymnogyps californianus isolate 813 chromosome 14, AS...  51.8       2e-04
+NC_059493.1 Gymnogyps californianus isolate 813 chromosome 23, AS...  50.0       6e-04
+NC_059481.1 Gymnogyps californianus isolate 813 chromosome 11, AS...  50.0       6e-04
+NC_059474.1 Gymnogyps californianus isolate 813 chromosome 4, ASM...  48.2       0.002
+NC_059473.1 Gymnogyps californianus isolate 813 chromosome 3, ASM...  48.2       0.002
+NC_059491.1 Gymnogyps californianus isolate 813 chromosome 21, AS...  47.3       0.007
+
+
+
+Query_3  27        AGCTGGAGGCGCAGGTGGCAGAGCTGCAGGCCAAGCTGGGCCCCAgcggcgaggcgggcgcggggctgcgtcgcgacgtggaggagctgggcgggcggctgcgggcCGAGCTGGTGGAGGCACGGGGC-CGGGCAGCGCAGTACGGGGCCGAGGCGCGGGCCGTGCTGCAGCAGGGCGCCGAGGACCTGCGGAGCCGCCTGGCCGCCTACGCCCGCAAGCTGCGCAAGCGCCTGGCCAAGGACGCCGAGGAGCTGC-GGAGCCGCCTGGCCGCCgcg-gc  303
+17       418932                                                                                                                                                                                                                                                            .....C..C.........GA.GT....T.A.G  418963
+28       2872097   ............G.....AG..........A.......                                                                                                                                                                                                                                                    2872134
+13       19335088                                                                                                       .....G...............G.C...T...C...A....G....                                                                                                                                        19335044
+22       2034990                                                                                                                                                                                                                                     ...T.............C..A..C...G..-T.G..T..GG.....A..G.-..  2035041
+2        5057775                                                                                                                                                                                                                                                                          ..............-..  5057760
+20       574973                                                                                                                                                                                                                                                                   .-..G....G.G..--....-.-..  574954
+
+Query_3  304       -cggcgaggtgcgggcccgggcg-gcggc-gctgcacgaggggctg---ccggtgctgcgggcgccgccgcgg-ctggcggcgctgggACAGGCGCTGGGCGA--GCAG--GGCCGCCGGG----TGCAGCGGGGG-CTGCGGGAGGCGGTGCAG  442
+17       418964    -G....G..-....C..G.....-....G-CGG.....--....C.---GG.....C......C..CGG....G.C.....GTG....C.CTC..--.....GAC..G.--....C....-----...----....-.......C.....       419090
+13       15008253                                                                                                       ..--....--..........----G.....T....-......              15008221
+22       2035042   -G.C.......                                                                                                                                                  2035051
+10       20040791                  ......A-....GA.....TG...C.....---.G..-..-.A.T...T....CT..-A-..A.CT....CTG...CT..G..C...--...C--..G.A..T..----C.G.....CA.-.G.............G..  20040912
+3        35440940                                                                                            .............--..----.......TC.----...T.......C.C......            35440984
+2        5057759   GG.......C.......AT....A.....                                                                                                                                5057731
+20       574953    -.....G..C-....G......---...G-..C.G.T.--.C....GAG.G..C.....T....G...G..A.---....A..-...---........C.G.G--..T.CG...G......CTGC...G..C....-........C..         574824
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 636238901088
+
+
+  Database: GCF_018139145.2_ASM1813914v2_genomic.fna
+    Posted date:  Nov 25, 2022  7:48 PM
+  Number of letters in database: 1,240,248,578
+  Number of sequences in database:  542
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

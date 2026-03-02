@@ -1,0 +1,3 @@
+Query	Subject	Query_length	Alignment_length	Q_start	Q_end	S_start	S_end	E_value	Bit_score	Raw_score	%_Query_covered_per_sub	%_Query_covered_per_hsp	%_ident	Matches	Mismatches	Gaps	Strand	Query_sequence	Subject_sequence
+
+exon_3	VZDJ01000130.1	718	65	499	563	308272	308336	1.25e-06	59.9	65	9	9	80.000	52	13	0	plus	CCGCCTGGACGAGGTGAAGGAGCAGGTGGCGGAGGTGCGCGCCAAGCTGGAGGAGCAGGCCCAGC	CCGCCTGGACGAGGTGCTGCAGGAGGTGGCGGCGCTGCGGGCGCTGGTGGCGGAGCAGGGCCAGC

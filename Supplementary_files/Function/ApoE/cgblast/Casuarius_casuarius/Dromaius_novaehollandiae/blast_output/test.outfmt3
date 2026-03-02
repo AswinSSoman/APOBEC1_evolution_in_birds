@@ -1,0 +1,120 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_003342895.1_casCas1_genomic.fna
+           3,184 sequences; 1,209,001,349 total letters
+
+
+
+Query= exon_1
+
+Length=43
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+PTFA01000166.1 Casuarius casuarius isolate B32419 scaffold_165, w...  41.0       0.009
+
+
+
+Query_1  11       GGGTTGCGCTGCTGGGAGCTGCCCTGC  37
+724      2307473  ...C.......G...............  2307447
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 19342646096
+
+
+Query= exon_2
+
+Length=148
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+PTFA01000572.1 Casuarius casuarius isolate B32419 scaffold_571, w...  45.5       0.006
+
+
+
+Query_2  75      GTGGCCCAGCTGGGGCAGGCGGTGGAGAACGG  106
+2709     138357  ....................T.....C.G...  138326
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 143860172547
+
+
+Query= exon_3
+
+Length=544
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+PTFA01000196.1 Casuarius casuarius isolate B32419 scaffold_195, w...  59.9       1e-06
+PTFA01000044.1 Casuarius casuarius isolate B32419 scaffold_43, wh...  58.1       4e-06
+PTFA01000166.1 Casuarius casuarius isolate B32419 scaffold_165, w...  50.9       6e-04
+PTFA01000359.1 Casuarius casuarius isolate B32419 scaffold_358, w...  50.0       6e-04
+PTFA01000274.1 Casuarius casuarius isolate B32419 scaffold_273, w...  50.0       6e-04
+PTFA01000157.1 Casuarius casuarius isolate B32419 scaffold_156, w...  50.0       6e-04
+PTFA01000256.1 Casuarius casuarius isolate B32419 scaffold_255, w...  48.2       0.002
+PTFA01000130.1 Casuarius casuarius isolate B32419 scaffold_129, w...  48.2       0.002
+PTFA01000345.1 Casuarius casuarius isolate B32419 scaffold_344, w...  47.3       0.007
+
+
+
+Query_3  75       gcgaggcgggcgcggggctgcgtcgcgacgtggaggagctgggcgggcggctgcgggcCGAGCTGGTGGAGGCACGGGGCCGGGCAGCGCAGTACGGGGCCGAGGCGCGGGCCGTGCTGCAGCAGGGCGCCGAGGACCTGCGGAGCCGCCTGGCCGCCTACGCCCGCAAGCTGCGCAAGCGCCTGGCCAAGGACGCCGAGGAGCTGCGGAGCCGCCT-GGCCG--CCg-cggccggcga-ggtgc--g-ggcccgggcggcggcgctgcacgaggg----  342
+1057     1843508                                                                                                                                                                                                                       ...A-.....AG...-G......G.CC..G..CG.-....G....C...........GC.C..CGCG  1843571
+2552     1325644  ...C....C..T..........G..G.G..A..C..T..--...A......--.......G..C..GC..C...GC...........                                                                                                                                                                                                   1325726
+2552     4128486                                                                                                                                                                                                                                                                                   ...----  4128488
+724      1517633                                                                                                         ....G....A.C..C..G..G..A..GG....C..C...................                                                                                                                            1517579
+724      1517612                                                                                                                                                                                                .....GG....CC.C............-.....--...C...G...G..-.                                         1517566
+1924     811381                                                                                                                                ....A....C.......---..TG...C.....ACG..............GG..G........                                                                                              811440
+624      2509041                                                                                                                                                                                                                                .--.T.-.......A.C-..A.G--.-....G....C.....----.G..T...----  2508999
+1724     480728                                                                                                                                                                                                             ..C............G...T.--.GT-.T...A.G..-.TG..--.C....A.........T.--.GG..C...----  480663
+
+Query_3  343      gct---gccggtg-ctg-cgg-gc-gcc----g-------ccg-cggctg-gcggcgctgggACAG--GCGCTGGGCGAG---CA---G--GGCCGCCGG-GTGCAGCGG-G---GGCTGCGGGAGGCGGTGCAGGAGCTGTGGGC  453
+1057     1843572  ..CCGG.....G.-...A..C-..-.T.AGCT.-------A..-....-.-...C.......C--.--....A.C.G...---..CCG.--.AG.A....-.A..T....-.---...........                      1843670
+2552     4128489  ...---.....G.G.C.-A..T..T..G----.-------.T.T....G.-...-......---..--..........T.---.--------.G....T.-.G...C.A.-.AGCT.....T......C...G..C.....C....  4128599
+2472     31407                    .-...-.G-...----.-------G.--...GG.-..T...G....G.C.CG....A..C....GGG.C---.--..G....T.-.A.G..GA.-.---...........C......-....          31314
+624      2508998  -..---..-.TC.-...-A..-C.-..T----.TGTCTGC...-.A.A-.-....T......CG..--.A..........---.T---.CT..G......C.A..C....C.---...C...A.G.A..AG....             2508891
+1724     480662   ...---.....A.------..-A.-.G.----C-------...-G.....C.G...C...                                                                                        480626
+324      2040921                                                                          ...C....---T.---.--C..A.....-..-..C...-.---.............                    2040880
+2457     295131                                                                                           .--...G.....-.........-.---........                         295158
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 620167056885
+
+
+  Database: GCA_003342895.1_casCas1_genomic.fna
+    Posted date:  Dec 16, 2021  11:20 AM
+  Number of letters in database: 1,209,001,349
+  Number of sequences in database:  3,184
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

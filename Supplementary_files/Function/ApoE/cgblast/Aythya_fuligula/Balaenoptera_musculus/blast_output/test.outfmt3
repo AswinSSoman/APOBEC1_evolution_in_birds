@@ -1,0 +1,94 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_009819795.1_bAytFul2.pri_genomic.fna
+           105 sequences; 1,127,004,725 total letters
+
+
+
+Query= exon_1
+
+Length=43
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 18032030240
+
+
+Query= exon_2
+
+Length=190
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_045561.1 Aythya fuligula isolate bAytFul2 chromosome 3, bAytFu...  44.6       0.007
+
+
+
+Query_2  17        GGAGCCAGAGCCGGAGCCCGAGGTGCAGCTG--GGGCGG-GAGTGGCCCGGGTGGCAGGGCAGCC  78
+2        12411447  ......G...........G...CA.....A.CC......C...G.CA..A....CG....G....  12411383
+2        12488816  ......G...........G...CA.....A.CC......C...G.CA..A....CG....G....  12488880
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 180320252000
+
+
+Query= exon_3
+
+Length=718
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_045566.1 Aythya fuligula isolate bAytFul2 chromosome 8, bAytFu...  48.2       0.002
+NC_045565.1 Aythya fuligula isolate bAytFul2 chromosome 7, bAytFu...  46.4       0.009
+
+
+
+Query_3  475       GGAGATGGGCACCCAGGCCCGGGACCACCTGGAGGAGATGCGCG-AGCAGCTGGAGGAGGTGCGCGCCAAGGTGGAGGAGCAGG-GCAG  561
+7        1547765   ...A.............GG...C.G..G.A.C..C..CA..AG.-......A....C...A.GAG.AGG...A...........A....  1547678
+6        27285697                             .....C....C..A..AC............G.A..G.G...-............          27285749
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 774250009890
+
+
+  Database: GCF_009819795.1_bAytFul2.pri_genomic.fna
+    Posted date:  Jan 12, 2022  2:13 AM
+  Number of letters in database: 1,127,004,725
+  Number of sequences in database:  105
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,75 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_003957555.1_bCalAnn1_v1.p_genomic.fna
+           159 sequences; 1,059,687,259 total letters
+
+
+
+Query= exon_1
+
+Length=200
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 180146023130
+
+
+Query= exon_2
+
+Length=685
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044273.1 Calypte anna isolate BGI_N300 chromosome 28, bCalAnn1...  47.3       0.008
+NC_044252.1 Calypte anna isolate BGI_N300 chromosome 6, bCalAnn1_...  47.3       0.008
+NC_044254.1 Calypte anna isolate BGI_N300 chromosome 8, bCalAnn1_...  46.4       0.008
+
+
+
+Query_2  33        AGGCCTACAGGGAGGAGCTGGAGGAGCAGCTGGGCCCCATGGCCTCGGAGACACAGGCCCGCGTGGCCAAGGAGCTGCAGGCGGCGCAGGCCCGGCTGGCCTCGGACATGGAGGACGTGCGCAACCGCCTGGCGCAGTACCGCAGCGAGGTGCAGGCCATGCTGGGCCAGAGCGCCGAGGAGCTGCGGGGGCGCCTCGCCTCGCACCTGCGCAAGCTGCGCAAGCGGCTGCTCCGCGACGCCGAGGACCTGCACAAGCGCCTGGCCGTGTACCGCGCCGG  312
+8        7815909                                                                                                                                                                                 .................A..........                                                                                7815936
+10       30802629  ..............C......CC...A........                                                                                                                                                                                                                                                       30802663
+
+Query_2  313       GGTGCGCGAGGGCGCCGAGCGCAGCGTCAGCTCCATCCGCGAGCGCTTCTGGCCGCTGGTGGAGCAGgcgcgcgcgcgcAACGCCAACGTGGCCGCCGTGGCCGCGCAGCCGCTGCGGGAGCGGGCCGAGGCCTTGGGCCAGCAGCTGCGCGGGCGGCTGGACGAGGTGCGCGAGCAGGTGGAGGAGATGCGGCTCAAGATGGAGGAGCAGGCCGACCAGATGCGCCAGCAGGCCGAGGCCTTCCAGGCCCGCCTCAAGAGCTGGTTCGAGCCCTTGGTG  592
+
+Query_2  593       CAAGACATGCAGCGCCAGTGGGCCGGGCTGGTGGAGAAGTTGCAGGCGGCCGTGGGCACC  652
+29       4255005                              ...C..C.....C....................  4255037
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 693032243820
+
+
+  Database: GCF_003957555.1_bCalAnn1_v1.p_genomic.fna
+    Posted date:  Oct 3, 2020  8:51 PM
+  Number of letters in database: 1,059,687,259
+  Number of sequences in database:  159
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

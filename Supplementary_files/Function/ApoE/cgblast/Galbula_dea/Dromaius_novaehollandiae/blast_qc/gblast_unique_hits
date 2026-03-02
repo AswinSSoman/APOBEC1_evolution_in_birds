@@ -1,0 +1,3 @@
+Query   Subject         %_Query_covered_per_hsp  Query_length  Alignment_length  Q_start  Q_end  S_start  S_end    E_value   Bit_score
+exon_1  VWZX01000996.1  74                       43            32                7        38     2237893  2237862  6.56e-04  45.5
+exon_3  VWZX01002541.1  11                       544           61                106      166    490753   490702   0.006     47.3

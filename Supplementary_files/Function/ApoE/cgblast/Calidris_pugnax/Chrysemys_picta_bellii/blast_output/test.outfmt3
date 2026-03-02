@@ -1,0 +1,95 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_001431845.1_ASM143184v1_genomic.fna
+           3,753 sequences; 1,229,094,286 total letters
+
+
+
+Query= exon_1
+
+Length=181
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_015091357.1 Calidris pugnax isolate Ruff unplaced genomic scaf...  45.5       0.007
+
+
+
+Query_1  103    CCCCTTCCTTCTCTCCCTGCAGGCAAA  129
+599      47295  ......................A....  47321
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 185576236096
+
+
+Query= exon_2
+
+Length=151
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 149936224778
+
+
+Query= exon_3
+
+Length=634
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_015090916.1 Calidris pugnax isolate Ruff unplaced genomic scaf...  49.1       0.002
+NW_015091952.1 Calidris pugnax isolate Ruff unplaced genomic scaf...  47.3       0.008
+
+
+
+Query_3  44      GAAGAGCTGCGGACCCGGTTCGGCCCCTACGCCCAGGAGGCCCAGCAGCGCCTGGGCAGCGAGGTGGAGGCGCTGACGGGGAAGCTGCGGGCCGACATGGAGGAGGCCAAGGGCCGGGTGGTGCAGTACACGGGCGACGTGCGCTTGATGTTCAACCAGAACCTGGAGGAGGTGCGGGCCCGAGTTGGCATGTACCTGCGCAAGCTGCGCAAGCGTCTGGGCAAAGACACTGAGGAGCTG  283
+158      969246  ..G........C.AGG..C..A..................TG...G.CG....CAA.C..C..C.....AGC.......                                                                                                                                                                   969168
+1194     1662                                                                                           .....G...G...........GG..AG....C..CCG.....GG..CG..G.C...GGC....C.GG.G....GTTG..G....C..A..AA...G.GG.C..CC...GCC.....A........A..C...A..CGC...GGG.........  1814
+1194     4722                                                                                           .....G...G...........GG..AG....C..CCG.....GG..CG..G.C...GGC....C.GG.G....GTTG..G....C..A..AA...G.GG.C..CC...GCC.....A........A..C...A..CGC...GGG.........  4874
+1194     17931                                                                                          .....G...G...........GG..AG....C..CCG.....GG..CG..G.C...GGC....C.GG.G....GTTG..G....C..A..AA...G.GG.C..CC...GCC.....A........A..C...A..CGC...GGG.........  18083
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 741073699629
+
+
+  Database: GCF_001431845.1_ASM143184v1_genomic.fna
+    Posted date:  Oct 26, 2021  7:17 PM
+  Number of letters in database: 1,229,094,286
+  Number of sequences in database:  3,753
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,72 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_009819775.1_bPhoRub2.pri_genomic.fna
+           90 sequences; 1,246,226,932 total letters
+
+
+
+Query= exon_1
+
+Length=200
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 211858119440
+
+
+Query= exon_2
+
+Length=685
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM020219.1 Phoenicopterus ruber ruber isolate bPhoRub2 chromosome...  48.2       0.003
+CM020240.1 Phoenicopterus ruber ruber isolate bPhoRub2 chromosome...  47.3       0.009
+CM020227.1 Phoenicopterus ruber ruber isolate bPhoRub2 chromosome...  46.4       0.009
+
+
+
+Query_2  404       GCCGCCGTGGCCGCGCAGCCGCTG--CGGGAGCGGGCCGAGGCCTTGGGCCAGCAGCTGCGCGGGCGGCTGGACGAGGTGCGCGAGCAGGTGGAGGAGATGCGGCTCAAGATGGAGGAGCAGGCCGACCAGATGCGCCAGCAGGCCGAGGCCTTCCAGGCCCGCCTCAAGAGCTGGTTCGAGCCCTTGGTGCAAGACATGCAGCGCCAGTGGGCCGGGCTGGTGGAGAAGTTGCAGGCGGCCGTGGGCACC  652
+4        70831240                                                      ....GG.G.............G.......TGC..G......C..C.C.....GCGCT.G...C........                                                                                                                                  70831170
+4        70891121                                                              .............G.......TGC..G......C..C.C.....GCGCT.G...C........                                                                                                                                  70891059
+25       2164897                                                                                                                                                                                                                             ...C..C.....C....................  2164929
+12       1352429   .......C...........T..A.CC....G..C..G....C..CA..C.....-...--..C...A..G.....                                                                                                                                                                                  1352358
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 815030588868
+
+
+  Database: GCA_009819775.1_bPhoRub2.pri_genomic.fna
+    Posted date:  Jan 7, 2022  8:36 PM
+  Number of letters in database: 1,246,226,932
+  Number of sequences in database:  90
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

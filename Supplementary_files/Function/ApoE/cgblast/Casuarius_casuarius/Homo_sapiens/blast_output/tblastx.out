@@ -1,0 +1,3 @@
+Query	Subject	Query_length	Alignment_length	Q_start	Q_end	S_start	S_end	E_value	Bit_score	Raw_score	%_Query_covered_per_sub	%_Query_covered_per_hsp	%_ident	Matches	Mismatches	Gaps	Strand	Query_sequence	Subject_sequence
+
+exon_3	PTFA01000112.1	718	35	411	307	506511	506615	0.004	45.1	92	15	15	54.286	19	16	0	N/A	REPTVAARTRPCSTRGPRRSRMALRPRSAPSRAPA	RSPSGACRARPAAARGPRRRRAAPAPRPAAAAAPA

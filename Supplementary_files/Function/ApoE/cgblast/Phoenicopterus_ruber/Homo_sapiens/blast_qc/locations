@@ -1,0 +1,4 @@
+Location    #_hits  %_query_cov  %_identity  Lowest_evalue
+CM020240.1  1       3.66667      25          0.003
+CM020232.1  1       2.66667      26.984      7.71e-04
+CM020218.1  1       3.33333      24.6577     0.009

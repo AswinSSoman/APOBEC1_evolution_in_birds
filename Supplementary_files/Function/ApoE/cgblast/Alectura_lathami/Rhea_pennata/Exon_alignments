@@ -1,0 +1,24 @@
+[07;32m[K>exon_2[m[K	[03;04;32m[KLength:208[m[K | [03;04;32m[KIdentity:101/208(48.6%)[m[K | [03;04;32m[KSimilarity:101/208(48.6%)[m[K | [03;04;32m[KGaps:77/208(37.0%)[m[K | [03;04;32m[KScore:244.0[m[K
+	
+  
+  APOE_Rhea_pen      1 --------------------GCTGTGGG-GCCGAGCTGGGCCCTGAGGAGCCG--CGGGCCGGCTGGGAAGCGGCTGTCGACGCCTTCTGGGAGTACGTG-----------GCCCAGCT-----------------GGGGCATGCGGTGGAGAACGGCA-CTGTGCGTGTGAAGAGC--------GCCCAGATTGGCCGCAAGCTTGA    148
+                                           ||..|||| ||.||.|||||||||| |||||.|  |.||||||||||||||..|||.||||.||| .||...||..||||           ||||.|.|                 |||.||  |||||.|| |.|||| |.| |||.||..|..||        .|||.||||        .||   
+  extracted_fla      1 GGCTCTGGGAGCATCCCTGGGCCCTGGGAGCAGACCTGGGCCCTG-GGAGCAGACCTGGCCGGCTGGGAAGTTGCTCTCGATGCC-GCTCCCAGACCGTGCGGGTCTTGCAGCCCCGGTCCCGATCCTGTCCCCGAGGGACA--Cggtgcag-agggcagcag-gcGGGTTCAACGCCATCAATAACCCCGATT--------TCT---    191
+
+
+[07;32m[K>exon_3[m[K	[03;04;32m[KLength:208[m[K | [03;04;32m[KIdentity:101/208(48.6%)[m[K | [03;04;32m[KSimilarity:101/208(48.6%)[m[K | [03;04;32m[KGaps:77/208(37.0%)[m[K | [03;04;32m[KScore:244.0[m[K
+	
+  
+  APOE_Rhea_pen      1 ---------------------------------CGGCCTCATCGCGGAGACCATGGCAGAGCTGGAGGCGCA---GGCGGTGGA---GCTGCAGGCCCAGCTGGGCCCTGGTGGCGAGGCCAGCGTGG---GGCTGCAGCGCGACGTG---------------------GAGGAGCTAGGTGGGCGGCTGC--------GGGCTGAGATGGCGGAGGCACGGGGCCGGGTGGCGCAGTAC    169
+                                                        ||.|||||..|||  |||||          ||.||| ||   .||..||||   .||.||  ||.||||||||.....||.|.|||..|.|||||   .||||||||..|.||.|                     |||.|||      |||..||||        ||||||.|        ||||  |||..||||   ||||   
+  extracted_fla      1 ACCCTGTGCCCGTGTGCCTGCAGGGACGCGGGCCGACCTCAGTGCG--GACCA----------GGTGGC-CACTGTGCTCTGGAAGTACTTCA--CCGAGCTGGGCAGCAATGCCAAGGAGACCGTggaccagctgcagcaagccGAGATCACCAAGCAGCTCAAGTAAGAGCAGC------GGCCACTGCGGCAccgggggctgcg--------ggca--ggggaGGGT---GCAG---    203
+  
+  APOE_Rhea_pen    170 GGCGCCGAGGCACAGGCCGTGCTGCAGCAGGGCGCTGAGGACCTGCGTGGCCGCCTGGC---CGCCTACACCC---------GCAAGCTACGCA-AGCG------CCTGGCCAAGGACACCGAGGAGCTGCGGAGCCGCCTGGCCGCCGCCGCCAGCAAGGTGCAGGCGCGGGTGGCGGAGCGGGCGGCAGCACTGCGCCAGGGGTTGCCGCCGCTGCGGGCGGCCCCTCGGCTGGCAGC    390
+                               |||.||||  |||||      ||||||||.|    ||| ||.|.|||| ||   |.||..|||||         ||||.||  ||| ||||      |||        ||.||||||||||||.|.|.|||||||...||..|||||...||.|||||||||||.||||          ||||.||| || |||.||.||..|       |.||.|..|  ||||  || |.
+  extracted_fla    204 --------GGCGCAGG--GTGCT------GGGCGCTGGG----TGC-TGActgcct-gctctccccagcaccctgctgcagggcaacCT--GCAGAGCGTCAACTCCT--------ACGCCGAGGAGCTGCAGCGGCGCCTGGTGCCCTTCGCCACGGAGCTGCAGGCGCGGCTGGC----------GCAGGACT-CG-CAGCGGCTGAAG-------GAGCAGATC--CGGC--Gc-ga    387
+  
+  APOE_Rhea_pen    391 GCTGGGGCAGGTGCTTGGCGAGCAGG--GCCTCCG-------GGTGCAGCAG---------------------GGGCTGCAGG--AGGCGGTGC----------AGGAGCTGCGGGCCTCGCTGGATGGTGCCG-TGCAGGGGCTGCGGAGCT--GGCTGGCTGCGCTGCTGCCCAACGTGCCGC--TGCTGCTCGA-CGGCCCCAAGCCTTGA-------------------    556
+                       |||||.|.||.|||..|.|.|||.||  .|||.||       ||||||.|||                     |.||||||||  |.||.|.||          ||||||||||   |||||.|| ||| .||| .|||    |||.||||||  |||.|   ||||||..||||.||  |||||  .|||||..|| |||        ||.||                   
+  extracted_fla    388 gctggaggagctgcaggccaAGCTGGCACCCTACGCCGACGAGGTGCACCAGCAGATCGGCACCAACATCCGTGAGCTGCAGGCCAAGCTGAGCCCCTATGCCGAGGAGCTGCG---CTCGCAGG-TGG-ACCGCGGCA----CTGGGGAGCTGCGGCGG---GCGCTGGAGCCCTAC--GCCGCCGAGCTGCGGGAGCGG--------CTGGAGGACAACGCCGGCAGCATC    598
+
+

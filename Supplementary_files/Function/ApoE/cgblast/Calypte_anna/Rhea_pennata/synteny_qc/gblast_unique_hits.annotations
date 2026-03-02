@@ -1,0 +1,2 @@
+NC_044245.1	73021610	73021636	exon_1	NC_044245.1	0	151342139	NC_044245.1:1..151342139	.	+	RefSeq	region	.	ID=NC_044245.1:1..151342139;Dbxref=taxon:9244;Name=2;chromosome=2;country=USA;gbkey=Src;genome=chromosome;isolate=BGI_N300;mol_type=genomic DNA;sex=female
+NC_044252.1	20323516	20323574	exon_2	NC_044252.1	0	35401958	NC_044252.1:1..35401958	.	+	RefSeq	region	.	ID=NC_044252.1:1..35401958;Dbxref=taxon:9244;Name=6;chromosome=6;country=USA;gbkey=Src;genome=chromosome;isolate=BGI_N300;mol_type=genomic DNA;sex=female

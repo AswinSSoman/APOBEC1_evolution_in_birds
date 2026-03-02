@@ -1,0 +1,108 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_013399565.1_ASM1339956v1_genomic.fna
+           6,096 sequences; 1,197,106,122 total letters
+
+
+
+Query= exon_1
+
+Length=43
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VXAO01000102.1 Podilymbus podiceps isolate B10K-DU-009-04 scaffol...  41.0       0.009
+
+
+
+Query_1  10      TGGGTTGCGCTGCTGGGAGCTGCCCTGCTTGC  41
+101      700870  ..T...........TT.......T........  700839
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 19151064480
+
+
+Query= exon_2
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 142434591222
+
+
+Query= exon_3
+
+Length=544
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+VXAO01004120.1 Podilymbus podiceps isolate B10K-DU-009-04 scaffol...  51.8       2e-04
+VXAO01001166.1 Podilymbus podiceps isolate B10K-DU-009-04 scaffol...  51.8       2e-04
+VXAO01000407.1 Podilymbus podiceps isolate B10K-DU-009-04 scaffol...  50.0       6e-04
+VXAO01000762.1 Podilymbus podiceps isolate B10K-DU-009-04 scaffol...  48.2       0.002
+VXAO01000293.1 Podilymbus podiceps isolate B10K-DU-009-04 scaffol...  48.2       0.002
+VXAO01002217.1 Podilymbus podiceps isolate B10K-DU-009-04 scaffol...  46.4       0.007
+VXAO01001972.1 Podilymbus podiceps isolate B10K-DU-009-04 scaffol...  46.4       0.007
+VXAO01000280.1 Podilymbus podiceps isolate B10K-DU-009-04 scaffol...  46.4       0.007
+
+
+
+Query_3  106     ggaggagctgggcgggcggctgcgggcCGAGCTGGTGGAGGCACGGGGCCGGGCAGCGCAGTACGGGGCCGAGGCGCGGGCCGTGCTGCAGCAGGGCGCCGAGGACCTGCGGAGCCGCCTGGCCGCCTACGCCCGCAAGCTGCGCAAGCGCCTGGCCAAGGACGCCGAGGAGCTGCGGAGCCGCCTGGCCGCCgcggccggcgaggtgcgggcccgggcggcggcgctgcacgaggggctgccggtgctgcgggcgccgccgc--ggctggcggcgctgg  383
+1165     245658  ..........------..........---......A...........CA........C...                                                                                                                                                                                                                             245709
+406      304167                                                                                                                                                    ...T.............C..A..C...G..T.G..T..GG.....A..G...G.C.......                                                                          304228
+292      178850                                                                                                                                                                                                                                               ......TT......C.....A..G..CG.....-...G....T  178809
+1971     42209                                                                                .......T..-...........T.G............                                                                                                                                                                        42244
+
+Query_3  384     gACAGGCGCTGGGCGAGCAGGGCCGCCGGGTGCAGCGGGGGCTGCGGGAGGCGG-TGCAGGAGCTGTGGGCCTCGGTGGACGGCGTCCTGCAGGGGCTCCTGGGCTGG  490
+4119     3992                                                 ......G..-A.--..............G..GCT....G.C.G.A........G.........  3933
+761      450825                      ..........G..G...........C.....G..-..                                                     450790
+292      178808  .C.-..............T..                                                                                         178789
+2216     14401                            ...................GA.....G..-...T..                                                 14435
+279      119875         ....C..-...G..C...TG..CG............CG.........C...T.......                                            119932
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 614018495898
+
+
+  Database: GCA_013399565.1_ASM1339956v1_genomic.fna
+    Posted date:  Nov 20, 2021  1:07 PM
+  Number of letters in database: 1,197,106,122
+  Number of sequences in database:  6,096
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
