@@ -1,5 +1,7 @@
 
 
+##############################################################################################################################################################
+
 #Download RNA seq data
 
 cd /media/ashutosh/disk3
@@ -10,7 +12,10 @@ time /media/ashutosh/disk3/RNA_seq/sratoolkit.3.3.0-ubuntu64/bin/prefetch  --max
 
 
 
+##############################################################################################################################################################
+#Comment 3 
 
+#apoB alignment:
 mkdir ~/bird_db1/aswin/APOBEC1/function/APOB/other_vertebrates
 cd ~/bird_db1/aswin/APOBEC1/function/APOB/other_vertebrates
 
@@ -27,10 +32,43 @@ awk '/^>/{
     gene=$2
     match($0,/\[organism=([^]]+)\]/,o); org=o[1]
     match($0,/\[GeneID=([0-9]+)\]/,g); gid=g[1]
-    split(org,a," "); last=a[length(a)]
-    print ">"gene"_"acc"_"org"_"gid"_"last"_squamata"
+    split(org,a," ")
+    print ">"gene"_"acc"_"org"_"gid"_squamata"
     next} {print}' cds.fna > squamata.fa
-time mafft --maxiterate 1000 --localpair --reorder --thread 8 squamata.fa > squamata.aln 
+time mafft --maxiterate 1000 --localpair --reorder --thread 4 squamata.fa > squamata.aln 
+#sequences to remove:
+#APOB_XM_014055581.1_Thamnophis sirtalis_106540476_sirtalis_squamata: only 1 exon & gaps preent
+myfasta -vpp squamata.fa APOB_XM_014055581 > squamata_filtered.fa
+
+cd ~/bird_db1/aswin/APOBEC1/function/APOB/other_vertebrates/crocodylia/ncbi_dataset/data
+awk '/^>/{
+    acc=$1; sub(/^>/,"",acc); sub(/:.*/,"",acc)
+    gene=$2
+    match($0,/\[organism=([^]]+)\]/,o); org=o[1]
+    match($0,/\[GeneID=([0-9]+)\]/,g); gid=g[1]
+    split(org,a," ")
+    print ">"gene"_"acc"_"org"_"gid"_crocodylia"
+    next} {print}' cds.fna > crocodylia.fa
+time mafft --maxiterate 1000 --localpair --reorder --thread 4 crocodylia.fa > crocodylia.aln 
+#sequence to remove:
+#APOB_XM_006034385.3_Alligator sinensis_102383976_sinensis_crocodylia : only 9 exons & gaps present & apoB is at assembly end
+myfasta -vpp crocodylia.fa APOB_XM_00603438 > crocodylia_filtered.fa
+
+cd ~/bird_db1/aswin/APOBEC1/function/APOB/other_vertebrates/testudines/ncbi_dataset/data
+awk '/^>/{
+    acc=$1; sub(/^>/,"",acc); sub(/:.*/,"",acc)
+    gene=$2
+    match($0,/\[organism=([^]]+)\]/,o); org=o[1]
+    match($0,/\[GeneID=([0-9]+)\]/,g); gid=g[1]
+    split(org,a," ")
+    print ">"gene"_"acc"_"org"_"gid"_testudine"
+    next} {print}' cds.fna > testudine.fa
+time mafft --maxiterate 1000 --localpair --reorder --thread 4 testudine.fa > testudine.aln 
+#sequence to remove:
+#APOB_XM_006034385.3_Alligator sinensis_102383976_sinensis_testudine : only 9 exons & gaps present & apoB is at assembly end
+myfasta -vpp testudine.fa APOB_XM_00603438 > testudine_filtered.fa
+
+
 
 
 XM_014055581.1:156-8057 APOB [organism=Thamnophis sirtalis] [GeneID=106540476] [region=cds]
@@ -45,6 +83,7 @@ exon_wise -datasets -tid XM_019537339.1
 
 
 
+##############################################################################################################################################################
 
 cd ~/bird_db1/aswin/database_details
 
