@@ -1,13 +1,32 @@
 
 
 ##############################################################################################################################################################
+#Comment 6: RNA-seq 
+
+#To get RNA seq info from NCBI database:
+#Go to genome browser : https://www.ncbi.nlm.nih.gov/datasets/genome/
+#Search species name (without underscores)
+#Get most updated genome with annotation
+#Go to it's genome data viewer
+#Search syntenic genes in Genome data viewer
+#Zoom out such that A1 & A1-like genes are visible & syntenic genes with robust RNA expression for reference.
+#Change view: show protein fetures, 
+#Add local track data: A1 local blastn, TOGA expected exon hits, A1-like local blastn 
+#Add exon coverage data from RNA-seq track & check the count: half the total sample i.e. 74 items means 37 samples
+#Tracks -> configure tracks -> Expression -> RNA-Seq , samples (74 items) -> check all exon coverafe tracks -> Configure
+
+
+
 
 #Download RNA seq data
 
-cd /media/ashutosh/disk3
+cd /media/ashutosh/disk3/RNA_seq
+
+#Casuarius casuarius : unknown sex , unknown tissue type: 1.5Gb
 time /media/ashutosh/disk3/RNA_seq/sratoolkit.3.3.0-ubuntu64/bin/prefetch  --max-size 100000000 SRR10852845
 
-
+#Leptosomus discolor : unknown sex , blood: 1.1Gb
+time /media/ashutosh/disk3/RNA_seq/sratoolkit.3.3.0-ubuntu64/bin/prefetch  --max-size 100000000 SRR10853056
 
 
 
@@ -39,6 +58,7 @@ time mafft --maxiterate 1000 --localpair --reorder --thread 4 squamata.fa > squa
 #sequences to remove:
 #APOB_XM_014055581.1_Thamnophis sirtalis_106540476_sirtalis_squamata: only 1 exon & gaps preent
 myfasta -vpp squamata.fa APOB_XM_014055581 > squamata_filtered.fa
+awk -F"_" '/^>/ {print ">S_"$4; next} {print}' squamata_filtered.fa | sed '/^>/ s/ /_/g' | myfasta -comb > squamata_filtered_renamed.fa
 
 cd ~/bird_db1/aswin/APOBEC1/function/APOB/other_vertebrates/crocodylia/ncbi_dataset/data
 awk '/^>/{
@@ -53,6 +73,7 @@ time mafft --maxiterate 1000 --localpair --reorder --thread 4 crocodylia.fa > cr
 #sequence to remove:
 #APOB_XM_006034385.3_Alligator sinensis_102383976_sinensis_crocodylia : only 9 exons & gaps present & apoB is at assembly end
 myfasta -vpp crocodylia.fa APOB_XM_00603438 > crocodylia_filtered.fa
+awk -F"_" '/^>/ {print ">C_"$4; next} {print}' crocodylia_filtered.fa | sed '/^>/ s/ /_/g' | myfasta -comb > crocodylia_filtered_renamed.fa
 
 cd ~/bird_db1/aswin/APOBEC1/function/APOB/other_vertebrates/testudines/ncbi_dataset/data
 awk '/^>/{
@@ -66,20 +87,35 @@ awk '/^>/{
 time mafft --maxiterate 1000 --localpair --reorder --thread 4 testudine.fa > testudine.aln 
 #sequence to remove:
 #APOB_XM_006034385.3_Alligator sinensis_102383976_sinensis_testudine : only 9 exons & gaps present & apoB is at assembly end
-myfasta -vpp testudine.fa APOB_XM_00603438 > testudine_filtered.fa
+awk -F"_" '/^>/ {print ">T_"$4; next} {print}' testudine.fa | sed '/^>/ s/ /_/g' | myfasta -comb > testudine_renamed.fa
+time mafft --maxiterate 1000 --localpair --reorder --thread 4 testudine_renamed.fa > testudine_renamed.aln 
+
+cd ~/bird_db1/aswin/APOBEC1/function/APOB/other_vertebrates
+cp ../APOB_representative_mammals_one_per_gene_intact_apobec1_validated_birds_species_manually_checked_APOB_edited.fa .
+find . -name "*renamed.fa" | xargs -n1 sh -c 'cp $0 .'
+cat APOB_representative_mammals_one_per_gene_intact_apobec1_validated_birds_species_manually_checked_APOB_edited.fa testudine_renamed.fa squamata_filtered_renamed.fa crocodylia_filtered_renamed.fa > all_vertebrates_apob.fa
 
 
+M_Equus_caballus
+B_Corvus_moneduloides
 
+B_Limosa_lapponica_baueri
 
-XM_014055581.1:156-8057 APOB [organism=Thamnophis sirtalis] [GeneID=106540476] [region=cds]
-XM_054970013.1:53-13546 APOB [organism=Eublepharis macularius] [GeneID=129323471] [region=cds]
-XM_070732802.1:59-13540 APOB [organism=Erythrolamprus reginae] [GeneID=139156769] [region=cds]
+B_Buceros_rhinoceros_silvestris
+B_Opisthocomus_hoazin
 
-exon_wise -datasets -tid XM_006034385.3
-exon_wise -datasets -tid XM_059729267.1
-exon_wise -datasets -tid XM_019520673.1
-exon_wise -datasets -tid XM_019537339.1
+M_Canis_lupus_familiaris
+M_Ursus_maritimus
+M_Neovison_vison
+M_Felis_catus
+M_Panthera_leo
+M_Manis_pentadactyla
+M_Trichechus_manatus_latirostris
+M_Elephas_maximus_indicus
+S_Eublepharis_macularius
 
+M_Erinaceus_europaeus
+B_Opisthocomus_hoazin
 
 
 
