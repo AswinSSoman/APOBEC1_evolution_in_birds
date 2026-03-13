@@ -1,35 +1,5 @@
 
 
-##############################################################################################################################################################
-#Comment 6: RNA-seq 
-
-#To get RNA seq info from NCBI database:
-#Go to genome browser : https://www.ncbi.nlm.nih.gov/datasets/genome/
-#Search species name (without underscores)
-#Get most updated genome with annotation
-#Go to it's genome data viewer
-#Search syntenic genes in Genome data viewer
-#Zoom out such that A1 & A1-like genes are visible & syntenic genes with robust RNA expression for reference.
-#Change view: show protein fetures, 
-#Add local track data: A1 local blastn, TOGA expected exon hits, A1-like local blastn 
-#Add exon coverage data from RNA-seq track & check the count: half the total sample i.e. 74 items means 37 samples
-#Tracks -> configure tracks -> Expression -> RNA-Seq , samples (74 items) -> check all exon coverafe tracks -> Configure
-
-
-
-
-#Download RNA seq data
-
-cd /media/ashutosh/disk3/RNA_seq
-
-#Casuarius casuarius : unknown sex , unknown tissue type: 1.5Gb
-time /media/ashutosh/disk3/RNA_seq/sratoolkit.3.3.0-ubuntu64/bin/prefetch  --max-size 100000000 SRR10852845
-
-#Leptosomus discolor : unknown sex , blood: 1.1Gb
-time /media/ashutosh/disk3/RNA_seq/sratoolkit.3.3.0-ubuntu64/bin/prefetch  --max-size 100000000 SRR10853056
-
-
-
 
 ##############################################################################################################################################################
 #Comment 3 
@@ -90,11 +60,16 @@ time mafft --maxiterate 1000 --localpair --reorder --thread 4 testudine.fa > tes
 awk -F"_" '/^>/ {print ">T_"$4; next} {print}' testudine.fa | sed '/^>/ s/ /_/g' | myfasta -comb > testudine_renamed.fa
 time mafft --maxiterate 1000 --localpair --reorder --thread 4 testudine_renamed.fa > testudine_renamed.aln 
 
+#Collect all sequence for final alignment
 cd ~/bird_db1/aswin/APOBEC1/function/APOB/other_vertebrates
 cp ../APOB_representative_mammals_one_per_gene_intact_apobec1_validated_birds_species_manually_checked_APOB_edited.fa .
 find . -name "*renamed.fa" | xargs -n1 sh -c 'cp $0 .'
 cat APOB_representative_mammals_one_per_gene_intact_apobec1_validated_birds_species_manually_checked_APOB_edited.fa testudine_renamed.fa squamata_filtered_renamed.fa crocodylia_filtered_renamed.fa > all_vertebrates_apob.fa
 
+#Label using jalview alignment
+#Load alignment -> change formats: right align sequence id, Show nonconserved -> Set human as reference -> locate motifs : e.g. mooring sequnces
+	# -> select the mooring sequence of human & create sequence feature -> select all species aligning in this mooring sequence & create new group 
+	# -> group colour based on percentage identity -> select the whole animal group sequence ids & create a new group, add names, e.g. Mammals.
 
 M_Equus_caballus
 B_Corvus_moneduloides
