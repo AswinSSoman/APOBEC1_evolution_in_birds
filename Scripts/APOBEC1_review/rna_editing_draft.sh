@@ -144,6 +144,7 @@ time python3.10 -m reditools analyze SRR30595317.coord.sorted.dedup.bam -r /medi
 cd /media/aswin/gene_loss/APOBEC1/RNA_editing/rnabam
 # 233m19.541s
 time python3.10 -m reditools analyze SRR30595317.coord.sorted.dedup.bam -r /media/aswin/gene_loss/APOBEC1/RNA_editing/reference/GRCg6a_clean.fa -o rna_table_reditools3_run2.txt -t 30 -V
+
 #nonempty output (230m0.046s)
 time python3.10 -m reditools analyze SRR30595317.coord.sorted.dedup.bam -r /media/aswin/gene_loss/APOBEC1/RNA_editing/reference/GRCg6a_clean.fa -o rna_table_reditools3_run_q255.txt -t 30 -V -s 2 -C
 

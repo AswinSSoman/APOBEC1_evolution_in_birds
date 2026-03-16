@@ -9,8 +9,9 @@
 
 REDItools implements several positional filters to minimize biases due to sequencing and mapping errors. Below, we report a description of filters and default values, but users should tune them according to the characteristics of input RNAseq or WGS reads. In brackets, we also report command line options to active each filter in REDItoolsDnaRna.py script.
 
-| Quality score | positions with a Phred score <25 are excluded (-q); |
+| Parameter/input | Tuning |
 |---|---|
+| Quality score | positions with a Phred score <25 are excluded (-q); |
 | Mapping quality | reads with a mapping quality score <30 are removed (-m in combination with -u for RNAseq and -U for WGS/WXS). This score is aligner-dependent and should be changed accordingly; |
 | Per base coverage | sites not supported by ≥10 reads are filtered out (-c); |
 | Bases supporting variation | sites with at least three reads supporting the variation are excluded (-v); |
@@ -31,7 +32,7 @@ REDItools implements several positional filters to minimize biases due to sequen
 | Specific sites | positions not included in the user-provided list of sites are excluded (-T) or included (-K); |
 | Specific genomic region | positions not included in the user-provided genomic region are removed (-Y followed by the genomic region in the format chr |start-end). |
 
-2. Github
+2. Github Issues
 
 - [Request for a detailed tutorial on REDItools 3 #53](https://github.com/BioinfoUNIBA/REDItools3/issues/53)
 	- Preprocessing: You can and should use adapter trimming as you would for a typical NGS workflow. No special considerations need to be taken for REDItools.
@@ -40,13 +41,15 @@ REDItools implements several positional filters to minimize biases due to sequen
 	- Finding repeats: The find-repeats tool is legacy code. You do not need to run it. If you want to focus your analysis on repetitive elements (or exclude them), I suggest using Repeat Masker data from UCSC.
 	- Running command `analyze` command: This is my best translation of the REDI1 parameters from the REDInet tutorial:
 		
-		`	python3 -m reditools analyze -l 1 -m 255 -me 1 -bq 30 -Men 1 -s 2 -C.
-		`
+		```
+		python3 -m reditools analyze -l 1 -m 255 -me 1 -bq 30 -Men 1 -s 2 -C
+		```
 	- You may want to use --threads and --window for parallel processing. And if you want to exclude repetitive regions, the -k option can be used with a BED file.
 	- If your BAM file has MD tags, do not provide a reference with -r. The reference option will override the presence of MD tags and will slow REDItools down significantly. You also do not need to add "True" after the -C option. Simply adding -C should turn on strand correction.
 
-		`python3 -m reditools analyze <BAM file> -r <hg38_reference.fasta.gz> -o <reditools_output_table.txt> -q 255 -s 2 -C True
-		`
+		```
+		python3 -m reditools analyze <BAM file> -r <hg38_reference.fasta.gz> -o <reditools_output_table.txt> -q 255 -s 2 -C True
+		```
 	- I made the following modifications from the sample code:
 		- Removed arguments where the value matches the default in the REDItools 3 help output in the command line
 		- Sample code has -m 255 -> realised this maps to -q MIN_READ_QUALITY in REDItools 3
