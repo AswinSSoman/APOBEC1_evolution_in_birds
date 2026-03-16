@@ -31,6 +31,29 @@ REDItools implements several positional filters to minimize biases due to sequen
 | Specific sites | positions not included in the user-provided list of sites are excluded (-T) or included (-K); |
 | Specific genomic region | positions not included in the user-provided genomic region are removed (-Y followed by the genomic region in the format chr |start-end). |
 
+2. Github
+
+- [Request for a detailed tutorial on REDItools 3 #53](https://github.com/BioinfoUNIBA/REDItools3/issues/53)
+	- Preprocessing: You can and should use adapter trimming as you would for a typical NGS workflow. No special considerations need to be taken for REDItools.
+	- Mapping: When aligning with tools like STAR mapper: With any aligner, I strongly encourage using whatever parameters are needed to include MD tags in the output. A BAM file with MD tags will be processed many times faster than one without. For STAR specifically, you'll need this: --outSAMattributes NH HI AS nM MD
+	- Strand: need to determine the strandedness of your BAM file and supply that using the --strand option.
+	- Finding repeats: The find-repeats tool is legacy code. You do not need to run it. If you want to focus your analysis on repetitive elements (or exclude them), I suggest using Repeat Masker data from UCSC.
+	- Running command `analyze` command: This is my best translation of the REDI1 parameters from the REDInet tutorial:
+		
+		`	python3 -m reditools analyze -l 1 -m 255 -me 1 -bq 30 -Men 1 -s 2 -C.
+		`
+	- You may want to use --threads and --window for parallel processing. And if you want to exclude repetitive regions, the -k option can be used with a BED file.
+	- If your BAM file has MD tags, do not provide a reference with -r. The reference option will override the presence of MD tags and will slow REDItools down significantly. You also do not need to add "True" after the -C option. Simply adding -C should turn on strand correction.
+
+		`python3 -m reditools analyze <BAM file> -r <hg38_reference.fasta.gz> -o <reditools_output_table.txt> -q 255 -s 2 -C True
+		`
+	- I made the following modifications from the sample code:
+		- Removed arguments where the value matches the default in the REDItools 3 help output in the command line
+		- Sample code has -m 255 -> realised this maps to -q MIN_READ_QUALITY in REDItools 3
+		- Sample code has -Men 1 -> removed this to use REDItools 3 default, which is 4
+		- Sample code has -s 2 -> remove this to use REDItools 3 default, which is 0. This means unstranded, which I understand is the default setting
+		- Sample code has -C, realised I need to put True here, based on the REDItools 3 help output
+
 
 ## Scripts:
 
@@ -46,6 +69,7 @@ REDItools implements several positional filters to minimize biases due to sequen
 		 removing the sites with a read count <10 and minimum mapping quality score of <30.
 		- Base frequencies were counted at all positions in the transcript sequences.
 		- Positions with significant differences in base frequency compared to the reference were identified using Fisher’s exact test with Benjamini–Hochberg correction (P-value <.01).
+	- Pipeline script: [Quantifying RNA editing in deep transcriptome datasets](https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2020.00194/full) : [Github link](https://github.com/BioinfoUNIBA/QEdit/tree/5255f68f4a66af2c579800f86e5f635351168c5f/scripts)
 	
 - Reditools2: 
 

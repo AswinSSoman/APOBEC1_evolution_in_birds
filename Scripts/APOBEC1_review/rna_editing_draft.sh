@@ -126,54 +126,6 @@ conda install -c bioconda -c conda-forge pysam
 pip install REDItools3
 
 
-################################################################################################################################################################################################################################################
-
-#Guidelines for RNA editing:
-
-	#Preprocessing:
-		#You can and should use adapter trimming as you would for a typical NGS workflow. No special considerations need to be taken for REDItools.
-	#Mapping:
-		#When aligning with tools like STAR mapper: With any aligner, I strongly encourage using whatever parameters are needed to include MD tags in the output. A BAM file with MD tags will be processed many times faster than one without. For STAR specifically, you'll need this: --outSAMattributes NH HI AS nM MD
-	#Strand:
-		#need to determine the strandedness of your BAM file and supply that using the --strand option.
-	#Finding repeats:
-		#The find-repeats tool is legacy code. You do not need to run it. If you want to focus your analysis on repetitive elements (or exclude them), I suggest using Repeat Masker data from UCSC.
-	#Running command `analyze` command
-		#This is my best translation of the REDI1 parameters from the REDInet tutorial:
-		
-		`	python3 -m reditools analyze -l 1 -m 255 -me 1 -bq 30 -Men 1 -s 2 -C.
-		`
-		#You may want to use --threads and --window for parallel processing. And if you want to exclude repetitive regions, the -k option can be used with a BED file.
-		If your BAM file has MD tags, do not provide a reference with -r. The reference option will override the presence of MD tags and will slow REDItools down significantly. You also do not need to add "True" after the -C option. Simply adding -C should turn on strand correction.
-
-	`python3 -m reditools analyze <BAM file> -r <hg38_reference.fasta.gz> -o <reditools_output_table.txt> -q 255 -s 2 -C True
-	`
-	#I made the following modifications from the sample code:
-		#Removed arguments where the value matches the default in the REDItools 3 help output in the command line
-		#Sample code has -m 255 -> realised this maps to -q MIN_READ_QUALITY in REDItools 3
-		#Sample code has -Men 1 -> removed this to use REDItools 3 default, which is 4
-		#Sample code has -s 2 -> remove this to use REDItools 3 default, which is 0. This means unstranded, which I understand is the default setting
-		#Sample code has -C, realised I need to put True here, based on the REDItools 3 help output
-
-#After suitable low-quality read and adapter trimming (see Note 1), the mapping of DNA-Seq reads in fastq format (.fq) onto the human genome assembly hg19 can be carried out using BWA, after indexing the reference sequence (see Note 3), with the following command line:
-	`bwa mem hg19.fa DNA_R1.fq DNA_R2.fq > DNA.sam
-	`
-	#In this case, the input sequences are paired end (DNA_R1.fq and DNA_R2.fq). At the end of the run, BWA will generate a SAM file containing the aligned reads
-
-#RNA-Seq reads can be more accurately aligned using STAR. In this case, the aligner requires an index which should be previously generated, by providing both the reference sequence and known splice junctions (from RefSeq, Gencode, or other specialized databases) (see Note 4):
-	`STAR --genomeDir STAR_hg19_index --readFilesIn RNA_R1.fq RNA_R2.fq --outSAMtype BAM SortedByCoordinate
-	`
-	#Input files may be paired end, as in the command line provided (RNA_R1.fq and RNA_R2.fq). In contrast with BWA, STAR allows to directly choose BAM as output format, with reads sorted by coordinate.
-
-#DNA-Seq reads in SAM format need to be converted in BAM and sorted, using SAMtools:
-	`samtools view -b DNA.sam -o DNA.bam
-		samtools sort DNA.bam -o DNA_sorted.bam
-	`
-#Read groups are generally required in both DNA-Seq and RNA-Seq alignments. We recommend the following command line, adapting input and output file names:
-	`java -Xmx8g -jar AddOrReplaceReadGroups.jar INPUT=X_sorted.bam OUTPUT=X_sorted_RG.bam VALIDATION_STRINGENCY=SILENT TMP_DIR=tmp CREATE_INDEX=True SORT_ORDER=coordinate RGID=sample RGLB=sample RGPL=illumina RGSM=sample RGPU=sample
-	`
-
-
 
 ################################################################################################################################################################################################################################################
 #DRAFT SCRIPTS
