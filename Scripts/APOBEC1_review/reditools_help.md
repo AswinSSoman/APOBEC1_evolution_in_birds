@@ -35,4 +35,10 @@ REDItools implements several positional filters to minimize biases due to sequen
 ## Scripts:
 
 
-Reditools2 : https://github.com/hato-lab/A-to-I-edit/blob/2a09982e6b61014774aacadff838af55f14ff5a4/Alignment_REDItools2_scripts.sh#L245
+- Reditools2: 
+
+	- Full shell script from downloading inputs, running reditools2 & till finding hyperedited sites: https://github.com/hato-lab/A-to-I-edit/blob/2a09982e6b61014774aacadff838af55f14ff5a4/Alignment_REDItools2_scripts.sh#L245
+	- Full shell script from downloading inputs, running reditools2 & inspecting & stat analysis of output: https://github.com/Kiliankleemann/BulkRNAseq-Analysis/blob/ba74d9fdd9df99b39595fd7778177f6658383c44/RNA_editing/RNAedit_mm10_AD_exp_freq%3E0.1%20REDItools.sh#L23
+	- A pipeline of reditools DNA RNA annotation and filtering: https://github.com/icgc-argo-workflows/rna-editing/blob/b6442a2eb32ee4504bc87c7eeee4c0e2c8d806e3/rna_editing/reditools/reditools_dnarna_filtering_v1.sh
+	
+	
