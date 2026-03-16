@@ -72,13 +72,16 @@ done
 
 #In Z840
 mkdir /media/ashutosh/disk3/RNA_seq/Rhea_americana
-#In ceglab25
+#In neo
 time scp SRR*.fa workstation@172.30.1.172:/media/ashutosh/disk3/RNA_seq/Rhea_americana/
 time scp SRR*.gz workstation@172.30.1.172:/media/ashutosh/disk3/RNA_seq/Rhea_americana
 #In Z840
 cd /media/ashutosh/disk3/RNA_seq/Rhea_americana
 #14m13.799s
 time cat SRR*.fa > combined_SRA_Rhea_americana.fa
+
+#In neo
+scp -r /home/neo/soft_links/Rhea_americana/aswin/APOBEC1/2nd_gblast/synteny/ workstation@172.30.1.172:/media/ashutosh/disk3/RNA_seq/Rhea_americana/bed_files
 
 #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 #RNA mapping:
@@ -87,20 +90,26 @@ samtools faidx GCA_003343005.1_rheAme1_genomic.fna
 
 #Index the genome from mapping
 time /home/workstation/aswin/programs/STAR/source/STAR --runThreadN 64 --runMode genomeGenerate --genomeDir . --genomeFastaFiles GCA_003343005.1_rheAme1_genomic.fna --limitGenomeGenerateRAM 31000000000
+
 read_1="SRR10852933_1.fastq.gz"
 read_2="SRR10852933_2.fastq.gz"
 id="SRR10852933"
 ulimit -n 65535
 time /home/workstation/aswin/programs/STAR/source/STAR --runThreadN 16 --genomeDir . --readFilesCommand zcat --readFilesIn $read_1 $read_2 --outFileNamePrefix "${id}_aligned_" --outSAMtype BAM SortedByCoordinate
+samtools index SRR10852933_aligned_Aligned.sortedByCoord.out.bam
 
 #STAR Mapping
-time for i in *_1.fastq
+cd /media/ashutosh/disk3/RNA_seq/Rhea_americana
+ls SRR*.fastq.gz | cut -f1 -d "_" | sort -u > ids
+
+time for id in $(cat ids)
 do
-j=`echo $i|sed 's/_1/_2/g'`
-k=`echo $i|sed 's/_1.fastq//g'`
-STAR --runThreadN 8 --outSAMtype BAM SortedByCoordinate --genomeDir . sjdbGTFfile GCF_000247815.1_FicAlb1.5_genomic.gff --readFilesIn $i $j  --outFileNamePrefix "$k"_brain
-samtools index *.bam
+read1=$(ls SRR*.fastq.gz | grep "$id"_1.fastq.gz)
+read2=$(ls SRR*.fastq.gz | grep "$id"_2.fastq.gz)
+echo ">" $id $read1 $read2
+time /home/workstation/aswin/programs/STAR/source/STAR --runThreadN 16 --genomeDir . --readFilesCommand zcat --readFilesIn $read1 $read2 --outFileNamePrefix "${id}_" --outSAMtype BAM SortedByCoordinate
+samtools index "$id"_Aligned.sortedByCoord.out.bam
+unset read1 read2
 done
 
-/home/workstation/aswin/programs/STAR/source/STAR
 
