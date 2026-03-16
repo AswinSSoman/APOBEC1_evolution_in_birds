@@ -42,7 +42,6 @@ REDItools implements several positional filters to minimize biases due to sequen
 
 		```
 		-t 17 -e -d -l -U [AG, TC, CT, GA] -G path/to/gtf -p -u -m 30 -T 6–0 -W -v 10 -n 0 -g 2 -s 1
-
 		```
 		 removing the sites with a read count <10 and minimum mapping quality score of <30.
 		- Base frequencies were counted at all positions in the transcript sequences.
