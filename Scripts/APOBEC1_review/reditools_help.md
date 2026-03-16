@@ -3,7 +3,7 @@
 ---
 
 
-### Guidelines to run
+## Guidelines to run
 
 1. Based on a paper: 
 
@@ -32,4 +32,7 @@ REDItools implements several positional filters to minimize biases due to sequen
 | Specific genomic region | positions not included in the user-provided genomic region are removed (-Y followed by the genomic region in the format chr |start-end). |
 
 
+## Scripts:
 
+
+Reditools2 : https://github.com/hato-lab/A-to-I-edit/blob/2a09982e6b61014774aacadff838af55f14ff5a4/Alignment_REDItools2_scripts.sh#L245
