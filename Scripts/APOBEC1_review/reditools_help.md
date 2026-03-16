@@ -5,7 +5,7 @@
 
 ## Guidelines to run
 
-1. Based on a paper: 
+1. Parameters to tune: [Investigating RNA editing in deep transcriptome datasets with REDItools and REDIportal](https://doi.org/10.1038/s41596-019-0279-7) 
 
 REDItools implements several positional filters to minimize biases due to sequencing and mapping errors. Below, we report a description of filters and default values, but users should tune them according to the characteristics of input RNAseq or WGS reads. In brackets, we also report command line options to active each filter in REDItoolsDnaRna.py script.
 

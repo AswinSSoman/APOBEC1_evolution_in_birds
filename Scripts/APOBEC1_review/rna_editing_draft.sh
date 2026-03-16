@@ -66,13 +66,12 @@ time python3.10 -m reditools index rna_table_reditools3_SRR28208762_Aligned.sort
 #Reditools on DNA bam: 216m31.053s
 time python3.10 -m reditools analyze SRR28002323.coord.sorted.bam -r /media/aswin/gene_loss/APOBEC1/RNA_editing/reference/GRCg6a_clean.fa -o "dna_table_reditools3_SRR28002323.txt" -t 32 -V &> "dna_table_reditools3_SRR28002323.stdout"
 
+#Annotate in reditools
 time python3.10 -m reditools annotate rna_table_reditools3_SRR28208762_Aligned.sortedByCoord.out.bam.txt ../dnabam/dna_table_reditools3_SRR28002323.txt > SRR28208762_SRR28002323_rna_dna.tsv
-
-3) Detect all potential RNA variants in your input BAM using the REDItoolDnaRNA.py script:
-python ../corso_epitrascrittomica/data_reditools/src/REDItools/main/REDItoolDnaRna.py -o /home/student_X/RNAseq -i SRRXXXXXXX.bam -f /data/annotations/GRCh37.primary_assembly.genome.fa -t 4 -c 0,1 -m 0,255 -v 1 -q 0,30 -e -n 0.0 -N 0.0 -u -l -p
 
 python ../corso_epitrascrittomica/data_reditools/src/REDItools/main/REDItoolDnaRna.py -o /home/student_7/RNAseq -i SRR1319672.bam -f /data/annotations/GRCh37.primary_assembly.genome.fa -t 4 -c 0,1 -m 0,255 -v 1 -q 0,30 -e -n 0.0 -N 0.0 -u -l -p
 
+time python2.7 /media/aswin/programs/REDItools/main/REDItoolDnaRna.py -i SRR28208762_Aligned.sortedByCoord.out.bam -j ../dnabam/SRR28002323.coord.sorted.bam -o dna_corrected_rna_editing_SRR28002323_SRR28208762 -f /media/aswin/gene_loss/APOBEC1/RNA_editing/reference/GRCg6a_clean.fa -t32 -c1,1 -m30,255 -v1 -q30,30 -e -n0.0 -N0.0 -u -l -p -s2 -g2 -S
 
 
 ################################################################################################################################################################################################################################################
