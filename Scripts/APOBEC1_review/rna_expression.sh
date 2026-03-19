@@ -27,17 +27,54 @@
 cd /media/ashutosh/disk3/RNA_seq
 time /media/ashutosh/disk3/RNA_seq/sratoolkit.3.3.0-ubuntu64/bin/prefetch  --max-size 100000000 SRR10852845
 
+#convert sra to fastq
+time fasterq-dump SRR10852845.sra --split-files -e 32
+#QC fastq
+#conda deactivate
+fastqc SRR10852845_1.fastq
+fastqc SRR10852845_2.fastq 
+#trim adpaters
+trim_galore --paired --fastqc --illumina SRR10852845_1.fastq SRR10852845_2.fastq
+#Get fasta: 
+sed -n '1~4s/^@/>/p;2~4p' SRR10852845_1_val_1.fq > SRR10852845_1_val_1.fa
+sed -n '1~4s/^@/>/p;2~4p' SRR10852845_2_val_2.fq > SRR10852845_2_val_2.fa
+
+
 #Download new genome since updated genome has annotation but lacks any genes named APOBEC1, AICDA, NANOG etc. which is strange!
 datasets download genome accession GCA_013396415.1 --include genome,gtf,seq-report --dehydrated --filename GCA_013396415.1.zip
 unzip GCA_013396415.1.zip -d GCA_013396415.1
 datasets rehydrate --directory GCA_013396415.1
 
+#STAR mapping
+time /home/workstation/aswin/programs/STAR/source/STAR --runThreadN 64 --runMode genomeGenerate --genomeDir . --genomeFastaFiles GCA_013396415.1_ASM1339641v1_genomic.fna --sjdbGTFfile GCA_013396415.1_ASM1339641v1_genomic.gtf --limitGenomeGenerateRAM 31000000000
+#6m1.041s
+time /home/workstation/aswin/programs/STAR/source/STAR --runThreadN 16 --genomeDir . --readFilesIn SRR10852845_1_val_1.fa SRR10852845_2_val_2.fa --outFileNamePrefix SRR10852845_ --outSAMtype BAM SortedByCoordinate --sjdbGTFfile GCA_013396415.1_ASM1339641v1_genomic.gtf --quantMode GeneCounts
+samtools index SRR10852845_Aligned.sortedByCoord.out.bam
+
+#In neo
+cd ~/soft_links/Casuarius_casuarius/aswin/APOBEC1/2nd_gblast/synteny
+scp Casuarius_casuarius_synteny_exons.bed Casuarius_casuarius_synteny_genes.bed workstation@172.30.1.172:/media/ashutosh/disk3/RNA_seq/Casuarius_casuarius/
+
 ##########################################################################################################################################################################################################################################################################################################
 #Leptosomus discolor
 
 #Download SRA : unknown sex , blood: 1.1Gb
-cd /media/ashutosh/disk3/RNA_seq
+cd /media/ashutosh/disk3/RNA_seq/Leptosomus_discolor
 time /media/ashutosh/disk3/RNA_seq/sratoolkit.3.3.0-ubuntu64/bin/prefetch  --max-size 100000000 SRR10853056
+
+#convert sra to fastq
+time fasterq-dump SRR10853056.sra --split-files -e 32
+#QC fastq:
+#conda deactivate
+fastqc SRR10853056_1.fastq
+fastqc SRR10853056_2.fastq 
+#trim adpaters (14m47.993s)
+time trim_galore --paired --fastqc --illumina SRR10853056_1.fastq SRR10853056_2.fastq
+#Get fasta 
+sed -n '1~4s/^@/>/p;2~4p' SRR10853056_1_val_1.fq > SRR10853056_1_val_1.fa
+sed -n '1~4s/^@/>/p;2~4p' SRR10853056_2_val_2.fq > SRR10853056_2_val_2.fa
+
+
 
 
 ##########################################################################################################################################################################################################################################################################################################
@@ -111,5 +148,9 @@ time /home/workstation/aswin/programs/STAR/source/STAR --runThreadN 16 --genomeD
 samtools index "$id"_Aligned.sortedByCoord.out.bam
 unset read1 read2
 done
+
+#Visualize in IGV load 3 tissues at a time and take screenshot in svg format.
+
+
 
 
