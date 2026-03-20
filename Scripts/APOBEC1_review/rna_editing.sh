@@ -78,8 +78,10 @@ done
 mkdir /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/dna
 cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/dna
 time bwa index -a is ../genome/GCA_041920315.1_ASM4192031v1_genomic.fna -p GCA_041920315.1
-time bwa mem -t 32 ../genome/GCA_041920315.1_ASM4192031v1_genomic.fna -Y ../SRR30595317_1.fastq ../SRR30595317_2.fastq > SRR30595317.sam
-
+#52m8.335s
+time bwa mem -t 32 GCA_041920315.1 -Y ../SRR30595317_1.fastq ../SRR30595317_2.fastq > SRR30595317.sam
+#
+time bwa mem -t 32 GCA_041920315.1 -Y ../SRR28002323_1.fastq ../SRR28002323_2.fastq > SRR28002323.sam
 
 
 
