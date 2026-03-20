@@ -9,6 +9,7 @@ cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Chicken: data is based on: Comprehensive sequencing of the genome and transcriptome of the Xishuangbanna game fowl: https://doi.org/10.1038/s41597-024-04014-4
+#Crows: The genomic landscape underlying phenotypic integrity in the face of gene flow in crows : https://doi.org/10.1126/science.1253226
 
 #Get SRA data
 
@@ -30,12 +31,24 @@ cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools
 #Uncompress (81m2.399s)
 	time for i in $(ls SRR*.fastq.gz); do echo ">"$i; time gzip -d $i; done
 
+#Download genome
+mkdir /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/genome
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/genome
+time datasets download genome accession GCA_041920315.1 --include genome,gtf,seq-report --dehydrated
+unzip ncbi_dataset.zip -d GCA_041920315.1 
+mv GCA_041920315.1/ncbi_dataset/data/GCA_041920315.1/GCA_041920315.1_ASM4192031v1_genomic.fna .
+samtools faidx GCA_041920315.1_ASM4192031v1_genomic.fna
+
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #QC
 
 #Fastqc (133m36.377s)
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools
+mkdir fastqc
  time for i in $(cat rna_ids dna_ids); do echo ">"$i; fastqc "$i"_1.fastq "$i"_2.fastq; done
+mv SRR*fastqc.zip *_fastqc.html fastqc/
 
+#fastp (94m56.508s)
 cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools
 mkdir fastp
 time for i in $(cat rna_ids dna_ids)
@@ -44,15 +57,28 @@ echo ">" $i
 time fastp -i "$i"_1.fastq -I "$i"_2.fastq -o fastp/out_"$i"_1.fastq -O fastp/out_"$i"_2.fastq -q 25 -u 10 -l 50 -y -x -w 32 -h fastp/fastp_"$i".html -j fastp/fastp_"$i".json 
 done
 
-time fastp -i SRR28369625_1.fastq -I SRR28369625_2.fastq -o out_SRR28369625_1.fastq -O out_SRR28369625_2.fastq -q 25 -u 10 -l 50 -y -x -w 32 -h 
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Alignment
 
+mkdir /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/alignment
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/alignment
 
+#STAR mapping (5m26.924s)
+time /media/aswin/programs/STAR_2.7.11b/Linux_x86_64_static/STAR --runThreadN 32 --runMode genomeGenerate --genomeDir . --genomeFastaFiles ../genome/GCA_041920315.1_ASM4192031v1_genomic.fna  --limitGenomeGenerateRAM 31000000000
+#134m49.188s
+ulimit -n 65535
+time for i in $(cat ../rna_ids | grep -v "SRR28369625")
+do
+echo ">" $i
+time /media/aswin/programs/STAR_2.7.11b/Linux_x86_64_static/STAR --runThreadN 16 --genomeDir . --readFilesIn ../fastp/out_"$i"_1.fastq ../fastp/out_"$i"_2.fastq --outFileNamePrefix "$i"_ --outSAMtype BAM SortedByCoordinate --outReadsUnmapped Fastx --outFilterMultimapNmax 1
+samtools index "$i"_Aligned.sortedByCoord.out.bam
+done
 
-
-
-
-
-
+#BWA mapping
+mkdir /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/dna
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/dna
+time bwa index -a is ../genome/GCA_041920315.1_ASM4192031v1_genomic.fna -p GCA_041920315.1
+time bwa mem -t 32 ../genome/GCA_041920315.1_ASM4192031v1_genomic.fna -Y ../SRR30595317_1.fastq ../SRR30595317_2.fastq > SRR30595317.sam
 
 
 
