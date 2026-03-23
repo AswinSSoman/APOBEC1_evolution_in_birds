@@ -3,11 +3,11 @@
 ################################################################################################################################################################################################################################################
 
 
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Get input data
 
 cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools
 
-#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Chicken: data is based on: Comprehensive sequencing of the genome and transcriptome of the Xishuangbanna game fowl: https://doi.org/10.1038/s41597-024-04014-4
 #Crows: The genomic landscape underlying phenotypic integrity in the face of gene flow in crows : https://doi.org/10.1126/science.1253226
 
@@ -60,8 +60,8 @@ done
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Alignment
 
-mkdir /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/alignment
-cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/alignment
+mkdir /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/rna
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/rna
 
 #STAR mapping (5m26.924s)
 time /media/aswin/programs/STAR_2.7.11b/Linux_x86_64_static/STAR --runThreadN 32 --runMode genomeGenerate --genomeDir . --genomeFastaFiles ../genome/GCA_041920315.1_ASM4192031v1_genomic.fna  --limitGenomeGenerateRAM 31000000000
@@ -82,6 +82,51 @@ time bwa index -a is ../genome/GCA_041920315.1_ASM4192031v1_genomic.fna -p GCA_0
 time bwa mem -t 32 GCA_041920315.1 -Y ../SRR30595317_1.fastq ../SRR30595317_2.fastq > SRR30595317.sam
 #
 time bwa mem -t 32 GCA_041920315.1 -Y ../SRR28002323_1.fastq ../SRR28002323_2.fastq > SRR28002323.sam
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Prepare inputs
+
+#Sort bam files
+for f in *.sam
+do
+(
+    filename="${f%%.*}"
+    echo $filename
+    samtools view -bS "$f" | samtools sort -@ 6 -m 2G -o "${filename}.sorted.bam"
+) &
+done
+wait
+
+#Merge bam files (25m35.751s)
+time samtools merge SRR28002323_SRR30595317_merged.bam SRR28002323.sorted.bam SRR30595317.sorted.bam -@ 24
+
+#Sort (35m59.601s)
+time samtools sort SRR28002323_SRR30595317_merged.bam -@ 30 -m 3G -o SRR28002323_SRR30595317_merged_sorted.bam
+#Index (13m29.160s)
+samtools index SRR28002323_SRR30595317_merged_sorted.bam
+
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Identify editing sites
+
+rna/SRR28369623_Aligned.sortedByCoord.out.bam
+dna/SRR28002323_SRR30595317_merged_sorted.bam
+
+#Using reditools 1
+mkdir /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/editing
+time python2.7 /media/aswin/programs/REDItools/NPscripts/REDItoolDnaRnav13.py -i rna/SRR28369623_Aligned.sortedByCoord.out.bam -j dna/SRR28002323_SRR30595317_merged_sorted.bam -o editing/SRR28369623_editing -f genome/GCA_041920315.1_ASM4192031v1_genomic.fna -t32 -c1,1 -m30,255 -v1 -q30,30 -v1 -e -n0.0 -N0.0 -u -l -p -s2 -g2 -S
+
+#test reditools3
+#cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools
+#time scp genome/GCA_041920315.1_ASM4192031v1_genomic.fna dna/SRR28002323_SRR30595317_merged_sorted.bam rna/SRR28369623_Aligned.sortedByCoord.out.bam workstation@172.30.1.172:~/aswin/RNA_editing/reditools/
+#cd ~/aswin/RNA_editing/reditools
+#samtools faidx GCA_041920315.1_ASM4192031v1_genomic.fna
+#samtools index SRR28369623_Aligned.sortedByCoord.out.bam
+#samtools index SRR28002323_SRR30595317_merged_sorted.bam
+python3.10 -m reditools analyze SRR28369623_Aligned.sortedByCoord.out.bam -r GCA_041920315.1_ASM4192031v1_genomic.fna -t 32 -l 1 -s 2 -C -e -q 30 
+python3.10 -m reditools analyze SRR28002323_SRR30595317_merged_sorted.bam -r GCA_041920315.1_ASM4192031v1_genomic.fna -N -t 32 -l 1 -s 2 -C -e -q 255
+
+
 
 
 
