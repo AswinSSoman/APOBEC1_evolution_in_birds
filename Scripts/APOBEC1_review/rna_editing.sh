@@ -112,20 +112,50 @@ samtools index SRR28002323_SRR30595317_merged_sorted.bam
 rna/SRR28369623_Aligned.sortedByCoord.out.bam
 dna/SRR28002323_SRR30595317_merged_sorted.bam
 
-#Using reditools 1
+#Using reditools 1 (231m18.319s)
 mkdir /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/editing
-time python2.7 /media/aswin/programs/REDItools/NPscripts/REDItoolDnaRnav13.py -i rna/SRR28369623_Aligned.sortedByCoord.out.bam -j dna/SRR28002323_SRR30595317_merged_sorted.bam -o editing/SRR28369623_editing -f genome/GCA_041920315.1_ASM4192031v1_genomic.fna -t32 -c1,1 -m30,255 -v1 -q30,30 -v1 -e -n0.0 -N0.0 -u -l -p -s2 -g2 -S
 
-#test reditools3
+#time python2.7 /media/aswin/programs/REDItools/NPscripts/REDItoolDnaRnav13.py -i rna/SRR28369623_Aligned.sortedByCoord.out.bam -j dna/SRR28002323_SRR30595317_merged_sorted.bam -o editing/SRR28369623_editing -f genome/GCA_041920315.1_ASM4192031v1_genomic.fna -t32 -c1,1 -m30,255 -v1 -q30,30 -v1 -e -n0.0 -N0.0 -u -l -p -s2 -g2 -S
+
+# 2400m50.715s
+time for b in $(ls rna/SRR*_Aligned.sortedByCoord.out.bam)
+do
+p=$(echo $b | cut -f2 -d "/" | cut -f1 -d "_")
+echo ">"$b ":" $p
+time python2.7 /media/aswin/programs/REDItools/NPscripts/REDItoolDnaRnav13.py -i $b -j dna/SRR28002323_SRR30595317_merged_sorted.bam -o editing/"$p"_editing -f genome/GCA_041920315.1_ASM4192031v1_genomic.fna -t32 -c1,1 -m30,255 -v1 -q30,30 -v1 -e -n0.0 -N0.0 -u -l -p -s2 -g2 -S &> editing/"$p"_run_std.out
+done
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Filtering:
+
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/editing/SRR28369623_editing/DnaRna_858705213
+
+#Exclude invariant positions as well as positions not supported by ≥10 WGS reads (1m38.502s)
+time awk 'FS="\t" {if ($8!="-" && $10>=10 && $13=="-") print}' outTable_858705213 > outTable_858705213_filtered.out
+
+#selecting sites with at least five RNAseq reads and a single mismatch:
+time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i outTable_858705213_filtered.out -c 5 -v 1 -f 0.0 -o outTable_858705213_filtered.sel1
+
+#selecting sites with ≥10 RNAseq reads, three mismatches and minimum editing frequency of 0.1:
+time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i outTable_858705213_filtered.out -c 10 -v 3 -f 0.1 -o outTable_858705213_filtered.sel2
+
+
+
+#TO compare: Run REDitools3
 #cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools
 #time scp genome/GCA_041920315.1_ASM4192031v1_genomic.fna dna/SRR28002323_SRR30595317_merged_sorted.bam rna/SRR28369623_Aligned.sortedByCoord.out.bam workstation@172.30.1.172:~/aswin/RNA_editing/reditools/
 #cd ~/aswin/RNA_editing/reditools
 #samtools faidx GCA_041920315.1_ASM4192031v1_genomic.fna
-#samtools index SRR28369623_Aligned.sortedByCoord.out.bam
-#samtools index SRR28002323_SRR30595317_merged_sorted.bam
-python3.10 -m reditools analyze SRR28369623_Aligned.sortedByCoord.out.bam -r GCA_041920315.1_ASM4192031v1_genomic.fna -t 32 -l 1 -s 2 -C -e -q 30 
-python3.10 -m reditools analyze SRR28002323_SRR30595317_merged_sorted.bam -r GCA_041920315.1_ASM4192031v1_genomic.fna -N -t 32 -l 1 -s 2 -C -e -q 255
+#time samtools index SRR28369623_Aligned.sortedByCoord.out.bam					#0m28.911s
+#time samtools index SRR28002323_SRR30595317_merged_sorted.bam					#14m45.851s
 
+time python3.10 -m reditools analyze SRR28369623_Aligned.sortedByCoord.out.bam -r GCA_041920315.1_ASM4192031v1_genomic.fna -o rna_reditools3_SRR28369623.out -t 64 -l 1 -s 2 -C -e -q 30 
+time python3.10 -m reditools analyze SRR28002323_SRR30595317_merged_sorted.bam -r GCA_041920315.1_ASM4192031v1_genomic.fna -o dna_reditools3_SRR28369623.out -N -t 64 -l 1 -s 2 -C -e -q 255
+
+#65m39.031s
+time python3.10 -m reditools analyze SRR28369623_Aligned.sortedByCoord.out.bam -r GCA_041920315.1_ASM4192031v1_genomic.fna -o rna_reditools3_SRR28369623.out -t 64 -s 2 -C -q 30 
+#0m0.468s
+time python3.10 -m reditools analyze SRR28002323_SRR30595317_merged_sorted.bam -r GCA_041920315.1_ASM4192031v1_genomic.fna -o dna_reditools3_SRR28369623.out -N -t 64 -s 2 -C -q 255 
 
 
 
