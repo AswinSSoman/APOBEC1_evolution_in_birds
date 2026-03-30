@@ -9,7 +9,6 @@
 cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools
 
 #Chicken: data is based on: Comprehensive sequencing of the genome and transcriptome of the Xishuangbanna game fowl: https://doi.org/10.1038/s41597-024-04014-4
-#Crows: The genomic landscape underlying phenotypic integrity in the face of gene flow in crows : https://doi.org/10.1126/science.1253226
 
 #Get SRA data
 
@@ -56,6 +55,9 @@ do
 echo ">" $i
 time fastp -i "$i"_1.fastq -I "$i"_2.fastq -o fastp/out_"$i"_1.fastq -O fastp/out_"$i"_2.fastq -q 25 -u 10 -l 50 -y -x -w 32 -h fastp/fastp_"$i".html -j fastp/fastp_"$i".json 
 done
+
+#Compress & keep raw data (512m16.535s)
+for f in SRR*.fastq; do gzip "$f"; done
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Alignment
@@ -109,15 +111,10 @@ samtools index SRR28002323_SRR30595317_merged_sorted.bam
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Identify editing sites
 
-rna/SRR28369623_Aligned.sortedByCoord.out.bam
-dna/SRR28002323_SRR30595317_merged_sorted.bam
-
 #Using reditools 1 (231m18.319s)
 mkdir /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/editing
 
-#time python2.7 /media/aswin/programs/REDItools/NPscripts/REDItoolDnaRnav13.py -i rna/SRR28369623_Aligned.sortedByCoord.out.bam -j dna/SRR28002323_SRR30595317_merged_sorted.bam -o editing/SRR28369623_editing -f genome/GCA_041920315.1_ASM4192031v1_genomic.fna -t32 -c1,1 -m30,255 -v1 -q30,30 -v1 -e -n0.0 -N0.0 -u -l -p -s2 -g2 -S
-
-# 2400m50.715s
+#Run REDitools 1 (2400m50.715s)
 time for b in $(ls rna/SRR*_Aligned.sortedByCoord.out.bam)
 do
 p=$(echo $b | cut -f2 -d "/" | cut -f1 -d "_")
@@ -128,20 +125,53 @@ done
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Filtering:
 
-cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/editing/SRR28369623_editing/DnaRna_858705213
-
-#Exclude invariant positions as well as positions not supported by ≥10 WGS reads (1m38.502s)
-time awk 'FS="\t" {if ($8!="-" && $10>=10 && $13=="-") print}' outTable_858705213 > outTable_858705213_filtered.out
-
+# 41m32.908s
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools
+time for i in $(cat rna_ids)
+do
+p=$(find editing/ -name "outTable_*" | grep "$i")
+echo ">"$p
+#Exclude invariant positions as well as positions not supported by ≥10 WGS reads
+time awk 'FS="\t" {if ($8!="-" && $10>=10 && $13=="-") print}' $p > $p"_filtered.out"
 #selecting sites with at least five RNAseq reads and a single mismatch:
-time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i outTable_858705213_filtered.out -c 5 -v 1 -f 0.0 -o outTable_858705213_filtered.sel1
-
+time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 5 -v 1 -f 0.0 -o $p"_filtered.sel1"
 #selecting sites with ≥10 RNAseq reads, three mismatches and minimum editing frequency of 0.1:
-time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i outTable_858705213_filtered.out -c 10 -v 3 -f 0.1 -o outTable_858705213_filtered.sel2
+time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 10 -v 3 -f 0.1 -o $p"_filtered.sel2"
+unset p
+done
+
+#Count substitutions
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/editing
+time for i in $(find . -name "*_filtered.out")
+do
+p=$(echo $i | sed 's/\.out//g')
+python2.7 /media/aswin/programs/REDItools/accessory/subCount.py "$i" | sed '1i Substitution Read_count Total_reads Percentage' > "$p"_all_subs_readcount.out
+python2.7 /media/aswin/programs/REDItools/accessory/subCount2.py "$i" | sed '1i Substitution Site_count Total_sites Percentage' > "$p"_all_subs_sitecount.out
+join -1 1 -2 1 "$p"_all_subs_readcount.out "$p"_all_subs_sitecount.out | sed 's/[ ]\+/\t/g' > "$p"_all_subs_count.out
+unset p
+done 
+
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/editing	
+for i in $(find . -name "*_filtered.out")
+do
+p=$(echo $i | sed 's/\.out//g')
+r=$(echo $i | cut -f2 -d "/" | cut -f1 -d "_")
+p1=$(awk -F "," -v r="$r" '$1==r {print$1,$NF}' OFS="\t" /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/ncbi_SRP459583_metadata.csv | tr " " "_")
+tail -n +2 "$p"_all_subs_count.out | sort -k 2nr | sed "s/^/$p1 /g" 
+unset p r p1
+done | sed '1i SRR_ID\tTissue\tSubstitution\tRead_count\tTotal_reads\t%_Read\tSite_count\tTotal_sites\t%_Site' | sed 's/[ ]\+/\t/g' > summary_substitutions.tsv
+sed 's/the_large_intestine/large_intestine/g' summary_substitutions.tsv -i
+
+Rscript plot_read_site_count.R summary_substitutions.tsv plot_read_site_count.pdf
+Rscript plot_tissue_count.R summary_substitutions.tsv plot_tissue_count.pdf
 
 
 
+
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #TO compare: Run REDitools3
+
 #cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools
 #time scp genome/GCA_041920315.1_ASM4192031v1_genomic.fna dna/SRR28002323_SRR30595317_merged_sorted.bam rna/SRR28369623_Aligned.sortedByCoord.out.bam workstation@172.30.1.172:~/aswin/RNA_editing/reditools/
 #cd ~/aswin/RNA_editing/reditools

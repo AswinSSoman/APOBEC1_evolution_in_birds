@@ -211,3 +211,13 @@ time python3.10 -m reditools analyze SRR30595317.coord.sorted.dedup.bam -r /medi
 #cd ~/aswin/RNA_editing/rnabam
 #time python3.10 -m reditools analyze SRR30595317.coord.sorted.dedup.bam -r /media/aswin/gene_loss/APOBEC1/RNA_editing/reference/GCF_000002315.6_GRCg6a_genomic.fna -o rna_table_reditools3.txt -q 255 -t 30 -s 2 -C -V
 
+
+#Exclude invariant positions as well as positions not supported by ≥10 WGS reads (1m38.502s)
+time awk 'FS="\t" {if ($8!="-" && $10>=10 && $13=="-") print}' outTable_858705213 > outTable_858705213_filtered.out
+
+#selecting sites with at least five RNAseq reads and a single mismatch:
+time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i outTable_858705213_filtered.out -c 5 -v 1 -f 0.0 -o outTable_858705213_filtered.sel1
+
+#selecting sites with ≥10 RNAseq reads, three mismatches and minimum editing frequency of 0.1:
+time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i outTable_858705213_filtered.out -c 10 -v 3 -f 0.1 -o outTable_858705213_filtered.sel2
+
