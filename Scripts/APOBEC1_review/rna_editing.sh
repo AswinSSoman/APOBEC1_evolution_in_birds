@@ -3,6 +3,21 @@
 ################################################################################################################################################################################################################################################
 
 
+#Identify birds with DNA & RNA fastq taken from same individuals or samples
+
+#COllect all SRA of birds used in the study
+mkdir /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/sra_metadata
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/sra_metadata
+scp neo@172.28.65.224:/home/neo/bird_db1/aswin/APOBEC1/main_figures/loss_events/list_of_species_to_keep_upupa_epops_removed .
+egrep -v "Gallus|Ficedula|Corvus" list_of_species_to_keep_upupa_epops_removed > species_list
+
+time for i in $(cat list_of_species_to_keep_upupa_epops_removed | grep -v "Ficedula" | sed -n '/Chrysolophus_pictus/,$p')
+do
+echo ">"$i
+id=$(echo $i | tr "_" " ")
+time sra-meta -s -f "$id" > "$i"_sra.out
+done
+
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Get input data
 
@@ -34,7 +49,8 @@ cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools
 mkdir /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/genome
 cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/genome
 time datasets download genome accession GCA_041920315.1 --include genome,gtf,seq-report --dehydrated
-unzip ncbi_dataset.zip -d GCA_041920315.1 
+unzip ncbi_dataset.zip -d GCA_041920315.1
+datasets rehydrate --directory GCA_041920315.1
 mv GCA_041920315.1/ncbi_dataset/data/GCA_041920315.1/GCA_041920315.1_ASM4192031v1_genomic.fna .
 samtools faidx GCA_041920315.1_ASM4192031v1_genomic.fna
 
@@ -55,9 +71,6 @@ do
 echo ">" $i
 time fastp -i "$i"_1.fastq -I "$i"_2.fastq -o fastp/out_"$i"_1.fastq -O fastp/out_"$i"_2.fastq -q 25 -u 10 -l 50 -y -x -w 32 -h fastp/fastp_"$i".html -j fastp/fastp_"$i".json 
 done
-
-#Compress & keep raw data (512m16.535s)
-for f in SRR*.fastq; do gzip "$f"; done
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Alignment
@@ -88,6 +101,7 @@ time bwa mem -t 32 GCA_041920315.1 -Y ../SRR28002323_1.fastq ../SRR28002323_2.fa
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Prepare inputs
 
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/dna
 #Sort bam files
 for f in *.sam
 do
@@ -107,6 +121,10 @@ time samtools sort SRR28002323_SRR30595317_merged.bam -@ 30 -m 3G -o SRR28002323
 #Index (13m29.160s)
 samtools index SRR28002323_SRR30595317_merged_sorted.bam
 
+#Compress & keep raw data (512m16.535s)
+#for f in SRR*.fastq; do gzip "$f"; done
+#grep -f dna_ids <(find fastp) | grep fastq | xargs rm
+grep -f rna_ids <(ls SRR*) | xargs rm
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Identify editing sites
