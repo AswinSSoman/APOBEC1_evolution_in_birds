@@ -138,7 +138,7 @@ wait
 end_time=$(date +%s) && elapsed_time=$((end_time - start_time)) && echo "- " "$j" " : " $elapsed_time "secs"
 unset start_time end_time elapsed_time
 
-#Merge bam files (22m5.310s)
+#Merge bam files (15m37.526s)
 time samtools merge -@ 24 -o dna_merged.bam *.bam
 
 #Sort ()

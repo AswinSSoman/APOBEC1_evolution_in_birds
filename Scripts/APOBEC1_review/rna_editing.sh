@@ -18,7 +18,7 @@ id=$(echo $i | tr "_" " ")
 time sra-meta -s -f "$id" > "$i"_sra.out
 done
 
-#Re-run fetching if previous fetch resulted in no output
+#Re-run fetching if previous fetch resulted in no output (117m20.944s)
 time for i in $(find . -maxdepth 1 -size 0 | cut -f2 -d "/" | sed 's/_sra.out//g' | grep -v "Gallus_gallus")
 do
 echo ">"$i
@@ -26,18 +26,25 @@ id=$(echo $i | tr "_" " ")
 time sra-meta -s -f "$id" > "$i"_sra.out
 done
 
-
+#Filter metadata (1m9.136s)
 mkdir /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/sra_metadata/filtered
-
-for sp in $(ls *_sra.out)
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/sra_metadata
+time for sp in $(ls *_sra.out)
 do
+echo $sp
 awk 'NR==1{for(i=1;i<=NF;i++) {h[$i]=i}
 print $h["ScientificName"], $h["Sex"], $h["bases"], $h["size_MB"], $h["avgLength"], $h["LibraryStrategy"], $h["LibrarySource"], $h["LibrarySelection"], $h["Platform"], $h["Sample"], $h["BioSample"], $h["SampleName"], $h["Experiment"]; next}
-{print $h["ScientificName"], $h["Sex"], $h["bases"], $h["size_MB"], $h["avgLength"], $h["LibraryStrategy"], $h["LibrarySource"], $h["LibrarySelection"], $h["Platform"], $h["Sample"], $h["BioSample"], $h["SampleName"], $h["Experiment"]}' $sp > filtered/filtered_"$sp"
+{print $h["ScientificName"], $h["Sex"], $h["bases"], $h["size_MB"], $h["avgLength"], $h["LibraryStrategy"], $h["LibrarySource"], $h["LibrarySelection"], $h["Platform"], $h["Sample"], $h["BioSample"], $h["SampleName"], $h["Experiment"]}' $sp \
+ | awk '{if (($6=="WGS" && $7=="GENOMIC") || ($6=="RNA-Seq" && $7=="TRANSCRIPTOMIC")) print}' > filtered/filtered_"$sp"
 done
+
+
 
 for sp in $(ls *_sra.out)
 do
+echo ">"$sp
+paste <(awk '{print$6}' $sp | sort | uniq -c) <(awk '{print$7}' $sp | sort | uniq -c)
+done | less
 
 
 sn=$(sed 's/[ ]\+/\t/g' $sp | awk 'NR==1{for(n=1; n<=NF; n++) if($n~/ScientificName/) print n}')

@@ -116,7 +116,7 @@ time rm /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/fastp/*.fast
 cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/dna
 #Sort bam files ()
 start_time=$(date +%s)
-for f in $(ls *.sam | sort -V | head -n 20)
+for f in $(ls *.sam | sort -V | sed -n '21,30p')
 do
 (
     filename="${f%%.*}"
@@ -130,7 +130,7 @@ end_time=$(date +%s) && elapsed_time=$((end_time - start_time)) && echo "- " "$j
 unset start_time end_time elapsed_time
 
 #Merge bam files ()
-time samtools merge -@ 24 -o dna_merged.bam *.bam
+time samtools merge -@ 24 dna_merged.bam *.bam
 
 #Sort ()
 time samtools sort dna_merged.bam -@ 30 -m 3G dna_merged_sorted.bam
@@ -143,17 +143,6 @@ samtools index dna_merged_sorted.bam
 grep -f rna_ids <(ls SRR*) | xargs rm
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
 
 
 
