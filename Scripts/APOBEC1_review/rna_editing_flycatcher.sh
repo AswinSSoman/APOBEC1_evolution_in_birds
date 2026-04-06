@@ -124,25 +124,25 @@ rm /media/aswin/gene_loss/APOBEC1/RNA_editing/Ficedula_albicollis/fastp/*.fastq
 #Prepare inputs
 
 cd /media/aswin/gene_loss/APOBEC1/RNA_editing/Ficedula_albicollis/dna
-#Sort bam files
+#Sort bam files (34.63 minutes)
 start_time=$(date +%s)
 for f in *.sam
 do
 (
     filename="${f%%.*}"
     echo $filename
-    samtools view -bS "$f" -o "${filename}.bam"
+    samtools view -bS "$f" | samtools sort -@ 6 -m 3G -o "${filename}.sorted.bam"
 ) &
 done
 wait
 end_time=$(date +%s) && elapsed_time=$((end_time - start_time)) && echo "- " "$j" " : " $elapsed_time "secs"
 unset start_time end_time elapsed_time
 
-#Merge bam files ()
+#Merge bam files (22m5.310s)
 time samtools merge -@ 24 -o dna_merged.bam *.bam
 
 #Sort ()
-time samtools sort dna_merged.bam -@ 30 -m 3G -o dna_merged_sorted.bam
+time samtools sort dna_merged.bam -@ 30 -m 3G dna_merged_sorted.bam
 #Index ()
 samtools index dna_merged_sorted.bam
 
