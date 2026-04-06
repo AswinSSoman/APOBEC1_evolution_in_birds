@@ -141,15 +141,29 @@ unset start_time end_time elapsed_time
 #Merge bam files (15m37.526s)
 time samtools merge -@ 24 -o dna_merged.bam *.bam
 
-#Sort ()
-time samtools sort dna_merged.bam -@ 30 -m 3G dna_merged_sorted.bam
+#Sort (13m58.534s)
+time samtools sort dna_merged.bam -@ 30 -m 3G -o dna_merged_sorted.bam
 #Index ()
-samtools index dna_merged_sorted.bam
+time samtools index dna_merged_sorted.bam
 
 #Compress & keep raw data (512m16.535s)
 #for f in SRR*.fastq; do gzip "$f"; done
 #grep -f dna_ids <(find fastp) | grep fastq | xargs rm
 grep -f rna_ids <(ls SRR*) | xargs rm
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Identify editing sites
+
+#Using reditools 1 ()
+mkdir /media/aswin/gene_loss/APOBEC1/RNA_editing/Ficedula_albicollis/editing
+
+#Run REDitools 1 ()
+time for b in $(ls rna/ERR*.bam)
+do
+p=$(echo $b | cut -f2 -d "/" | cut -f1 -d "_")
+echo ">"$b ":" $p
+time python2.7 /media/aswin/programs/REDItools/NPscripts/REDItoolDnaRnav13.py -i $b -j dna/dna_merged_sorted.bam -o editing/"$p"_editing -f genome/GCF_000247815.1_FicAlb1.5_genomic.fna -t32 -c1,1 -m30,255 -v1 -q30,30 -v1 -e -n0.0 -N0.0 -u -l -p -s2 -g2 -S &> editing/"$p"_run_std.out
+done
 
 
 

@@ -129,11 +129,11 @@ wait
 end_time=$(date +%s) && elapsed_time=$((end_time - start_time)) && echo "- " "$j" " : " $elapsed_time "secs"
 unset start_time end_time elapsed_time
 
-#Merge bam files ()
+#Merge bam files (111m44.404s)
 time samtools merge -@ 24 dna_merged.bam *.bam
 
-#Sort ()
-time samtools sort dna_merged.bam -@ 30 -m 3G dna_merged_sorted.bam
+#Sort (239m10.274s)
+time samtools sort dna_merged.bam -@ 30 -m 2G -o dna_merged_sorted.bam
 #Index ()
 samtools index dna_merged_sorted.bam
 
@@ -143,6 +143,20 @@ samtools index dna_merged_sorted.bam
 grep -f rna_ids <(ls SRR*) | xargs rm
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Identify editing sites
+
+#Using reditools 1 ()
+mkdir /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing
+
+#Run REDitools 1 ()
+time for b in $(ls rna/SRR*.bam)
+do
+p=$(echo $b | cut -f2 -d "/" | cut -f1 -d "_")
+echo ">"$b ":" $p
+time python2.7 /media/aswin/programs/REDItools/NPscripts/REDItoolDnaRnav13.py -i $b -j dna/dna_merged_sorted.bam -o editing/"$p"_editing -f genome/GCF_000247815.1_FicAlb1.5_genomic.fna -t32 -c1,1 -m30,255 -v1 -q30,30 -v1 -e -n0.0 -N0.0 -u -l -p -s2 -g2 -S &> editing/"$p"_run_std.out
+done
+
+
 
 
 
