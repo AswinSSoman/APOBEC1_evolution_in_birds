@@ -143,7 +143,7 @@ time samtools merge -@ 24 -o dna_merged.bam *.bam
 
 #Sort (13m58.534s)
 time samtools sort dna_merged.bam -@ 30 -m 3G -o dna_merged_sorted.bam
-#Index ()
+#Index (10m15.311s)
 time samtools index dna_merged_sorted.bam
 
 #Compress & keep raw data (512m16.535s)
@@ -154,16 +154,59 @@ grep -f rna_ids <(ls SRR*) | xargs rm
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Identify editing sites
 
-#Using reditools 1 ()
+#Using reditools 1
 mkdir /media/aswin/gene_loss/APOBEC1/RNA_editing/Ficedula_albicollis/editing
 
-#Run REDitools 1 ()
+#Run REDitools 1 (94m11.269s)
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/Ficedula_albicollis
 time for b in $(ls rna/ERR*.bam)
 do
 p=$(echo $b | cut -f2 -d "/" | cut -f1 -d "_")
 echo ">"$b ":" $p
 time python2.7 /media/aswin/programs/REDItools/NPscripts/REDItoolDnaRnav13.py -i $b -j dna/dna_merged_sorted.bam -o editing/"$p"_editing -f genome/GCF_000247815.1_FicAlb1.5_genomic.fna -t32 -c1,1 -m30,255 -v1 -q30,30 -v1 -e -n0.0 -N0.0 -u -l -p -s2 -g2 -S &> editing/"$p"_run_std.out
 done
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Filtering:
+
+# (5m36.601s)
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/Ficedula_albicollis
+time for i in $(cat rna_ids)
+do
+p=$(find editing/ -name "outTable_*" | grep "$i")
+echo ">"$p
+#Exclude invariant positions as well as positions not supported by ≥10 WGS reads
+time awk 'FS="\t" {if ($8!="-" && $10>=10 && $13=="-") print}' $p > $p"_filtered.out"
+#selecting sites with at least five RNAseq reads and a single mismatch:
+time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 5 -v 1 -f 0.0 -o $p"_filtered.sel1"
+#selecting sites with ≥10 RNAseq reads, three mismatches and minimum editing frequency of 0.1:
+time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 10 -v 3 -f 0.1 -o $p"_filtered.sel2"
+unset p
+done
+
+#Count substitutions
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/Ficedula_albicollis/editing
+time for i in $(find . -name "*_filtered.out")
+do
+p=$(echo $i | sed 's/\.out//g')
+python2.7 /media/aswin/programs/REDItools/accessory/subCount.py "$i" | sed '1i Substitution Read_count Total_reads Percentage' > "$p"_all_subs_readcount.out
+python2.7 /media/aswin/programs/REDItools/accessory/subCount2.py "$i" | sed '1i Substitution Site_count Total_sites Percentage' > "$p"_all_subs_sitecount.out
+join -1 1 -2 1 "$p"_all_subs_readcount.out "$p"_all_subs_sitecount.out | sed 's/[ ]\+/\t/g' > "$p"_all_subs_count.out
+unset p
+done 
+
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/Ficedula_albicollis/editing
+for i in $(find . -name "*_filtered.out")
+do
+p=$(echo $i | sed 's/\.out//g')
+r=$(echo $i | cut -f2 -d "/" | cut -f1 -d "_")
+p1=$(awk -F "\t" -v r="$r" '$1==r {print$1,$24}' OFS="\t" /media/aswin/gene_loss/APOBEC1/RNA_editing/Ficedula_albicollis/ncbi_ERP001377.tsv | tr " " "_" | cut -f3- -d "_" | cut -f1 -d "-")
+tail -n +2 "$p"_all_subs_count.out | sort -k 2nr | sed "s/^/$r $p1 /g" 
+unset p r p1
+done | sed '1i SRR_ID\tTissue\tSubstitution\tRead_count\tTotal_reads\t%_Read\tSite_count\tTotal_sites\t%_Site' | sed 's/[ ]\+/\t/g' > summary_substitutions.tsv
+
+Rscript /media/aswin/gene_loss/APOBEC1/RNA_editing/plot_read_site_count.R summary_substitutions.tsv plot_read_site_count.pdf
+Rscript /media/aswin/gene_loss/APOBEC1/RNA_editing/plot_tissue_count.R summary_substitutions.tsv plot_tissue_count.pdf
 
 
 
