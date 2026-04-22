@@ -599,7 +599,19 @@ mafft --maxiterate 1000 --localpair --reorder --quiet <(myfasta -vfp intact_and_
 #NOTE:
 	#Upon inspection prank had worst placement of exons & gaps, while mafft & muscle were almost similar except in case of palaeognathae mafft was slightly better. 
 	#E.g. Rhea has only exon_5, mafft place this at end of alignment, while muscle places thios exon_5 in the centre.
-	#Hence final alignment to use : /home/neo/bird_db1/aswin/APOBEC1/Dating/alignment/readd/readd_macse/MAFFT_no_prefiltering_no_filtering_no_postfiltering/apobec1_final_align_NT.aln
+	#Hence choose this alignment : /home/neo/bird_db1/aswin/APOBEC1/Dating/alignment/readd/readd_macse/MAFFT_no_prefiltering_no_filtering_no_postfiltering/apobec1_final_align_NT.aln
+
+#Convert alignment format to phylip
+num=$( grep '>' MAFFT_no_prefiltering_no_filtering_no_postfiltering/apobec1_final_align_NT.aln | wc -l )
+len=$( sed -n '2,2p' MAFFT_no_prefiltering_no_filtering_no_postfiltering/apobec1_final_align_NT.aln | sed 's/\r//' | sed 's/\n//' | wc -L )
+perl /home/neo/programmes/paml-tutorial/positive-selection/00_data/scripts/FASTAtoPHYL.pl MAFFT_no_prefiltering_no_filtering_no_postfiltering/apobec1_final_align_NT.aln $num $len 
+
+num=$( grep '>' data1_nuc_aln.fasta | wc -l )
+len=$( sed -n '2,2p' data1_nuc_aln.fasta | sed 's/\r//' | sed 's/\n//' | wc -L )
+perl ../../scripts/FASTAtoPHYL.pl data1_nuc_aln.fasta $num $len 
+mv data1_nuc_aln.phy data1.phy
+
+#Hence final alignment to use : /home/neo/bird_db1/aswin/APOBEC1/Dating/alignment/readd/readd_macse/apobec1_final_align_NT.aln.phy
 
 ############################################################################################################################################################################################################################################################################################################
 #Get tree
@@ -661,7 +673,26 @@ colordiff -y <(grep ">" apobec1_final_align_NT.aln | tr -d ">" | sort -k1V) <(ca
 sed "s/'[0-9]\+'//g" apobec1_final_align_NT.nwk > apobec1_final_align_NT_without_split_times.nwk
 sed 's/[0-9]//g' apobec1_final_align_NT_without_split_times.nwk | tr -d ":." > apobec1_final_align_NT_without_split_times_branch_lengths.nwk
 
-#The final tree is : /home/neo/bird_db1/aswin/APOBEC1/Dating/tree/readd/apobec1_final_align_NT.nwk
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Unroot tree
+cd ~/bird_db1/aswin/APOBEC1/Dating/tree/readd
+Rscript /home/neo/bird_db1/aswin/APOBEC1/Dating/scripts/unroot_tree.R apobec1_final_align_NT.nwk
+
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Label tree
+cd ~/bird_db1/aswin/APOBEC1/Dating/cds
+grep -vf lost_species/TOGA/species_to_remove intact_apobec1 > intact_apobec1_filtered
+cd ~/bird_db1/aswin/APOBEC1/Dating/cds/lost_species
+grep -v Meleagris_gallopavo lost_galliformes > lost_galliformes_Meleagris_gallopavo_removed
+cp lost_galliformes_Meleagris_gallopavo_removed lost_palaeognathae lost_independent ../intact_apobec1_filtered ~/bird_db1/aswin/APOBEC1/Dating/tree/readd/
+
+cd ~/bird_db1/aswin/APOBEC1/Dating/tree/readd
+cat lost_independent > fg1.txt
+cat lost_galliformes_Meleagris_gallopavo_removed lost_palaeognathae > fg2.txt 
+cat intact_apobec1_filtered > bg.txt
+Rscript /home/neo/bird_db1/aswin/APOBEC1/Dating/scripts/label_tree.R apobec1_final_align_NT_unroot.nwk fg1.txt fg2.txt
+
+#The final tree is : /home/neo/bird_db1/aswin/APOBEC1/Dating/tree/readd/apobec1_final_align_NT_unroot_labeled.nwk
 
 ############################################################################################################################################################################################################################################################################################################
 #PAML
@@ -701,55 +732,31 @@ echo ">"$p
 grep -w $p all_galliformes_control_files | sort | uniq -c
 done | less
 
-cd ~/bird_db1/aswin/APOBEC1/Dating/paml/palaeognathae_functional
-cp ../apobec1_final_align_NT.aln ../apobec1_final_align_NT.nwk .
-cp /home/neo/bird_db1/aswin/APOBEC1/Dating/paml/COA1_GENE/Geneloss_timing/Galliformes/AllPseudogene_AllMix_AllFunctional/Galliformes_F3x4.ctl F3x4.ctl 
-sed -e 's/Galliformes.aln/apobec1_final_align_NT.aln/g' -e 's/Galliformes.nwk/apobec1_final_align_NT.nwk/g' -e 's/omega_mix_functional_F3x4/all_mix/g' F3x4.ctl -i
-
-time ~/programmes/paml-4.10.10-linux-x86_64/bin/codeml F3x4.ctl > run.stdout &
-
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Run paml
 
 mkdir ~/bird_db1/aswin/APOBEC1/Dating/paml/all_mix
 cd ~/bird_db1/aswin/APOBEC1/Dating/paml/all_mix
-cp ~/bird_db1/aswin/APOBEC1/Dating/tree/readd/apobec1_final_align_NT.nwk ../apobec1_final_align_NT.aln .
-
-#Labels
-cp ../all_lost fg.txt
-cp ../funtional bg.txt
-cp ../lost_independent fg1.txt
-cat ../lost_palaeognathae ../lost_galliformes > fg2.txt 
-
-#Label trees
-#sed "s/'[0-9]\+'//g" apobec1_final_align_NT.nwk  -i
-~/programmes/hyphy-2.5.62/hyphy ~/programmes/hyphy-analyses/LabelTrees/label-tree.bf --tree apobec1_final_align_NT.nwk --label " #1" --list fg1.txt --output fg1.nwk
-~/programmes/hyphy-2.5.62/hyphy ~/programmes/hyphy-analyses/LabelTrees/label-tree.bf --tree fg1.nwk --label " #2" --list fg2.txt --output fg2.nwk
-cat fg2.nwk | sed 's/{#1}/ #1/g' | sed 's/{#2}/ #2/g' > apobec1_final_align_NT_labelled.nwk
-
-# Step 1: label with HyPhy
-~/programmes/hyphy-2.5.62/hyphy ~/programmes/hyphy-analyses/LabelTrees/label-tree.bf --tree apobec1_final_align_NT.nwk --label "#1" --list fg1.txt --output fg1.nwk
-~/programmes/hyphy-2.5.62/hyphy ~/programmes/hyphy-analyses/LabelTrees/label-tree.bf --tree fg1.nwk --label "#2" --list fg2.txt --output fg2.nwk
-# Step 2: convert to PAML format (CRITICAL STEP)
-sed -E 's/:([0-9.eE+-]+)\{#([12])\}/#\2:\1/g' fg2.nwk > apobec1_final_align_NT_labelled.nwk
-# Step 3: cleanup
-sed -i 's/ #/#/g' apobec1_final_align_NT_labelled.nwk
-sed -i 's/Node[0-9]*//g' apobec1_final_align_NT_labelled.nwk
+cp /home/neo/bird_db1/aswin/APOBEC1/Dating/tree/readd/apobec1_final_align_NT_unroot_labeled.nwk /home/neo/bird_db1/aswin/APOBEC1/Dating/alignment/readd/readd_macse/apobec1_final_align_NT.aln.phy .
 
 #Set control files
 cp /home/neo/bird_db1/aswin/APOBEC1/Dating/paml/COA1_GENE/Geneloss_timing/Galliformes/AllPseudogene_AllMix_AllFunctional/Galliformes_F3x4.ctl F3x4.ctl 
-sed -e 's/Galliformes.aln/apobec1_final_align_NT.aln/g' -e 's/Galliformes.nwk/apobec1_final_align_NT_labelled.nwk/g' -e 's/omega_mix_functional_F3x4/all_mix/g' F3x4.ctl -i
+sed -e 's/Galliformes.aln/apobec1_final_align_NT.aln.phy/g' -e 's/Galliformes.nwk/apobec1_final_align_NT_unroot_labeled.nwk/g' -e 's/omega_mix_functional_F3x4/all_mix/g' F3x4.ctl -i
 
 #Run codeml
 #delete previous paml output: rm rub rst1 rst lnf 2NG.dN  2NG.dS  2NG.t
-time ~/programmes/paml-4.10.10-linux-x86_64/bin/codeml F3x4.ctl > run.stdout3 &
+time ~/programmes/paml-4.10.10-linux-x86_64/bin/codeml F3x4.ctl > run.stdout &
 
-
-
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Calculate gene inactivation times
+/home/neo/bird_db1/aswin/APOBEC1/Dating/paml/Mammal_ADH_IV/Dating/codeml/F3X4_model/calculate_gene_inactivation.sh
 
 
 
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#DRAFT SCRIPTS:
+
 #Outgroup
 
 #NOTE: An outgroup is not necessarily required to run gene loss dating
