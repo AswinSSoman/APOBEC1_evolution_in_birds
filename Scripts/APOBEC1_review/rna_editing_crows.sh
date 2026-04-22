@@ -160,6 +160,88 @@ done
 
 >rna/SRR1928171_Aligned.sortedByCoord.out.bam : SRR1928171:	1307m59.402s
 >rna/SRR1947394_Aligned.sortedByCoord.out.bam : SRR1947394: 1314m33.407s
+>rna/SRR1928171_Aligned.sortedByCoord.out.bam : SRR1928171
+
+real	1307m59.402s
+user	9766m54.213s
+sys	202m17.356s
+>rna/SRR1947394_Aligned.sortedByCoord.out.bam : SRR1947394
+
+real	1314m33.407s
+user	10101m21.971s
+sys	203m21.174s
+>rna/SRR1947395_Aligned.sortedByCoord.out.bam : SRR1947395
+
+real	1309m56.155s
+user	10076m12.324s
+sys	190m29.724s
+>rna/SRR1947415_Aligned.sortedByCoord.out.bam : SRR1947415
+
+real	1300m3.106s
+user	9828m47.071s
+sys	201m27.010s
+>rna/SRR1947451_Aligned.sortedByCoord.out.bam : SRR1947451
+
+real	1358m56.587s
+user	10250m28.351s
+sys	226m26.040s
+>rna/SRR1947455_Aligned.sortedByCoord.out.bam : SRR1947455
+
+real	1320m53.045s
+user	9929m56.876s
+sys	207m52.027s
+>rna/SRR1947472_Aligned.sortedByCoord.out.bam : SRR1947472
+
+real	1311m50.936s
+user	9783m56.726s
+sys	200m19.436s
+>rna/SRR1947473_Aligned.sortedByCoord.out.bam : SRR1947473
+
+real	1345m53.141s
+user	10150m40.825s
+sys	211m19.822s
+>rna/SRR1947474_Aligned.sortedByCoord.out.bam : SRR1947474
+
+real	1309m23.126s
+user	9829m49.010s
+sys	192m37.107s
+>rna/SRR1947475_Aligned.sortedByCoord.out.bam : SRR1947475
+
+real	1311m8.463s
+user	9878m40.584s
+sys	202m2.987s
+>rna/SRR1947476_Aligned.sortedByCoord.out.bam : SRR1947476
+
+real	1332m16.089s
+user	10029m10.087s
+sys	222m59.410s
+>rna/SRR1947477_Aligned.sortedByCoord.out.bam : SRR1947477
+
+real	1304m14.251s
+user	9977m36.874s
+sys	188m0.950s
+>rna/SRR1947478_Aligned.sortedByCoord.out.bam : SRR1947478
+
+real	1310m50.035s
+user	9824m57.000s
+sys	181m7.196s
+>rna/SRR1947479_Aligned.sortedByCoord.out.bam : SRR1947479
+
+real	1370m51.184s
+user	10015m25.176s
+sys	206m49.470s
+>rna/SRR1947480_Aligned.sortedByCoord.out.bam : SRR1947480
+
+real	1348m2.134s
+user	10201m18.883s
+sys	214m20.943s
+>rna/SRR2107327_Aligned.sortedByCoord.out.bam : SRR2107327
+
+real	1313m9.695s
+user	9978m38.667s
+sys	218m59.726s
+>rna/SRR2107373_Aligned.sortedByCoord.out.bam : SRR2107373
+
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Filtering:

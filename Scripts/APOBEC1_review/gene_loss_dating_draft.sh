@@ -10,6 +10,35 @@ git clone https://github.com/Dating-gene-loss/Mammal_ADH_IV.git
 cd /media/aswin/gene_loss/APOBEC1/selection/positive_selection/paml/Mammal_ADH_IV
 cd /media/aswin/gene_loss/APOBEC1/selection/positive_selection/paml/Mammal_ADH_IV/Dating/codeml/F1X4_model/hyphy
 
+#Identify labels used
+cd ~/bird_db1/aswin/APOBEC1/Dating/paml/Mammal_ADH_IV/Dating/codeml/F3X4_model
+cat ADH_PAML_tree_unrooted.nwk | tr -d ")(;" | tr "," "\n" | grep -v "#" > bg.txt
+cat ADH_PAML_tree_unrooted.nwk | tr -d ")(;" | tr "," "\n" | grep "#" | awk '$2=="#1"' | cut -f1 -d " " > fg1.txt
+cat ADH_PAML_tree_unrooted.nwk | tr -d ")(;" | tr "," "\n" | grep "#" | awk '$2=="#2"' | cut -f1 -d " " > fg2.txt
+
+#Get all pairwise split time
+cd ~/bird_db1/aswin/APOBEC1/Dating/paml/Mammal_ADH_IV/Dating/codeml/F3X4_model
+cp ~/bird_db1/aswin/APOBEC1/Dating/paml/COA1_GENE/Geneloss_timing/Galliformes/AllPseudogene_AllMix_AllFunctional/test .
+cp ../../../PGLS/Mammal_ADH_tree_revisions.nwk .
+Rscript ./splittime.r
+
+#Manually create the groups 
+
+
+#Calculate gene loss timings
+time for sp in $(cat fg1.txt)
+do
+./calculate_gene_inactivation.sh $sp -f F3X4_model.out ../F1X4_model/F1X4_model.out ADH_PAML_tree_unrooted.nwk Mammal_ADH_tree_revisions.nwk -s | grep -v Mixed_branch_length
+done | sed '1i Species Functional_branch Mixed_branch_length 1dS_F1X4_Wm 1dS_F1X4_Wf 1dS_F1X4_Wp 1dS_F1X4_Tp 1dS_F3X4_Wm 1dS_F3X4_Wf 1dS_F3X4_Wp 1dS_F3X4_Tp 1dS_Mean_Tp 2dS_F1X4_Tp 2dS_F3X4_Tp 2dS_Mean_Tp' > fg1_inactivation.tsv
+
+time for sp in $(cat fg2.txt)
+do
+gr=$(grep $sp groups | awk '{print$2}')
+./calculate_gene_inactivation.sh $sp -f F3X4_model.out ../F1X4_model/F1X4_model.out ADH_PAML_tree_unrooted.nwk Mammal_ADH_tree_revisions.nwk -s | grep -v Mixed_branch_length | sed "s/^/$gr\t/g"
+unset gr
+done | sed '1i Group Species Functional_branch Mixed_branch_length 1dS_F1X4_Wm 1dS_F1X4_Wf 1dS_F1X4_Wp 1dS_F1X4_Tp 1dS_F3X4_Wm 1dS_F3X4_Wf 1dS_F3X4_Wp 1dS_F3X4_Tp 1dS_Mean_Tp 2dS_F1X4_Tp 2dS_F3X4_Tp 2dS_Mean_Tp' > fg2_inactivation.tsv
+
+
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Using hyphy
 
@@ -629,7 +658,8 @@ cat apobec1_final_align_NT_replaced.nwk | sed -e 's/Aquila_chrysaetos/Aquila_chr
 #Compare tree & alignment
 colordiff -y <(grep ">" apobec1_final_align_NT.aln | tr -d ">" | sort -k1V) <(cat apobec1_final_align_NT.nwk | tr -d ")(;.[0-9]:'" | tr "," "\n" | sort -k1 -V)
 
-#sed "s/'[0-9]\+'//g" apobec1_final_align_NT.nwk -i
+sed "s/'[0-9]\+'//g" apobec1_final_align_NT.nwk > apobec1_final_align_NT_without_split_times.nwk
+sed 's/[0-9]//g' apobec1_final_align_NT_without_split_times.nwk | tr -d ":." > apobec1_final_align_NT_without_split_times_branch_lengths.nwk
 
 #The final tree is : /home/neo/bird_db1/aswin/APOBEC1/Dating/tree/readd/apobec1_final_align_NT.nwk
 
@@ -645,11 +675,13 @@ cp /home/neo/bird_db1/aswin/APOBEC1/Dating/tree/readd/apobec1_final_align_NT.nwk
 
 cp ~/bird_db1/aswin/APOBEC1/Dating/cds/lost_species/lost_* .
 sed '/Meleagris_gallopavo/d' lost_galliformes -i
+cat lost_galliformes lost_palaeognathae lost_independent > all_lost
 
 #Classify branches
 grep -vf ~/bird_db1/aswin/APOBEC1/Dating/cds/lost_species/TOGA/species_to_remove ~/bird_db1/aswin/APOBEC1/Dating/cds/intact_apobec1 > funtional
 
-#CHeck scripts used in COA1 gene
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Check scripts used in COA1 gene
 
 git clone --filter=blob:none --no-checkout https://github.com/ceglabsagarshinde/COA1_GENE.git
 cd COA1_GENE
@@ -663,16 +695,53 @@ find Geneloss_timing/Galliformes/ -name "*.ctl" -type f | sort -V | paste -d " "
 find Geneloss_timing/Galliformes/ -name "*.ctl" -type f | sort -V | paste -d " " - - | xargs -n2 sh -c 'echo ">"$0 $1; paste $0 $1' | sed 's!Geneloss_timing/Galliformes/!!g' > all_galliformes_control_files
 cat Geneloss_timing/Galliformes/AllPseudogene_AllMix_AllFunctional/Galliformes_F1x4.ctl| cut -f1 -d "=" | tr -d " " > ctl_params
 
-for p in $(cat ctl_params | egrep -v "seqfile|treefile|outfile")
+for p in $(cat ctl_params | egrep -v "seqfile|treefile|outfile" | sort -V)
 do
 echo ">"$p
 grep -w $p all_galliformes_control_files | sort | uniq -c
 done | less
 
-aaDist = 0
-fix_alpha = 1
-alpha = 0.0
-fix_blength = 0
+cd ~/bird_db1/aswin/APOBEC1/Dating/paml/palaeognathae_functional
+cp ../apobec1_final_align_NT.aln ../apobec1_final_align_NT.nwk .
+cp /home/neo/bird_db1/aswin/APOBEC1/Dating/paml/COA1_GENE/Geneloss_timing/Galliformes/AllPseudogene_AllMix_AllFunctional/Galliformes_F3x4.ctl F3x4.ctl 
+sed -e 's/Galliformes.aln/apobec1_final_align_NT.aln/g' -e 's/Galliformes.nwk/apobec1_final_align_NT.nwk/g' -e 's/omega_mix_functional_F3x4/all_mix/g' F3x4.ctl -i
+
+time ~/programmes/paml-4.10.10-linux-x86_64/bin/codeml F3x4.ctl > run.stdout &
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+mkdir ~/bird_db1/aswin/APOBEC1/Dating/paml/all_mix
+cd ~/bird_db1/aswin/APOBEC1/Dating/paml/all_mix
+cp ~/bird_db1/aswin/APOBEC1/Dating/tree/readd/apobec1_final_align_NT.nwk ../apobec1_final_align_NT.aln .
+
+#Labels
+cp ../all_lost fg.txt
+cp ../funtional bg.txt
+cp ../lost_independent fg1.txt
+cat ../lost_palaeognathae ../lost_galliformes > fg2.txt 
+
+#Label trees
+#sed "s/'[0-9]\+'//g" apobec1_final_align_NT.nwk  -i
+~/programmes/hyphy-2.5.62/hyphy ~/programmes/hyphy-analyses/LabelTrees/label-tree.bf --tree apobec1_final_align_NT.nwk --label " #1" --list fg1.txt --output fg1.nwk
+~/programmes/hyphy-2.5.62/hyphy ~/programmes/hyphy-analyses/LabelTrees/label-tree.bf --tree fg1.nwk --label " #2" --list fg2.txt --output fg2.nwk
+cat fg2.nwk | sed 's/{#1}/ #1/g' | sed 's/{#2}/ #2/g' > apobec1_final_align_NT_labelled.nwk
+
+# Step 1: label with HyPhy
+~/programmes/hyphy-2.5.62/hyphy ~/programmes/hyphy-analyses/LabelTrees/label-tree.bf --tree apobec1_final_align_NT.nwk --label "#1" --list fg1.txt --output fg1.nwk
+~/programmes/hyphy-2.5.62/hyphy ~/programmes/hyphy-analyses/LabelTrees/label-tree.bf --tree fg1.nwk --label "#2" --list fg2.txt --output fg2.nwk
+# Step 2: convert to PAML format (CRITICAL STEP)
+sed -E 's/:([0-9.eE+-]+)\{#([12])\}/#\2:\1/g' fg2.nwk > apobec1_final_align_NT_labelled.nwk
+# Step 3: cleanup
+sed -i 's/ #/#/g' apobec1_final_align_NT_labelled.nwk
+sed -i 's/Node[0-9]*//g' apobec1_final_align_NT_labelled.nwk
+
+#Set control files
+cp /home/neo/bird_db1/aswin/APOBEC1/Dating/paml/COA1_GENE/Geneloss_timing/Galliformes/AllPseudogene_AllMix_AllFunctional/Galliformes_F3x4.ctl F3x4.ctl 
+sed -e 's/Galliformes.aln/apobec1_final_align_NT.aln/g' -e 's/Galliformes.nwk/apobec1_final_align_NT_labelled.nwk/g' -e 's/omega_mix_functional_F3x4/all_mix/g' F3x4.ctl -i
+
+#Run codeml
+#delete previous paml output: rm rub rst1 rst lnf 2NG.dN  2NG.dS  2NG.t
+time ~/programmes/paml-4.10.10-linux-x86_64/bin/codeml F3x4.ctl > run.stdout3 &
 
 
 
@@ -680,8 +749,77 @@ fix_blength = 0
 
 
 
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Outgroup
 
+#NOTE: An outgroup is not necessarily required to run gene loss dating
+#The closest sequences to the A1 of birds (not A1-like from birds) is identifiable from the phylogenetic tree build based on cds of all AID-APOBEC members from vertebrates
+#Some variations existed in terms of which sequences are closest to birds, as phylogeny built from different strategies or aligners gave slightly different sister clades.
+#The tree & alignment used directly for the main figure is used :
 
+mkdir ~/bird_db1/aswin/APOBEC1/Dating/cds/outgroup
+cd ~/bird_db1/aswin/APOBEC1/Dating/cds/outgroup
+cp /home/neo/bird_db1/aswin/APOBEC1/positive_selection/A1_A1_like_all_vertebrates/AID_APOBEC_cds_unique_complete_orfs_refined_monotremes_marsupials_amphibians_refined_manual_qc.fa .
+
+for i in crocodylia  squamata  testudines
+do
+myfasta -mfl AID_APOBEC_cds_unique_complete_orfs_refined_monotremes_marsupials_amphibians_refined_manual_qc.fa $i > "$i"_cds.fa
+done
+
+#Alignment
+for i in crocodylia_cds.fa  squamata_cds.fa  testudines_cds.fa
+do
+mafft --maxiterate 1000 --localpair --reorder --quiet $i > $i".aln"
+done
+
+cat crocodylia_cds.fa squamata_cds.fa testudines_cds.fa > all_outgroup_cds.fa
+mafft --maxiterate 1000 --localpair --reorder --quiet all_outgroup_cds.fa > all_outgroup_cds.aln
+
+mafft --maxiterate 1000 --localpair --reorder --quiet all_outgroup.aa > all_outgroup.aln
+mafft --maxiterate 1000 --localpair --reorder --quiet birds_outgroup.aa > birds_outgroup.aln
+
+#Outliers in manual inspection of aa alignment
+ensembl_A1_paralog_Squamata_ENSPMRG00000022315
+orthodb_A1_paralog_Squamata_Podarcis_muralis14588080
+ensembl_A1_paralog_Testudines_ENSCPBG00000014331
+ensembl_A1_paralog_Squamata_ENSACAG00000035333
+orthodb_A1_paralog_Squamata_Python_bivittatus03048122
+ensembl_A1_paralog_Crocodylia_ENSCPRG00005000694
+ensembl_A1_paralog_Squamata_ENSSMRG00000004573
+orthodb_A1_paralog_Squamata_Sphaerodactylus_townsendi25440208
+orthodb_A1_paralog_Squamata_Anolis_carolinensis00534649
+orthodb_A1_paralog_Squamata_Anolis_carolinensis03277744
+orthodb_A1_paralog_Testudines_Mauremys_reevesii20372170
+
+#Outliers in manual inspection of nucleotide alignment
+orthodb_A1_paralog_Squamata_Podarcis_muralis_114588080
+ensembl_A1_paralog_Squamata_ENSPMRG00000022315
+ensembl_A1_paralog_Squamata_ENSACAG00000035333
+ensembl_A1_paralog_Squamata_ENSSMRG00000004573
+ensembl_A1_paralog_Testudines_ENSCPBG00000014331
+
+myfasta -vfl all_outgroup.aa outliers1 | mafft --maxiterate 1000 --localpair --reorder --quiet - | alv -
+myfasta -vfl all_outgroup.aa outliers2 | mafft --maxiterate 1000 --localpair --reorder --quiet - | alv -
+cat <(myfasta -vfl all_outgroup.aa outliers2) all_birds_trimmed_filtered_readd.aa | mafft --maxiterate 1000 --localpair --reorder --quiet - | alv -
+
+#NOTE: Squamata alignment has a lot of gaps
+
+#Clustering
+mkdir ~/bird_db1/aswin/APOBEC1/Dating/cds/outgroup/clustering
+cd ~/bird_db1/aswin/APOBEC1/Dating/cds/outgroup
+cat crocodylia_cds.fa squamata_cds.fa testudines_cds.fa | transeq --auto --stdout --clean stdin | myfasta -comb | sed 's/_1//g' > clustering/all_outgroup.aa
+cat ~/bird_db1/aswin/APOBEC1/Dating/alignment/readd/all_birds_trimmed_filtered_readd.fa | transeq --auto --stdout --clean stdin | myfasta -comb | sed 's/_1//g' > all_birds_trimmed_filtered_readd.aa
+cat all_outgroup.aa all_birds_trimmed_filtered_readd.aa > birds_outgroup.aa
+
+#scp 9831869.clans.zip neo@172.28.65.224:~/bird_db1/aswin/APOBEC1/Dating/cds/outgroup/clustering/
+java -Xmx4G -jar ~/programmes/clans.jar birds_outgroup.clans
+
+#
+mkdir ~/bird_db1/aswin/APOBEC1/Dating/cds/outgroup/similarity_to_bird_consensus
+cp ~/bird_db1/aswin/APOBEC1/Dating/cds/all_intact_species_cds_filtered.fa .
+cp ../all_outgroup_cds.fa .
+
+em_cons MAFFT_no_prefiltering_no_filtering_no_postfiltering/apobec1_final_align_AA.aln --auto --stdout | myfasta -comb | sed 's/^>.*/>mafft/g' > mafft_macse_pipeline_consensus.fa
 
 
 
