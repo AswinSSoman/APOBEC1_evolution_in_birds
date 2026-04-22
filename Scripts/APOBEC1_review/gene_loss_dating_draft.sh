@@ -735,18 +735,74 @@ done | less
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Run paml
 
-mkdir ~/bird_db1/aswin/APOBEC1/Dating/paml/all_mix
-cd ~/bird_db1/aswin/APOBEC1/Dating/paml/all_mix
+
+mkdir -p ~/bird_db1/aswin/APOBEC1/Dating/paml/all_mix/F1X4
+cd ~/bird_db1/aswin/APOBEC1/Dating/paml/all_mix/F1X4
+#Input files
 cp /home/neo/bird_db1/aswin/APOBEC1/Dating/tree/readd/apobec1_final_align_NT_unroot_labeled.nwk /home/neo/bird_db1/aswin/APOBEC1/Dating/alignment/readd/readd_macse/apobec1_final_align_NT.aln.phy .
+cp /home/neo/bird_db1/aswin/APOBEC1/Dating/paml/COA1_GENE/Geneloss_timing/Galliformes/AllPseudogene_AllMix_AllFunctional/Galliformes_F1x4.ctl F1x4.ctl 
+sed -e 's/Galliformes.aln/apobec1_final_align_NT.aln.phy/g' -e 's/Galliformes.nwk/apobec1_final_align_NT_unroot_labeled.nwk/g' -e 's/omega_mix_functional_F1x4/paml_out_F1x4/g' F1x4.ctl -i
+#Run codeml
+time ~/programmes/paml-4.10.10-linux-x86_64/bin/codeml F1x4.ctl > run.stdout &
 
-#Set control files
+mkdir -p ~/bird_db1/aswin/APOBEC1/Dating/paml/all_mix/F3X4
+cd ~/bird_db1/aswin/APOBEC1/Dating/paml/all_mix/F3X4
+#Input files
+cp /home/neo/bird_db1/aswin/APOBEC1/Dating/tree/readd/apobec1_final_align_NT_unroot_labeled.nwk /home/neo/bird_db1/aswin/APOBEC1/Dating/alignment/readd/readd_macse/apobec1_final_align_NT.aln.phy .
 cp /home/neo/bird_db1/aswin/APOBEC1/Dating/paml/COA1_GENE/Geneloss_timing/Galliformes/AllPseudogene_AllMix_AllFunctional/Galliformes_F3x4.ctl F3x4.ctl 
-sed -e 's/Galliformes.aln/apobec1_final_align_NT.aln.phy/g' -e 's/Galliformes.nwk/apobec1_final_align_NT_unroot_labeled.nwk/g' -e 's/omega_mix_functional_F3x4/all_mix/g' F3x4.ctl -i
-
+sed -e 's/Galliformes.aln/apobec1_final_align_NT.aln.phy/g' -e 's/Galliformes.nwk/apobec1_final_align_NT_unroot_labeled.nwk/g' -e 's/omega_mix_functional_F3x4/paml_out_F3x4/g' F3x4.ctl -i
 #Run codeml
 #delete previous paml output: rm rub rst1 rst lnf 2NG.dN  2NG.dS  2NG.t
 time ~/programmes/paml-4.10.10-linux-x86_64/bin/codeml F3x4.ctl > run.stdout &
 
+
+cd ~/bird_db1/aswin/APOBEC1/Dating/paml/all_mix
+cat /home/neo/bird_db1/aswin/APOBEC1/Dating/tree/readd/apobec1_final_align_NT_unroot_labeled.nwk | sed 's/:[0-9.]\+//g' | sed 's/#/ #/g' > apobec1_final_align_NT_unroot_labeled_branch_labels_removed.nwk
+
+mkdir -p ~/bird_db1/aswin/APOBEC1/Dating/paml/all_mix/branch_labels_removed_F1X4
+cd ~/bird_db1/aswin/APOBEC1/Dating/paml/all_mix/branch_labels_removed_F1X4
+#Input files
+cp /home/neo/bird_db1/aswin/APOBEC1/Dating/paml/all_mix/apobec1_final_align_NT_unroot_labeled_branch_labels_removed.nwk /home/neo/bird_db1/aswin/APOBEC1/Dating/alignment/readd/readd_macse/apobec1_final_align_NT.aln.phy .
+cp /home/neo/bird_db1/aswin/APOBEC1/Dating/paml/COA1_GENE/Geneloss_timing/Galliformes/AllPseudogene_AllMix_AllFunctional/Galliformes_F1x4.ctl F1x4.ctl 
+sed -e 's/Galliformes.aln/apobec1_final_align_NT.aln.phy/g' -e 's/Galliformes.nwk/apobec1_final_align_NT_unroot_labeled_branch_labels_removed.nwk/g' -e 's/omega_mix_functional_F3x4/paml_out_F1x4/g' F1x4.ctl -i
+#Run codeml
+#delete previous paml output: rm rub rst1 rst lnf 2NG.dN  2NG.dS  2NG.t
+time ~/programmes/paml-4.10.10-linux-x86_64/bin/codeml F3x4.ctl > run.stdout &
+
+mkdir -p ~/bird_db1/aswin/APOBEC1/Dating/paml/all_mix/branch_labels_removed_F3X4
+cd ~/bird_db1/aswin/APOBEC1/Dating/paml/all_mix/branch_labels_removed_F3X4
+#Input files
+cp /home/neo/bird_db1/aswin/APOBEC1/Dating/paml/all_mix/apobec1_final_align_NT_unroot_labeled_branch_labels_removed.nwk /home/neo/bird_db1/aswin/APOBEC1/Dating/alignment/readd/readd_macse/apobec1_final_align_NT.aln.phy .
+cp /home/neo/bird_db1/aswin/APOBEC1/Dating/paml/COA1_GENE/Geneloss_timing/Galliformes/AllPseudogene_AllMix_AllFunctional/Galliformes_F3x4.ctl F3x4.ctl 
+sed -e 's/Galliformes.aln/apobec1_final_align_NT.aln.phy/g' -e 's/Galliformes.nwk/apobec1_final_align_NT_unroot_labeled_branch_labels_removed.nwk/g' -e 's/omega_mix_functional_F3x4/paml_out_F3x4/g' F3x4.ctl -i
+#Run codeml
+#delete previous paml output: rm rub rst1 rst lnf 2NG.dN  2NG.dS  2NG.t
+time ~/programmes/paml-4.10.10-linux-x86_64/bin/codeml F3x4.ctl > run.stdout &
+
+
+BASE=~/bird_db1/aswin/APOBEC1/Dating
+TREE="$BASE/tree/readd/apobec1_final_align_NT_unroot_labeled.nwk"
+ALN="$BASE/alignment/readd/readd_macse/apobec1_final_align_NT.aln.phy"
+CTL="$BASE/paml/COA1_GENE/Geneloss_timing/Galliformes/AllPseudogene_AllMix_AllFunctional"
+CODEML=~/programmes/paml-4.10.10-linux-x86_64/bin/codeml
+OUT="$BASE/paml/Independent_loss_as_label1_Group_loss_as_label2_Intact_as_unlabelled"
+
+# make branch-label removed tree
+mkdir -p "$OUT"
+sed 's/:[0-9.]\+//g; s/#/ #/g' "$TREE" > "$OUT/apobec1_final_align_NT_unroot_labeled_nobranch.nwk"
+
+for m in F1x4 F3x4; do
+  for t in "$TREE" "$OUT/apobec1_final_align_NT_unroot_labeled_nobranch.nwk"; do
+    [[ "$t" == *nobranch* ]] && suf="branch_labels_removed_$m" || suf="$m"
+    d="$OUT/$suf"; mkdir -p "$d"; cd "$d"
+    cp "$t" "$ALN" .
+    cp "$CTL/Galliformes_${m^}.ctl" "$m.ctl"
+    sed -i -e 's|Galliformes.aln|apobec1_final_align_NT.aln.phy|g' -e "s|Galliformes.nwk|$(basename "$t")|g" -e "s|omega_mix_functional_${m^}|paml_out_$m|g" "$m.ctl"
+    time "$CODEML" "$m.ctl" > run.stdout &
+  done
+done
+
+wait
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Calculate gene inactivation times
 /home/neo/bird_db1/aswin/APOBEC1/Dating/paml/Mammal_ADH_IV/Dating/codeml/F3X4_model/calculate_gene_inactivation.sh
