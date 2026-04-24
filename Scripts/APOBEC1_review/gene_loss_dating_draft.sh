@@ -753,6 +753,7 @@ mkdir -p ~/bird_db1/aswin/APOBEC1/Dating/paml/all_mix/F1X4
 cd ~/bird_db1/aswin/APOBEC1/Dating/paml/all_mix/F1X4
 cat /home/neo/bird_db1/aswin/APOBEC1/Dating/tree/readd/apobec1_final_align_NT_unroot_labeled.nwk | sed 's/:[0-9.]\+//g' | sed 's/#/ #/g' > apobec1_final_align_NT_unroot_labeled_branch_labels_removed.nwk
 
+#Labelling: terminal only of all independent single branch loss as #1, clade loss as #2 & rest unlabelled
 BASE=~/bird_db1/aswin/APOBEC1/Dating
 TREE="$BASE/tree/readd/apobec1_final_align_NT_unroot_labeled.nwk"
 ALN="$BASE/alignment/readd/readd_macse/apobec1_final_align_NT.aln.phy"
@@ -789,13 +790,13 @@ TREE="$BASE/tree/readd/apobec1_final_align_NT_unroot_hyphy_labelled_converted_to
 ALN="$BASE/alignment/readd/readd_macse/apobec1_final_align_NT.aln.phy"
 CTL="$BASE/paml/COA1_GENE/Geneloss_timing/Galliformes/AllPseudogene_AllMix_AllFunctional"
 CODEML=~/programmes/paml-4.10.10-linux-x86_64/bin/codeml
-OUT="$BASE/paml/Pseudo_as_label1_Mixed_as_label2_Inatct_as_unlabelled"
+OUT="$BASE/paml/Mixed_as_label1_Pseudo_as_label1_Inatct_as_unlabelled"
 
 # make branch-label removed tree
 mkdir -p "$OUT"
 sed 's/:[0-9.]\+//g' "$TREE" > "$OUT/apobec1_final_align_NT_unroot_labeled_nobranch.nwk"
 
-#52.15 mins
+#Labelling: terminal & internal: mixed as #2, pseudo as #1, rest unlablled (52.15 mins)
 start_time=$(date +%s)
 for m in F1x4 F3x4; do
   for t in "$TREE" "$OUT/apobec1_final_align_NT_unroot_labeled_nobranch.nwk"; do
@@ -821,7 +822,7 @@ echo -e "\n Total time taken:" && echo $elapsed_time | awk '{print"-days:",$NF/6
 cd ~/bird_db1/aswin/APOBEC1/Dating/paml/all_mix
 cp ~/bird_db1/aswin/APOBEC1/Dating/tree/readd/{fg1.txt,fg2.txt,bg.txt} .
 
-cd ~/bird_db1/aswin/APOBEC1/Dating/paml/Pseudo_as_label1_Mixed_as_label2_Inatct_as_unlabelled
+cd ~/bird_db1/aswin/APOBEC1/Dating/paml/Mixed_as_label1_Pseudo_as_label1_Inatct_as_unlabelled
 for i in $(cat ../funtional)
 do
 ~/bird_db1/aswin/APOBEC1/Dating/scripts/calculate_gene_inactivation.sh Gallus_gallus $i F1x4/paml_out_F1x4 F3x4/paml_out_F3x4 -wp=1 ~/bird_db1/aswin/APOBEC1/Dating/tree/readd/apobec1_final_align_NT_unroot_hyphy_labelled_converted_to_paml.nwk -s | grep -v "Mixed_branch_length"
