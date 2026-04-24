@@ -748,7 +748,7 @@ grep -w $p all_galliformes_control_files | sort | uniq -c
 done | less
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Run paml
+#Run codeml
 
 mkdir -p ~/bird_db1/aswin/APOBEC1/Dating/paml/all_mix/F1X4
 cd ~/bird_db1/aswin/APOBEC1/Dating/paml/all_mix/F1X4
@@ -775,7 +775,6 @@ for m in F1x4 F3x4; do
     time "$CODEML" "$m.ctl" > run.stdout &
   done
 done
-
 wait
 
 
@@ -813,14 +812,28 @@ end_time=$(date +%s) && elapsed_time=$((end_time - start_time))
 echo -e "\n Total time taken:" && echo $elapsed_time | awk '{print"-days:",$NF/60/60/24,"\n","-hours:",$NF/60/60,"\n","-mins:",$NF/60,"\n","-secs:",$1}' | column -t | sed 's/^/   /g' && echo -e
 
 
+
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Calculate gene inactivation times
 /home/neo/bird_db1/aswin/APOBEC1/Dating/paml/Mammal_ADH_IV/Dating/codeml/F3X4_model/calculate_gene_inactivation.sh
 
+
 cd ~/bird_db1/aswin/APOBEC1/Dating/paml/all_mix
 cp ~/bird_db1/aswin/APOBEC1/Dating/tree/readd/{fg1.txt,fg2.txt,bg.txt} .
 
-/home/neo/bird_db1/aswin/APOBEC1/Dating/tree/readd/apobec1_final_align_NT.nwk
+cd ~/bird_db1/aswin/APOBEC1/Dating/paml/Pseudo_as_label1_Mixed_as_label2_Inatct_as_unlabelled
+for i in $(cat ../funtional)
+do
+~/bird_db1/aswin/APOBEC1/Dating/scripts/calculate_gene_inactivation.sh Gallus_gallus $i F1x4/paml_out_F1x4 F3x4/paml_out_F3x4 -wp=1 ~/bird_db1/aswin/APOBEC1/Dating/tree/readd/apobec1_final_align_NT_unroot_hyphy_labelled_converted_to_paml.nwk -s | grep -v "Mixed_branch_length"
+done | sed '1i Species Functional_branch Mixed_branch_length 1dS_F1X4_Wm 1dS_F1X4_Wf 1dS_F1X4_Wp 1dS_F1X4_Tp 1dS_F3X4_Wm 1dS_F3X4_Wf 1dS_F3X4_Wp 1dS_F3X4_Tp 1dS_Mean_Tp 2dS_F1X4_Tp 2dS_F3X4_Tp 2dS_Mean_Tp' | column -t > gallus_gallus_gene_loss_date_wrt_diff_functional_branches.out
+
+time for sp in $(cat ../all_lost)
+do
+gr=$(grep $sp ~/bird_db1/aswin/taxonomy/orders_all_birds | awk '{print$2}')
+~/bird_db1/aswin/APOBEC1/Dating/scripts/calculate_gene_inactivation.sh $sp -f F1x4/paml_out_F1x4 F3x4/paml_out_F3x4 -wp=1 ~/bird_db1/aswin/APOBEC1/Dating/tree/readd/apobec1_final_align_NT_unroot_hyphy_labelled_converted_to_paml.nwk -s | grep -v Mixed_branch_length | sed "s/^/$gr\t/g"
+unset gr
+done | sed '1i Group Species Functional_branch Mixed_branch_length 1dS_F1X4_Wm 1dS_F1X4_Wf 1dS_F1X4_Wp 1dS_F1X4_Tp 1dS_F3X4_Wm 1dS_F3X4_Wf 1dS_F3X4_Wp 1dS_F3X4_Tp 1dS_Mean_Tp 2dS_F1X4_Tp 2dS_F3X4_Tp 2dS_Mean_Tp' > all_gene_loss_dates.tsv
+
 
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
