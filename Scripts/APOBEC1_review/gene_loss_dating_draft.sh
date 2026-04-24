@@ -677,6 +677,10 @@ sed 's/[0-9]//g' apobec1_final_align_NT_without_split_times.nwk | tr -d ":." > a
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Unroot tree
+
+#NOTE: Whether you should use rooted or unrooted trees depends on the model, for example, on whether a molecular clock is assumed. 
+#Without the clock (clock = 0), unrooted trees should be used, such as ((1,2),3,4); or (1,2,(3,4));. With the clock or local-clock models, the trees should be rooted and these two trees are different from (((1,2),3),4);.
+#In PAML, a rooted tree has a bifurcation at the root, while an unrooted tree has a trifurcation or multifurcation at the root
 cd ~/bird_db1/aswin/APOBEC1/Dating/tree/readd
 Rscript /home/neo/bird_db1/aswin/APOBEC1/Dating/scripts/unroot_tree.R apobec1_final_align_NT.nwk
 
