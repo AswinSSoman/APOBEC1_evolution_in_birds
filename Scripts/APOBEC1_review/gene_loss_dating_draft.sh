@@ -590,7 +590,6 @@ cat all_birds_trimmed_filtered.fa <(myfasta -cds Gymnogyps_californianus_manual.
 myfasta -mfl ~/bird_db1/aswin/APOBEC1/Dating/alignment/all_birds_trimmed_filtered_readd.fa ~/bird_db1/aswin/APOBEC1/Dating/cds/intact_apobec1 | transeq --auto --stdout -clean stdin | myfasta -comb | sed '/^>/ s/_1//g' > intact_birds_filtered.aa
 mafft --maxiterate 1000 --localpair --reorder --quiet intact_birds_filtered.aa > intact_birds_filtered.aln
 em_cons intact_birds_filtered.aln --auto --stdout | myfasta -comb | sed 's/^>.*/>inatct_filtered/g' > intact_birds_filtered_consensus.fa
-
 em_cons MAFFT_no_prefiltering_no_filtering_no_postfiltering/apobec1_final_align_AA.aln --auto --stdout | myfasta -comb | sed 's/^>.*/>mafft/g' > mafft_macse_pipeline_consensus.fa
 em_cons MUSCLE_no_prefiltering_no_filtering_no_postfiltering/apobec1_final_align_AA.aln --auto --stdout | myfasta -comb | sed 's/^>.*/>muscle/g' > muscle_macse_pipeline_consensus.fa
 em_cons PRANK_no_prefiltering_no_filtering_no_postfiltering/apobec1_final_align_AA.aln --auto --stdout | myfasta -comb | sed 's/^>.*/>prank/g' > prank_macse_pipeline_consensus.fa
@@ -796,6 +795,7 @@ OUT="$BASE/paml/Pseudo_as_label1_Mixed_as_label2_Inatct_as_unlabelled"
 mkdir -p "$OUT"
 sed 's/:[0-9.]\+//g' "$TREE" > "$OUT/apobec1_final_align_NT_unroot_labeled_nobranch.nwk"
 
+#52.15 mins
 start_time=$(date +%s)
 for m in F1x4 F3x4; do
   for t in "$TREE" "$OUT/apobec1_final_align_NT_unroot_labeled_nobranch.nwk"; do

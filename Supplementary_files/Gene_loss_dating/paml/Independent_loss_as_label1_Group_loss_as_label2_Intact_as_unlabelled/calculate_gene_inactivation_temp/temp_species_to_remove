@@ -1,0 +1,108 @@
+NEXUS
+begintrees
+Canis_lupus
+Vulpes_vulpes&label=
+Manis_pentadactyla&label=
+Balaenoptera_acutorostrata
+Tursiops_truncatus
+Orcinus_orca&label=&label=&label=&label=
+Oryctolagus_cuniculus
+Saimiri_boliviensis
+Chlorocebus_sabaeus&label=
+Choloepus_hoffmanni&label=
+Trichechus_manatus
+Procavia_capensis&label=
+Orycteropus_afer&label=&label=&label=&label=
+end
+
+beginfigtree
+	setappearancebackgroundColorAttribute="Default"
+	setappearancebackgroundColour=ffffff
+	setappearancebranchColorAttribute="Userselection"
+	setappearancebranchColorGradient=false
+	setappearancebranchLineWidth=
+	setappearancebranchMinLineWidth=
+	setappearancebranchWidthAttribute="Fixed"
+	setappearanceforegroundColour=
+	setappearancehilightingGradient=false
+	setappearanceselectionColour=d
+	setbranchLabelscolorAttribute="Userselection"
+	setbranchLabelsdisplayAttribute="Branchtimes"
+	setbranchLabelsfontName="aakar"
+	setbranchLabelsfontSize=
+	setbranchLabelsfontStyle=
+	setbranchLabelsisShown=true
+	setbranchLabelssignificantDigits=
+	setlayoutexpansion=
+	setlayoutlayoutType="RECTILINEAR"
+	setlayoutzoom=
+	setlegendattribute="label"
+	setlegendfontSize=
+	setlegendisShown=false
+	setlegendsignificantDigits=
+	setnodeBarsbarWidth=
+	setnodeBarsdisplayAttribute=null
+	setnodeBarsisShown=false
+	setnodeLabelscolorAttribute="Userselection"
+	setnodeLabelsdisplayAttribute="Nodeages"
+	setnodeLabelsfontName="aakar"
+	setnodeLabelsfontSize=
+	setnodeLabelsfontStyle=
+	setnodeLabelsisShown=true
+	setnodeLabelssignificantDigits=
+	setnodeShapeExternalcolourAttribute="Userselection"
+	setnodeShapeExternalisShown=false
+	setnodeShapeExternalminSize=
+	setnodeShapeExternalscaleType=Width
+	setnodeShapeExternalshapeType=Circle
+	setnodeShapeExternalsize=
+	setnodeShapeExternalsizeAttribute="Fixed"
+	setnodeShapeInternalcolourAttribute="Userselection"
+	setnodeShapeInternalisShown=false
+	setnodeShapeInternalminSize=
+	setnodeShapeInternalscaleType=Width
+	setnodeShapeInternalshapeType=Circle
+	setnodeShapeInternalsize=
+	setnodeShapeInternalsizeAttribute="Fixed"
+	setpolarLayoutalignTipLabels=false
+	setpolarLayoutangularRange=
+	setpolarLayoutrootAngle=
+	setpolarLayoutrootLength=
+	setpolarLayoutshowRoot=true
+	setradialLayoutspread=
+	setrectilinearLayoutalignTipLabels=false
+	setrectilinearLayoutcurvature=
+	setrectilinearLayoutrootLength=
+	setscaleoffsetAge=
+	setscalerootAge=
+	setscalescaleFactor=
+	setscalescaleRoot=false
+	setscaleAxisautomaticScale=true
+	setscaleAxisfontSize=
+	setscaleAxisisShown=false
+	setscaleAxislineWidth=
+	setscaleAxismajorTicks=
+	setscaleAxisminorTicks=
+	setscaleAxisorigin=
+	setscaleAxisreverseAxis=false
+	setscaleAxisshowGrid=true
+	setscaleBarautomaticScale=true
+	setscaleBarfontSize=
+	setscaleBarisShown=true
+	setscaleBarlineWidth=
+	setscaleBarscaleRange=
+	settipLabelscolorAttribute="Userselection"
+	settipLabelsdisplayAttribute="Names"
+	settipLabelsfontName="aakar"
+	settipLabelsfontSize=
+	settipLabelsfontStyle=
+	settipLabelsisShown=true
+	settipLabelssignificantDigits=
+	settreesorder=false
+	settreesorderType="increasing"
+	settreesrooting=false
+	settreesrootingType="UserSelection"
+	settreestransform=false
+	settreestransformType="cladogram"
+end
+

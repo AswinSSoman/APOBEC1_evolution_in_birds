@@ -1,0 +1,179 @@
+NEXUS
+begintrees
+	treetree_=&RMonodelphis_domestica
+Sarcophilus_harrisii
+Phascolarctos_cinereus&label=&label=
+Erinaceus_europaeus
+Sorex_araneus&label=
+Canis_lupus
+Vulpes_vulpes&label=
+Zalophus_californianus
+Odobenus_rosmarus&label=&label=
+Manis_pentadactyla&label=
+Equus_caballus&!color=ff
+Ceratotherium_simum&!color=ff&label=&label=
+Balaenoptera_acutorostrata
+Physeter_catodon
+Neophocaena_phocaenoides
+Delphinapterus_leucas
+Monodon_monoceros&label=&label=
+Tursiops_truncatus
+Orcinus_orca&label=&label=&label=&label=
+Bos_taurus
+Bos_mutus&label=
+Capra_hircus
+Ovis_aries&label=&label=&label=
+Sus_scrofa&label=&label=
+Rhinolophus_sinicus
+Eonycteris_spelaea
+Pteropus_vampyrus
+Rousettus_aegyptiacus&label=&label=&label=
+Phyllostomus_discolor
+Desmodus_rotundus&label=
+Eptesicus_fuscus
+Myotis_brandtii
+Myotis_lucifugus&label=
+Myotis_davidii&label=&label=
+Miniopterus_natalensis&label=&label=&label=&label=&label=
+Oryctolagus_cuniculus
+Cavia_porcellus&!color=ff
+Octodon_degus&!color=ff
+Chinchilla_lanigera&label=&label=
+Rattus_norvegicus
+Mus_musculus
+Mus_caroli&label=
+Mus_pahari&label=
+Mastomys_coucha&label=&label=
+Meriones_unguiculatus&label=
+Cricetulus_griseus
+Microtus_ochrogaster&label=
+Peromyscus_maniculatus
+Peromyscus_leucopus&label=&label=&label=
+Dipodomys_ordii
+Castor_canadensis&!color=ff&label=&label=
+Urocitellus_parryii
+Ictidomys_tridecemlineatus
+Marmota_flaviventris
+Marmota_marmota&label=&label=&label=&label=&label=&label=
+Galago_moholi
+Daubentonia_madagascariensis
+Microcebus_murinus
+Eulemur_albifrons&label=&label=&label=
+Saguinus_oedipus
+Callithrix_jacchus&label=
+Saimiri_boliviensis
+Sapajus_apella&label=&label=
+Papio_anubis
+Chlorocebus_sabaeus&label=
+Rhinopithecus_roxellana
+Piliocolobus_tephrosceles&label=&label=
+Hylobates_moloch
+Gorilla_gorilla
+Pan_troglodytes
+Homo_sapiens&label=&label=
+Pongo_abelii&label=&label=&label=&label=
+Carlito_syrichta&label=&label=
+Galeopterus_variegatus&label=
+Tupaia_belangeri&label=&label=&label=
+Dasypus_novemcinctus
+Choloepus_hoffmanni&label=
+Trichechus_manatus
+Procavia_capensis&label=
+Loxodonta_africana
+Mammuthus_primigenius
+Elephas_maximus&label=&label=&label=
+Elephantulus_edwardii
+Orycteropus_afer&label=&label=&label=&label=
+end
+
+beginfigtree
+	setappearancebackgroundColorAttribute="Default"
+	setappearancebackgroundColour=ffffff
+	setappearancebranchColorAttribute="Userselection"
+	setappearancebranchColorGradient=false
+	setappearancebranchLineWidth=
+	setappearancebranchMinLineWidth=
+	setappearancebranchWidthAttribute="Fixed"
+	setappearanceforegroundColour=
+	setappearancehilightingGradient=false
+	setappearanceselectionColour=d
+	setbranchLabelscolorAttribute="Userselection"
+	setbranchLabelsdisplayAttribute="Branchtimes"
+	setbranchLabelsfontName="aakar"
+	setbranchLabelsfontSize=
+	setbranchLabelsfontStyle=
+	setbranchLabelsisShown=true
+	setbranchLabelssignificantDigits=
+	setlayoutexpansion=
+	setlayoutlayoutType="RECTILINEAR"
+	setlayoutzoom=
+	setlegendattribute="label"
+	setlegendfontSize=
+	setlegendisShown=false
+	setlegendsignificantDigits=
+	setnodeBarsbarWidth=
+	setnodeBarsdisplayAttribute=null
+	setnodeBarsisShown=false
+	setnodeLabelscolorAttribute="Userselection"
+	setnodeLabelsdisplayAttribute="Nodeages"
+	setnodeLabelsfontName="aakar"
+	setnodeLabelsfontSize=
+	setnodeLabelsfontStyle=
+	setnodeLabelsisShown=true
+	setnodeLabelssignificantDigits=
+	setnodeShapeExternalcolourAttribute="Userselection"
+	setnodeShapeExternalisShown=false
+	setnodeShapeExternalminSize=
+	setnodeShapeExternalscaleType=Width
+	setnodeShapeExternalshapeType=Circle
+	setnodeShapeExternalsize=
+	setnodeShapeExternalsizeAttribute="Fixed"
+	setnodeShapeInternalcolourAttribute="Userselection"
+	setnodeShapeInternalisShown=false
+	setnodeShapeInternalminSize=
+	setnodeShapeInternalscaleType=Width
+	setnodeShapeInternalshapeType=Circle
+	setnodeShapeInternalsize=
+	setnodeShapeInternalsizeAttribute="Fixed"
+	setpolarLayoutalignTipLabels=false
+	setpolarLayoutangularRange=
+	setpolarLayoutrootAngle=
+	setpolarLayoutrootLength=
+	setpolarLayoutshowRoot=true
+	setradialLayoutspread=
+	setrectilinearLayoutalignTipLabels=false
+	setrectilinearLayoutcurvature=
+	setrectilinearLayoutrootLength=
+	setscaleoffsetAge=
+	setscalerootAge=
+	setscalescaleFactor=
+	setscalescaleRoot=false
+	setscaleAxisautomaticScale=true
+	setscaleAxisfontSize=
+	setscaleAxisisShown=false
+	setscaleAxislineWidth=
+	setscaleAxismajorTicks=
+	setscaleAxisminorTicks=
+	setscaleAxisorigin=
+	setscaleAxisreverseAxis=false
+	setscaleAxisshowGrid=true
+	setscaleBarautomaticScale=true
+	setscaleBarfontSize=
+	setscaleBarisShown=true
+	setscaleBarlineWidth=
+	setscaleBarscaleRange=
+	settipLabelscolorAttribute="Userselection"
+	settipLabelsdisplayAttribute="Names"
+	settipLabelsfontName="aakar"
+	settipLabelsfontSize=
+	settipLabelsfontStyle=
+	settipLabelsisShown=true
+	settipLabelssignificantDigits=
+	settreesorder=false
+	settreesorderType="increasing"
+	settreesrooting=false
+	settreesrootingType="UserSelection"
+	settreestransform=false
+	settreestransformType="cladogram"
+end
+
