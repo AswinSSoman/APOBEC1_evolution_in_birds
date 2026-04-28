@@ -763,7 +763,7 @@ TREE="$BASE/tree/readd/apobec1_final_align_NT_unroot_labeled.nwk"
 ALN="$BASE/alignment/readd/readd_macse/apobec1_final_align_NT.aln.phy"
 CTL="$BASE/paml/COA1_GENE/Geneloss_timing/Galliformes/AllPseudogene_AllMix_AllFunctional"
 CODEML=~/programmes/paml-4.10.10-linux-x86_64/bin/codeml
-OUT="$BASE/paml/Independent_loss_as_label1_Group_loss_as_label2_Intact_as_unlabelled"
+OUT="$BASE/paml/indL1_grpL2_intU"
 
 # make branch-label removed tree
 mkdir -p "$OUT"
@@ -794,7 +794,7 @@ TREE="$BASE/tree/readd/apobec1_final_align_NT_unroot_hyphy_labelled_converted_to
 ALN="$BASE/alignment/readd/readd_macse/apobec1_final_align_NT.aln.phy"
 CTL="$BASE/paml/COA1_GENE/Geneloss_timing/Galliformes/AllPseudogene_AllMix_AllFunctional"
 CODEML=~/programmes/paml-4.10.10-linux-x86_64/bin/codeml
-OUT="$BASE/paml/Mixed_as_label1_Pseudo_as_label1_Inatct_as_unlabelled"
+OUT="$BASE/paml/mixL1_psL2_intU"
 
 # make branch-label removed tree
 mkdir -p "$OUT"
@@ -826,7 +826,7 @@ echo -e "\n Total time taken:" && echo $elapsed_time | awk '{print"-days:",$NF/6
 cd ~/bird_db1/aswin/APOBEC1/Dating/paml/all_mix
 cp ~/bird_db1/aswin/APOBEC1/Dating/tree/readd/{fg1.txt,fg2.txt,bg.txt} .
 
-cd ~/bird_db1/aswin/APOBEC1/Dating/paml/Mixed_as_label1_Pseudo_as_label1_Inatct_as_unlabelled
+cd ~/bird_db1/aswin/APOBEC1/Dating/paml/mixL1_psL2_intU
 for i in $(cat ../funtional)
 do
 ~/bird_db1/aswin/APOBEC1/Dating/scripts/calculate_gene_inactivation.sh Gallus_gallus $i F1x4/paml_out_F1x4 F3x4/paml_out_F3x4 -wp=1 ~/bird_db1/aswin/APOBEC1/Dating/tree/readd/apobec1_final_align_NT_unroot_hyphy_labelled_converted_to_paml.nwk -s | grep -v "Mixed_branch_length"

@@ -219,7 +219,7 @@ cd $base
 done
 done
 
-#Run codeml ()
+#Run codeml (39.4833)
 start_time=$(date +%s)
 for i in F1X4 F3X4
 do
@@ -292,7 +292,7 @@ cd $base
 done
 done
 
-#Run codeml ()
+#Run codeml (37.65)
 start_time=$(date +%s)
 for i in F1X4 F3X4
 do
