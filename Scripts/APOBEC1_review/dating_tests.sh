@@ -1,3 +1,5 @@
+#Run paml
+
 
 #In neo
 cd ~/bird_db1/aswin/APOBEC1/Dating/tree
