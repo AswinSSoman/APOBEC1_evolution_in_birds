@@ -9,7 +9,7 @@ cd /media/aswin/gene_loss/APOBEC1/Dating
 #codeml file
 /media/aswin/programs/paml-4.10.10-linux-x86_64/bin/codeml
 
-cd /media/aswin/gene_loss/APOBEC1/Dating/paml/rooted_tree_with_Mixed_as_label1_Pseudo_as_label2_Intact_as_unlabelled
+cd /media/aswin/gene_loss/APOBEC1/Dating/paml/mixL1_psL2_intU_rooted
 cp ../../tree/readd/apobec1_final_align_NT.nwk .
 cp ../Mixed_as_label1_Pseudo_as_label1_Inatct_as_unlabelled/F3x4/apobec1_final_align_NT.aln.phy .
 cp ../Mixed_as_label1_Pseudo_as_label1_Inatct_as_unlabelled/F3x4/F3x4.ctl
@@ -18,12 +18,12 @@ nano apobec1_final_align_NT_labelled.nwk
 sed 's/{mi}/ #1/g' apobec1_final_align_NT_hyphy_labelled.nwk | sed 's/{ps}/ #2/g' > apobec1_final_align_NT_hyphy_labelled_converted_to_paml.nwk
 sed 's/:[0-9.]\+//g' apobec1_final_align_NT_hyphy_labelled_converted_to_paml.nwk > apobec1_final_align_NT_hyphy_labelled_converted_to_paml_branch_labels_removed.nwk
 
-base=/media/aswin/gene_loss/APOBEC1/Dating/paml/rooted_tree_with_Mixed_as_label1_Pseudo_as_label2_Intact_as_unlabelled
-tree1=/media/aswin/gene_loss/APOBEC1/Dating/paml/rooted_tree_with_Mixed_as_label1_Pseudo_as_label2_Intact_as_unlabelled/apobec1_final_align_NT_hyphy_labelled_converted_to_paml.nwk
-tree2=/media/aswin/gene_loss/APOBEC1/Dating/paml/rooted_tree_with_Mixed_as_label1_Pseudo_as_label2_Intact_as_unlabelled/apobec1_final_align_NT_hyphy_labelled_converted_to_paml_branch_labels_removed.nwk
+base=/media/aswin/gene_loss/APOBEC1/Dating/paml/mixL1_psL2_intU_rooted
+tree1=/media/aswin/gene_loss/APOBEC1/Dating/paml/mixL1_psL2_intU_rooted/apobec1_final_align_NT_hyphy_labelled_converted_to_paml.nwk
+tree2=/media/aswin/gene_loss/APOBEC1/Dating/paml/mixL1_psL2_intU_rooted/apobec1_final_align_NT_hyphy_labelled_converted_to_paml_branch_labels_removed.nwk
 codeml=/media/aswin/programs/paml-4.10.10-linux-x86_64/bin/codeml
-ctl=/media/aswin/gene_loss/APOBEC1/Dating/paml/rooted_tree_with_Mixed_as_label1_Pseudo_as_label2_Intact_as_unlabelled/F3x4.ctl
-aln_path=/media/aswin/gene_loss/APOBEC1/Dating/paml/rooted_tree_with_Mixed_as_label1_Pseudo_as_label2_Intact_as_unlabelled/apobec1_final_align_NT.aln.phy
+ctl=/media/aswin/gene_loss/APOBEC1/Dating/paml/mixL1_psL2_intU_rooted/F3x4.ctl
+aln_path=/media/aswin/gene_loss/APOBEC1/Dating/paml/mixL1_psL2_intU_rooted/apobec1_final_align_NT.aln.phy
 aln=$(echo $aln_path | awk -F "/" '{print$NF}')
 
 cd $base
@@ -95,12 +95,12 @@ mkdir -p /media/aswin/gene_loss/APOBEC1/Dating/tree/readd/apobec1_final_align_NT
 sed 's/{mi}/ #2/g' apobec1_final_align_NT_unroot_palaeognathe_as_label1_intact_as_label3_mi_as_label2.nwk | sed 's/{ps}/ #3/g' | sed 's/{fu}/ #1/g' > apobec1_final_align_NT_unroot_palaeognathe_as_label1_intact_as_label3_mi_as_label2_converted_to_paml.nwk
 sed 's/:[0-9.]\+//g' apobec1_final_align_NT_unroot_palaeognathe_as_label1_intact_as_label3_mi_as_label2_converted_to_paml.nwk > apobec1_final_align_NT_unroot_palaeognathe_as_label1_intact_as_label3_mi_as_label2_converted_to_paml_branch_labels_removed.nwk
 
-base=/media/aswin/gene_loss/APOBEC1/Dating/paml/unrooted_tree_with_palaeognathe_as_label1_intact_as_label3_mi_as_label2
+base=/media/aswin/gene_loss/APOBEC1/Dating/paml/paleoL1_mixL2_intL2_unrooted
 tree1=/media/aswin/gene_loss/APOBEC1/Dating/tree/readd/apobec1_final_align_NT_unroot_palaeognathe_as_label1_intact_as_label3_mi_as_label2_converted_to_paml.nwk
 tree2=/media/aswin/gene_loss/APOBEC1/Dating/tree/readd/apobec1_final_align_NT_unroot_palaeognathe_as_label1_intact_as_label3_mi_as_label2_converted_to_paml_branch_labels_removed.nwk
 codeml=/media/aswin/programs/paml-4.10.10-linux-x86_64/bin/codeml
-ctl=/media/aswin/gene_loss/APOBEC1/Dating/paml/rooted_tree_with_Mixed_as_label1_Pseudo_as_label2_Intact_as_unlabelled/F3x4.ctl
-aln_path=/media/aswin/gene_loss/APOBEC1/Dating/paml/rooted_tree_with_Mixed_as_label1_Pseudo_as_label2_Intact_as_unlabelled/apobec1_final_align_NT.aln.phy
+ctl=/media/aswin/gene_loss/APOBEC1/Dating/paml/mixL1_psL2_intU_rooted/F3x4.ctl
+aln_path=/media/aswin/gene_loss/APOBEC1/Dating/paml/mixL1_psL2_intU_rooted/apobec1_final_align_NT.aln.phy
 aln=$(echo $aln_path | awk -F "/" '{print$NF}')
 
 cd $base
@@ -146,7 +146,7 @@ echo -e "\n Total time taken:" && echo $elapsed_time | awk '{print"-days:",$NF/6
 #Estimate gene loss timing based on Meredith formula
 
 #Using tree without branch labels 
-cd ~/bird_db1/aswin/APOBEC1/Dating/paml/unrooted_tree_with_palaeognathe_as_label1_intact_as_label3_mi_as_label2
+cd ~/bird_db1/aswin/APOBEC1/Dating/paml/paleoL1_mixL2_intL2_unrooted
 time for sp in $(cat ../all_lost)
 do
 gr=$(grep $sp ~/bird_db1/aswin/taxonomy/orders_all_birds | awk '{print$2}')
@@ -167,11 +167,11 @@ done | sed '1i Group Species Functional_branch Mixed_branch_length 1dS_F1X4_Wm 1
 ################################################################################################################################################################################################################################################################################################
 #One event: Galliformes Vs intact
 
-mkdir -p /media/aswin/gene_loss/APOBEC1/Dating/paml/apobec1_final_align_NT_unroot_galliformes_as_label1_intact_as_label3_mi_as_label2.nwk
-cd /media/aswin/gene_loss/APOBEC1/Dating/paml/apobec1_final_align_NT_unroot_galliformes_as_label1_intact_as_label3_mi_as_label2.nwk
+mkdir -p /media/aswin/gene_loss/APOBEC1/Dating/paml/galliformes_single_event
+cd /media/aswin/gene_loss/APOBEC1/Dating/paml/galliformes_single_event
 
 #Get alignment
-cp /media/aswin/gene_loss/APOBEC1/Dating/paml/rooted_tree_with_Mixed_as_label1_Pseudo_as_label2_Intact_as_unlabelled/apobec1_final_align_NT.aln.phy .
+cp /media/aswin/gene_loss/APOBEC1/Dating/paml/mixL1_psL2_intU_rooted/apobec1_final_align_NT.aln.phy .
 
 #Label trees
 /media/aswin/programs/hyphy-2.5.70/hyphy /media/aswin/programs/hyphy-analyses/LabelTrees/label-tree.bf --tree /media/aswin/gene_loss/APOBEC1/Dating/tree/readd/apobec1_final_align_NT_unroot.nwk \
@@ -191,11 +191,11 @@ awk -iinplace '{while(match($0, /[0-9]+(\.[0-9]+)?[eE][-+]?[0-9]+/)) {val = subs
 sed -e 's/Node[0-9]\+//g' -e 's/:[0-9.]\+//g' apobec1_final_align_NT_unroot_galliformes_as_label1_intact_as_label3_mi_as_label2_converted_to_paml.nwk > apobec1_final_align_NT_unroot_galliformes_as_label1_intact_as_label3_mi_as_label2_converted_to_paml_branch_labels_removed.nwk
 
 #Set variables
-base=/media/aswin/gene_loss/APOBEC1/Dating/paml/apobec1_final_align_NT_unroot_galliformes_as_label1_intact_as_label3_mi_as_label2.nwk
+base=/media/aswin/gene_loss/APOBEC1/Dating/paml/galliformes_single_event
 tree1=/media/aswin/gene_loss/APOBEC1/Dating/paml/apobec1_final_align_NT_unroot_galliformes_as_label1_intact_as_label3_mi_as_label2.nwk/apobec1_final_align_NT_unroot_galliformes_as_label1_intact_as_label3_mi_as_label2_converted_to_paml_branch_labels_removed.nwk
 codeml=/media/aswin/programs/paml-4.10.10-linux-x86_64/bin/codeml
-ctl=/media/aswin/gene_loss/APOBEC1/Dating/paml/rooted_tree_with_Mixed_as_label1_Pseudo_as_label2_Intact_as_unlabelled/F3x4.ctl
-aln_path=/media/aswin/gene_loss/APOBEC1/Dating/paml/rooted_tree_with_Mixed_as_label1_Pseudo_as_label2_Intact_as_unlabelled/apobec1_final_align_NT.aln.phy
+ctl=/media/aswin/gene_loss/APOBEC1/Dating/paml/mixL1_psL2_intU_rooted/F3x4.ctl
+aln_path=/media/aswin/gene_loss/APOBEC1/Dating/paml/mixL1_psL2_intU_rooted/apobec1_final_align_NT.aln.phy
 aln=$(echo $aln_path | awk -F "/" '{print$NF}')
 
 cd $base
@@ -239,11 +239,11 @@ echo -e "\n Total time taken:" && echo $elapsed_time | awk '{print"-days:",$NF/6
 ################################################################################################################################################################################################################################################################################################
 #2 events : Galliformes Vs intact
 
-mkdir -p /media/aswin/gene_loss/APOBEC1/Dating/paml/two_events
-cd /media/aswin/gene_loss/APOBEC1/Dating/paml/two_events
+mkdir -p /media/aswin/gene_loss/APOBEC1/Dating/paml/galliformes_two_events
+cd /media/aswin/gene_loss/APOBEC1/Dating/paml/galliformes_two_events
 
 #Get alignment
-cp /media/aswin/gene_loss/APOBEC1/Dating/paml/rooted_tree_with_Mixed_as_label1_Pseudo_as_label2_Intact_as_unlabelled/apobec1_final_align_NT.aln.phy .
+cp /media/aswin/gene_loss/APOBEC1/Dating/paml/mixL1_psL2_intU_rooted/apobec1_final_align_NT.aln.phy .
 
 #Label trees
 /media/aswin/programs/hyphy-2.5.70/hyphy /media/aswin/programs/hyphy-analyses/LabelTrees/label-tree.bf --tree /media/aswin/gene_loss/APOBEC1/Dating/tree/readd/apobec1_final_align_NT_unroot.nwk \
@@ -264,11 +264,11 @@ awk -iinplace '{while(match($0, /[0-9]+(\.[0-9]+)?[eE][-+]?[0-9]+/)) {val = subs
 sed -e 's/Node[0-9]\+//g' -e 's/:[0-9.]\+//g' apobec1_final_align_NT_unroot_galliformes_as_label1_intact_as_label3_mi_as_label2_converted_to_paml.nwk > apobec1_final_align_NT_unroot_galliformes_as_label1_intact_as_label3_mi_as_label2_converted_to_paml_branch_labels_removed.nwk
 
 #Set variables
-base=/media/aswin/gene_loss/APOBEC1/Dating/paml/two_events
-tree1=/media/aswin/gene_loss/APOBEC1/Dating/paml/two_events/apobec1_final_align_NT_unroot_galliformes_as_label1_intact_as_label3_mi_as_label2_converted_to_paml_branch_labels_removed.nwk
+base=/media/aswin/gene_loss/APOBEC1/Dating/paml/galliformes_two_events
+tree1=/media/aswin/gene_loss/APOBEC1/Dating/paml/galliformes_two_events/apobec1_final_align_NT_unroot_galliformes_as_label1_intact_as_label3_mi_as_label2_converted_to_paml_branch_labels_removed.nwk
 codeml=/media/aswin/programs/paml-4.10.10-linux-x86_64/bin/codeml
-ctl=/media/aswin/gene_loss/APOBEC1/Dating/paml/rooted_tree_with_Mixed_as_label1_Pseudo_as_label2_Intact_as_unlabelled/F3x4.ctl
-aln_path=/media/aswin/gene_loss/APOBEC1/Dating/paml/rooted_tree_with_Mixed_as_label1_Pseudo_as_label2_Intact_as_unlabelled/apobec1_final_align_NT.aln.phy
+ctl=/media/aswin/gene_loss/APOBEC1/Dating/paml/mixL1_psL2_intU_rooted/F3x4.ctl
+aln_path=/media/aswin/gene_loss/APOBEC1/Dating/paml/mixL1_psL2_intU_rooted/apobec1_final_align_NT.aln.phy
 aln=$(echo $aln_path | awk -F "/" '{print$NF}')
 
 cd $base
@@ -309,7 +309,14 @@ wait
 end_time=$(date +%s) && elapsed_time=$((end_time - start_time))
 echo -e "\n Total time taken:" && echo $elapsed_time | awk '{print"-days:",$NF/60/60/24,"\n","-hours:",$NF/60/60,"\n","-mins:",$NF/60,"\n","-secs:",$1}' | column -t | sed 's/^/   /g' && echo -e
 
-
+#Summary
+cd ~/bird_db1/aswin/APOBEC1/Dating/paml/two_events
+~/bird_db1/aswin/APOBEC1/Dating/scripts/calculate_gene_inactivation.sh Gallus_gallus Alectura_lathami \
+ F1X4_apobec1_final_align_NT_unroot_galliformes_as_label1_intact_as_label3_mi_as_label2_converted_to_paml_branch_labels_removed.nwk/paml_out \
+ F3X4_apobec1_final_align_NT_unroot_galliformes_as_label1_intact_as_label3_mi_as_label2_converted_to_paml_branch_labels_removed.nwk/paml_out \
+ -wp=1,1 -wm=2 -wf=3 \
+ F1X4_apobec1_final_align_NT_unroot_galliformes_as_label1_intact_as_label3_mi_as_label2_converted_to_paml_branch_labels_removed.nwk/apobec1_final_align_NT_unroot_galliformes_as_label1_intact_as_label3_mi_as_label2_converted_to_paml_branch_labels_removed.nwk \
+ apobec1_final_align_NT_unroot_galliformes_as_label1_intact_as_label3_mi_as_label2_converted_to_paml.nwk -s 
 
 ################################################################################################################################################################################################################################################################################################
 #DRAFT
