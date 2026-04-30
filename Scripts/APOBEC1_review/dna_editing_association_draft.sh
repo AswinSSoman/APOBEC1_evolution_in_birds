@@ -125,6 +125,7 @@ done |  awk '{a+=$2} END{print a}'
 awk '$11~"ERV"' $rmsk | awk '$NF!="*"' > repeat_insertion_time_DNA_editing_association/erv_repeatmasker.out
 awk '{print$2}' erv_repeatmasker.out | statplot.R --biplot divergence_distribution_erv_repeatmasker.out.png
 
+#Get edited ERV's GA edit site count & divergence based on coordinates
 for bestpairs in $(find Data/"$o"/LTR/results -maxdepth 5 -mindepth 5 -path "*/Tracks/*/${ga}/pairwise_filter*" -name "bestPairsClusters_*.tab")
 do
 while read -r bp
@@ -145,17 +146,22 @@ echo $s $i1 $i4 $i2 $i3 $p1
 unset s c i1 i2 i3 i4 subfam chr start end p1 strand
 done < $bestpairs
 unset bp
-done | awk '{print$1,$2,3,4,5,6,7}' > repeat_insertion_time_DNA_editing_association/erv_per_div_GA_edit_count.out
+done | awk '{print$1,$2,3,4,5,6,7}' > repeat_insertion_time_DNA_editing_association/edited_erv_per_div_GA_edit_count.out
 
-awk '{print$5,$6,$7+1,$8,$9,$13}' repeat_insertion_time_DNA_editing_association/erv_per_div_GA_edit_count.out | awk '{if($5=="-") $5="C"; print}' > repeat_insertion_time_DNA_editing_association/c1
+#Get all ERV's GA edit site count & divergence based on coordinates
+awk '{print$5,$6,$7+1,$8,$9,$13}' repeat_insertion_time_DNA_editing_association/edited_erv_per_div_GA_edit_count.out | awk '{if($5=="-") $5="C"; print}' > repeat_insertion_time_DNA_editing_association/c1
+awk '{print$10,$5,$6,$7,$9,$2}' repeat_insertion_time_DNA_editing_association/erv_repeatmasker.out > repeat_insertion_time_DNA_editing_association/c2
 
+awk 'FNR==NR {
+  key[$1 FS $2 FS $3 FS $4 FS $5] = $6
+  next}
+{  k = $1 FS $2 FS $3 FS $4 FS $5
+  print $0, (k in key ? key[k] : 0)
+}' repeat_insertion_time_DNA_editing_association/c1 repeat_insertion_time_DNA_editing_association/c2 \
+ | sed '1i Subfamily chr start end strand percent_divergence GA_edit_count' | sed 's/[ \t]/\t/g' > repeat_insertion_time_DNA_editing_association/all_erv_per_div_GA_edit_count.out
 
-awk '{$7=$7+1; print}' repeat_insertion_time_DNA_editing_association/erv_per_div_GA_edit_count.out | awk '{if($9=="-") $9="C"; print}' > repeat_insertion_time_DNA_editing_association/c1
-
-
-cd repeat_insertion_time_DNA_editing_association/
-
-
+#Plot
+Rscript /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/Geospiza_fortis/knisbacher/Data/Geofor/LTR/results/plot_div_vs_edit.R repeat_insertion_time_DNA_editing_association/all_erv_per_div_GA_edit_count.out repeat_insertion_time_DNA_editing_association/all_erv_per_div_GA_edit_count.pdf
 
 ################################################################################################################################################################################################################################################################################################################
 #DRAFT FOR DRAFT
