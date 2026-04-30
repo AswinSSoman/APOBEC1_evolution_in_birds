@@ -27,7 +27,7 @@ head /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotranspo
 
 
 
-
+cd /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/Geospiza_fortis/knisbacher/Data/Geofor/LTR/results
 
 while read i
 do
@@ -39,18 +39,17 @@ awk -v chr="$chr" -v start="$start" -v end="$end" -v subfam="$subfam" '$10~subfa
 unset chr start end subfam
 done < <(grep ">" ../../../../../transposons/ERVs.fa) > erv_repeatmasker.out
 
+################################################################################################################################################################################################################################################################################################################
+#ERV divergence and edit site count table summary
 
-awk '{print$1,$2,$3,$4}'
-
-
-SW_score Per_Div Per_Del Per_Ins 
-
+cd /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/Geospiza_fortis/knisbacher/Data/Geofor/LTR/results
 
 ga="GA"
 ganum=$(echo "GA CT GC GT CA TA AG TC CG TG AC AT" | awk -v m="$ga" '{for(i=1;i<=NF;i++) if($i == m) print i}')
 ct="CT"
 ctnum=$(echo "GA CT GC GT CA TA AG TC CG TG AC AT" | awk -v m="$ct" '{for(i=1;i<=NF;i++) if($i == m) print i}')
 
+#Get edit count
 while read -r bp
 do
 s=$(echo $bp | awk '{print$1,$2,$3,$4,$5,$6}' | tr ":-" " " | tr -d "+-")
@@ -63,7 +62,7 @@ echo $s $i1 $i4 $i2 $i3
 unset s c i1 i2 i3 i4
 done < Tracks/tracks_Geofor_LTR_ERVL_1e-0_5/GA/pairwise_filter/bestPairsClusters_Geofor_LTR_ERVL_1e-0_5.tab > edited_GA_count
 
-#Filter
+#Get repeat divergence
 time while read i
 do
 subfam=$(echo $i | awk '{print$5}')
