@@ -1,3 +1,9 @@
+
+
+
+
+################################################################################################################################################################################################################################################################################################################
+
 cd /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons
 
 time while read species
@@ -67,4 +73,20 @@ Rscript /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotran
 
 unset o ga ct ganum ctnum rmsk bestpairs r r1 
 done < all_bird_genomes_used
+
+################################################################################################################################################################################################################################################################################################################
+
+mkdir /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/repeat_insertion_time_DNA_editing_association
+
+cd /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons
+
+while read species
+do
+echo ">"$species
+cp /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/"$species"/knisbacher/repeat_insertion_time_DNA_editing_association/all_erv_per_div_GA_edit_count.out /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/repeat_insertion_time_DNA_editing_association/"$species"_all_erv_per_div_GA_edit_count.out
+cp /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/"$species"/knisbacher/repeat_insertion_time_DNA_editing_association/all_erv_per_div_GA_edit_count.png /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/repeat_insertion_time_DNA_editing_association/"$species"_all_erv_per_div_GA_edit_count.png
+done < all_bird_genomes_used
+
+
+
 
