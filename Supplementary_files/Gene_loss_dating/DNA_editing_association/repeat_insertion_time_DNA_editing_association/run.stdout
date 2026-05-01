@@ -1,0 +1,1163 @@
+>Apteryx_rowi
+Number of ERVs:
+0
+
+
+╔══════════════════════════════════════════════════════════════╗
+║                Distribution Plot CLI (R)                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+DESCRIPTION:
+  Generates violin + boxplot + jitter distribution plots
+  with statistical annotations.
+
+USAGE:
+  cat data.txt | script.R [OPTIONS] output.png
+  script.R [OPTIONS] output.png < data.txt
+
+OPTIONS:
+  --log10        Plot using log10 y-axis scale
+  --biplot       Generate side-by-side RAW and LOG10 plots
+  -h, --help     Show this help message
+
+FEATURES:
+  • Automatic non-overlapping statistic labels
+  • Semi-transparent white label backgrounds
+  • Mean, Median, Q1, Q3, Min, Max displayed
+  • Standard deviation and total N shown
+  • Works with STDIN or piped input
+  • Publication-ready output (300 DPI)
+
+EXAMPLES:
+  script.R plot.png < data.txt
+  script.R --log10 plot.png < data.txt
+  script.R --biplot plot.png < data.txt
+  cat data.txt | script.R --biplot result.png
+
+NOTES:
+  Log10 scale requires all values > 0.
+
+════════════════════════════════════════════════════════════════
+
+real	0m0.081s
+user	0m0.001s
+sys	0m0.006s
+Error in read.table(input_file, header = TRUE, sep = "\t") : 
+  no lines available in input
+Execution halted
+>Aquila_chrysaetos_chrysaetos
+Number of ERVs:
+37435
+37435
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m5.103s
+user	0m4.391s
+sys	0m0.988s
+`geom_smooth()` using formula = 'y ~ x'
+Warning messages:
+1: Removed 37435 rows containing missing values or values outside the scale range (`geom_point()`). 
+2: Removed 37435 rows containing missing values or values outside the scale range (`geom_point()`). 
+Success! Plot generated for: Aquila chrysaetos chrysaetos
+>Atlantisia_rogersi
+Number of ERVs:
+0
+31
+
+╔══════════════════════════════════════════════════════════════╗
+║                Distribution Plot CLI (R)                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+DESCRIPTION:
+  Generates violin + boxplot + jitter distribution plots
+  with statistical annotations.
+
+USAGE:
+  cat data.txt | script.R [OPTIONS] output.png
+  script.R [OPTIONS] output.png < data.txt
+
+OPTIONS:
+  --log10        Plot using log10 y-axis scale
+  --biplot       Generate side-by-side RAW and LOG10 plots
+  -h, --help     Show this help message
+
+FEATURES:
+  • Automatic non-overlapping statistic labels
+  • Semi-transparent white label backgrounds
+  • Mean, Median, Q1, Q3, Min, Max displayed
+  • Standard deviation and total N shown
+  • Works with STDIN or piped input
+  • Publication-ready output (300 DPI)
+
+EXAMPLES:
+  script.R plot.png < data.txt
+  script.R --log10 plot.png < data.txt
+  script.R --biplot plot.png < data.txt
+  cat data.txt | script.R --biplot result.png
+
+NOTES:
+  Log10 scale requires all values > 0.
+
+════════════════════════════════════════════════════════════════
+
+real	0m0.087s
+user	0m0.006s
+sys	0m0.001s
+Error in read.table(input_file, header = TRUE, sep = "\t") : 
+  no lines available in input
+Execution halted
+>Aythya_fuligula
+Number of ERVs:
+24076
+24076
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m6.648s
+user	0m5.696s
+sys	0m1.185s
+`geom_smooth()` using formula = 'y ~ x'
+Warning messages:
+1: Removed 24076 rows containing missing values or values outside the scale range (`geom_point()`). 
+2: Removed 24076 rows containing missing values or values outside the scale range (`geom_point()`). 
+Success! Plot generated for: Aythya fuligula
+>Buceros_rhinoceros_silvestris
+Number of ERVs:
+10685
+10685
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m0.308s
+user	0m0.004s
+sys	0m0.010s
+Error in read.table(input_file, header = TRUE, sep = "\t") : 
+  no lines available in input
+Execution halted
+>Calidris_pugnax
+Number of ERVs:
+0
+ls: cannot access 'Data/Calpug/LTR/db/Len_*.txt': No such file or directory
+
+
+╔══════════════════════════════════════════════════════════════╗
+║                Distribution Plot CLI (R)                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+DESCRIPTION:
+  Generates violin + boxplot + jitter distribution plots
+  with statistical annotations.
+
+USAGE:
+  cat data.txt | script.R [OPTIONS] output.png
+  script.R [OPTIONS] output.png < data.txt
+
+OPTIONS:
+  --log10        Plot using log10 y-axis scale
+  --biplot       Generate side-by-side RAW and LOG10 plots
+  -h, --help     Show this help message
+
+FEATURES:
+  • Automatic non-overlapping statistic labels
+  • Semi-transparent white label backgrounds
+  • Mean, Median, Q1, Q3, Min, Max displayed
+  • Standard deviation and total N shown
+  • Works with STDIN or piped input
+  • Publication-ready output (300 DPI)
+
+EXAMPLES:
+  script.R plot.png < data.txt
+  script.R --log10 plot.png < data.txt
+  script.R --biplot plot.png < data.txt
+  cat data.txt | script.R --biplot result.png
+
+NOTES:
+  Log10 scale requires all values > 0.
+
+════════════════════════════════════════════════════════════════
+find: ‘Data/Calpug/LTR/results’: No such file or directory
+
+real	0m0.005s
+user	0m0.000s
+sys	0m0.005s
+Error in read.table(input_file, header = TRUE, sep = "\t") : 
+  no lines available in input
+Execution halted
+>Calypte_anna
+Number of ERVs:
+5255
+5255
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m0.134s
+user	0m0.003s
+sys	0m0.006s
+Error in read.table(input_file, header = TRUE, sep = "\t") : 
+  no lines available in input
+Execution halted
+>Camarhynchus_parvulus
+Number of ERVs:
+15987
+15987
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m0.263s
+user	0m0.010s
+sys	0m0.005s
+Error in read.table(input_file, header = TRUE, sep = "\t") : 
+  no lines available in input
+Execution halted
+>Caprimulgus_europaeus
+Number of ERVs:
+34905
+34905
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m0.864s
+user	0m0.595s
+sys	0m0.130s
+`geom_smooth()` using formula = 'y ~ x'
+Warning messages:
+1: Removed 34905 rows containing missing values or values outside the scale range (`geom_point()`). 
+2: Removed 34905 rows containing missing values or values outside the scale range (`geom_point()`). 
+Success! Plot generated for: Caprimulgus europaeus
+>Cariama_cristata
+Number of ERVs:
+15898
+15898
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m1.403s
+user	0m1.070s
+sys	0m0.237s
+`geom_smooth()` using formula = 'y ~ x'
+Warning messages:
+1: Removed 15898 rows containing missing values or values outside the scale range (`geom_point()`). 
+2: Removed 15898 rows containing missing values or values outside the scale range (`geom_point()`). 
+Success! Plot generated for: Cariama cristata
+>Casuarius_casuarius
+Number of ERVs:
+3157
+5337
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m0.727s
+user	0m0.011s
+sys	0m0.016s
+Error in read.table(input_file, header = TRUE, sep = "\t") : 
+  no lines available in input
+Execution halted
+>Cathartes_aura
+Number of ERVs:
+25673
+25740
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m1.875s
+user	0m1.184s
+sys	0m0.425s
+`geom_smooth()` using formula = 'y ~ x'
+Warning messages:
+1: Removed 25673 rows containing missing values or values outside the scale range (`geom_point()`). 
+2: Removed 25673 rows containing missing values or values outside the scale range (`geom_point()`). 
+Success! Plot generated for: Cathartes aura
+>Chaetura_pelagica
+Number of ERVs:
+0
+73
+
+╔══════════════════════════════════════════════════════════════╗
+║                Distribution Plot CLI (R)                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+DESCRIPTION:
+  Generates violin + boxplot + jitter distribution plots
+  with statistical annotations.
+
+USAGE:
+  cat data.txt | script.R [OPTIONS] output.png
+  script.R [OPTIONS] output.png < data.txt
+
+OPTIONS:
+  --log10        Plot using log10 y-axis scale
+  --biplot       Generate side-by-side RAW and LOG10 plots
+  -h, --help     Show this help message
+
+FEATURES:
+  • Automatic non-overlapping statistic labels
+  • Semi-transparent white label backgrounds
+  • Mean, Median, Q1, Q3, Min, Max displayed
+  • Standard deviation and total N shown
+  • Works with STDIN or piped input
+  • Publication-ready output (300 DPI)
+
+EXAMPLES:
+  script.R plot.png < data.txt
+  script.R --log10 plot.png < data.txt
+  script.R --biplot plot.png < data.txt
+  cat data.txt | script.R --biplot result.png
+
+NOTES:
+  Log10 scale requires all values > 0.
+
+════════════════════════════════════════════════════════════════
+
+real	0m0.108s
+user	0m0.007s
+sys	0m0.000s
+Error in read.table(input_file, header = TRUE, sep = "\t") : 
+  no lines available in input
+Execution halted
+>Charadrius_vociferus
+Number of ERVs:
+16517
+16517
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m1.381s
+user	0m0.939s
+sys	0m0.252s
+`geom_smooth()` using formula = 'y ~ x'
+Warning messages:
+1: Removed 16517 rows containing missing values or values outside the scale range (`geom_point()`). 
+2: Removed 16517 rows containing missing values or values outside the scale range (`geom_point()`). 
+Success! Plot generated for: Charadrius vociferus
+>Erythrura_gouldiae
+Number of ERVs:
+50381
+50525
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	1m29.226s
+user	1m20.056s
+sys	0m23.610s
+`geom_smooth()` using formula = 'y ~ x'
+Warning messages:
+1: Removed 50381 rows containing missing values or values outside the scale range (`geom_point()`). 
+2: Removed 50381 rows containing missing values or values outside the scale range (`geom_point()`). 
+Success! Plot generated for: Erythrura gouldiae
+>Columba_livia
+Number of ERVs:
+10045
+10045
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m0.400s
+user	0m0.005s
+sys	0m0.008s
+Error in read.table(input_file, header = TRUE, sep = "\t") : 
+  no lines available in input
+Execution halted
+>Corvus_moneduloides
+Number of ERVs:
+19254
+19254
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m2.680s
+user	0m2.121s
+sys	0m0.578s
+`geom_smooth()` using formula = 'y ~ x'
+Warning messages:
+1: Removed 19254 rows containing missing values or values outside the scale range (`geom_point()`). 
+2: Removed 19254 rows containing missing values or values outside the scale range (`geom_point()`). 
+Success! Plot generated for: Corvus moneduloides
+>Cuculus_canorus
+Number of ERVs:
+24592
+24631
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m0.519s
+user	0m0.016s
+sys	0m0.009s
+Error in read.table(input_file, header = TRUE, sep = "\t") : 
+  no lines available in input
+Execution halted
+>Egretta_garzetta
+Number of ERVs:
+25442
+25442
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m3.180s
+user	0m2.601s
+sys	0m0.616s
+`geom_smooth()` using formula = 'y ~ x'
+Warning messages:
+1: Removed 25442 rows containing missing values or values outside the scale range (`geom_point()`). 
+2: Removed 25442 rows containing missing values or values outside the scale range (`geom_point()`). 
+Success! Plot generated for: Egretta garzetta
+>Falco_cherrug
+Number of ERVs:
+41285
+41328
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m11.993s
+user	0m10.148s
+sys	0m2.397s
+`geom_smooth()` using formula = 'y ~ x'
+Warning messages:
+1: Removed 41285 rows containing missing values or values outside the scale range (`geom_point()`). 
+2: Removed 41285 rows containing missing values or values outside the scale range (`geom_point()`). 
+Success! Plot generated for: Falco cherrug
+>Ficedula_albicollis
+Number of ERVs:
+18105
+18105
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m0.569s
+user	0m0.009s
+sys	0m0.009s
+Error in read.table(input_file, header = TRUE, sep = "\t") : 
+  no lines available in input
+Execution halted
+>Fulmarus_glacialis
+Number of ERVs:
+24667
+24667
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m30.555s
+user	0m27.480s
+sys	0m7.271s
+`geom_smooth()` using formula = 'y ~ x'
+Warning messages:
+1: Removed 24667 rows containing missing values or values outside the scale range (`geom_point()`). 
+2: Removed 24667 rows containing missing values or values outside the scale range (`geom_point()`). 
+Success! Plot generated for: Fulmarus glacialis
+>Galbula_dea
+Number of ERVs:
+0
+18
+
+╔══════════════════════════════════════════════════════════════╗
+║                Distribution Plot CLI (R)                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+DESCRIPTION:
+  Generates violin + boxplot + jitter distribution plots
+  with statistical annotations.
+
+USAGE:
+  cat data.txt | script.R [OPTIONS] output.png
+  script.R [OPTIONS] output.png < data.txt
+
+OPTIONS:
+  --log10        Plot using log10 y-axis scale
+  --biplot       Generate side-by-side RAW and LOG10 plots
+  -h, --help     Show this help message
+
+FEATURES:
+  • Automatic non-overlapping statistic labels
+  • Semi-transparent white label backgrounds
+  • Mean, Median, Q1, Q3, Min, Max displayed
+  • Standard deviation and total N shown
+  • Works with STDIN or piped input
+  • Publication-ready output (300 DPI)
+
+EXAMPLES:
+  script.R plot.png < data.txt
+  script.R --log10 plot.png < data.txt
+  script.R --biplot plot.png < data.txt
+  cat data.txt | script.R --biplot result.png
+
+NOTES:
+  Log10 scale requires all values > 0.
+
+════════════════════════════════════════════════════════════════
+
+real	0m0.134s
+user	0m0.006s
+sys	0m0.001s
+Error in read.table(input_file, header = TRUE, sep = "\t") : 
+  no lines available in input
+Execution halted
+>Gavia_stellata
+Number of ERVs:
+26698
+26752
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m10.486s
+user	0m9.017s
+sys	0m1.781s
+`geom_smooth()` using formula = 'y ~ x'
+Warning messages:
+1: Removed 26698 rows containing missing values or values outside the scale range (`geom_point()`). 
+2: Removed 26698 rows containing missing values or values outside the scale range (`geom_point()`). 
+Success! Plot generated for: Gavia stellata
+>Geospiza_fortis
+Number of ERVs:
+18137
+18137
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m2.058s
+user	0m1.617s
+sys	0m0.450s
+`geom_smooth()` using formula = 'y ~ x'
+Warning messages:
+1: Removed 18137 rows containing missing values or values outside the scale range (`geom_point()`). 
+2: Removed 18137 rows containing missing values or values outside the scale range (`geom_point()`). 
+Success! Plot generated for: Geospiza fortis
+>Gymnogyps_californianus
+Number of ERVs:
+0
+63
+
+╔══════════════════════════════════════════════════════════════╗
+║                Distribution Plot CLI (R)                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+DESCRIPTION:
+  Generates violin + boxplot + jitter distribution plots
+  with statistical annotations.
+
+USAGE:
+  cat data.txt | script.R [OPTIONS] output.png
+  script.R [OPTIONS] output.png < data.txt
+
+OPTIONS:
+  --log10        Plot using log10 y-axis scale
+  --biplot       Generate side-by-side RAW and LOG10 plots
+  -h, --help     Show this help message
+
+FEATURES:
+  • Automatic non-overlapping statistic labels
+  • Semi-transparent white label backgrounds
+  • Mean, Median, Q1, Q3, Min, Max displayed
+  • Standard deviation and total N shown
+  • Works with STDIN or piped input
+  • Publication-ready output (300 DPI)
+
+EXAMPLES:
+  script.R plot.png < data.txt
+  script.R --log10 plot.png < data.txt
+  script.R --biplot plot.png < data.txt
+  cat data.txt | script.R --biplot result.png
+
+NOTES:
+  Log10 scale requires all values > 0.
+
+════════════════════════════════════════════════════════════════
+
+real	0m0.083s
+user	0m0.007s
+sys	0m0.000s
+Error in read.table(input_file, header = TRUE, sep = "\t") : 
+  no lines available in input
+Execution halted
+>Limosa_lapponica_baueri
+Number of ERVs:
+14571
+14917
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m0.821s
+user	0m0.515s
+sys	0m0.146s
+`geom_smooth()` using formula = 'y ~ x'
+Warning messages:
+1: Removed 14571 rows containing missing values or values outside the scale range (`geom_point()`). 
+2: Removed 14571 rows containing missing values or values outside the scale range (`geom_point()`). 
+Success! Plot generated for: Limosa lapponica baueri
+>Lonchura_striata_domestica
+Number of ERVs:
+58709
+58709
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	3m34.958s
+user	3m13.275s
+sys	0m46.129s
+`geom_smooth()` using formula = 'y ~ x'
+Warning messages:
+1: Removed 58709 rows containing missing values or values outside the scale range (`geom_point()`). 
+2: Removed 58709 rows containing missing values or values outside the scale range (`geom_point()`). 
+Success! Plot generated for: Lonchura striata domestica
+>Opisthocomus_hoazin
+Number of ERVs:
+18794
+18794
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m0.291s
+user	0m0.005s
+sys	0m0.010s
+Error in read.table(input_file, header = TRUE, sep = "\t") : 
+  no lines available in input
+Execution halted
+>Pelecanus_crispus
+Number of ERVs:
+58762
+58812
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m18.905s
+user	0m16.590s
+sys	0m3.573s
+`geom_smooth()` using formula = 'y ~ x'
+Warning messages:
+1: Removed 58762 rows containing missing values or values outside the scale range (`geom_point()`). 
+2: Removed 58762 rows containing missing values or values outside the scale range (`geom_point()`). 
+Success! Plot generated for: Pelecanus crispus
+>Phoenicopterus_ruber
+Number of ERVs:
+39137
+39137
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m5.319s
+user	0m4.381s
+sys	0m1.116s
+`geom_smooth()` using formula = 'y ~ x'
+Warning messages:
+1: Removed 39137 rows containing missing values or values outside the scale range (`geom_point()`). 
+2: Removed 39137 rows containing missing values or values outside the scale range (`geom_point()`). 
+Success! Plot generated for: Phoenicopterus ruber
+>Podilymbus_podiceps
+Number of ERVs:
+0
+36
+
+╔══════════════════════════════════════════════════════════════╗
+║                Distribution Plot CLI (R)                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+DESCRIPTION:
+  Generates violin + boxplot + jitter distribution plots
+  with statistical annotations.
+
+USAGE:
+  cat data.txt | script.R [OPTIONS] output.png
+  script.R [OPTIONS] output.png < data.txt
+
+OPTIONS:
+  --log10        Plot using log10 y-axis scale
+  --biplot       Generate side-by-side RAW and LOG10 plots
+  -h, --help     Show this help message
+
+FEATURES:
+  • Automatic non-overlapping statistic labels
+  • Semi-transparent white label backgrounds
+  • Mean, Median, Q1, Q3, Min, Max displayed
+  • Standard deviation and total N shown
+  • Works with STDIN or piped input
+  • Publication-ready output (300 DPI)
+
+EXAMPLES:
+  script.R plot.png < data.txt
+  script.R --log10 plot.png < data.txt
+  script.R --biplot plot.png < data.txt
+  cat data.txt | script.R --biplot result.png
+
+NOTES:
+  Log10 scale requires all values > 0.
+
+════════════════════════════════════════════════════════════════
+
+real	0m0.062s
+user	0m0.006s
+sys	0m0.001s
+Error in read.table(input_file, header = TRUE, sep = "\t") : 
+  no lines available in input
+Execution halted
+>Pterocles_gutturalis
+Number of ERVs:
+29422
+29422
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m0.644s
+user	0m0.272s
+sys	0m0.092s
+`geom_smooth()` using formula = 'y ~ x'
+Warning messages:
+1: Removed 29422 rows containing missing values or values outside the scale range (`geom_point()`). 
+2: Removed 29422 rows containing missing values or values outside the scale range (`geom_point()`). 
+Success! Plot generated for: Pterocles gutturalis
+>Rhea_americana
+Number of ERVs:
+0
+
+
+╔══════════════════════════════════════════════════════════════╗
+║                Distribution Plot CLI (R)                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+DESCRIPTION:
+  Generates violin + boxplot + jitter distribution plots
+  with statistical annotations.
+
+USAGE:
+  cat data.txt | script.R [OPTIONS] output.png
+  script.R [OPTIONS] output.png < data.txt
+
+OPTIONS:
+  --log10        Plot using log10 y-axis scale
+  --biplot       Generate side-by-side RAW and LOG10 plots
+  -h, --help     Show this help message
+
+FEATURES:
+  • Automatic non-overlapping statistic labels
+  • Semi-transparent white label backgrounds
+  • Mean, Median, Q1, Q3, Min, Max displayed
+  • Standard deviation and total N shown
+  • Works with STDIN or piped input
+  • Publication-ready output (300 DPI)
+
+EXAMPLES:
+  script.R plot.png < data.txt
+  script.R --log10 plot.png < data.txt
+  script.R --biplot plot.png < data.txt
+  cat data.txt | script.R --biplot result.png
+
+NOTES:
+  Log10 scale requires all values > 0.
+
+════════════════════════════════════════════════════════════════
+
+real	0m0.066s
+user	0m0.006s
+sys	0m0.001s
+Error in read.table(input_file, header = TRUE, sep = "\t") : 
+  no lines available in input
+Execution halted
+>Serinus_canaria
+Number of ERVs:
+86667
+87216
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	2m54.590s
+user	2m37.498s
+sys	0m35.970s
+`geom_smooth()` using formula = 'y ~ x'
+Warning messages:
+1: Removed 86667 rows containing missing values or values outside the scale range (`geom_point()`). 
+2: Removed 86667 rows containing missing values or values outside the scale range (`geom_point()`). 
+Success! Plot generated for: Serinus canaria
+>Struthio_camelus_australis
+Number of ERVs:
+0
+
+
+╔══════════════════════════════════════════════════════════════╗
+║                Distribution Plot CLI (R)                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+DESCRIPTION:
+  Generates violin + boxplot + jitter distribution plots
+  with statistical annotations.
+
+USAGE:
+  cat data.txt | script.R [OPTIONS] output.png
+  script.R [OPTIONS] output.png < data.txt
+
+OPTIONS:
+  --log10        Plot using log10 y-axis scale
+  --biplot       Generate side-by-side RAW and LOG10 plots
+  -h, --help     Show this help message
+
+FEATURES:
+  • Automatic non-overlapping statistic labels
+  • Semi-transparent white label backgrounds
+  • Mean, Median, Q1, Q3, Min, Max displayed
+  • Standard deviation and total N shown
+  • Works with STDIN or piped input
+  • Publication-ready output (300 DPI)
+
+EXAMPLES:
+  script.R plot.png < data.txt
+  script.R --log10 plot.png < data.txt
+  script.R --biplot plot.png < data.txt
+  cat data.txt | script.R --biplot result.png
+
+NOTES:
+  Log10 scale requires all values > 0.
+
+════════════════════════════════════════════════════════════════
+
+real	0m0.052s
+user	0m0.000s
+sys	0m0.006s
+Error in read.table(input_file, header = TRUE, sep = "\t") : 
+  no lines available in input
+Execution halted
+>Taeniopygia_guttata
+mkdir: cannot create directory ‘repeat_insertion_time_DNA_editing_association’: File exists
+Number of ERVs:
+78945
+78945
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	6m21.856s
+user	5m45.455s
+sys	1m20.731s
+`geom_smooth()` using formula = 'y ~ x'
+Warning messages:
+1: Removed 78945 rows containing missing values or values outside the scale range (`geom_point()`). 
+2: Removed 78945 rows containing missing values or values outside the scale range (`geom_point()`). 
+Success! Plot generated for: Taeniopygia guttata
+>Tinamus_guttatus
+Number of ERVs:
+5
+5
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m0.053s
+user	0m0.000s
+sys	0m0.005s
+Error in read.table(input_file, header = TRUE, sep = "\t") : 
+  no lines available in input
+Execution halted
+>Acanthisitta_chloris
+Number of ERVs:
+27132
+27132
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m3.375s
+user	0m2.765s
+sys	0m0.727s
+`geom_smooth()` using formula = 'y ~ x'
+Warning messages:
+1: Removed 27132 rows containing missing values or values outside the scale range (`geom_point()`). 
+2: Removed 27132 rows containing missing values or values outside the scale range (`geom_point()`). 
+Success! Plot generated for: Acanthisitta chloris
+>Anas_platyrhynchos
+Number of ERVs:
+24483
+24483
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m4.010s
+user	0m3.311s
+sys	0m0.710s
+`geom_smooth()` using formula = 'y ~ x'
+Warning messages:
+1: Removed 24483 rows containing missing values or values outside the scale range (`geom_point()`). 
+2: Removed 24483 rows containing missing values or values outside the scale range (`geom_point()`). 
+Success! Plot generated for: Anas platyrhynchos
+>Anser_cygnoides
+Number of ERVs:
+15344
+15344
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m10.020s
+user	0m8.712s
+sys	0m2.231s
+`geom_smooth()` using formula = 'y ~ x'
+Warning messages:
+1: Removed 15344 rows containing missing values or values outside the scale range (`geom_point()`). 
+2: Removed 15344 rows containing missing values or values outside the scale range (`geom_point()`). 
+Success! Plot generated for: Anser cygnoides
+>Apaloderma_vittatum
+Number of ERVs:
+9726
+9726
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m0.275s
+user	0m0.007s
+sys	0m0.007s
+Error in read.table(input_file, header = TRUE, sep = "\t") : 
+  no lines available in input
+Execution halted
+>Aptenodytes_forsteri
+Number of ERVs:
+34999
+34999
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m23.402s
+user	0m20.863s
+sys	0m5.186s
+`geom_smooth()` using formula = 'y ~ x'
+Warning messages:
+1: Removed 34999 rows containing missing values or values outside the scale range (`geom_point()`). 
+2: Removed 34999 rows containing missing values or values outside the scale range (`geom_point()`). 
+Success! Plot generated for: Aptenodytes forsteri
+>Chlamydotis_macqueenii
+Number of ERVs:
+18901
+18901
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m1.089s
+user	0m0.645s
+sys	0m0.200s
+`geom_smooth()` using formula = 'y ~ x'
+Warning messages:
+1: Removed 18901 rows containing missing values or values outside the scale range (`geom_point()`). 
+2: Removed 18901 rows containing missing values or values outside the scale range (`geom_point()`). 
+Success! Plot generated for: Chlamydotis macqueenii
+>Colius_striatus
+Number of ERVs:
+59121
+59160
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m1.578s
+user	0m0.877s
+sys	0m0.162s
+`geom_smooth()` using formula = 'y ~ x'
+Warning messages:
+1: Removed 59121 rows containing missing values or values outside the scale range (`geom_point()`). 
+2: Removed 59121 rows containing missing values or values outside the scale range (`geom_point()`). 
+Success! Plot generated for: Colius striatus
+>Corythaeola_cristata
+Number of ERVs:
+0
+38
+
+╔══════════════════════════════════════════════════════════════╗
+║                Distribution Plot CLI (R)                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+DESCRIPTION:
+  Generates violin + boxplot + jitter distribution plots
+  with statistical annotations.
+
+USAGE:
+  cat data.txt | script.R [OPTIONS] output.png
+  script.R [OPTIONS] output.png < data.txt
+
+OPTIONS:
+  --log10        Plot using log10 y-axis scale
+  --biplot       Generate side-by-side RAW and LOG10 plots
+  -h, --help     Show this help message
+
+FEATURES:
+  • Automatic non-overlapping statistic labels
+  • Semi-transparent white label backgrounds
+  • Mean, Median, Q1, Q3, Min, Max displayed
+  • Standard deviation and total N shown
+  • Works with STDIN or piped input
+  • Publication-ready output (300 DPI)
+
+EXAMPLES:
+  script.R plot.png < data.txt
+  script.R --log10 plot.png < data.txt
+  script.R --biplot plot.png < data.txt
+  cat data.txt | script.R --biplot result.png
+
+NOTES:
+  Log10 scale requires all values > 0.
+
+════════════════════════════════════════════════════════════════
+
+real	0m0.071s
+user	0m0.000s
+sys	0m0.006s
+Error in read.table(input_file, header = TRUE, sep = "\t") : 
+  no lines available in input
+Execution halted
+>Stachyris_ruficeps
+Number of ERVs:
+0
+11
+
+╔══════════════════════════════════════════════════════════════╗
+║                Distribution Plot CLI (R)                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+DESCRIPTION:
+  Generates violin + boxplot + jitter distribution plots
+  with statistical annotations.
+
+USAGE:
+  cat data.txt | script.R [OPTIONS] output.png
+  script.R [OPTIONS] output.png < data.txt
+
+OPTIONS:
+  --log10        Plot using log10 y-axis scale
+  --biplot       Generate side-by-side RAW and LOG10 plots
+  -h, --help     Show this help message
+
+FEATURES:
+  • Automatic non-overlapping statistic labels
+  • Semi-transparent white label backgrounds
+  • Mean, Median, Q1, Q3, Min, Max displayed
+  • Standard deviation and total N shown
+  • Works with STDIN or piped input
+  • Publication-ready output (300 DPI)
+
+EXAMPLES:
+  script.R plot.png < data.txt
+  script.R --log10 plot.png < data.txt
+  script.R --biplot plot.png < data.txt
+  cat data.txt | script.R --biplot result.png
+
+NOTES:
+  Log10 scale requires all values > 0.
+
+════════════════════════════════════════════════════════════════
+
+real	0m0.029s
+user	0m0.001s
+sys	0m0.005s
+Error in read.table(input_file, header = TRUE, sep = "\t") : 
+  no lines available in input
+Execution halted
+>Dromaius_novaehollandiae
+Number of ERVs:
+8674
+10034
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m0.781s
+user	0m0.007s
+sys	0m0.022s
+Error in read.table(input_file, header = TRUE, sep = "\t") : 
+  no lines available in input
+Execution halted
+>Eurypyga_helias
+Number of ERVs:
+26899
+26899
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m0.944s
+user	0m0.613s
+sys	0m0.192s
+`geom_smooth()` using formula = 'y ~ x'
+Warning messages:
+1: Removed 26899 rows containing missing values or values outside the scale range (`geom_point()`). 
+2: Removed 26899 rows containing missing values or values outside the scale range (`geom_point()`). 
+Success! Plot generated for: Eurypyga helias
+>Leptosomus_discolor
+Number of ERVs:
+13623
+13623
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m0.521s
+user	0m0.222s
+sys	0m0.070s
+`geom_smooth()` using formula = 'y ~ x'
+Warning messages:
+1: Removed 13623 rows containing missing values or values outside the scale range (`geom_point()`). 
+2: Removed 13623 rows containing missing values or values outside the scale range (`geom_point()`). 
+Success! Plot generated for: Leptosomus discolor
+>Malurus_cyaneus_samueli
+Number of ERVs:
+0
+14
+
+╔══════════════════════════════════════════════════════════════╗
+║                Distribution Plot CLI (R)                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+DESCRIPTION:
+  Generates violin + boxplot + jitter distribution plots
+  with statistical annotations.
+
+USAGE:
+  cat data.txt | script.R [OPTIONS] output.png
+  script.R [OPTIONS] output.png < data.txt
+
+OPTIONS:
+  --log10        Plot using log10 y-axis scale
+  --biplot       Generate side-by-side RAW and LOG10 plots
+  -h, --help     Show this help message
+
+FEATURES:
+  • Automatic non-overlapping statistic labels
+  • Semi-transparent white label backgrounds
+  • Mean, Median, Q1, Q3, Min, Max displayed
+  • Standard deviation and total N shown
+  • Works with STDIN or piped input
+  • Publication-ready output (300 DPI)
+
+EXAMPLES:
+  script.R plot.png < data.txt
+  script.R --log10 plot.png < data.txt
+  script.R --biplot plot.png < data.txt
+  cat data.txt | script.R --biplot result.png
+
+NOTES:
+  Log10 scale requires all values > 0.
+
+════════════════════════════════════════════════════════════════
+
+real	0m0.007s
+user	0m0.000s
+sys	0m0.006s
+Error in read.table(input_file, header = TRUE, sep = "\t") : 
+  no lines available in input
+Execution halted
+>Manacus_vitellinus
+Number of ERVs:
+16821
+16821
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m0.321s
+user	0m0.011s
+sys	0m0.004s
+Error in read.table(input_file, header = TRUE, sep = "\t") : 
+  no lines available in input
+Execution halted
+>Melopsittacus_undulatus
+Number of ERVs:
+43475
+43475
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m24.658s
+user	0m21.872s
+sys	0m5.068s
+`geom_smooth()` using formula = 'y ~ x'
+Warning messages:
+1: Removed 43475 rows containing missing values or values outside the scale range (`geom_point()`). 
+2: Removed 43475 rows containing missing values or values outside the scale range (`geom_point()`). 
+Success! Plot generated for: Melopsittacus undulatus
+>Merops_nubicus
+Number of ERVs:
+12531
+12531
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m0.297s
+user	0m0.000s
+sys	0m0.013s
+Error in read.table(input_file, header = TRUE, sep = "\t") : 
+  no lines available in input
+Execution halted
+>Mesitornis_unicolor
+Number of ERVs:
+11804
+11804
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m0.293s
+user	0m0.005s
+sys	0m0.009s
+Error in read.table(input_file, header = TRUE, sep = "\t") : 
+  no lines available in input
+Execution halted
+>Nestor_notabilis
+Number of ERVs:
+25422
+25422
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+real	0m0.501s
+user	0m0.212s
+sys	0m0.076s
+`geom_smooth()` using formula = 'y ~ x'
+Warning messages:
+1: Removed 25422 rows containing missing values or values outside the scale range (`geom_point()`). 
+2: Removed 25422 rows containing missing values or values outside the scale range (`geom_point()`). 
+Success! Plot generated for: Nestor notabilis
+>Passer_domesticus
+Number of ERVs:
+44188
+44450
+Success: Plot saved to repeat_insertion_time_DNA_editing_association/divergence_distribution_erv_repeatmasker.out.png
+
+
+
