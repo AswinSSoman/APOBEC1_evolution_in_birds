@@ -69,7 +69,7 @@ echo -e "\n Total time taken:" && echo $elapsed_time | awk '{print"-days:",$NF/6
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Estimate gene loss timing based on Meredith formula
 
-#Using tree without branch labels 
+#Using tree without branch labels
 time for sp in $(cat ../all_lost)
 do
 gr=$(grep $sp ~/bird_db1/aswin/taxonomy/orders_all_birds | awk '{print$2}')
@@ -82,7 +82,7 @@ done | sed '1i Group Species Functional_branch Mixed_branch_length 1dS_F1X4_Wm 1
 time for sp in $(cat ../all_lost)
 do
 gr=$(grep $sp ~/bird_db1/aswin/taxonomy/orders_all_birds | awk '{print$2}')
-	~/bird_db1/aswin/APOBEC1/Dating/scripts/calculate_gene_inactivation.sh $sp -f F1X4_apobec1_final_align_NT_hyphy_labelled_converted_to_paml_branch_labels_removed.nwk/paml_out F3X4_apobec1_final_align_NT_hyphy_labelled_converted_to_paml_branch_labels_removed.nwk/paml_out -wp=1 
+	~/bird_db1/aswin/APOBEC1/Dating/scripts/calculate_gene_inactivation.sh $sp -f F1X4_apobec1_final_align_NT_hyphy_labelled_converted_to_paml_branch_labels_removed.nwk/paml_out F3X4_apobec1_final_align_NT_hyphy_labelled_converted_to_paml_branch_labels_removed.nwk/paml_out -wp=1
 	F1X4_apobec1_final_align_NT_hyphy_labelled_converted_to_paml.nwk/apobec1_final_align_NT_hyphy_labelled_converted_to_paml.nwk -s | grep -v Mixed_branch_length | sed "s/^/$gr\t/g"
 unset gr
 done | sed '1i Group Species Functional_branch Mixed_branch_length 1dS_F1X4_Wm 1dS_F1X4_Wf 1dS_F1X4_Wp 1dS_F1X4_Tp 1dS_F3X4_Wm 1dS_F3X4_Wf 1dS_F3X4_Wp 1dS_F3X4_Tp 1dS_Mean_Tp 2dS_F1X4_Tp 2dS_F3X4_Tp 2dS_Mean_Tp' > branch_labels_removed_all_gene_loss_dates.tsv
@@ -147,12 +147,12 @@ echo -e "\n Total time taken:" && echo $elapsed_time | awk '{print"-days:",$NF/6
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Estimate gene loss timing based on Meredith formula
 
-#Using tree without branch labels 
+#Using tree without branch labels
 cd ~/bird_db1/aswin/APOBEC1/Dating/paml/paleoL1_mixL2_intL2_unrooted
 time for sp in $(cat ../all_lost)
 do
 gr=$(grep $sp ~/bird_db1/aswin/taxonomy/orders_all_birds | awk '{print$2}')
-	~/bird_db1/aswin/APOBEC1/Dating/scripts/calculate_gene_inactivation.sh $sp -f F1X4_apobec1_final_align_NT_unroot_palaeognathe_as_label1_intact_as_label3_mi_as_label2_converted_to_paml.nwk/paml_out F3X4_apobec1_final_align_NT_unroot_palaeognathe_as_label1_intact_as_label3_mi_as_label2_converted_to_paml.nwk/paml_out -wp=1 
+	~/bird_db1/aswin/APOBEC1/Dating/scripts/calculate_gene_inactivation.sh $sp -f F1X4_apobec1_final_align_NT_unroot_palaeognathe_as_label1_intact_as_label3_mi_as_label2_converted_to_paml.nwk/paml_out F3X4_apobec1_final_align_NT_unroot_palaeognathe_as_label1_intact_as_label3_mi_as_label2_converted_to_paml.nwk/paml_out -wp=1
 	F3X4_apobec1_final_align_NT_unroot_palaeognathe_as_label1_intact_as_label3_mi_as_label2_converted_to_paml.nwk/apobec1_final_align_NT_unroot_palaeognathe_as_label1_intact_as_label3_mi_as_label2_converted_to_paml.nwk -s | grep -v Mixed_branch_length | sed "s/^/$gr\t/g"
 unset gr
 done | sed '1i Group Species Functional_branch Mixed_branch_length 1dS_F1X4_Wm 1dS_F1X4_Wf 1dS_F1X4_Wp 1dS_F1X4_Tp 1dS_F3X4_Wm 1dS_F3X4_Wf 1dS_F3X4_Wp 1dS_F3X4_Tp 1dS_Mean_Tp 2dS_F1X4_Tp 2dS_F3X4_Tp 2dS_Mean_Tp' > all_gene_loss_dates.tsv
@@ -161,7 +161,7 @@ done | sed '1i Group Species Functional_branch Mixed_branch_length 1dS_F1X4_Wm 1
 time for sp in $(cat ../all_lost)
 do
 gr=$(grep $sp ~/bird_db1/aswin/taxonomy/orders_all_birds | awk '{print$2}')
-	~/bird_db1/aswin/APOBEC1/Dating/scripts/calculate_gene_inactivation.sh $sp -f F1X4_apobec1_final_align_NT_hyphy_labelled_converted_to_paml_branch_labels_removed.nwk/paml_out F3X4_apobec1_final_align_NT_hyphy_labelled_converted_to_paml_branch_labels_removed.nwk/paml_out -wp=1 
+	~/bird_db1/aswin/APOBEC1/Dating/scripts/calculate_gene_inactivation.sh $sp -f F1X4_apobec1_final_align_NT_hyphy_labelled_converted_to_paml_branch_labels_removed.nwk/paml_out F3X4_apobec1_final_align_NT_hyphy_labelled_converted_to_paml_branch_labels_removed.nwk/paml_out -wp=1
 	F1X4_apobec1_final_align_NT_hyphy_labelled_converted_to_paml_branch_labels_removed.nwk/apobec1_final_align_NT_hyphy_labelled_converted_to_paml_branch_labels_removed.nwk -s | grep -v Mixed_branch_length | sed "s/^/$gr\t/g"
 unset gr
 done | sed '1i Group Species Functional_branch Mixed_branch_length 1dS_F1X4_Wm 1dS_F1X4_Wf 1dS_F1X4_Wp 1dS_F1X4_Tp 1dS_F3X4_Wm 1dS_F3X4_Wf 1dS_F3X4_Wp 1dS_F3X4_Tp 1dS_Mean_Tp 2dS_F1X4_Tp 2dS_F3X4_Tp 2dS_Mean_Tp' > branch_labels_removed_all_gene_loss_dates.tsv
@@ -313,12 +313,16 @@ echo -e "\n Total time taken:" && echo $elapsed_time | awk '{print"-days:",$NF/6
 
 #Summary
 cd ~/bird_db1/aswin/APOBEC1/Dating/paml/two_events
-~/bird_db1/aswin/APOBEC1/Dating/scripts/calculate_gene_inactivation.sh Gallus_gallus Alectura_lathami \
+time while read species
+do
+~/bird_db1/aswin/APOBEC1/Dating/scripts/calculate_gene_inactivation.sh $species Alectura_lathami \
  F1X4_apobec1_final_align_NT_unroot_galliformes_as_label1_intact_as_label3_mi_as_label2_converted_to_paml_branch_labels_removed.nwk/paml_out \
  F3X4_apobec1_final_align_NT_unroot_galliformes_as_label1_intact_as_label3_mi_as_label2_converted_to_paml_branch_labels_removed.nwk/paml_out \
  -wp=1,1 -wm=2 -wf=3 \
  F1X4_apobec1_final_align_NT_unroot_galliformes_as_label1_intact_as_label3_mi_as_label2_converted_to_paml_branch_labels_removed.nwk/apobec1_final_align_NT_unroot_galliformes_as_label1_intact_as_label3_mi_as_label2_converted_to_paml_branch_labels_removed.nwk \
- apobec1_final_align_NT_unroot_galliformes_as_label1_intact_as_label3_mi_as_label2_converted_to_paml.nwk -s 
+ apobec1_final_align_NT_unroot_galliformes_as_label1_intact_as_label3_mi_as_label2_converted_to_paml.nwk -s | grep -v "Functional_branch"
+done < ~/bird_db1/aswin/APOBEC1/Dating/paml/lost_galliformes \
+ | sed '1i Species Functional_branch Mixed_branch_length 1dS_F1X4_Wm 1dS_F1X4_Wf 1dS_F1X4_Wp 1dS_F1X4_Tp 1dS_F3X4_Wm 1dS_F3X4_Wf 1dS_F3X4_Wp 1dS_F3X4_Tp 1dS_Mean_Tp 2dS_F1X4_Tp 2dS_F3X4_Tp 2dS_Mean_Tp' | sed 's/[ \t]\+/\t/g' > all_galliformes_gene_loss_dates.tsv
 
 ################################################################################################################################################################################################################################################################################################
 #DRAFT
@@ -340,6 +344,3 @@ done
 cd ~/bird_db1/aswin/APOBEC1/Dating/paml
 cat <(cat lost_palaeognathae | awk '{print$1,"palaeognathae"}') <(cat lost_galliformes | awk '{print$1,"galliformes"}') <(cat lost_independent | awk '{print$1,"independent"}') > all_lost_groups
 #Manually create the expected timin of loss in each groups & sort them based on time
-
-
-
