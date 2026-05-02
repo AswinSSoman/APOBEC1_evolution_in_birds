@@ -71,7 +71,7 @@ awk 'FNR==NR {key[$1 FS $2 FS $3 FS $4 FS $5 FS $6] = $7
 #Plot
 Rscript /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/plot_repeat_divergence_editing_count.R repeat_insertion_time_DNA_editing_association/all_erv_per_div_GA_edit_count.out repeat_insertion_time_DNA_editing_association/all_erv_per_div_GA_edit_count.png "$species"
 
-unset o ga ct ganum ctnum rmsk bestpairs r r1 
+unset o ga ct ganum ctnum rmsk bestpairs r r1
 done < all_bird_genomes_used
 
 ################################################################################################################################################################################################################################################################################################################
@@ -87,6 +87,120 @@ cp /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposo
 cp /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/"$species"/knisbacher/repeat_insertion_time_DNA_editing_association/all_erv_per_div_GA_edit_count.png /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/repeat_insertion_time_DNA_editing_association/"$species"_all_erv_per_div_GA_edit_count.png
 done < all_bird_genomes_used
 
+################################################################################################################################################################################################################################################################################################################
+
+cd /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons
+
+#Use human mutation rates:
+average mutation rate:  2.5 x 10(-8)
+
+while read species
+do
+echo ">"$species
+cd /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/"$species"/knisbacher/repeat_insertion_time_DNA_editing_association/
+awk 'BEGIN{OFS="\t"; r=0.5e-9} {print $0, $7/(2*r)}' all_erv_per_div_GA_edit_count.out | awk 'BEGIN{OFS="\t"} NR==1{$9="Time"} {print}' > all_erv_per_div_GA_edit_count_human_time.out
+awk 'BEGIN{OFS="\t"; r=0.5e-9} {print $0, ($7/100)/(2*r)/1e6}' all_erv_per_div_GA_edit_count.out | awk 'BEGIN{OFS="\t"} NR==1{$9="Time"} {print}' > time2
+awk 'BEGIN{OFS="\t"; r=2.5e-8} {print $0, ($7/100)/(2*r)/1e6}' all_erv_per_div_GA_edit_count.out | awk 'BEGIN{OFS="\t"} NR==1{$9="Time"} {print}' > time3
+awk 'BEGIN{OFS="\t"; r=2.2e-9} {print $0, ($7/100)/(2*r)/1e6}' all_erv_per_div_GA_edit_count.out | awk 'BEGIN{OFS="\t"} NR==1{$9="Time"} {print}' > time4
+awk 'BEGIN{OFS="\t"; r=0.5e-9} {print $0, ($7/100)/(r)/1e6}' all_erv_per_div_GA_edit_count.out | awk 'BEGIN{OFS="\t"} NR==1{$9="Time"} {print}' > time5
+Rscript plot.R time5 time5.png Gallus_gallus
+done < all_bird_genomes_used
 
 
+################################################################################################################################################################################################################################################################################################################
 
+apobec_blast_consensus_report_v3_source_analysis_plots="/media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/knisbacher_blast_filter_visualize/apobec_blast_consensus_report_v3_source_analysis_plots/apobec_blast_consensus_report_v3_source_analysis_plots.py"
+
+subfam="GGLTR7A"
+consensus_seq=$(find /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/RepBase/Libraries/perSeq/ -name "$subfam.fa" -type f)
+blast=$(find /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/Gallus_gallus/knisbacher/Data/Galgal/LTR/results/unzipped_blasts/ -name "*$subfam*" -type f)
+mkdir /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/Gallus_gallus/knisbacher/Data/Galgal/LTR/results/knisbacher_blast_filter_visualize
+cd /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/Gallus_gallus/knisbacher/Data/Galgal/LTR/results/knisbacher_blast_filter_visualize
+
+time python3 $apobec_blast_consensus_report_v3_source_analysis_plots \
+  --consensus $consensus_seq \
+  --blast $blast \
+  --out-html "$subfam"_APOBEC_source_analysis_plots.html \
+  --out-prefix "$subfam"_source_analysis_plots \
+  --mismatch GA \
+  --include-controls \
+  --cluster-mode consecutive \
+  --min-cluster-sites 5 \
+  --min-clustered-sites-per-alignment 5 \
+  --consensus-map-method kmer \
+  --max-alignment-panels 40 \
+  --include-failed-alignment-panels \
+  --max-matrix-sites 80 \
+  --max-matrix-copies 80 \
+  --max-distance-copies 40
+  
+################################################################################################################################################################################################################################################################################################################
+#Script folder & usage for html report of knisbacher DNA editing detetction of ERVs by blast alignments & their QC & analysis by Nagarjun sir
+
+cd /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/knisbacher_blast_filter_visualize
+ls  | xargs -n1 sh -c 'echo ">Script folder"; tree -hD $0 | sed "s/^/   /g" ; cat $0/readme | sed "s/^/   /g"' | sed 's/.*directories.*/   Usage:/g'
+
+>Script folder
+   apobec_blast_consensus_report_v3
+   ├── [ 84K May  2 10:20]  apobec_blast_consensus_report_v3.py
+   ├── [1.0M May  2 10:20]  GGLTR10D_APOBEC_report_v3.html
+   ├── [ 358 May  2 10:20]  GGLTR10D.fa
+   └── [ 417 May  2 11:30]  readme
+
+   Usage:
+   python apobec_blast_consensus_report_v3.py \
+     --consensus GGLTR10D.fa \
+     --blast Seq_GGLTR10D \
+     --out-html GGLTR10D_APOBEC_report_v3.html \
+     --out-prefix GGLTR10D_v3 \
+     --mismatch GA \
+     --include-controls \
+     --cluster-mode consecutive \
+     --min-cluster-sites 5 \
+     --min-clustered-sites-per-alignment 10 \
+     --include-failed-alignment-panels \
+     --max-alignment-panels 30 \
+     --max-failed-alignment-panels 20
+>Script folder
+   apobec_blast_consensus_report_v3_source_analysis
+   ├── [103K May  2 11:13]  apobec_blast_consensus_report_v3_source_analysis.py
+   ├── [1.6M May  2 11:13]  GGLTR10D_APOBEC_source_analysis.html
+   └── [ 450 May  2 11:29]  readme
+
+   Usage:
+   python3 -S apobec_blast_consensus_report_v3_source_analysis.py \
+     --consensus GGLTR10D.fa \
+     --blast Seq_GGLTR10D \
+     --out-html GGLTR10D_APOBEC_source_analysis.html \
+     --out-prefix GGLTR10D_source_analysis \
+     --mismatch GA \
+     --include-controls \
+     --cluster-mode consecutive \
+     --min-cluster-sites 5 \
+     --min-clustered-sites-per-alignment 5 \
+     --consensus-map-method kmer \
+     --max-alignment-panels 40 \
+     --include-failed-alignment-panels
+>Script folder
+   apobec_blast_consensus_report_v3_source_analysis_plots
+   ├── [143K May  2 11:27]  apobec_blast_consensus_report_v3_source_analysis_plots.py
+   ├── [1.9M May  2 11:27]  GGLTR10D_APOBEC_source_analysis_plots.html
+   └── [ 547 May  2 11:28]  readme
+
+   Usage:
+   python3 apobec_blast_consensus_report_v3_source_analysis_plots.py \
+     --consensus GGLTR10D.fa \
+     --blast Seq_GGLTR10D \
+     --out-html GGLTR10D_APOBEC_source_analysis_plots.html \
+     --out-prefix GGLTR10D_source_analysis_plots \
+     --mismatch GA \
+     --include-controls \
+     --cluster-mode consecutive \
+     --min-cluster-sites 5 \
+     --min-clustered-sites-per-alignment 5 \
+     --consensus-map-method kmer \
+     --max-alignment-panels 40 \
+     --include-failed-alignment-panels \
+     --max-matrix-sites 80 \
+     --max-matrix-copies 80 \
+     --max-distance-copies 40
