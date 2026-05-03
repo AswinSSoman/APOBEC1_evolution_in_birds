@@ -75,6 +75,7 @@ unset o ga ct ganum ctnum rmsk bestpairs r r1
 done < all_bird_genomes_used
 
 ################################################################################################################################################################################################################################################################################################################
+#Collect plots in folder
 
 mkdir /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/repeat_insertion_time_DNA_editing_association
 
@@ -88,6 +89,7 @@ cp /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposo
 done < all_bird_genomes_used
 
 ################################################################################################################################################################################################################################################################################################################
+#Add time in plot
 
 cd /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons
 
@@ -109,14 +111,47 @@ done < all_bird_genomes_used
 
 ################################################################################################################################################################################################################################################################################################################
 
+#Python scripts
+apobec_blast_consensus_report_v3="/media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/knisbacher_blast_filter_visualize/apobec_blast_consensus_report_v3/apobec_blast_consensus_report_v3.py"
 apobec_blast_consensus_report_v3_source_analysis_plots="/media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/knisbacher_blast_filter_visualize/apobec_blast_consensus_report_v3_source_analysis_plots/apobec_blast_consensus_report_v3_source_analysis_plots.py"
 
-subfam="GGLTR7A"
-consensus_seq=$(find /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/RepBase/Libraries/perSeq/ -name "$subfam.fa" -type f)
-blast=$(find /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/Gallus_gallus/knisbacher/Data/Galgal/LTR/results/unzipped_blasts/ -name "*$subfam*" -type f)
-mkdir /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/Gallus_gallus/knisbacher/Data/Galgal/LTR/results/knisbacher_blast_filter_visualize
-cd /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/Gallus_gallus/knisbacher/Data/Galgal/LTR/results/knisbacher_blast_filter_visualize
+#Set species
+species="Gallus_gallus"
+o=$(echo $species | awk -F "_" '{print substr($1,1,3)""substr($2,1,3)}')
 
+#Create folder
+mkdir /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/"$species"/knisbacher/Data/"$o"/LTR/results/knisbacher_blast_filter_visualize
+
+#Check edit sites from knisbacher pipeline
+cat /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/"$species"/knisbacher/Data/"$o"/LTR/results/Total_edit_sites/GA_TotalEditSites_*_LTR_fam_1e-0.txt | column -t
+find /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/"$species"/knisbacher/Data/"$o"/LTR/results/ -maxdepth 5 -mindepth 5 -path "*/Tracks/*/GA/pairwise_filter*" -name "bestPairsClusters_*.tab" | xargs -n1 sh -c 'cat $0' | awk '{print$1,$2,$3,$4,$5,$6,$8,$9,$10,$13,$15,$16,$17,$18}' | column -t
+
+subfam="GGLTR10D"
+consensus_seq=$(find /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/RepBase/Libraries/perSeq/ -name "$subfam.fa" -type f)
+blast=$(find /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/"$species"/knisbacher/Data/"$o"/LTR/results/unzipped_blasts/ -name "*$subfam*" -type f)
+cd /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/"$species"/knisbacher/Data/"$o"/LTR/results/knisbacher_blast_filter_visualize
+
+#Run simple report
+cd /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/"$species"/knisbacher/Data/"$o"/LTR/results/knisbacher_blast_filter_visualize
+mkdir DNA_edit_report_"$subfam"/apobec_blast_consensus_report_v3/
+cd DNA_edit_report_"$subfam"/apobec_blast_consensus_report_v3/
+time python $apobec_blast_consensus_report_v3 \
+  --consensus $consensus_seq \
+  --blast $blast \
+  --out-html "$subfam"_APOBEC_report_v3.html \
+  --out-prefix "$subfam"_v3 \
+  --mismatch GA \
+  --include-controls \
+  --cluster-mode consecutive \
+  --min-cluster-sites 5 \
+  --min-clustered-sites-per-alignment 10 \
+  --include-failed-alignment-panels \
+  --max-alignment-panels 30 \
+  --max-failed-alignment-panels 20
+
+#Run report including source analysis
+mkdir -p DNA_edit_report_"$subfam"/apobec_blast_consensus_report_v3_source_analysis_plots/
+cd DNA_edit_report_"$subfam"/apobec_blast_consensus_report_v3_source_analysis_plots/
 time python3 $apobec_blast_consensus_report_v3_source_analysis_plots \
   --consensus $consensus_seq \
   --blast $blast \
@@ -133,7 +168,8 @@ time python3 $apobec_blast_consensus_report_v3_source_analysis_plots \
   --max-matrix-sites 80 \
   --max-matrix-copies 80 \
   --max-distance-copies 40
-  
+
+
 ################################################################################################################################################################################################################################################################################################################
 #Script folder & usage for html report of knisbacher DNA editing detetction of ERVs by blast alignments & their QC & analysis by Nagarjun sir
 
