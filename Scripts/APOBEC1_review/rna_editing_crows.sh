@@ -255,9 +255,9 @@ echo ">"$p
 #Exclude invariant positions as well as positions not supported by ≥10 WGS reads
 time awk 'FS="\t" {if ($8!="-" && $10>=10 && $13=="-") print}' $p > $p"_filtered.out"
 #selecting sites with at least five RNAseq reads and a single mismatch:
-time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 5 -v 1 -f 0.0 -o $p"_filtered.sel1"
+#time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 5 -v 1 -f 0.0 -o $p"_filtered.sel1"
 #selecting sites with ≥10 RNAseq reads, three mismatches and minimum editing frequency of 0.1:
-time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 10 -v 3 -f 0.1 -o $p"_filtered.sel2"
+#time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 10 -v 3 -f 0.1 -o $p"_filtered.sel2"
 unset p
 done
 
@@ -290,56 +290,215 @@ Rscript /media/aswin/gene_loss/APOBEC1/RNA_editing/plot_tissue_count.R summary_s
 #Apply different filters & plot
 
 #Apply 2 types of filters:
-cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus
-time for i in $(cat rna_ids)
-do
-p=$(find editing/ -name "outTable_*" | grep "$i" | grep -v "filtered")
-echo ">"$p
-#selecting sites with at least 5 RNAseq & DNA reads and a atleast 5 supporting bases in RNA & DNA & minimum frequence 0.1 & 0.95 for RNA & DNA, & exclude multiple sub in RNA, invariant sites in RNA, only poistions supported by DNA:
-#time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 5 -C 5 -v 5 -v 5 -f 0.1 -F 0.95 -e -r -u -o $p"_filtered_set1.out"
-#time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 5 -C 5 -v 5 -v 5 -f 0.1 -F 0.95 -o $p"_filtered_cov5_sup5_freq.out"
-time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -f 0.0 $p"_filtered_freq0.out"
-time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -f 0.1 $p"_filtered_freq1.out"
-time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 5 -C 5 $p"_filtered_cov5.out"
-time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 10 -C 10 $p"_filtered_cov10.out"
-time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 15 -C 15 -o $p"_filtered_cov15.out"
-time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -v 5 -V 5 -o $p"_filtered_sup5.out"
-time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -v 10 -V 10 -o $p"_filtered_sup10.out"
-time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -v 15 -V 15 -o $p"_filtered_sup15.out"
-time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 15 -C 15 -v 15 -V 15 -f 0.1 -o $p"_filtered_cov15_sup15_freq1_both.out"
-time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 15 -v 15 -f 0.1 -o $p"_filtered_cov15_sup15_freq1_rna.out"
-
-time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -e -r -u -o $p"_filtered_all_excl.out"
-time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -e -o $p"_filtered_e.out"
-time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -r -o $p"_filtered_r.out"
-time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -u -o $p"_filtered_u.out"
-#time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 5 -C 5 -e -r -u -o $p"_filtered_cov5_all_excl.out"
-#time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -v 5 -V 5 -e -r -u -o $p"_filtered_sup5_all_excl.out"
-
-#time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 15 -C15 -o $p"_filtered_.out"
-#selecting sites with at least 15 RNAseq & DNA reads and a atleast 15 supporting bases in RNA & DNA & minimum frequence 0.1 & 0.95 for RNA & DNA, & exclude multiple sub in RNA, invariant sites in RNA, only poistions supported by DNA:
-#time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 15 -C 15 -v 5 -v 5 -f 0.1 -F 0.95 -e -r -u -o $p"_filtered_set2.out"
-unset p
-done
-
-find . -name "outTable_*_filtered.out" -type f | xargs wc -l && find . -name "outTable_*_filtered.out" -type f | xargs -n1 sh -c 'wc -l $0' | awk '{print$1}' | ministat -n
-find . -name "outTable_*_filtered.sel1" -type f | xargs wc -l && find . -name "outTable_*_filtered.sel1" -type f | xargs -n1 sh -c 'wc -l $0' | awk '{print$1}' | ministat -n
-find . -name "outTable_*_filtered.sel2" -type f | xargs wc -l && find . -name "outTable_*_filtered.sel2" -type f | xargs -n1 sh -c 'wc -l $0' | awk '{print$1}' | ministat -n
-
-find . -name "outTable_*_filtered_cov.out" -type f | xargs wc -l && find . -name "outTable_*_filtered_cov.out" -type f | xargs -n1 sh -c 'wc -l $0' | awk '{print$1}' | ministat -n
-find . -name "outTable_*_filtered_ex.out" -type f | xargs wc -l && find . -name "outTable_*_filtered_ex.out" -type f | xargs -n1 sh -c 'wc -l $0' | awk '{print$1}' | ministat -n
-find . -name "outTable_*_filtered_test_cov_ex.out" -type f | xargs wc -l && find . -name "outTable_*_filtered_test_cov_ex.out" -type f | xargs -n1 sh -c 'wc -l $0' | awk '{print$1}' | ministat -n
-
 
 #nohup bash -c 'time ./filter_sets.sh' &> filter_sets.stdout &
+#find editing/ -name "outTable_*_filtered*" -type f | grep -v "_filtered.out" | xargs rm
 
-#Count substitutions
+#Try different parameters (9m49.070s)
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus
+time while read i
+do
+    p=$(find editing/ -name "outTable_*" | grep "$i" | grep -v "filtered")
+    echo ">$p"
+    infile="${p}_filtered.out"
+    # ---- Frequency variations ----
+    for f in 0.0 0.1
+    do
+        python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py \
+            -i "$infile" -f $f \
+            -o "${p}_filtered_freq${f/./}.out"
+    done
+    # ---- Coverage variations ----
+    for cov in 5 10 15
+    do
+        python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py \
+            -i "$infile" -c $cov -C $cov \
+            -o "${p}_filtered_cov${cov}.out"
+    done
+    # ---- Support variations ----
+    for sup in 5 10 15
+    do
+        python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py \
+            -i "$infile" -v $sup -V $sup \
+            -o "${p}_filtered_sup${sup}.out"
+    done
+    # ---- Combined conditions ----
+    python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py \
+        -i "$infile" -c 15 -C 15 -v 15 -V 15 -f 0.1 -F 0.95 -e -r \
+        -o "${p}_filtered_cov15_sup15_freq01_e_r_both.out"
+    python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py \
+        -i "$infile" -c 15 -C 15 -v 15 -V 15 -f 0.1 -F 0.95 \
+        -o "${p}_filtered_cov15_sup15_freq01_both.out"
+    python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py \
+        -i "$infile" -c 15 -v 15 -f 0.1 \
+        -o "${p}_filtered_cov15_sup15_freq01_rna.out"
+    # ---- Flags ----
+    python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py \
+        -i "$infile" -e -r -u \
+        -o "${p}_filtered_all_excl.out"
+    for flag in e r u
+    do
+        python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py \
+            -i "$infile" -$flag \
+            -o "${p}_filtered_${flag}.out"
+    done
+done < <(grep -f <(ls -d editing/*/ | cut -f1 -d "_" | cut -f2 -d "/") rna_ids)
+
+#Summary of parameters used
+echo -e "sample\tcov\tsup\tfreq\tflags\tlines" > editing/parameter_summary.tsv
+find editing/ -name "*_filtered*.out" | while read f
+do
+    # ---- sample name ----
+    sample=$(basename "$f" | cut -d "_" -f2)
+    # ---- defaults ----
+    cov="NA"
+    sup="NA"
+    freq="NA"
+    flags="none"
+    name=$(basename "$f")
+    # ---- extract coverage ----
+    if [[ $name =~ cov([0-9]+) ]]; then
+        cov="${BASH_REMATCH[1]}"
+    fi
+    # ---- extract support ----
+    if [[ $name =~ sup([0-9]+) ]]; then
+        sup="${BASH_REMATCH[1]}"
+    fi
+    # ---- extract frequency ----
+    if [[ $name =~ freq([0-9]+) ]]; then
+        freq="0.${BASH_REMATCH[1]}"
+    fi
+    if [[ $name =~ freq([0-9]+) ]]; then
+    freq="${BASH_REMATCH[1]}"
+    freq="${freq:0:-1}.${freq: -1}"
+    fi
+    # ---- extract flags ----
+    if [[ $name =~ all_excl ]]; then
+        flags="e,r,u"
+    else
+        tmp=""
+        [[ $name =~ _e\.out ]] && tmp+="e,"
+        [[ $name =~ _r\.out ]] && tmp+="r,"
+        [[ $name =~ _u\.out ]] && tmp+="u,"
+        [[ $name =~ _e_r_both\.out ]] && tmp+="e,r"
+        flags=${tmp%,}
+        [[ -z "$flags" ]] && flags="none"
+    fi
+    # ---- count lines (excluding header if needed) ----
+    lines=$(wc -l < "$f")
+    echo -e "$sample\t$cov\t$sup\t$freq\t$flags\t$lines"
+done >> editing/parameter_summary.tsv
+
 cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing
-time for i in $(find . -name "*_filtered_set1.out")
+mkdir plot_parameter_effects
+Rscript plot_parameter_summary.R parameter_summary.tsv plot_parameter_effects/plot_parameter
+Rscript plot_parameter_simple.R parameter_summary.tsv plot_parameter_effects/plot_parameter_simple.pdf
+
+#Count substitutions (1m8.090s)
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing
+time find . -name "*_filtered*.out" -print0 | while IFS= read -r -d '' file
+do
+    base="${file%.out}"
+    echo "Processing: $file"
+    # ---- Read-level substitution counts ----
+    python2.7 /media/aswin/programs/REDItools/accessory/subCount.py "$file" \
+        | sort -k1,1 \
+        | awk 'BEGIN{print "Substitution\tRead_count\tTotal_reads\tPercentage"}1' \
+        > "${base}_all_subs_readcount.out"
+    # ---- Site-level substitution counts ----
+    python2.7 /media/aswin/programs/REDItools/accessory/subCount2.py "$file" \
+        | sort -k1,1 \
+        | awk 'BEGIN{print "Substitution\tSite_count\tTotal_sites\tPercentage"}1' \
+        > "${base}_all_subs_sitecount.out"
+    # ---- Join both tables safely ----
+    join -1 1 -2 1 "${base}_all_subs_readcount.out" "${base}_all_subs_sitecount.out" > "${base}_all_subs_count.out"
+done
+
+#Final table
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing
+echo -e "SRR_ID\tTissue\tcov\tsup\tfreq\tflags\tSubstitution\tRead_count\tTotal_reads\tPct_Read\tSite_count\tTotal_sites\tPct_Site" > all_parameters_summary_substitutions.tsv
+find . -name "*_filtered*_all_subs_count.out" -print0 | \
+while IFS= read -r -d '' file
+do
+    base=$(basename "$file")
+    # ---- extract SRR/sample ID ----
+    srr=$(echo $file | cut -f2 -d "/" | cut -f1 -d "_")
+    # ---- extract parameters from filename ----
+    cov=$(echo "$base"  | grep -o 'cov[0-9]\+' | sed 's/cov//' )
+    sup=$(echo "$base"  | grep -o 'sup[0-9]\+' | sed 's/sup//' )
+    freq=$(echo "$base" | grep -o 'freq[0-9\.]\+' | sed 's/freq//' | sed 's/0/0\./1')
+    # flags
+    flags="none"
+    [[ "$base" == *all_excl* ]] && flags="e,r,u"
+    [[ "$base" == *_e_* ]] && flags="e"
+    [[ "$base" == *_r_* ]] && flags="r"
+    [[ "$base" == *_u_* ]] && flags="u"
+    [[ "$base" == *_e_r_* ]] && flags="e,r"
+    # set NA if empty
+    cov=${cov:-NA}
+    sup=${sup:-NA}
+    freq=${freq:-NA}
+    # ---- metadata lookup (Tissue etc.) ----
+    tissue=$(awk -F "\t" -v r="$srr" '$1==r {print$32,$36,$42,$45}' OFS="\t" /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/ncbi_SRP022901.tsv | tr " " "_" | tr "\t" "\n" | grep -v "^-$" | sort -u)
+    # ---- process substitution table ----
+    tail -n +2 "$file" | while read -r sub rc tr pr sc ts ps
+    do
+        echo -e "${srr}\t${tissue}\t${cov}\t${sup}\t${freq}\t${flags}\t${sub}\t${rc}\t${tr}\t${pr}\t${sc}\t${ts}\t${ps}"
+    done
+    unset base srr cov sup freq flags tissue
+done >> all_parameters_summary_substitutions.tsv
+
+awk 'BEGIN{FS=OFS="\t"} NR==1 {print; next}
+{if($6=="u") $6="only_positions_supported_by_DNA"
+    else if($6=="e") $6="exclude_multiple_subs_in_RNA"
+    else if($6=="r") $6="exclude_invariant_sites_in_RNA"
+    else if($6=="e,r,u") $6="exclude_multiple_subs_in_RNA,exclude_invariant_sites_in_RNA,only_positions_supported_by_DNA"
+    print}' all_parameters_summary_substitutions.tsv > all_parameters_summary_substitutions_edited.tsv
+
+Rscript /media/aswin/gene_loss/APOBEC1/RNA_editing/plot_read_site_count.R summary_substitutions.tsv plot_read_site_count.pdf
+
+Rscript plot_dual_axis.R all_parameters_summary_substitutions.tsv plot_SRR_dual.pdf 15 15 1 none
+Rscript plot_dual_canonical.R all_parameters_summary_substitutions.tsv plot_dual_canonical.pdf 15 15 1 none
+Rscript plot_dual_canonical_col.R all_parameters_summary_substitutions.tsv plot_dual_canonical_col.pdf 15 15 1 none
+Rscript plot_dual_Y.R all_parameters_summary_substitutions.tsv plot_dual_Y.pdf 15 15 1 none
+
+Rscript plot_gemini.R all_parameters_summary_substitutions.tsv plot_gemini.pdf 15 15 1 none
+Rscript gemini3.R all_parameters_summary_substitutions.tsv gemini3.pdf
+Rscript gemini4.R all_parameters_summary_substitutions.tsv gemini4.pdf
+Rscript gemini5.R all_parameters_summary_substitutions.tsv gemini5.pdf
+Rscript gemini6.R all_parameters_summary_substitutions.tsv gemini6.pdf
+#7 is good
+Rscript gemini7.R all_parameters_summary_substitutions.tsv gemini7.pdf
+Rscript gemini8.R all_parameters_summary_substitutions.tsv gemini8.pdf
+
+#10 is good
+Rscript gemini10.R all_parameters_summary_substitutions.tsv gemini10.pdf
+Rscript gemini11.R all_parameters_summary_substitutions.tsv gemini11.pdf
+
+awk '!a[$3]++' all_parameters_summary_substitutions.tsv | awk '{print$3}' | paste -s -d " "
+awk '!a[$4]++' all_parameters_summary_substitutions.tsv | awk '{print$4}' | paste -s -d " "
+awk '!a[$5]++' all_parameters_summary_substitutions.tsv | awk '{print$5}' | paste -s -d " "
+awk '!a[$6]++' all_parameters_summary_substitutions.tsv | awk '{print$6}' | paste -s -d " "
+flags none u e,r,u r e
+
+
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing
+for i in $(find . -name "*_filtered_*_all_subs_count.out")
 do
 p=$(echo $i | sed 's/\.out//g')
-python2.7 /media/aswin/programs/REDItools/accessory/subCount.py "$i" | sed '1i Substitution Read_count Total_reads Percentage' > "$p"_all_subs_readcount.out
-python2.7 /media/aswin/programs/REDItools/accessory/subCount2.py "$i" | sed '1i Substitution Site_count Total_sites Percentage' > "$p"_all_subs_sitecount.out
-join -1 1 -2 1 "$p"_all_subs_readcount.out "$p"_all_subs_sitecount.out | sed 's/[ ]\+/\t/g' > "$p"_all_subs_count.out
-unset p
-done
+r=$(echo $i | cut -f2 -d "/" | cut -f1 -d "_")
+p1=$(awk -F "\t" -v r="$r" '$1==r {print$32,$36,$42,$45}' OFS="\t" /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/ncbi_SRP022901.tsv | tr " " "_" | tr "\t" "\n" | grep -v "^-$" | sort -u)
+params=$()
+tail -n +2 "$p".out | sort -k 2nr | sed "s/^/$r $p1 $params /g"
+unset p r p1 folder
+done | sed '1i SRR_ID\tTissue\tcov\tsup\tfreq\tflags\tSubstitution\tRead_count\tTotal_reads\t%_Read\tSite_count\tTotal_sites\t%_Site' | sed 's/[ ]\+/\t/g' > all_parameters_summary_substitutions.tsv
+
+
+add more ticks to Y axis, And instead of short form write full forms of parameters:
+
+cov=Coverage
+sup=Bases supporting variation
+freq=Frequency of variation
+e=Exclude multiple substitutions in RNA-Seq
+r=Exclude invariant sites in RNA-Seq
+u=Use only positions supported by DNA-Seq
