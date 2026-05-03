@@ -5,7 +5,7 @@
 
 #Identify birds with DNA & RNA fastq taken from same individuals or samples
 
-#COllect all SRA of birds used in the study
+#Collect all SRA of birds used in the study
 mkdir /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/sra_metadata
 cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/sra_metadata
 scp neo@172.28.65.224:/home/neo/bird_db1/aswin/APOBEC1/main_figures/loss_events/list_of_species_to_keep_upupa_epops_removed .
@@ -112,7 +112,7 @@ mkdir fastp
 time for i in $(cat rna_ids dna_ids)
 do
 echo ">" $i
-time fastp -i "$i"_1.fastq -I "$i"_2.fastq -o fastp/out_"$i"_1.fastq -O fastp/out_"$i"_2.fastq -q 25 -u 10 -l 50 -y -x -w 32 -h fastp/fastp_"$i".html -j fastp/fastp_"$i".json 
+time fastp -i "$i"_1.fastq -I "$i"_2.fastq -o fastp/out_"$i"_1.fastq -O fastp/out_"$i"_2.fastq -q 25 -u 10 -l 50 -y -x -w 32 -h fastp/fastp_"$i".html -j fastp/fastp_"$i".json
 done
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -210,15 +210,15 @@ python2.7 /media/aswin/programs/REDItools/accessory/subCount.py "$i" | sed '1i S
 python2.7 /media/aswin/programs/REDItools/accessory/subCount2.py "$i" | sed '1i Substitution Site_count Total_sites Percentage' > "$p"_all_subs_sitecount.out
 join -1 1 -2 1 "$p"_all_subs_readcount.out "$p"_all_subs_sitecount.out | sed 's/[ ]\+/\t/g' > "$p"_all_subs_count.out
 unset p
-done 
+done
 
-cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/editing	
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/editing
 for i in $(find . -name "*_filtered.out")
 do
 p=$(echo $i | sed 's/\.out//g')
 r=$(echo $i | cut -f2 -d "/" | cut -f1 -d "_")
 p1=$(awk -F "," -v r="$r" '$1==r {print$1,$NF}' OFS="\t" /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/ncbi_SRP459583_metadata.csv | tr " " "_")
-tail -n +2 "$p"_all_subs_count.out | sort -k 2nr | sed "s/^/$p1 /g" 
+tail -n +2 "$p"_all_subs_count.out | sort -k 2nr | sed "s/^/$p1 /g"
 unset p r p1
 done | sed '1i SRR_ID\tTissue\tSubstitution\tRead_count\tTotal_reads\t%_Read\tSite_count\tTotal_sites\t%_Site' | sed 's/[ ]\+/\t/g' > summary_substitutions.tsv
 sed 's/the_large_intestine/large_intestine/g' summary_substitutions.tsv -i
@@ -240,19 +240,10 @@ Rscript plot_tissue_count.R summary_substitutions.tsv plot_tissue_count.pdf
 #time samtools index SRR28369623_Aligned.sortedByCoord.out.bam					#0m28.911s
 #time samtools index SRR28002323_SRR30595317_merged_sorted.bam					#14m45.851s
 
-time python3.10 -m reditools analyze SRR28369623_Aligned.sortedByCoord.out.bam -r GCA_041920315.1_ASM4192031v1_genomic.fna -o rna_reditools3_SRR28369623.out -t 64 -l 1 -s 2 -C -e -q 30 
+time python3.10 -m reditools analyze SRR28369623_Aligned.sortedByCoord.out.bam -r GCA_041920315.1_ASM4192031v1_genomic.fna -o rna_reditools3_SRR28369623.out -t 64 -l 1 -s 2 -C -e -q 30
 time python3.10 -m reditools analyze SRR28002323_SRR30595317_merged_sorted.bam -r GCA_041920315.1_ASM4192031v1_genomic.fna -o dna_reditools3_SRR28369623.out -N -t 64 -l 1 -s 2 -C -e -q 255
 
 #65m39.031s
-time python3.10 -m reditools analyze SRR28369623_Aligned.sortedByCoord.out.bam -r GCA_041920315.1_ASM4192031v1_genomic.fna -o rna_reditools3_SRR28369623.out -t 64 -s 2 -C -q 30 
+time python3.10 -m reditools analyze SRR28369623_Aligned.sortedByCoord.out.bam -r GCA_041920315.1_ASM4192031v1_genomic.fna -o rna_reditools3_SRR28369623.out -t 64 -s 2 -C -q 30
 #0m0.468s
-time python3.10 -m reditools analyze SRR28002323_SRR30595317_merged_sorted.bam -r GCA_041920315.1_ASM4192031v1_genomic.fna -o dna_reditools3_SRR28369623.out -N -t 64 -s 2 -C -q 255 
-
-
-
-
-
-
-
-
-
+time python3.10 -m reditools analyze SRR28002323_SRR30595317_merged_sorted.bam -r GCA_041920315.1_ASM4192031v1_genomic.fna -o dna_reditools3_SRR28369623.out -N -t 64 -s 2 -C -q 255

@@ -336,6 +336,91 @@ do
 done < ~/bird_db1/aswin/APOBEC1/Dating/paml/lost_galliformes \
  | sed '1i Species Functional_branch Mixed_branch_length 1dS_F1X4_Wm 1dS_F1X4_Wf 1dS_F1X4_Wp 1dS_F1X4_Tp 1dS_F3X4_Wm 1dS_F3X4_Wf 1dS_F3X4_Wp 1dS_F3X4_Tp 1dS_Mean_Tp 2dS_F1X4_Tp 2dS_F3X4_Tp 2dS_Mean_Tp' | sed 's/[ \t]\+/\t/g' > all_galliformes_gene_loss_dates.tsv
 
+
+
+
+ ################################################################################################################################################################################################################################################################################################
+ #Label whole tree: Loss as #1, Mix as #2 & intact as 3
+
+ mkdir -p /media/aswin/gene_loss/APOBEC1/Dating/paml/lossL1_mixL2_intL3
+ cd /media/aswin/gene_loss/APOBEC1/Dating/paml/lossL1_mixL2_intL3
+
+ #Get alignment
+ cp /media/aswin/gene_loss/APOBEC1/Dating/paml/mixL1_psL2_intU_rooted/apobec1_final_align_NT.aln.phy .
+
+cp /media/aswin/gene_loss/APOBEC1/Dating/tree/readd/lost_* .
+
+ #Label trees
+ /media/aswin/programs/hyphy-2.5.70/hyphy /media/aswin/programs/hyphy-analyses/LabelTrees/label-tree.bf --tree /media/aswin/gene_loss/APOBEC1/Dating/tree/readd/apobec1_final_align_NT_unroot.nwk \
+  --label ps \
+  --list /media/aswin/gene_loss/APOBEC1/Dating/tree/readd/lost_galliformes_Meleagris_gallopavo_removed \
+  --output apobec1_final_align_NT_unroot_galliformes_as_label1.nwk
+
+/media/aswin/programs/hyphy-2.5.70/hyphy /media/aswin/programs/hyphy-analyses/LabelTrees/label-tree.bf --tree apobec1_final_align_NT_unroot_galliformes_as_label1.nwk \
+ --label ps \
+ --list /media/aswin/gene_loss/APOBEC1/Dating/tree/readd/lost_palaeognathae \
+ --output apobec1_final_align_NT_unroot_galliformes_as_label2.nwk
+
+ /media/aswin/programs/hyphy-2.5.70/hyphy /media/aswin/programs/hyphy-analyses/LabelTrees/label-tree.bf --tree apobec1_final_align_NT_unroot_galliformes_as_label2.nwk \
+  --label fu \
+  --list /media/aswin/gene_loss/APOBEC1/Dating/tree/readd/intact_apobec1_filtered \
+  --output lossL1_mixL2_intL3.nwk
+
+ #Manually edit tree to make 2 separate events for galliformes loss: change Penelope to mixed, branch leading to other galliformes as well as mixed
+ nano lossL1_mixL2_intL3_hyphy.nwk
+ sed 's/{mi}/ #2/g' lossL1_mixL2_intL3_hyphy.nwk | sed 's/{ps}/ #1/g' | sed 's/{fu}/ #3/g' > lossL1_mixL2_intL3_hyphy_converted_to_paml.nwk
+ awk -iinplace '{while(match($0, /[0-9]+(\.[0-9]+)?[eE][-+]?[0-9]+/)) {val = substr($0, RSTART, RLENGTH)
+   $0 = substr($0,1,RSTART-1) sprintf("%.10f", val) substr($0,RSTART+RLENGTH)
+ } print}' lossL1_mixL2_intL3_hyphy_converted_to_paml.nwk
+ sed -e 's/Node[0-9]\+//g' -e 's/:[0-9.]\+//g' lossL1_mixL2_intL3_hyphy_converted_to_paml.nwk > lossL1_mixL2_intL3_hyphy_converted_to_paml_branch_labels_removed.nwk
+
+ #Set variables
+ base=/media/aswin/gene_loss/APOBEC1/Dating/paml/lossL1_mixL2_intL3
+ tree1=/media/aswin/gene_loss/APOBEC1/Dating/paml/lossL1_mixL2_intL3/lossL1_mixL2_intL3_hyphy_converted_to_paml_branch_labels_removed.nwk
+ codeml=/media/aswin/programs/paml-4.10.10-linux-x86_64/bin/codeml
+ ctl=/media/aswin/gene_loss/APOBEC1/Dating/paml/mixL1_psL2_intU_rooted/F3x4.ctl
+ aln_path=/media/aswin/gene_loss/APOBEC1/Dating/paml/mixL1_psL2_intU_rooted/apobec1_final_align_NT.aln.phy
+ aln=$(echo $aln_path | awk -F "/" '{print$NF}')
+
+cd $base
+for i in F1X4 F3X4
+do
+for j in $tree1
+do
+n=$(echo $j | awk -F "/" '{print$NF}')
+mkdir $i"_"$n && cd "$i"_"$n"
+if [[ "$i" == "F1X4" ]]
+then
+sed -e "s/seqfile =.*/seqfile = $aln/g" -e "s/treefile =.*/treefile = $n/g" -e "s/outfile =.*/outfile = paml_out/g" -e "s/CodonFreq =.*/CodonFreq = 1/g" $ctl > control.ctl
+elif [[ "$i" == "F3X4" ]]
+then
+sed -e "s/seqfile =.*/seqfile = $aln/g" -e "s/treefile =.*/treefile = $n/g" -e "s/outfile =.*/outfile = paml_out/g" -e "s/CodonFreq =.*/CodonFreq = 2/g" $ctl > control.ctl
+else :
+fi
+cp "$aln_path" "$j" .
+#$codeml control.ctl > run.stdout
+cd $base
+done
+done
+
+#Run codeml (37.65)
+start_time=$(date +%s)
+for i in F1X4 F3X4
+do
+  for j in $tree1
+  do
+    n=$(basename "$j")
+    (
+      cd "${i}_${n}" || exit
+      "$codeml" control.ctl &> run.stdout
+    ) &
+  done
+done
+wait
+end_time=$(date +%s) && elapsed_time=$((end_time - start_time))
+echo -e "\n Total time taken:" && echo $elapsed_time | awk '{print"-days:",$NF/60/60/24,"\n","-hours:",$NF/60/60,"\n","-mins:",$NF/60,"\n","-secs:",$1}' | column -t | sed 's/^/   /g' && echo -e
+
+
 ################################################################################################################################################################################################################################################################################################
 #DRAFT
 
