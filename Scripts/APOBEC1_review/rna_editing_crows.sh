@@ -297,16 +297,39 @@ p=$(find editing/ -name "outTable_*" | grep "$i" | grep -v "filtered")
 echo ">"$p
 #selecting sites with at least 5 RNAseq & DNA reads and a atleast 5 supporting bases in RNA & DNA & minimum frequence 0.1 & 0.95 for RNA & DNA, & exclude multiple sub in RNA, invariant sites in RNA, only poistions supported by DNA:
 #time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 5 -C 5 -v 5 -v 5 -f 0.1 -F 0.95 -e -r -u -o $p"_filtered_set1.out"
-time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 5 -C 5 -v 5 -v 5 -f 0.1 -F 0.95 -o $p"_filtered_cov.out"
-time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -e -r -u -o $p"_filtered_ex.out"
-time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -C 15 -C 15 -e -r -u -o $p"_filtered_test_cov_ex.out"
+#time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 5 -C 5 -v 5 -v 5 -f 0.1 -F 0.95 -o $p"_filtered_cov5_sup5_freq.out"
+time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -f 0.0 $p"_filtered_freq0.out"
+time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -f 0.1 $p"_filtered_freq1.out"
+time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 5 -C 5 $p"_filtered_cov5.out"
+time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 10 -C 10 $p"_filtered_cov10.out"
+time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 15 -C 15 -o $p"_filtered_cov15.out"
+time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -v 5 -V 5 -o $p"_filtered_sup5.out"
+time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -v 10 -V 10 -o $p"_filtered_sup10.out"
+time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -v 15 -V 15 -o $p"_filtered_sup15.out"
+time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 15 -C 15 -v 15 -V 15 -f 0.1 -o $p"_filtered_cov15_sup15_freq1_both.out"
+time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 15 -v 15 -f 0.1 -o $p"_filtered_cov15_sup15_freq1_rna.out"
+
+time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -e -r -u -o $p"_filtered_all_excl.out"
+time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -e -o $p"_filtered_e.out"
+time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -r -o $p"_filtered_r.out"
+time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -u -o $p"_filtered_u.out"
+#time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 5 -C 5 -e -r -u -o $p"_filtered_cov5_all_excl.out"
+#time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -v 5 -V 5 -e -r -u -o $p"_filtered_sup5_all_excl.out"
+
+#time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 15 -C15 -o $p"_filtered_.out"
 #selecting sites with at least 15 RNAseq & DNA reads and a atleast 15 supporting bases in RNA & DNA & minimum frequence 0.1 & 0.95 for RNA & DNA, & exclude multiple sub in RNA, invariant sites in RNA, only poistions supported by DNA:
 #time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 15 -C 15 -v 5 -v 5 -f 0.1 -F 0.95 -e -r -u -o $p"_filtered_set2.out"
 unset p
 done
 
-find . -name "outTable_*_filtered_set1.out" -type f | xargs wc -l | less
-find . -name "*all_subs_count.out" -type f | xargs wc -l | less
+find . -name "outTable_*_filtered.out" -type f | xargs wc -l && find . -name "outTable_*_filtered.out" -type f | xargs -n1 sh -c 'wc -l $0' | awk '{print$1}' | ministat -n
+find . -name "outTable_*_filtered.sel1" -type f | xargs wc -l && find . -name "outTable_*_filtered.sel1" -type f | xargs -n1 sh -c 'wc -l $0' | awk '{print$1}' | ministat -n
+find . -name "outTable_*_filtered.sel2" -type f | xargs wc -l && find . -name "outTable_*_filtered.sel2" -type f | xargs -n1 sh -c 'wc -l $0' | awk '{print$1}' | ministat -n
+
+find . -name "outTable_*_filtered_cov.out" -type f | xargs wc -l && find . -name "outTable_*_filtered_cov.out" -type f | xargs -n1 sh -c 'wc -l $0' | awk '{print$1}' | ministat -n
+find . -name "outTable_*_filtered_ex.out" -type f | xargs wc -l && find . -name "outTable_*_filtered_ex.out" -type f | xargs -n1 sh -c 'wc -l $0' | awk '{print$1}' | ministat -n
+find . -name "outTable_*_filtered_test_cov_ex.out" -type f | xargs wc -l && find . -name "outTable_*_filtered_test_cov_ex.out" -type f | xargs -n1 sh -c 'wc -l $0' | awk '{print$1}' | ministat -n
+
 
 #nohup bash -c 'time ./filter_sets.sh' &> filter_sets.stdout &
 
