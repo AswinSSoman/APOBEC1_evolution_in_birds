@@ -296,11 +296,17 @@ do
 p=$(find editing/ -name "outTable_*" | grep "$i" | grep -v "filtered")
 echo ">"$p
 #selecting sites with at least 5 RNAseq & DNA reads and a atleast 5 supporting bases in RNA & DNA & minimum frequence 0.1 & 0.95 for RNA & DNA, & exclude multiple sub in RNA, invariant sites in RNA, only poistions supported by DNA:
-time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 5 -C 5 -v 5 -v 5 -f 0.1 -F 0.95 -e -r -u -o $p"_filtered_set1.out"
+#time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 5 -C 5 -v 5 -v 5 -f 0.1 -F 0.95 -e -r -u -o $p"_filtered_set1.out"
+time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 5 -C 5 -v 5 -v 5 -f 0.1 -F 0.95 -o $p"_filtered_cov.out"
+time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -e -r -u -o $p"_filtered_ex.out"
+time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -C 15 -C 15 -e -r -u -o $p"_filtered_test_cov_ex.out"
 #selecting sites with at least 15 RNAseq & DNA reads and a atleast 15 supporting bases in RNA & DNA & minimum frequence 0.1 & 0.95 for RNA & DNA, & exclude multiple sub in RNA, invariant sites in RNA, only poistions supported by DNA:
-time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 15 -C 15 -v 5 -v 5 -f 0.1 -F 0.95 -e -r -u -o $p"_filtered_set2.out"
+#time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 15 -C 15 -v 5 -v 5 -f 0.1 -F 0.95 -e -r -u -o $p"_filtered_set2.out"
 unset p
 done
+
+find . -name "outTable_*_filtered_set1.out" -type f | xargs wc -l | less
+find . -name "*all_subs_count.out" -type f | xargs wc -l | less
 
 #nohup bash -c 'time ./filter_sets.sh' &> filter_sets.stdout &
 
