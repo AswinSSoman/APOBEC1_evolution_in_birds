@@ -250,7 +250,7 @@ sys	218m59.726s
 cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus
 time for i in $(cat rna_ids)
 do
-p=$(find editing/ -name "outTable_*" | grep "$i")
+p=$(find editing/ -name "outTable_*" | grep "$i" | grep -v "filtered")
 echo ">"$p
 #Exclude invariant positions as well as positions not supported by ≥10 WGS reads
 time awk 'FS="\t" {if ($8!="-" && $10>=10 && $13=="-") print}' $p > $p"_filtered.out"
@@ -285,3 +285,32 @@ done | sed '1i SRR_ID\tTissue\tSubstitution\tRead_count\tTotal_reads\t%_Read\tSi
 #Plot
 Rscript /media/aswin/gene_loss/APOBEC1/RNA_editing/plot_read_site_count.R summary_substitutions.tsv plot_read_site_count.pdf
 Rscript /media/aswin/gene_loss/APOBEC1/RNA_editing/plot_tissue_count.R summary_substitutions.tsv plot_tissue_count.pdf
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Apply different filters & plot
+
+#Apply 2 types of filters:
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus
+time for i in $(cat rna_ids)
+do
+p=$(find editing/ -name "outTable_*" | grep "$i" | grep -v "filtered")
+echo ">"$p
+#selecting sites with at least 5 RNAseq & DNA reads and a atleast 5 supporting bases in RNA & DNA & minimum frequence 0.1 & 0.95 for RNA & DNA, & exclude multiple sub in RNA, invariant sites in RNA, only poistions supported by DNA:
+time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 5 -C 5 -v 5 -v 5 -f 0.1 -F 0.95 -e -r -u -o $p"_filtered_set1.out"
+#selecting sites with at least 15 RNAseq & DNA reads and a atleast 15 supporting bases in RNA & DNA & minimum frequence 0.1 & 0.95 for RNA & DNA, & exclude multiple sub in RNA, invariant sites in RNA, only poistions supported by DNA:
+time python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i $p"_filtered.out" -c 15 -C 15 -v 5 -v 5 -f 0.1 -F 0.95 -e -r -u -o $p"_filtered_set2.out"
+unset p
+done
+
+#nohup bash -c 'time ./filter_sets.sh' &> filter_sets.stdout &
+
+#Count substitutions
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing
+time for i in $(find . -name "*_filtered_set1.out")
+do
+p=$(echo $i | sed 's/\.out//g')
+python2.7 /media/aswin/programs/REDItools/accessory/subCount.py "$i" | sed '1i Substitution Read_count Total_reads Percentage' > "$p"_all_subs_readcount.out
+python2.7 /media/aswin/programs/REDItools/accessory/subCount2.py "$i" | sed '1i Substitution Site_count Total_sites Percentage' > "$p"_all_subs_sitecount.out
+join -1 1 -2 1 "$p"_all_subs_readcount.out "$p"_all_subs_sitecount.out | sed 's/[ ]\+/\t/g' > "$p"_all_subs_count.out
+unset p
+done
