@@ -329,9 +329,9 @@ do
     python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py \
         -i "$infile" -c 15 -C 15 -v 15 -V 15 -f 0.1 -F 0.95 \
         -o "${p}_filtered_cov15_sup15_freq01_both.out"
-    python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py \
-        -i "$infile" -c 15 -v 15 -f 0.1 \
-        -o "${p}_filtered_cov15_sup15_freq01_rna.out"
+    #python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py \
+    #    -i "$infile" -c 15 -v 15 -f 0.1 \
+    #    -o "${p}_filtered_cov15_sup15_freq01_rna.out"
     # ---- Flags ----
     python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py \
         -i "$infile" -e -r -u \
