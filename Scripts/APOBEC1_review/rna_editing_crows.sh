@@ -448,6 +448,9 @@ do
     unset base srr cov sup freq flags tissue
 done >> all_parameters_summary_substitutions.tsv
 
+#Make sure counts are fine
+awk '{print$3,$4,$5,$6}' all_parameters_summary_substitutions.tsv | sort | uniq -c
+
 awk 'BEGIN{FS=OFS="\t"} NR==1 {print; next}
 {if($6=="u") $6="only_positions_supported_by_DNA"
     else if($6=="e") $6="exclude_multiple_subs_in_RNA"

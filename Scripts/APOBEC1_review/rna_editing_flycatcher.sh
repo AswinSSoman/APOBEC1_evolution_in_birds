@@ -42,7 +42,7 @@ time for i in $(ls ERR*.fastq.gz); do echo ">"$i; time gzip -d $i; done
 mkdir /media/aswin/gene_loss/APOBEC1/RNA_editing/Ficedula_albicollis/genome
 cd /media/aswin/gene_loss/APOBEC1/RNA_editing/Ficedula_albicollis/genome
 datasets download genome accession GCF_000247815.1 --include genome,gtf,seq-report --dehydrated
-unzip ncbi_dataset.zip -d GCF_000247815.1 
+unzip ncbi_dataset.zip -d GCF_000247815.1
 time datasets rehydrate --directory GCF_000247815.1
 mv GCF_000247815.1/ncbi_dataset/data/GCF_000247815.1/GCF_000247815.1_FicAlb1.5_genomic.fna .
 mv GCF_000247815.1/ncbi_dataset/data/GCF_000247815.1/genomic.gtf GCF_000247815.1_FicAlb1.5_genomic.gtf
@@ -77,13 +77,13 @@ mkdir fastp
 time for i in $(cat rna_ids)
 do
 echo ">" $i
-time fastp -i "$i"_1.fastq -I "$i"_2.fastq -o fastp/out_"$i"_1.fastq -O fastp/out_"$i"_2.fastq -q 25 -u 10 -l 50 -y -x -w 32 -h fastp/fastp_"$i".html -j fastp/fastp_"$i".json 
+time fastp -i "$i"_1.fastq -I "$i"_2.fastq -o fastp/out_"$i"_1.fastq -O fastp/out_"$i"_2.fastq -q 25 -u 10 -l 50 -y -x -w 32 -h fastp/fastp_"$i".html -j fastp/fastp_"$i".json
 done
 #DNA (37m50.847s)
 time for i in $(cat dna_ids)
 do
 echo ">" $i
-time fastp -i "$i"_1.fastq -I "$i"_2.fastq -o fastp/out_"$i"_1.fastq -O fastp/out_"$i"_2.fastq -w 32 -h fastp/fastp_"$i".html -j fastp/fastp_"$i".json 
+time fastp -i "$i"_1.fastq -I "$i"_2.fastq -o fastp/out_"$i"_1.fastq -O fastp/out_"$i"_2.fastq -w 32 -h fastp/fastp_"$i".html -j fastp/fastp_"$i".json
 done
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -193,7 +193,7 @@ python2.7 /media/aswin/programs/REDItools/accessory/subCount.py "$i" | sed '1i S
 python2.7 /media/aswin/programs/REDItools/accessory/subCount2.py "$i" | sed '1i Substitution Site_count Total_sites Percentage' > "$p"_all_subs_sitecount.out
 join -1 1 -2 1 "$p"_all_subs_readcount.out "$p"_all_subs_sitecount.out | sed 's/[ ]\+/\t/g' > "$p"_all_subs_count.out
 unset p
-done 
+done
 
 cd /media/aswin/gene_loss/APOBEC1/RNA_editing/Ficedula_albicollis/editing
 for i in $(find . -name "*_filtered.out")
@@ -201,7 +201,7 @@ do
 p=$(echo $i | sed 's/\.out//g')
 r=$(echo $i | cut -f2 -d "/" | cut -f1 -d "_")
 p1=$(awk -F "\t" -v r="$r" '$1==r {print$1,$24}' OFS="\t" /media/aswin/gene_loss/APOBEC1/RNA_editing/Ficedula_albicollis/ncbi_ERP001377.tsv | tr " " "_" | cut -f3- -d "_" | cut -f1 -d "-")
-tail -n +2 "$p"_all_subs_count.out | sort -k 2nr | sed "s/^/$r $p1 /g" 
+tail -n +2 "$p"_all_subs_count.out | sort -k 2nr | sed "s/^/$r $p1 /g"
 unset p r p1
 done | sed '1i SRR_ID\tTissue\tSubstitution\tRead_count\tTotal_reads\t%_Read\tSite_count\tTotal_sites\t%_Site' | sed 's/[ ]\+/\t/g' > summary_substitutions.tsv
 
@@ -227,5 +227,3 @@ time for i in $(cat dna_ids | egrep "ERR117158|ERR117153"); do echo ">"$i; fastq
 
 cd /media/aswin/gene_loss/APOBEC1/RNA_editing/Ficedula_albicollis
 sed '/ERR117157/d' dna_ids -i
-
-
