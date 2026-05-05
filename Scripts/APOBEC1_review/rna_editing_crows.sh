@@ -146,10 +146,10 @@ rm SRR*.sam SRR*.bam
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Identify editing sites
 
-#Using reditools 1 ()
+#Using reditools 1
 mkdir /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing
 
-#Run REDitools 1 ()
+#Run REDitools 1 (25244m55.598s)
 cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus
 time for b in $(ls rna/SRR*.bam)
 do
@@ -157,91 +157,6 @@ p=$(echo $b | cut -f2 -d "/" | cut -f1 -d "_")
 echo ">"$b ":" $p
 time python2.7 /media/aswin/programs/REDItools/NPscripts/REDItoolDnaRnav13.py -i $b -j dna/dna_merged_sorted.bam -o editing/"$p"_editing -f genome/GCF_000738735.6_ASM73873v6_genomic.fna -t32 -c1,1 -m30,255 -v1 -q30,30 -v1 -e -n0.0 -N0.0 -u -l -p -s2 -g2 -S &> editing/"$p"_run_std.out
 done
-
->rna/SRR1928171_Aligned.sortedByCoord.out.bam : SRR1928171:	1307m59.402s
->rna/SRR1947394_Aligned.sortedByCoord.out.bam : SRR1947394: 1314m33.407s
->rna/SRR1928171_Aligned.sortedByCoord.out.bam : SRR1928171
-
-real	1307m59.402s
-user	9766m54.213s
-sys	202m17.356s
->rna/SRR1947394_Aligned.sortedByCoord.out.bam : SRR1947394
-
-real	1314m33.407s
-user	10101m21.971s
-sys	203m21.174s
->rna/SRR1947395_Aligned.sortedByCoord.out.bam : SRR1947395
-
-real	1309m56.155s
-user	10076m12.324s
-sys	190m29.724s
->rna/SRR1947415_Aligned.sortedByCoord.out.bam : SRR1947415
-
-real	1300m3.106s
-user	9828m47.071s
-sys	201m27.010s
->rna/SRR1947451_Aligned.sortedByCoord.out.bam : SRR1947451
-
-real	1358m56.587s
-user	10250m28.351s
-sys	226m26.040s
->rna/SRR1947455_Aligned.sortedByCoord.out.bam : SRR1947455
-
-real	1320m53.045s
-user	9929m56.876s
-sys	207m52.027s
->rna/SRR1947472_Aligned.sortedByCoord.out.bam : SRR1947472
-
-real	1311m50.936s
-user	9783m56.726s
-sys	200m19.436s
->rna/SRR1947473_Aligned.sortedByCoord.out.bam : SRR1947473
-
-real	1345m53.141s
-user	10150m40.825s
-sys	211m19.822s
->rna/SRR1947474_Aligned.sortedByCoord.out.bam : SRR1947474
-
-real	1309m23.126s
-user	9829m49.010s
-sys	192m37.107s
->rna/SRR1947475_Aligned.sortedByCoord.out.bam : SRR1947475
-
-real	1311m8.463s
-user	9878m40.584s
-sys	202m2.987s
->rna/SRR1947476_Aligned.sortedByCoord.out.bam : SRR1947476
-
-real	1332m16.089s
-user	10029m10.087s
-sys	222m59.410s
->rna/SRR1947477_Aligned.sortedByCoord.out.bam : SRR1947477
-
-real	1304m14.251s
-user	9977m36.874s
-sys	188m0.950s
->rna/SRR1947478_Aligned.sortedByCoord.out.bam : SRR1947478
-
-real	1310m50.035s
-user	9824m57.000s
-sys	181m7.196s
->rna/SRR1947479_Aligned.sortedByCoord.out.bam : SRR1947479
-
-real	1370m51.184s
-user	10015m25.176s
-sys	206m49.470s
->rna/SRR1947480_Aligned.sortedByCoord.out.bam : SRR1947480
-
-real	1348m2.134s
-user	10201m18.883s
-sys	214m20.943s
->rna/SRR2107327_Aligned.sortedByCoord.out.bam : SRR2107327
-
-real	1313m9.695s
-user	9978m38.667s
-sys	218m59.726s
->rna/SRR2107373_Aligned.sortedByCoord.out.bam : SRR2107373
-
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Filtering:
@@ -496,12 +411,64 @@ tail -n +2 "$p".out | sort -k 2nr | sed "s/^/$r $p1 $params /g"
 unset p r p1 folder
 done | sed '1i SRR_ID\tTissue\tcov\tsup\tfreq\tflags\tSubstitution\tRead_count\tTotal_reads\t%_Read\tSite_count\tTotal_sites\t%_Site' | sed 's/[ ]\+/\t/g' > all_parameters_summary_substitutions.tsv
 
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#prepare splice sites annotations for REDItools
 
-add more ticks to Y axis, And instead of short form write full forms of parameters:
+#wget https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_46/gencode.v46.annotation.gtf.gz
+#gunzip gencode.v46.annotation.gtf.gz
+#perl /media/aswin/programs/GMAP-GSNAP/util/gtf_splicesites.pl gencode.v46.annotation.gtf > ss
+#awk -F" " '{split($2,a,":"); split(a[2],b,"."); if (b[1]>b[3]) print a[1],b[3],b[1],toupper(substr($3,1,1)),"-"; else print a[1],b[1],b[3],toupper(substr($3,1,1)),"+"}' ss > gencode.v46.ss.txt
 
-cov=Coverage
-sup=Bases supporting variation
-freq=Frequency of variation
-e=Exclude multiple substitutions in RNA-Seq
-r=Exclude invariant sites in RNA-Seq
-u=Use only positions supported by DNA-Seq
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/genome
+perl /media/aswin/programs/GMAP-GSNAP/util/gtf_splicesites.pl GCF_000738735.6_ASM73873v6_genomic.gtf > splice_sites
+awk -F" " '{split($2,a,":"); split(a[2],b,"."); if (b[1]>b[3]) print a[1],b[3],b[1],toupper(substr($3,1,1)),"-"; else print a[1],b[1],b[3],toupper(substr($3,1,1)),"+"}' splice_sites | awk '{print$1,"GCF_000738735.6",$4,$2,$3,".",$5,".","gene_id \"NA\"; transcript_id \"NA\";"}' OFS="\t" > reditools_splice_sites.txt
+sort -k1,1 -k4,4n reditools_splice_sites.txt > reditools_splice_sites.sorted.txt
+bgzip reditools_splice_sites.sorted.txt
+tabix -p gff reditools_splice_sites.sorted.txt.gz
+splice=$(readlink -f reditools_splice_sites.sorted.txt.gz)
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#prepare RepeatMasker annotations for REDItools
+
+#cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/repeatmasker
+#awk 'OFS="\t"{print $6,"rmsk_mm10",$12,$7+1,$8,".",$10,".","gene_id \""$11"\"; transcript_id \""$13"\";"}' rmsk.txt > rmsk.gtf
+#sort -k1,1 -k4,4n rmsk.gtf > rmsk.sorted.gtf
+#bgzip rmsk.sorted.gtf
+#tabix -p gff rmsk.sorted.gtf.gz
+
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/repeatmasker
+sed '1,3d' GCF_000738735.6.repeatMasker.out | awk -v OFS="\t" '{print$5,"GCF_000738735.6",$11,$6+1,$7,".",$9,".","gene_id \""$10"\"; transcript_id \""$11"\";"}' | awk 'BEGIN{FS=OFS="\t"} $7=="C" {$7="-"} {print}' > GCF_000738735.6.repeatMasker.gtf
+sort -k1,1 -k4,4n GCF_000738735.6.repeatMasker.gtf > GCF_000738735.6.repeatMasker.sorted.gtf
+bgzip GCF_000738735.6.repeatMasker.sorted.gtf
+tabix -p gff GCF_000738735.6.repeatMasker.sorted.gtf.gz
+rmsk=$(readlink -f GCF_000738735.6.repeatMasker.sorted.gtf.gz)
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Apply filters
+
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing/SRR1947394_editing/DnaRna_154256643
+time python2.7 /media/aswin/programs/REDItools/accessory/AnnotateTable.py -a $rmsk -n rmsk -u -i outTable_154256643_filtered.out -o outTable_154256643_filtered_rmsk.out
+time python2.7 /media/aswin/programs/REDItools/accessory/AnnotateTable.py -a $splice -n splice -u -i outTable_154256643_filtered_rmsk.out -o outTable_154256643_filtered_rmsk_splice.out
+
+#Create a first set of positions selecting sites supported by at least five RNAseq reads and a single mismatch
+python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i outTable_154256643_filtered_rmsk_splice.out -c 5 -v 1 -f 0.0 -o outTable_154256643_filtered_rmsk_splice.out.sel1
+#Create a second set of positions selecting sites supported by ≥10 RNAseq reads, three mismatches and minimum editing frequency of 0.1
+python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i outTable_154256643_filtered_rmsk_splice.out -c 10 -v 3 -f 0.1 -o outTable_154256643_filtered_rmsk_splice.out.sel2
+
+#Select ALU sites from the first set of positions
+awk 'FS="\t" {if ($1!="chrM" && substr($16,1,3)=="Alu" && $17=="-"&& $8!="-" && $13=="-") print}' parallel_table.txt_all_chr.out.rmsk.snp.sel1 > parallel_table.txt_all_chr.out.rmsk.snp.alu
+
+#Select REP NON ALU sites from the second set of positions, excluding sites in Simple repeats or Low complexity regions
+awk 'FS="\t" {if ($1!="chrM" && substr($16,1,3)!="Alu" && $15!="-" && $15!="Simple_repeat" && $15!="Low_complexity" && $17=="-" && $8!="-" && $9>=0.1) print}' parallel_table.txt_all_chr.out.rmsk.snp.sel2 > parallel_table.txt_all_chr.out.rmsk.snp.nonalu
+
+#Select NON REP sites from the second set of positions
+awk 'FS="\t" {if ($1!="chrM" && substr($16,1,3)!="Alu" && $15=="-" && $17=="-" && $8!="-" && $9>=0.1) print}' parallel_table.txt_all_chr.out.rmsk.snp.sel2 > parallel_table.txt_all_chr.out.rmsk.snp.nonrep
+
+
+
+
+
+
+
+
+

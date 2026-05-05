@@ -149,3 +149,27 @@ unset read1 read2
 done
 
 #Visualize in IGV load 3 tissues at a time and take screenshot in svg format.
+
+##########################################################################################################################################################################################################################################################################################################
+
+#Comabine pdfs
+
+#In ceglab25
+cd /media/aswin/gene_loss/APOBEC1/review/rna_and_synteny
+
+scp -r ceglab8@172.28.65.118:/home/ceglab8/Downloads/apobec1_review/Species_with_loss .
+
+cp /media/aswin/gene_loss/APOBEC1/review/rna_and_synteny/test/Species_with_loss/merge_index_pdf.sh .
+
+
+
+
+
+
+
+
+
+
+
+
+
