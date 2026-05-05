@@ -316,15 +316,9 @@ do
     base="${file%.out}"
     echo "Processing: $file"
     # ---- Read-level substitution counts ----
-    python2.7 /media/aswin/programs/REDItools/accessory/subCount.py "$file" \
-        | sort -k1,1 \
-        | awk 'BEGIN{print "Substitution\tRead_count\tTotal_reads\tPercentage"}1' \
-        > "${base}_all_subs_readcount.out"
+    python2.7 /media/aswin/programs/REDItools/accessory/subCount.py "$file" | sort -k1,1 | awk 'BEGIN{print "Substitution\tRead_count\tTotal_reads\tPercentage"}1' > "${base}_all_subs_readcount.out"
     # ---- Site-level substitution counts ----
-    python2.7 /media/aswin/programs/REDItools/accessory/subCount2.py "$file" \
-        | sort -k1,1 \
-        | awk 'BEGIN{print "Substitution\tSite_count\tTotal_sites\tPercentage"}1' \
-        > "${base}_all_subs_sitecount.out"
+    python2.7 /media/aswin/programs/REDItools/accessory/subCount2.py "$file" | sort -k1,1 | awk 'BEGIN{print "Substitution\tSite_count\tTotal_sites\tPercentage"}1' > "${base}_all_subs_sitecount.out"
     # ---- Join both tables safely ----
     join -1 1 -2 1 "${base}_all_subs_readcount.out" "${base}_all_subs_sitecount.out" > "${base}_all_subs_count.out"
 done
@@ -421,7 +415,8 @@ done | sed '1i SRR_ID\tTissue\tcov\tsup\tfreq\tflags\tSubstitution\tRead_count\t
 
 cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/genome
 perl /media/aswin/programs/GMAP-GSNAP/util/gtf_splicesites.pl GCF_000738735.6_ASM73873v6_genomic.gtf > splice_sites
-awk -F" " '{split($2,a,":"); split(a[2],b,"."); if (b[1]>b[3]) print a[1],b[3],b[1],toupper(substr($3,1,1)),"-"; else print a[1],b[1],b[3],toupper(substr($3,1,1)),"+"}' splice_sites | awk '{print$1,"GCF_000738735.6",$4,$2,$3,".",$5,".","gene_id \"NA\"; transcript_id \"NA\";"}' OFS="\t" > reditools_splice_sites.txt
+awk -F" " '{split($2,a,":"); split(a[2],b,"."); if (b[1]>b[3]) print a[1],b[3],b[1],toupper(substr($3,1,1)),"-"; else print a[1],b[1],b[3],toupper(substr($3,1,1)),"+"}' splice_sites \
+	| awk '{print$1,"GCF_000738735.6",$4,$2-4,$3+4,".",$5,".","gene_id \"NA\"; transcript_id \"NA\";"}' OFS="\t" > reditools_splice_sites.txt
 sort -k1,1 -k4,4n reditools_splice_sites.txt > reditools_splice_sites.sorted.txt
 bgzip reditools_splice_sites.sorted.txt
 tabix -p gff reditools_splice_sites.sorted.txt.gz
@@ -450,6 +445,20 @@ cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing/SRR194739
 time python2.7 /media/aswin/programs/REDItools/accessory/AnnotateTable.py -a $rmsk -n rmsk -u -i outTable_154256643_filtered.out -o outTable_154256643_filtered_rmsk.out
 time python2.7 /media/aswin/programs/REDItools/accessory/AnnotateTable.py -a $splice -n splice -u -i outTable_154256643_filtered_rmsk.out -o outTable_154256643_filtered_rmsk_splice.out
 
+#Filter Low complexity, simple repeats & splice sites
+awk -F "\t" '$15!~"Simple_repeat" && $15!~"Low_complexity"' outTable_154256643_filtered_rmsk_splice.out | awk -F "\t" '$17=="-"' > outTable_154256643_filtered_rmsk_splice_filtered.out
+
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing/SRR1947394_editing/DnaRna_154256643/test
+awk -iinplace 'BEGIN{FS=OFS="\t"} {$2="heart"; print}' all_parameters_summary_substitutions.tsv
+awk -iinplace 'BEGIN{FS=OFS="\t"} {$1="SRR1947394"; print}' all_parameters_summary_substitutions.tsv
+Rscript /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing/gemini2.R all_parameters_summary_substitutions.tsv gemini2.pdf
+
+
+
+
+
+
+
 #Create a first set of positions selecting sites supported by at least five RNAseq reads and a single mismatch
 python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i outTable_154256643_filtered_rmsk_splice.out -c 5 -v 1 -f 0.0 -o outTable_154256643_filtered_rmsk_splice.out.sel1
 #Create a second set of positions selecting sites supported by ≥10 RNAseq reads, three mismatches and minimum editing frequency of 0.1
@@ -463,6 +472,26 @@ awk 'FS="\t" {if ($1!="chrM" && substr($16,1,3)!="Alu" && $15!="-" && $15!="Simp
 
 #Select NON REP sites from the second set of positions
 awk 'FS="\t" {if ($1!="chrM" && substr($16,1,3)!="Alu" && $15=="-" && $17=="-" && $8!="-" && $9>=0.1) print}' parallel_table.txt_all_chr.out.rmsk.snp.sel2 > parallel_table.txt_all_chr.out.rmsk.snp.nonrep
+
+
+awk -F "\t" '{print$15}' outTable_154256643_filtered_rmsk_splice.out | sort | uniq -c
+
+#Mainly 
+Simple_repeat
+Low_complexity
+DNA
+LINE
+LTR
+SINE
+Unknown
+rRNA, snRNA, tRNA
+
+
+
+
+
+
+
 
 
 
