@@ -1,0 +1,1089 @@
+#Batch CD-search tool	NIH/NLM/NCBI
+#cdsid	QM3-qcdsearch-17D9916D128DCF55-10F1082DC5F2CD7A
+#datatype	alignsFull Results
+#status	0
+#Start time	2024-07-16T10:47:43	Run time	0:00:00:06
+#status	success
+
+Q#1 - >APOE_Alligator_sinensis.fa [APOE_Alligator_sinensis.fa]
+
+>cdd:460211 Apolipoprotein(Specific), 460211, pfam01442, Apolipoprotein A1/A4/E 
+domain; These proteins contain several 22 residue repeats 
+which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein E.
+
+Apolipoprotein(Superfamily), 460211, cl27567, Apolipoprotein 
+A1/A4/E domain; These proteins contain several 22 residue 
+repeats which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein 
+E
+Length=175
+
+ Score = 93.5 bits (233),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 62/175 (35%), Gaps = 8/175 (5%)
+ Strand=Plus/Plus
+
+Query  63   LIKDMVAELQAYRKDVEERLGPHAVVMRERLHTDVTVLGERLRVDMEEAKTRVQQYLGEARQVAGQNLEDVRSRVGTYLRKLRKRLAKDTEELRRKLEAYSAEAT----RHLETVREDLEP----LRE  182
+            |  |   ||  |     | ||| |     ||      | |||  | ||       || |     ||| |  | |   |   |||||  | |||  ||  |  |            |  | |    || 
+Sbjct  1    LLEDSLDELSTYAEELQEQLGPVAQELVDRLEKETEALRERLQKDLEEVRAKLEPYLEELQAKLGQNVEELRQRLEPYTEELRKRLNADAEELQEKLAPYGEELRERLEQNVDALRARLAPYAEELRQ  128
+
+Query  183  KGQQRLAALQQALRDQGQRLREQLEVRAQDMRGSLDRAATQLQEWLE  229
+            |   ||  |   |         ||  | |  |  |   |  | | | 
+Sbjct  129  KLAERLEELKESLAPYAEEVQAQLSQRLQELREKLEPQAEDLREKLD  175
+
+
+
+>cdd:460211 Apolipoprotein(Non-specific), 460211, pfam01442, Apolipoprotein 
+A1/A4/E domain; These proteins contain several 22 residue 
+repeats which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein 
+E
+Length=175
+
+ Score = 46.9 bits (112),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 37/121 (31%), Gaps = 3/121 (2%)
+ Strand=Plus/Plus
+
+Query  129  NLEDVRSRVGTYLRKLRKRLAKDTEELRRKLEAYSAEATRHLETVREDLEPLREKGQQRLAALQQALRDQGQRLREQLEVRAQDMRGSLDRAATQLQEWLEPFLADIRTQMQGLLDKLQAK  249
+             |||      ||   |   |     ||   ||          |    |||  | |    |  ||  |      ||  ||      |  |   |  ||| | |     |       | | | 
+Sbjct  1    LLEDSLDELSTYAEELQEQLGPVAQELVDRLEKETEALR---ERLQKDLEEVRAKLEPYLEELQAKLGQNVEELRQRLEPYTEELRKRLNADAEELQEKLAPYGEELRERLEQNVDALRAR  118
+
+
+
+>cdd:443941 COG4913(Non-specific), 443941, COG4913, Uncharacterized conserved 
+protein, contains a C-terminal ATPase domain [Function 
+unknown]; Uncharacterized conserved protein, contains a C-terminal 
+ATPase domain [Function unknown]. 
+COG4913(Superfamily), 
+443941, cl25907, Uncharacterized conserved protein, contains 
+a C-terminal ATPase domain [Function unknown]; Uncharacterized 
+conserved protein, contains a C-terminal ATPase domain 
+[Function unknown]
+Length=1089
+
+ Score = 37.6 bits (88),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 39/174 (22%), Gaps = 21/174 (12%)
+ Strand=Plus/Plus
+
+Query  91   ERLHTDVTVLGERLRVDMEEAKTRVQQYLGEARQVAGQNLEDVRSRVGTY-----LRKLRKRLAKDTEELRRKLEAYSAEATRHLETVREDLEPLREK----GQQRLAALQQALRDQGQRLREQLEVR  209
+            || |       |      |        |       |   ||  |           |  |   |     || | |||        |   || |  |       |  ||  |          | |    |
+Sbjct  238  ERAHEALEDAREQIEL-LEPIRELAERYAAARERLAE--LEYLRAALRLWFAQRRLELLEAELEELRAELAR-LEAELERLEARLDALREELDELEAQIRGNGGDRLEQLEREIERLERELEERERRR  361
+
+Query  210  AQDMRGSLDRAATQLQ---EWLEPFLADIRTQMQGLLDKLQAKEQQ  252
+            |      |      |           |  |     ||  |      
+Sbjct  362  AR-----LEALLAALGLPLPASAEEFAALRAEAAALLEALEEELEA  402
+
+
+
+Q#2 - >APOE_Balaenoptera_musculus.fa [APOE_Balaenoptera_musculus.fa]
+
+>cdd:460211 Apolipoprotein(Specific), 460211, pfam01442, Apolipoprotein A1/A4/E 
+domain; These proteins contain several 22 residue repeats 
+which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein E.
+
+Apolipoprotein(Superfamily), 460211, cl27567, Apolipoprotein 
+A1/A4/E domain; These proteins contain several 22 residue 
+repeats which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein 
+E
+Length=175
+
+ Score = 126 bits (318),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 70/175 (40%), Gaps = 0/175 (0%)
+ Strand=Plus/Plus
+
+Query  80   LMDETMKEVKAYREELEEQLGPIAQETQARVSKELQAAQARLASDMEDVRSRLAQYRSEVQAVMGQTTDELRGRLASHLRKLRKRLLRDAEDLQKRLAVYRAGALEGSERSVSAIRERLGPLMEQGRA  207
+            |      |   | ||| ||||| |||   |  ||  |   ||  | | ||  |  |  | ||  ||   ||| ||      |||||  ||| ||  || |     |  |  | | | || |  |  | 
+Sbjct  1    LLEDSLDELSTYAEELQEQLGPVAQELVDRLEKETEALRERLQKDLEEVRAKLEPYLEELQAKLGQNVEELRQRLEPYTEELRKRLNADAEELQEKLAPYGEELRERLEQNVDALRARLAPYAEELRQ  128
+
+Query  208  RAATVGTLASQTLRERAEAWHQKLRGRVEEMGTQARDHLEEMREQLE  254
+              |         |   ||     |  |  |         |  || | 
+Sbjct  129  KLAERLEELKESLAPYAEEVQAQLSQRLQELREKLEPQAEDLREKLD  175
+
+
+
+>cdd:179385 PRK02224(Non-specific), 179385, PRK02224, DNA double-strand break 
+repair Rad50 ATPase; DNA double-strand break repair Rad50 
+ATPase. 
+PRK02224(Superfamily), 179385, cl32023, DNA double-strand 
+break repair Rad50 ATPase; DNA double-strand break 
+repair Rad50 ATPase
+Length=880
+
+ Score = 42.3 bits (100),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 51/220 (23%), Gaps = 26/220 (12%)
+ Strand=Plus/Plus
+
+Query  83   ETMKEVKAYREELEEQLGPIAQETQARVSKELQAAQARLASDMEDVRSRLAQYRSEVQAVMGQ---TTDELRGRLASHLRKLRKRLLRDAEDLQKRLAVYRAGALEGSERSVSAIRERLGPLMEQGRA  207
+            ||  |     ||||  |     |    |   |  |        ||   ||   |            |  | | |           |   |  |       |  | |  |    | ||    |      
+Sbjct  468  ETIEEDRERVEELEAELEDL-EEEVEEVEERLERAED--LVEAEDRIERLEERREDLEELIAERRETIEEKRERAEE--------LRERAAELEAEAEEKREAAAEAEEEAEEA-REEVAELNSKLAE  583
+
+Query  208  RAATVGTLA----SQTLRERAEAWHQKLRGRVE---EMGTQARDHLEEMREQLEEVRAKVE----EQGSQIRLQAEAFQARLKSWFEPLVED  288
+                   |            ||     ||   |   |     |  | | ||   |  |       |        ||            | | 
+Sbjct  584  LKERIESLERIRTLLAAIADAEDEIERLREKREALAELNDERRERLAEKRERKRELEAEFDEARIEEAREDKERAEEYLEQVEEKLDELREE  675
+
+
+
+>cdd:274008 SMC_prok_B(Non-specific), 274008, TIGR02168, chromosome segregation 
+protein SMC, common bacterial type; SMC (structural maintenance 
+of chromosomes) proteins bind DNA and act in organizing 
+and segregating chromosomes for partition. SMC proteins 
+are found in bacteria, archaea, and eukaryotes. This family 
+represents the SMC protein of most bacteria. The smc gene 
+is often associated with scpB (TIGR00281) and scpA genes, where 
+scp stands for segregation and condensation protein. SMC 
+was shown (in Caulobacter crescentus) to be induced early 
+in S phase but present and bound to DNA throughout the cell 
+cycle [Cellular processes, Cell division, DNA metabolism, Chromosome-associated 
+proteins]
+SMC_prok_B(Superfamily), 274008, 
+cl37069, chromosome segregation protein SMC, common bacterial 
+type; SMC (structural maintenance of chromosomes) proteins 
+bind DNA and act in organizing and segregating chromosomes 
+for partition. SMC proteins are found in bacteria, archaea, 
+and eukaryotes. This family represents the SMC protein of 
+most bacteria. The smc gene is often associated with scpB (TIGR00281) 
+and scpA genes, where scp stands for segregation 
+and condensation protein. SMC was shown (in Caulobacter crescentus) 
+to be induced early in S phase but present and bound 
+to DNA throughout the cell cycle [Cellular processes, Cell 
+division, DNA metabolism, Chromosome-associated proteins]
+Length=1179
+
+ Score = 42.0 bits (99),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 53/249 (21%), Gaps = 20/249 (8%)
+ Strand=Plus/Plus
+
+Query  63   QVQEELLSTQVIQELTVLMDETMKEVKAYREELEEQLGPIAQETQA--RVSKELQAAQARLASDMEDVRSRLAQYRSEVQAVMGQTTDELRGRLASHLRKLRKRLLRDAEDLQKRLAVYR------AG  182
+                         |          |  |  ||||| |     |         || |    |       |  |   | |           || || |  |       |  |||              | 
+Sbjct  734  DLARLEAEVEQLEERIAQLSKELTELEAEIEELEERLEEAEEELAEAEAEIEELEAQIEQLKEELKALREALDELRAELTLL-NEEAANLRERLESLERRIAATERR-LEDLEEQIEELSEDIESLAA  859
+
+Query  183  ALEGSERSVSAIRERLGPLMEQGRARAATVGTLASQTLRERAEAWHQKLRGRVEEMGTQARDHLEEMREQLEEVRAKVEEQGSQIRLQAEAFQARLKSWFEPLVEDMQRQWAGLVEKVQLA  303
+              |  |         |  |              |   ||   |     ||   |      |  ||| || |       |             | ||        |               |
+Sbjct  860  EIEELEELIEELESELEALLNERASLEE-----ALALLRSELEELSEELR-ELESKRSELRRELEELREKLAQLELRLEG----LEVRIDNLQERLSEEYSLTLEEAEALENKIEDDEEEA  970
+
+
+
+>cdd:443941 COG4913(Non-specific), 443941, COG4913, Uncharacterized conserved 
+protein, contains a C-terminal ATPase domain [Function 
+unknown]; Uncharacterized conserved protein, contains a C-terminal 
+ATPase domain [Function unknown]. 
+COG4913(Superfamily), 
+443941, cl25907, Uncharacterized conserved protein, contains 
+a C-terminal ATPase domain [Function unknown]; Uncharacterized 
+conserved protein, contains a C-terminal ATPase domain 
+[Function unknown]
+Length=1089
+
+ Score = 38.7 bits (91),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 44/199 (22%), Gaps = 20/199 (10%)
+ Strand=Plus/Plus
+
+Query  112  KELQAAQARLASDMEDVRSRLAQYRSEVQAVMGQTTDELRGRLASHLRKLRKRLLRDAE--DLQKRLAVYRAG--ALEGSERSVSAIRERLGPLMEQGRARAATVGTLASQTLRERAEAWHQKLRGRV  235
+              | |  | |         ||     |  |   |   |   |||              |   |   |    |    |   |         |  | |         | |      | ||     |  | 
+Sbjct  613  AALEAELAELEEELAEAEERLEALEAELDAL--QERREALQRLAEYSWDEIDVASAEREIAELEAELERLDASSDDLAALEEQLEELEAELEELEEELDELKGEIGRLEKE--LEQAEEELDELQDRL  736
+
+Query  236  EEMGTQARDHLEEMREQLEEVRAKVEEQGSQIRLQAEAFQARLKSWFEPLVEDMQRQWAGLVEKVQLAMAT  306
+            |     ||  |   |  |||  |              |    |    |              |    ||  
+Sbjct  737  EAAEDLARLEL---RALLEERFA---------AALGDAVERELRENLEERIDALRARLNRAEEELERAMRA  795
+
+
+
+>cdd:440809 Smc(Non-specific), 440809, COG1196, Chromosome segregation ATPase 
+Smc [Cell cycle control, cell division, chromosome partitioning]; 
+Chromosome segregation ATPase Smc [Cell cycle control, 
+cell division, chromosome partitioning]. 
+Smc(Superfamily), 
+440809, cl34174, Chromosome segregation ATPase Smc [Cell 
+cycle control, cell division, chromosome partitioning]; Chromosome 
+segregation ATPase Smc [Cell cycle control, cell division, 
+chromosome partitioning]
+Length=983
+
+ Score = 38.0 bits (89),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 38/197 (19%), Gaps = 14/197 (7%)
+ Strand=Plus/Plus
+
+Query  92   REELEEQLGPIAQE-TQAR----VSKELQAAQARLAS-DMEDVRSRLAQYRSEVQAVMGQTTDELRGRLASHLRKLRKRLLRDAEDLQKRLAVYRAGA-LEGSERSVSAIRERLGPLMEQGRARAATV  212
+              ||| || |       |        ||    | |           |     |          ||    |              |     |    | |                  | |  |      
+Sbjct  195  LGELERQLEPLERQAEKAERYRELKEELKELEAELLLLKLRELEAELEELEAELE----ELEAELEELEAELAELEAELEELRLELEELELELEEAQAEEYELLAELARLEQDIARLEERRRELEERL  318
+
+Query  213  GTLASQ--TLRERAEAWHQKLRGRVEEMGTQARDHLEEMREQLEEVRAKVEEQGSQIRLQAEAFQARLK  279
+              |      | |  |     |    ||    |   |||    | |      |         |       
+Sbjct  319  EELEEELAELEEELEELEEELE-ELEEELEEAEEELEEAEAELAEAEEALLEAEAELAEAEEELEELAE  386
+
+
+
+Q#3 - >APOE_Betta_splendens.fa [APOE_Betta_splendens.fa]
+
+>cdd:460211 Apolipoprotein(Specific), 460211, pfam01442, Apolipoprotein A1/A4/E 
+domain; These proteins contain several 22 residue repeats 
+which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein E.
+
+Apolipoprotein(Superfamily), 460211, cl27567, Apolipoprotein 
+A1/A4/E domain; These proteins contain several 22 residue 
+repeats which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein 
+E
+Length=175
+
+ Score = 117 bits (295),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 59/175 (34%), Gaps = 0/175 (0%)
+ Strand=Plus/Plus
+
+Query  68   LITDTMAELTTYTEGLQAKLSPYTDASSGTLLQDLQLLTTKLQKDMVDAKERSTQYLGELKTMVEQNSGDVRSRITTYSNKLKKRLNKDTEEIQKTVATYLDELHSRTSQNVDAVKGQVEPLVQQAGD  195
+            |  |   || || | ||  | |        |      |   ||||          || ||     ||    | |   |   | |||| | || |   | |  ||  |  |||||      |       
+Sbjct  1    LLEDSLDELSTYAEELQEQLGPVAQELVDRLEKETEALRERLQKDLEEVRAKLEPYLEELQAKLGQNVEELRQRLEPYTEELRKRLNADAEELQEKLAPYGEELRERLEQNVDALRARLAPYAEELRQ  128
+
+Query  196  SAARRLSDVSALLKSQAEGLGQQLETQAAGIQSQLQATADELRTSLE  242
+              | ||      |   ||    ||          |   |  ||  | 
+Sbjct  129  KLAERLEELKESLAPYAEEVQAQLSQRLQELREKLEPQAEDLREKLD  175
+
+
+
+>cdd:460211 Apolipoprotein(Non-specific), 460211, pfam01442, Apolipoprotein 
+A1/A4/E domain; These proteins contain several 22 residue 
+repeats which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein 
+E
+Length=175
+
+ Score = 76.1 bits (188),  Expect = 9e-17, Method: Composition-based stats.
+ Identities = 42/158 (27%), Gaps = 0/158 (0%)
+ Strand=Plus/Plus
+
+Query  121  TQYLGELKTMVEQNSGDVRSRITTYSNKLKKRLNKDTEEIQKTVATYLDELHSRTSQNVDAVKGQVEPLVQQAGDSAARRLSDVSALLKSQAEGLGQQLETQAAGIQSQLQATADELRTSLEGKMDEL  248
+              |  ||             |       |  || || ||       || ||     |||       ||                   |    | |   ||         |   | |||  |     ||
+Sbjct  10   STYAEELQEQLGPVAQELVDRLEKETEALRERLQKDLEEVRAKLEPYLEELQAKLGQNVEELRQRLEPYTEELRKRLNADAEELQEKLAPYGEELRERLEQNVDALRARLAPYAEELRQKLAERLEEL  137
+
+Query  249  TELLSPYATKLREQLEGIVDKVKETAAAAA  278
+             | | |||     ||        |     |
+Sbjct  138  KESLAPYAEEVQAQLSQRLQELREKLEPQA  167
+
+
+
+>cdd:460211 Apolipoprotein(Non-specific), 460211, pfam01442, Apolipoprotein 
+A1/A4/E domain; These proteins contain several 22 residue 
+repeats which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein 
+E
+Length=175
+
+ Score = 46.1 bits (110),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 32/119 (27%), Gaps = 0/119 (0%)
+ Strand=Plus/Plus
+
+Query  158  EEIQKTVATYLDELHSRTSQNVDAVKGQVEPLVQQAGDSAARRLSDVSALLKSQAEGLGQQLETQAAGIQSQLQATADELRTSLEGKMDELTELLSPYATKLREQLEGIVDKVKETAAA  276
+            |       ||  ||               |             |  | | |    | |   |          |     |||  |     || | | ||   ||| ||  ||      | 
+Sbjct  3    EDSLDELSTYAEELQEQLGPVAQELVDRLEKETEALRERLQKDLEEVRAKLEPYLEELQAKLGQNVEELRQRLEPYTEELRKRLNADAEELQEKLAPYGEELRERLEQNVDALRARLAP  121
+
+
+
+>cdd:460211 Apolipoprotein(Non-specific), 460211, pfam01442, Apolipoprotein 
+A1/A4/E domain; These proteins contain several 22 residue 
+repeats which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein 
+E
+Length=175
+
+ Score = 38.8 bits (91),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 20/79 (25%), Gaps = 0/79 (0%)
+ Strand=Plus/Plus
+
+Query  200  RLSDVSALLKSQAEGLGQQLETQAAGIQSQLQATADELRTSLEGKMDELTELLSPYATKLREQLEGIVDKVKETAAAAA  278
+             | |    |   || |  ||   |      |      ||  |     |    | ||   |   |   |           
+Sbjct  1    LLEDSLDELSTYAEELQEQLGPVAQELVDRLEKETEALRERLQKDLEEVRAKLEPYLEELQAKLGQNVEELRQRLEPYT  79
+
+
+
+>cdd:236892 PRK11281(Non-specific), 236892, PRK11281, mechanosensitive channel 
+MscK; mechanosensitive channel MscK. 
+PRK11281(Superfamily), 
+481316, cl46976, mechanosensitive channel MscK; mechanosensitive 
+channel MscK
+Length=1113
+
+ Score = 39.1 bits (92),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 40/158 (25%), Gaps = 27/158 (17%)
+ Strand=Plus/Plus
+
+Query  108  KLQKDMVDAKERSTQYLGELKTMVEQNSGDVRSRITTYSNK-LKKRLNK---DTEEIQKTVATYLDELHSRTSQNVDAVKGQVEP-LVQQAGDSAARRLSDVSALLKSQAEG-------LGQQLETQA  223
+             |      |     |   ||      |    |    | |   |  ||          |   | |          |   |  |  |   | |      ||     |||    |           |    
+Sbjct  84   QLKQQLAQAPAKLRQAQAELEALKDDNDEETRETLSTLSLRQLESRLAQTLDQLQNAQNDLAEY----------NSQLVSLQTQPERAQAALYANSQRLQQIRNLLKGGKVGGKALRPSQRVLLQAE-  200
+
+Query  224  AGIQSQLQATADELRTSLEGKMDELTELLS  253
+               |  | |  |  | ||||    |  || 
+Sbjct  201  ---QALLNAQNDLQRKSLEGN-TQLQDLLQ  226
+
+
+
+Q#4 - >APOE_Bos_taurus.fa [APOE_Bos_taurus.fa]
+
+>cdd:460211 Apolipoprotein(Specific), 460211, pfam01442, Apolipoprotein A1/A4/E 
+domain; These proteins contain several 22 residue repeats 
+which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein E.
+
+Apolipoprotein(Superfamily), 460211, cl27567, Apolipoprotein 
+A1/A4/E domain; These proteins contain several 22 residue 
+repeats which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein 
+E
+Length=175
+
+ Score = 129 bits (327),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 69/184 (38%), Gaps = 11/184 (6%)
+ Strand=Plus/Plus
+
+Query  113  LMEETMKEVKAYKEELEGQLGPMAQETQARVSKELQAAQARLGSDMEDLRNRLAQYRSEVQAMLGQSTEELRARMASHLRKLRKRLLRDADDLKKRLAVYQAGASEGAERSLSAIRERFGPLVEQGQS  240
+            | |    |   | |||  |||| |||   |  ||  |   ||  | |  |  |  |  | || |||  |||| |       |||||  ||  |   || |     |  |    | | |  |  |    
+Sbjct  1    LLEDSLDELSTYAEELQEQLGPVAQELVDRLEKETEALRERLQKDLEEVRAKLEPYLEELQAKLGQNVEELRQRLEPYTEELRKRLNADAEELQEKLAPYGEELRERLEQNVDALRARLAPYAEELR-  127
+
+Query  241  RAATLSTLAGQPLLERAEAWRQKLHGRLEEVGVRAQDRLDKIRQQLEEVHAKVEEQ  296
+                      | | || |     |    |||      ||   |  ||       | 
+Sbjct  128  ----------QKLAERLEELKESLAPYAEEVQAQLSQRLQELREKLEPQAEDLREK  173
+
+
+
+>cdd:443969 EnvC(Non-specific), 443969, COG4942, Septal ring factor EnvC, 
+activator of murein hydrolases AmiA and AmiB [Cell cycle control, 
+cell division, chromosome partitioning]; Septal ring 
+factor EnvC, activator of murein hydrolases AmiA and AmiB [Cell 
+cycle control, cell division, chromosome partitioning]. 
+
+EnvC(Superfamily), 443969, cl34844, Septal ring factor EnvC, 
+activator of murein hydrolases AmiA and AmiB [Cell cycle control, 
+cell division, chromosome partitioning]; Septal ring 
+factor EnvC, activator of murein hydrolases AmiA and AmiB [Cell 
+cycle control, cell division, chromosome partitioning]
+Length=377
+
+ Score = 38.2 bits (89),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 55/226 (24%), Gaps = 14/226 (6%)
+ Strand=Plus/Plus
+
+Query  95   DQVQEELLNTQV-IQELTALMEETMKEVKAYKEELEGQLGPMAQETQARVSKELQAAQARLGSDMEDLRNRLAQYRSEVQAMLGQSTEELRA--RMASHLRKLRKRLLRDADDLKKRLAVYQAGASEG  219
+                 ||   |  | ||        || ||    |       |    ||    |    | |      |    |  | |  |      | |||  |              |  |   ||      |   
+Sbjct  23   AEAEAELEQLQQEIAELEKELAALKKEEKALLKQLAALERRIAA--LARRIRALEQELAALEAELAELEKEIAELRAELEAQKEELAELLRALYRLGRQPPLALLLSPEDFLDAVRRLQYLKYLAPAR  148
+
+Query  220  AERSLSAIRERFGPLVEQGQSRAATLSTLAG--------QPLLERAEAWRQKLHGRLEEVGVRAQDRLDKIRQQLEEVHAKVEEQGNQMRLQAEAFQA  309
+             |      |     |        |    |             ||   | ||||  |||         |    |  ||  |            ||   |
+Sbjct  149  REQ-AEELRADLAELAALRAELEAERAELEALLAELEEERAALEALKAERQKLLARLEKELAELAAELAELQQEAEELEALIARLEAEAAAAAERTPA  245
+
+
+
+Q#5 - >APOE_Chrysemys_picta_bellii.fa [APOE_Chrysemys_picta_bellii.fa]
+
+>cdd:460211 Apolipoprotein(Specific), 460211, pfam01442, Apolipoprotein A1/A4/E 
+domain; These proteins contain several 22 residue repeats 
+which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein E.
+
+Apolipoprotein(Superfamily), 460211, cl27567, Apolipoprotein 
+A1/A4/E domain; These proteins contain several 22 residue 
+repeats which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein 
+E
+Length=175
+
+ Score = 143 bits (363),  Expect = 6e-42, Method: Composition-based stats.
+ Identities = 66/175 (38%), Gaps = 0/175 (0%)
+ Strand=Plus/Plus
+
+Query  113  LITDTMAEVEVYREELRTRFGPYAQEAQQRLGSEVEALTGKLRADMEEAKGRVVQYTGDVRLMFNQNLEEVRARVGMYLRKLRKRLGKDTEELRRKMAAYAGEVQAHTDQQVNAVRQGLQPLIDSIRD  240
+            |  |   |   | |||    || |||   ||  | |||   |  | ||       |         || || | |   |   |||||  | |||  | | |  |      | | | |  | |     | 
+Sbjct  1    LLEDSLDELSTYAEELQEQLGPVAQELVDRLEKETEALRERLQKDLEEVRAKLEPYLEELQAKLGQNVEELRQRLEPYTEELRKRLNADAEELQEKLAPYGEELRERLEQNVDALRARLAPYAEELRQ  128
+
+Query  241  KGQQRLEALSQAMGEQSQKVRESLGTRAQELHGHLQEKAEEVQSSLD  287
+            |   ||| |          |   |  | |||   |   ||     ||
+Sbjct  129  KLAERLEELKESLAPYAEEVQAQLSQRLQELREKLEPQAEDLREKLD  175
+
+
+
+>cdd:460211 Apolipoprotein(Non-specific), 460211, pfam01442, Apolipoprotein 
+A1/A4/E domain; These proteins contain several 22 residue 
+repeats which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein 
+E
+Length=175
+
+ Score = 45.3 bits (108),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 29/112 (26%), Gaps = 2/112 (2%)
+ Strand=Plus/Plus
+
+Query  89   KVGHAADNVTAQIKS--SQLSKELDGLITDTMAEVEVYREELRTRFGPYAQEAQQRLGSEVEALTGKLRADMEEAKGRVVQYTGDVRLMFNQNLEEVRARVGMYLRKLRKRL  198
+            | |                | | |             | |||| |          ||    | |  ||    || |     |   |     | | | |         ||  |
+Sbjct  63   KLGQNVEELRQRLEPYTEELRKRLNADAEELQEKLAPYGEELRERLEQNVDALRARLAPYAEELRQKLAERLEELKESLAPYAEEVQAQLSQRLQELREKLEPQAEDLREKL  174
+
+
+
+>cdd:460211 Apolipoprotein(Non-specific), 460211, pfam01442, Apolipoprotein 
+A1/A4/E domain; These proteins contain several 22 residue 
+repeats which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein 
+E
+Length=175
+
+ Score = 39.2 bits (92),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 23/76 (30%), Gaps = 0/76 (0%)
+ Strand=Plus/Plus
+
+Query  245  RLEALSQAMGEQSQKVRESLGTRAQELHGHLQEKAEEVQSSLDQAAEQVRQWFAPFLQDVRAQLQGLVEKLQGKLQ  320
+             ||              | ||  ||||   |    |     |    | ||    | |    | |   || |   | 
+Sbjct  1    LLEDSLDELSTYAEELQEQLGPVAQELVDRLEKETEALRERLQKDLEEVRAKLEPYLEELQAKLGQNVEELRQRLE  76
+
+
+
+>cdd:129694 rad50(Non-specific), 129694, TIGR00606, rad50; All proteins in 
+this family for which functions are known are involvedin recombination, 
+recombinational repair, and/or non-homologous 
+end joining.They are components of an exonuclease complex with 
+MRE11 homologs. This family is distantly related to the SbcC 
+family of bacterial proteins.This family is based on the 
+phylogenomic analysis of JA Eisen (1999, Ph.D. Thesis, Stanford 
+University).
+rad50(Superfamily), 129694, cl31018, rad50; 
+All proteins in this family for which functions are known 
+are involvedin recombination, recombinational repair, and/or 
+non-homologous end joining.They are components of an exonuclease 
+complex with MRE11 homologs. This family is distantly 
+related to the SbcC family of bacterial proteins.This family 
+is based on the phylogenomic analysis of JA Eisen (1999, Ph.D. 
+Thesis, Stanford University)
+Length=1311
+
+ Score = 39.3 bits (91),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 49/204 (24%), Gaps = 28/204 (14%)
+ Strand=Plus/Plus
+
+Query  134  PYAQEAQQRLGSEVEALTGKLRA---DMEEAKGRVVQYTGDVRLMFNQNLEEVRARVGMYLRKLRKRLGKDTEELRRKMAAYAGEVQA----HTDQQVNAVRQGLQPLIDSIRDKGQQRLEALSQAMG  254
+            |  |        |   |  ||     |    |           |      ||  | |         |         || |  |   |      | ||||   |  |   |    |       | |   
+Sbjct  733  PGRQSIIDLKEKEIPELRNKLQKVNRDIQRLKNDIEE---QETLLGTIMPEEESAKVCLTDVTIMERFQMELKDVERKIAQQAAKLQGSDLDRTVQQVNQEKQEKQHELDTVVSKIEL-NRKLIQDQQ  856
+
+Query  255  EQSQKV----------RESLGT---RAQELHGHLQEKAEEVQS---SLDQAAEQVRQWFAPFLQDVRAQLQGLVEK  314
+            || |                ||   | |     | |   ||||       | ||       ||         |   
+Sbjct  857  EQIQHLKSKTNELKSEKLQIGTNLQRRQQFEEQLVELSTEVQSLIREIKDAKEQDSP-LETFLEKDQQEKEELISS  931
+
+
+
+>cdd:183138 PRK11443(Non-specific), 183138, PRK11443; lipoprotein; Provisional
+
+DUF2799(Superfamily), 450344, cl19633, Protein of unknown 
+function (DUF2799); Some members in this family of proteins 
+are annotated as yfiL which has no known function
+Length=124
+
+ Score = 36.6 bits (85),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 13/38 (34%), Gaps = 6/38 (16%)
+ Strand=Plus/Plus
+
+Query  47  MKVLIVLLGATLLAGCQANPLVQDEPKTKWEEAVSVFW  84
+           ||  |  | | || |||  |              |  |
+Sbjct  1   MKKFIAPLLALLLSGCQIDPYT---HAPTLT---STDW  32
+
+
+
+>cdd:274008 SMC_prok_B(Non-specific), 274008, TIGR02168, chromosome segregation 
+protein SMC, common bacterial type; SMC (structural maintenance 
+of chromosomes) proteins bind DNA and act in organizing 
+and segregating chromosomes for partition. SMC proteins 
+are found in bacteria, archaea, and eukaryotes. This family 
+represents the SMC protein of most bacteria. The smc gene 
+is often associated with scpB (TIGR00281) and scpA genes, where 
+scp stands for segregation and condensation protein. SMC 
+was shown (in Caulobacter crescentus) to be induced early 
+in S phase but present and bound to DNA throughout the cell 
+cycle [Cellular processes, Cell division, DNA metabolism, Chromosome-associated 
+proteins]
+SMC_prok_B(Superfamily), 274008, 
+cl37069, chromosome segregation protein SMC, common bacterial 
+type; SMC (structural maintenance of chromosomes) proteins 
+bind DNA and act in organizing and segregating chromosomes 
+for partition. SMC proteins are found in bacteria, archaea, 
+and eukaryotes. This family represents the SMC protein of 
+most bacteria. The smc gene is often associated with scpB (TIGR00281) 
+and scpA genes, where scp stands for segregation 
+and condensation protein. SMC was shown (in Caulobacter crescentus) 
+to be induced early in S phase but present and bound 
+to DNA throughout the cell cycle [Cellular processes, Cell 
+division, DNA metabolism, Chromosome-associated proteins]
+Length=1179
+
+ Score = 38.1 bits (89),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 43/207 (21%), Gaps = 33/207 (16%)
+ Strand=Plus/Plus
+
+Query  114  ITDTMAEVEVYREELRTRFGPYAQEAQQRLGSEVEALTGKLRADMEEAKGRVVQYTGDVRLMFNQNLEEVRARVGMYLRKLRKRLGKDTEELRRKMAAYAGEVQAHTDQQVNAVRQGLQPLIDSIRDK  241
+             |    | |   ||||        |    |  |  ||        |  |          ||    |||         |  |   |    |||                         |     |    
+Sbjct  258  LTAELQELEEKLEELRLEVSE-LEEEIEELQKELYALANEI-SRLEQQKQI-----LRERL---ANLERQLEELEAQLEELESKLDELAEEL----------------AELEEKLEELKEELESLEAE  359
+
+Query  242  GQQRLEALSQAMGEQSQKVRESLGTRAQELHGHLQEKAEEVQSSLDQAAEQVRQWFAPFLQDVRAQLQGLVEKLQGKLQ  320
+                |||             | | |            |                     | | |  ||   | |  || 
+Sbjct  360  -LEELEAELEELESRLEELEEQLETLRSKVAQLELQIASL-NNEIERLEARLER-----LEDRRERLQQEIEELLKKLE  431
+
+
+
+>cdd:442330 MukB(Non-specific), 442330, COG3096, Chromosome condensin MukBEF, 
+ATPase and DNA-binding subunit MukB [Cell cycle control, 
+cell division, chromosome partitioning]; Chromosome condensin 
+MukBEF, ATPase and DNA-binding subunit MukB [Cell cycle 
+control, cell division, chromosome partitioning]. 
+MukB(Superfamily), 
+442330, cl34550, Chromosome condensin MukBEF, ATPase 
+and DNA-binding subunit MukB [Cell cycle control, cell division, 
+chromosome partitioning]; Chromosome condensin MukBEF, 
+ATPase and DNA-binding subunit MukB [Cell cycle control, 
+cell division, chromosome partitioning]
+Length=1470
+
+ Score = 38.0 bits (89),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 38/179 (21%), Gaps = 35/179 (20%)
+ Strand=Plus/Plus
+
+Query  148   EALTGKLRADMEEAKGRVVQYTGDVRLMFNQNLEEVRARVGMYLRKLRKR--------LGKDTEELRRKMAAYAGEVQAHTDQQVNAVRQGLQPLIDSIR------DKGQQRLEALSQAMGEQSQKV-  260
+             ||    ||    |      |          | |          | ||           |    ||||    | | | ||   |   |  | | ||              |              |   
+Sbjct  835   EAELAALRQRRSELERELAQHRAQEQ-QLRQQLDQLKEQLQL-LNKLLPQANLLADETLADRLEELREELDA-AQEAQAFIQQHGKALAQ-LEPLVAVLQSDPEQFEQLQADYLQAKEQQRRLKQQIF  958
+
+Query  261   --------RESLG--------TRAQELHGHLQEKAEEVQSSLDQAAEQVRQ  295
+                     |                 |   |    |        | || ||
+Sbjct  959   ALSEVVQRRPHFSYEDAVGLLGENSDLNEKLRARLEQAEEARREAREQLRQ  1009
+
+
+
+Q#6 - >APOE_Dromaius_novaehollandiae.fa [APOE_Dromaius_novaehollandiae.fa]
+
+>cdd:460211 Apolipoprotein(Specific), 460211, pfam01442, Apolipoprotein A1/A4/E 
+domain; These proteins contain several 22 residue repeats 
+which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein E.
+
+Apolipoprotein(Superfamily), 460211, cl27567, Apolipoprotein 
+A1/A4/E domain; These proteins contain several 22 residue 
+repeats which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein 
+E
+Length=175
+
+ Score = 84.6 bits (210),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 59/170 (35%), Gaps = 11/170 (6%)
+ Strand=Plus/Plus
+
+Query  66   LIAETMEELEAQVAELQAKLGPSG-EAGAGLRRDVEELGGRLRAELVEARGRAAQYGAEARAVLQQGAEDLRSRLAAYARKLRKRLAKDAEELRSRLAAAAGEVRARA--------AALHEGLPVLRA  184
+            |      ||     |||  |||   |    |    | |  ||   | | |     |  |  | | |  | || ||  |   |||||  |||||   ||    | | |         | |      || 
+Sbjct  1    LLEDSLDELSTYAEELQEQLGPVAQELVDRLEKETEALRERLQKDLEEVRAKLEPYLEELQAKLGQNVEELRQRLEPYTEELRKRLNADAEELQEKLAPYGEELRERLEQNVDALRARLAPYAEELRQ  128
+
+Query  185  P--PRLAALGQALGEQGRRVQRGLREAVQELWASVDGVLQGL  224
+                ||  |   |      ||  |    |||          |
+Sbjct  129  KLAERLEELKESLAPYAEEVQAQLSQRLQELREKLEPQAEDL  170
+
+
+
+>cdd:443941 COG4913(Non-specific), 443941, COG4913, Uncharacterized conserved 
+protein, contains a C-terminal ATPase domain [Function 
+unknown]; Uncharacterized conserved protein, contains a C-terminal 
+ATPase domain [Function unknown]. 
+COG4913(Superfamily), 
+443941, cl25907, Uncharacterized conserved protein, contains 
+a C-terminal ATPase domain [Function unknown]; Uncharacterized 
+conserved protein, contains a C-terminal ATPase domain 
+[Function unknown]
+Length=1089
+
+ Score = 39.5 bits (93),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 34/162 (21%), Gaps = 22/162 (14%)
+ Strand=Plus/Plus
+
+Query  72   EELEAQVAELQAKLGPSGEAGAGLRRDVEELGGRLRA---------ELVEARGRAAQYGA-EAR-----------AVLQQGAEDLRSRLAAYARKLRKRLAKDAEELRSRLAAAAGEVRARAAALHEG  178
+              |||  |||   |    |    |      |  |  |                        ||            | |    | |   |          |      |   |  |  |       |   
+Sbjct  613  AALEAELAELEEELAEAEERLEALEAELDALQERREALQRLAEYSWDEIDVASAEREIAELEAELERLDASSDDLAALEEQLEELEAELEE-LEEELDELKGEIGRLEKELEQAEEELDELQDRLEAA  739
+
+Query  179  LPVLRAPPRLAALGQALGEQGRRVQRGLREAVQE  212
+                |   |           |  | | |||   |
+Sbjct  740  EDLARLELRALLEERFAAALGDAVERELRENLEE  773
+
+
+
+Q#7 - >APOE_Homo_sapiens.fa [APOE_Homo_sapiens.fa]
+
+>cdd:460211 Apolipoprotein(Specific), 460211, pfam01442, Apolipoprotein A1/A4/E 
+domain; These proteins contain several 22 residue repeats 
+which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein E.
+
+Apolipoprotein(Superfamily), 460211, cl27567, Apolipoprotein 
+A1/A4/E domain; These proteins contain several 22 residue 
+repeats which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein 
+E
+Length=175
+
+ Score = 119 bits (301),  Expect = 6e-33, Method: Composition-based stats.
+ Identities = 73/186 (39%), Gaps = 11/186 (6%)
+ Strand=Plus/Plus
+
+Query  81   LMDETMKELKAYKSELEEQLTPVAEETRARLSKELQAAQARLGADMEDVCGRLVQYRGEVQAMLGQSTEELRVRLASHLRKLRKRLLRDADDLQKRLAVYQAGAREGAERGLSAIRERLGPLVEQGRV  208
+            |      ||  |  || ||| ||| |   || ||  |   ||  | | |   |  |  | || |||  |||| ||      |||||  ||  ||  || |    ||  |    | | || |  |  | 
+Sbjct  1    LLEDSLDELSTYAEELQEQLGPVAQELVDRLEKETEALRERLQKDLEEVRAKLEPYLEELQAKLGQNVEELRQRLEPYTEELRKRLNADAEELQEKLAPYGEELRERLEQNVDALRARLAPYAEELR-  127
+
+Query  209  RAATVGSLAGQPLQERAQAWGERLRARMEEMGSRTRDRLDEVKEQVAEVRAKLEEQAQ  266
+                      | | ||     | |    ||       || |  |        | |   
+Sbjct  128  ----------QKLAERLEELKESLAPYAEEVQAQLSQRLQELREKLEPQAEDLREKLD  175
+
+
+
+Q#8 - >APOE_Mus_musculus.fa [APOE_Mus_musculus.fa]
+
+>cdd:460211 Apolipoprotein(Specific), 460211, pfam01442, Apolipoprotein A1/A4/E 
+domain; These proteins contain several 22 residue repeats 
+which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein E.
+
+Apolipoprotein(Superfamily), 460211, cl27567, Apolipoprotein 
+A1/A4/E domain; These proteins contain several 22 residue 
+repeats which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein 
+E
+Length=175
+
+ Score = 139 bits (352),  Expect = 2e-40, Method: Composition-based stats.
+ Identities = 73/186 (39%), Gaps = 11/186 (6%)
+ Strand=Plus/Plus
+
+Query  73   LMEDTMTEVKAYKKELEEQLGPVAEETRARLGKEVQAAQARLGADMEDLRNRLGQYRNEVHTMLGQSTEEIRARLSTHLRKMRKRLMRDAEDLQKRLAVYKAGAREGAERGVSAIRERLGPLVEQGRQ  200
+            | ||   |   |  || ||||||| |   || ||  |   ||  | |  |  |  |  |    |||  || | ||       ||||  ||| ||  || |    ||  |  | | | || |  |  ||
+Sbjct  1    LLEDSLDELSTYAEELQEQLGPVAQELVDRLEKETEALRERLQKDLEEVRAKLEPYLEELQAKLGQNVEELRQRLEPYTEELRKRLNADAEELQEKLAPYGEELRERLEQNVDALRARLAPYAEELRQ  128
+
+Query  201  RTANLGAGAAQPLRDRAQAFGDRIRGRLEEVGNQARDRLEEVREHMEEVRSKMEEQTQ  258
+                        |  |            |||  |   || | ||  |       |   
+Sbjct  129  K-----------LAERLEELKESLAPYAEEVQAQLSQRLQELREKLEPQAEDLREKLD  175
+
+
+
+>cdd:460211 Apolipoprotein(Non-specific), 460211, pfam01442, Apolipoprotein 
+A1/A4/E domain; These proteins contain several 22 residue 
+repeats which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein 
+E
+Length=175
+
+ Score = 61.1 bits (149),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 44/152 (29%), Gaps = 2/152 (1%)
+ Strand=Plus/Plus
+
+Query  51   QTLSDQVQEELQSSQVTQELTALMEDTMTEVKAYKKELEEQLGPVAEETRARLGKEVQAAQARLGADMEDLRNRLGQYRNEVHTMLGQSTEEIRARLSTHLRKMRKRLMRDAEDLQKRLAVYKAGARE  178
+            | | |    |         |    |        |  ||   ||   || | ||         || || | |   |  |  |    | |     ||||       |  |    | |   || |      
+Sbjct  25   QELVDRLEKETE--ALRERLQKDLEEVRAKLEPYLEELQAKLGQNVEELRQRLEPYTEELRKRLNADAEELQEKLAPYGEELRERLEQNVDALRARLAPYAEELRQKLAERLEELKESLAPYAEEVQA  150
+
+Query  179  GAERGVSAIRERLGPLVEQGRQRT  202
+                     || | |  |  |   
+Sbjct  151  QLSQRLQELREKLEPQAEDLREKL  174
+
+
+
+>cdd:460211 Apolipoprotein(Non-specific), 460211, pfam01442, Apolipoprotein 
+A1/A4/E domain; These proteins contain several 22 residue 
+repeats which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein 
+E
+Length=175
+
+ Score = 44.6 bits (106),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 33/143 (23%), Gaps = 13/143 (9%)
+ Strand=Plus/Plus
+
+Query  50   VQTLSDQVQEELQSSQVTQELTALMEDTMTEVKAYKKELEEQLGPVAEETRARLGKEVQAAQARLGADMEDLRN-----------RLGQYRNEVHTMLGQSTEEIRARLSTHLRKMRKRLMRDAEDLQ  166
+               |    |  |    |   |    |           ||   | |  || | ||       |  |    | ||            ||  |  |    |    ||    |          |      | 
+Sbjct  35   TEALRERLQKDLE--EVRAKLEPYLEELQAKLGQNVEELRQRLEPYTEELRKRLNADAEELQEKLAPYGEELRERLEQNVDALRARLAPYAEELRQKLAERLEELKESLAPYAEEVQAQLSQRLQELR  160
+
+Query  167  KRLAVYKAGAREGAE  181
+              |       ||   
+Sbjct  161  EKLEPQAEDLREKLD  175
+
+
+
+>cdd:274008 SMC_prok_B(Non-specific), 274008, TIGR02168, chromosome segregation 
+protein SMC, common bacterial type; SMC (structural maintenance 
+of chromosomes) proteins bind DNA and act in organizing 
+and segregating chromosomes for partition. SMC proteins 
+are found in bacteria, archaea, and eukaryotes. This family 
+represents the SMC protein of most bacteria. The smc gene 
+is often associated with scpB (TIGR00281) and scpA genes, where 
+scp stands for segregation and condensation protein. SMC 
+was shown (in Caulobacter crescentus) to be induced early 
+in S phase but present and bound to DNA throughout the cell 
+cycle [Cellular processes, Cell division, DNA metabolism, Chromosome-associated 
+proteins]
+SMC_prok_B(Superfamily), 274008, 
+cl37069, chromosome segregation protein SMC, common bacterial 
+type; SMC (structural maintenance of chromosomes) proteins 
+bind DNA and act in organizing and segregating chromosomes 
+for partition. SMC proteins are found in bacteria, archaea, 
+and eukaryotes. This family represents the SMC protein of 
+most bacteria. The smc gene is often associated with scpB (TIGR00281) 
+and scpA genes, where scp stands for segregation 
+and condensation protein. SMC was shown (in Caulobacter crescentus) 
+to be induced early in S phase but present and bound 
+to DNA throughout the cell cycle [Cellular processes, Cell 
+division, DNA metabolism, Chromosome-associated proteins]
+Length=1179
+
+ Score = 43.5 bits (103),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 46/234 (20%), Gaps = 18/234 (8%)
+ Strand=Plus/Plus
+
+Query  56   QVQEELQSSQVTQELTALMEDTMTEVKAYKKELEEQLGP------VAEETRARLGKEVQAAQARLGADME---DLRNRLGQYRNEVHTMLGQSTEEIRARLSTHLRKMRKRLMRDAEDLQKRLAVYKA  174
+                         |  |      ||  |   |||| |         ||     |          | |  |    ||  |     |          |   |           |    | |        |
+Sbjct  734  DLARLEAEVEQLEERIAQLSKELTELEAEIEELEERLEEAEEELAEAEAEIEELEAQIEQLKEELKALREALDELRAELTLLNEEAANL--RERLESLERRIAATERRLEDLEEQIEELSEDIESL-A  858
+
+Query  175  GAREGAERGVSAIRERLGPLVEQGRQRTANLGAGAAQPLRDRAQAFGDRIRGRLEEVGNQARDRLEEVREHMEEVRSKMEEQTQQIRLQAEIFQARLKGWFEPIVE  280
+               |  |         |  |          |       ||          |  ||      |  ||| ||         |     |    |          |    
+Sbjct  859  AEIEELEELIEELESELEALLNERASLEEALAL-----LRSELEELSEELR-ELESKRSELRRELEELREKLAQLELRLEGLEVRIDNLQERLSEEYSLTLEEAEA  958
+
+
+
+>cdd:463981 DUF4175(Non-specific), 463981, pfam13779, Domain of unknown function 
+(DUF4175); Domain of unknown function (DUF4175). 
+DUF4175(Superfamily), 
+463981, cl44629, Domain of unknown function 
+(DUF4175); Domain of unknown function (DUF4175)
+Length=833
+
+ Score = 38.0 bits (89),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 52/237 (22%), Gaps = 29/237 (12%)
+ Strand=Plus/Plus
+
+Query  31   QSNQPWEQALNRFWDYLRWVQTLSDQVQEELQSSQVTQELTALMEDTMTEVKAYKKELEEQLGPVAEETRARLGKEVQAAQARLGADMEDLRNRLGQYRNEVHTMLGQSTEEIRARLSTHLRKMRKRL  158
+            |      ||     | ||  | | |     ||     |                                         |   |      || ||     |          |    |    |      
+Sbjct  600  QGQSEMQQAMDELGDLLREQQQLLDETFRQLQQQGGQQ-------QGQPGQQGQQGQGQQPGQGGQQPGAQMPPQGGAEALGDLAERQQALRRRLEELQDE---LKELGGKEPGQALGDAGRA-----  712
+
+Query  159  MRDAED-LQKRLAVYKAGAREGAERGVSAIRERLGPLVEQ------GRQRTANLGAGAAQPLRD---RAQAFGDRIRGRLEEVGNQARDRLEEVREHMEEVRSKMEEQT  257
+            |||||  |        |||     |   | |     | |         |     | |  |   |   |    |    |  | |           ||  || |      |
+Sbjct  713  MRDAEEALGQGDL---AGAVDAQGRALEALRKGAQQLAEAMQQQQGQGQQPGQGGQGGRQAGQDPLGRPLGGGGDF-GDDEAVKVPDEIDAQRAREILEELRRRLGDPT  817
+
+
+
+>cdd:443941 COG4913(Non-specific), 443941, COG4913, Uncharacterized conserved 
+protein, contains a C-terminal ATPase domain [Function 
+unknown]; Uncharacterized conserved protein, contains a C-terminal 
+ATPase domain [Function unknown]. 
+COG4913(Superfamily), 
+443941, cl25907, Uncharacterized conserved protein, contains 
+a C-terminal ATPase domain [Function unknown]; Uncharacterized 
+conserved protein, contains a C-terminal ATPase domain 
+[Function unknown]
+Length=1089
+
+ Score = 38.0 bits (89),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 33/183 (18%), Gaps = 24/183 (13%)
+ Strand=Plus/Plus
+
+Query  79   TEVKAYKKELEEQLGPVAEETRARLGKEVQAAQARLGADMEDLRNRLGQYRNEVHTMLGQSTEEIRARLSTHLRKMRKRLMRDAEDLQKRLAVYKAGAREGAERGVSAIRERLGPLVEQGRQRTANLG  206
+                    ||||          |||  |     |||      ||  |           |             |     || |  |    | |   |           |  |    |          | 
+Sbjct  288  RRLELLEAELEE-----LRAELARLEAELERLEARL----DALREELDELEAQ---IRGNGGDRL-----EQLEREIERLERELEERERRRARLEALLAA-LGLPLPASAEEFAALRAEAAALLEALE  397
+
+Query  207  AGAAQPLRDRAQAFGDRIRGRLEEVGNQARDRLEEVREHMEEVRSKMEEQTQQIR  261
+                                 |          ||      |   |         |
+Sbjct  398  E-----ELEALEEALAEAEAALRDL-RRELRELEAEIASLERRKSNIPARLLALR  446
+
+
+
+Q#9 - >APOE_Myiozetetes_cayanensis.fa [APOE_Myiozetetes_cayanensis.fa]
+
+>cdd:460211 Apolipoprotein(Non-specific), 460211, pfam01442, Apolipoprotein 
+A1/A4/E domain; These proteins contain several 22 residue 
+repeats which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein 
+E.
+Apolipoprotein(Superfamily), 460211, cl27567, Apolipoprotein 
+A1/A4/E domain; These proteins contain several 22 residue 
+repeats which form a pair of alpha helices. This family 
+includes: Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein 
+E
+Length=175
+
+ Score = 40.7 bits (96),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 22/82 (27%), Gaps = 1/82 (1%)
+ Strand=Plus/Plus
+
+Query  42   LEAAAENATERLRETPVVQRLQQVVGEFRALRNEARDRAAEYGVEAKALLEQSWGDLKARGASFARKLRKRLNRDAEELRKR  123
+            |          |                     | |     |  |  | | |    |  |       |||||| |||||   
+Sbjct  16   LQEQLGPVAQELVDR-LEKETEALRERLQKDLEEVRAKLEPYLEELQAKLGQNVEELRQRLEPYTEELRKRLNADAEELQEK  96
+
+
+
+Q#10 - >APOE_Panthera_leo.fa [APOE_Panthera_leo.fa]
+
+>cdd:460211 Apolipoprotein(Specific), 460211, pfam01442, Apolipoprotein A1/A4/E 
+domain; These proteins contain several 22 residue repeats 
+which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein E.
+
+Apolipoprotein(Superfamily), 460211, cl27567, Apolipoprotein 
+A1/A4/E domain; These proteins contain several 22 residue 
+repeats which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein 
+E
+Length=175
+
+ Score = 124 bits (314),  Expect = 4e-35, Method: Composition-based stats.
+ Identities = 75/186 (40%), Gaps = 15/186 (8%)
+ Strand=Plus/Plus
+
+Query  69   LMEETMKEVKAYREELEEQLGPMASETQARVAKELQAAQARLASDMEDVRNRLAQYRSEVQAMLGQSAEELRGRLASHLRKLRKRLLRDAEDLHKRLAVYRAGVREGAERSVSSIRERFWPLVEQARA  196
+            | |    |   | ||| ||||| | |   |  ||  |   ||  | | ||  |  |  | || |||  |||| ||      |||||  ||| |   || |    ||  |  |   | |  |  |    
+Sbjct  1    LLEDSLDELSTYAEELQEQLGPVAQELVDRLEKETEALRERLQKDLEEVRAKLEPYLEELQAKLGQNVEELRQRLEPYTEELRKRLNADAEELQEKLAPYGEELRERLEQNVDALRARLAPYAEE---  125
+
+Query  197  RNANVAAVAAQPLRERAEALGQQLRGRLDEVREQ----VEEMRLKMEEQADQMRQQAE  250
+                      | | || | |   |     ||  |      | | | | ||   |    
+Sbjct  126  --------LRQKLAERLEELKESLAPYAEEVQAQLSQRLQELREKLEPQAEDLREKLD  175
+
+
+
+>cdd:274008 SMC_prok_B(Non-specific), 274008, TIGR02168, chromosome segregation 
+protein SMC, common bacterial type; SMC (structural maintenance 
+of chromosomes) proteins bind DNA and act in organizing 
+and segregating chromosomes for partition. SMC proteins 
+are found in bacteria, archaea, and eukaryotes. This family 
+represents the SMC protein of most bacteria. The smc gene 
+is often associated with scpB (TIGR00281) and scpA genes, where 
+scp stands for segregation and condensation protein. SMC 
+was shown (in Caulobacter crescentus) to be induced early 
+in S phase but present and bound to DNA throughout the cell 
+cycle [Cellular processes, Cell division, DNA metabolism, Chromosome-associated 
+proteins]
+SMC_prok_B(Superfamily), 274008, 
+cl37069, chromosome segregation protein SMC, common bacterial 
+type; SMC (structural maintenance of chromosomes) proteins 
+bind DNA and act in organizing and segregating chromosomes 
+for partition. SMC proteins are found in bacteria, archaea, 
+and eukaryotes. This family represents the SMC protein of 
+most bacteria. The smc gene is often associated with scpB (TIGR00281) 
+and scpA genes, where scp stands for segregation 
+and condensation protein. SMC was shown (in Caulobacter crescentus) 
+to be induced early in S phase but present and bound 
+to DNA throughout the cell cycle [Cellular processes, Cell 
+division, DNA metabolism, Chromosome-associated proteins]
+Length=1179
+
+ Score = 38.5 bits (90),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 51/225 (23%), Gaps = 21/225 (9%)
+ Strand=Plus/Plus
+
+Query  71   EETMKEVKAYREELEEQLGPMASETQARVAK--ELQAAQARLASDMEDVRNRLAQYRSEVQAMLGQSAEELRGRLASHLRKLRKRLLRDAEDLHKRLAVYRAGVREGAERSVSSIRERFWPLVEQ--A  194
+                 |  |  ||||| |     |     |   || |    |       |  |   | |    |   |  || || |  |       |  |||            |          |    |     |
+Sbjct  753  SKELTELEAEIEELEERLEEAEEELAEAEAEIEELEAQIEQLKEELKALREALDELRAELTL-LNEEAANLRERLESLERRIAATERR-LEDLEEQIEE-LSEDIESLAAEIEELEELIEELESELEA  877
+
+Query  195  RARNANVAAVAAQPLRERAEALG----------QQLRGRLDEVREQVEEMRLKMEEQADQMRQQAEAFQARLKSWFEPLVQDMQRQWAGLVEKLQAA  281
+                      |   ||   | |             ||  | | ||      |  |             | ||                        |
+Sbjct  878  LLNERASLEEALALLRSELEELSEELRELESKRSELRRELEELREKLAQLELRLEG----LEVRIDNLQERLSEEYSLTLEEAEALENKIEDDEEEA  970
+
+
+
+>cdd:274008 SMC_prok_B(Non-specific), 274008, TIGR02168, chromosome segregation 
+protein SMC, common bacterial type; SMC (structural maintenance 
+of chromosomes) proteins bind DNA and act in organizing 
+and segregating chromosomes for partition. SMC proteins 
+are found in bacteria, archaea, and eukaryotes. This family 
+represents the SMC protein of most bacteria. The smc gene 
+is often associated with scpB (TIGR00281) and scpA genes, where 
+scp stands for segregation and condensation protein. SMC 
+was shown (in Caulobacter crescentus) to be induced early 
+in S phase but present and bound to DNA throughout the cell 
+cycle [Cellular processes, Cell division, DNA metabolism, Chromosome-associated 
+proteins]
+Length=1179
+
+ Score = 38.5 bits (90),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 38/207 (18%), Gaps = 26/207 (13%)
+ Strand=Plus/Plus
+
+Query  70   MEETMKEVKAYREELEEQLGPMASETQARVAKELQAAQARL--------ASDMEDVRNRLAQYRSEVQAMLGQ---SAEELRGRLASHLRKLRKRLLRDAEDLHKRLAVYRAGVR-EGAERSVSSIRE  185
+              |          ||| ||     | ||  |       | |            |  |  |     |             ||                   |        |         |      ||
+Sbjct  184  TRENLDRLEDILNELERQLKSL--ERQAEKAERYKELKAELRELELALLVLRLEELREELEELQEELKEAEEELEELTAELQELEEKLEELRLEVSELEEEIEELQKELYALANEISRLEQQKQILRE  309
+
+Query  186  RFWPLVEQARARNANVAAVAAQP--LRERAEALGQQ----------LRGRLDEVREQVEEMRLKMEEQADQMRQQAEAF  252
+            |   |  |     |           | |    |             |   | |     ||     ||   |        
+Sbjct  310  RLANLERQLEELEAQLEELESKLDELAEELAELEEKLEELKEELESLEAELEELEAELEELESRLEELEEQLETLRSKV  388
+
+
+
+>cdd:460211 Apolipoprotein(Non-specific), 460211, pfam01442, Apolipoprotein 
+A1/A4/E domain; These proteins contain several 22 residue 
+repeats which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein 
+E
+Length=175
+
+ Score = 37.2 bits (87),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 22/76 (29%), Gaps = 0/76 (0%)
+ Strand=Plus/Plus
+
+Query  68   VLMEETMKEVKAYREELEEQLGPMASETQARVAKELQAAQARLASDMEDVRNRLAQYRSEVQAMLGQSAEELRGRL  143
+               ||           |   | | | |     |  |      ||   | |   | |   |    |   || ||  |
+Sbjct  99   PYGEELRERLEQNVDALRARLAPYAEELRQKLAERLEELKESLAPYAEEVQAQLSQRLQELREKLEPQAEDLREKL  174
+
+
+
+Q#11 - >APOE_Podarcis_muralis.fa [APOE_Podarcis_muralis.fa]
+
+>cdd:460211 Apolipoprotein(Specific), 460211, pfam01442, Apolipoprotein A1/A4/E 
+domain; These proteins contain several 22 residue repeats 
+which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein E.
+
+Apolipoprotein(Superfamily), 460211, cl27567, Apolipoprotein 
+A1/A4/E domain; These proteins contain several 22 residue 
+repeats which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein 
+E
+Length=175
+
+ Score = 125 bits (317),  Expect = 9e-36, Method: Composition-based stats.
+ Identities = 58/171 (34%), Gaps = 0/171 (0%)
+ Strand=Plus/Plus
+
+Query  68   ITDTMAELDLYTENLRSKIGPYAQDVQQRLTTEMSALSEKLRTDMEETKGKVVQYTNDARLMLNHNMEVLRSQFNLYMRKMKKRLTKDVDDLQRKFEAYRAEVQTNADEKVEAVRQSLEPYFSKIREK  195
+              |   ||  | | |    || ||    ||  |  || | |  | ||   |   |       |  | | ||     |     |||  |   || |   |  |        | | |  | ||    | |
+Sbjct  2    LEDSLDELSTYAEELQEQLGPVAQELVDRLEKETEALRERLQKDLEEVRAKLEPYLEELQAKLGQNVEELRQRLEPYTEELRKRLNADAEELQEKLAPYGEELRERLEQNVDALRARLAPYAEELRQK  129
+
+Query  196  GQQRFQALAQAVGEQGKMVHEQLNSRAQELKDSFDQTAEKVRE  238
+               |   |          |  ||  | |||       ||  ||
+Sbjct  130  LAERLEELKESLAPYAEEVQAQLSQRLQELREKLEPQAEDLRE  172
+
+
+
+>cdd:460211 Apolipoprotein(Non-specific), 460211, pfam01442, Apolipoprotein 
+A1/A4/E domain; These proteins contain several 22 residue 
+repeats which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein 
+E
+Length=175
+
+ Score = 42.6 bits (101),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 29/159 (18%), Gaps = 35/159 (22%)
+ Strand=Plus/Plus
+
+Query  39   DVVTRIGDAADDATAQIKSS--QLSKELDGFITDTMAELDLYTENLRSKIGPYAQDVQQRLTTEMSALSEKLRTDMEETKGKVVQYTNDARLMLNHNMEVLRSQFNLYMRKMKKRLTKDVDDLQRKFE  164
+             |            |        |   |          |    | |  |  ||      |                                 |  |   ||     |       |      |     
+Sbjct  48   EVRAKLEPYLEELQAKLGQNVEELRQRLEPYTEELRKRLNADAEELQEKLAPYGEELRER---------------------------------LEQNVDALRARLAPYAEELRQKLAERLEELKESLA  142
+
+Query  165  AYRAEVQTNADEKVEAVRQSLEPYFSKIREK  195
+             |  |||          |  |||     |||
+Sbjct  143  PYAEEVQAQLSQRLQELREKLEPQAEDLREK  173
+
+
+
+Q#12 - >APOE_Rhea_pennata.fa [APOE_Rhea_pennata.fa]
+
+>cdd:460211 Apolipoprotein(Specific), 460211, pfam01442, Apolipoprotein A1/A4/E 
+domain; These proteins contain several 22 residue repeats 
+which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein E.
+
+Apolipoprotein(Superfamily), 460211, cl27567, Apolipoprotein 
+A1/A4/E domain; These proteins contain several 22 residue 
+repeats which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein 
+E
+Length=175
+
+ Score = 96.2 bits (240),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 64/171 (37%), Gaps = 7/171 (4%)
+ Strand=Plus/Plus
+
+Query  66   LIAETMAELEAQAVELQAQLGPGGEASVG-LQRDVEELGGRLRAEMAEARGRVAQYGAEAQAVLQQGAEDLRGRLAAYTRKLRKRLAKDTEELRSRLAAAASKVQARVAERAAALRQGLPPL------  186
+            |      ||   | ||| ||||     |  |    | |  ||     | |     |  | || | |  | || ||  ||  |||||  | |||   ||        |      |||  | |       
+Sbjct  1    LLEDSLDELSTYAEELQEQLGPVAQELVDRLEKETEALRERLQKDLEEVRAKLEPYLEELQAKLGQNVEELRQRLEPYTEELRKRLNADAEELQEKLAPYGEELRERLEQNVDALRARLAPYAEELRQ  128
+
+Query  187  RAAPRLAALGQVLGEQGLRVQQGLQEAVQELRASLDGAVQGLR  229
+              | ||  |   |      ||  |    ||||  |      ||
+Sbjct  129  KLAERLEELKESLAPYAEEVQAQLSQRLQELREKLEPQAEDLR  171
+
+
+
+>cdd:460211 Apolipoprotein(Non-specific), 460211, pfam01442, Apolipoprotein 
+A1/A4/E domain; These proteins contain several 22 residue 
+repeats which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein 
+E
+Length=175
+
+ Score = 50.7 bits (122),  Expect = 7e-08, Method: Composition-based stats.
+ Identities = 36/117 (31%), Gaps = 1/117 (1%)
+ Strand=Plus/Plus
+
+Query  68   AETMAELEAQAVELQAQLGPGG-EASVGLQRDVEELGGRLRAEMAEARGRVAQYGAEAQAVLQQGAEDLRGRLAAYTRKLRKRLAKDTEELRSRLAAAASKVQARVAERAAALRQGL  183
+             |  | |     ||   | |   |    |  | |||   |     | | |  |      | |   || ||  ||     |   ||   ||    |              |  ||  |
+Sbjct  58   EELQAKLGQNVEELRQRLEPYTEELRKRLNADAEELQEKLAPYGEELRERLEQNVDALRARLAPYAEELRQKLAERLEELKESLAPYAEEVQAQLSQRLQELREKLEPQAEDLREKL  174
+
+
+
+>cdd:443941 COG4913(Non-specific), 443941, COG4913, Uncharacterized conserved 
+protein, contains a C-terminal ATPase domain [Function 
+unknown]; Uncharacterized conserved protein, contains a C-terminal 
+ATPase domain [Function unknown]. 
+COG4913(Superfamily), 
+443941, cl25907, Uncharacterized conserved protein, contains 
+a C-terminal ATPase domain [Function unknown]; Uncharacterized 
+conserved protein, contains a C-terminal ATPase domain 
+[Function unknown]
+Length=1089
+
+ Score = 41.4 bits (98),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 36/173 (21%), Gaps = 19/173 (11%)
+ Strand=Plus/Plus
+
+Query  72   AELEAQAVELQAQLGPGGEASVGLQRDVEELGGRLRA------------EMAEARGRVAQYGAEAQAVLQQGAEDLRG--RLAAYTRKLRKRLAKDTEELRSRLAAAASKVQARVAERAAALRQGLPP  185
+            | |||   ||   |    |    |      |  |  |              | |    |   ||    |     ||                |     ||                |           
+Sbjct  613  AALEAELAELEEELAEAEERLEALEAELDALQERREALQRLAEYSWDEIDVASAEREIAELEAELER-LDASSDDLAALEEQLEELEAELEELEEELDELKGEIGRLEKELEQAEEELDELQDR----  735
+
+Query  186  LRAAPRLAALGQVLGEQGLRVQQGLQEAVQELRASLDGAVQGLRS  230
+            | ||  || |                    |||  |      || 
+Sbjct  736  LEAAEDLARLELRALLEERFAAALGDAVERELRENLEERIDALRA  780
+
+
+
+>cdd:460211 Apolipoprotein(Non-specific), 460211, pfam01442, Apolipoprotein 
+A1/A4/E domain; These proteins contain several 22 residue 
+repeats which form a pair of alpha helices. This family includes: 
+Apolipoprotein A-I. Apolipoprotein A-IV. Apolipoprotein 
+E
+Length=175
+
+ Score = 39.9 bits (94),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 28/104 (27%), Gaps = 16/104 (15%)
+ Strand=Plus/Plus
+
+Query  132  AEDLRGRLAAYTRKLRKRLAKDTEELRSRLAAAASKVQARVAERAAALRQGLPPLRAAPRLAALGQVLGEQGLRVQQGLQEAVQELRASLDGAVQGLRSWLAAL  235
+            || |   |      |  || | || || ||      | |        |                   ||       | |     |||  |      |   ||  
+Sbjct  13   AEELQEQLGPVAQELVDRLEKETEALRERLQKDLEEVRAKLEPYLEELQA----------------KLGQNVEELRQRLEPYTEELRKRLNADAEELQEKLAPY  100
+
+
+
+>cdd:440809 Smc(Non-specific), 440809, COG1196, Chromosome segregation ATPase 
+Smc [Cell cycle control, cell division, chromosome partitioning]; 
+Chromosome segregation ATPase Smc [Cell cycle control, 
+cell division, chromosome partitioning]. 
+Smc(Superfamily), 
+440809, cl34174, Chromosome segregation ATPase Smc [Cell 
+cycle control, cell division, chromosome partitioning]; Chromosome 
+segregation ATPase Smc [Cell cycle control, cell division, 
+chromosome partitioning]
+Length=983
+
+ Score = 39.5 bits (93),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 35/179 (20%), Gaps = 3/179 (2%)
+ Strand=Plus/Plus
+
+Query  57   AQIGRKLDGLIAETMAELEAQAVELQAQLGPGGEASVGLQRDVEELGGRLRAEMAEARGRVAQYGAEAQAVLQQGAEDLRGRLAAYTRKLRKRLAKDTEELRSRLAAAASKVQARVAERAAALRQGLP  184
+            |     |    ||     |         |     |   |    |||     |                 |      |      |              ||    | |      |      | |   | 
+Sbjct  361  AEAEEALLEAEAELAEAEEELEELAEELLEALRAAAE-LAAQLEELEEAEEALLERLERLEEELEELEEALAELEEEEEEEEEALEEAAEEEAELEEEEEALLELLAELLEEAALLEAALAELLEEL-  486
+
+Query  185  PLRAAPRLAALGQVLGEQGLRVQQGLQEAVQELRASLDGAVQGLRSWLAAL  235
+               || ||  |                         | |||  |    || 
+Sbjct  487  -AEAAARLLLLLEAEADYEGFLEGVKAALLLAGLRGLAGAVAVLIGVEAAY  536
+
+
+

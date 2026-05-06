@@ -1,0 +1,81 @@
+#Batch CD-search tool	
+#cdsid	
+#datatype	
+#status	
+#Start time	2024-07-16T10:47:43	Run time	
+#status	
+
+Query	Hit type	PSSM-ID	From	To	E-Value	Bitscore	Accession	Short name	Incomplete	Superfamily	
+Q#1 - >Alligator_sinensis	specific	460211	63	229	1.25367e-23	93.4824	pfam01442	Apolipoprotein	 - 	cl27567	
+Q#1 - >Alligator_sinensis	superfamily	460211	63	229	1.25367e-23	93.4824	cl27567	Apolipoprotein superfamily	 - 	 - 	
+Q#1 - >Alligator_sinensis	non-specific	460211	129	249	2.06164e-06	46.8732	pfam01442	Apolipoprotein	C	cl27567	
+Q#1 - >Alligator_sinensis	non-specific	443941	91	252	0.00779701	37.5873	COG4913	COG4913	NC	cl25907	
+Q#1 - >Alligator_sinensis	superfamily	443941	91	252	0.00779701	37.5873	cl25907	COG4913 superfamily	NC	 - 	
+Q#2 - >Balaenoptera_musculus	specific	460211	80	254	1.8718e-35	126.224	pfam01442	Apolipoprotein	 - 	cl27567	
+Q#2 - >Balaenoptera_musculus	superfamily	460211	80	254	1.8718e-35	126.224	cl27567	Apolipoprotein superfamily	 - 	 - 	
+Q#2 - >Balaenoptera_musculus	non-specific	179385	83	288	0.000325186	42.3346	PRK02224	PRK02224	NC	cl32023	
+Q#2 - >Balaenoptera_musculus	superfamily	179385	83	288	0.000325186	42.3346	cl32023	PRK02224 superfamily	NC	 - 	
+Q#2 - >Balaenoptera_musculus	non-specific	274008	63	303	0.000466224	41.9659	TIGR02168	SMC_prok_B	N	cl37069	
+Q#2 - >Balaenoptera_musculus	superfamily	274008	63	303	0.000466224	41.9659	cl37069	SMC_prok_B superfamily	N	 - 	
+Q#2 - >Balaenoptera_musculus	non-specific	443941	112	306	0.00521618	38.7429	COG4913	COG4913	NC	cl25907	
+Q#2 - >Balaenoptera_musculus	superfamily	443941	112	306	0.00521618	38.7429	cl25907	COG4913 superfamily	NC	 - 	
+Q#2 - >Balaenoptera_musculus	non-specific	440809	92	279	0.00706079	37.994	COG1196	Smc	C	cl34174	
+Q#2 - >Balaenoptera_musculus	superfamily	440809	92	279	0.00706079	37.994	cl34174	Smc superfamily	C	 - 	
+Q#3 - >Betta_splendens	specific	460211	68	242	1.92382e-32	117.365	pfam01442	Apolipoprotein	 - 	cl27567	
+Q#3 - >Betta_splendens	superfamily	460211	68	242	1.92382e-32	117.365	cl27567	Apolipoprotein superfamily	 - 	 - 	
+Q#3 - >Betta_splendens	non-specific	460211	121	278	8.56588e-17	76.1484	pfam01442	Apolipoprotein	 - 	cl27567	
+Q#3 - >Betta_splendens	non-specific	460211	158	276	3.70176e-06	46.1028	pfam01442	Apolipoprotein	C	cl27567	
+Q#3 - >Betta_splendens	non-specific	460211	200	278	0.00117518	38.7841	pfam01442	Apolipoprotein	C	cl27567	
+Q#3 - >Betta_splendens	non-specific	236892	108	253	0.00280917	39.1245	PRK11281	PRK11281	C	cl46976	
+Q#3 - >Betta_splendens	superfamily	481316	108	253	0.00280917	39.1245	cl46976	PRK11281 superfamily	C	 - 	
+Q#4 - >Bos_taurus	specific	460211	113	296	1.76579e-36	129.691	pfam01442	Apolipoprotein	 - 	cl27567	
+Q#4 - >Bos_taurus	superfamily	460211	113	296	1.76579e-36	129.691	cl27567	Apolipoprotein superfamily	 - 	 - 	
+Q#4 - >Bos_taurus	non-specific	443969	95	309	0.00577362	38.2063	COG4942	EnvC	C	cl34844	
+Q#4 - >Bos_taurus	superfamily	443969	95	309	0.00577362	38.2063	cl34844	EnvC superfamily	C	 - 	
+Q#5 - >Chrysemys_picta_bellii	specific	460211	113	287	5.69149e-42	143.558	pfam01442	Apolipoprotein	 - 	cl27567	
+Q#5 - >Chrysemys_picta_bellii	superfamily	460211	113	287	5.69149e-42	143.558	cl27567	Apolipoprotein superfamily	 - 	 - 	
+Q#5 - >Chrysemys_picta_bellii	non-specific	460211	89	198	1.03205e-05	45.3324	pfam01442	Apolipoprotein	N	cl27567	
+Q#5 - >Chrysemys_picta_bellii	non-specific	460211	245	320	0.0010327	39.1693	pfam01442	Apolipoprotein	C	cl27567	
+Q#5 - >Chrysemys_picta_bellii	non-specific	129694	134	314	0.00376847	39.2597	TIGR00606	rad50	NC	cl31018	
+Q#5 - >Chrysemys_picta_bellii	superfamily	129694	134	314	0.00376847	39.2597	cl31018	rad50 superfamily	NC	 - 	
+Q#5 - >Chrysemys_picta_bellii	non-specific	183138	47	84	0.00384613	36.6443	PRK11443	PRK11443	C	cl19633	
+Q#5 - >Chrysemys_picta_bellii	superfamily	450344	47	84	0.00384613	36.6443	cl19633	DUF2799 superfamily	C	 - 	
+Q#5 - >Chrysemys_picta_bellii	non-specific	274008	114	320	0.00715004	38.1139	TIGR02168	SMC_prok_B	NC	cl37069	
+Q#5 - >Chrysemys_picta_bellii	superfamily	274008	114	320	0.00715004	38.1139	cl37069	SMC_prok_B superfamily	NC	 - 	
+Q#5 - >Chrysemys_picta_bellii	non-specific	442330	148	295	0.00865938	38.0096	COG3096	MukB	NC	cl34550	
+Q#5 - >Chrysemys_picta_bellii	superfamily	442330	148	295	0.00865938	38.0096	cl34550	MukB superfamily	NC	 - 	
+Q#6 - >Dromaius_novaehollandiae	specific	460211	66	224	2.71543e-20	84.6228	pfam01442	Apolipoprotein	 - 	cl27567	
+Q#6 - >Dromaius_novaehollandiae	superfamily	460211	66	224	2.71543e-20	84.6228	cl27567	Apolipoprotein superfamily	 - 	 - 	
+Q#6 - >Dromaius_novaehollandiae	non-specific	443941	72	212	0.00164892	39.5133	COG4913	COG4913	NC	cl25907	
+Q#6 - >Dromaius_novaehollandiae	superfamily	443941	72	212	0.00164892	39.5133	cl25907	COG4913 superfamily	NC	 - 	
+Q#7 - >Homo_sapiens	specific	460211	81	266	5.7771e-33	119.676	pfam01442	Apolipoprotein	 - 	cl27567	
+Q#7 - >Homo_sapiens	superfamily	460211	81	266	5.7771e-33	119.676	cl27567	Apolipoprotein superfamily	 - 	 - 	
+Q#8 - >Mus_musculus	specific	460211	73	258	1.58325e-40	139.321	pfam01442	Apolipoprotein	 - 	cl27567	
+Q#8 - >Mus_musculus	superfamily	460211	73	258	1.58325e-40	139.321	cl27567	Apolipoprotein superfamily	 - 	 - 	
+Q#8 - >Mus_musculus	non-specific	460211	51	202	3.40036e-11	61.1256	pfam01442	Apolipoprotein	 - 	cl27567	
+Q#8 - >Mus_musculus	non-specific	460211	50	181	1.4241e-05	44.562	pfam01442	Apolipoprotein	 - 	cl27567	
+Q#8 - >Mus_musculus	non-specific	274008	56	280	0.000132026	43.5067	TIGR02168	SMC_prok_B	N	cl37069	
+Q#8 - >Mus_musculus	superfamily	274008	56	280	0.000132026	43.5067	cl37069	SMC_prok_B superfamily	N	 - 	
+Q#8 - >Mus_musculus	non-specific	463981	31	257	0.00741738	38.0452	pfam13779	DUF4175	N	cl44629	
+Q#8 - >Mus_musculus	superfamily	463981	31	257	0.00741738	38.0452	cl44629	DUF4175 superfamily	N	 - 	
+Q#8 - >Mus_musculus	non-specific	443941	79	261	0.00798374	37.9725	COG4913	COG4913	NC	cl25907	
+Q#8 - >Mus_musculus	superfamily	443941	79	261	0.00798374	37.9725	cl25907	COG4913 superfamily	NC	 - 	
+Q#9 - >Myiozetetes_cayanensis	non-specific	460211	42	123	6.10204e-05	40.71	pfam01442	Apolipoprotein	C	cl27567	
+Q#9 - >Myiozetetes_cayanensis	superfamily	460211	42	123	6.10204e-05	40.71	cl27567	Apolipoprotein superfamily	C	 - 	
+Q#10 - >Panthera_leo	specific	460211	69	250	4.35966e-35	124.684	pfam01442	Apolipoprotein	 - 	cl27567	
+Q#10 - >Panthera_leo	superfamily	460211	69	250	4.35966e-35	124.684	cl27567	Apolipoprotein superfamily	 - 	 - 	
+Q#10 - >Panthera_leo	non-specific	274008	71	281	0.00444033	38.4991	TIGR02168	SMC_prok_B	N	cl37069	
+Q#10 - >Panthera_leo	superfamily	274008	71	281	0.00444033	38.4991	cl37069	SMC_prok_B superfamily	N	 - 	
+Q#10 - >Panthera_leo	non-specific	274008	70	252	0.00451897	38.4991	TIGR02168	SMC_prok_B	C	cl37069	
+Q#10 - >Panthera_leo	non-specific	460211	68	143	0.00491895	37.2433	pfam01442	Apolipoprotein	N	cl27567	
+Q#11 - >Podarcis_muralis	specific	460211	68	238	8.66525e-36	125.839	pfam01442	Apolipoprotein	 - 	cl27567	
+Q#11 - >Podarcis_muralis	superfamily	460211	68	238	8.66525e-36	125.839	cl27567	Apolipoprotein superfamily	 - 	 - 	
+Q#11 - >Podarcis_muralis	non-specific	460211	39	195	6.28933e-05	42.636	pfam01442	Apolipoprotein	N	cl27567	
+Q#12 - >Rhea_pennata	specific	460211	66	229	1.28452e-24	96.1788	pfam01442	Apolipoprotein	 - 	cl27567	
+Q#12 - >Rhea_pennata	superfamily	460211	66	229	1.28452e-24	96.1788	cl27567	Apolipoprotein superfamily	 - 	 - 	
+Q#12 - >Rhea_pennata	non-specific	460211	68	183	7.27662e-08	50.7252	pfam01442	Apolipoprotein	N	cl27567	
+Q#12 - >Rhea_pennata	non-specific	443941	72	230	0.000360425	41.4393	COG4913	COG4913	NC	cl25907	
+Q#12 - >Rhea_pennata	superfamily	443941	72	230	0.000360425	41.4393	cl25907	COG4913 superfamily	NC	 - 	
+Q#12 - >Rhea_pennata	non-specific	460211	132	235	0.000389284	39.9397	pfam01442	Apolipoprotein	C	cl27567	
+Q#12 - >Rhea_pennata	non-specific	440809	57	235	0.00163566	39.5348	COG1196	Smc	NC	cl34174	
+Q#12 - >Rhea_pennata	superfamily	440809	57	235	0.00163566	39.5348	cl34174	Smc superfamily	NC	 - 	
