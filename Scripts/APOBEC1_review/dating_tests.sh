@@ -338,7 +338,6 @@ done < ~/bird_db1/aswin/APOBEC1/Dating/paml/lost_galliformes \
 
 
 
-
  ################################################################################################################################################################################################################################################################################################
  #Label whole tree: Loss as #1, Mix as #2 & intact as 3
 
@@ -419,6 +418,19 @@ done
 wait
 end_time=$(date +%s) && elapsed_time=$((end_time - start_time))
 echo -e "\n Total time taken:" && echo $elapsed_time | awk '{print"-days:",$NF/60/60/24,"\n","-hours:",$NF/60/60,"\n","-mins:",$NF/60,"\n","-secs:",$1}' | column -t | sed 's/^/   /g' && echo -e
+
+#Estimate time
+cd ~/bird_db1/aswin/APOBEC1/Dating/paml/lossL1_mixL2_intL3
+
+while read s
+do
+  s1=$(echo $s | awk '{print$1}')
+  s2=$(echo $s | awk '{print$2}')
+  s3=$(echo $s | awk '{print$3}')
+d=$(~/bird_db1/aswin/APOBEC1/Dating/scripts/calculate_gene_inactivation.sh $s1 $s3 F1X4_lossL1_mixL2_intL3_hyphy_converted_to_paml_branch_labels_removed.nwk/paml_out F3X4_lossL1_mixL2_intL3_hyphy_converted_to_paml_branch_labels_removed.nwk/paml_out -wp=1,1 -wm=2 -wf=3 F1X4_lossL1_mixL2_intL3_hyphy_converted_to_paml_branch_labels_removed.nwk/lossL1_mixL2_intL3_hyphy_converted_to_paml_branch_labels_removed.nwk lossL1_mixL2_intL3_hyphy_converted_to_paml.nwk -s | grep -v "Mixed_branch_length")
+echo $s2 "$d"
+unset s1 s2 s3
+done < ~/bird_db1/aswin/APOBEC1/Dating/paml/all_lost_groups | sed '1i Group Species Functional_branch Mixed_branch_length 1dS_F1X4_Wm 1dS_F1X4_Wf 1dS_F1X4_Wp 1dS_F1X4_Tp 1dS_F3X4_Wm 1dS_F3X4_Wf 1dS_F3X4_Wp 1dS_F3X4_Tp 1dS_Mean_Tp 2dS_F1X4_Tp 2dS_F3X4_Tp 2dS_Mean_Tp' | sed 's/[ \t]/\t/g' > all_gene_loss_dates.out
 
 
 ################################################################################################################################################################################################################################################################################################
