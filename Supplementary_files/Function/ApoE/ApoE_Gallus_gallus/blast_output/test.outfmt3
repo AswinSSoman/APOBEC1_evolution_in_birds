@@ -1,0 +1,98 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: chicken.v23.fa
+           41 sequences; 1,100,928,095 total letters
+
+
+
+Query= exon_1
+
+Length=43
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+chr36                                                                 78.8       3e-14
+
+
+
+Query_1  1        ATGCTGTTGGTGACGGTGGTGGCCGCCGCGGCGCTGCTGGGGG  43
+37       2174315  ...........................................  2174273
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17614831808
+
+
+Query= exon_2
+
+Length=127
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+chr36                                                                 221        3e-56
+
+
+
+Query_2  1        CGTGTGGGGCTGAGACCCCCACCCCGGAGACGCCCCTGGCCCCATTGACGCTGTGGGGCCGCGTGGAGGAGGCGGCCAAGAACTTCAGCGACCGCCTGTGGGGCAGCGATGTGGGGCAGACCGTGCA  127
+37       2173349  ..................................G..........................T.................................................................  2173223
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 107890836788
+
+
+Query= exon_3
+
+Length=250
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+chr36                                                                 443        1e-122
+chr28                                                                 45.5       0.009 
+
+
+
+Query_3  1        GTCGCTGCTGACGGTGCTGCGCTCGGAGGCGGCGGACGCGCGGCTCCGCGTTGCGGAGTACGGGGCGGAGGTGGAGCAAAGCGTCGCCTCCCTCAGCAAACGCCTCCGCCGCCGTTTCTCCCGCGACGGCGAAGAGCTCCGCTCCCGGTGGGGCCAATACCGCCAAGCCGTGCAAGACCGAGCCCTGCGCTGGAAGGAGCGCTggagagggaggggaggggaggaggaggagcggggagaggCGGTTTGA  250
+37       2171022  ..................................................................................................................................................................................................................................................A..C....  2170773
+26       54508                                                                                                                                                                                              ...............--...-.....A....A....A.G.A...C.....A..             54459
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 242203910300
+
+
+  Database: chicken.v23.fa
+    Posted date:  Jan 22, 2025  10:47 PM
+  Number of letters in database: 1,100,928,095
+  Number of sequences in database:  41
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

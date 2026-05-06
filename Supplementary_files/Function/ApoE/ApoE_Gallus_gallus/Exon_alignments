@@ -1,0 +1,28 @@
+[07;32m[K>exon_1[m[K	[03;04;32m[KLength:169[m[K | [03;04;32m[KIdentity:125/169(74.0%)[m[K | [03;04;32m[KSimilarity:125/169(74.0%)[m[K | [03;04;32m[KGaps:42/169(24.9%)[m[K | [03;04;32m[KScore:617.0[m[K
+	
+  
+  ApoE_Gallus_g      1 ---------------------ATGCTGTTGGTGACGGTGGTGGCCGCCGCGGCGCTGCTGGGGG---------------------     43
+                                            |||||||||||||||||||||||||||||||||||||||||||                     
+  extracted_fla      1 GTTCCGCCGCCAGGTGGCGCTATGCTGTTGGTGACGGTGGTGGCCGCCGCGGCGCTGCTGGGGGTGAGTGACCCCCGTGGGGCTG     85
+
+
+[07;32m[K>exon_2[m[K	[03;04;32m[KLength:169[m[K | [03;04;32m[KIdentity:125/169(74.0%)[m[K | [03;04;32m[KSimilarity:125/169(74.0%)[m[K | [03;04;32m[KGaps:42/169(24.9%)[m[K | [03;04;32m[KScore:617.0[m[K
+	
+  
+  ApoE_Gallus_g      1 ---------------------CGTGTGGGGCTGAGACCCCCACCCCGGAGACGCCCCTGGCCCCATTGACGCTGTGGGGCCGCGTGGAGGAGGCGGCCAAGAACTTCAGCGACCGCCTGTGGGGCAGCGATGTGGGGCAGACCGTGCA---------------------    127
+                                            ||||||||||||||||||||||||||||||||||.||||||||||||||||||||||||||.|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||                     
+  extracted_fla      1 CATTCCCCCCCCATCCCTCAGCGTGTGGGGCTGAGACCCCCACCCCGGAGACGCCGCTGGCCCCATTGACGCTGTGGGGCCGTGTGGAGGAGGCGGCCAAGAACTTCAGCGACCGCCTGTGGGGCAGCGATGTGGGGCAGACCGTGCAGTGAGTGGGGGCCATGGGGGG    169
+
+
+[07;32m[K>exon_3[m[K	[03;04;32m[KLength:169[m[K | [03;04;32m[KIdentity:125/169(74.0%)[m[K | [03;04;32m[KSimilarity:125/169(74.0%)[m[K | [03;04;32m[KGaps:42/169(24.9%)[m[K | [03;04;32m[KScore:617.0[m[K
+	
+  
+  ApoE_Gallus_g      1 ---------------------GTCGCTGCTGACGGTGCTGCGCTCGGAGGCGGCGGACGCGCGGCTCCGCGTTGCGGAGTACGGGGCGGAGGTGGAGCAAAGCGTCGCCTCCCTCAGCAAACGCCTCCGCCGCCGTTTCTCCCGCGACGGCGAAGAGCTCCGCTCCCGGTGGGGCCAATACCGCCAAGCCGTGCAAGACCGAGCCCTGCGCTGGAAGGAGCGCTGGAGAGGGAGGGGAGG    219
+                                            |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+  extracted_fla      1 CCCCTCCCCCTCTTCCCATAGGTCGCTGCTGACGGTGCTGCGCTCGGAGGCGGCGGACGCGCGGCTCCGCGTTGCGGAGTACGGGGCGGAGGTGGAGCAAAGCGTCGCCTCCCTCAGCAAACGCCTCCGCCGCCGTTTCTCCCGCGACGGCGAAGAGCTCCGCTCCCGGTGGGGCCAATACCGCCAAGCCGTGCAAGACCGAGCCCTGCGCTGGAAGGAGCGCTGGAGAGGGAGGGGAGG    240
+  
+  ApoE_Gallus_g    220 GGAGGAGGAGGAGCGGGGAGAGGCGGTTTGA---------------------    250
+                       |||||||||||||||||||||||.||.||||                     
+  extracted_fla    241 GGAGGAGGAGGAGCGGGGAGAGGAGGCTTGAGAGGGGTTGTTTTGGGGGGGG    292
+
+

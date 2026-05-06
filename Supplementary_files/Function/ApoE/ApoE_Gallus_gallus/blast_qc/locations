@@ -1,0 +1,3 @@
+Location  #_hits  %_query_cov  %_identity  Lowest_evalue
+chr36     3       100          99.2083     3.28e-14
+chr28     1       7            27.044      0.009

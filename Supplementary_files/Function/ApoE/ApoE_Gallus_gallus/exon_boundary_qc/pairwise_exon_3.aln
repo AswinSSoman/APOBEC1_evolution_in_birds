@@ -1,0 +1,39 @@
+########################################
+# Program: needle
+# Rundate: Tue  4 Feb 2025 17:38:12
+# Commandline: needle
+#    -asequence ApoE_Gallus_gallus_exon_3.fa
+#    -bsequence extracted_flanking_region_exon_3.fa
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile pairwise_exon_3.aln
+#    -awidth3 10000
+# Align_format: srspair
+# Report_file: pairwise_exon_3.aln
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ApoE_Gallus_gallus_exon_3
+# 2: extracted_flanking_region_exon_3
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 292
+# Identity:     248/292 (84.9%)
+# Similarity:   248/292 (84.9%)
+# Gaps:          42/292 (14.4%)
+# Score: 1232.0
+# 
+#
+#=======================================
+
+ApoE_Gallus_g      1 ---------------------GTCGCTGCTGACGGTGCTGCGCTCGGAGGCGGCGGACGCGCGGCTCCGCGTTGCGGAGTACGGGGCGGAGGTGGAGCAAAGCGTCGCCTCCCTCAGCAAACGCCTCCGCCGCCGTTTCTCCCGCGACGGCGAAGAGCTCCGCTCCCGGTGGGGCCAATACCGCCAAGCCGTGCAAGACCGAGCCCTGCGCTGGAAGGAGCGCTGGAGAGGGAGGGGAGGGGAGGAGGAGGAGCGGGGAGAGGCGGTTTGA---------------------    250
+                                          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||.||.||||                     
+extracted_fla      1 CCCCTCCCCCTCTTCCCATAGGTCGCTGCTGACGGTGCTGCGCTCGGAGGCGGCGGACGCGCGGCTCCGCGTTGCGGAGTACGGGGCGGAGGTGGAGCAAAGCGTCGCCTCCCTCAGCAAACGCCTCCGCCGCCGTTTCTCCCGCGACGGCGAAGAGCTCCGCTCCCGGTGGGGCCAATACCGCCAAGCCGTGCAAGACCGAGCCCTGCGCTGGAAGGAGCGCTGGAGAGGGAGGGGAGGGGAGGAGGAGGAGCGGGGAGAGGAGGCTTGAGAGGGGTTGTTTTGGGGGGGG    292
+
+
+#---------------------------------------
+#---------------------------------------

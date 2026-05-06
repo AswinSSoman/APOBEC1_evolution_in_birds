@@ -1,0 +1,39 @@
+########################################
+# Program: needle
+# Rundate: Tue  4 Feb 2025 17:38:12
+# Commandline: needle
+#    -asequence ApoE_Gallus_gallus_exon_2.fa
+#    -bsequence extracted_flanking_region_exon_2.fa
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile pairwise_exon_2.aln
+#    -awidth3 10000
+# Align_format: srspair
+# Report_file: pairwise_exon_2.aln
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ApoE_Gallus_gallus_exon_2
+# 2: extracted_flanking_region_exon_2
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 169
+# Identity:     125/169 (74.0%)
+# Similarity:   125/169 (74.0%)
+# Gaps:          42/169 (24.9%)
+# Score: 617.0
+# 
+#
+#=======================================
+
+ApoE_Gallus_g      1 ---------------------CGTGTGGGGCTGAGACCCCCACCCCGGAGACGCCCCTGGCCCCATTGACGCTGTGGGGCCGCGTGGAGGAGGCGGCCAAGAACTTCAGCGACCGCCTGTGGGGCAGCGATGTGGGGCAGACCGTGCA---------------------    127
+                                          ||||||||||||||||||||||||||||||||||.||||||||||||||||||||||||||.|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||                     
+extracted_fla      1 CATTCCCCCCCCATCCCTCAGCGTGTGGGGCTGAGACCCCCACCCCGGAGACGCCGCTGGCCCCATTGACGCTGTGGGGCCGTGTGGAGGAGGCGGCCAAGAACTTCAGCGACCGCCTGTGGGGCAGCGATGTGGGGCAGACCGTGCAGTGAGTGGGGGCCATGGGGGG    169
+
+
+#---------------------------------------
+#---------------------------------------
