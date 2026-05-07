@@ -100,12 +100,12 @@ while read species
 do
 echo ">"$species
 cd /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/"$species"/knisbacher/repeat_insertion_time_DNA_editing_association/
-awk 'BEGIN{OFS="\t"; r=0.5e-9} {print $0, $7/(2*r)}' all_erv_per_div_GA_edit_count.out | awk 'BEGIN{OFS="\t"} NR==1{$9="Time"} {print}' > all_erv_per_div_GA_edit_count_human_time.out
-awk 'BEGIN{OFS="\t"; r=0.5e-9} {print $0, ($7/100)/(2*r)/1e6}' all_erv_per_div_GA_edit_count.out | awk 'BEGIN{OFS="\t"} NR==1{$9="Time"} {print}' > time2
-awk 'BEGIN{OFS="\t"; r=2.5e-8} {print $0, ($7/100)/(2*r)/1e6}' all_erv_per_div_GA_edit_count.out | awk 'BEGIN{OFS="\t"} NR==1{$9="Time"} {print}' > time3
-awk 'BEGIN{OFS="\t"; r=2.2e-9} {print $0, ($7/100)/(2*r)/1e6}' all_erv_per_div_GA_edit_count.out | awk 'BEGIN{OFS="\t"} NR==1{$9="Time"} {print}' > time4
-awk 'BEGIN{OFS="\t"; r=0.5e-9} {print $0, ($7/100)/(r)/1e6}' all_erv_per_div_GA_edit_count.out | awk 'BEGIN{OFS="\t"} NR==1{$9="Time"} {print}' > time5
-Rscript plot.R time5 time5.png Gallus_gallus
+#awk 'BEGIN{OFS="\t"; r=0.5e-9} {print $0, $7/(2*r)}' all_erv_per_div_GA_edit_count.out | awk 'BEGIN{OFS="\t"} NR==1{$9="Time"} {print}' > all_erv_per_div_GA_edit_count_human_time.out
+#awk 'BEGIN{OFS="\t"; r=0.5e-9} {print $0, ($7/100)/(2*r)/1e6}' all_erv_per_div_GA_edit_count.out | awk 'BEGIN{OFS="\t"} NR==1{$9="Time"} {print}' > time2
+#awk 'BEGIN{OFS="\t"; r=2.5e-8} {print $0, ($7/100)/(2*r)/1e6}' all_erv_per_div_GA_edit_count.out | awk 'BEGIN{OFS="\t"} NR==1{$9="Time"} {print}' > time3
+#awk 'BEGIN{OFS="\t"; r=2.2e-9} {print $0, ($7/100)/(2*r)/1e6}' all_erv_per_div_GA_edit_count.out | awk 'BEGIN{OFS="\t"} NR==1{$9="Time"} {print}' > time4
+awk 'BEGIN{OFS="\t"; r=0.5e-9} {print $0, ($7/100)/(r)/1e6}' all_erv_per_div_GA_edit_count.out | awk 'BEGIN{OFS="\t"} NR==1{$9="Time"} {print}' > time_all_erv_per_div_GA_edit_count.out
+Rscript plot.R time_all_erv_per_div_GA_edit_count.out time_all_erv_per_div_GA_edit_count.png $species
 done < all_bird_genomes_used
 
 
