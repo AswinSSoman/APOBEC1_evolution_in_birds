@@ -1,6 +1,19 @@
 
 
 
+cd /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/
+while read species
+do
+  o=$(echo $species | awk -F "_" '{print substr($1,1,3)""substr($2,1,3)}')
+  cd /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/"$species"/knisbacher
+  #find Data/"$o"/LTR/db/ -mindepth 1 -type d | grep -vw "files_" | awk -F "/" '{print$NF}' | sed 's/files_//g'
+  ec=$(find Data/"$o"/LTR/db/ -mindepth 1 -type d | grep -vw "files_" | awk -F "/" '{print$NF}' | sed 's/files_//g' | grep ERV -c)
+  nec=$(find Data/"$o"/LTR/db/ -mindepth 1 -type d | grep -vw "files_" | awk -F "/" '{print$NF}' | sed 's/files_//g' | grep ERV -vc)
+  echo $species $ec $nec
+  unset o ec nec
+done < all_bird_genomes_used > /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/repeat_insertion_time_DNA_editing_association/numer_of_subfams_per_species
+
+join -1 1 -2 1 <(sort -k1,1 repeat_insertion_time_DNA_editing_association/all_species_edit_count) <(sort -k1,1 repeat_insertion_time_DNA_editing_association/numer_of_subfams_per_species) | sort -k2nr,2 -k3nr,3 | colnum.sh
 
 ################################################################################################################################################################################################################################################################################################################
 
@@ -169,6 +182,29 @@ time python3 $apobec_blast_consensus_report_v3_source_analysis_plots \
   --max-matrix-copies 80 \
   --max-distance-copies 40
 
+################################################################################################################################################################################################################################################################################################################
+#plot heatmap
+
+cd /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/repeat_insertion_time_DNA_editing_association
+python3 plot_ga_edits_vs_divergence_mya_overlay_v4_spacer_labels.py /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/repeat_insertion_time_DNA_editing_association \
+  --gene-loss-file all_gene_loss_dates.out \
+  --pattern "*_all_erv_per_div_GA_edit_count.out" \
+  --bin-width 1 \
+  --metric per_1000 \
+  --min-elements 50 \
+  --date-model jc69 \
+  --substitution-rate-per-myr 0.0019 \
+  --scale log1p \
+  --output ga_edits_loss_events_mya_spacer_labels.png \
+  --summary-csv ga_edits_by_divergence_summary.csv \
+  --group-csv species_apobec1_group_assignments.csv \
+  --event-csv apobec1_loss_event_ranges_projected.csv \
+  --display-layout-csv heatmap_display_layout.csv
+
+python plot_ga_edits_vs_divergence_mya_overlay_v4_spacer_labels_font18_spacing_x40_species_clear.py \
+  /home/workstation/APOBEC1_evolution_in_birds/Supplementary_files/Gene_loss_dating/DNA_editing_association/repeat_insertion_time_DNA_editing_association \
+  --gene-loss-file all_gene_loss_dates.out \
+  --output ga_edits_loss_events_mya_font18_spacing.pdf
 
 ################################################################################################################################################################################################################################################################################################################
 #Script folder & usage for html report of knisbacher DNA editing detetction of ERVs by blast alignments & their QC & analysis by Nagarjun sir
