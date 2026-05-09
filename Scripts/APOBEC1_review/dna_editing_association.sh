@@ -1,19 +1,8 @@
 
 
 
-cd /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/
-while read species
-do
-  o=$(echo $species | awk -F "_" '{print substr($1,1,3)""substr($2,1,3)}')
-  cd /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/"$species"/knisbacher
-  #find Data/"$o"/LTR/db/ -mindepth 1 -type d | grep -vw "files_" | awk -F "/" '{print$NF}' | sed 's/files_//g'
-  ec=$(find Data/"$o"/LTR/db/ -mindepth 1 -type d | grep -vw "files_" | awk -F "/" '{print$NF}' | sed 's/files_//g' | grep ERV -c)
-  nec=$(find Data/"$o"/LTR/db/ -mindepth 1 -type d | grep -vw "files_" | awk -F "/" '{print$NF}' | sed 's/files_//g' | grep ERV -vc)
-  echo $species $ec $nec
-  unset o ec nec
-done < all_bird_genomes_used > /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/repeat_insertion_time_DNA_editing_association/numer_of_subfams_per_species
 
-join -1 1 -2 1 <(sort -k1,1 repeat_insertion_time_DNA_editing_association/all_species_edit_count) <(sort -k1,1 repeat_insertion_time_DNA_editing_association/numer_of_subfams_per_species) | sort -k2nr,2 -k3nr,3 | colnum.sh
+
 
 ################################################################################################################################################################################################################################################################################################################
 
@@ -121,6 +110,32 @@ awk 'BEGIN{OFS="\t"; r=0.5e-9} {print $0, ($7/100)/(r)/1e6}' all_erv_per_div_GA_
 Rscript plot.R time_all_erv_per_div_GA_edit_count.out time_all_erv_per_div_GA_edit_count.png $species
 done < all_bird_genomes_used
 
+################################################################################################################################################################################################################################################################################################################
+
+cd /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/
+while read species
+do
+  o=$(echo $species | awk -F "_" '{print substr($1,1,3)""substr($2,1,3)}')
+  cd /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/"$species"/knisbacher
+  #find Data/"$o"/LTR/db/ -mindepth 1 -type d | grep -vw "files_" | awk -F "/" '{print$NF}' | sed 's/files_//g'
+  ec=$(find Data/"$o"/LTR/db/ -mindepth 1 -type d | grep -vw "files_" | awk -F "/" '{print$NF}' | sed 's/files_//g' | grep ERV -c)
+  nec=$(find Data/"$o"/LTR/db/ -mindepth 1 -type d | grep -vw "files_" | awk -F "/" '{print$NF}' | sed 's/files_//g' | grep ERV -vc)
+  echo $species $ec $nec
+  unset o ec nec
+done < all_bird_genomes_used > /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/repeat_insertion_time_DNA_editing_association/number_of_subfams_per_species
+
+for s in $(ls | grep "_all_erv_per_div_GA_edit_count.out")
+do
+  c1=$(wc -l < $s)
+  c2=$(awk '$8>0' $s | grep -v percent_divergence | wc -l)
+  c3=$(awk '$8>0' $s | grep -v percent_divergence | awk '{a+=$NF} END{print a}')
+  if [[ -z $c3 ]]; then c3="0"; else :; fi
+  n=$(echo $s | cut -f1,2 -d "_")
+  echo $n $c1 $c3 $c2
+  unset c1 c2 c3 n
+done > all_species_edit_count
+
+join -1 1 -2 1 <(sort -k1,1 number_of_subfams_per_species) <(sort -k1,1 all_species_edit_count) | sort -k2nr,2 -k3nr,3 | sed '1i Species Num_ERVs Num_Edits Num_uniq_ERV_fams Num_uniq_Non_ERV_fams' > number_edit_sites_ervs_unique_erv_families
 
 ################################################################################################################################################################################################################################################################################################################
 

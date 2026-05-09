@@ -476,7 +476,7 @@ awk 'FS="\t" {if ($1!="chrM" && substr($16,1,3)!="Alu" && $15=="-" && $17=="-" &
 
 awk -F "\t" '{print$15}' outTable_154256643_filtered_rmsk_splice.out | sort | uniq -c
 
-#Mainly 
+#Mainly
 Simple_repeat
 Low_complexity
 DNA
@@ -487,17 +487,17 @@ Unknown
 rRNA, snRNA, tRNA
 
 
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+/media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing/filter_classify_rna_edits_py36_v6.py
 
-
-
-
-
-
-
-
-
-
-
-
-
+nohup python3 /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing/filter_classify_rna_edits_py36_v6.py \
+  --reditools outTable_364549703 \
+  --repeatmasker /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/repeatmasker/GCF_000738735.6.repeatMasker.out \
+  --genome /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/genome/GCF_000738735.6_ASM73873v6_genomic.fna \
+  --rna-bam /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/rna/SRR1947476_Aligned.sortedByCoord.out.bam \
+  --dna-bam /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/dna/dna_merged_sorted.bam \
+  --gtf /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/genome/GCF_000738735.6_ASM73873v6_genomic.gtf \
+  --out-prefix results/sample \
+  --write-failures \
+  --use-dna-bam-counts-if-reditools-dna-missing &
