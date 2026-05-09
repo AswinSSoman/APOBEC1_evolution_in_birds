@@ -491,13 +491,30 @@ rRNA, snRNA, tRNA
 
 /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing/filter_classify_rna_edits_py36_v6.py
 
-nohup python3 /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing/filter_classify_rna_edits_py36_v6.py \
-  --reditools outTable_364549703 \
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing
+ls -d */ | grep -v "old_plots/" | grep -v "plot" | tr -d "/" > rna_folders
+
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing
+
+while read id
+do
+  echo ">" $id
+  cd $id/DnaRna_*
+  in=$(find . -name "outTable_*" | grep -v filtered)
+  ac=$(echo $id | cut -f1 -d "_")
+  bam=$(find /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/rna/ -name "*$ac*.bam")
+python3 /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing/filter_classify_rna_edits_py36_v6.py \
+  --reditools $in \
   --repeatmasker /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/repeatmasker/GCF_000738735.6.repeatMasker.out \
   --genome /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/genome/GCF_000738735.6_ASM73873v6_genomic.fna \
-  --rna-bam /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/rna/SRR1947476_Aligned.sortedByCoord.out.bam \
+  --rna-bam $bam \
   --dna-bam /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/dna/dna_merged_sorted.bam \
   --gtf /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/genome/GCF_000738735.6_ASM73873v6_genomic.gtf \
   --out-prefix results/sample \
   --write-failures \
-  --use-dna-bam-counts-if-reditools-dna-missing &
+  --use-dna-bam-counts-if-reditools-dna-missing
+unset in ac bam
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing
+done < <(cat rna_folders | egrep -v "SRR1947394_editing|SRR1947476_editing")
+
+nohup bash -c 'time ./filter_and_plot.sh' &> filter_and_plot.stdout &

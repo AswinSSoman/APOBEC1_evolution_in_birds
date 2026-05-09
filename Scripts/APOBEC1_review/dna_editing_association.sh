@@ -1,6 +1,6 @@
-
-
-
+################################################################################################################################################################################################################################################################################################################
+# Plot divergence & time Vs DNA edit sites
+################################################################################################################################################################################################################################################################################################################
 
 
 
@@ -64,14 +64,22 @@ done > repeat_insertion_time_DNA_editing_association/edited_erv_per_div_GA_edit_
 awk '{print$4,$5,$6,$7+1,$8,$9,$13}' repeat_insertion_time_DNA_editing_association/edited_erv_per_div_GA_edit_count.out | awk '{if($6=="-") $6="C"; print}' > repeat_insertion_time_DNA_editing_association/c1
 awk '{print$11,$10,$5,$6,$7,$9,$2}' repeat_insertion_time_DNA_editing_association/erv_repeatmasker.out | sed 's|^LTR/||g' > repeat_insertion_time_DNA_editing_association/c2
 
-awk 'FNR==NR {key[$1 FS $2 FS $3 FS $4 FS $5 FS $6] = $7
-  next}
+#combine edit site & divergence
+awk '
+FNR==NR {
+    k = $1 FS $2 FS $3 FS $4 FS $5 FS $6
+    key[k] = key[k] ? key[k] SUBSEP $7 : $7
+    next}
 {k = $1 FS $2 FS $3 FS $4 FS $5 FS $6
-  print $0, (k in key ? key[k] : 0)}' repeat_insertion_time_DNA_editing_association/c1 repeat_insertion_time_DNA_editing_association/c2 \
- | sed '1i family Subfamily chr start end strand percent_divergence GA_edit_count' | sed 's/[ \t]/\t/g' > repeat_insertion_time_DNA_editing_association/all_erv_per_div_GA_edit_count.out
+    if(k in key){
+        n = split(key[k], a, SUBSEP)
+        for(i=1; i<=n; i++)
+            print $0, a[i]}
+    else{print $0, 0}}' repeat_insertion_time_DNA_editing_association/c1 repeat_insertion_time_DNA_editing_association/c2 \
+| sed '1i family Subfamily chr start end strand percent_divergence GA_edit_count' | sed 's/[ \t]/\t/g' > repeat_insertion_time_DNA_editing_association/all_erv_per_div_GA_edit_count.out
 
 #Plot
-Rscript /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/plot_repeat_divergence_editing_count.R repeat_insertion_time_DNA_editing_association/all_erv_per_div_GA_edit_count.out repeat_insertion_time_DNA_editing_association/all_erv_per_div_GA_edit_count.png "$species"
+#Rscript /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/plot_repeat_divergence_editing_count.R repeat_insertion_time_DNA_editing_association/all_erv_per_div_GA_edit_count.out repeat_insertion_time_DNA_editing_association/all_erv_per_div_GA_edit_count.png "$species"
 
 unset o ga ct ganum ctnum rmsk bestpairs r r1
 done < all_bird_genomes_used
