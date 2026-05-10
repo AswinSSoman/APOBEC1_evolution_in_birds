@@ -189,17 +189,17 @@ unset in ac bam
 cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing
 done < <(cat rna_folders | egrep -v "SRR1947394_editing|SRR1947476_editing")
 
-nohup bash -c 'time ./filter_and_plot.sh' &> filter_and_plot.stdout &
+#nohup bash -c 'time ./filter_and_plot.sh' &> filter_and_plot.stdout &
 
 mkdir /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing/final_plot
-
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing
 while read id
 do
   echo ">" $id
   cd "$id"/DnaRna_*/results
   ac=$(echo $id | cut -f1 -d "_")
-  p1=$(awk -F "\t" -v r="$r" '$1==r {print$32,$36,$42,$45}' OFS="\t" /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/ncbi_SRP022901.tsv | tr " " "_" | tr "\t" "\n" | grep -v "^-$" | sort -u)
-  cp sample.event_class_counts.png /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing/final_plot/"$ac"_"$p1"_event_class_counts.png
+  p1=$(awk -F "\t" -v r="$ac" '$1==r {print$32,$36,$42,$45}' OFS="\t" /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/ncbi_SRP022901.tsv | tr " " "_" | tr "\t" "\n" | grep -v "^-$" | sort -u)
+  cp sample.event_class_counts.png /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing/final_plot/"$p1"_"$ac"_event_class_counts.png
   cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing
   unset ac p1
 done < rna_folders
@@ -207,8 +207,8 @@ done < rna_folders
 
 
 
-
-
+################################################################################################################################################################################################################################################
+#DRAFT SCRIPTS
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Filtering:
@@ -504,12 +504,6 @@ cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing/SRR194739
 awk -iinplace 'BEGIN{FS=OFS="\t"} {$2="heart"; print}' all_parameters_summary_substitutions.tsv
 awk -iinplace 'BEGIN{FS=OFS="\t"} {$1="SRR1947394"; print}' all_parameters_summary_substitutions.tsv
 Rscript /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing/gemini2.R all_parameters_summary_substitutions.tsv gemini2.pdf
-
-
-
-
-
-
 
 #Create a first set of positions selecting sites supported by at least five RNAseq reads and a single mismatch
 python2.7 /media/aswin/programs/REDItools/accessory/selectPositions.py -i outTable_154256643_filtered_rmsk_splice.out -c 5 -v 1 -f 0.0 -o outTable_154256643_filtered_rmsk_splice.out.sel1

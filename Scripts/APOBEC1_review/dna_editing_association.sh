@@ -2,8 +2,6 @@
 # Plot divergence & time Vs DNA edit sites
 ################################################################################################################################################################################################################################################################################################################
 
-
-
 ################################################################################################################################################################################################################################################################################################################
 
 cd /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons
@@ -224,6 +222,17 @@ python3 claude.py /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify
   --phylogeny species_with_edits.nwk \
   --phylogeny-panel-width 1.5
 
+python3 plot_ga_edits_vs_divergence_mya_with_phylo_tree_v8_layout_tightened.py \
+  /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/repeat_insertion_time_DNA_editing_association \
+  --gene-loss-file all_gene_loss_dates.out \
+  --phylo-tree species_with_edits.nwk \
+  --tree-unit-label MYA \
+  --species-label-panel-width 3.2 \
+  --tree-heatmap-gap-width 0.5 \
+  --output ga_edits_loss_events_mya_phylo_tree_highres.pdf \
+  --save-dpi 600 \
+  --axis-tick-fontsize \
+  --tree-panel-width
 
 ################################################################################################################################################################################################################################################################################################################
 #Script folder & usage for html report of knisbacher DNA editing detetction of ERVs by blast alignments & their QC & analysis by Nagarjun sir
