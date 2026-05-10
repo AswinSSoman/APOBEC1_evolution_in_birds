@@ -95,28 +95,10 @@ while read species
 do
 echo ">"$species
 cp /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/"$species"/knisbacher/repeat_insertion_time_DNA_editing_association/all_erv_per_div_GA_edit_count.out /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/repeat_insertion_time_DNA_editing_association/"$species"_all_erv_per_div_GA_edit_count.out
-cp /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/"$species"/knisbacher/repeat_insertion_time_DNA_editing_association/all_erv_per_div_GA_edit_count.png /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/repeat_insertion_time_DNA_editing_association/"$species"_all_erv_per_div_GA_edit_count.png
+#cp /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/"$species"/knisbacher/repeat_insertion_time_DNA_editing_association/all_erv_per_div_GA_edit_count.png /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/repeat_insertion_time_DNA_editing_association/"$species"_all_erv_per_div_GA_edit_count.png
 done < all_bird_genomes_used
 
 ################################################################################################################################################################################################################################################################################################################
-#Add time in plot
-
-cd /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons
-
-#Use human mutation rates:
-average mutation rate:  2.5 x 10(-8)
-
-while read species
-do
-echo ">"$species
-cd /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/"$species"/knisbacher/repeat_insertion_time_DNA_editing_association/
-#awk 'BEGIN{OFS="\t"; r=0.5e-9} {print $0, $7/(2*r)}' all_erv_per_div_GA_edit_count.out | awk 'BEGIN{OFS="\t"} NR==1{$9="Time"} {print}' > all_erv_per_div_GA_edit_count_human_time.out
-#awk 'BEGIN{OFS="\t"; r=0.5e-9} {print $0, ($7/100)/(2*r)/1e6}' all_erv_per_div_GA_edit_count.out | awk 'BEGIN{OFS="\t"} NR==1{$9="Time"} {print}' > time2
-#awk 'BEGIN{OFS="\t"; r=2.5e-8} {print $0, ($7/100)/(2*r)/1e6}' all_erv_per_div_GA_edit_count.out | awk 'BEGIN{OFS="\t"} NR==1{$9="Time"} {print}' > time3
-#awk 'BEGIN{OFS="\t"; r=2.2e-9} {print $0, ($7/100)/(2*r)/1e6}' all_erv_per_div_GA_edit_count.out | awk 'BEGIN{OFS="\t"} NR==1{$9="Time"} {print}' > time4
-awk 'BEGIN{OFS="\t"; r=0.5e-9} {print $0, ($7/100)/(r)/1e6}' all_erv_per_div_GA_edit_count.out | awk 'BEGIN{OFS="\t"} NR==1{$9="Time"} {print}' > time_all_erv_per_div_GA_edit_count.out
-Rscript plot.R time_all_erv_per_div_GA_edit_count.out time_all_erv_per_div_GA_edit_count.png $species
-done < all_bird_genomes_used
 
 ################################################################################################################################################################################################################################################################################################################
 
@@ -132,6 +114,7 @@ do
   unset o ec nec
 done < all_bird_genomes_used > /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/repeat_insertion_time_DNA_editing_association/number_of_subfams_per_species
 
+cd /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/repeat_insertion_time_DNA_editing_association
 for s in $(ls | grep "_all_erv_per_div_GA_edit_count.out")
 do
   c1=$(wc -l < $s)
@@ -141,11 +124,12 @@ do
   n=$(echo $s | cut -f1,2 -d "_")
   echo $n $c1 $c3 $c2
   unset c1 c2 c3 n
-done > all_species_edit_count
+done > /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/repeat_insertion_time_DNA_editing_association/all_species_edit_count
 
 join -1 1 -2 1 <(sort -k1,1 number_of_subfams_per_species) <(sort -k1,1 all_species_edit_count) | sort -k2nr,2 -k3nr,3 | sed '1i Species Num_ERVs Num_Edits Num_uniq_ERV_fams Num_uniq_Non_ERV_fams' > number_edit_sites_ervs_unique_erv_families
 
 ################################################################################################################################################################################################################################################################################################################
+#Visualize individual subfamilies
 
 #Python scripts
 apobec_blast_consensus_report_v3="/media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/knisbacher_blast_filter_visualize/apobec_blast_consensus_report_v3/apobec_blast_consensus_report_v3.py"
@@ -224,10 +208,22 @@ python3 plot_ga_edits_vs_divergence_mya_overlay_v4_spacer_labels.py /media/aswin
   --event-csv apobec1_loss_event_ranges_projected.csv \
   --display-layout-csv heatmap_display_layout.csv
 
-python plot_ga_edits_vs_divergence_mya_overlay_v4_spacer_labels_font18_spacing_x40_species_clear.py \
-  /home/workstation/APOBEC1_evolution_in_birds/Supplementary_files/Gene_loss_dating/DNA_editing_association/repeat_insertion_time_DNA_editing_association \
+cd /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/repeat_insertion_time_DNA_editing_association
+python3 plot_ga_edits_vs_divergence_mya_overlay_v4_spacer_labels_font18_spacing_x40_species_clear.py \
+  /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/repeat_insertion_time_DNA_editing_association \
   --gene-loss-file all_gene_loss_dates.out \
   --output ga_edits_loss_events_mya_font18_spacing.pdf
+
+python3 test.py /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/repeat_insertion_time_DNA_editing_association \
+  --gene-loss-file all_gene_loss_dates.out \
+  --tree-file species_with_edits.nwk \
+  --output test.pdf
+
+python3 claude.py /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/repeat_insertion_time_DNA_editing_association \
+  --gene-loss-file all_gene_loss_dates.out \
+  --phylogeny species_with_edits.nwk \
+  --phylogeny-panel-width 1.5
+
 
 ################################################################################################################################################################################################################################################################################################################
 #Script folder & usage for html report of knisbacher DNA editing detetction of ERVs by blast alignments & their QC & analysis by Nagarjun sir
@@ -299,3 +295,22 @@ ls  | xargs -n1 sh -c 'echo ">Script folder"; tree -hD $0 | sed "s/^/   /g" ; ca
      --max-matrix-sites 80 \
      --max-matrix-copies 80 \
      --max-distance-copies 40
+
+     #Add time in plot
+
+     cd /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons
+
+     #Use human mutation rates:
+     average mutation rate:  2.5 x 10(-8)
+
+     while read species
+     do
+     echo ">"$species
+     cd /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/"$species"/knisbacher/repeat_insertion_time_DNA_editing_association/
+     #awk 'BEGIN{OFS="\t"; r=0.5e-9} {print $0, $7/(2*r)}' all_erv_per_div_GA_edit_count.out | awk 'BEGIN{OFS="\t"} NR==1{$9="Time"} {print}' > all_erv_per_div_GA_edit_count_human_time.out
+     #awk 'BEGIN{OFS="\t"; r=0.5e-9} {print $0, ($7/100)/(2*r)/1e6}' all_erv_per_div_GA_edit_count.out | awk 'BEGIN{OFS="\t"} NR==1{$9="Time"} {print}' > time2
+     #awk 'BEGIN{OFS="\t"; r=2.5e-8} {print $0, ($7/100)/(2*r)/1e6}' all_erv_per_div_GA_edit_count.out | awk 'BEGIN{OFS="\t"} NR==1{$9="Time"} {print}' > time3
+     #awk 'BEGIN{OFS="\t"; r=2.2e-9} {print $0, ($7/100)/(2*r)/1e6}' all_erv_per_div_GA_edit_count.out | awk 'BEGIN{OFS="\t"} NR==1{$9="Time"} {print}' > time4
+     awk 'BEGIN{OFS="\t"; r=0.5e-9} {print $0, ($7/100)/(r)/1e6}' all_erv_per_div_GA_edit_count.out | awk 'BEGIN{OFS="\t"} NR==1{$9="Time"} {print}' > time_all_erv_per_div_GA_edit_count.out
+     Rscript plot.R time_all_erv_per_div_GA_edit_count.out time_all_erv_per_div_GA_edit_count.png $species
+     done < all_bird_genomes_used

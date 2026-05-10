@@ -159,6 +159,58 @@ time python2.7 /media/aswin/programs/REDItools/NPscripts/REDItoolDnaRnav13.py -i
 done
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Filter & plot
+
+/media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing/filter_classify_rna_edits_py36_v6.py
+
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing
+ls -d */ | grep -v "old_plots/" | grep -v "plot" | tr -d "/" > rna_folders
+
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing
+
+while read id
+do
+  echo ">" $id
+  cd $id/DnaRna_*
+  in=$(find . -name "outTable_*" | grep -v filtered)
+  ac=$(echo $id | cut -f1 -d "_")
+  bam=$(find /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/rna/ -name "*$ac*.bam")
+python3 /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing/filter_classify_rna_edits_py36_v6.py \
+  --reditools $in \
+  --repeatmasker /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/repeatmasker/GCF_000738735.6.repeatMasker.out \
+  --genome /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/genome/GCF_000738735.6_ASM73873v6_genomic.fna \
+  --rna-bam $bam \
+  --dna-bam /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/dna/dna_merged_sorted.bam \
+  --gtf /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/genome/GCF_000738735.6_ASM73873v6_genomic.gtf \
+  --out-prefix results/sample \
+  --write-failures \
+  --use-dna-bam-counts-if-reditools-dna-missing
+unset in ac bam
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing
+done < <(cat rna_folders | egrep -v "SRR1947394_editing|SRR1947476_editing")
+
+nohup bash -c 'time ./filter_and_plot.sh' &> filter_and_plot.stdout &
+
+mkdir /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing/final_plot
+
+while read id
+do
+  echo ">" $id
+  cd "$id"/DnaRna_*/results
+  ac=$(echo $id | cut -f1 -d "_")
+  p1=$(awk -F "\t" -v r="$r" '$1==r {print$32,$36,$42,$45}' OFS="\t" /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/ncbi_SRP022901.tsv | tr " " "_" | tr "\t" "\n" | grep -v "^-$" | sort -u)
+  cp sample.event_class_counts.png /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing/final_plot/"$ac"_"$p1"_event_class_counts.png
+  cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing
+  unset ac p1
+done < rna_folders
+
+
+
+
+
+
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Filtering:
 
 #51m3.882s
@@ -487,34 +539,20 @@ Unknown
 rRNA, snRNA, tRNA
 
 
-#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-/media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing/filter_classify_rna_edits_py36_v6.py
-
-cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing
-ls -d */ | grep -v "old_plots/" | grep -v "plot" | tr -d "/" > rna_folders
-
-cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing
-
-while read id
+while read -r id
 do
-  echo ">" $id
-  cd $id/DnaRna_*
-  in=$(find . -name "outTable_*" | grep -v filtered)
-  ac=$(echo $id | cut -f1 -d "_")
-  bam=$(find /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/rna/ -name "*$ac*.bam")
-python3 /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing/filter_classify_rna_edits_py36_v6.py \
-  --reditools $in \
-  --repeatmasker /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/repeatmasker/GCF_000738735.6.repeatMasker.out \
-  --genome /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/genome/GCF_000738735.6_ASM73873v6_genomic.fna \
-  --rna-bam $bam \
-  --dna-bam /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/dna/dna_merged_sorted.bam \
-  --gtf /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/genome/GCF_000738735.6_ASM73873v6_genomic.gtf \
-  --out-prefix results/sample \
-  --write-failures \
-  --use-dna-bam-counts-if-reditools-dna-missing
-unset in ac bam
-cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing
-done < <(cat rna_folders | egrep -v "SRR1947394_editing|SRR1947476_editing")
-
-nohup bash -c 'time ./filter_and_plot.sh' &> filter_and_plot.stdout &
+(
+    echo ">$id"
+    cd "$id"/DnaRna_* || exit
+    in=$(find . -name "outTable_*" | grep -v filtered | head -n1)
+    ac=$(echo "$id" | cut -f1 -d "_")
+    bam=$(find /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/rna/ \
+          -name "*$ac*.bam" | head -n1)
+    [[ -z "$bam" ]] && {
+        echo "No BAM found for $id"
+        exit
+    }
+    ) &
+    done < <(grep -Ev "SRR1947394_editing|SRR1947476_editing" rna_folders
+    )
+    wait
