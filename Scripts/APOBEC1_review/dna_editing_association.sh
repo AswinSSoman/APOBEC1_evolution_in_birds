@@ -191,6 +191,14 @@ time python3 $apobec_blast_consensus_report_v3_source_analysis_plots \
 #plot heatmap
 
 cd /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/repeat_insertion_time_DNA_editing_association
+python3 plot_ga_edits_vs_divergence_mya_with_phylo_tree_v9_landscape_plus_heatmap_only.py \
+  /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/repeat_insertion_time_DNA_editing_association \
+  --gene-loss-file all_gene_loss_dates.out \
+  --phylo-tree species_with_edits.nwk \
+  --tree-unit-label MYA \
+  --output ga_edits_loss_events_mya_phylo_tree_highres.pdf \
+  --save-dpi 600
+
 python3 plot_ga_edits_vs_divergence_mya_overlay_v4_spacer_labels.py /media/aswin/gene_loss/APOBEC1/hypermutation_analyses/identify_retrotransposons/repeat_insertion_time_DNA_editing_association \
   --gene-loss-file all_gene_loss_dates.out \
   --pattern "*_all_erv_per_div_GA_edit_count.out" \
