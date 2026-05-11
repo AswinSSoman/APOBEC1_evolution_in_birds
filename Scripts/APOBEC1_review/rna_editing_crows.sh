@@ -191,6 +191,7 @@ done < <(cat rna_folders | egrep -v "SRR1947394_editing|SRR1947476_editing")
 
 #nohup bash -c 'time ./filter_and_plot.sh' &> filter_and_plot.stdout &
 
+#Collect all plots
 mkdir /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing/final_plot
 cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing
 while read id
@@ -204,8 +205,62 @@ do
   unset ac p1
 done < rna_folders
 
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#plot percentages of RDDs
 
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing
+while read id
+do
+#  echo ">" $id
+  cd "$id"/DnaRna_*/results
+  ac=$(echo $id | cut -f1 -d "_")
+  p1=$(awk -F "\t" -v r="$ac" '$1==r {print$32,$36,$42,$45}' OFS="\t" /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/ncbi_SRP022901.tsv | tr " " "_" | tr "\t" "\n" | grep -v "^-$" | sort -u)
+  per=$(grep -w "event_type_.>." sample.summary.tsv | awk '
+  {
+      total += $2
 
+      if ($1 == "event_type_A>G" || $1 == "event_type_T>C") {
+          adar += $2
+      }
+
+      else if ($1 == "event_type_C>T" || $1 == "event_type_G>A") {
+          apobec += $2
+      }
+
+      else {
+          other[$1] = $2
+      }
+  }
+  END {
+      printf "Class\tCount\tPercent\n"
+
+      printf "ADAR\t%d\t%.2f%%\n", \
+          adar, (adar/total)*100
+
+      printf "APOBEC\t%d\t%.2f%%\n", \
+          apobec, (apobec/total)*100
+
+      for (i in other) {
+          printf "%s\t%d\t%.2f%%\n", \
+              i, other[i], (other[i]/total)*100
+      }
+  }' | sort -k1,1 | grep -v "Class" | awk '{a+=$2} END{print a}; {print$3}' OFS="\t" ORS="\t")
+  cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing
+echo $p1 $ac $per
+  unset ac p1 per
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing
+done < rna_folders | sed '1i tissue accession ADAR APOBEC1 A>C A>T C>A C>G G>C G>T T>A T>G Total_RDDs' | sed 's/[ \t]\+/\t/g' > final_plot/percentage_summary.out
+
+cd /media/aswin/gene_loss/APOBEC1/RNA_editing/reditools/Corvus/editing/final_plot
+awk '$12' percentage_summary.out > percentage_summary_filtered.out
+Rscript plot_rdd_percentages.R percentage_summary_filtered.out
+
+################################################################################################################################################################################################################################################
+#Check for intact A1 in C cornix genomeDir
+
+cd ~/Corvus_cornix_genome/APOBEC1
+time gblast_short ../GCF_000738735.6_ASM73873v6_genomic.fna APOBEC1_Corvus_moneduloides.fa -evalue=0.05 -word_size=11 -extend_query -tblastx=yes -eflank ../GCF_000738735.6_ASM73873v6_genomic.gtf.bed
+cat blast_qc/test.out.bed | awk '{print$1,$2,$3,$4,"1","+"}' OFS="\t" > ncbi_APOBEC1.bed
 
 ################################################################################################################################################################################################################################################
 #DRAFT SCRIPTS
