@@ -241,6 +241,31 @@ python3 plot_ga_edits_vs_divergence_mya_with_phylo_tree_v8_layout_tightened.py \
   --save-dpi 600 \
   --axis-tick-fontsize \
   --tree-panel-width
+  
+
+#Plot family-wise contribution
+
+# Original behaviour (unchanged)
+python3 plot_erv_count_vs_divergence_with_all_family.py . --gene-loss-file all_gene_loss_dates.out
+
+# Mode 1 – unique Subfamily count, 1 row per species
+python3 plot_erv_count_vs_divergence_with_all_family.py . --gene-loss-file all_gene_loss_dates.out --phylo-tree species_with_edits.nwk --plot-mode subfamily_count --scale linear
+
+# Mode 2 – ERV count split by family, multiple rows per species
+python3 plot_erv_count_vs_divergence_with_all_family.py . --gene-loss-file all_gene_loss_dates.out --phylo-tree species_with_edits.nwk --plot-mode family_erv_count --scale linear
+
+# Mode 3 – unique Subfamily count split by family, multiple rows per species
+python3 plot_erv_count_vs_divergence_with_all_family.py . --gene-loss-file all_gene_loss_dates.out --phylo-tree species_with_edits.nwk --plot-mode family_subfamily --min-elements 1 --scale linear
+
+
+# Diversity mode — shows all bins with ≥1 unique subfamily (default, no blanks for your example)
+python3 plot_erv_count_vs_divergence_with_all_family2.py . --gene-loss-file all_gene_loss_dates.out --phylo-tree species_with_edits.nwk --plot-mode subfamily_count --scale linear
+
+# Raise subfamily threshold to suppress very low-diversity bins
+python3 plot_erv_count_vs_divergence_with_all_family2.py . --gene-loss-file all_gene_loss_dates.out --phylo-tree species_with_edits.nwk --plot-mode family_subfamily --min-elements-subfamily 1 --scale linear
+
+# Count mode — lower the ERV count threshold if you have sparse data
+python3 plot_erv_count_vs_divergence_with_all_family2.py . --gene-loss-file all_gene_loss_dates.out --phylo-tree species_with_edits.nwk --plot-mode family_erv_count --min-elements 5 --scale linear
 
 ################################################################################################################################################################################################################################################################################################################
 #Script folder & usage for html report of knisbacher DNA editing detetction of ERVs by blast alignments & their QC & analysis by Nagarjun sir
