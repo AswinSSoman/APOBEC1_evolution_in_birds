@@ -1,6 +1,122 @@
 #Run paml
 
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Check scripts used in COA1 gene
 
+git clone --filter=blob:none --no-checkout https://github.com/ceglabsagarshinde/COA1_GENE.git
+cd COA1_GENE
+git sparse-checkout init --cone
+git sparse-checkout set Geneloss_timing
+git checkout 01b43da88117ed8249d073f9e1b78ddb4732ba83
+
+cd ~/bird_db1/aswin/APOBEC1/Dating/paml/COA1_GENE
+find Geneloss_timing/Galliformes/ -name "*.ctl" -type f | sort -V | paste -d " " - - | xargs -n2 sh -c 'echo ">"$0 $1; paste $0 $1 | nl' | less
+find Geneloss_timing/Galliformes/ -name "*.ctl" -type f | sort -V | paste -d " " - - | xargs -n2 sh -c 'echo ">"$0 $1; paste $0 $1 -d "\t" | tr " " "_"' | sed 's!Geneloss_timing/Galliformes/!!g' | colnum.sh
+find Geneloss_timing/Galliformes/ -name "*.ctl" -type f | sort -V | paste -d " " - - | xargs -n2 sh -c 'echo ">"$0 $1; paste $0 $1' | sed 's!Geneloss_timing/Galliformes/!!g' > all_galliformes_control_files
+cat Geneloss_timing/Galliformes/AllPseudogene_AllMix_AllFunctional/Galliformes_F1x4.ctl| cut -f1 -d "=" | tr -d " " > ctl_params
+
+for p in $(cat ctl_params | egrep -v "seqfile|treefile|outfile" | sort -V)
+do
+echo ">"$p
+grep -w $p all_galliformes_control_files | sort | uniq -c
+done | less
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Run codeml
+
+mkdir -p ~/bird_db1/aswin/APOBEC1/Dating/paml/all_mix/F1X4
+cd ~/bird_db1/aswin/APOBEC1/Dating/paml/all_mix/F1X4
+cat /home/neo/bird_db1/aswin/APOBEC1/Dating/tree/readd/apobec1_final_align_NT_unroot_labeled.nwk | sed 's/:[0-9.]\+//g' | sed 's/#/ #/g' > apobec1_final_align_NT_unroot_labeled_branch_labels_removed.nwk
+
+#Labelling: terminal only of all independent single branch loss as #1, clade loss as #2 & rest unlabelled
+BASE=~/bird_db1/aswin/APOBEC1/Dating
+TREE="$BASE/tree/readd/apobec1_final_align_NT_unroot_labeled.nwk"
+ALN="$BASE/alignment/readd/readd_macse/apobec1_final_align_NT.aln.phy"
+CTL="$BASE/paml/COA1_GENE/Geneloss_timing/Galliformes/AllPseudogene_AllMix_AllFunctional"
+CODEML=~/programmes/paml-4.10.10-linux-x86_64/bin/codeml
+OUT="$BASE/paml/indL1_grpL2_intU"
+
+# make branch-label removed tree
+mkdir -p "$OUT"
+sed 's/:[0-9.]\+//g; s/#/ #/g' "$TREE" > "$OUT/apobec1_final_align_NT_unroot_labeled_nobranch.nwk"
+
+for m in F1x4 F3x4; do
+  for t in "$TREE" "$OUT/apobec1_final_align_NT_unroot_labeled_nobranch.nwk"; do
+    [[ "$t" == *nobranch* ]] && suf="branch_labels_removed_$m" || suf="$m"
+    d="$OUT/$suf"; mkdir -p "$d"; cd "$d"
+    cp "$t" "$ALN" .
+    cp "$CTL/Galliformes_${m^}.ctl" "$m.ctl"
+    sed -i -e 's|Galliformes.aln|apobec1_final_align_NT.aln.phy|g' -e "s|Galliformes.nwk|$(basename "$t")|g" -e "s|omega_mix_functional_${m^}|paml_out_$m|g" "$m.ctl"
+    time "$CODEML" "$m.ctl" > run.stdout &
+  done
+done
+wait
+
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Run codeml based on tree manually lablled using hyphy tool later converted to paml
+
+/home/neo/bird_db1/aswin/APOBEC1/Dating/tree/readd/apobec1_final_align_NT_unroot_hyphy_labelled_converted_to_paml.nwk
+
+cd ~/bird_db1/aswin/APOBEC1/Dating/paml
+
+BASE=~/bird_db1/aswin/APOBEC1/Dating
+TREE="$BASE/tree/readd/apobec1_final_align_NT_unroot_hyphy_labelled_converted_to_paml.nwk"
+ALN="$BASE/alignment/readd/readd_macse/apobec1_final_align_NT.aln.phy"
+CTL="$BASE/paml/COA1_GENE/Geneloss_timing/Galliformes/AllPseudogene_AllMix_AllFunctional"
+CODEML=~/programmes/paml-4.10.10-linux-x86_64/bin/codeml
+OUT="$BASE/paml/mixL1_psL2_intU"
+
+# make branch-label removed tree
+mkdir -p "$OUT"
+sed 's/:[0-9.]\+//g' "$TREE" > "$OUT/apobec1_final_align_NT_unroot_labeled_nobranch.nwk"
+
+#Labelling: terminal & internal: mixed as #2, pseudo as #1, rest unlablled (52.15 mins)
+start_time=$(date +%s)
+for m in F1x4 F3x4; do
+  for t in "$TREE" "$OUT/apobec1_final_align_NT_unroot_labeled_nobranch.nwk"; do
+    [[ "$t" == *nobranch* ]] && suf="branch_labels_removed_$m" || suf="$m"
+    d="$OUT/$suf"; mkdir -p "$d"; cd "$d"
+    cp "$t" "$ALN" .
+    cp "$CTL/Galliformes_${m^}.ctl" "$m.ctl"
+    sed -i -e 's|Galliformes.aln|apobec1_final_align_NT.aln.phy|g' -e "s|Galliformes.nwk|$(basename "$t")|g" -e "s|omega_mix_functional_${m^}|paml_out_$m|g" "$m.ctl"
+    time "$CODEML" "$m.ctl" > run.stdout &
+  done
+done
+wait
+end_time=$(date +%s) && elapsed_time=$((end_time - start_time))
+echo -e "\n Total time taken:" && echo $elapsed_time | awk '{print"-days:",$NF/60/60/24,"\n","-hours:",$NF/60/60,"\n","-mins:",$NF/60,"\n","-secs:",$1}' | column -t | sed 's/^/   /g' && echo -e
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Calculate gene inactivation times
+/home/neo/bird_db1/aswin/APOBEC1/Dating/paml/Mammal_ADH_IV/Dating/codeml/F3X4_model/calculate_gene_inactivation.sh
+
+
+cd ~/bird_db1/aswin/APOBEC1/Dating/paml/all_mix
+cp ~/bird_db1/aswin/APOBEC1/Dating/tree/readd/{fg1.txt,fg2.txt,bg.txt} .
+
+cd ~/bird_db1/aswin/APOBEC1/Dating/paml/mixL1_psL2_intU
+for i in $(cat ../funtional)
+do
+~/bird_db1/aswin/APOBEC1/Dating/scripts/calculate_gene_inactivation.sh Gallus_gallus $i F1x4/paml_out_F1x4 F3x4/paml_out_F3x4 -wp=1 ~/bird_db1/aswin/APOBEC1/Dating/tree/readd/apobec1_final_align_NT_unroot_hyphy_labelled_converted_to_paml.nwk -s | grep -v "Mixed_branch_length"
+done | sed '1i Species Functional_branch Mixed_branch_length 1dS_F1X4_Wm 1dS_F1X4_Wf 1dS_F1X4_Wp 1dS_F1X4_Tp 1dS_F3X4_Wm 1dS_F3X4_Wf 1dS_F3X4_Wp 1dS_F3X4_Tp 1dS_Mean_Tp 2dS_F1X4_Tp 2dS_F3X4_Tp 2dS_Mean_Tp' | column -t > gallus_gallus_gene_loss_date_wrt_diff_functional_branches.out
+
+time for sp in $(cat ../all_lost)
+do
+gr=$(grep $sp ~/bird_db1/aswin/taxonomy/orders_all_birds | awk '{print$2}')
+~/bird_db1/aswin/APOBEC1/Dating/scripts/calculate_gene_inactivation.sh $sp -f F1x4/paml_out_F1x4 F3x4/paml_out_F3x4 -wp=1 ~/bird_db1/aswin/APOBEC1/Dating/tree/readd/apobec1_final_align_NT_unroot_hyphy_labelled_converted_to_paml.nwk -s | grep -v Mixed_branch_length | sed "s/^/$gr\t/g"
+unset gr
+done | sed '1i Group Species Functional_branch Mixed_branch_length 1dS_F1X4_Wm 1dS_F1X4_Wf 1dS_F1X4_Wp 1dS_F1X4_Tp 1dS_F3X4_Wm 1dS_F3X4_Wf 1dS_F3X4_Wp 1dS_F3X4_Tp 1dS_Mean_Tp 2dS_F1X4_Tp 2dS_F3X4_Tp 2dS_Mean_Tp' > all_gene_loss_dates.tsv
+
+cd ~/bird_db1/aswin/APOBEC1/Dating/paml/mixL1_psL2_intU
+time for sp in $(cat ../all_lost)
+do
+gr=$(grep $sp ~/bird_db1/aswin/taxonomy/orders_all_birds | awk '{print$2}')
+~/bird_db1/aswin/APOBEC1/Dating/scripts/calculate_gene_inactivation.sh $sp -f F1x4/paml_out_F1x4 F3x4/paml_out_F3x4 -wp=1 ~/bird_db1/aswin/APOBEC1/Dating/tree/readd/apobec1_final_align_NT_unroot_hyphy_labelled_converted_to_paml.nwk -s | grep -v Mixed_branch_length | sed "s/^/$gr\t/g"
+unset gr
+done | sed '1i Group Species Functional_branch Mixed_branch_length 1dS_F1X4_Wm 1dS_F1X4_Wf 1dS_F1X4_Wp 1dS_F1X4_Tp 1dS_F3X4_Wm 1dS_F3X4_Wf 1dS_F3X4_Wp 1dS_F3X4_Tp 1dS_Mean_Tp 2dS_F1X4_Tp 2dS_F3X4_Tp 2dS_Mean_Tp' > all_gene_loss_dates.tsv
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #In neo
 cd ~/bird_db1/aswin/APOBEC1/Dating/tree
 time scp -r ../../Dating/ ceglab25@172.28.65.125:/media/aswin/gene_loss/APOBEC1/
